@@ -1,0 +1,2 @@
+execute as @a[dx=0,dy=0,dz=0] run function tlkot:ultwf15m5y26k7kdtjsp-9uowfplqpqwum5gmk5w
+execute as @e[tag=f9_pW2On7ODcuYfM7DumjA0hMwL7IiFtruIr0gaW,dx=0,dy=0,dz=0] run function tlkot:ptmkgky2xy47trsp9pmkjjb4uah_3x_inzsg64jl

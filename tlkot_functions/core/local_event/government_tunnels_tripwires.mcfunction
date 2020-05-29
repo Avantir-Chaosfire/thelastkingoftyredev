@@ -1,0 +1,3 @@
+execute if block 649 131 433 minecraft:tripwire_hook[powered=true] if block 640 255 432 minecraft:air run setblock 644 131 433 minecraft:lever[face=wall,facing=north,powered=false]
+execute if block 663 125 437 minecraft:tripwire_hook[powered=true] if block 656 255 432 minecraft:air run setblock 658 125 437 minecraft:lever[face=wall,facing=north,powered=false]
+execute if block 669 125 446 minecraft:tripwire_hook[powered=true] if block 672 255 432 minecraft:air run setblock 676 125 445 minecraft:lever[face=wall,facing=north,powered=false]

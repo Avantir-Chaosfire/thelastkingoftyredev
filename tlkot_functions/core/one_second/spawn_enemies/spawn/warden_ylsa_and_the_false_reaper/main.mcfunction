@@ -1,0 +1,2 @@
+execute if entity @a[scores={P5Prepared=1..}] if entity @s[name=WardenYlsaAndTheFalseReaper-Ylsa] run function tlkot:<~>/warden_ylsa/main
+execute if entity @s[name=WardenYlsaAndTheFalseReaper-Reaper] run function tlkot:<~>/false_reaper/main

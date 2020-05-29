@@ -1,0 +1,1 @@
+execute as @e[tag=KeyLock] run function tlkot:<~>/process

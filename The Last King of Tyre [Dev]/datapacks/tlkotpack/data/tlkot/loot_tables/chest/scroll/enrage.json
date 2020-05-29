@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:fishing_rod",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Enrage Scroll, Class 2\\\",\\\"color\\\":\\\"dark_green\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Drives one to anger, providing a\",\"color\":\"gray\"}','{\"text\":\"singleminded determination to destroy\",\"color\":\"gray\"}','{\"text\":\"your foe.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"+3 Damage Dealt\",\"color\":\"gray\"}','{\"text\":\"+15% Movement Speed\",\"color\":\"gray\"}','{\"text\":\"Taking Damage: +3 Damage Dealt\",\"color\":\"gray\"}','{\"text\":\"Taking Damage: -15% Movement Speed\",\"color\":\"gray\"}','{\"text\":\"Duration: 30s\",\"color\":\"gray\"}']},HoldingID:56,Unbreakable:1b,HideFlags:6,CustomModelData:15,AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1024,UUIDLeast:99468515,UUIDMost:-46785616,Slot:\"mainhand\"}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

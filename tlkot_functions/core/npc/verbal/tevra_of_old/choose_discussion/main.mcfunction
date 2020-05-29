@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={TevraTalk=<#TevraFirstEncounterID#>..<#TevraPostFirstEncounterSilenceID#>,MosesVictory=1..,NewProphet=0}] TevraTalk <#TevraHistoryID#>
+scoreboard players set @a[scores={NewProphet=1}] TevraTalk <#TevraNewProphetID#>

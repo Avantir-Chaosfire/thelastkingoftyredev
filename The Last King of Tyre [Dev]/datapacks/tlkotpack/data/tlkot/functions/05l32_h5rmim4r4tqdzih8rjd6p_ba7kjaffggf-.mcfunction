@@ -1,0 +1,3 @@
+scoreboard players set @a f.EAu0RkdNmJ_9lm 152
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "One died leading his people through hell, one was slain defending her people, and one assassinated in her attempt to purge the land...", "color": "dark_blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "One died leading his people through hell, one was slain defending her people, and one assassinated in her attempt to purge the land...", "color": "white", "italic": true}

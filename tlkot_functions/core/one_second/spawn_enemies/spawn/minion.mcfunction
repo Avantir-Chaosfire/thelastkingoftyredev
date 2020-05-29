@@ -1,0 +1,2 @@
+execute if entity @s[tag=!UnlimitedDistance] if entity @a[distance=..32] run function tlkot:core/one_second/spawn_enemies/spawn/check_type
+execute if entity @s[tag=UnlimitedDistance] run function tlkot:core/one_second/spawn_enemies/spawn/check_type

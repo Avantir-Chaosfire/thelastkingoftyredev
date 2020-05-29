@@ -1,0 +1,20 @@
+{
+	"criteria":
+	{
+		"hurt_intangible":
+		{
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"nbt": "{Tags:[\"AI.Intangible\"]}"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt/intangible"
+	}
+}

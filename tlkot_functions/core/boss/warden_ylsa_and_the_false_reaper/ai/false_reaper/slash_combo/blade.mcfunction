@@ -1,0 +1,1 @@
+#class execute positioned ^ ^ ^<0> run function tlkot:<~>/blade_piece

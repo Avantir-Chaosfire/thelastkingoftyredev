@@ -1,0 +1,1 @@
+execute at @s if block ~ ~ ~ minecraft:lever run function dev:<~>/tyre_tower_lever_replace

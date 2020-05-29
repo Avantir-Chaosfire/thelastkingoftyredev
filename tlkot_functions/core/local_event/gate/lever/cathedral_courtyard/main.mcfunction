@@ -1,0 +1,1 @@
+execute if block 608 255 304 minecraft:air run function tlkot:core/local_event/gate/lever/cathedral_courtyard/loaded

@@ -1,0 +1,3 @@
+EliminateBaseZombieAttributes ‘{Name:"generic.knockbackResistance",Base:0},{Name:"zombie.spawnReinforcements",Base:0},{Name:"generic.armor",Base:0}‘
+
+EliminateBaseZombiePigmanAttributes ‘{Name:"generic.armor",Base:0}‘

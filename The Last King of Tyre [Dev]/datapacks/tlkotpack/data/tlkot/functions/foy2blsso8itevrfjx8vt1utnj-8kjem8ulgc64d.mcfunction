@@ -1,0 +1,2 @@
+tag @a remove bCb2xI0UhILFBaNILEpsfj2JvCudGUj45zq_2TUi
+execute if block ~ ~ ~ minecraft:water if entity @a[tag=!rM+psOUSgEGcpDSIhdIRmGLMTqczn91Pane_mBJr] align xyz positioned ~0.5 ~0.5 ~0.5 run function tlkot:k9wk-p8x3p7l_r4vjta7npgi8k349adf-xqc8k7m

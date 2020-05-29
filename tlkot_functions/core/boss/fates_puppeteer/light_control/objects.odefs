@@ -1,0 +1,29 @@
+<#!FPLightX 0 =#>_<#!FPLightY 0 =#>			$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+
+<#!FPLightX 0 =#>_<#!FPLightY FPLightY 1 + =#>	$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+
+<#!FPLightX 0 =#>_<#!FPLightY FPLightY 1 + =#>	$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+
+<#!FPLightX 0 =#>_<#!FPLightY FPLightY 1 + =#>	$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+
+<#!FPLightX 0 =#>_<#!FPLightY FPLightY 1 + =#>	$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+
+<#!FPLightX 0 =#>_<#!FPLightY FPLightY 1 + =#>	$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>
+<#!FPLightX FPLightX 1 + =#>_<#FPLightY#>		$ <#FPLightX#>	$ <#FPLightY#>

@@ -1,0 +1,2 @@
+execute if entity @s[scores={Hit=0}] as @e[tag=Reaper,tag=!Focused,distance=..16] positioned ~-16 ~-3 ~-16 if entity @s[dx=32,dy=20,dz=32,nbt={OnGround:1b}] at @s run function tlkot:<~>/listen
+execute if entity @s[scores={Hit=1}] run function tlkot:<~>/break_trance

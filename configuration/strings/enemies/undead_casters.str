@@ -1,0 +1,20 @@
+#include attribute_modifiers
+#include versioned_tags
+
+CasterUndeadCustomName ‘CustomName:"{\"text\":\"Undead Caster\"}"‘
+
+CasterUndeadBaseMovementSpeed ‘{Name:"generic.movementSpeed",Base:0.25}‘
+
+CasterUndeadGeneralHealth 47000
+
+CasterUndeadGeneralBaseTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},<#CasterUndeadBaseMovementSpeed#>],ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{id:"bone",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:736459037,UUIDMost:92648785}]}},{}],<#CasterUndeadCustomName#>,Health:1000.0f,Tags:["Enemy.UndeadCaster-General",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Caster","GeneralNoDreadCaster","AI.Undead","UsesHitScore"<1>]‘
+
+CasterUndeadGeneralTags <#CasterUndeadGeneralBaseTags$#>
+CasterUndeadGeneralShadeTags <#CasterUndeadGeneralBaseTags$,"Shaded"#>
+
+CasterUndeadDreadHealth 47000
+
+CasterUndeadDreadBaseTags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.maxHealth",Base:1000},<#CasterUndeadBaseMovementSpeed#>],ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{id:"bone",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.6,Operation:1,UUIDLeast:736459037,UUIDMost:92648785}]}},{}],<#CasterUndeadCustomName#>,Health:1000.0f,Tags:["Enemy.UndeadCaster-Dread",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Caster","GeneralDreadCaster","AI.Undead","UsesHitScore"<1>]‘
+
+CasterUndeadDreadTags <#CasterUndeadDreadBaseTags$#>
+CasterUndeadDreadShadeTags <#CasterUndeadDreadBaseTags$,"Shaded"#>

@@ -1,0 +1,6 @@
+KeyLock							$ key_lock
+DoorLever						$ lever
+Lever,tag=!InnerPsychiatricWard,tag=!TyreTowerLadder	$ lever
+Lever,tag=InnerPsychiatricWard				$ psychiatric_ward_lever
+Lever,tag=TyreTowerLadder				$ tyre_tower_lever
+PitTrap							$ pit_trap

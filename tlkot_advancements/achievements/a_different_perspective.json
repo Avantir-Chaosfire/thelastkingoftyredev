@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#CommunionScrollItemID#>",
+			"nbt": "{<#CommunionScrollDataTag#>}"
+		},
+		"title":
+		{
+			"text": "A Different Perspective"
+		},
+		"description": "Become the New Prophet",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"a_different_perspective":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

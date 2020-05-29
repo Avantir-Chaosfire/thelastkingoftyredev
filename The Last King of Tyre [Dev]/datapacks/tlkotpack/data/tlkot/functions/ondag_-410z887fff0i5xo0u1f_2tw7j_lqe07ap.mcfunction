@@ -1,0 +1,1 @@
+scoreboard players set @a iTRw-aj2OMBf_jNZ 1

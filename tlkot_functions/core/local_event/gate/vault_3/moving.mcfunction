@@ -1,0 +1,1 @@
+execute if block 512 255 80 minecraft:air run function tlkot:core/local_event/gate/vault_3/loaded

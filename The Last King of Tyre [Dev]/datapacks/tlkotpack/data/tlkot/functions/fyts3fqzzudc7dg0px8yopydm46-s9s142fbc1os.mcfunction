@@ -1,0 +1,2 @@
+execute positioned ~ ~-1.62 ~ if entity @a[distance=..55] run tag @s add nH87Jk5mqNYU8OSeWClsDXxHXCCGxE5723nm-6AW
+execute if entity @s[tag=!nH87Jk5mqNYU8OSeWClsDXxHXCCGxE5723nm-6AW] unless block ^ ^ ^55 #tlkot:illegal_spawn run function tlkot:qb5c0y9t1y9_f3qpwnz8tfngerlku462t79-wtp9

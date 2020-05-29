@@ -1,0 +1,4 @@
+execute if entity @a[scores={ZVTr_WjCuOvpZr_5=0}] if entity @e[tag=8_-vCBPlL2wquPbj+EfR_mSARfP7UoUmbkEVyhsT,scores={bEDPcJnxv7RJYWIz=1..}] run scoreboard players set @s[scores={nLeNY7LLjc7GW.cA=0}] nLeNY7LLjc7GW.cA 1
+execute if entity @s[scores={nLeNY7LLjc7GW.cA=0}] as @e[tag=f9_pW2On7ODcuYfM7DumjA0hMwL7IiFtruIr0gaW,x=406,y=128,z=60,dx=40,dy=14,dz=17] run function tlkot:1ng_ri71az33q-7zvh5pb0pzv8fu-1f70abtmzkd
+execute if entity @s[scores={nLeNY7LLjc7GW.cA=1}] unless entity @a[x=405,y=128,z=60,dx=41,dy=13,dz=17] run scoreboard players set @s nLeNY7LLjc7GW.cA 0
+execute if entity @s[scores={nLeNY7LLjc7GW.cA=1}] run function tlkot:uj46yccm5m5-uc91obssb1au28nrwmnpipap1qfz

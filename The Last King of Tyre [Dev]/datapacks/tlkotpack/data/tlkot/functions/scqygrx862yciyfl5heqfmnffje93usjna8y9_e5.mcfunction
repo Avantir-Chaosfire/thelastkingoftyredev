@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={jX+4Xjb.MWLDuue.=-1}] jX+4Xjb.MWLDuue. 101
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "My shop is not a street, and it's not some abandoned house to explore!", "color": "dark_green", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "My shop is not a street, and it's not some abandoned house to explore!", "color": "white", "italic": true}

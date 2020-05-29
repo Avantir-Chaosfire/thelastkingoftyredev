@@ -1,0 +1,1 @@
+execute if entity @s[scores={DHAttackTime=-1}] run function tlkot:<~>/trigger

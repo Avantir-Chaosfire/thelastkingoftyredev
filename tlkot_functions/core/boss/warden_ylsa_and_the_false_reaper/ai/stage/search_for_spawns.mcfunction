@@ -1,0 +1,1 @@
+#class execute positioned <0> if entity @a[<1>,scores={FalseHealth=1..}] run function tlkot:<~>/spawn

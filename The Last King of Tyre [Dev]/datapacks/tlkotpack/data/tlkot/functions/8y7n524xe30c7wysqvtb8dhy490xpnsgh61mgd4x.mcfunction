@@ -1,0 +1,1 @@
+scoreboard players operation @s mLw1_SHuvl4_3Rx6 = @s E2N.Q0DA7a81k6z1

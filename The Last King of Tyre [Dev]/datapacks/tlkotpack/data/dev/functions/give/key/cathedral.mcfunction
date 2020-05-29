@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Cathedral Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"The Cathedral\'s back door was","color":"gray"}','{"text":"locked to protect its inhabitants, but","color":"gray"}','{"text":"can still be accessed through the","color":"gray"}','{"text":"passages under the plaza.","color":"gray"}']}}

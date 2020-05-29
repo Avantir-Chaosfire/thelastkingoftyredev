@@ -1,0 +1,13 @@
+#include npcs/tags
+#include items/armour/hunter
+#include items/armour/assassin
+#include items/armour/challenger_knight
+#include items/armour/ragged
+#include items/materials
+
+#join functions ,
+
+FeraldoRecipes <#NPCUpgradeTradeOffer$HunterChest$BurialUrn$HunterInactive2Chest#>
+FeraldoRecipes <#NPCUpgradeTradeOffer$AssassinChest$BurialUrn$AssassinInactive2Chest#>
+FeraldoRecipes <#NPCUpgradeTradeOffer$ChallengerKnightChest$SealedBloodVial$ChallengerKnightInactive1Chest#>
+FeraldoRecipes <#NPCUpgradeTradeOffer$RaggedChest$SealedBloodVial$RaggedInactive2Chest#>

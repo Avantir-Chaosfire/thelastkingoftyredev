@@ -1,0 +1,1 @@
+#class execute if entity @s[scores={P1X=<0>,P1Y=<1>}] run tag @a remove Light<0>_<1>

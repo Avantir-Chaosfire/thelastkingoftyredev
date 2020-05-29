@@ -1,0 +1,1 @@
+scoreboard players set @a MosesPrimPhase <0>

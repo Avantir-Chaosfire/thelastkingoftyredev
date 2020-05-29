@@ -1,0 +1,1 @@
+#class execute if entity @a[scores={<2>Line=<\\0>..}] run tellraw @a {"text":"<\\2>","color":"white","italic":true<\\3>}

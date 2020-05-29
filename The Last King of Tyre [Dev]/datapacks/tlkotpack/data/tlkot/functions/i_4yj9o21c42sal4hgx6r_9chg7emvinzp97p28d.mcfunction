@@ -1,0 +1,1 @@
+execute if entity @a[distance=..16] run function tlkot:m5rrt_k9rwshc2g2hg0l18a-zj6rb6cppupvas25

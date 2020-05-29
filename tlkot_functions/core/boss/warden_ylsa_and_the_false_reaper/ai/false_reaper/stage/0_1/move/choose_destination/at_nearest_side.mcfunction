@@ -1,0 +1,2 @@
+tag @e[tag=PotentialDestination,tag=!DestinationTooCloseToPlayer,tag=!2LastFalseDestination,tag=!1LastFalseDestination,sort=nearest,limit=1] add SelectedFalseDestination
+execute unless entity @e[tag=SelectedFalseDestination] run tag @e[tag=PotentialDestination,sort=nearest,limit=1] add SelectedFalseDestination

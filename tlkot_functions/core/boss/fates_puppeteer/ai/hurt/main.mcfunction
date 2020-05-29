@@ -1,0 +1,1 @@
+execute as @e[tag=FatesPuppeteer,scores={GotHit=1..}] run function tlkot:<~>/trigger

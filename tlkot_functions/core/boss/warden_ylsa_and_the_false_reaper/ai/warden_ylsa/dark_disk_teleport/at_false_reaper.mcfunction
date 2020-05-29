@@ -1,0 +1,2 @@
+execute if entity @a[scores={YlsaAttack=<#WardenYlsaAttackProjectileLine#>}] positioned ^4 ^ ^ at @e[tag=P5MovementMarker,limit=1,sort=nearest] run function tlkot:<~>/destination
+execute if entity @a[scores={YlsaAttack=<#WardenYlsaAttackProjectileGuard#>}] rotated ~ 0 positioned ^ ^ ^-4 at @e[tag=P5MovementMarker,limit=1,sort=nearest] run function tlkot:<~>/destination

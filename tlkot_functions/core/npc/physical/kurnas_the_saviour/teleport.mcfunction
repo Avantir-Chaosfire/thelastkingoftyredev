@@ -1,0 +1,2 @@
+execute if entity @a[scores={P4Victory=0}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s <#KurnasLocation#>
+execute if entity @a[scores={P4Victory=1..}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s <#KurnasStorageLocation#>

@@ -1,0 +1,2 @@
+execute if entity @a[gamemode=adventure,scores={BridgeCollapsed=0},x=512,y=181,z=131,dx=24,dy=7,dz=15] unless entity @a[x=513,y=181,z=131,dx=5,dy=4,dz=0] if entity @e[tag=BloatedHead,x=519,y=232,z=162,distance=..2] run function tlkot:<~>/trigger
+execute if entity @a[scores={BridgeCollapsed=1}] as @e[tag=GhasterBlaster] at @s run function tlkot:<~>/process

@@ -1,0 +1,11 @@
+execute if entity @a[x=569,y=160,z=170,dx=4,dy=2,dz=2] run function tlkot:_voxlsm9kyeh7dsvz0_um9uh79obqb48ofoxi_gm
+execute if entity @a[x=607,y=177,z=222,dx=2,dy=2,dz=4] run function tlkot:dhmewrv7i8g_64v4kneh-5g42badh2r_5cdepwcu
+execute if entity @a[x=487,y=151,z=124,dx=4,dy=2,dz=2] run function tlkot:9356vecxheertr8fenoug0brves4jv-asoycanso
+execute if entity @a[x=565,y=160,z=154,dx=2,dy=2,dz=4] run function tlkot:qfgf_9k3v3m8u0eq__t5npkhajq-il-ov2vmur5q
+execute if entity @a[x=515,y=56,z=56,dx=3,dy=3,dz=5] run function tlkot:ysvg-slrlbvgd4b-zz2c5jczez9mf9q8sf9knx5v
+execute if entity @a[x=549,y=74,z=57,dx=4,dy=3,dz=4] run function tlkot:v85x4rk-bey7ge46n6k1orjhf1nscmgpk-eg5f22
+execute if entity @a[x=534,y=77,z=20,dx=4,dy=3,dz=4] run function tlkot:03f0rhqxn_lxlsfihoukuerr99ng15y4_m4k2hms
+execute if entity @a[x=516,y=59,z=103,dx=4,dy=3,dz=4] run function tlkot:ba8v-d2ikz8d9rcvkjgp6ge4f8e2vctf0zyn9ctv
+execute if entity @a[x=519,y=67,z=63,dx=4,dy=3,dz=5] run function tlkot:u5s08tfwvstb_ju45el-wtqp7yowirwij8zwio63
+execute if entity @a[x=531,y=86,z=91,dx=2,dy=2,dz=5] run function tlkot:f00mo06lw4_mm0hggf3iy03ck0gczt-4kbgba-xj
+execute if entity @a[x=526,y=56,z=35,dx=10,dy=2,dz=8] run function tlkot:k98hr9-7kisaxq-bpd6jsrccynv91zkv4opr3u9a

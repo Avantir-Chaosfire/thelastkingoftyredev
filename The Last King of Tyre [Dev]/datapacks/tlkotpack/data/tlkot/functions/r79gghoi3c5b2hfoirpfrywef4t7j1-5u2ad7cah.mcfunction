@@ -1,0 +1,3 @@
+clear @a minecraft:glass_bottle{display:{Name:"{\"text\":\"Empty Flask\",\"color\":\"white\",\"italic\":false}"}}
+give @a minecraft:potion{display:{Name:"{\"text\":\"Fountain Water\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Certain fountains in E\'Siraph","color":"gray"}','{"text":"have had live human blood mixed","color":"gray"}','{"text":"in, granting their water","color":"gray"}','{"text":"restorative properties.","color":"gray"}','{"text":"--------","color":"gray"}','{"text":"+16 Current Health","color":"gray"}']},Potion:"minecraft:water",HideFlags:32}
+scoreboard players set @a pHOQ+nVeACV4acS- 1

@@ -1,0 +1,2 @@
+execute if entity @a[scores={cdqYzGEGr0RYjs7F=0}] positioned 51 214 309 run function tlkot:14ru5hvk5i6ecx0hzd4guv-cd1au8lv15duy1crc
+execute if entity @a[scores={cdqYzGEGr0RYjs7F=1}] positioned 51 230 309 run function tlkot:14ru5hvk5i6ecx0hzd4guv-cd1au8lv15duy1crc

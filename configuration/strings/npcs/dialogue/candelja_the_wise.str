@@ -1,0 +1,104 @@
+#include npcs/tags
+#include npcs/shops/candelja_the_wise
+
+#join compendium <Newline>
+#join functions <Newline>
+
+CandeljaIDTag CandeljaTheWise
+CandeljaBaseTags <#CommonNPCTags$desert$mason#>,Tags:["<#CandeljaIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Candelja the Wise\"}"
+
+CandeljaTags <#CandeljaBaseTags#>,Offers:{Recipes:[<#CandeljaRecipes#>]}
+CandeljaRefusalTags <#CandeljaBaseTags#>
+CandeljaExpensiveTags <#CandeljaBaseTags#>,Offers:{Recipes:[<#CandeljaExpensiveRecipes#>]}
+
+CandeljaColour yellow
+CandeljaLocation 44.632 60 337.497
+CandeljaEngageRadius 6
+CandeljaDisengageRadius 13
+
+CandeljaMeetID 0
+CandeljaMeetLines		0	$ 47	$ Oh, a survivor arrives. $
+CandeljaMeetLines		1	$ 83	$ Chaos still rules Tyre, I believe your face implies. $
+CandeljaMeetLines		2	$ 74	$ For that, I have items of use, for you, if you pay. $
+
+CandeljaGoodGreetID 1
+CandeljaGoodGreetLines		0	$ 62	$ You're back, and with sanity at that. $
+
+CandeljaBadGreetID 2
+CandeljaBadGreetLines		0	$ 68	$ Returned to steal again, have you thief? $
+
+CandeljaUncomfortableID 3
+CandeljaUncomfortableLines	0	$ 26	$ Back. $
+CandeljaUncomfortableLines	1	$ 54	$ This is my side, that is yours. $
+CandeljaUncomfortableLines	2	$ 35	$ ... $
+
+CandeljaIntrusionID 4
+CandeljaIntrusionLines		0	$ 36	$ You ignore me? $
+CandeljaIntrusionLines		1	$ 32	$ Insult me? $
+CandeljaIntrusionLines		2	$ 51	$ Leave my holdings at once! $
+
+CandeljaWaryID 5
+CandeljaWaryLines		0	$ 80	$ Your insult can be forgiven, if no harm you caused. $
+
+CandeljaPardonID 6
+CandeljaPardonLines		0	$ 60	$ Trespassing I do not appreciate. $
+CandeljaPardonLines		1	$ 59	$ But I shall forgive, in this case. $
+
+CandeljaAccusationID 7
+CandeljaAccusationLines	0	$ 36	$ Thief you are. $
+CandeljaAccusationLines	1	$ 41	$ Pay well or leave. $
+
+CandeljaShipID 8
+CandeljaShipLines		0	$ 90	$ The river here underground, a busy thoroughfare for trading ships it once was. $
+CandeljaShipLines		1	$ 70	$ At the reaping's beginning they stopped quite suddenly, $
+CandeljaShipLines		2	$ 76	$ But the ship of your reference, impaled in the Sea Gate is it not? $
+CandeljaShipLines		3	$ 34	$ The last to come. $
+CandeljaShipLines		4	$ 69	$ The crew most dead or reaped, the lone survivor missing. $
+CandeljaShipLines		5	$ 50	$ §lHe§e§o might know, but would not say, $
+CandeljaShipLines		6	$ 75	$ For dead, by now, most certainly is the last of that crew cursed. $
+
+CandeljaWisdomID 9
+CandeljaWisdomLines		0	$ 51	$ You feel them, so deep below our feet? $
+CandeljaWisdomLines		1	$ 61	$ Down there were they sealed with their demons. $
+CandeljaWisdomLines		2	$ 43	$ People, just like you and I. $
+CandeljaWisdomLines		3	$ 28	$ My people. $
+CandeljaWisdomLines		4	$ 87	$ The sealing bought us time, but other ways there are out of that city cursed. $
+CandeljaWisdomLines		5	$ 66	$ The siege a fortnight lasted, was it worth the lives? $
+CandeljaWisdomLines		6	$ 46	$ Perhaps, but... $
+CandeljaWisdomLines		7	$ 53	$ The survivors posed a risk, they said. $
+CandeljaWisdomLines		8	$ 32	$ I was a threat. $
+CandeljaWisdomLines		9	$ 23	$ Now? $
+CandeljaWisdomLines		10	$ 54	$ Here am I, not are they, what threat was I? $
+CandeljaWisdomLines		11	$ 43	$ But throw us back, they did. $
+CandeljaWisdomLines		12	$ 69	$ Back to hell, friends went... family went. $
+CandeljaWisdomLines		13	$ 36	$ I watched, I feared. $
+CandeljaWisdomLines		14	$ 50	$ I cannot forgive, I will not forget. $
+CandeljaWisdomLines		15	$ 39	$ Is that wisdom for you? $
+CandeljaWisdomLines		16	$ 37	$ It is all that I know. $
+
+CandeljaKingID 10
+CandeljaKingLines		0	$ 22	$ Ts! $
+CandeljaKingLines		1	$ 53	$ Mention not the vile murderer's name! $
+
+CandeljaActionbarDiscussions 	meet		$ <#CandeljaMeetID#>		$ Meet
+CandeljaActionbarDiscussions 	good_greet	$ <#CandeljaGoodGreetID#>	$ GoodGreet
+CandeljaActionbarDiscussions 	bad_greet	$ <#CandeljaBadGreetID#>	$ BadGreet
+CandeljaActionbarDiscussions 	uncomfortable	$ <#CandeljaUncomfortableID#>	$ Uncomfortable
+CandeljaActionbarDiscussions 	intrusion	$ <#CandeljaIntrusionID#>	$ Intrusion
+CandeljaActionbarDiscussions 	wary		$ <#CandeljaWaryID#>		$ Wary
+CandeljaActionbarDiscussions 	pardon		$ <#CandeljaPardonID#>		$ Pardon
+CandeljaActionbarDiscussions 	accusation	$ <#CandeljaAccusationID#>	$ Accusation
+
+CandeljaChatLogDiscussions 	ship		$ <#CandeljaShipID#>		$ Ship
+CandeljaChatLogDiscussions 	wisdom		$ <#CandeljaWisdomID#>		$ Wisdom
+CandeljaChatLogDiscussions 	king		$ <#CandeljaKingID#>		$ King
+
+CandeljaDialoguePrompt {<#DialoguePromptOption$Candelja$CandeljaWisdom$Wisdom?#>,"extra":[{<#DialoguePromptOption$Candelja$CandeljaShip$Ship?#>},{<#DialoguePromptOptionFinal$Candelja$CandeljaKing$The Last King of Tyre?#>}]}
+
+CandeljaUncomfortableArea x=42,y=60,z=336,dx=7,dy=3,dz=1.9
+CandeljaBackroomArea x=42,y=60,z=328,dx=7,dy=3,dz=6
+CandeljaWaryArea x=42,y=60,z=336,dx=7,dy=3,dz=0
+
+CandeljaStashLocation 0 $ 44 62 328
+CandeljaStashLocation 1 $ 45 62 328
+CandeljaStashLocation 2 $ 47 60 328

@@ -1,0 +1,39 @@
+#include attribute_modifiers
+#include exploding_creeper
+
+SaviourMosesHealth 500000
+SaviourMosesTransition1Health 400000
+SaviourMosesTransition2Health 300000
+SaviourMosesTransition3Health 100000
+
+SaviourMosesNameText Saviour Moses (Undead)
+
+SaviourMosesTags CustomName:"{\"text\":\"<#SaviourMosesNameText#>\"}",PersistenceRequired:1b,NoAI:1b,NoGravity:1b,Attributes:[{Name:"generic.maxHealth",Base:1000.0d},{Name:"generic.movementSpeed",Base:0.0},{Name:"generic.knockbackResistance",Base:1.0d}],Health:1000.0f,Tags:["SaviourMoses","HasAI","AI.Undead","Versioned","Dumpable","EnemyUnit","MosesCleanup","UsesHitScore"],Rotation:[90.0f,25.0f],Silent:1b,ArmorItems:[{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}],CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:taiga",profession:"minecraft:cleric"},Offers:{Recipes:[]}
+
+SaviourMosesAttackDash 0
+SaviourMosesAttackCondemn 1
+SaviourMosesAttackDecimate 2
+SaviourMosesAttackChainLightning 3
+
+SaviourMosesPotionBaseTags Potion:{id:"minecraft:splash_potion",Count:1b,tag:{<1>}},Tags:["NotWitchPotion","SaviourMosesPotion","Versioned","Killable"]
+
+SaviourMosesPotionSlownessTags <#SaviourMosesPotionBaseTags$CustomPotionEffects:[{Id:2b,Duration:100,Amplifier:3b}],CustomPotionColor:6636927#>
+SaviourMosesPotionBlindnessTags <#SaviourMosesPotionBaseTags$CustomPotionEffects:[{Id:15b,Duration:87}],CustomPotionColor:0#>
+SaviourMosesPotionInstantDamageTags <#SaviourMosesPotionBaseTags$Potion:"minecraft:harming"#>
+SaviourMosesPotionLevitationTags <#SaviourMosesPotionBaseTags$CustomPotionEffects:[{Id:25b,Duration:87}],CustomPotionColor:12640511#>
+
+MosesDashTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["MosesDash","Killable","MosesCleanup"]
+
+MosesDashSpeedFloat 1.6
+MosesDashSpeedInt 1600
+MosesDashEndLagTime 32
+MosesDashStarupTime 18
+
+SaviourMosesDecimateTags PersistenceRequired:1b,CustomName:"{\"text\":\"Explosion\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attackDamage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","Decimate","HasAI","AI.Homing","MosesCleanup"]
+
+SaviourMosesCreeper <#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Saviour Moses (Undead)\"}",ExplosionRadius:2b
+
+SaviourMosesDecimateAcceleration 22
+SaviourMosesDecimateDuration 74
+
+MosesDaughCommunionTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["MosesDaughCommunion","HasAI","AI.MosesDaughCommunion","Versioned","Killable","MosesCleanup"]

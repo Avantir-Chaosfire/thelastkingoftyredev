@@ -1,0 +1,13 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheTrialItemID written_book
+TheTrialAuthor Ziyon the Great
+TheTrialTitle The Trial
+TheTrialPages This is a trial; a test. The one who reaches the top must also be the one who saves this land and moves on, for no other will suffice. The Ageless One and the Formless Voice both seek a puppet, and a puppet will do no good here.
+
+TheTrialDataTag author:"<#TheTrialAuthor#>",title:"<#TheTrialTitle#>",resolved:1b,pages:["<#TheTrialPages#>"]
+TheTrial <#Item$TheTrialItemID$TheTrialDataTag#>

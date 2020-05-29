@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={IliedenTalk=<#IliedenSunID#>..}] IliedenLine 0

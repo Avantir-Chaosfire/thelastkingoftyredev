@@ -1,0 +1,21 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ColdIncenseCasketItemID white_dye
+ColdIncenseCasketNameText Cold Incense Casket
+ColdIncenseCasketNameColour white
+ColdIncenseCasketName <#ItemName$ColdIncenseCasketNameText$ColdIncenseCasketNameColour#>
+ColdIncenseCasketDescription <#LoreLine$Housing the bones of a dirty reaper,#>
+ColdIncenseCasketDescription <#LoreLine$the oxidizing wick gives off thick but#>
+ColdIncenseCasketDescription <#LoreLine$strikingly clear fire-retardant smoke.#>
+ColdIncenseCasketDescription <#StatsLine#>
+ColdIncenseCasketStats <#LoreLine$Fire Immunity#>
+ColdIncenseCasketStats <#LoreLine$<#Time$7#> Lava Immunity#>
+
+ColdIncenseCasketDataTag display:{Name:"<#ColdIncenseCasketName#>",Lore:[<#ColdIncenseCasketDescription#>,<#ColdIncenseCasketStats#>]},HoldingID:<#ColdIncenseCasketHoldingID#>
+ColdIncenseCasket <#Item$ColdIncenseCasketItemID$ColdIncenseCasketDataTag#>

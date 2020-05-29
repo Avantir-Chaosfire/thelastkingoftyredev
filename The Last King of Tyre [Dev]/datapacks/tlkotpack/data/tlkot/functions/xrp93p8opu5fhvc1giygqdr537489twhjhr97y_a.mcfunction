@@ -1,0 +1,1 @@
+tellraw @a {"text": "Best have many heads for me this time!", "color": "white", "italic": true}

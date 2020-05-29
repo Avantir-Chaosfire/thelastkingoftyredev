@@ -1,0 +1,16 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 2,
+			"entries":
+			[
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/head_of_yearning",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

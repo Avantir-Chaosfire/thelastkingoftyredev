@@ -1,0 +1,28 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+CounterweightDodgeCostReduction 2
+CounterweightStaminaRegenerationDelayMultiplier 1400
+
+CounterweightItemID quartz
+CounterweightNameText Counterweight
+CounterweightNameColour dark_green
+CounterweightName <#ItemName$CounterweightNameText$CounterweightNameColour#>
+CounterweightDescription <#LoreLine$Altering the weight distribution of#>
+CounterweightDescription <#LoreLine$one\'s form allows them to more#>
+CounterweightDescription <#LoreLine$easily flow through battle, taking#>
+CounterweightDescription <#LoreLine$every opportunity and avoiding#>
+CounterweightDescription <#LoreLine$every blow.#>
+CounterweightDescription <#StatsLine#>
+CounterweightStats <#LoreLine$-100% <#KnockbackResistance#>#>
+CounterweightStats <#LoreLine$-<#CounterweightDodgeCostReduction#> <#DodgeStamina#>#>
+CounterweightStats <#LoreLine$+<#!CounterweightStaminaRegenerationDelayMultiplier 1000 - 10 /#>% <#StaminaRegenerationDelay#>#>
+CounterweightTags AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-1,Operation:0,UUIDLeast:7835894,UUIDMost:234885}],HideFlags:2,HoldingID:<#CounterweightHoldingID#>
+
+CounterweightDataTag display:{Name:"<#CounterweightName#>",Lore:[<#CounterweightDescription#>,<#CounterweightStats#>]},<#CounterweightTags#>
+Counterweight <#Item$CounterweightItemID$CounterweightDataTag#>

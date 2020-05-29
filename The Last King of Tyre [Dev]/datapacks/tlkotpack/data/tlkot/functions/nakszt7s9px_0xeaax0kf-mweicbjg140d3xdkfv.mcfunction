@@ -1,0 +1,3 @@
+scoreboard players set @a f.EAu0RkdNmJ_9lm 121
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "That is the height of my failure, to send one to die when I could have done so, and assuredly succeed...", "color": "dark_blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "That is the height of my failure, to send one to die when I could have done so, and assuredly succeed...", "color": "white", "italic": true}

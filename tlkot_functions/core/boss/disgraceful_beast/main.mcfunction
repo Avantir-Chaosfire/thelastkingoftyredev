@@ -1,0 +1,2 @@
+execute if entity @a[scores={P2Victory=0}] run function tlkot:core/boss/disgraceful_beast/not_defeated
+execute if entity @a[scores={P2Victory=1..}] run function tlkot:core/boss/disgraceful_beast/clean_up/main

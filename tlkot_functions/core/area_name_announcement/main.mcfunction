@@ -1,0 +1,1 @@
+execute if entity @a[scores={Health=1..}] run function tlkot:<~>/process

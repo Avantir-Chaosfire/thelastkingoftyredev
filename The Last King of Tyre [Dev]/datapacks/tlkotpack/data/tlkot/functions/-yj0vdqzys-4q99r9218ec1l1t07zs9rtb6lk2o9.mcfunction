@@ -1,0 +1,2 @@
+function tlkot:4o3cu86t4obp7kw0gl3tbsio014xmm-yl2jz9jf0
+execute store result entity @e[tag=C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ,limit=1] ArmorItems[0].tag.AttributeModifiers[1].Amount double 0.001 run scoreboard players get @a[limit=1] Wynew5+9XEiexuNQ

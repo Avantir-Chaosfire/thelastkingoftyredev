@@ -1,0 +1,25 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Ziyon the Great\",title:\"The Journey\",resolved:1b,pages:[\"To you who dares proceed,
+
+Your troubles have just begun. At the dawn of the Second Reaping, I, a Caster of New Hoiro, unleashed these fiends upon this place in hopes of keeping the unworthy, and my fellows, out. You may yet be the one, and you will find\",\"our revelation at the top. But do proceed with caution, for the world is not always what it seems.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

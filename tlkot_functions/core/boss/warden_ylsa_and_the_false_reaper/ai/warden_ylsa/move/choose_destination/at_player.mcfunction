@@ -1,0 +1,3 @@
+tag @e[tag=PotentialDestination,distance=..7] add DestinationTooCloseToPlayer
+execute at @e[tag=P5MovementMarker,distance=..20,sort=furthest,limit=1] run tag @e[tag=PotentialDestination,tag=!DestinationTooCloseToPlayer,tag=!2LastYlsaDestination,tag=!1LastYlsaDestination,sort=nearest,limit=1] add SelectedYlsaDestination
+execute unless entity @e[tag=SelectedYlsaDestination] run tag @e[tag=PotentialDestination,sort=furthest,limit=1] add SelectedYlsaDestination

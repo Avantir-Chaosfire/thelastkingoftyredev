@@ -1,0 +1,4 @@
+scoreboard players set @a yK2Hhc7yM4+pcrb5 1
+scoreboard players enable @a yK2Hhc7yM4+pcrb5
+tellraw @a {"text": "\"Why don't you retrieve it yourself?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yK2Hhc7yM4+pcrb5 set 2"}, "extra": [{"text": "\"Why is this place special?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yK2Hhc7yM4+pcrb5 set 3"}}]}
+tellraw @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Silver Locket\",\"color\":\"white\",\"italic\":false}"}}}]}] {"text": "*Present Silver Locket*", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yK2Hhc7yM4+pcrb5 set 4"}}

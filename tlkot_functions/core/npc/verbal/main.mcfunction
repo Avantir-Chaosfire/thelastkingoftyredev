@@ -1,0 +1,1 @@
+#class$base execute positioned <#<1>Location#> run function tlkot:core/npc/verbal/<0>/main

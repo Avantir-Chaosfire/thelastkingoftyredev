@@ -1,0 +1,2 @@
+tag @a remove LVzIJbNI0QrDsDkqSC7Co9TU4xEyJ3WBjggtY.7Z
+tellraw @a {"text": "*Show the ragged clothing*", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger OtwO.0gl3AzzqcGg set 6"}}

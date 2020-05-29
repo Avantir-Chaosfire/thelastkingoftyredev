@@ -1,0 +1,9 @@
+execute if entity @s[tag=!Illuminated] positioned ~ ~ ~ if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~ ~ ~1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~1 ~ ~ if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~-1 ~ ~-1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~-1 ~ ~1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~1 ~ ~-1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate
+execute if entity @s[tag=!Illuminated] positioned ~1 ~ ~1 if block ~ ~ ~ minecraft:air run function tlkot:<~>/illuminate

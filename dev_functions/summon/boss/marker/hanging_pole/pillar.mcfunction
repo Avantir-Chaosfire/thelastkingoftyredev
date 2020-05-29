@@ -1,0 +1,1 @@
+execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,CustomName:"{\"text\":\"HangingPole-Pillar\"}",Tags:["Versioned","BossMarker","HangingPole-Pillar"]}

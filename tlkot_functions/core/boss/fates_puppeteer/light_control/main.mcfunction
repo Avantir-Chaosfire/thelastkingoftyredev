@@ -1,0 +1,1 @@
+execute as @e[tag=FatesPuppeteerSquare] at @s run function tlkot:<~>/process

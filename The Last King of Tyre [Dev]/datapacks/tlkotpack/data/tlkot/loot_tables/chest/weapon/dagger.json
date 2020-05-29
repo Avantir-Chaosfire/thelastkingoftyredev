@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:iron_shovel",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Dagger\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A simple, quick dagger. A poor choice\",\"color\":\"gray\"}','{\"text\":\"in weapon for real combat.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 8\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 3\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.7s\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:22155,UUIDMost:9733225,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:\"mainhand\"}],HideFlags:6,HoldingID:44}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

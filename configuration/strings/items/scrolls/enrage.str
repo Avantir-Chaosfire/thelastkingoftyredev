@@ -1,0 +1,51 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+EnrageScrollItemID fishing_rod
+EnrageScrollNameText Enrage Scroll, Class 2
+EnrageScrollNameColour dark_green
+EnrageScrollName <#ItemName$EnrageScrollNameText$EnrageScrollNameColour#>
+EnrageScrollDescription <#LoreLine$Drives one to anger, providing a#>
+EnrageScrollDescription <#LoreLine$singleminded determination to destroy#>
+EnrageScrollDescription <#LoreLine$your foe.#>
+EnrageScrollDescription <#StatsLine#>
+EnrageScrollStats <#LoreLine$+3 <#Damage#>#>
+EnrageScrollStats <#LoreLine$+15% <#MovementSpeed#>#>
+EnrageScrollStats <#LoreLine$Taking Damage: +3 <#Damage#>#>
+EnrageScrollStats <#LoreLine$Taking Damage: -15% <#MovementSpeed#>#>
+EnrageScrollStats <#LoreLine$<#Duration#>: <#Time$30#>#>
+
+EnrageScrollDataTag display:{Name:"<#EnrageScrollName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:15,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468515,UUIDMost:-46785616,Slot:"mainhand"}]
+EnrageScroll <#Item$EnrageScrollItemID$EnrageScrollDataTag#>
+
+EnrageScrollActiveNameText <#EnrageScrollNameText#> (Active)
+EnrageScrollActiveName <#ItemName$EnrageScrollActiveNameText$EnrageScrollNameColour#>
+
+EnrageScrollActiveDataTag display:{Name:"<#EnrageScrollActiveName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:31,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468515,UUIDMost:-46785616,Slot:"mainhand"}]
+EnrageScrollActive <#Item$EnrageScrollItemID$EnrageScrollActiveDataTag#>
+
+EnrageWill0Cost 6
+EnrageWill1Cost 5
+EnrageWill2Cost 4
+EnrageWill3Cost 3
+EnrageWill4Cost 2
+EnrageWill5Cost 1
+
+EnrageWill0Time 40
+EnrageWill1Time 40
+EnrageWill2Time 40
+EnrageWill3Time 40
+EnrageWill4Time 40
+EnrageWill5Time 40
+
+EnrageWill0TimeIncrease 15
+EnrageWill1TimeIncrease 12
+EnrageWill2TimeIncrease 9
+EnrageWill3TimeIncrease 6
+EnrageWill4TimeIncrease 3
+EnrageWill5TimeIncrease 0

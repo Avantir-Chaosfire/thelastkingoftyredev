@@ -1,0 +1,2 @@
+execute if entity @a[scores={HolAt8.byvruHpdt=0}] run function tlkot:c9atjy6kqsaypdw2xw87balh_zx6kljnr-mkdiby
+execute if entity @a[scores={HolAt8.byvruHpdt=1..}] run function tlkot:x5giy080g7ijf4vkatzh-gntdj33ohwejh47_jpp

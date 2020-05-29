@@ -1,0 +1,2 @@
+execute store result score @a MainHandItemID run data get entity @a[limit=1] SelectedItem.tag.HoldingID
+execute store result score @a OffHandItemID run data get entity @a[limit=1] Inventory[{Slot:-106b}].tag.HoldingID

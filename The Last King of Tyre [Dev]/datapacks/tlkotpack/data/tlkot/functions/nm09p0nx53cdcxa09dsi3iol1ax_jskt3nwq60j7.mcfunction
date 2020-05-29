@@ -1,0 +1,3 @@
+scoreboard players set @a yvbQw36HM1W.ldmU 1
+scoreboard players enable @a yvbQw36HM1W.ldmU
+tellraw @a {"text": "\"Blood Sigil?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yvbQw36HM1W.ldmU set 8"}, "extra": [{"text": "\"Imprinting?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yvbQw36HM1W.ldmU set 9"}}, {"text": "\"Reaper hordes?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yvbQw36HM1W.ldmU set 10"}}]}

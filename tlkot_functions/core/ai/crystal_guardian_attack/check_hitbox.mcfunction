@@ -1,0 +1,2 @@
+execute if entity @a[dx=2,dy=2,dz=2,scores={ObscureDuration=-1}] run function tlkot:core/ai/crystal_guardian_attack/afflict
+execute as @e[tag=EnemyUnit,tag=!Human,dx=2,dy=2,dz=2] run function tlkot:core/ai/crystal_guardian_attack/drain_enemy

@@ -1,0 +1,2 @@
+execute if entity @a[scores={j+6lX-IsBbFgKpzX=0..1}] run function tlkot:8vrqsvxm5iciy92gf8jyhamh2vo3qcj0pdpcs5gh
+execute as @e[tag=kJx_UVk9EvUhT-F833FsYvIm.fohyag-yKeDt_jD] unless score @s XUlX_VvgZLSEJpQ2 = @a[limit=1] XUlX_VvgZLSEJpQ2 run kill @s

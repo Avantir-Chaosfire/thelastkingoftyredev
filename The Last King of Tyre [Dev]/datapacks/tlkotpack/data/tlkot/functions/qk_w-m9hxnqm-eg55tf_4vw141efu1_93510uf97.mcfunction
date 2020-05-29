@@ -1,0 +1,1 @@
+execute if block 656 255 416 minecraft:air run function tlkot:6mlp0j6hv4bg9ocypp18u2lb1-oe0mlfun4gwg0g

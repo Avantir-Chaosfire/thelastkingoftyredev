@@ -1,0 +1,18 @@
+#include attribute_modifiers
+#include eliminate_base_attributes
+#include versioned_tags
+#include exploding_creeper
+
+UndeadSeekerCustomName CustomName:"{\"text\":\"Undead Seeker\"}"
+
+UndeadSeekerHealth 35000
+
+UndeadSeekerBaseTags PersistenceRequired:1b,ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{id:"iron_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{}],Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:4},{Name:"generic.movementSpeed",Base:0.18},{Name:generic.followRange,Base:16},<#EliminateBaseZombieAttributes#>],Health:1000.0f,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Undead","AI.Seeker","AI.AgroClose","Enemy.Undead-Seeker","UsesHitScore"<1>],VillagerData:{level:1,type:"minecraft:jungle",profession:"minecraft:cleric"},<#UndeadSeekerCustomName#>
+
+UndeadSeekerTags <#UndeadSeekerBaseTags$#>
+
+UndeadSeekerShadeTags <#UndeadSeekerBaseTags$,"Shaded"#>
+
+UndeadSeekerProjectileTags ‘Marker:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Tags:["Versioned","Killable","HasAI","AI.SeekerProjectile"]‘
+
+UndeadSeekerCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Undead Seeker\"}",ExplosionRadius:2b‘

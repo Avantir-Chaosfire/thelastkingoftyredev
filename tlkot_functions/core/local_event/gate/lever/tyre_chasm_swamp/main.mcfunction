@@ -1,0 +1,1 @@
+execute if block 112 255 16 minecraft:air run function tlkot:core/local_event/gate/lever/tyre_chasm_swamp/loaded

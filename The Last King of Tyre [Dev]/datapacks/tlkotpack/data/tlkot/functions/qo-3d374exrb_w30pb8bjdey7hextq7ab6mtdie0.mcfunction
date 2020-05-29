@@ -1,0 +1,1 @@
+scoreboard players set @a Jx1d-T3eMKXzm++r 1

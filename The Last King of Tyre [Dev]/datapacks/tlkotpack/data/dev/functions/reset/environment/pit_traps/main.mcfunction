@@ -1,0 +1,1 @@
+execute as @e[tag=-pzkpkXTjqXTz7m87dV7qqEoT+ncrEkh0bpjDLWO] at @s if block ~ ~-1 ~ minecraft:air run function dev:reset/environment/pit_traps/replace

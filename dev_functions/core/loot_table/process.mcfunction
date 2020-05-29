@@ -1,0 +1,1 @@
+#class execute if block <2> #tlkot:all if block <1> #tlkot:update_required run function dev:<~>/<0>

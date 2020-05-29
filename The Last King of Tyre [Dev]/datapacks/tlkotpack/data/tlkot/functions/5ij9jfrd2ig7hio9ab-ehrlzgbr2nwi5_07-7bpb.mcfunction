@@ -1,0 +1,3 @@
+scoreboard players set @a _2Yw.eu7xIJr00Ub 1
+scoreboard players enable @a _2Yw.eu7xIJr00Ub
+tellraw @a {"text": "\"Wisdom?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger _2Yw.eu7xIJr00Ub set 9"}, "extra": [{"text": "\"Ship?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger _2Yw.eu7xIJr00Ub set 8"}}, {"text": "\"The Last King of Tyre?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger _2Yw.eu7xIJr00Ub set 10"}}]}

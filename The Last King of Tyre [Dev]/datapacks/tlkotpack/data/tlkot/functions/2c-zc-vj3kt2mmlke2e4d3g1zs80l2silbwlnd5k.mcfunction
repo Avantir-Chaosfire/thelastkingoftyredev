@@ -1,0 +1,1 @@
+scoreboard players set @a GvZ6o4Fjf3G+nb5N 1

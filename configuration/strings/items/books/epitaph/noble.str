@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+NobleEpitaphItemID written_book
+NobleEpitaphAuthor A Noblewoman of Tyre
+NobleEpitaphTitle Epitaph of Tyre
+NobleEpitaphPages I am a noblewoman of Tyre.<Newline><Newline>My name is unknown.<Newline><Newline>My identity shall not be remembered.<Newline><Newline>To you who crosses this threshold, beware of me. Beware of what I will become.<Newline><Newline>No one shall know me,
+NobleEpitaphPages but nevertheless I will continue to do my best to help them all.<Newline><Newline>This is the way it has always been, and also the way I want it to be.<Newline><Newline>Now, I believe...<Newline><Newline>Fate's Puppeteer awaits.<Newline><Newline>Take care of your
+NobleEpitaphPages legacy. They may not know why, but why is all that matters to you.
+
+NobleEpitaphDataTag author:"<#NobleEpitaphAuthor#>",title:"<#NobleEpitaphTitle#>",resolved:1b,pages:["<#NobleEpitaphPages#>"]
+NobleEpitaph <#Item$NobleEpitaphItemID$NobleEpitaphDataTag#>

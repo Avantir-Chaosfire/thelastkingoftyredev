@@ -1,0 +1,49 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+IncendiaryScrollItemID fishing_rod
+IncendiaryScrollNameText Incendiary Scroll, Class 3
+IncendiaryScrollNameColour dark_aqua
+IncendiaryScrollName <#ItemName$IncendiaryScrollNameText$IncendiaryScrollNameColour#>
+IncendiaryScrollDescription <#LoreLine$The Undead Crusaders created#>
+IncendiaryScrollDescription <#LoreLine$this scroll to spread fire quickly#>
+IncendiaryScrollDescription <#LoreLine$and easily amidst groups of#>
+IncendiaryScrollDescription <#LoreLine$undead, but explosives were always#>
+IncendiaryScrollDescription <#LoreLine$their preference.#>
+IncendiaryScrollDescription <#StatsLine#>
+IncendiaryScrollStats <#LoreLine$Incinerate Nearby Foes#>
+
+IncendiaryScrollDataTag display:{Name:"<#IncendiaryScrollName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:19,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
+IncendiaryScroll <#Item$IncendiaryScrollItemID$IncendiaryScrollDataTag#>
+
+IncendiaryScrollActiveNameText <#IncendiaryScrollNameText#> (Active)
+IncendiaryScrollActiveName <#ItemName$IncendiaryScrollActiveNameText$IncendiaryScrollNameColour#>
+
+IncendiaryScrollActiveDataTag display:{Name:"<#IncendiaryScrollActiveName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:35,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
+IncendiaryScrollActive <#Item$IncendiaryScrollItemID$IncendiaryScrollActiveDataTag#>
+
+IncendiaryWill0Cost 4
+IncendiaryWill1Cost 3
+IncendiaryWill2Cost 3
+IncendiaryWill3Cost 2
+IncendiaryWill4Cost 2
+IncendiaryWill5Cost 1
+
+IncendiaryWill0Time 40
+IncendiaryWill1Time 38
+IncendiaryWill2Time 36
+IncendiaryWill3Time 34
+IncendiaryWill4Time 32
+IncendiaryWill5Time 30
+
+IncendiaryWill0TimeIncrease 10
+IncendiaryWill1TimeIncrease 8
+IncendiaryWill2TimeIncrease 6
+IncendiaryWill3TimeIncrease 4
+IncendiaryWill4TimeIncrease 2
+IncendiaryWill5TimeIncrease 0

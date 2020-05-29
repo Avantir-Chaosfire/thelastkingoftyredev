@@ -1,0 +1,1 @@
+execute if entity @a[x=-903,y=30,z=-743,dx=30,dy=16,dz=30] run function tlkot:core/npc/action/initialization/in_starting_area

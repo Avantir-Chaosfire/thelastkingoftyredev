@@ -1,0 +1,20 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheBlackCrystalItemID written_book
+TheBlackCrystalAuthor Nidiara Zelefar the Historian
+TheBlackCrystalTitle The Black Crystal
+TheBlackCrystalPages Black crystals are rather rare minerals to find even deep underground, and so it was rather surprising to the Tileyan explorers who first reached this continent when they found a small black crystal embedded in a boulder on the surface. They failed to extract it, so they
+TheBlackCrystalPages set up camp around it and began to investigate it. Not long after they realized that it was much more than just a simple black crystal, for it wasn't what we would think of as a black crystal at all. That is, it was no gemstone; We know it today as the Seed.
+TheBlackCrystalPages The camp the Tileyans set up around the Seed quickly grew into the old city of Hoiro. When Hoiro grew too big for the swab of land on which it sat, the city of Gilith sprang up nearby. But in the city of Hoiro, research on the Seed began to slow down as people slowly came to obsess over it. A
+TheBlackCrystalPages church was built around it, and as the undead began to overwhelm Gilith, people went there to worship. They went there to find comfort, solace, strength. It was these things, this one thing that the Seed began to take away from them. It gave nothing back but a deeper desire for
+TheBlackCrystalPages what it took, and soon its congregation began to lose all hope, all will to live. They became the first reapers, for they had fed the Seed, and the Seed, in turn, granted them life past the death of their souls. Life that did no more than hunger for that which it lacked, and hunted for it.
+TheBlackCrystalPages And so the first reaping began, when the citizens of Hoiro, hiding in their city from the legions of undead banging on their gates began to give themselves wholly to the Seed, as it tempted them to do. The reapers fought their friends, family and whomever they could find. In doing so,
+TheBlackCrystalPages they drove more people to desperation, and more people flocked to the Seed seeking peace. They did not find it.<Newline><Newline>Having been fed such strength by nearly the entire populace of Hoiro and some of Gilith, the Seed metamorphosized, taking on the form we
+TheBlackCrystalPages know today as the Cocoon. Today, it is the Cocoon we fear, for the second reaping will come, and there is naught we can do about that.
+
+TheBlackCrystalDataTag author:"<#TheBlackCrystalAuthor#>",title:"<#TheBlackCrystalTitle#>",resolved:1b,pages:["<#TheBlackCrystalPages#>"]
+TheBlackCrystal <#Item$TheBlackCrystalItemID$TheBlackCrystalDataTag#>

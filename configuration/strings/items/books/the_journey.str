@@ -1,0 +1,14 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheJourneyItemID written_book
+TheJourneyAuthor Ziyon the Great
+TheJourneyTitle The Journey
+TheJourneyPages To you who dares proceed,<Newline><Newline>Your troubles have just begun. At the dawn of the Second Reaping, I, a Caster of New Hoiro, unleashed these fiends upon this place in hopes of keeping the unworthy, and my fellows, out. You may yet be the one, and you will find
+TheJourneyPages our revelation at the top. But do proceed with caution, for the world is not always what it seems.
+
+TheJourneyDataTag author:"<#TheJourneyAuthor#>",title:"<#TheJourneyTitle#>",resolved:1b,pages:["<#TheJourneyPages#>"]
+TheJourney <#Item$TheJourneyItemID$TheJourneyDataTag#>

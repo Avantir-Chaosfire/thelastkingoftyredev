@@ -1,0 +1,1 @@
+tellraw @a {"text": "Do not hide from this.", "color": "white", "italic": true}

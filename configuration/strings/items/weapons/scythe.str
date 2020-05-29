@@ -1,0 +1,57 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+ScytheStaminaCost 5
+ScytheCommunionStaminaCost 4
+ScytheMinimumStaminaCost 3
+ScytheRegenDelay 28
+
+DullScytheDamage 14
+DullScytheStaminaCost <#ScytheStaminaCost#>
+DullScytheCommunionStaminaCost <#ScytheCommunionStaminaCost#>
+DullScytheMinimumStaminaCost <#ScytheMinimumStaminaCost#>
+DullScytheRegenDelay <#ScytheRegenDelay#>
+
+RadiantScytheDamage 18
+RadiantScytheStaminaCost <#ScytheStaminaCost#>
+RadiantScytheCommunionStaminaCost <#ScytheCommunionStaminaCost#>
+RadiantScytheMinimumStaminaCost <#ScytheMinimumStaminaCost#>
+RadiantScytheRegenDelay <#ScytheRegenDelay#>
+
+RadiantScytheItemID wooden_pickaxe
+RadiantScytheNameText Radiant Scythe
+RadiantScytheNameColour gold
+RadiantScytheName <#ItemName$RadiantScytheNameText$RadiantScytheNameColour#>
+RadiantScytheDescription <#LoreLine$Imbued with the venom of the many#>
+RadiantScytheDescription <#LoreLine$giant spiders it was designed to kill.#>
+RadiantScytheDescription <#LoreLine$The giant spiders arrived in#>
+RadiantScytheDescription <#LoreLine$E\'Siraph not long after the dread,#>
+RadiantScytheDescription <#LoreLine$tracing their origins to the same#>
+RadiantScytheDescription <#LoreLine$cursed place.#>
+RadiantScytheDescription <#StatsLine#>
+RadiantScytheStats <#WeaponStats$RadiantScythe#>
+RadiantScytheStats <#LoreLine$Brews Miasmas Within Foes#>
+RadiantScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RadiantScytheDamage 1 -#>,Operation:0,UUIDLeast:29400493,UUIDMost:1477406,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:4}],HoldingID:<#RadiantScytheHoldingID#>
+
+RadiantScytheDataTag display:{Name:"<#RadiantScytheName#>",Lore:[<#RadiantScytheDescription#>,<#RadiantScytheStats#>]},<#RadiantScytheTags#>
+RadiantScythe <#Item$RadiantScytheItemID$RadiantScytheDataTag#>
+
+DullScytheItemID wooden_pickaxe
+DullScytheNameText Dull Scythe
+DullScytheNameColour dark_gray
+DullScytheName <#ItemName$DullScytheNameText$DullScytheNameColour#>
+DullScytheDescription <#LoreLine$Altered for combat, but still a poor#>
+DullScytheDescription <#LoreLine$choice in weapon.#>
+DullScytheDescription <#StatsLine#>
+DullScytheStats <#WeaponStats$DullScythe#>
+DullScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!DullScytheDamage 1 -#>,Operation:0,UUIDLeast:29400493,UUIDMost:1477406,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#DullScytheHoldingID#>
+
+DullScytheDataTag display:{Name:"<#DullScytheName#>",Lore:[<#DullScytheDescription#>,<#DullScytheStats#>]},<#DullScytheTags#>
+DullScythe <#Item$DullScytheItemID$DullScytheDataTag#>

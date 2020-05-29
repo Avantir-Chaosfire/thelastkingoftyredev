@@ -1,0 +1,1 @@
+scoreboard players add @a +fkbyUV+P53ehaQp 1

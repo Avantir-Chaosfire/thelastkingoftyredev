@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:iron_boots",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"The Challenger Knight's Boots\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"She challenged the order to shut\",\"color\":\"gray\"}','{\"text\":\"the gates, refused to obey then\",\"color\":\"gray\"}','{\"text\":\"fought and died for that belief. The\",\"color\":\"gray\"}','{\"text\":\"Challenger Knight, they named her,\",\"color\":\"gray\"}','{\"text\":\"the symbol of unity dead.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 3\",\"color\":\"gray\"}','{\"text\":\"Weight: 1.5\",\"color\":\"gray\"}','{\"text\":\"+1 Armour Toughness\",\"color\":\"gray\"}']},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:3,UUIDLeast:373937113,UUIDMost:-1818903858,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Operation:0,Amount:1,UUIDLeast:-1761628648,UUIDMost:867937811,Slot:\"feet\"}],Unbreakable:1b,HideFlags:6}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

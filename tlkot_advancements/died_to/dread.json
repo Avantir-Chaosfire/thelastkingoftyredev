@@ -1,0 +1,21 @@
+{
+	"criteria":
+	{
+		"died_to_dread":
+		{
+			"trigger": "minecraft:entity_killed_player",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "minecraft:endermite",
+					"nbt": "{CustomName:\"{\\\"text\\\":\\\"Dread\\\"}\"}"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/death/dread"
+	}
+}

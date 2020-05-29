@@ -1,0 +1,3 @@
+execute if entity @s[scores={4VdfBDh3+Qvz2B_q=1..}] if entity @a[scores={4VdfBDh3+Qvz2B_q=1..}] run function tlkot:edj968aup1lci9o_fx8_0nj0tanjbnnito1bxwfc
+execute if entity @s[scores={gd_vCppihMeOmnTF=1..}] if entity @a[scores={gd_vCppihMeOmnTF=1..}] run function tlkot:edj968aup1lci9o_fx8_0nj0tanjbnnito1bxwfc
+execute unless entity @s[scores={4VdfBDh3+Qvz2B_q=1..}] unless entity @s[scores={gd_vCppihMeOmnTF=1..}] run function tlkot:edj968aup1lci9o_fx8_0nj0tanjbnnito1bxwfc

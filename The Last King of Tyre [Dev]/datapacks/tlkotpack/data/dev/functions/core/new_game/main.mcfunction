@@ -1,0 +1,2 @@
+execute as @e[tag=LBOBiBeu3XdckIfAzN_C0pd_NQQdRJsND7.m_KVC] unless score @s 2fBUeLTktKiUS5u6 = @a[limit=1] 2fBUeLTktKiUS5u6 run function dev:core/new_game/outdated/main
+execute unless score @a[limit=1] 2fBUeLTktKiUS5u6 = @e[tag=z2zJqPOTdsMZsf4QvcCrvBnR-Rx2UtDr_I7Kyh.l,limit=1] 2fBUeLTktKiUS5u6 run function dev:core/new_game/reset

@@ -1,0 +1,1 @@
+execute as @e[scores={FireSeedBomb=1..}] at @s run function tlkot:core/casting/fire_swarm/seed/main

@@ -1,0 +1,2 @@
+tellraw @a {"text": "It strengthens you.\nIt substitutes you.\nIt becomes you.\nBut it is not you.\n===================", "color": "gold", "bold": true}
+execute at @a run playsound minecraft:block.beacon.power_select ambient @a ~ ~ ~ 10 2 1

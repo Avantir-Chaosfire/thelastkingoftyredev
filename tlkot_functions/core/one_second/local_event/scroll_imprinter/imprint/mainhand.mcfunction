@@ -1,0 +1,1 @@
+#class execute if entity @a[scores={MainHandItemID=<#<1>HoldingID#>}] run function tlkot:<~>/<0>

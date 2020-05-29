@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={v9jW.czrPQqAmyJO=-1}] v9jW.czrPQqAmyJO 102
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Not be \u00a7loverruled\u00a78\u00a7o, not be \u00a7ltrivialised\u00a78\u00a7o, not by you, not by \u00a7lANYONE\u00a78\u00a7o!", "color": "dark_gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Not be \u00a7loverruled\u00a78\u00a7o, not be \u00a7ltrivialised\u00a78\u00a7o, not by you, not by \u00a7lANYONE\u00a78\u00a7o!", "color": "white", "italic": true}

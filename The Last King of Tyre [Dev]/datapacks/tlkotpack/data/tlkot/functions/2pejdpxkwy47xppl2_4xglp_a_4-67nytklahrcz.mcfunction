@@ -1,0 +1,2 @@
+execute if entity @s[name=FatesPuppeteer-Boss] run function tlkot:o4b7mu39gfnf67_8azf5xa0wens9uu9tsotm2a0g
+execute if entity @s[name=FatesPuppeteer-PuppetChase] if entity @a[scores={rPjN6dTd6vmwF0By=6..},x=-94,y=70,z=204,dx=98,dy=9,dz=98] run function tlkot:sc_44zm38xlxqqxjv5mqieokpf7nmkjgfrmz2vxa

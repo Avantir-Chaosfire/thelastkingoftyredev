@@ -1,0 +1,2 @@
+execute if entity @a[scores={hDGAU3BI-Xo_oIq4=4}] run function tlkot:jfdyt_siq-t4s9329i6rfnfr5y1dcc6w54of2r-4
+execute if entity @a[scores={hDGAU3BI-Xo_oIq4=5}] run function tlkot:j_-tti421m_gch0r7_7b10ttcjb3vr6c2na9jn6-

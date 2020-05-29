@@ -1,0 +1,4 @@
+execute if entity @a[scores={PJca2fPQlIGfiThu=0..}] run tellraw @a {"text": "Oh, you made it past my sentinels?", "color": "dark_gray", "italic": true}
+execute if entity @a[scores={PJca2fPQlIGfiThu=1..}] run tellraw @a {"text": "I suppose you must be alright then.", "color": "dark_gray", "italic": true}
+execute if entity @a[scores={PJca2fPQlIGfiThu=2..}] run tellraw @a {"text": "I am Yante the Caster, although acting more as a shopkeep during the reaping.", "color": "dark_gray", "italic": true}
+execute if entity @a[scores={PJca2fPQlIGfiThu=3..}] run tellraw @a {"text": "Care to browse my wares or chat?", "color": "dark_gray", "italic": true}

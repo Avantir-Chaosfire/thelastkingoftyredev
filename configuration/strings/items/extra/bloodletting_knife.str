@@ -1,0 +1,17 @@
+#include item_template
+#include item_holding_ids
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+BloodlettingKnifeItemID fishing_rod
+BloodlettingKnifeNameText Bloodletting Blade
+BloodlettingKnifeNameColour red
+BloodlettingKnifeName <#ItemName$BloodlettingKnifeNameText$BloodlettingKnifeNameColour#>
+BloodlettingKnifeDescription <#LoreLine$A long knife, for bloodletting oneself.#>
+BloodlettingKnifeTags Unbreakable:1b,HideFlags:4,Damage:6,HoldingID:<#BloodlettingKnifeHoldingID#>,CustomModelData:6
+
+BloodlettingKnifeDataTag display:{Name:"<#BloodlettingKnifeName#>",Lore:[<#BloodlettingKnifeDescription#>]},<#BloodlettingKnifeTags#>
+BloodlettingKnife <#Item$BloodlettingKnifeItemID$BloodlettingKnifeDataTag#>

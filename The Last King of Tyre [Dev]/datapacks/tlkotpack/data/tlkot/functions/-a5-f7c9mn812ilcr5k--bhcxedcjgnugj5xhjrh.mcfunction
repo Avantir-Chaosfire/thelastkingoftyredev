@@ -1,0 +1,5 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Dull Helmet\",\"color\":\"dark_gray\",\"italic\":false}"}}}]}] run function tlkot:n5_qic9g3km6wismqb2o6-_jpzo-vww5uh76v15m
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Dull Chestplate\",\"color\":\"dark_gray\",\"italic\":false}"}}}]}] run function tlkot:-toj7k0v8gqot3q979cbunr2jjsygbvdqy0r_h-i
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Dull Chestplate (Complete)\",\"color\":\"dark_gray\",\"italic\":false}"}}}]}] run function tlkot:ejb75gee-qpnfk697u_ie9fjelpvdxf_sx3zs0r0
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Dull Leggings\",\"color\":\"dark_gray\",\"italic\":false}"}}}]}] run function tlkot:mbw8fgivnh0xddpy6mv8a8laiy1h4ig3iksjb8z_
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Dull Boots\",\"color\":\"dark_gray\",\"italic\":false}"}}}]}] run function tlkot:4ld4uw4hjfdbmpt1987d592n9tu61xwqiok2jorf

@@ -1,0 +1,1 @@
+execute if entity @s[tag=Desolate] run function tlkot:core/casting/desolate/explode

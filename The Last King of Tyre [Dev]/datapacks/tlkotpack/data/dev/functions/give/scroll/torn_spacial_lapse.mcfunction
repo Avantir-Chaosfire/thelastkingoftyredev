@@ -1,0 +1,1 @@
+give @s minecraft:sugar_cane{display:{Name:"{\"text\":\"Torn Spacial Lapse Scroll\",\"color\":\"dark_purple\",\"italic\":false}",Lore:['{"text":"Torn; Unusable.","color":"gray"}']},HoldingID:95}

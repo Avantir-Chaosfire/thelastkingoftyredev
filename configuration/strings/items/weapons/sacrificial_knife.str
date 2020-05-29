@@ -1,0 +1,39 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+SacrificialKnifeDamage 5
+SacrificialKnifeStaminaCost 5
+SacrificialKnifeCommunionStaminaCost 4
+SacrificialKnifeMinimumStaminaCost 3
+SacrificialKnifeRegenDelay 26
+
+SacrificialKnifeItemID diamond_shovel
+SacrificialKnifeNameText Sacrificial Knife
+SacrificialKnifeNameColour red
+SacrificialKnifeName <#ItemName$SacrificialKnifeNameText$SacrificialKnifeNameColour#>
+SacrificialKnifeDescription <#LoreLine$Many exiles turned undead#>
+SacrificialKnifeDescription <#LoreLine$underwent horrific \'medical\'#>
+SacrificialKnifeDescription <#LoreLine$experiments performed by the#>
+SacrificialKnifeDescription <#LoreLine$Subjugate. But soon enough, their#>
+SacrificialKnifeDescription <#LoreLine$gory methods became less about#>
+SacrificialKnifeDescription <#LoreLine$truth and more for the sight, sound#>
+SacrificialKnifeDescription <#LoreLine$and smell of blood.#>
+SacrificialKnifeDescription <#StatsLine#>
+SacrificialKnifeStats <#WeaponStats$SacrificialKnife#>
+SacrificialKnifeStats <#LoreLine$Sacrificing Foes Grants:#>
+SacrificialKnifeStats <#LoreLine$    +1 <#CurrentHealth#>#>
+SacrificialKnifeStats <#LoreLine$    Half Stamina Restored#>
+SacrificialKnifeStats <#LoreLine$    +3 <#Damage#> (<#Time$10#>)#>
+SacrificialKnifeStats <#LoreLine$    +4 <#Absorption#> (<#Time$10#>)#>
+SacrificialKnifeStats <#LoreLine$    Greater Item Discovery (<#Time$30#>)#>
+
+SacrificialKnifeTags AttributeModifiers:[{Name:"generic.attackDamage",AttributeName:"generic.attackDamage",Operation:0,Amount:<#!SacrificialKnifeDamage 1 -#>,UUIDLeast:2147712,UUIDMost:8874125,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:4389857,UUIDMost:4788560,Slot:"mainhand"}],HideFlags:6,Unbreakable:1b,HoldingID:<#SacrificialKnifeHoldingID#>
+
+SacrificialKnifeDataTag display:{Name:"<#SacrificialKnifeName#>",Lore:[<#SacrificialKnifeDescription#>,<#SacrificialKnifeStats#>]},<#SacrificialKnifeTags#>
+SacrificialKnife <#Item$SacrificialKnifeItemID$SacrificialKnifeDataTag#>

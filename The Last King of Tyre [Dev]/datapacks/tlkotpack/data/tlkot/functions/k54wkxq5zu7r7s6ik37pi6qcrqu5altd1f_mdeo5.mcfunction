@@ -1,0 +1,2 @@
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=0..}] run tellraw @a {"text": "You have spoken to my friends, the Survivors of the Seven Lakes.", "color": "yellow", "italic": true}
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=1..}] run tellraw @a {"text": "If you will not listen to me, will you listen to them?", "color": "yellow", "italic": true}

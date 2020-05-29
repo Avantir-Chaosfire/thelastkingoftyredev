@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"UnloadedEnemy\"}",Tags:[<#CommonKillableDivisionTags#>,"Enemy.Wolf-Dread","Initialized"],Marker:1b,Invisible:1b}
+execute as @e[tag=AI.Dread,distance=..1] run function tlkot:core/one_second/unload_enemies/passenger

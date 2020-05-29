@@ -1,0 +1,1 @@
+#class tellraw @a {"text":"<\\2>","color":"white","italic":true<\\3>}

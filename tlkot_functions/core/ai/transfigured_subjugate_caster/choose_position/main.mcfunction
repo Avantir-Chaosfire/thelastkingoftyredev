@@ -1,0 +1,1 @@
+execute at @a rotated ~ 0 positioned ^ ^ ^-5 align xyz positioned ~0.5 ~ ~0.5 run function tlkot:core/ai/transfigured_subjugate_caster/choose_position/origin

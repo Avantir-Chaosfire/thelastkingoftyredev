@@ -1,0 +1,3 @@
+function tlkot:bqs6qiizqu9axy44aj0mr9ai-a1kuxp3xsr0eate
+function tlkot:jkwbvfxrhw42u34qf_otoypv9awouerm32nkjhm9
+execute at @a run function tlkot:9qssln3b4dkpwxuczummpi1gdp07mrzcbb9m-_pl

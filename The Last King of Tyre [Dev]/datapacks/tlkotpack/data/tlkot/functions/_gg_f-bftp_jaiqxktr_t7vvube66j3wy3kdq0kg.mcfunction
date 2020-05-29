@@ -1,0 +1,2 @@
+give @a minecraft:player_head{display:{Name:"{\"text\":\"Lost Head of Yearning\",\"color\":\"dark_gray\",\"italic\":false}",Lore:['{"text":"The remains of one embodying he","color":"gray"}','{"text":"who never found his way.","color":"gray"}']},SkullOwner:"Cypiea",CanPlaceOn:["minecraft:bedrock"],HideFlags:16}
+tellraw @a {"text": "Obtained ", "extra": [{"text": "Lost Head of Yearning", "color": "dark_gray"}]}

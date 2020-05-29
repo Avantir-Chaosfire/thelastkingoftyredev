@@ -1,0 +1,2 @@
+execute unless entity @a[scores={HunterPhase=2..,ServantPhase=2..,CriticPhase=2..}] run function tlkot:<~>/process
+execute if entity @a[scores={HunterPhase=2..,ServantPhase=2..,CriticPhase=2..}] run particle minecraft:witch ~ ~1 ~ 0.25 0.7 0.25 0 4

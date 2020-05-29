@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={lYtYWHRw7I1-GS.J=-1}] lYtYWHRw7I1-GS.J 110
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "See I figure I'm the last normal person up here, so how better to call myself?", "color": "aqua", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "See I figure I'm the last normal person up here, so how better to call myself?", "color": "white", "italic": true}

@@ -1,0 +1,2 @@
+execute at @e[tag=seXdQkRUSrMUaPZybZMTZrbSaA7fx6me8hLARlNO] if entity @a[distance=64..,scores={yK2Hhc7yM4+pcrb5=4..,tOwGbRxPzibF7s8A=0,KrpwflfviGntPBkH=1}] positioned ~-255 ~-10 ~-255 unless entity @a[dx=512,dy=20,dz=512] run function tlkot:y3hkf8ydmq26_0sauou2rb-53fq2jvp09ppxvn6l
+execute if entity @a[scores={yK2Hhc7yM4+pcrb5=4..},nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Silver Locket\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:1a8m55gcbltgya-1y3ri11a41dlee4ajtu35aycn

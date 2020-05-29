@@ -1,0 +1,3 @@
+scoreboard players set @a iTRw-aj2OMBf_jNZ 1
+scoreboard players enable @a iTRw-aj2OMBf_jNZ
+tellraw @a {"text": "\"Caster?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger iTRw-aj2OMBf_jNZ set 8"}, "extra": [{"text": "\"Sentinels?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger iTRw-aj2OMBf_jNZ set 9"}}, {"text": "\"Research?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger iTRw-aj2OMBf_jNZ set 10"}}]}

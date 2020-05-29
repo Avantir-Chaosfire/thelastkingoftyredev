@@ -1,0 +1,24 @@
+{
+	"criteria":
+	{
+		"hurt_by_vile_feeder":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"blocked": false,
+					"source_entity":
+					{
+						"nbt": "{Tags:[\"AI.VileFeeder\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt_by/vile_feeder"
+	}
+}

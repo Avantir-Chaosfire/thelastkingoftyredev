@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 125
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "And he attempted to sacrifice himself, along with the four existing corrupt sacrifices, to purge the land of reapers.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "And he attempted to sacrifice himself, along with the four existing corrupt sacrifices, to purge the land of reapers.", "color": "white", "italic": true}

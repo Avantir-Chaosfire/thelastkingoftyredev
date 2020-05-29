@@ -1,0 +1,2 @@
+execute if entity @a[gamemode=adventure,scores={pBR7M7GkpsPpu+kP=0},x=512,y=181,z=131,dx=24,dy=7,dz=15] unless entity @a[x=513,y=181,z=131,dx=5,dy=4,dz=0] if entity @e[tag=U7J1Z9J_XvTK8oAS8VjlGK2mXMfn-ZM+61DCdU4z,x=519,y=232,z=162,distance=..2] run function tlkot:f2elewm3q9cr_y0skffxqb6lvsdnn2--68zevg89
+execute if entity @a[scores={pBR7M7GkpsPpu+kP=1}] as @e[tag=Nfrl+Acy78zbluljz1U6pPtQbN1BosJzKpccjF+X] at @s run function tlkot:kovfe93wukqv5gbnt_wubkztcza89swtq3_s1ii_

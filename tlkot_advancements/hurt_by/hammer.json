@@ -1,0 +1,23 @@
+{
+	"criteria":
+	{
+		"hurt_by_hammer":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"source_entity":
+					{
+						"nbt": "{Tags:[\"BerserkerHammerHitbox\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt_by/hammer"
+	}
+}

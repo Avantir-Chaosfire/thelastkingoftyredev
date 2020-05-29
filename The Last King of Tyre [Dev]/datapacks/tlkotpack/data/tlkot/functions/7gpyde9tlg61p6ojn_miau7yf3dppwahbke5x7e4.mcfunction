@@ -1,0 +1,1 @@
+tellraw @a {"text": "This is your final warning.", "color": "white", "italic": true}

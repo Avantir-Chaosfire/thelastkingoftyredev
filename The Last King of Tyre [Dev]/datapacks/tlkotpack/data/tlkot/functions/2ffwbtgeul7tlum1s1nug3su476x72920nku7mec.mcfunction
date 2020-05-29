@@ -1,0 +1,13 @@
+execute unless entity @a[scores={223_hGL2KXhaJdZn=-2147483648..2147483647}] run scoreboard players set @a 223_hGL2KXhaJdZn 0
+execute unless entity @a[scores={cdqYzGEGr0RYjs7F=-2147483648..2147483647}] run scoreboard players set @a cdqYzGEGr0RYjs7F 0
+execute unless entity @a[scores={d1kDePtoGaW6oZQ_=-2147483648..2147483647}] run scoreboard players set @a d1kDePtoGaW6oZQ_ 0
+execute unless entity @a[scores={PSLLxCXht-rsVWx.=-2147483648..2147483647}] run scoreboard players set @a PSLLxCXht-rsVWx. 0
+execute unless entity @a[scores={bEDPcJnxv7RJYWIz=-2147483648..2147483647}] run scoreboard players set @a bEDPcJnxv7RJYWIz 0
+execute unless entity @a[scores={DqG9ild4msBc7lxA=-2147483648..2147483647}] run scoreboard players set @a DqG9ild4msBc7lxA 0
+execute unless entity @a[scores={l8SPqN-Z7WTziHa4=-2147483648..2147483647}] run scoreboard players set @a l8SPqN-Z7WTziHa4 0
+execute unless entity @a[scores={5dnu+dK3goZrcPTN=-2147483648..2147483647}] run scoreboard players set @a 5dnu+dK3goZrcPTN 0
+execute unless entity @a[scores={zm1kQG8+tcY-5tPg=-2147483648..2147483647}] run scoreboard players set @a zm1kQG8+tcY-5tPg 0
+execute unless entity @a[scores={b18YzqdzNCAsGGis=-2147483648..2147483647}] run scoreboard players set @a b18YzqdzNCAsGGis 1
+execute unless entity @a[scores={lP8tGEZAgzyD-TI-=-2147483648..2147483647}] run scoreboard players set @a lP8tGEZAgzyD-TI- 0
+execute unless entity @a[scores={OhM.7BYqSspFoU+h=-2147483648..2147483647}] run scoreboard players set @a OhM.7BYqSspFoU+h 1
+execute unless entity @a[scores={Jx1d-T3eMKXzm++r=-2147483648..2147483647}] run scoreboard players set @a Jx1d-T3eMKXzm++r 1

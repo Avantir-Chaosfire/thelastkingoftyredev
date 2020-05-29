@@ -1,0 +1,1 @@
+execute if block 0 255 32 minecraft:air run function tlkot:core/local_event/gate/lever/ixinik_railway_access/loaded

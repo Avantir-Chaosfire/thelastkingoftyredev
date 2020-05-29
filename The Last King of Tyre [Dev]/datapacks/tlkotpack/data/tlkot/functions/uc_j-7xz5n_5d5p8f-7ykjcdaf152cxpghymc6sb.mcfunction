@@ -1,0 +1,3 @@
+execute if entity @a[tag=!i4f5A+OGsJsTLzXddzSmzks3WRxiA.qkdNKbMO94] if entity @e[type=potion] run tag @a add i4f5A+OGsJsTLzXddzSmzks3WRxiA.qkdNKbMO94
+execute if entity @a[tag=i4f5A+OGsJsTLzXddzSmzks3WRxiA.qkdNKbMO94] unless entity @e[type=potion] run function tlkot:rqesu0ht-9ia3zvh33jkxrxzykp56drw_70d4vtc
+execute as @e[type=!player,scores={gQ6nNA9TDD3RdRRh=1..}] at @s run function tlkot:ykmn-2z0q-cstx96kkh1-z7i2_u39pm_i8hwajw2

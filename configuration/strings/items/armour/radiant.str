@@ -1,0 +1,79 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+RadiantPlateDescription <#LoreLine$Plate armour radiating with energy#>
+RadiantPlateDescription <#LoreLine$that only you can see... Could it be#>
+RadiantPlateDescription <#LoreLine$that many of E\'Siraph are garbed in#>
+RadiantPlateDescription <#LoreLine$things beyond your ken?#>
+RadiantPlateDescription <#StatsLine#>
+
+RadiantPlateHeadItemID diamond_helmet
+RadiantPlateHeadNameText Radiant Helmet
+RadiantPlateHeadNameColour gold
+RadiantPlateHeadName <#ItemName$RadiantPlateHeadNameText$RadiantPlateHeadNameColour#>
+RadiantPlateHeadDescription <#RadiantPlateDescription#>
+RadiantPlateHeadStats <#LoreLine$<#Armour#>: 2#>
+RadiantPlateHeadStats <#LoreLine$<#Weight#>: 1.0#>
+RadiantPlateHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:275548851,UUIDMost:-1485181482,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+RadiantPlateHeadDataTag display:{Name:"<#RadiantPlateHeadName#>",Lore:[<#RadiantPlateHeadDescription#>,<#RadiantPlateHeadStats#>]},<#RadiantPlateHeadTags#>
+RadiantPlateHead <#Item$RadiantPlateHeadItemID$RadiantPlateHeadDataTag#>
+
+RadiantPlateActiveChestItemID diamond_chestplate
+RadiantPlateActiveChestNameText Radiant Chestplate (Complete)
+RadiantPlateActiveChestNameColour gold
+RadiantPlateActiveChestName <#ItemName$RadiantPlateActiveChestNameText$RadiantPlateActiveChestNameColour#>
+RadiantPlateActiveChestDescription <#RadiantPlateDescription#>
+RadiantPlateActiveChestStats <#LoreLine$<#Armour#>: 3#>
+RadiantPlateActiveChestStats <#LoreLine$<#Weight#>: 1.5#>
+RadiantPlateActiveChestStats <#LoreLine$Steal More Energy From Killing Foes#>
+RadiantPlateActiveChestStats <#LoreLine$Attacks Stun Foes#>
+RadiantPlateActiveChestStats <#LoreLine$Poison Immunity#>
+RadiantPlateActiveChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:-1339158824,UUIDMost:-560282782,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+RadiantPlateActiveChestDataTag display:{Name:"<#RadiantPlateActiveChestName#>",Lore:[<#RadiantPlateActiveChestDescription#>,<#RadiantPlateActiveChestStats#>]},<#RadiantPlateActiveChestTags#>
+RadiantPlateActiveChest <#Item$RadiantPlateActiveChestItemID$RadiantPlateActiveChestDataTag#>
+
+RadiantPlateChestItemID diamond_chestplate
+RadiantPlateChestNameText Radiant Chestplate
+RadiantPlateChestNameColour gold
+RadiantPlateChestName <#ItemName$RadiantPlateChestNameText$RadiantPlateChestNameColour#>
+RadiantPlateChestDescription <#RadiantPlateDescription#>
+RadiantPlateChestStats <#LoreLine$<#Armour#>: 3#>
+RadiantPlateChestStats <#LoreLine$<#Weight#>: 1.5#>
+RadiantPlateChestStats <#LoreLine$(Steal More Energy From Killing Foes)#>
+RadiantPlateChestStats <#LoreLine$(Attacks Stun Foes)#>
+RadiantPlateChestStats <#LoreLine$(Poison Immunity)#>
+RadiantPlateChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:1529011595,UUIDMost:-1815537785,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+RadiantPlateChestDataTag display:{Name:"<#RadiantPlateChestName#>",Lore:[<#RadiantPlateChestDescription#>,<#RadiantPlateChestStats#>]},<#RadiantPlateChestTags#>
+RadiantPlateChest <#Item$RadiantPlateChestItemID$RadiantPlateChestDataTag#>
+
+RadiantPlateLegsItemID diamond_leggings
+RadiantPlateLegsNameText Radiant Leggings
+RadiantPlateLegsNameColour gold
+RadiantPlateLegsName <#ItemName$RadiantPlateLegsNameText$RadiantPlateLegsNameColour#>
+RadiantPlateLegsDescription <#RadiantPlateDescription#>
+RadiantPlateLegsStats <#LoreLine$<#Armour#>: 3#>
+RadiantPlateLegsStats <#LoreLine$<#Weight#>: 1.5#>
+RadiantPlateLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:1838229029,UUIDMost:953484050,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+RadiantPlateLegsDataTag display:{Name:"<#RadiantPlateLegsName#>",Lore:[<#RadiantPlateLegsDescription#>,<#RadiantPlateLegsStats#>]},<#RadiantPlateLegsTags#>
+RadiantPlateLegs <#Item$RadiantPlateLegsItemID$RadiantPlateLegsDataTag#>
+
+RadiantPlateFeetItemID diamond_boots
+RadiantPlateFeetNameText Radiant Boots
+RadiantPlateFeetNameColour gold
+RadiantPlateFeetName <#ItemName$RadiantPlateFeetNameText$RadiantPlateFeetNameColour#>
+RadiantPlateFeetDescription <#RadiantPlateDescription#>
+RadiantPlateFeetStats <#LoreLine$<#Armour#>: 1#>
+RadiantPlateFeetStats <#LoreLine$<#Weight#>: 0.5#>
+RadiantPlateFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1756515925,UUIDMost:-1884988107,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+RadiantPlateFeetDataTag display:{Name:"<#RadiantPlateFeetName#>",Lore:[<#RadiantPlateFeetDescription#>,<#RadiantPlateFeetStats#>]},<#RadiantPlateFeetTags#>
+RadiantPlateFeet <#Item$RadiantPlateFeetItemID$RadiantPlateFeetDataTag#>

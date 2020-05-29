@@ -1,0 +1,2 @@
+execute if entity @s[tag=faPKsR.KfpQGNnHJVHHCuaEixzn8gi8CPOlVGgBx] unless entity @e[tag=.D4t+4BmfO4fDvVRA19pCcvvjD0bA22CHdwoA5jk,tag=faPKsR.KfpQGNnHJVHHCuaEixzn8gi8CPOlVGgBx,distance=..1] run function tlkot:vhqz8-5jslv090otp-wn-a4kmrgsvc6dzt47ldda
+execute if entity @s[tag=0yeLf6br1BeRAq1d3eee-4xDVXfXRErcKicczkEB] unless entity @e[tag=.D4t+4BmfO4fDvVRA19pCcvvjD0bA22CHdwoA5jk,tag=0yeLf6br1BeRAq1d3eee-4xDVXfXRErcKicczkEB,distance=..2.4] run function tlkot:6gp_66o6fgi1zkc7y4zg887pfm8w9c3mn2m5ezit

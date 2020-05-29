@@ -1,0 +1,1 @@
+kill @e[type=!player,type=!armor_stand,x=-896,y=0,z=-736,dx=15,dy=19,dz=15]

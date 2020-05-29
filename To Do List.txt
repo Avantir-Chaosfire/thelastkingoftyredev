@@ -1,0 +1,45 @@
+To Do List:
+
+Foreword:
+	Brainstorm:
+		-Redstone/blood textures overlap in a way that seems hardcoded, can it be fixed?
+		-Perjurer backstab damage threshold can be randomly crossed by arrow crits?
+		-Spiders in general like to hug walls instead of attacking the player
+		-Man-Bulls roar can blast you way into the air
+		-Starving reapers sometimes take more than 22 damage to kill (e.g. 1 full bow shot + 2 greatsword strikes) - cave spiders too
+			-Possible explanations:
+				-They were healed
+				-You had weakness
+				-You were using Heart of the Golem
+				-You were using Tower Shield
+				-You didn't fully draw back the bow
+
+	Indefinitely postponed:
+*		-Probably need to trim out extra chunks/entities that I generated when testing Arc Lightning
+		-Punching bags stick around after leaving tutorial, if you return without dying
+		-Oogieface had one of the two final Dread Hosts in the shade caster fight permanently stop spawning
+		-Giant Spider Fang slow doesn't work with Radiant set equipped
+		-Fireball gives True Assassin achievement
+
+	Release Procedure:
+		-Make backup
+		-Clear ender chest
+		-Verify difficulty is locked to normal, not easy
+		-dev:reset/new_game
+		-Run around everywhere to generate the loot table and respawn npcs and update chunks
+		-dev:reset/release
+		-Enable command output
+		-Run "/fill -881 0 -753 -896 5 -768 glowstone replace minecraft:granite" to check if any loot tables are not generated
+		-Check all player tags (UpdateXX_XX, ActiveScroll, etc.)
+		-Disable command output
+		-Remove dev functions (Remove references in minecraft function tags)
+		-Zip up data pack (On Windows, direct files only (Not containing folder), remove .DS_Store files beforehand)
+		-Launch a copy of the world on the server and see if loading the data pack gives any error messages
+		-Check there's only one copy of every npc
+		-Disable cheats
+		-Rename save file to remove "[Dev]"
+
+-What happens when you Burning Salt the Evangelist? Does it agro?
+-You can skip to bow and upper depths from Ixinik
+-You can get out of bounds to Alaeborous Crypt by using enrage's speed to jump over the fence
+-Xinsu disappears?

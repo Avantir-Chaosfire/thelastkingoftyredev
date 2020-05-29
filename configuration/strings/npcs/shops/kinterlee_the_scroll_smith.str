@@ -1,0 +1,16 @@
+#include npcs/tags
+#include items/armour/exile_defender
+#include items/armour/assassin
+#include items/armour/mad_caster
+#include items/armour/hunter
+#include items/scrolls/blitz
+#include items/scrolls/arc_lightning
+#include items/scrolls/desolate
+#include items/scrolls/spacial_lapse
+
+#join functions ,
+
+KinterleeRecipes <#NPCUpgradeTradeOffer$ExileDefenderChest$BlitzScroll$ExileDefenderInactive1Chest#>
+KinterleeRecipes <#NPCUpgradeTradeOffer$AssassinChest$ArcLightningScroll$AssassinInactive1Chest#>
+KinterleeRecipes <#NPCUpgradeTradeOffer$MadCasterChest$DesolateScroll$MadCasterInactive1Chest#>
+KinterleeRecipes <#NPCUpgradeTradeOffer$HunterChest$SpacialLapseScroll$HunterInactive1Chest#>

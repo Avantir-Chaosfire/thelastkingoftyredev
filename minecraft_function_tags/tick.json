@@ -1,0 +1,8 @@
+{
+	"replace": true,
+	"values":
+	[
+		"dev:core/main",
+		"tlkot:core/main"
+	]
+}

@@ -1,0 +1,103 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+NobodyIDTag Nobody
+NobodyTags <#CommonNPCTags$plains$fletcher#>,Tags:["<#NobodyIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Nobody\"}"
+
+NobodyColour white
+NobodyLocation 394.181 99.5 245.036
+NobodyEngageRadius 6
+NobodyDisengageRadius 13
+
+NobodyMeetID 0
+NobodyMeetLines		0	$ 54	$ Well I see you made it up here. $
+NobodyMeetLines		1	$ 77	$ You are the first one to do so in quite some time. $
+NobodyMeetLines		2	$ 71	$ Would you like to engage in some business? $
+
+NobodyGreetID 1
+NobodyGreetLines	0	$ 48	$ Back for more business? $
+
+NobodyWhoID 2
+NobodyWhoLines		0	$ 26	$ Who am I? $
+NobodyWhoLines		1	$ 34	$ Well, I am nobody. $
+NobodyWhoLines		2	$ 54	$ That is, legally speaking, I don't exist. $
+NobodyWhoLines		3	$ 70	$ Now that doesn't matter much when it comes to the reapers, $
+NobodyWhoLines		4	$ 97	$ But it certainly helped me avoid the rather unpleasant circumstances of the undead. $
+
+NobodyBusinessID 3
+NobodyBusinessLines	0	$ 56	$ Hold on to your heads, I don't deal in goods. $
+NobodyBusinessLines	1	$ 39	$ I deal in information. $
+NobodyBusinessLines	2	$ 94	$ People love to know about things even when it doesn't concern them in the slightest. $
+NobodyBusinessLines	3	$ 73	$ But I suppose lots of things would concern you, now, don't they? $
+NobodyBusinessLines	4	$ 75	$ So what do you say, tell me your story and I'll tell you some more? $
+
+NobodyChoiceID 4
+NobodyChoiceLines	0	$ 44	$ Hmmm, what a peculiar story. $
+NobodyChoiceLines	1	$ 70	$ I can't say what you should choose either way, nor do I care. $
+NobodyChoiceLines	2	$ 84	$ I shall discover the results of your actions soon enough I should think. $
+NobodyChoiceLines	3	$ 57	$ But I would implore that you make a choice. $
+NobodyChoiceLines	4	$ 51	$ If you choose right, then we have won. $
+NobodyChoiceLines	5	$ 57	$ If you choose wrong, then you have learned. $
+NobodyChoiceLines	6	$ 109	$ None will come after you who can choose better, none who are inherently more likely to choose right. $
+NobodyChoiceLines	7	$ 61	$ Such a thing does not exist, particularly here. $
+NobodyChoiceLines	8	$ 70	$ The only real mistake you can make is to not choose at all. $
+NobodyChoiceLines	9	$ 108	$ If I have learned one thing from watching the reaping and seeing all those people... $
+NobodyChoiceLines	10	$ 59	$ Mothers, fathers, children... $
+NobodyChoiceLines	11	$ 90	$ All lose their way... Start hurting one another... $
+NobodyChoiceLines	12	$ 43	$ Don't give up like they did. $
+NobodyChoiceLines	13	$ 47	$ Don't let the Cocoon get you too. $
+
+NobodySkullID 5
+NobodySkullLines	0	$ 51	$ Well well, that's no head of yearning. $
+NobodySkullLines	1	$ 53	$ A skull, of Kurnas the Saviour you say? $
+NobodySkullLines	2	$ 55	$ It seems he did exactly what you mustn't. $
+NobodySkullLines	3	$ 67	$ He gave up, and made the only choice that didn't matter. $
+NobodySkullLines	4	$ 36	$ Don't be like him, hm? $
+
+NobodyGesthielID 6
+NobodyGesthielLines	0	$ 54	$ Ah, you found Gesthiel the Grey's robes. $
+NobodyGesthielLines	1	$ 87	$ Likely the most famous member of the Subjugate, aside from Ziyon the Great. $
+NobodyGesthielLines	2	$ 117	$ He had a particular fascination with undead, and their ability to preserve souls through times of hardship. $
+NobodyGesthielLines	3	$ 116	$ I think he saw it as a unique opportunity to save lives, but he never wanted to curse people like that forever. $
+NobodyGesthielLines	4	$ 89	$ Gesthiel the Grey spent most of his life searching for two legendary things, $
+NobodyGesthielLines	5	$ 61	$ Both of which many believed didn't exist at all. $
+NobodyGesthielLines	6	$ 59	$ First, he sought a method of unbinding souls. $
+NobodyGesthielLines	7	$ 71	$ Such a cast could cure any and all undead... $
+NobodyGesthielLines	8	$ 94	$ Without a doubt, it would change the world, but even now, it has never been discovered. $
+NobodyGesthielLines	9	$ 69	$ The second was a vessel known as the Ark of Eldern Souls. $
+NobodyGesthielLines	10	$ 67	$ Legend has it the Ark knows the true form of all souls. $
+NobodyGesthielLines	11	$ 111	$ I don't understand the precise meaning, but I think for Gesthiel the Grey, it would be proof he wasn't mad. $
+NobodyGesthielLines	12	$ 69	$ Although, mad or not, his inimicality was unmistakable. $
+
+NobodyKingID 7
+NobodyKingLines		0	$ 34	$ He's still alive?! $
+NobodyKingLines		1	$ 55	$ How... That bloody coward. $
+NobodyKingLines		2	$ 71	$ You've heard the idiom 'The captain goes down with the ship'? $
+NobodyKingLines		3	$ 48	$ That's what he was supposed to do. $
+NobodyKingLines		4	$ 35	$ He didn't, clearly. $
+NobodyKingLines		5	$ 45	$ How many died because of him? $
+NobodyKingLines		6	$ 57	$ How many went and murdered their friends? $
+NobodyKingLines		7	$ 35	$ ... $
+NobodyKingLines		8	$ 50	$ How could he be such a selfish fool? $
+NobodyKingLines		9	$ 50	$ The other three monarchs are dead. $
+NobodyKingLines		10	$ 44	$ They died trying to save us. $
+NobodyKingLines		11	$ 26	$ Not him. $
+NobodyKingLines		12	$ 57	$ If I ever see him again, I'll kill him myself. $
+
+NobodyActionbarDiscussions 	meet		$ <#NobodyMeetID#>	$ Meet
+NobodyActionbarDiscussions 	greet		$ <#NobodyGreetID#>	$ Greet
+
+NobodyChatLogDiscussions 	who		$ <#NobodyWhoID#>	$ Who
+NobodyChatLogDiscussions 	business	$ <#NobodyBusinessID#>	$ Business
+NobodyChatLogDiscussions 	choice		$ <#NobodyChoiceID#>	$ Choice
+NobodyChatLogDiscussions 	skull		$ <#NobodySkullID#>	$ Skull
+NobodyChatLogDiscussions 	gesthiel	$ <#NobodyGesthielID#>	$ Gesthiel
+NobodyChatLogDiscussions 	king		$ <#NobodyKingID#>	$ King
+
+NobodyBaseDialoguePrompt {<#DialoguePromptOption$Nobody$NobodyWho$Who are you?#>,"extra":[{<#DialoguePromptOptionFinal$Nobody$NobodyBusiness$Business?#>}]}
+NobodyChoiceDialoguePrompt {<#ActionPromptOptionFinal$Nobody$NobodyChoice$Explain the contradictions of the crystals#>}
+NobodySkullDialoguePrompt {<#ActionPromptOptionFinal$Nobody$NobodySkull$Show the skull of yearning#>}
+NobodyGesthielDialoguePrompt {<#ActionPromptOptionFinal$Nobody$NobodyGesthiel$Show the ragged clothing#>}
+NobodyKingDialoguePrompt {<#ActionPromptOptionFinal$Nobody$NobodyKing$Mention the Last King of Tyre#>}

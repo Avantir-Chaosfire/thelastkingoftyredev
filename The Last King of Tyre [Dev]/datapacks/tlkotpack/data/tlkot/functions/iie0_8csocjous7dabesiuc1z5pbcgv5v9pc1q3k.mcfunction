@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] run scoreboard players operation @s KzB4C48AY7vAzGBT = @s kxjlR81y8FVlY0BM
+execute if entity @s[scores={KzB4C48AY7vAzGBT=1..}] run function tlkot:l6hja_nh7vo_2yuh-dge_st8j_-ni_mf_gz25z_g

@@ -1,0 +1,33 @@
+#include attribute_modifiers
+#include exploding_creeper
+#include items/armour/dull
+#include items/weapons/battle_axe
+
+DarTags CustomName:"{\"text\":\"Dar the Vicious\"}",PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:5},{Name:"generic.movementSpeed",Base:0.27}],Health:1000.0f,Tags:["Dar","Human","DarCleanup","DarVersioned","Versioned","Dumpable","EnemyUnit","UsesHitScore"],ArmorItems:[{id:"minecraft:<#DullPlateFeetItemID#>",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"minecraft:<#DullPlateLegsItemID#>",Count:1b,tag:{<#NoArmourModifier2#>}},{id:"minecraft:<#DullPlateChestItemID#>",Count:1b,tag:{<#NoArmourModifier3#>}},{id:"minecraft:<#DullPlateHeadItemID#>",Count:1b,tag:{<#NoArmourModifier4#>}}],HandItems:[{id:"minecraft:<#BaseBattleAxeItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}]
+
+DarBackstabFacingMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DarBackstabFacingMarker","DarCleanup","Killable"]
+
+DarAttackUnleashDread 0
+DarAttackFireballs 1
+DarAttackReturn 2
+DarAttackCharge 3
+DarAttackLineSmash 4
+DarAttackAoESlam 5
+DarAttackTeleport 6
+
+DarCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Dar the Vicious\"}",ExplosionRadius:3b‘
+
+DarReturnTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DarReturn","DarCleanup","DarVersioned","Killable"]
+DarChargeTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DarCharge","DarCleanup","DarVersioned","Killable"]
+
+DarLineSmashBaseTags NoGravity:1b,Invulnerable:1b,NoAI:1b,Silent:1b,Tags:["DarLineSmash","DarCleanup","DarVersioned","Dumpable","<1>"],ActiveEffects:[{Id:24b,Duration:32767,ShowParticles:false}]
+DarLineSmash1Tags <#DarLineSmashBaseTags$N40#>
+DarLineSmash2Tags <#DarLineSmashBaseTags$0#>
+DarLineSmash3Tags <#DarLineSmashBaseTags$40#>
+DarLineSmash4Tags <#DarLineSmashBaseTags$N20#>
+DarLineSmash5Tags <#DarLineSmashBaseTags$20#>
+
+DarFireballSourceMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DarFireballSourceMarker"]
+DarFireballAimMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DarFireballAimMarker"]
+
+DarFireballTags direction:[0.0d,0.0d,0.0d],Tags:["DarFireball","DarCleanup","DarVersioned","Killable"],ExplosionPower:1

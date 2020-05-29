@@ -1,0 +1,17 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+AnInsightOnLanguageItemID written_book
+AnInsightOnLanguageAuthor Indridos Ikier the Professor
+AnInsightOnLanguageTitle An Insight on Language
+AnInsightOnLanguagePages Many a time it has bothered me how we use two different languages so regularly. Why is it that we do not use one? What is the problem with one that creating a second solves? To me it seems only to confuse our children and to create a divide between the laws as
+AnInsightOnLanguagePages they are and the laws as we know them; it clutters and confuses legal issues of intent and understanding.<Newline><Newline>But imagine if we did not have Voka. Imagine if our labels were written and our formalities spoken in Ariclaik. I would not envy the jobs of the lawmakers nor that of
+AnInsightOnLanguagePages the judges. How is one to know that which is uncertain? Therein lies our problem. We have constructed two languages at extreme ends of the spectrum, in Ariclaik we cannot know, but in Voka we cannot see.<Newline><Newline>Should we decide to construct a new language together
+AnInsightOnLanguagePages (Not that we would, or should), it seems to me it would be prudent to construct one capable of clearly distinguishing between the arts and the sciences, the literal and the metaphorical, the definitions and the connotations. As is, we can refer to these differences, but we cannot use them
+AnInsightOnLanguagePages together without bridging languages and confusing grammar; A hopelessly complex endeavour.
+
+AnInsightOnLanguageDataTag author:"<#AnInsightOnLanguageAuthor#>",title:"<#AnInsightOnLanguageTitle#>",resolved:1b,pages:["<#AnInsightOnLanguagePages#>"]
+AnInsightOnLanguage <#Item$AnInsightOnLanguageItemID$AnInsightOnLanguageDataTag#>

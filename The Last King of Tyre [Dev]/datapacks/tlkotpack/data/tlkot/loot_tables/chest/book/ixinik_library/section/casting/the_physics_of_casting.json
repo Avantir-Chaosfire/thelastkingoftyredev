@@ -1,0 +1,35 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Casting Professor Cao Jerfir\",title:\"The Foundations of Casting\",resolved:1b,pages:[\"§oCasting is the art of §othe mental manipulation §oof energy.§r
+
+This is the standard definition recited by those who know no better. Frankly, it makes casting sound rather like magic. The way I see it, magic has two definitions: 1. Science not yet understood.\",\"2. Physical laws on the macroscopic scale.
+
+For more information on the former definition, see C. Clarke's book on The Relationship Between Magic and Science. For more information on the latter, see my book on Fictional Definitions.\",\"Aside from the fact that the second definition is realistically impossible, casting fits neither of these definitions, and so it is not magic. The formal and correct definition of casting is: §oThe science of mental §ointeraction through §oimmersion in the §oenergy flows and the §oart of manipulating the\",\"§oenergy flows through §othe application of said §oscience.
+
+§rIn order to cast, one must first align their thoughts and bodies with the energy flows so as to allow one's soul to move beyond its normal bounds within the body's energy. This is as difficult as it sounds,\",\"and is the reason why you don't find people teaching themselves to cast. Long ago, two people discovered one way to do this, and that is the way all casters since have done it. Many theoretical casters believe there are many ways for this to be done, and different ways of aligning the\",\"soul have different effects on one's casting. What these could be is hard to say. Once one has mingled their soul with external energy flows, they can metaphysically reach through the energy flows to affect the interactions and paths of various energy flows at a distance.\",\"Whenever one affects the surrounding energy flows, it requires they use their own energy to do so, killing them if it takes too much. Fortunately, it is possible to use a technique called amplification, which involves using minimal energy to release or redirect a large\",\"amount of energy into the task at hand. This can significantly reduce the energy cost of casting, albeit at increased complexity. Due to this increase in complexity, it is not always humanly possible to perform these more efficient casts. To solve the problems of complexity and\",\"efficiency (Many casts cannot be amplified at all), scrolls were invented. Scrolls are objects created by casting, usually parchment, that bear the given name of the cast they represent, the class of said cast and often a short description. They bear many other markings besides, though not\",\"that have meaning in this or any other language and whose nature is far too complicated to discuss here. Scrolls perform some or all of the work for the caster, allowing for greater precision and efficiency when casting. More complex casts with higher energy costs can\",\"become realistic with scrolls, and they can even allow novices with only a basic education to cast.
+
+Casts and the scrolls that represent them are divided into classes. Higher classes are more complex and costly, while lower classes are less so. As a\",\"result, The lower classes tend to be quite efficient, while the higher classes tend to be quite powerful. Do note though, that class is determined entirely by the input required for a cast when cast without a scroll. Output and representation as a scroll has no bearing\",\"on class. Without a scroll, an average caster could barely cast a class 5 without dying. With scrolls, a caster would only need to be slightly advanced to cast a class 5. Class 6 has never been done. For novices who normally couldn't cast, class 4 is the absolute limit short of them being\",\"able to cast without the help of scrolls.
+
+There is a strange occurrence that arouses in regards to class 1, for those casts are simple enough that scrolls do not help with them. As such, there were no class 1 scrolls until the generic scroll was invented,\",\"specifically for use with class 1. Unlike other scrolls, it doesn't assist in performing a specific cast, but rather just in immersing oneself into the energy flows. Due to the complexities of actions thereforth, it has only (So far) allowed novices to cast class 1 casts.\",\"There are some casters who specialize in theoretical casting. They do very little casting themselves, but rather develop the surrounding science. It is they who create casts and design scrolls, and they who classify casts into classes.\",\"There are various ranks of casting, based upon one's ability. First, there is the average person who knows not a thing about casting. Next is the novice who knows the theory and application of casting, but cannot actually cast themself. After reading this, you will not be considered a\",\"novice. Next is actual casters, which is where the majority of casters lie. Theoretical casters are next, and after them comes the dynamic casters. These are the casters who need no memorized or written cast or scroll, they can cast just about anything they can\",\"imagine with a high success rate. The final rank of casters only exist in theory, as their existence has not yet been documented. Supposedly, these dual-minded casters could immerse themselves in the energy flows in various ways, allowing for completely\",\"different styles of casting.
+
+This has been my brief introduction to the foundations of casting. For more information, please join a casting school.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

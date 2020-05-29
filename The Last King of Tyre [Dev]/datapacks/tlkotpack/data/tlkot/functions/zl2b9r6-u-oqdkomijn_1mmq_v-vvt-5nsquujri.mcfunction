@@ -1,0 +1,2 @@
+give @a minecraft:written_book{author:"Xinsu the Quiet Guardian",title:"The Tuning Fork",resolved:1b,pages:["Use the tuning fork in close proximity to resonating crystals to capture their frequencies. Use it again in the Circle of Stones to release the captive frequencies upon those stones and destroy the resonating crystals for good."]}
+tellraw @a {"text": "Obtained ", "extra": [{"text": "Tuning Fork Guide", "color": "white"}]}

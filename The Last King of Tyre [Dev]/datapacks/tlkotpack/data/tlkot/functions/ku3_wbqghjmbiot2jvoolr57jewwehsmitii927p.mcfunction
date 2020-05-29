@@ -1,0 +1,3 @@
+execute unless entity @a[scores={T.d.s02MX+2y8qqP=4..6}] positioned 45.643 169 73.505 if entity @a[distance=..1.5] run function tlkot:w26obiabsas1hy3u8b6dch1y4pj__-n-ypf0im_7
+execute if entity @a[scores={T.d.s02MX+2y8qqP=4,g.K-oAjQnR4u8FzB=0},x=38,y=164,z=72,dx=8,dy=3,dz=4] run function tlkot:sudzka6yn5v59onjhs1zxygadcjx3tckirpwe3b0
+execute if entity @a[scores={T.d.s02MX+2y8qqP=5},x=45,y=170,z=71,dx=2,dy=0,dz=2] run function tlkot:484m05y2dufh5_28iena4ke1wmqkoj6aw38oi1ny

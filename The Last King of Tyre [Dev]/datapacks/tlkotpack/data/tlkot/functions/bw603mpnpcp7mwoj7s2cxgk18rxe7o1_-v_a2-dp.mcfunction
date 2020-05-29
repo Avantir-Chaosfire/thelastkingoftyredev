@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 129
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Even if the black crystal had never been worshipped, even if Hoiro had never been founded,", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Even if the black crystal had never been worshipped, even if Hoiro had never been founded,", "color": "white", "italic": true}

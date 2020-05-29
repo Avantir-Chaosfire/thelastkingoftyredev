@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 132
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Inhumane, cruel, proud and judgemental, to be sure, but he believes the means justify the ends.", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Inhumane, cruel, proud and judgemental, to be sure, but he believes the means justify the ends.", "color": "white", "italic": true}

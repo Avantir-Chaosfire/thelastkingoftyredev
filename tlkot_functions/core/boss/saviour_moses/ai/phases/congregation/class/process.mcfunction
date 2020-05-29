@@ -1,0 +1,1 @@
+execute if entity @s[scores={MosesCongSize=..<2>}] run function tlkot:core/boss/saviour_moses/ai/phases/congregation/<1>/enter

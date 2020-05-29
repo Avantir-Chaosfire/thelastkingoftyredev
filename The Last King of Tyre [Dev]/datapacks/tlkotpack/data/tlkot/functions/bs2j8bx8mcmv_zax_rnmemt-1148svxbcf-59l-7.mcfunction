@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["uRJyAmmNl_dqCoo_97drKBOyRms17bEUW-o_I_Yq","SgqMoC7OABA8PwFR60+2.sB7g9i1fvq5ab3CAlEJ","fe5wsujtF9H7ZwqdrT9bXcZKwFwfoCksxwL-aW55","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute as @e[tag=uRJyAmmNl_dqCoo_97drKBOyRms17bEUW-o_I_Yq,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:952kyy_tmoz4n_1__y69jnafteltxyj46-xf8l1z

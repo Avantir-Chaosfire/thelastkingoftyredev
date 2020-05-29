@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={D_964L4Udf0MzIey=8..}] 0AEJXSUAuG6rKLXb 0

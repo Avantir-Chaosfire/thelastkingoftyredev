@@ -1,0 +1,33 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+AshenTalismanNameColour red
+
+AshenTalismanItemID popped_chorus_fruit
+AshenTalismanNameText Ashen Talisman
+AshenTalismanName <#ItemName$AshenTalismanNameText$AshenTalismanNameColour#>
+AshenTalismanDescription <#LoreLine$An old talisman thought to fend off#>
+AshenTalismanDescription <#LoreLine$one\'s descent to a reaper. Expertly#>
+AshenTalismanDescription <#LoreLine$crafted by brilliant casters, it should#>
+AshenTalismanDescription <#LoreLine$work. But it doesn\'t. Not for that#>
+AshenTalismanDescription <#LoreLine$purpose anyways.#>
+AshenTalismanDescription <#StatsLine#>
+AshenTalismanStats <#LoreLine$(+50% <#Damage#>)#>
+
+AshenTalismanDataTag display:{Name:"<#AshenTalismanName#>",Lore:[<#AshenTalismanDescription#>,<#AshenTalismanStats#>]},HoldingID:<#AshenTalismanHoldingID#>
+AshenTalisman <#Item$AshenTalismanItemID$AshenTalismanDataTag#>
+
+AshenTalismanActiveItemID popped_chorus_fruit
+AshenTalismanActiveNameText Ashen Talisman (Active)
+AshenTalismanActiveName <#ItemName$AshenTalismanActiveNameText$AshenTalismanNameColour#>
+AshenTalismanActiveDescription <#AshenTalismanDescription#>
+AshenTalismanActiveStats <#LoreLine$+50% <#Damage#>#>
+AshenTalismanActiveTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.5,Operation:2,Slot:"offhand",UUIDLeast:488502,UUIDMost:3793003}],HideFlags:2,HoldingID:<#AshenTalismanActiveHoldingID#>
+
+AshenTalismanActiveDataTag display:{Name:"<#AshenTalismanActiveName#>",Lore:[<#AshenTalismanActiveDescription#>,<#AshenTalismanActiveStats#>]},<#AshenTalismanActiveTags#>
+AshenTalismanActive <#Item$AshenTalismanItemID$AshenTalismanActiveDataTag#>

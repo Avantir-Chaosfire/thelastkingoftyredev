@@ -1,0 +1,2 @@
+execute at @a run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS","U+rJ+da-r38s4hOf9fm8cg4pur4IEvZgiW-W2+SD","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute as @e[tag=aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS,tag=U+rJ+da-r38s4hOf9fm8cg4pur4IEvZgiW-W2+SD] run function tlkot:g3psc9olm517ua3taex9c68uno3srlhti-xigi67

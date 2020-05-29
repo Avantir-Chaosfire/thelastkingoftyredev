@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ConcentrateItemID written_book
+ConcentrateAuthor Avantir_Yihn
+ConcentrateTitle Concentrate
+ConcentratePages You can concentrate the yearning energy in your blood to empower yourself. Later, you shall find a way to change what you concentrate this energy on.
+ConcentratePages Willpower<Newline>-0.05s Scroll Cast Time/Kill<Newline><Newline>Endurance<Newline>+0.04 Stamina Regeneration/Kill<Newline><Newline>Vitality<Newline>+0.05s Combo Time/Kill<Newline>Combo Time is the maximum time allowed between kills for increased health
+ConcentratePages regeneration.
+
+ConcentrateDataTag author:"<#ConcentrateAuthor#>",title:"<#ConcentrateTitle#>",resolved:1b,pages:["<#ConcentratePages#>"]
+Concentrate <#Item$ConcentrateItemID$ConcentrateDataTag#>

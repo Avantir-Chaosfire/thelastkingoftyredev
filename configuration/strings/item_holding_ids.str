@@ -1,0 +1,121 @@
+UniqueHoldingID 0
+
+BaseScimitarHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+RefinedScimitarHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SharpenedScimitarHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BaseMaceHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BloodyMaceHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SteadyMaceHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BaseKatanaHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SharpenedKatanaHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SwiftKatanaHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BaseRapierHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BloodyRapierHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+GuardedRapierHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+Base1HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Long1HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Steady1HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Base2HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Long2HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Steady2HBlackOakStaffHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+Base1HHalberdHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Bloody1HHalberdHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Nimble1HHalberdHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Base2HHalberdHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Bloody2HHalberdHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Nimble2HHalberdHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BaseBattleAxeHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BloodyBattleAxeHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+HeavyBattleAxeHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+Base1HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Refined1HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Heavy1HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Base2HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Refined2HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Heavy2HGreatswordHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+Base1HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Crushing1HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Heavy1HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Base2HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Crushing2HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+Heavy2HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+CursedLifeBaneHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+PurifiedLifeBaneHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+DullScytheHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+RadiantScytheHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+DaggerHoldingID				<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BurningIronHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+GiantSpiderFangHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SacrificialKnifeHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+TempestHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+FirstFishingRodID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+SpiritBoomerangHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ObscuringSightHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BloodSigilHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+TuningForkHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BloodlettingKnifeHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ResonanceSigilHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+EnrageScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BlitzScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+RainScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+AerokinesisScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ArcLightningScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CommunionScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+DesolateScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+FireballScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+HyperchargeScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+MiasmaScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+EnergyTapScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+DeathPactScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SpacialLapseScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+FireSwarmScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CallThroughTheDarkScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+IncendiaryScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+LastFishingRodID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+EmptyFlaskHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BurningSaltHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+DesiccatingCarapaceHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+AshenTalismanHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+AshenTalismanActiveHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CounterweightHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+HeartOfTheGolemHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ReceptacleHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ResonatingCrystalShardHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+SeeingStarHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+ColdIncenseCasketHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BucklerHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+BucklerDisabledHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+CursedShieldHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CursedShieldDisabledHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+GongShieldHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+GongShieldDisabledHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+TowerShieldHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+TowerShieldDisabledHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
+BlankScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CharredDeathPactScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+FadedFireSwarmScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+TornSpacialLapseScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>

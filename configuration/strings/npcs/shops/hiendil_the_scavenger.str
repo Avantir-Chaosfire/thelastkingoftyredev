@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+HiendilRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$21#>
+HiendilRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$PoisonArrow$1#>
+HiendilRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$BurningSalt$4#>
+HiendilRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$NecromancersSlip$1#>
+
+HiendilExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$2#>
+HiendilExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$10$PoisonArrow$1#>
+HiendilExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$5$BurningSalt$2#>
+HiendilExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$10$NecromancersSlip$1#>
+
+HiendilStash flare		$ Flare			$ 43
+HiendilStash poison_arrow	$ PoisonArrow		$ 3
+HiendilStash burning_salt	$ BurningSalt		$ 5
+HiendilStash necromancers_slip	$ NecromancersSlip	$ 4
+HiendilStash head_of_yearning	$ HeadOfYearning	$ 3

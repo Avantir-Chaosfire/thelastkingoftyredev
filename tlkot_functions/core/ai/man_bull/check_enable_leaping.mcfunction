@@ -1,0 +1,2 @@
+execute if entity @s[tag=!DeathOpensThrones] run function tlkot:<~>/enable_leaping
+execute if entity @s[tag=DeathOpensThrones] if entity @a[scores={ThronesOpen=0}] run function tlkot:<~>/enable_leaping

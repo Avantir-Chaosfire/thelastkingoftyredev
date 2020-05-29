@@ -1,0 +1,2 @@
+execute if block ~ ~-0.5 ~ minecraft:end_portal_frame run function tlkot:fsc6hwrpe4i4si2a25nzlkhsj24541rb6_cxvu5c
+execute if block ~ ~-0.5 ~ minecraft:nether_bricks run function tlkot:fsc6hwrpe4i4si2a25nzlkhsj24541rb6_cxvu5c

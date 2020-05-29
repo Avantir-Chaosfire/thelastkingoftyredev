@@ -1,0 +1,3 @@
+scoreboard players set @a ia-otN-0ZQk4D86J 110
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "And its whole being seems to be permeated with some great sadness, and an irrestible determination.", "color": "dark_gray", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "And its whole being seems to be permeated with some great sadness, and an irrestible determination.", "color": "white", "italic": true}

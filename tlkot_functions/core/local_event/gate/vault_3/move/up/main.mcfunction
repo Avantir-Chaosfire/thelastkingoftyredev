@@ -1,0 +1,2 @@
+execute if entity @a[scores={GateTime=9}] run function tlkot:core/local_event/gate/vault_3/move/up/1
+execute if entity @a[scores={GateTime=1}] run function tlkot:core/local_event/gate/vault_3/move/up/2

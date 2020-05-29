@@ -1,0 +1,2 @@
+execute if block -328 180 320 minecraft:lever[powered=true] run scoreboard players set @a WhiteNPCSpeech 1
+execute if block -328 180 320 minecraft:lever[powered=false] run scoreboard players set @a WhiteNPCSpeech 0

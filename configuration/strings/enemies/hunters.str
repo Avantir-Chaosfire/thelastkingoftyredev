@@ -1,0 +1,24 @@
+#include attribute_modifiers
+#include versioned_tags
+
+HunterCustomName ‘CustomName:"{\"text\":\"Undead Hunter Reaper\"}"‘
+
+HunterEmptyHandedTags ‘HandItems:[{},{}],Attributes:[{Name:"generic.movementSpeed",Base:0},{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:0}]‘
+
+HunterWeaponsTags ‘HandItems:[{id:"minecraft:bow",Count:1b},{}],Attributes:[{Name:"generic.movementSpeed",Base:0.2},{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:0}]‘
+
+HunterAllHealth 46000
+
+HunterAllTags ‘PersistenceRequired:1b,<#HunterWeaponsTags#>,ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier3#>}},{id:"leather_helmet",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier4#>}}],<#HunterCustomName#>,Tags:["Enemy.Hunter-All",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Hunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘
+
+HunterNoHelmetHealth 46000
+
+HunterNoHelmetTags ‘PersistenceRequired:1b,<#HunterWeaponsTags#>,ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier3#>}},{}],<#HunterCustomName#>,Tags:["Enemy.Hunter-NoHelmet",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Hunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘
+
+HunterNoChestHealth 46000
+
+HunterNoChestTags ‘PersistenceRequired:1b,<#HunterWeaponsTags#>,ArmorItems:[{id:"iron_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{},{id:"leather_helmet",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier4#>}}],<#HunterCustomName#>,Tags:["Enemy.Hunter-NoChest",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Hunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘
+
+HunterChainHelmetHealth 46000
+
+HunterChainHelmetTags ‘PersistenceRequired:1b,<#HunterWeaponsTags#>,ArmorItems:[{id:"iron_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier3#>}},{id:"chainmail_helmet",Count:1b,tag:{<#NoArmourModifier4#>}}],<#HunterCustomName#>,Tags:["Enemy.Hunter-ChainHelmet",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Hunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘

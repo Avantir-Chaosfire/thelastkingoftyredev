@@ -1,0 +1,3 @@
+scoreboard players set @a mf9L5CC4VvVuq_LG 99
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "A band of armed undead came along and slew any and all Subjugate members they could find.", "color": "dark_green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "A band of armed undead came along and slew any and all Subjugate members they could find.", "color": "white", "italic": true}

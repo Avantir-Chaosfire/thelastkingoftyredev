@@ -1,0 +1,2 @@
+fill <#BaseX#> 0 <#BaseZ#> <#!BaseX 15 +#> 127 <#!BaseZ 15 +#> minecraft:granite replace minecraft:stone
+fill <#BaseX#> 128 <#BaseZ#> <#!BaseX 15 +#> 255 <#!BaseZ 15 +#> minecraft:granite replace minecraft:stone

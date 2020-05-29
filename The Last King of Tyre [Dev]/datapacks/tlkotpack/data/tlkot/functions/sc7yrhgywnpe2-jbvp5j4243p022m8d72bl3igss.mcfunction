@@ -1,0 +1,2 @@
+execute if block 198 103 393 minecraft:dead_tube_coral_fan if entity @a[scores={_RHfAZAPS4NgzhOe=0}] run function tlkot:p4xs8ryyn7l37cq3p2yu5olcwoi0ss6ae-bgr6fv
+execute if block 198 103 393 minecraft:air if entity @a[scores={_RHfAZAPS4NgzhOe=1}] run function tlkot:8j-t--qyal8-doqux2-swoshu68t7t3ee-a9-izi

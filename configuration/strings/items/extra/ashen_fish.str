@@ -1,0 +1,21 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+AshenFishItemID cod
+AshenFishNameText Ashen Fish
+AshenFishNameColour dark_aqua
+AshenFishName <#ItemName$AshenFishNameText$AshenFishNameColour#>
+AshenFishDescription <#LoreLine$A charm distributed to the undead#>
+AshenFishDescription <#LoreLine$of the Depths in the name of#>
+AshenFishDescription <#LoreLine$Saviour Moses. It appears little more#>
+AshenFishDescription <#LoreLine$than a raw fish stuffed full of ash,#>
+AshenFishDescription <#LoreLine$but it bears much more significance#>
+AshenFishDescription <#LoreLine$than that.#>
+
+AshenFishDataTag display:{Name:"<#AshenFishName#>",Lore:[<#AshenFishDescription#>]}
+AshenFish <#Item$AshenFishItemID$AshenFishDataTag#>
+
+AshenFishDroppedItemTags Item:{id:"minecraft:<#AshenFishItemID#>",Damage:0,Count:1,tag:{<#AshenFishDataTag#>}},Tags:["HasAI","AI.FishSpawn","Relevant","New","Versioned","Killable"]

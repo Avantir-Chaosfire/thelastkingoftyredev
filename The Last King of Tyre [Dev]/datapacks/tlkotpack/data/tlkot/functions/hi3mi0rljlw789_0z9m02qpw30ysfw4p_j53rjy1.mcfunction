@@ -1,0 +1,17 @@
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=0,ke.nXkSNswbs3xI_=0,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 1
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=2}] huwi+YuwDB.Nvers 3
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=4}] huwi+YuwDB.Nvers 5
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=10..13}] huwi+YuwDB.Nvers 14
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=9,lQb_PdyMTVMKCV3+=0,PyfSRUxlgQpvtIXN=1,hy3u_OGAlpwlZn5d=1,Y9Y5-McscoS2X2Tw=1,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 10
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=9,lQb_PdyMTVMKCV3+=1,PyfSRUxlgQpvtIXN=0,hy3u_OGAlpwlZn5d=1,Y9Y5-McscoS2X2Tw=1,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 11
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=9,lQb_PdyMTVMKCV3+=1,PyfSRUxlgQpvtIXN=1,hy3u_OGAlpwlZn5d=0,Y9Y5-McscoS2X2Tw=1,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 12
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=9,lQb_PdyMTVMKCV3+=1,PyfSRUxlgQpvtIXN=1,hy3u_OGAlpwlZn5d=1,Y9Y5-McscoS2X2Tw=0,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 13
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=15,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 16
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=9..14,ke.nXkSNswbs3xI_=4..,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 15
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=6..8}] huwi+YuwDB.Nvers 9
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=0..1,ke.nXkSNswbs3xI_=1..,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 6
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=3,ke.nXkSNswbs3xI_=2..,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 7
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=5,ke.nXkSNswbs3xI_=2..,k4OzSIx-_awyPAr0=0}] huwi+YuwDB.Nvers 8
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=17..18}] huwi+YuwDB.Nvers 19
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=..16,JHKKMZ7ortKFUDND=2}] huwi+YuwDB.Nvers 17
+scoreboard players set @a[scores={huwi+YuwDB.Nvers=..16,JHKKMZ7ortKFUDND=0,k4OzSIx-_awyPAr0=1..}] huwi+YuwDB.Nvers 18

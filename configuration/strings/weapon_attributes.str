@@ -1,0 +1,10 @@
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+WeaponStats '{"text":"Damage: <#<1>Damage#>","color":"gray"}'
+WeaponStats '{"text":"Stamina Cost: <#<1>StaminaCost#>","color":"gray"}'
+WeaponStats '{"text":"<#StaminaRegenerationDelay#>: <#Time$<#!<1>RegenDelay 20 /#>#>","color":"gray"}'

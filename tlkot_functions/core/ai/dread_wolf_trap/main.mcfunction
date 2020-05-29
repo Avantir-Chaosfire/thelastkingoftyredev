@@ -1,0 +1,1 @@
+execute if entity @a[distance=..2] run function tlkot:core/ai/dread_wolf_trap/trigger

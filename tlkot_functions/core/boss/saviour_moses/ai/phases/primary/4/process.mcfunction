@@ -1,0 +1,1 @@
+execute if entity @a[scores={MosesHealth=..0}] run function tlkot:core/boss/saviour_moses/victory

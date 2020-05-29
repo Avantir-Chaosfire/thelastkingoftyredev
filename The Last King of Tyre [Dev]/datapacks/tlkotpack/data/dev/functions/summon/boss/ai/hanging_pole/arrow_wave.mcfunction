@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Marker:1b,CustomName:"{\"text\":\"Arrow Wave\"}",Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz","amEuohKK+tsHhbI9Tz2.kVFp-VgjQKE5ZwfT1DFk","6B+5nLuSHVXS7NRWQaUzZB2k.HlSzcH1uIfj.4BQ"]}

@@ -1,0 +1,99 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+AgelessOneColour dark_red
+AgelessOneLocation -888 0 -728
+AgelessOneEngageRadius 1000000
+AgelessOneDisengageRadius 2000000
+
+AgelessOneInitialSilenceID 0
+
+AgelessOneIntroID 1
+AgelessOneIntroLines		0	$ 29	$ . . . wake up . . . $
+AgelessOneIntroLines		1	$ 29	$ Wake up! $
+AgelessOneIntroLines		2	$ 104	$ Your days wandering the corridors of your mind in self pity are over, $
+AgelessOneIntroLines		3	$ 78	$ For the very Last King of Tyre calls... $
+AgelessOneIntroLines		4	$ 39	$ Do you remember? $
+AgelessOneIntroLines		5	$ 23	$ No? $
+AgelessOneIntroLines		6	$ 50	$ Then hear this, the truth. $
+AgelessOneIntroLines		7	$ 102	$ This land of E'Siraph is dead, its people all lost or gone... $
+AgelessOneIntroLines		8	$ 74	$ And far away an old Cocoon hungers for souls. $
+AgelessOneIntroLines		9	$ 65	$ An old hero... an utter fool. $
+AgelessOneIntroLines		10	$ 38	$ You are needed! $
+AgelessOneIntroLines		11	$ 1	$ WAKE UP! $ ,"bold":true
+
+AgelessOnePostIntroSilenceID 2
+
+AgelessOneDeathToMosesID 3
+AgelessOneDeathToMosesLines	0	$ 89	$ Should you choose to let Saviour Moses live... $
+AgelessOneDeathToMosesLines	1	$ 90	$ Seek the Gatekeeper in New Hoiro, and ask her for the truth. $
+AgelessOneDeathToMosesLines	2	$ 35	$ ... $
+AgelessOneDeathToMosesLines	3	$ 50	$ He's not so wrong, you know. $
+
+AgelessOnePostDeathToMosesSilenceID 4
+
+AgelessOneRambleLines		0	$ 30	$ Welcome. $
+AgelessOneRambleLines		1	$ 74	$ I see you have spoken to the Last King of Tyre. $
+AgelessOneRambleLines		2	$ 161	$ And, you have been... dutifully... reactivating the sacrifices' resonating crystals for him, hm? $
+AgelessOneRambleLines		3	$ 108	$ That's very noble and misguided of you, but it is not why I brought you here. $
+AgelessOneRambleLines		4	$ 92	$ I am the Ageless One of Kirion, and this is what you must know. $
+AgelessOneRambleLines		5	$ 51	$ Reapings are inevitable. $
+AgelessOneRambleLines		6	$ 129	$ Even if the black crystal had never been worshipped, even if Hoiro had never been founded, $
+AgelessOneRambleLines		7	$ 135	$ Yes, even if all humans still lived on the southern continent and never crossed the stormy sea, $
+AgelessOneRambleLines		8	$ 84	$ Even then, the reapings would have begun, eventually. $
+AgelessOneRambleLines		9	$ 59	$ But, it doesn't have to be this way. $
+AgelessOneRambleLines		10	$ 98	$ Every man, woman and child has the power to change their own fate. $
+AgelessOneRambleLines		11	$ 87	$ All together, everyone can change the fate of humanity. $
+AgelessOneRambleLines		12	$ 116	$ Many people already know the truth, perhaps you have met some of them yourself. $
+AgelessOneRambleLines		13	$ 60	$ What your world needs now, is time. $
+AgelessOneRambleLines		14	$ 45	$ Time to see the truth. $
+AgelessOneRambleLines		15	$ <1>	$ <2> $
+AgelessOneRambleLines		16	$ <3>	$ <4> $
+AgelessOneRambleLines		17	$ 144	$ Whether you like it or not, you must play the role of divine judge, for you alone have the power to choose. $
+AgelessOneRambleLines		18	$ 92	$ Indeed, even refusing to choose is a choice in and of itself. $
+AgelessOneRambleLines		19	$ 104	$ With that power, you must choose to destroy the resonating crystals. $
+AgelessOneRambleLines		20	$ 66	$ Ensure no one can ever purge this land. $
+AgelessOneRambleLines		21	$ 117	$ Condemn the last survivors here to death, for their deaths will save more lives. $
+AgelessOneRambleLines		22	$ 116	$ The Circle of Stones is hidden south of the lake, in a valley along the Frontier. $
+AgelessOneRambleLines		23	$ 59	$ Find the archway along the path. $
+AgelessOneRambleLines		24	$ 113	$ Pass through it, then circle back around to pass through it again five times. $
+AgelessOneRambleLines		25	$ 78	$ Six times in total, forward through the archway. $
+AgelessOneRambleLines		26	$ 89	$ The Circle of Stones will appear at the end of the valley. $
+AgelessOneRambleLines		27	$ 78	$ There, you can destroy the resonating crystals. $
+AgelessOneRambleLines		28	$ 81	$ There, you can determine the right end for this all. $
+
+AgelessOneRambleMosesDeadID 5
+AgelessOneRambleMosesDeadLines <#AgelessOneRambleLines$114$Saviour Moses saw this, in his own unique way, and in that way he was not so wrong.$135$Inhumane, cruel, proud and judgemental, to be sure, but he believed the means justified the ends.#>
+
+AgelessOneRambleMosesAliveID 6
+AgelessOneRambleMosesAliveLines <#AgelessOneRambleLines$114$Saviour Moses sees this, in his own unique way, and in that way he is not so wrong.$132$Inhumane, cruel, proud and judgemental, to be sure, but he believes the means justify the ends.#>
+
+AgelessOnePostRambleSilenceID 7
+
+AgelessOneDestroyAllCrystalsEndingID 8
+AgelessOneDestroyAllCrystalsEndingLines	0	$ 32	$ It is done. $
+AgelessOneDestroyAllCrystalsEndingLines	1	$ 45	$ The purge is history. $
+AgelessOneDestroyAllCrystalsEndingLines	2	$ 87	$ The flame of this land will dwindle and die... $
+AgelessOneDestroyAllCrystalsEndingLines	3	$ 114	$ But, hopefully, it's dying breaths will be all that are needed to save the world. $
+AgelessOneDestroyAllCrystalsEndingLines	4	$ 63	$ For a time now, everyone will be safe. $
+AgelessOneDestroyAllCrystalsEndingLines	5	$ 144	$ When the next day of judgement arrives, perhaps everyone will have already saved themselves from it. $
+AgelessOneDestroyAllCrystalsEndingLines	6	$ 66	$ In E'Siraph, that was not so... $
+AgelessOneDestroyAllCrystalsEndingLines	7	$ 74	$ But the power was had, and the choice was made. $
+AgelessOneDestroyAllCrystalsEndingLines	8	$ 65	$ Their fate sealed by their own wills. $
+AgelessOneDestroyAllCrystalsEndingLines	9	$ 75	$ Mercy for the few, or salvation for the masses? $
+AgelessOneDestroyAllCrystalsEndingLines	10	$ 60	$ I always said the choice was easy. $
+AgelessOneDestroyAllCrystalsEndingLines	11	$ 84	$ But, perhaps, the options aren't as clear as such I pose. $
+AgelessOneDestroyAllCrystalsEndingLines	12	$ 86	$ In any case, I am quite pleased with you and your choice. $
+AgelessOneDestroyAllCrystalsEndingLines	13	$ 83	$ However, we still have one last problem to solve: You. $
+AgelessOneDestroyAllCrystalsEndingLines	14	$ 90	$ You and your immortality, it cannot be allowed to persist. $
+AgelessOneDestroyAllCrystalsEndingLines	15	$ 41	$ Goodbye, wise one. $
+AgelessOneDestroyAllCrystalsEndingLines	16	$ 66	$ This shall be the last you hear from us. $
+
+AgelessOneActionbarDiscussions intro $ <#AgelessOneIntroID#> $ Intro
+AgelessOneActionbarDiscussions death_to_moses $ <#AgelessOneDeathToMosesID#> $ DeathToMoses
+AgelessOneActionbarDiscussions ramble_moses_dead $ <#AgelessOneRambleMosesDeadID#> $ RambleMosesDead
+AgelessOneActionbarDiscussions ramble_moses_alive $ <#AgelessOneRambleMosesAliveID#> $ RambleMosesAlive
+AgelessOneActionbarDiscussions destroy_all_crystals_ending $ <#AgelessOneDestroyAllCrystalsEndingID#> $ DestroyAllCrystalsEnding
+AgelessOneChatLogDiscussions

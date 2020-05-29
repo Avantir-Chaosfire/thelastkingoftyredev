@@ -1,0 +1,1 @@
+execute anchored eyes as @e[tag=0geg4Cpn-IYhI7-X-fA33IgGnYEee4l6YwRix74R] facing entity @s eyes run function tlkot:k-n0vs47ab176yl6nd047251fb4fegp2u27_k0az

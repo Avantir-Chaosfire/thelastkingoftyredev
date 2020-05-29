@@ -1,0 +1,3 @@
+scoreboard players set @a WM9zJpevK_lz6Fc3 1
+scoreboard players enable @a WM9zJpevK_lz6Fc3
+tellraw @a {"text": "\"Evangelion?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger WM9zJpevK_lz6Fc3 set 8"}, "extra": [{"text": "\"Cavern?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger WM9zJpevK_lz6Fc3 set 9"}}, {"text": "\"Blood?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger WM9zJpevK_lz6Fc3 set 10"}}]}

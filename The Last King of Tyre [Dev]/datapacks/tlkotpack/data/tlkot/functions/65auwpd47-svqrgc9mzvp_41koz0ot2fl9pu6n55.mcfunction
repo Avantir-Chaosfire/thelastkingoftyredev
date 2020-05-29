@@ -1,0 +1,1 @@
+execute if block -304 1 352 minecraft:barrier if block -320 1 352 minecraft:barrier run function tlkot:g72-m1mdgymw2sj8csflpdk7eiwtpqhhf2q71q_o

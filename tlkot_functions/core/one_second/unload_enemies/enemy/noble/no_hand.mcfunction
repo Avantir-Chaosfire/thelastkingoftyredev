@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"UnloadedEnemy\"}",Tags:[<#CommonKillableDivisionTags#>,"Enemy.Noble-NoHand","Initialized"],Marker:1b,Invisible:1b}
+execute store result score @e[tag=LastSummoned] MobAnger run data get entity @s Anger

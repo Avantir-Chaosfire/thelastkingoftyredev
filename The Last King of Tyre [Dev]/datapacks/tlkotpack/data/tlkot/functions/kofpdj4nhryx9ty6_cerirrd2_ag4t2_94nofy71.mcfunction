@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={16Ubn76t+IUTS2SG=-1}] 16Ubn76t+IUTS2SG 137
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Few survive onshore, but hundreds float offshore, waiting for the end, an end that may never come.", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Few survive onshore, but hundreds float offshore, waiting for the end, an end that may never come.", "color": "white", "italic": true}

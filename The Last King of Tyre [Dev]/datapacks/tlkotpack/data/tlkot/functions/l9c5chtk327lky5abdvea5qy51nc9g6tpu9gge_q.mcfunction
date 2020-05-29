@@ -1,0 +1,1 @@
+scoreboard players set @a -GItc0MID8K66M+X 1

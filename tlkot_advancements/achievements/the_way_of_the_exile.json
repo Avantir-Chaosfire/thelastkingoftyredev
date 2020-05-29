@@ -1,0 +1,33 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#BaseCrossbowItemID#>"
+		},
+		"title":
+		{
+			"text": "The Way of the Exile"
+		},
+		"description": "Obtain the Crossbow",
+		"frame": "challenge"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_way_of_the_exile":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:<#BaseCrossbowItemID#>",
+						"nbt": "{<#BaseCrossbowDataTag#>}"
+					}
+				]
+			}
+		}
+	}
+}

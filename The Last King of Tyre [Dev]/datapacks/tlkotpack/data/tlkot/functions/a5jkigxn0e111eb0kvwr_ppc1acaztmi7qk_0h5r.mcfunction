@@ -1,0 +1,3 @@
+scoreboard players set @a ia-otN-0ZQk4D86J 120
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "And the noises I hear sometimes, the hunting reapers, screams of victims, clashing of swords, it's...", "color": "dark_gray", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "And the noises I hear sometimes, the hunting reapers, screams of victims, clashing of swords, it's...", "color": "white", "italic": true}

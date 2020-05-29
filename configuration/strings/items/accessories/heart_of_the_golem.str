@@ -1,0 +1,26 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+HeartOfTheGolemItemID firework_star
+HeartOfTheGolemNameText Heart of the Golem
+HeartOfTheGolemNameColour dark_red
+HeartOfTheGolemName <#ItemName$HeartOfTheGolemNameText$HeartOfTheGolemNameColour#>
+HeartOfTheGolemDescription <#LoreLine$The legendary Golem guarded the#>
+HeartOfTheGolemDescription <#LoreLine$Storm but not its heart. Known for#>
+HeartOfTheGolemDescription <#LoreLine$its speed, uncannily quick for a#>
+HeartOfTheGolemDescription <#LoreLine$creature so large, the Golem never#>
+HeartOfTheGolemDescription <#LoreLine$fell in battle, nor even in trickery.#>
+HeartOfTheGolemDescription <#StatsLine#>
+HeartOfTheGolemStats <#LoreLine$Armour Doesn\'t Reduce Stamina#>
+HeartOfTheGolemStats <#LoreLine$  Regeneration#>
+HeartOfTheGolemStats <#LoreLine$+4 <#Toughness#>#>
+HeartOfTheGolemStats <#LoreLine$Slow Weapon#>
+HeartOfTheGolemTags AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:-1023,UUIDLeast:6334970,UUIDMost:8893227},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:4,UUIDLeast:73668539,UUIDMost:5729013}],HideFlags:34,HoldingID:<#HeartOfTheGolemHoldingID#>
+
+HeartOfTheGolemDataTag display:{Name:"<#HeartOfTheGolemName#>",Lore:[<#HeartOfTheGolemDescription#>,<#HeartOfTheGolemStats#>]},<#HeartOfTheGolemTags#>
+HeartOfTheGolem <#Item$HeartOfTheGolemItemID$HeartOfTheGolemDataTag#>

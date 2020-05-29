@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#Base2HBlackOakStaffName#>"}}}]}] run function tlkot:core/weapon/black_oak_staff/inventory_reset/base
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#Long2HBlackOakStaffName#>"}}}]}] run function tlkot:core/weapon/black_oak_staff/inventory_reset/long
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#Steady2HBlackOakStaffName#>"}}}]}] run function tlkot:core/weapon/black_oak_staff/inventory_reset/steady

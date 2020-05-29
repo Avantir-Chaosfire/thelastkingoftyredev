@@ -1,0 +1,1 @@
+execute if entity @a[x=88.5,y=114,z=178.5,distance=..3] run function tlkot:<~>/trigger

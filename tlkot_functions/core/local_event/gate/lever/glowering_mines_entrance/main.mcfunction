@@ -1,0 +1,1 @@
+execute if block -32 255 224 minecraft:air run function tlkot:<~>/loaded

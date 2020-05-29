@@ -1,0 +1,1 @@
+execute if block 641 39 303 minecraft:oak_button[powered=true] if entity @a[scores={L+mDwe8JSzGqAc3P=1}] run function tlkot:rye90vhmxpn2f_wwc81rbllgge4mf998vc82pbfw

@@ -1,0 +1,1 @@
+execute as @a[scores={StaminaToRestore=1..},tag=!Tapped] run function tlkot:utility/restore_stamina/process

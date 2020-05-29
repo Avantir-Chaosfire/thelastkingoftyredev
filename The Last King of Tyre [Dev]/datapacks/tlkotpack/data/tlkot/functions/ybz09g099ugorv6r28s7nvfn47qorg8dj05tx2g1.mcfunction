@@ -1,0 +1,3 @@
+execute if entity @a[scores={slu2exMd5HTEZqLH=0..}] run tellraw @a {"text": "I went to great effort to get these things, and what did you do?", "color": "dark_green", "italic": true}
+execute if entity @a[scores={slu2exMd5HTEZqLH=1..}] run tellraw @a {"text": "Don't tell me you're just like them!", "color": "dark_green", "italic": true}
+execute if entity @a[scores={slu2exMd5HTEZqLH=2..}] run tellraw @a {"text": "Out with you!", "color": "dark_green", "italic": true}

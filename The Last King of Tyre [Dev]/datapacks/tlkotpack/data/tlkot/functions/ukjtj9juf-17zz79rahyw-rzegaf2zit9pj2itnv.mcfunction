@@ -1,0 +1,1 @@
+execute if entity @a[scores={mf9L5CC4VvVuq_LG=-1}] run function tlkot:x1ec7mh0hnarej1g6gt02hytcl9rfnx1v__7_vke

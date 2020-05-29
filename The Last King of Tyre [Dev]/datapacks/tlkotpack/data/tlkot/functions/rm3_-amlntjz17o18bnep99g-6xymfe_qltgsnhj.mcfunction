@@ -1,0 +1,2 @@
+execute if entity @a[scores={cAwWJwCaEjtet1lm=21..},tag=Eq6LNDR5XL1drE6Xo7fD+m6659DF31S+9+9FteXM] run function tlkot:g9b_a03po2s2a8ehyiwz71lx4egnsma1jxva0-j9
+execute if entity @a[scores={cAwWJwCaEjtet1lm=42..},tag=!Eq6LNDR5XL1drE6Xo7fD+m6659DF31S+9+9FteXM] run function tlkot:bnj3l37yw_qqp0u7xelnflqqouqil966oawz492e

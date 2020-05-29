@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Halberd (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:paw7rht3wq9xk3643qjaastlv590viecpesykfpp
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Bloody Halberd (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:tphq-g1oceyt0qpxr88kehuj762mewm7n0hl-djz
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Nimble Halberd (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:dfopnnxx_mwixry-5_7m9nbeqpj-62_dyqwxegcl

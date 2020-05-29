@@ -1,0 +1,1 @@
+execute as @e[tag=DoorLever] at @s run function tlkot:<~>/process

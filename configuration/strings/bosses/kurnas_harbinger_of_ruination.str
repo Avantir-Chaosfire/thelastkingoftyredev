@@ -1,0 +1,55 @@
+#include attribute_modifiers
+#include eliminate_base_attributes
+#include versioned_tags
+#include exploding_creeper
+#include items/weapons/battle_axe
+#include items/weapons/black_oak_bow
+#include items/weapons/black_oak_staff
+
+KurnasMaxHealth 940000
+
+KurnasBossTags ‘CustomName:"{\"text\":\"Kurnas, Harbinger of Ruination\"}",HandItems:[{id:"<#Base1HBlackOakStaffItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{id:"<#BaseBlackOakBowItemID#>",Count:1b}],ArmorItems:[{id:"leather_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{id:"chainmail_chestplate",Count:1b,tag:{<#NoArmourModifier3#>}},{}],PersistenceRequired:1b,NoAI:1b,Tags:["Versioned","Dumpable","Kurnas","EnemyUnit","Reaper","KurnasCleanup","UsesHitScore"],Rotation:[-90.0f,0.0f],Attributes:[{Name:"generic.maxHealth",Base:1000.0d},{Name:"generic.knockbackResistance",Base:1.0d},{Name:"generic.movementSpeed",Base:0.0d},{Name:"generic.attackDamage",Base:8},<#EliminateBaseZombiePigmanAttributes#>],Health:1000.0f,Invulnerable:1b‘
+
+BeamVertical 0
+BeamHorizontal 0
+BeamVerticalIncrement 0
+
+KurnasSacrificeTags ‘Tags:["Versioned","Dumpable","KurnasSacrifice"],Invulnerable:1b,PersistenceRequired:1b,ActiveEffects:[{Id:2b,Duration:32767,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0}]‘
+
+KurnasRollingWaveAttackTags ‘Marker:1b,NoGravity:1b,Invisible:1b,Tags:[<#CommonKillableDivisionTags#>,"KurnasRollingWave","KurnasCleanup"]‘
+
+KurnasRiftArrowTags ‘life:1160s,Color:0,NoGravity:1b,pickup:0‘
+
+KurnasNorthArrowTags ‘Motion:[0.0d,0.0d,2.0d],Tags:["KurnasArrow","North","KurnasCleanup","Killable"],<#KurnasRiftArrowTags#>‘
+KurnasNorthSilentArrowTags ‘Motion:[0.0d,0.0d,2.0d],Tags:["KurnasArrow","North","KurnasCleanup","Killable"],Silent:1b,<#KurnasRiftArrowTags#>‘
+KurnasSouthArrowTags ‘Motion:[0.0d,0.0d,-2.0d],Tags:["KurnasArrow","South","KurnasCleanup","Killable"],<#KurnasRiftArrowTags#>‘
+KurnasSouthSilentArrowTags ‘Motion:[0.0d,0.0d,-2.0d],Tags:["KurnasArrow","South","KurnasCleanup","Killable"],Silent:1b,<#KurnasRiftArrowTags#>‘
+
+KurnasArrowHailAttackTags ‘CustomName:"{\"text\":\"Arrow Hail\"}",Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["Versioned","Killable","KurnasCleanup"]‘
+
+KurnasHailArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,Color:0,pickup:0‘
+KurnasHailSilentArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,Color:0,pickup:0,Silent:1b‘
+
+TelekineticWeaponRootTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Telekinetic Weapon\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attackDamage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","NeedsID","TelekineticWeapon","KurnasCleanup","Root","HasAI","AI.Homing"],Motion:[0.0d,0.0d,<1>.0d]‘
+
+TelekineticWeaponModelTags ‘CustomName:"{\"text\":\"Telekinetic Weapon\"}",Marker:1b,Invulnerable:1b,Invisible:1b,NoGravity:1b,Pose:{LeftArm:[0.0f,0.0f,90.0f]},Tags:["Versioned","Killable","NeedsID","TelekineticWeapon","KurnasCleanup","Model","HasAI","AI.Pair","Paired"],HandItems:[{},{id:"minecraft:<#BaseBattleAxeItemID#>",Count:1b}]‘
+
+TelekineticWeaponHitboxTags ‘CustomName:"{\"text\":\"Telekinetic Weapon\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Size:1b,ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","NeedsID","TelekineticWeapon","KurnasCleanup","Hitbox"]‘
+
+TelekineticWeaponDuration 63
+TelekineticWeaponHomingAcceleration 45
+TelekineticWeaponHomingMaxVelocity 3000
+
+KurnasCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Kurnas, Harbinger of Ruination\"}",ExplosionRadius:3b‘
+
+SuitOfArmourSmallCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Possessed Suit of Armour\"}",ExplosionRadius:2b‘
+
+SuitOfArmourBigCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Possessed Suit of Armour\"}",ExplosionRadius:3b‘
+
+SuitOfArmourExplosionMarkerTags ‘Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:[<#CommonKillableDivisionTags#>,"KurnasSuitOfArmourExplosion","KurnasCleanup"]‘
+
+KurnasPossessionHitboxTags PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000}],CustomName:"{\"text\":\"Possessed Suit of Armour\"}",Tags:["KurnasPossessionHitbox",<#CommonDumpableDivisionTags#>,"EnemyUnit","UsesHitScore"],Silent:1b,NoAI:1b,Health:1000.0f,ActiveEffects:[{Id:14,Duration:32767,ShowParticles:false}]
+
+KurnasActivateArrowLaneNorth execute if entity @a[scores={KurnasCycleTime=<1>}] if entity @e[type=armor_stand,name="Arrow Lane",tag=Middle,tag=<2>,scores={KurnasLaneDisarm=0}] run tag @e[type=armor_stand,name="Arrow Lane",tag=ShootNorth,tag=<2>] add Activate
+KurnasActivateArrowLaneSouth execute if entity @a[scores={KurnasCycleTime=<1>}] if entity @e[type=armor_stand,name="Arrow Lane",tag=Middle,tag=<2>,scores={KurnasLaneDisarm=0}] run tag @e[type=armor_stand,name="Arrow Lane",tag=ShootSouth,tag=<2>] add Activate
+KurnasActivateArrowLane execute if entity @a[scores={KurnasCycleTime=<1>}] if entity @e[type=armor_stand,name="Arrow Lane",tag=Middle,tag=<2>,scores={KurnasLaneDisarm=0}] run tag @e[type=armor_stand,name="Arrow Lane",tag=<2>] add Activate

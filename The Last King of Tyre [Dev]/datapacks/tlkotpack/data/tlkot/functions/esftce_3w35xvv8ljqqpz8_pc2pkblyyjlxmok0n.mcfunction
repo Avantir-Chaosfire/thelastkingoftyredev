@@ -1,0 +1,2 @@
+execute if entity @a[scores={tgAgfbR9X+tpAt2l=0..}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["4pte9PUnoBzUgIibGH1SuryONJaCVg3bMKuRt6Hv"]}
+tag @e[type=arrow,sort=nearest,limit=1,nbt={pickup:1b}] add etgFb1Ou9pDD.HYLXs5xs6Z15AbN3QRiKMw.L0W8

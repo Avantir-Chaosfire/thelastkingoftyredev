@@ -1,0 +1,3 @@
+scoreboard players set @a .J2dwrC_k+.pju-N 118
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Shortly before the reapers began to make their way down here, just after the sun began to slow...", "color": "dark_aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Shortly before the reapers began to make their way down here, just after the sun began to slow...", "color": "white", "italic": true}

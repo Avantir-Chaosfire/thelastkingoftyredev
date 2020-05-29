@@ -1,0 +1,3 @@
+execute if entity @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=94k74QUaLPrBSgJo7P+nob0oJcKbO9NdHHPdHzjA,tag=!tdQOQQfx.2qzJIvvQR60uHhIQCR-urjCFPN_T6vx,distance=..10] run function tlkot:che-kueile792038fxly7jvr5-9qxdg9x97cchxp
+execute if entity @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=JEEP7qABacdna_MpF+y6f2NELji_xBOLMq2pbS1l,tag=!tdQOQQfx.2qzJIvvQR60uHhIQCR-urjCFPN_T6vx,distance=..10] run function tlkot:4b7q6tuzjecvwx5jnh9cn8_9oc2v_q317xm787-m
+particle minecraft:damage_indicator ~ ~ ~ 4 0.5 4 0 100

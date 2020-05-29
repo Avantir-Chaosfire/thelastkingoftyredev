@@ -1,0 +1,1 @@
+execute as @a[scores={coLrWBu_a_iP-X6W=1..},tag=!JBsorDDSTgzXGtJocvKPZL7QGzPt8ZGDbTCp6ZFQ] run function tlkot:p-yyglvi6jp-4ie4mi2h91z08_weippm64-3p23b

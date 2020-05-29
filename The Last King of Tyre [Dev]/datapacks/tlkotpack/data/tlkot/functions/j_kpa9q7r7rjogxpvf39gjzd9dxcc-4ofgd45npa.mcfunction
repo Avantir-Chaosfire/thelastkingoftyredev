@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={v9jW.czrPQqAmyJO=-1}] v9jW.czrPQqAmyJO 108
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Through our sacrifice, through our glory, the rest of the world will live!", "color": "dark_gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Through our sacrifice, through our glory, the rest of the world will live!", "color": "white", "italic": true}

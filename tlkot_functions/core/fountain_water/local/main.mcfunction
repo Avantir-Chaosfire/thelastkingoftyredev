@@ -1,0 +1,3 @@
+execute if entity @a[x=90,y=144,z=34,dx=17,dy=7,dz=17,scores={IxinikFountain=1..}] run function tlkot:core/fountain_water/local/ixinik
+execute if entity @a[x=301,y=30,z=40,dx=17,dy=4,dz=17,scores={DepthsFountain=1..}] run function tlkot:core/fountain_water/local/depths
+execute if entity @a[x=696,y=204,z=392,dx=17,dy=7,dz=17,scores={HoiroFountain=1..}] run function tlkot:core/fountain_water/local/new_hoiro

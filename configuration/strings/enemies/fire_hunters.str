@@ -1,0 +1,20 @@
+#include attribute_modifiers
+#include versioned_tags
+
+HunterFireCustomName ‘CustomName:"{\"text\":\"Undead Hunter Reaper\"}"‘
+
+HunterFireEmptyHandedTags ‘HandItems:[{},{id:"minecraft:torch",Count:1b}],Attributes:[{Name:"generic.movementSpeed",Base:0},{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:0}]‘
+
+HunterFireWeaponsTags ‘HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:flame",lvl:1}]}},{id:"minecraft:torch",Count:1b}],Attributes:[{Name:"generic.movementSpeed",Base:0.2},{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:0}]‘
+
+HunterFireNoHelmetHealth 57000
+
+HunterFireNoHelmetTags ‘PersistenceRequired:1b,<#HunterFireWeaponsTags#>,ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:9189425},Enchantments:[{id:"minecraft:fire_protection",lvl:4}],<#NoArmourModifier3#>}},{}],<#HunterFireCustomName#>,Tags:["Enemy.Hunter-FireNoHelmet",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.FireHunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘
+
+HunterFireNoChestHealth 57000
+
+HunterFireNoChestTags ‘PersistenceRequired:1b,<#HunterFireWeaponsTags#>,ArmorItems:[{id:"iron_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{},{id:"leather_helmet",Count:1b,tag:{display:{color:9189425},Enchantments:[{id:"minecraft:fire_protection",lvl:4}],<#NoArmourModifier4#>}}],<#HunterFireCustomName#>,Tags:["Enemy.Hunter-FireNoChest",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.FireHunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘
+
+HunterFireChainHelmetHealth 57000
+
+HunterFireChainHelmetTags ‘PersistenceRequired:1b,<#HunterFireWeaponsTags#>,ArmorItems:[{id:"iron_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:4148262},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:9189425},Enchantments:[{id:"minecraft:fire_protection",lvl:4}],<#NoArmourModifier3#>}},{id:"chainmail_helmet",Count:1b,tag:{<#NoArmourModifier4#>}}],<#HunterFireCustomName#>,Tags:["Enemy.Hunter-FireChainHelmet",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.FireHunter","AI.AgroClose","UsesHitScore"],Health:1000.0f‘

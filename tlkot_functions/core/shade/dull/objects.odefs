@@ -1,0 +1,5 @@
+head $ head $ Head $ helmet $ 103
+inactive_chest $ chest $ Chest $ chestplate $ 102
+active_chest $ chest $ ActiveChest $ chestplate $ 102
+legs $ legs $ Legs $ leggings $ 101
+feet $ feet $ Feet $ boots $ 100

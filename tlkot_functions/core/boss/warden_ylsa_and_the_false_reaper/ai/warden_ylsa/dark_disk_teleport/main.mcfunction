@@ -1,0 +1,1 @@
+execute if entity @a[scores={FalseAttack=<#FalseReaperAttackDarkDisk#>}] run function tlkot:<~>/trigger

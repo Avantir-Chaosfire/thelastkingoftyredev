@@ -1,0 +1,121 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+UnidentifiedLocation -888 0 -728
+UnidentifiedEngageRadius 1000000
+UnidentifiedDisengageRadius 2000000
+
+KurnasFightColour gray
+KurnasFightLocation <#UnidentifiedLocation#>
+KurnasFightEngageRadius <#UnidentifiedEngageRadius#>
+KurnasFightDisengageRadius <#UnidentifiedDisengageRadius#>
+
+KurnasFightInitialSilenceID 0
+
+KurnasFightEntranceID 1
+KurnasFightEntranceLines	0	$ 101	$ If you think this is the right path then you truly are an utter fool. $
+
+KurnasFightPostEntranceSilenceID 2
+
+KurnasFightHide1ID 3
+KurnasFightHide1Lines		0	$ 45	$ Do not hide from this. $
+
+KurnasFightPostHide1SilenceID 4
+
+KurnasFightHide2ID 5
+KurnasFightHide2Lines		0	$ 72	$ You were the one who sought this battle out. $
+
+KurnasFightPostHide2SilenceID 6
+
+KurnasFightHide3ID 7
+KurnasFightHide3Lines		0	$ 53	$ You chose to listen to them. $
+
+KurnasFightPostHide3SilenceID 8
+
+KurnasFightHide4ID 9
+KurnasFightHide4Lines		0	$ 78	$ So now accept the consequences of your actions. $
+
+KurnasFightPostHide4SilenceID 10
+
+KurnasFightHide5ID 11
+KurnasFightHide5Lines		0	$ 53	$ This is your final warning. $
+
+KurnasFightPostHide5SilenceID 12
+
+KurnasFightHideRespawnID 13
+KurnasFightHideRespawnLines	0	$ 101	$ How great a fool can you be to fear facing the choices you have made? $
+KurnasFightHideRespawnLines	1	$ 51	$ And you are even immortal. $
+KurnasFightHideRespawnLines	2	$ 86	$ I would hate to see what you would be like without that. $
+
+KurnasFightFinalSilenceID 14
+
+InitializationColour green
+InitializationLocation <#UnidentifiedLocation#>
+InitializationEngageRadius <#UnidentifiedEngageRadius#>
+InitializationDisengageRadius <#UnidentifiedDisengageRadius#>
+
+InitializationInitialID 0
+
+InitializationID 1
+InitializationLines		0	$ 39	$ Ah, there you are. $
+InitializationLines		1	$ 36	$ Oh, don't worry. $
+InitializationLines		2	$ 56	$ I'm sure we'll be great friends. $
+InitializationLines		3	$ 60	$ Just don't mention me to anyone, OK? $
+InitializationLines		4	$ 83	$ They might get ideas about us... Or just me. $
+InitializationLines		5	$ 57	$ Trust me, you wouldn't want that. $
+InitializationLines		6	$ 35	$ ... $
+InitializationLines		7	$ 87	$ Look, I know you're tired and confused, but I can't help you. $
+InitializationLines		8	$ 80	$ Also I'm not good at this sentimental kind of talk. $
+InitializationLines		9	$ 63	$ Let's just get this started already. $
+InitializationLines		10	$ 60	$ I know you can get there in the end. $
+
+InitializationSilenceID 2
+
+EndingDialogueColour gray
+EndingDialogueLocation <#UnidentifiedLocation#>
+EndingDialogueEngageRadius <#UnidentifiedEngageRadius#>
+EndingDialogueDisengageRadius <#UnidentifiedDisengageRadius#>
+
+EndingDialogueUniqueID 0
+LineNumber 0
+EndingDialogueSilenceID <#EndingDialogueUniqueID#>
+
+EndingDialoguePurgeReapersID <#!EndingDialogueUniqueID EndingDialogueUniqueID 1 + =#>
+EndingDialoguePurgeReapersLines	<#!LineNumber 0 =#>			$ 38	$ So... $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 119	$ About now, the five of you are probably all wondering if you made the right choice. $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 48	$ Well... So am I. $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 71	$ Sorry, I can't say, but I suspect... $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 63	$ Maybe, it's not what you chose, but why. $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 48	$ So ask yourselves this; $
+EndingDialoguePurgeReapersLines	<#!LineNumber LineNumber 1 + =#>	$ 87	$ Who were you thinking of when you chose this path for us? $
+
+EndingDialoguePurgeHumansID <#!EndingDialogueUniqueID EndingDialogueUniqueID 1 + =#>
+EndingDialoguePurgeHumansLines		<#!LineNumber 0 =#>			$ 99	$ I guess I'm not who most of you were hoping to hear from... $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 29	$ But yes. $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 111	$ Your fifth and final member just betrayed the purpose of your sacrifices. $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 105	$ You sacrificed yourselves for exactly what you were hoping to avoid. $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 35	$ ... $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 72	$ Defiled One, you have become my New Prophet. $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 125	$ Now, having usurped the Old Saviour and taken destiny into your own hands... $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 36	$ Ask yourself. $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 87	$ Who were you thinking of when you chose this path for us? $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 71	$ And if that was just yourself... $
+EndingDialoguePurgeHumansLines		<#!LineNumber LineNumber 1 + =#>	$ 60	$ Then have some damn perspective. $
+
+KurnasFightActionbarDiscussions 	entrance	$ <#KurnasFightEntranceID#>	$ Entrance
+KurnasFightActionbarDiscussions 	hide1		$ <#KurnasFightHide1ID#>	$ Hide1
+KurnasFightActionbarDiscussions 	hide2		$ <#KurnasFightHide2ID#>	$ Hide2
+KurnasFightActionbarDiscussions 	hide3		$ <#KurnasFightHide3ID#>	$ Hide3
+KurnasFightActionbarDiscussions 	hide4		$ <#KurnasFightHide4ID#>	$ Hide4
+KurnasFightActionbarDiscussions 	hide5		$ <#KurnasFightHide5ID#>	$ Hide5
+KurnasFightActionbarDiscussions 	hide_respawn	$ <#KurnasFightHideRespawnID#>	$ HideRespawn
+KurnasFightChatLogDiscussions
+
+InitializationActionbarDiscussions 	meet		$ <#InitializationID#>		$
+InitializationChatLogDiscussions
+
+EndingDialogueActionbarDiscussions 	purge_reapers		$ <#EndingDialoguePurgeReapersID#>		$ PurgeReapers
+EndingDialogueActionbarDiscussions 	purge_humans		$ <#EndingDialoguePurgeHumansID#>		$ PurgeHumans
+EndingDialogueChatLogDiscussions

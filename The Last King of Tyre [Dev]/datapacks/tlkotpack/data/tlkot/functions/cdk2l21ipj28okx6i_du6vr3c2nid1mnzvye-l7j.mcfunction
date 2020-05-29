@@ -1,0 +1,12 @@
+spawnpoint @a[tag=zf_9h4xLy+aEHRg6Vt2zHhYHUiLW3MHiXHOZNxqb] -304 237 324
+spawnpoint @a[tag=BvFqJm_-sfn044srW2Lzb-49udVYXmbX-VdLGoCW] -303 178 329
+spawnpoint @a[tag=oxltxpzH.2_i.GDJRXIK013o78x1VHgPpM-OMthq] 88 135 170
+spawnpoint @a[tag=_LMyodqA2uyKWq.41tO2LL5fBPy3Xtxo3bIv4MLB] -34 42 75
+spawnpoint @a[tag=qAk.Bwee1p6juIvbmubnBqMq11YZgVf.CiXLZCJm] 347 147 22
+spawnpoint @a[tag=e9pulONYg4Mfj0SspWOkD4jj26sNVaQT4M38GuWr] 302 38 51
+spawnpoint @a[tag=vMoFIuV-WOvNSgGsKa0qeJn-q3jI3sg3L3FfYoB_] 517 182 140
+spawnpoint @a[tag=JTFmbkI-5DIiKb0MP5O4TIx1+pNUnpUesiPiQW26] 613 187 299
+spawnpoint @a[tag=5sCXl6nBKjeNWTDAjkmQyqkCPCSpe6n0-_8-8G0m] 610 93 305
+spawnpoint @a[tag=oNDVlEgiD8KXZ5FkY5sOmhWO.sufvzzlE3EROaJ9] 398 78 237
+spawnpoint @a[tag=E5G9EB17KX+7+ABcy-sKy72ZV62cEflLJRlRxK8h] 378 41 535
+spawnpoint @a[tag=BpC2._4m0qm2QN+qPKT-TQ5eNPk3DCyjkS.qG3q3] 386 4 443

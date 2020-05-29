@@ -1,0 +1,80 @@
+#include npcs/tags
+#include npcs/shops/kiermert_of_ashes
+
+#join compendium <Newline>
+#join functions <Newline>
+
+KiermertIDTag KiermertOfAshes
+KiermertTags <#CommonNPCTags$desert$weaponsmith#>,Offers:{Recipes:[<#KiermertRecipes#>]},Tags:["<#KiermertIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Kiermert of Ashes\"}"
+
+KiermertColour red
+KiermertLocation 602.944 200 255.875
+KiermertEngageRadius 6] if entity @a[x=599,y=200,z=252,dx=10,dy=6,dz=5
+KiermertDisengageRadius 13
+
+KiermertFirstTime 27
+KiermertFirstLine Get ou-
+
+KiermertMeetID 0
+KiermertMeetLines		0	$ <#KiermertFirstTime#> $ <#KiermertFirstLine#> $
+KiermertMeetLines		1	$ 23	$ Oh! $
+KiermertMeetLines		2	$ 59	$ Sorry, I thought ya were a reaper. $
+KiermertMeetLines		3	$ 47	$ I am Kiermert of Ashes. $
+KiermertMeetLines		4	$ 83	$ I can upgrade your weapons, if ya have the materials. $
+
+KiermertGreetID 1
+KiermertGreetLines		0	$ 42	$ What can I do for ya? $
+
+KiermertAshesID 2
+KiermertAshesLines		0	$ 78	$ All those of Ashes, like myself, are the last survivors from below. $
+KiermertAshesLines		1	$ 87	$ We were on the surface for one reason or another when the gates were sealed, $
+KiermertAshesLines		2	$ 46	$ Or escaped at the last moment. $
+KiermertAshesLines		3	$ 77	$ 'Cept... Those who escaped into Tyre were sent back. $
+KiermertAshesLines		4	$ 81	$ I was lucky though, I'd been working in New Hoiro for some time already. $
+
+KiermertResonatingCrystalID 3
+KiermertResonatingCrystalLines	0	$ 66	$ Ya came here to reactivate the resonating crystal? $
+KiermertResonatingCrystalLines	1	$ 48	$ It won't be easy, and I know little. $
+KiermertResonatingCrystalLines	2	$ 79	$ The crystal appeared at the top of the rear tower of the Cathedral, $
+KiermertResonatingCrystalLines	3	$ 67	$ Shortly before the Queen of Ixinik herself arrived. $
+KiermertResonatingCrystalLines	4	$ 99	$ The outside was swarming with reapers then, but she was escorted by Kilio, the Mad Caster. $
+KiermertResonatingCrystalLines	5	$ 105	$ Sadly, he died fighting off the reapers, trying to get her inside the Cathedral... $
+KiermertResonatingCrystalLines	6	$ 109	$ Anyway, she told us of a plan to kill all the reapers, which would require a sacrifice for the crystal. $
+KiermertResonatingCrystalLines	7	$ 75	$ There were three knights who volunteered for the sacrifice; $
+KiermertResonatingCrystalLines	8	$ 68	$ Dar the Wall, Kurnas the Saviour and Iffariel of Light. $
+KiermertResonatingCrystalLines	9	$ 110	$ I know not which went forth, but the other two descended through the altar below to the Vaults of Time. $
+KiermertResonatingCrystalLines	10	$ 124	$ We had... a disagreement, about whether we should wait for salvation, or pursue further answers there. $
+KiermertResonatingCrystalLines	11	$ 78	$ Four others went with the knights, and none of them ever returned. $
+KiermertResonatingCrystalLines	12	$ 57	$ I fear the worst for them... $
+KiermertResonatingCrystalLines	13	$ 93	$ And shortly after they left, a bell rang, resounding across the land, and that was it. $
+KiermertResonatingCrystalLines	14	$ 46	$ Nothing else, no reapers died. $
+KiermertResonatingCrystalLines	15	$ 85	$ The bell could only have been one from the Vaults of Time... $
+KiermertResonatingCrystalLines	16	$ 47	$ Perhaps the answers are there. $
+
+KiermertSanctuaryID 4
+KiermertSanctuaryLines		0	$ 101	$ When the Reapers broke through the Southern Gate of New Hoiro, there was panic everywhere. $
+KiermertSanctuaryLines		1	$ 84	$ People began seeking sanctuary here in the Cathedral, myself included. $
+KiermertSanctuaryLines		2	$ 91	$ Some wanted to close the gate to keep the reapers out, but Knight Kurnas refused. $
+KiermertSanctuaryLines		3	$ 86	$ He alone stood and fought off the hordes to allow us to find refuge inside. $
+KiermertSanctuaryLines		4	$ 79	$ Mind ya, he would have fallen had it not been for Knight Dar, the Wall. $
+KiermertSanctuaryLines		5	$ 70	$ And if it were not for them, I and many others would be dead. $
+KiermertSanctuaryLines		6	$ 77	$ For that devotion we gave Kurnas the title of Saviour, as thanks. $
+KiermertSanctuaryLines		7	$ 65	$ We hid for awhile, waiting, hopeful... $
+KiermertSanctuaryLines		8	$ 58	$ But eventually, the reapers got in here too. $
+KiermertSanctuaryLines		9	$ 49	$ Ya saw the worshipers down below? $
+KiermertSanctuaryLines		10	$ 84	$ A number of us here in this Cathedral survived on faith... $
+KiermertSanctuaryLines		11	$ 71	$ But when it came down to it, that couldn't save us from death. $
+KiermertSanctuaryLines		12	$ 58	$ But those five down there... $
+KiermertSanctuaryLines		13	$ 62	$ Their dedication is on another level entirely. $
+KiermertSanctuaryLines		14	$ 80	$ That's not something I'll be doing no matter how many verses I recite. $
+KiermertSanctuaryLines		15	$ 71	$ Everyone can do it, but not everyone will... $
+KiermertSanctuaryLines		16	$ 50	$ That's exactly the trouble, isn't it? $
+
+KiermertActionbarDiscussions 	meet			$ <#KiermertMeetID#>			$ Meet
+KiermertActionbarDiscussions 	greet			$ <#KiermertGreetID#>			$ Greet
+
+KiermertChatLogDiscussions 	ashes			$ <#KiermertAshesID#>			$ Ashes
+KiermertChatLogDiscussions 	resonating_crystal	$ <#KiermertResonatingCrystalID#>	$ ResonatingCrystal
+KiermertChatLogDiscussions 	sanctuary		$ <#KiermertSanctuaryID#>		$ Sanctuary
+
+KiermertDialoguePrompt {<#DialoguePromptOption$Kiermert$KiermertAshes$Ashes?#>,"extra":[{<#DialoguePromptOption$Kiermert$KiermertSanctuary$Sanctuary?#>},{<#DialoguePromptOptionFinal$Kiermert$KiermertResonatingCrystal$Resonating Crystal?#>}]}

@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={v9jW.czrPQqAmyJO=-1}] v9jW.czrPQqAmyJO 101
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "If the Cocoon could play so fickle with me, why would it not with you?", "color": "dark_gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "If the Cocoon could play so fickle with me, why would it not with you?", "color": "white", "italic": true}

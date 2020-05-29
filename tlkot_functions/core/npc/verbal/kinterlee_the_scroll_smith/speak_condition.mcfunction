@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={KinterleeTalk=<#KinterleeBloodSigilID#>..}] KinterleeLine 0

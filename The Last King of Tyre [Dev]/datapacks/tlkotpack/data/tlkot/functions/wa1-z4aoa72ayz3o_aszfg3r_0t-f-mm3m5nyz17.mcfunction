@@ -1,0 +1,2 @@
+tag @e[type=armor_stand,name="Arrow Lane",tag=Ffil++J4MzbYQ++u7a9lWMrJGINE0j1KNoHiBQrm,tag=pT4hs.iCzHTLqACSLRoNcwCSW6UGtmnR8K8kgFOL] add jNuGtZtpWlY2bFfFgrXtgbSLzG0ASpnN-hJV1.uk
+function tlkot:gunryrct5_yxf_oa16km9rkesixjn6jeedgrf9sf

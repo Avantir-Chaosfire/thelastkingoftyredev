@@ -1,0 +1,124 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+AhgeliIDTag AhgeliTheSurvivor
+AhgeliTags <#CommonNPCTags$swamp$shepherd#>,Tags:["<#AhgeliIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Ahgeli the Survivor\"}"
+
+HaenneIDTag HaenneTheSurvivor
+HaenneTags <#CommonNPCTags$swamp$fletcher#>,Tags:["<#HaenneIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Haenne the Survivor\"}"
+
+AhgeliColour aqua
+AhgeliLocation 376.2 41 533.566
+
+HaenneColour blue
+HaenneLocation 377.598 41 531.243
+
+HutSurvivorsLocation 376.899 41 532.405
+HutSurvivorsEngageRadius 6] if entity @a[x=371,y=41,z=529,dx=10,dy=3,dz=6
+HutSurvivorsDisengageRadius 13
+
+HutSurvivorsMeetID 0
+HutSurvivorsMeetLines			0	$ 30	$ Ahgeli	$ Welcome! $
+HutSurvivorsMeetLines			1	$ 81	$ Ahgeli	$ It is rare indeed to meet one who can walk so freely. $
+HutSurvivorsMeetLines			2	$ 75	$ Haenne	$ Most of us are forced to hide away, imprisoned. $
+HutSurvivorsMeetLines			3	$ 75	$ Haenne	$ But you're very different from us... $
+HutSurvivorsMeetLines			4	$ 74	$ Ahgeli	$ You have the power, and we have the knowledge. $
+HutSurvivorsMeetLines			5	$ 71	$ Haenne	$ Only together can we make the world right. $
+
+HutSurvivorsGreetID 1
+HutSurvivorsGreetLines			0	$ 36	$ Ahgeli	$ Welcome back. $
+
+HutSurvivorsWhoID 2
+HutSurvivorsWhoLines			0	$ 38	$ Haenne	$ Haenne, the Survivor. $
+HutSurvivorsWhoLines			1	$ 42	$ Ahgeli	$ And Ahgeli, the Survivor. $
+HutSurvivorsWhoLines			2	$ 76	$ Ahgeli	$ Together we comprise half of the Survivors of the Seven Lakes. $
+HutSurvivorsWhoLines			3	$ 75	$ Haenne	$ Our other two members have moved on to more dangerous places. $
+HutSurvivorsWhoLines			4	$ 78	$ Ahgeli	$ Xinsu, the Quiet Guardian, stands watch over the Circle of Stones. $
+HutSurvivorsWhoLines			5	$ 117	$ Haenne	$ And Warden Ylsa guards the final resonating crystal, atop the Enshadowed Thrones in the Lyceum of the Simia. $
+
+HutSurvivorsTruthID 3
+HutSurvivorsTruthLines			0	$ 94	$ Ahgeli	$ That king... So caught up in his guilt he can't see with his own two eyes. $
+HutSurvivorsTruthLines			1	$ 92	$ Haenne	$ What he needs is forgiveness, but he'll find none anywhere, not even in his own soul. $
+HutSurvivorsTruthLines			2	$ 82	$ Ahgeli	$ And he'd have you believe you can save us by purging the land of reapers. $
+HutSurvivorsTruthLines			3	$ 23	$ Ahgeli	$ Bah! $
+HutSurvivorsTruthLines			4	$ 61	$ Haenne	$ The reapers aren't much different than you or I. $
+HutSurvivorsTruthLines			5	$ 58	$ Haenne	$ You can't just vanish them or send them away. $
+HutSurvivorsTruthLines			6	$ 38	$ Ahgeli	$ But you can kill them. $
+HutSurvivorsTruthLines			7	$ 43	$ Ahgeli	$ You've already slain many. $
+HutSurvivorsTruthLines			8	$ 42	$ Haenne	$ And so too can you kill us. $
+HutSurvivorsTruthLines			9	$ 127	$ Ahgeli	$ The resonating crystals, they emanate one's willpower, one's strength, one's... essence, out across the land. $
+HutSurvivorsTruthLines			10	$ 98	$ Haenne	$ The sacrifices were to resonate their strength to distract the reapers, not kill them. $
+HutSurvivorsTruthLines			11	$ 58	$ Ahgeli	$ And now the Cocoon has seized the crystals. $
+HutSurvivorsTruthLines			12	$ 67	$ Haenne	$ Activating them would seed the Cocoon within us all. $
+HutSurvivorsTruthLines			13	$ 55	$ Ahgeli	$ We would all turn into the likes of them. $
+HutSurvivorsTruthLines			14	$ 69	$ Haenne	$ Those crystals, the sacrifices, they must be destroyed. $
+HutSurvivorsTruthLines			15	$ 59	$ Ahgeli	$ If even one is destroyed, that would suffice. $
+HutSurvivorsTruthLines			16	$ 90	$ Ahgeli	$ No one, not you nor any who come after you could attempt to 'purge' this land again. $
+HutSurvivorsTruthLines			17	$ 71	$ Haenne	$ Ah... But you want to save this land, don't you? $
+HutSurvivorsTruthLines			18	$ 45	$ Haenne	$ You want to stop the reapers. $
+HutSurvivorsTruthLines			19	$ 35	$ Ahgeli	$ Haven't you heard? $
+HutSurvivorsTruthLines			20	$ 70	$ Ahgeli	$ This wasn't the first reaping, and nor shall it be the last. $
+HutSurvivorsTruthLines			21	$ 35	$ Haenne	$ But there is a way. $
+HutSurvivorsTruthLines			22	$ 92	$ Ahgeli	$ Yes, just as the Cocoon preys upon humans, the Devourer shall prey upon the Cocoon. $
+HutSurvivorsTruthLines			23	$ 79	$ Haenne	$ And when the Cocoon falls, so too will the reapers... $
+HutSurvivorsTruthLines			24	$ 46	$ Ahgeli	$ But it's not quite that simple. $
+HutSurvivorsTruthLines			25	$ 56	$ Haenne	$ Indeed, the Cocoon isn't the root problem. $
+HutSurvivorsTruthLines			26	$ 75	$ Haenne	$ The Devourer can save us now, but it won't stop another reaping. $
+HutSurvivorsTruthLines			27	$ 40	$ Ahgeli	$ For that, we must move on. $
+HutSurvivorsTruthLines			28	$ 51	$ Ahgeli	$ Have you heard of the Vaults of Time? $
+HutSurvivorsTruthLines			29	$ 68	$ Ahgeli	$ They lie beneath New Hoiro, and in them are three bells. $
+HutSurvivorsTruthLines			30	$ 71	$ Haenne	$ One for the past, one for the present and one for the future. $
+HutSurvivorsTruthLines			31	$ 132	$ Ahgeli	$ The First Bell rang when Kirion arrived, and the second when all but one of the sacrifices joined their resonating crystals. $
+HutSurvivorsTruthLines			32	$ 72	$ Haenne	$ Now you must ring the third, to bring about an end to all this. $
+HutSurvivorsTruthLines			33	$ 34	$ Ahgeli	$ You understand? $
+HutSurvivorsTruthLines			34	$ 64	$ Ahgeli	$ Destroy a crystal and ring the Third Bell of Time. $
+HutSurvivorsTruthLines			35	$ 54	$ Haenne	$ We'll handle unleashing the Devourer. $
+HutSurvivorsTruthLines			36	$ 45	$ Ahgeli	$ Do this, and we'll all be saved. $
+HutSurvivorsTruthLines			37	$ 67	$ Haenne	$ And don't fall for the lies that filthy king feeds you! $
+
+HutSurvivorsVaultsOfTimeID 4
+HutSurvivorsVaultsOfTimeLines		0	$ 70	$ Haenne	$ Indeed, we were there, along with two Knights of New Hoiro. $
+HutSurvivorsVaultsOfTimeLines		1	$ 70	$ Ahgeli	$ There we learned the truth, and one of the knights gave up. $
+HutSurvivorsVaultsOfTimeLines		2	$ 91	$ Haenne	$ When we concluded the need to unleash the Devourer, the other knight disagreed. $
+HutSurvivorsVaultsOfTimeLines		3	$ 86	$ Haenne	$ In the end, we had to lock him in the First Vault of Time so he couldn't stop us. $
+HutSurvivorsVaultsOfTimeLines		4	$ 88	$ Ahgeli	$ A pity indeed, but he stuck to his misguided beliefs, refusing to use his mind. $
+
+HutSurvivorsDestroyCrystalID 5
+HutSurvivorsDestroyCrystalLines	0	$ 115	$ Haenne	$ Xinsu, the Quiet Guardian, resides in the forest, at the Circle of Stones, where you can destroy the crystals. $
+HutSurvivorsDestroyCrystalLines	1	$ 108	$ Haenne	$ You can get there along the path into the mountains, south of the lake between Ixinik and New Hoiro. $
+HutSurvivorsDestroyCrystalLines	2	$ 69	$ Ahgeli	$ Meet with him, he'll show you how to destroy the crystals. $
+HutSurvivorsDestroyCrystalLines	3	$ 111	$ Haenne	$ But the Circle of Stones are hidden, for the location is shared with the entrance to Alaeborous Crypt. $
+HutSurvivorsDestroyCrystalLines	4	$ 58	$ Ahgeli	$ Along the path, you'll find a lonely archway. $
+HutSurvivorsDestroyCrystalLines	5	$ 114	$ Haenne	$ Circle back around to proceeed forward through the archway six times before continuing along the path. $
+HutSurvivorsDestroyCrystalLines	6	$ 59	$ Ahgeli	$ The Circle of Stones will appear before you. $
+
+HutSurvivorsSealedID 6
+HutSurvivorsSealedLines		0	$ 47	$ Haenne	$ Ah, you've found the sealed path. $
+HutSurvivorsSealedLines		1	$ 69	$ Ahgeli	$ Yes... You're not the first guest we've had. $
+HutSurvivorsSealedLines		2	$ 82	$ Ahgeli	$ The first one, Gjeldar the Cursed, he called himself, disagreed with us. $
+HutSurvivorsSealedLines		3	$ 92	$ Haenne	$ He continued to pursue the purge of the reapers, albeit with a roundabout method. $
+HutSurvivorsSealedLines		4	$ 88	$ Haenne	$ He had a sixth resonating crystal moved below New Hoiro, to the great cavern. $
+HutSurvivorsSealedLines		5	$ 76	$ Ahgeli	$ There, at the very bottom, he sealed shut the Third Vault of Time, $
+HutSurvivorsSealedLines		6	$ 125	$ Ahgeli	$ And he attempted to sacrifice himself, along with the four existing corrupt sacrifices, to purge the land of reapers. $
+HutSurvivorsSealedLines		7	$ 49	$ Ahgeli	$ Evidently, he too did not succeed. $
+HutSurvivorsSealedLines		8	$ 101	$ Haenne	$ Even if he had... We have our doubts about what his purge would have entailed. $
+HutSurvivorsSealedLines		9	$ 76	$ Ahgeli	$ He was one of the greatest warriors I'd ever met... $
+HutSurvivorsSealedLines		10	$ 84	$ Ahgeli	$ Whatever stopped him, it lurks deep beneath New Hoiro, guarding the seal. $
+HutSurvivorsSealedLines		11	$ 80	$ Haenne	$ You'll need to break that seal, of course, but you must take great care, $
+HutSurvivorsSealedLines		12	$ 58	$ Haenne	$ Else you'll end as just another failed hero. $
+
+HutSurvivorsActionbarDiscussions 	meet		$ <#HutSurvivorsMeetID#>		$ Meet
+HutSurvivorsActionbarDiscussions 	greet		$ <#HutSurvivorsGreetID#>		$ Greet
+
+HutSurvivorsChatLogDiscussions 	who		$ <#HutSurvivorsWhoID#>		$ Who
+HutSurvivorsChatLogDiscussions 	truth		$ <#HutSurvivorsTruthID#>		$ Truth
+HutSurvivorsChatLogDiscussions 	vaults_of_time	$ <#HutSurvivorsVaultsOfTimeID#>	$ VaultsOfTime
+HutSurvivorsChatLogDiscussions 	destroy_crystal	$ <#HutSurvivorsDestroyCrystalID#>	$ DestroyCrystal
+HutSurvivorsChatLogDiscussions 	sealed		$ <#HutSurvivorsSealedID#>		$ Sealed
+
+HutSurvivorsBaseDialoguePrompt {<#DialoguePromptOption$HutSurvivors$HutSurvivorsWho$Who are you?#>,"extra":[{<#DialoguePromptOptionFinal$HutSurvivors$HutSurvivorsTruth$Truth?#>}]}
+HutSurvivorsVaultsOfTimeDialoguePrompt {<#DialoguePromptOptionFinal$HutSurvivors$HutSurvivorsVaultsOfTime$Vaults of Time?#>}
+HutSurvivorsDestroyCrystalDialoguePrompt {<#DialoguePromptOptionFinal$HutSurvivors$HutSurvivorsDestroyCrystal$Destroying resonating crystals?#>}
+HutSurvivorsSealedDialoguePrompt {<#DialoguePromptOptionFinal$HutSurvivors$HutSurvivorsSealed$The path is sealed.#>}

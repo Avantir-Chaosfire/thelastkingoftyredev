@@ -1,0 +1,1 @@
+execute at @s rotated ~ 0 positioned ^ ^ ^-1 unless block ~ ~-0.1 ~ minecraft:air run tp @s ~ ~ ~

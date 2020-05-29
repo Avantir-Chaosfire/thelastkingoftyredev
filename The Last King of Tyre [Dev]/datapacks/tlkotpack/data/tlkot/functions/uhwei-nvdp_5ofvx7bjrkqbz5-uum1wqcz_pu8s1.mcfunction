@@ -1,0 +1,2 @@
+function tlkot:zkr22nbc85j2cn3888bgc_pgz7lolbt3kyb4u0jg
+execute store result entity @e[tag=Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD,limit=1] Anger short 1 run scoreboard players get @s ycVIZpdBde07TgY_

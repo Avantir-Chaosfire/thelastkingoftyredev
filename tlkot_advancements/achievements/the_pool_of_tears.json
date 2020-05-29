@@ -1,0 +1,103 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:ghast_tear"
+		},
+		"title":
+		{
+			"text": "The Pool of Tears"
+		},
+		"description": "Enter the Eldern Tunnels",
+		"frame": "task",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/a_memory_to_behold",
+	"criteria":
+	{
+		"the_pool_of_tears_pathway_1":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 595.0,
+						"min": 585.0
+					},
+					"y":
+					{
+						"max": 105.0,
+						"min": 97.0
+					},
+					"z":
+					{
+						"max": 248.0,
+						"min": 244.0
+					}
+				}
+			}
+		},
+		"the_pool_of_tears_pathway_2":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 544.0,
+						"min": 532.0
+					},
+					"y":
+					{
+						"max": 113.0,
+						"min": 103.0
+					},
+					"z":
+					{
+						"max": 224.0,
+						"min": 214.0
+					}
+				}
+			}
+		},
+		"the_pool_of_tears_pathway_3":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 488.0,
+						"min": 474.0
+					},
+					"y":
+					{
+						"max": 75.0,
+						"min": 69.0
+					},
+					"z":
+					{
+						"max": 173.0,
+						"min": 162.0
+					}
+				}
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"the_pool_of_tears_pathway_1",
+			"the_pool_of_tears_pathway_2",
+			"the_pool_of_tears_pathway_3"
+		]
+	]
+}

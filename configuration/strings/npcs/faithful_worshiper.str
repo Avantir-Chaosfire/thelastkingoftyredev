@@ -1,0 +1,3 @@
+#include npcs/tags
+
+FaithfulWorshiperTags <#CommonNPCTags#>,NoAI:1b,NoGravity:1b,Invisible:1b,Tags:["FaithfulWorshiper"],VillagerData:{level:1000,type:"minecraft:taiga",profession:"minecraft:none"},Offers:{Recipes:[]}

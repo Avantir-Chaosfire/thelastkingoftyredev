@@ -1,0 +1,7 @@
+#include versioned_tags
+
+SuitOfArmourTags ‘CustomName:"{\"text\":\"Possessed Suit of Armour\"}",ArmorItems:[{id:"chainmail_boots",Count:1b},{id:"chainmail_leggings",Count:1b},{id:"chainmail_chestplate",Count:1b},{id:"chainmail_helmet",Count:1b}],NoBasePlate:1b,Pose:{LeftLeg:[0.0f,0.0f,0.0f],RightLeg:[0.0f,0.0f,0.0f]},ShowArms:1b,Marker:1b,Invulnerable:1b‘
+
+MovableSuitOfArmourTags ‘<#SuitOfArmourTags#>,Tags:[<#CommonKillableDivisionTags#>,"SuitOfArmour","Movable","HasAI","AI.SuitOfArmour","Possessable"]‘
+
+ImmovableSuitOfArmourTags ‘<#SuitOfArmourTags#>,Tags:[<#CommonKillableDivisionTags#>,"SuitOfArmour","Aiming<1>","KurnasCleanup"]‘

@@ -1,0 +1,1 @@
+{"criteria": {"killed_undead": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"nbt": "{Tags:[\"C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ\"]}"}}}}, "rewards": {"function": "tlkot:b9-_kmlm3_lse045muvu66qjovk4j4x43_q98y85"}}

@@ -1,0 +1,2 @@
+tp @s @e[tag=etgFb1Ou9pDD.HYLXs5xs6Z15AbN3QRiKMw.L0W8,sort=nearest,limit=1]
+execute unless entity @e[tag=etgFb1Ou9pDD.HYLXs5xs6Z15AbN3QRiKMw.L0W8] run function tlkot:tv7fi3anrjgrun-ivvv4ryayib_kzo2-kx4tl9os

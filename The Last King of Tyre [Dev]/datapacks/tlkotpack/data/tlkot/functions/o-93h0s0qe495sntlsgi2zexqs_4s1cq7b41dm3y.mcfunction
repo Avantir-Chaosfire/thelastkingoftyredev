@@ -1,0 +1,2 @@
+summon minecraft:villager ~ ~ ~ {Attributes:[{Base:1.0d,Name:"generic.knockbackResistance"},{Base:0.0d,Name:"generic.movementSpeed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:plains",profession:"minecraft:nitwit"},Tags:["GFy+xV002SGHKDYBKlvuUgF7_vNts35IXdB39ZCs","hEU96hZ_hupqscrho-iX6exg4Hyj7Qwt0WL18qfg","9be.GaWUygX-_jIzB3pRNtkGTWqgnzTrwM.bXYh."],CustomName:"{\"text\":\"Kurnas the Saviour\"}"}
+tp @s -888 7 -728

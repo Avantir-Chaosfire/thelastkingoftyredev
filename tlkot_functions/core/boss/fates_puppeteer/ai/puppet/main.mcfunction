@@ -1,0 +1,1 @@
+execute as @e[tag=PuppetGroupMember] at @s run function tlkot:<~>/process

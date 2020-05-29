@@ -1,0 +1,1 @@
+execute as @e[name="Pressure Plate"] at @s run function tlkot:iie0_8csocjous7dabesiuc1z5pbcgv5v9pc1q3k

@@ -1,0 +1,1 @@
+give @s minecraft:nether_brick{display:{Name:"{\"text\":\"Vile Bones\",\"color\":\"blue\",\"italic\":false}",Lore:['{"text":"Infused bones of a Vile Feeder\'s","color":"gray"}','{"text":"wings. So light they can almost float","color":"gray"}','{"text":"in air, but rigid and strong. Used to","color":"gray"}','{"text":"improve the quality of weapons.","color":"gray"}']}}

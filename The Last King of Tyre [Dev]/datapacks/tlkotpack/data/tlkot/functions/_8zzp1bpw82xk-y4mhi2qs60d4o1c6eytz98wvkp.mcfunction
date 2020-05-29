@@ -1,0 +1,2 @@
+tag @a remove RN3IO2AuKdb49MvuQrgZVhq4WQeQLBXCkj4C1Ptc
+execute as @e[type=fishing_bobber] run function tlkot:q6spaarlikrb1u6de470bemcfe3w8pm9rte8x5_o

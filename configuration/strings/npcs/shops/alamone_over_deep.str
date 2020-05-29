@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+AlamoneRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$NormalArrow$5#>
+AlamoneRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$BurningSalt$5#>
+AlamoneRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$CastingPowder$1#>
+AlamoneRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$NecromancersSlip$1#>
+
+AlamoneExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$NormalArrow$1#>
+AlamoneExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$BurningSalt$1#>
+AlamoneExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$20$CastingPowder$1#>
+AlamoneExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$20$NecromancersSlip$1#>
+
+AlamoneStash normal_arrow	$ NormalArrow		$ 14
+AlamoneStash burning_salt	$ BurningSalt		$ 12
+AlamoneStash casting_powder	$ CastingPowder		$ 3
+AlamoneStash necromancers_slip	$ NecromancersSlip	$ 4
+AlamoneStash head_of_yearning	$ HeadOfYearning	$ 4

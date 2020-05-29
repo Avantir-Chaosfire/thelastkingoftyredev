@@ -1,0 +1,2 @@
+execute unless entity @a[scores={AlamoneTalk=<#AlamoneNewProphetID#>}] run function tlkot:<~>/not_new_prophet
+scoreboard players set @a[scores={AlamoneTalk=<#AlamoneNewProphetID#>}] AlamoneTalk <#AlamoneSilenceID#>

@@ -1,0 +1,1 @@
+execute if block 256 255 32 minecraft:air run function tlkot:qkwosnz7ggeqb2l43oji5c6n529gxgh2k3dg3vmj

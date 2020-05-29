@@ -1,0 +1,1 @@
+execute as @e[tag=KurnasPossessionHitbox] at @s run function tlkot:<~>/process

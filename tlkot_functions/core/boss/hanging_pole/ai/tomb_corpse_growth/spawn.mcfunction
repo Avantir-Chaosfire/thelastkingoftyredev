@@ -1,0 +1,2 @@
+execute if entity @e[tag=Hanging,tag=Servant,tag=Animated] as @e[tag=Hanging,tag=Critic,tag=!Animated] at @s run function tlkot:core/boss/hanging_pole/ai/phases/animate/critic
+execute as @e[tag=Hanging,tag=Servant,tag=!Animated] at @s run function tlkot:core/boss/hanging_pole/ai/phases/animate/servant

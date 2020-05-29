@@ -1,0 +1,2 @@
+scoreboard players set @s[scores={bEDPcJnxv7RJYWIz=1..}] mLw1_SHuvl4_3Rx6 300
+execute if entity @s[scores={mLw1_SHuvl4_3Rx6=0}] if entity @a[distance=..14] positioned ~-15 ~-5 ~-15 if entity @a[dx=29,dy=11,dz=29] positioned ~15 ~5 ~15 run function tlkot:oazd41o9rj83lna_s00r8my273uxnk3lz0-w_lbs

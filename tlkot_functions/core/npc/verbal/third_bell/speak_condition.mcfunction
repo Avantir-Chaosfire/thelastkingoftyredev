@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={ThirdBellTalk=<#ThirdBellGenericEndingID#>..}] ThirdBellLine 0

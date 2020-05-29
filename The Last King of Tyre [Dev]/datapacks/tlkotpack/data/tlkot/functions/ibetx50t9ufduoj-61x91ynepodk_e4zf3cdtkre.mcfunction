@@ -1,0 +1,1 @@
+execute at @a[tag=a1y3Hr23kZbI9noU8lcNE31ot7IesKUyPpvssBNa,scores={o6ndDE_PY.nE1hFX=12}] if block ~ ~-0.5 ~ #tlkot:respawn_location run scoreboard players set @a o6ndDE_PY.nE1hFX 13

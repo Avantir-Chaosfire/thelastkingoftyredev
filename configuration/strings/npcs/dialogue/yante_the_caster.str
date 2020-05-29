@@ -1,0 +1,112 @@
+#include npcs/tags
+#include npcs/shops/yante_the_caster
+
+#join compendium <Newline>
+#join functions <Newline>
+
+YanteIDTag YanteTheCaster
+YanteBaseTags <#CommonNPCTags$taiga$toolsmith#>,Tags:["<#YanteIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Yante the Caster\"}"
+
+YanteTags <#YanteBaseTags#>,Offers:{Recipes:[<#YanteRecipes#>]}
+YanteRefusalTags <#YanteBaseTags#>
+YanteExpensiveTags <#YanteBaseTags#>,Offers:{Recipes:[<#YanteExpensiveRecipes#>]}
+
+YanteColour dark_gray
+YanteLocation 586.67 157 399.043
+YanteStorageLocation 586.5 154 399.5
+YanteEngageRadius 6] if entity @a[x=574,y=157,z=397,dx=16,dy=5,dz=6
+YanteDisengageRadius 13
+
+YanteMeetID 0
+YanteMeetLines			0	$ 59	$ Oh, you made it past my sentinels? $
+YanteMeetLines			1	$ 62	$ I suppose you must be alright then. $
+YanteMeetLines			2	$ 113	$ I am Yante the Caster, although acting more as a shopkeep during the reaping. $
+YanteMeetLines			3	$ 57	$ Care to browse my wares or chat? $
+
+YanteGoodGreetID 1
+YanteGoodGreetLines		0	$ 44	$ In need of supplies? $
+
+YanteBadGreetID 2
+YanteBadGreetLines		0	$ 32	$ Oh, it's you. $
+YanteBadGreetLines		1	$ 66	$ Haven't caused enough trouble yet, huh? $
+
+YanteUncomfortableID 3
+YanteUncomfortableLines	0	$ 86	$ Excuse me, please stay on the other side of the counter. $
+
+YanteIntrusionID 4
+YanteIntrusionLines		0	$ 24	$ HEY! $
+YanteIntrusionLines		1	$ 41	$ GET OUT OF MY ROOM! $
+YanteIntrusionLines		2	$ 45	$ THAT'S NOT YOUR STUFF! $
+
+YanteWaryID 5
+YanteWaryLines			0	$ 35	$ Go on, get out! $
+YanteWaryLines			1	$ 27	$ Leave! $
+YanteWaryLines			2	$ 86	$ Don't come back 'til you're willing to respect my rights! $
+
+YantePardonID 6
+YantePardonLines		0	$ 72	$ You're really toeing the line, you know that? $
+YantePardonLines		1	$ 26	$ Hmph. $
+
+YanteAccusationID 7
+YanteAccusationLines		0	$ 77	$ Oh why do I give people the benefit of the doubt? $
+YanteAccusationLines		1	$ 84	$ You're just a bandit taking advantage of the reaping! $
+YanteAccusationLines		2	$ 69	$ It should have been obvious... $
+
+YanteCasterID 8
+YanteCasterLines		0	$ 50	$ Yes, I was a caster of the Subjugate. $
+YanteCasterLines		1	$ 47	$ Not a high rank, just one of many. $
+YanteCasterLines		2	$ 94	$ Most of my days were spent researching and performing services for the community. $
+YanteCasterLines		3	$ 112	$ A certain portion of every caster's time was dedicated to serving whatever requests people made of us. $
+YanteCasterLines		4	$ 42	$ Such was our lawful duty. $
+YanteCasterLines		5	$ 91	$ It's been rather lonely since, just some sentinels for company... $
+YanteCasterLines		6	$ 120	$ And the noises I hear sometimes, the hunting reapers, screams of victims, clashing of swords, it's... $
+YanteCasterLines		7	$ 46	$ Well, it wears on me sometimes. $
+YanteCasterLines		8	$ 66	$ But I won't fail... I'll see this through. $
+YanteCasterLines		9	$ 72	$ Someone must, or eventually, all of humanity will be doomed. $
+
+YanteSentinelsID 9
+YanteSentinelsLines		0	$ 38	$ Ah, the sentinels, yes. $
+YanteSentinelsLines		1	$ 75	$ My team of researchers invented them; Our greatest creation. $
+YanteSentinelsLines		2	$ 72	$ They can only attack those bearing the Cocoon's influence. $
+YanteSentinelsLines		3	$ 88	$ They drain that bondage, and store it as energy they use to further function. $
+YanteSentinelsLines		4	$ 110	$ As a result, sentinels function only around large numbers of reapers, else they'd run themselves dry. $
+YanteSentinelsLines		5	$ 76	$ So, I had to set the ones here up only just when the reaping began. $
+
+YanteResearchID 10
+YanteResearchLines		0	$ 67	$ Much of my research dealt with the nature of reapers. $
+YanteResearchLines		1	$ 90	$ It's how we were able to create the sentinels, among other things, to combat them. $
+YanteResearchLines		2	$ 66	$ But perhaps most intriguing of all... $
+YanteResearchLines		3	$ 93	$ When we gazed into reapers' corrupt souls, or when we had undead perform communion, $
+YanteResearchLines		4	$ 80	$ There was the unmistakable presence of what can only be the Cocoon. $
+YanteResearchLines		5	$ 75	$ But in communion it became clear, the Cocoon is no mere object. $
+YanteResearchLines		6	$ 27	$ It lives. $
+YanteResearchLines		7	$ 28	$ It thinks. $
+YanteResearchLines		8	$ 60	$ Indeed, it may be more intelligent than we are. $
+YanteResearchLines		9	$ 110	$ And its whole being seems to be permeated with some great sadness, and an irrestible determination. $
+YanteResearchLines		10	$ 78	$ Whatever kind of monster it is, I know it needs to die so we can live. $
+
+YanteActionbarDiscussions 	meet		$ <#YanteMeetID#>		$ Meet
+YanteActionbarDiscussions 	good_greet	$ <#YanteGoodGreetID#>		$ GoodGreet
+YanteActionbarDiscussions 	bad_greet	$ <#YanteBadGreetID#>		$ BadGreet
+YanteActionbarDiscussions 	uncomfortable	$ <#YanteUncomfortableID#>	$ Uncomfortable
+YanteActionbarDiscussions 	intrusion	$ <#YanteIntrusionID#>		$ Intrusion
+YanteActionbarDiscussions 	wary		$ <#YanteWaryID#>		$ Wary
+YanteActionbarDiscussions 	pardon		$ <#YantePardonID#>		$ Pardon
+YanteActionbarDiscussions 	accusation	$ <#YanteAccusationID#>	$ Accusation
+
+YanteChatLogDiscussions 	caster		$ <#YanteCasterID#>		$ Caster
+YanteChatLogDiscussions 	sentinels	$ <#YanteSentinelsID#>		$ Sentinels
+YanteChatLogDiscussions 	research	$ <#YanteResearchID#>		$ Research
+
+YanteDialoguePrompt {<#DialoguePromptOption$Yante$YanteCaster$Caster?#>,"extra":[{<#DialoguePromptOption$Yante$YanteSentinels$Sentinels?#>},{<#DialoguePromptOptionFinal$Yante$YanteResearch$Research?#>}]}
+
+YanteUncomfortableArea x=585.5,y=157,z=397,dx=4.5,dy=5,dz=6
+YanteBackroomArea x=586,y=159,z=404,dx=4,dy=3,dz=9
+YanteWaryArea x=589,y=157,z=402,dx=1,dy=5,dz=0
+
+YanteStashLocation 0 $ 590 159 405
+YanteStashLocation 1 $ 590 159 406
+YanteStashLocation 2 $ 590 160 409
+YanteStashLocation 3 $ 590 160 410
+YanteStashLocation 4 $ 586 159 411
+YanteStashLocation 5 $ 586 159 410

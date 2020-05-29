@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={AFriendTalk=<#AFriendWaresID#>..}] AFriendLine 0

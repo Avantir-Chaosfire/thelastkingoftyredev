@@ -1,0 +1,1 @@
+execute unless entity @a[scores={<2>Talk=<#<1>BadGreetID#>..<#<1>WaryID#>}] unless entity @a[scores={<2>Talk=<#<1>AccusationID#>}] run function tlkot:core/npc/verbal/<0>/discussion/prompt/comfortable

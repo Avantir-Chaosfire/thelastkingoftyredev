@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={v9jW.czrPQqAmyJO=-1}] v9jW.czrPQqAmyJO 84
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "I am the \u00a7lSaviour\u00a78\u00a7o, \u00a7lI\u00a78\u00a7o will not be killed...", "color": "dark_gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "I am the \u00a7lSaviour\u00a78\u00a7o, \u00a7lI\u00a78\u00a7o will not be killed...", "color": "white", "italic": true}

@@ -1,0 +1,1 @@
+execute unless entity @e[tag=ConductorDeathMarker,distance=..1] run function tlkot:utility/summon_enemy/human/conductor/main

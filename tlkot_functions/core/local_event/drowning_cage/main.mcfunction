@@ -1,0 +1,1 @@
+execute as @e[tag=LastKingOfTyre] at @s run function tlkot:core/local_event/drowning_cage/process

@@ -1,0 +1,75 @@
+#include npcs/tags
+#include npcs/shops/feraldo
+
+#join compendium <Newline>
+#join functions <Newline>
+
+FeraldoIDTag Feraldo
+FeraldoTags <#CommonNPCTags$jungle$armorer#>,Offers:{Recipes:[<#FeraldoRecipes#>]},Tags:["<#FeraldoIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Feraldo\"}"
+
+FeraldoColour dark_green
+FeraldoLocation 480.84 72 356.76
+FeraldoEngageRadius 6
+FeraldoDisengageRadius 13
+
+FeraldoMeetID 0
+FeraldoMeetLines		0	$ 38	$ Oh, hello there. $
+FeraldoMeetLines		1	$ 39	$ Who might you be? $
+FeraldoMeetLines		2	$ 131	$ Only person I've seen strong enough to fight their way down here is that vicious old knight. $
+FeraldoMeetLines		3	$ 129	$ Well, if you've got the need and the materials, I may be able to reinforce some of your armour. $
+
+FeraldoGreetID 1
+FeraldoGreetLines		0	$ 33	$ Greetings. $
+
+FeraldoWhoID 2
+FeraldoWhoLines			0	$ 22	$ Ah! $
+FeraldoWhoLines			1	$ 45	$ Forgot to introduce myself. $
+FeraldoWhoLines			2	$ 36	$ The name's Feraldo. $
+FeraldoWhoLines			3	$ 81	$ Just Feraldo, I haven't got a title, not like you folks from around here. $
+
+FeraldoWhereID 3
+FeraldoWhereLines		0	$ 100	$ I was an undead slave serving under some psychotic... well... $
+FeraldoWhereLines		1	$ 69	$ By the standards of liches he was pretty sane I suppose. $
+FeraldoWhereLines		2	$ 88	$ I managed to stay obedient enough to avoid torture, but I got a whipping once. $
+FeraldoWhereLines		3	$ 59	$ Fortunately that scarred up pretty nicely. $
+FeraldoWhereLines		4	$ 103	$ One day we got attacked and scattered by one of your crusades; I was captured and brought here. $
+FeraldoWhereLines		5	$ 59	$ They wanted to study us see... $
+FeraldoWhereLines		6	$ 76	$ They wanted to know how best to kill us, and, well... $
+FeraldoWhereLines		7	$ 93	$ I think they may have been trying to reengineer the Binding Scroll, make it better. $
+FeraldoWhereLines		8	$ 99	$ They wanted to use it to forever prevent a second reaping, and a load of good that did them. $
+FeraldoWhereLines		9	$ 51	$ Instead, they hastened its arrival. $
+FeraldoWhereLines		10	$ 32	$ Bloody fools. $
+
+FeraldoBindingBeamID 4
+FeraldoBindingBeamLines	0	$ 82	$ Yes... I was locked in there shortly before the reaping. $
+FeraldoBindingBeamLines	1	$ 103	$ It's where the Subjugate performed experiments in binding to the earth and the effects of it. $
+FeraldoBindingBeamLines	2	$ 74	$ They did terrible things to people in there... $
+FeraldoBindingBeamLines	3	$ 75	$ No one came out sane, if they came out as anything more than ash. $
+FeraldoBindingBeamLines	4	$ 49	$ I- I myself was days from losing it. $
+FeraldoBindingBeamLines	5	$ 63	$ Ironically, the second reaping... $
+FeraldoBindingBeamLines	6	$ 34	$ Well it saved me. $
+
+FeraldoSmithingID 5
+FeraldoSmithingLines		0	$ 47	$ This was my, mmm, 'trade', as a slave. $
+FeraldoSmithingLines		1	$ 89	$ Shortly after my- our jailers got news that the wall of New Hoiro was breached, $
+FeraldoSmithingLines		2	$ 99	$ A band of armed undead came along and slew any and all Subjugate members they could find. $
+FeraldoSmithingLines		3	$ 72	$ Freedom they said... But we, uh, I, I knew better. $
+FeraldoSmithingLines		4	$ 27	$ Revenge. $
+FeraldoSmithingLines		5	$ 53	$ I felt it to, feel it now more than ever. $
+FeraldoSmithingLines		6	$ 64	$ Anyway, those undead, they freed us from that beam, $
+FeraldoSmithingLines		7	$ 69	$ And I locked myself up here with tools I'm familiar with. $
+FeraldoSmithingLines		8	$ 127	$ The others... Well, those that could even tell what had happened decided to try to escape... $
+FeraldoSmithingLines		9	$ 50	$ I- I don't know what happened to them. $
+FeraldoSmithingLines		10	$ 43	$ Doubt they made it though. $
+FeraldoSmithingLines		11	$ 91	$ Only undead like myself can forever resist that yearning for the Cocoon, alone, $
+FeraldoSmithingLines		12	$ 60	$ But we're also the most likely to go mad trying. $
+
+FeraldoActionbarDiscussions 	meet		$ <#FeraldoMeetID#>		$ Meet
+FeraldoActionbarDiscussions 	greet		$ <#FeraldoGreetID#>		$ Greet
+
+FeraldoChatLogDiscussions 	who		$ <#FeraldoWhoID#>		$ Who
+FeraldoChatLogDiscussions 	where		$ <#FeraldoWhereID#>		$ Where
+FeraldoChatLogDiscussions 	binding_beam	$ <#FeraldoBindingBeamID#>	$ BindingBeam
+FeraldoChatLogDiscussions 	smithing	$ <#FeraldoSmithingID#>	$ Smithing
+
+FeraldoDialoguePrompt {<#DialoguePromptOption$Feraldo$FeraldoWho$Who are you?#>,"extra":[{<#DialoguePromptOption$Feraldo$FeraldoWhere$Where are you from?#>},{<#DialoguePromptOption$Feraldo$FeraldoBindingBeam$The Binding Beam?#>},{<#DialoguePromptOptionFinal$Feraldo$FeraldoSmithing$Smithing?#>}]}

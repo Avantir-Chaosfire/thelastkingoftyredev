@@ -1,0 +1,1 @@
+execute as @e[type=potion,tag=!NotWitchPotion] run function tlkot:<~>/process

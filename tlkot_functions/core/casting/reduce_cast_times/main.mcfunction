@@ -1,0 +1,1 @@
+execute if entity @s[scores={Will=<0>}] run function tlkot:core/casting/reduce_cast_times/<0>

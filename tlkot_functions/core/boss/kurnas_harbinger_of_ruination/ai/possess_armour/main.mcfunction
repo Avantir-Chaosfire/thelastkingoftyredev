@@ -1,0 +1,2 @@
+execute if entity @a[tag=KurnasPossession] run function tlkot:<~>/possess
+execute as @e[type=armor_stand,name=Kurnas-SuitOfArmour] at @s if score @s ArmourSuitSpawn < @a[limit=1] ArmourSuitSpawn run function tlkot:<~>/summon/main

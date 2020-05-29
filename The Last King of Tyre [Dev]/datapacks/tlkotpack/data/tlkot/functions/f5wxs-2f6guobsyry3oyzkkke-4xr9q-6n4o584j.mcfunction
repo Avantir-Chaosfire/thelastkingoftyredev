@@ -1,0 +1,3 @@
+execute if entity @e[tag=C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ,distance=..18,scores={bEDPcJnxv7RJYWIz=1..}] run scoreboard players add @s rCwR6JgJFPSOXfvm 1
+scoreboard players set @s[scores={bEDPcJnxv7RJYWIz=1..}] mLw1_SHuvl4_3Rx6 160
+execute if entity @s[scores={mLw1_SHuvl4_3Rx6=0,rCwR6JgJFPSOXfvm=1..}] if entity @a[scores={HolAt8.byvruHpdt=1..}] run function tlkot:2pb19lr1eu7koo2-jy70ymnh11fpfo0tjpgjitoc

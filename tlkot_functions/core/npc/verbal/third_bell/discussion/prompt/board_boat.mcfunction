@@ -1,0 +1,2 @@
+function tlkot:core/ending_sequence/start_credits_and_reset_spawn
+advancement grant @a only tlkot:achievements/cowardice

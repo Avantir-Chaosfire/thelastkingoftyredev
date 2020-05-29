@@ -1,0 +1,1 @@
+execute as @e[tag=Miasma] at @s run function tlkot:core/miasma_cloud/process

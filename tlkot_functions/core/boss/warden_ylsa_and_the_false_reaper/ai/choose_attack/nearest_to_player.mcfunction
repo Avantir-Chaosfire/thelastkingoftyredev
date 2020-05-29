@@ -1,0 +1,2 @@
+execute if entity @s[tag=WardenYlsa] run scoreboard players set @a YlsaAttack <#WardenYlsaAttackProjectileLine#>
+execute if entity @s[tag=FalseReaper] run scoreboard players set @a YlsaAttack <#WardenYlsaAttackProjectileGuard#>

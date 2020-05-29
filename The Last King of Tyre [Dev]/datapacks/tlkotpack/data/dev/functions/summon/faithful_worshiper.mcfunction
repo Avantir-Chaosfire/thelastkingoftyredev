@@ -1,0 +1,2 @@
+summon minecraft:villager ~ ~ ~ {Attributes:[{Base:1.0d,Name:"generic.knockbackResistance"},{Base:0.0d,Name:"generic.movementSpeed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:<1>",profession:"minecraft:<2>"},NoAI:1b,NoGravity:1b,Invisible:1b,Tags:["d95eWawTDxY.Ju6qDgXql0yJMpgy+TX.-GWHsX.u"],Offers:{Recipes:[]}}
+execute as @e[tag=d95eWawTDxY.Ju6qDgXql0yJMpgy+TX.-GWHsX.u,limit=1,sort=nearest,distance=..1] at @s run tp @s ~ ~ ~ facing 613 192 223

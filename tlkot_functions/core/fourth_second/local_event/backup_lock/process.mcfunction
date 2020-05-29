@@ -1,0 +1,2 @@
+execute if entity @s[tag=!Powered] if block ~ ~ ~ minecraft:lever[powered=true] run function tlkot:<~>/open
+execute if entity @s[tag=Powered] if block ~ ~ ~ minecraft:lever[powered=false] run function tlkot:<~>/close

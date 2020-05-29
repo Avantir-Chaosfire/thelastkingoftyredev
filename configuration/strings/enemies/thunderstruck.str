@@ -1,0 +1,11 @@
+#include attribute_modifiers
+#include eliminate_base_attributes
+#include versioned_tags
+#include items/weapons/black_oak_staff
+#include items/scrolls/arc_lightning
+
+ThunderstruckCustomName ‘CustomName:"{\"text\":\"Thunderstruck Reaper\"}"‘
+
+ThunderstruckHealth 93000
+
+ThunderstruckTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:2},{Name:generic.movementSpeed,Base:0.15},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{id:iron_boots,Count:1b,tag:{display:{color:8222800},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:8222800},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:8222800},<#NoArmourModifier3#>}},{}],HandItems:[{id:"<#Base1HBlackOakStaffItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{id:"<#ArcLightningScrollItemID#>",Count:1b,tag:{CustomModelData:8}}],<#ThunderstruckCustomName#>,Tags:["Enemy.Thunderstruck",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","AI.Thunderstruck","AI.AgroClose","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘

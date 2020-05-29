@@ -1,0 +1,3 @@
+execute if entity @a[scores={q52dZ0E4NwDpvvbA=1}] if entity @s[tag=!G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF] run function tlkot:13f9-typwkqx3kcz2t1co37hqb-qc7qbujks7q6s
+execute if entity @a[scores={q52dZ0E4NwDpvvbA=0}] if entity @s[tag=G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF] run function tlkot:smsod2-i4wh9ovw8cl-d3-ss4q0bkrswg3z1l2rf
+execute if entity @s[scores={-gS0TUaWZKGMNxDN=1..}] run function tlkot:djqbqqmr8dlprms1_no6q6_ec4j6cku4h8lth2ye

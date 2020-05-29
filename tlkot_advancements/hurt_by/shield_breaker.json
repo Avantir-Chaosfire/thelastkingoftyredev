@@ -1,0 +1,24 @@
+{
+	"criteria":
+	{
+		"hurt_by_shield_breaker":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"blocked": true,
+					"source_entity":
+					{
+						"nbt": "{Tags:[\"AI.ShieldBreaker\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt_by/shield_breaker"
+	}
+}

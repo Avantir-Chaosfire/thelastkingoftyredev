@@ -1,0 +1,1 @@
+function dev:respawn_all_npcs

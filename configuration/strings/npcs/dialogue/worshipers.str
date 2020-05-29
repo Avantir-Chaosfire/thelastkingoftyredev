@@ -1,0 +1,27 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+Worshiper1Colour white
+Worshiper1Location 616.29 186 237.878
+Worshiper1EngageRadius 3
+Worshiper1DisengageRadius 5
+
+Worshiper1VerseID 0
+Worshiper1VerseLines		0	$ 68	$ The Lord is my shepherd; I shall not want. $
+
+Worshiper1ActionbarDiscussions verse	$ <#Worshiper1VerseID#>	$ Verse
+Worshiper1ChatLogDiscussions
+
+Worshiper2Colour white
+Worshiper2Location 611.2 186 247.336
+Worshiper2EngageRadius 3
+Worshiper2DisengageRadius 5
+
+Worshiper2VerseID 0
+Worshiper2VerseLines		0	$ 84	$ Jesus answered, 'I am the way and the truth and the life. $
+Worshiper2VerseLines		1	$ 74	$ No one comes to the Father except through me.' $
+
+Worshiper2ActionbarDiscussions verse	$ <#Worshiper2VerseID#>	$ Verse
+Worshiper2ChatLogDiscussions

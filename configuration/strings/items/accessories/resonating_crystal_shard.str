@@ -1,0 +1,24 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ResonatingCrystalShardItemID nautilus_shell
+ResonatingCrystalShardNameText Resonating Crystal Shard
+ResonatingCrystalShardNameColour green
+ResonatingCrystalShardName <#ItemName$ResonatingCrystalShardNameText$ResonatingCrystalShardNameColour#>
+ResonatingCrystalShardDescription <#LoreLine$Was just an ordinary heirloom until#>
+ResonatingCrystalShardDescription <#LoreLine$blood spilled on it, and all in the#>
+ResonatingCrystalShardDescription <#LoreLine$room could feel the energy it#>
+ResonatingCrystalShardDescription <#LoreLine$unleashed. These crystals are#>
+ResonatingCrystalShardDescription <#LoreLine$part of what drove the Ashurian#>
+ResonatingCrystalShardDescription <#LoreLine$mining boom.#>
+ResonatingCrystalShardDescription <#StatsLine#>
+ResonatingCrystalShardStats <#LoreLine$-1 <#SprintStamina#>#>
+ResonatingCrystalShardStats <#LoreLine$Hastens Foes#>
+
+ResonatingCrystalShardDataTag display:{Name:"<#ResonatingCrystalShardName#>",Lore:[<#ResonatingCrystalShardDescription#>,<#ResonatingCrystalShardStats#>]},HoldingID:<#ResonatingCrystalShardHoldingID#>
+ResonatingCrystalShard <#Item$ResonatingCrystalShardItemID$ResonatingCrystalShardDataTag#>

@@ -1,0 +1,3 @@
+scoreboard players set @a t44CDG+k-gJJDETL 4
+scoreboard players enable @a t44CDG+k-gJJDETL
+tellraw @a[scores={t44CDG+k-gJJDETL=4}] {"text": "\"Yes\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger t44CDG+k-gJJDETL set 5"}, "extra": [{"text": "\"No\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger t44CDG+k-gJJDETL set 6"}}]}

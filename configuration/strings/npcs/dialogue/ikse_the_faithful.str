@@ -1,0 +1,66 @@
+#include npcs/tags
+#include npcs/shops/ikse_the_faithful
+
+#join compendium <Newline>
+#join functions <Newline>
+
+IkseIDTag IkseTheFaithful
+IkseBaseTags <#CommonNPCTags$taiga$shepherd#>,Tags:["<#IkseIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Ikse the Faithful\"}"
+
+IkseTags <#IkseBaseTags#>,Offers:{Recipes:[<#IkseRecipes#>]}
+IkseRefusalTags <#IkseBaseTags#>
+
+IkseColour green
+IkseLocation 5.071 136.0625 190.454
+IkseEngageRadius 6] if entity @a[x=1,y=136,z=182,dx=5,dy=3,dz=12
+IkseDisengageRadius 13
+
+IkseMeetID 0
+IkseMeetLines		0	$ 30	$ Can it be? $
+IkseMeetLines		1	$ 45	$ A fighter, still sane! $
+IkseMeetLines		2	$ 74	$ I am Ikse the Faithful, one of Ixinik's smiths. $
+
+IkseGreetID 1
+IkseGreetLines		0	$ 35	$ Hello again. $
+
+IkseSmithingID 2
+IkseSmithingLines	0	$ 94	$ There are many kinds of smithing, only a few of which involve heat, metal and hammers. $
+IkseSmithingLines	1	$ 109	$ The invention of sign-casting, called Illwoird, and its sub-form Aerteyp revolutionized smithing. $
+IkseSmithingLines	2	$ 104	$ Now, using complex casts, casting devices and other objects imprinted with complex Illwoird, $
+IkseSmithingLines	3	$ 86	$ We can create armour and tools with all kinds of interesting properties. $
+IkseSmithingLines	4	$ 68	$ There's still great amounts to learn and explore here. $
+IkseSmithingLines	5	$ 86	$ If you bring me the right materials and equipment, I can improve it for you. $
+
+IkseFaithfulID 3
+IkseFaithfulLines	0	$ 44	$ Yes, that's what they call me. $
+IkseFaithfulLines	1	$ 56	$ To many, faith seems strange, irrational. $
+IkseFaithfulLines	2	$ 82	$ 'Why believe in something there's no evidence for?', the pragmatists say. $
+IkseFaithfulLines	3	$ 84	$ Perhaps I'm just an optimist, perhaps I haven't lost hope... $
+IkseFaithfulLines	4	$ 94	$ But personally, I think faith is characterized by an inability to accept nihilism. $
+IkseFaithfulLines	5	$ 83	$ Maybe that's all hope is, maybe good faith is merely an existential hope. $
+IkseFaithfulLines	6	$ 72	$ If so, it was certainly lacking in those who became reapers. $
+IkseFaithfulLines	7	$ 80	$ The evangelists' worship something very real, but hold no hope in it. $
+IkseFaithfulLines	8	$ 57	$ Their faith is a faith in death, not in life. $
+IkseFaithfulLines	9	$ 57	$ In other words, the acceptance of failure. $
+IkseFaithfulLines	10	$ 86	$ This view permeated our culture shortly after the second reaping began, $
+IkseFaithfulLines	11	$ 90	$ It's what's led to the rampant defilement of humanity and our places of worship. $
+
+IkseNewProphetID 4
+IkseNewProphetLines	0	$ 32	$ You've done it. $
+IkseNewProphetLines	1	$ 75	$ Not only have you accepted defeat, you have become its beacon. $
+IkseNewProphetLines	2	$ 51	$ All look to you and know it to be true. $
+IkseNewProphetLines	3	$ 39	$ ...I see. $
+IkseNewProphetLines	4	$ 43	$ Our lives are forfeit now. $
+IkseNewProphetLines	5	$ 72	$ Do as you will, but I will not lose faith in humanity's future. $
+IkseNewProphetLines	6	$ 40	$ I could not accept that. $
+
+IkseSilenceID 5
+
+IkseActionbarDiscussions 	meet		$ <#IkseMeetID#>	$ Meet
+IkseActionbarDiscussions 	greet		$ <#IkseGreetID#>	$ Greet
+IkseActionbarDiscussions 	new_prophet	$ <#IkseNewProphetID#>	$ NewProphet
+
+IkseChatLogDiscussions 	smithing	$ <#IkseSmithingID#>	$ Smithing
+IkseChatLogDiscussions 	faithful	$ <#IkseFaithfulID#>	$ Faithful
+
+IkseDialoguePrompt {<#DialoguePromptOption$Ikse$IkseSmithing$Smithing?#>,"extra":[{<#DialoguePromptOptionFinal$Ikse$IkseFaithful$Faithful?#>}]}

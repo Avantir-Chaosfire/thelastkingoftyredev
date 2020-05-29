@@ -1,0 +1,3 @@
+execute if entity @a[scores={NjBa8xXTNSecj9P2=0..}] run tellraw @a {"text": "A determined one...!", "color": "dark_purple", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=1..}] run tellraw @a {"text": "But how determined can you be?", "color": "dark_purple", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=2..}] run tellraw @a {"text": "Can't be great in becoming mine, or better, becoming HIS!", "color": "dark_purple", "italic": true}

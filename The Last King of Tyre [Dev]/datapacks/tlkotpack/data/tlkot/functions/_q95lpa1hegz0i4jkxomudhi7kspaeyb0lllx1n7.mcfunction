@@ -1,0 +1,4 @@
+execute if entity @a[distance=..6,tag=!Gvkp1+gY2zTvCjbAWxxbWgdJ50xG6feCKX-23K3d] run function tlkot:nd_e5nyps7m7q3eut_0ndvxr_2jo9wurk9ebhnsu
+execute if entity @a[tag=Gvkp1+gY2zTvCjbAWxxbWgdJ50xG6feCKX-23K3d,scores={iLssNGWZGo1tm_SW=-1,MjFcSNTJ+tIZmwuU=-1}] run function tlkot:6a5_i095dpdmcxyg5v9gwt4swxyx2a4izx-h_hkg
+execute if entity @a[tag=Gvkp1+gY2zTvCjbAWxxbWgdJ50xG6feCKX-23K3d,scores={MjFcSNTJ+tIZmwuU=0..}] run function tlkot:4j2ewjynvc80xa7tppi9suxjg2j9lpo53mcmhg86
+execute if entity @a[distance=13..,tag=Gvkp1+gY2zTvCjbAWxxbWgdJ50xG6feCKX-23K3d] run function tlkot:aig2h2ev72cri_kz9v2s9mg0f16armfi6o_hz_dh

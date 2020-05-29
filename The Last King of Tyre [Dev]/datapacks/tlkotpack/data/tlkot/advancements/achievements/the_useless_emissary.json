@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:chorus_fruit"}, "title": {"text": "The Useless Emissary"}, "description": "Defeat all eight main bosses without ever dying or using the Death Sigil", "frame": "challenge"}, "parent": "tlkot:achievements/root", "criteria": {"the_useless_emissary": {"trigger": "minecraft:impossible"}}}

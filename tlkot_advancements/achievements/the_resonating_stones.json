@@ -1,0 +1,23 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#SeeingStarItemID#>"
+		},
+		"title":
+		{
+			"text": "The Resonating Stones"
+		},
+		"description": "Uncover the Circle of Stones",
+		"frame": "task"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_resonating_stones":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

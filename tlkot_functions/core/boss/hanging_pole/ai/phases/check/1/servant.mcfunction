@@ -1,0 +1,2 @@
+execute if entity @a[tag=!DefiledServant,scores={ServantHealth=..<#HangingServantTransitionHealth#>}] run function tlkot:core/boss/hanging_pole/ai/phases/transition/2/servant/pure
+execute if entity @a[tag=DefiledServant,scores={ServantHealth=..<#HangingServantDefiledTransitionHealth#>}] run function tlkot:core/boss/hanging_pole/ai/phases/transition/2/servant/defiled

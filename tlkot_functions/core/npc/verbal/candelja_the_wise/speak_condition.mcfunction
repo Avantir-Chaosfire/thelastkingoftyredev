@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={CandeljaTalk=<#CandeljaShipID#>..}] CandeljaLine 0

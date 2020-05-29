@@ -1,0 +1,62 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+PlainHeadItemID leather_helmet
+PlainHeadNameText Leather Cap
+PlainHeadNameColour white
+PlainHeadName <#ItemName$PlainHeadNameText$PlainHeadNameColour#>
+PlainHeadDescription <#LoreLine$A standard leather cap.#>
+PlainHeadDescription <#StatsLine#>
+PlainHeadStats <#LoreLine$<#Armour#>: 1#>
+PlainHeadStats <#LoreLine$<#Weight#>: 0.5#>
+PlainHeadDisplayTags
+PlainHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-262791071,UUIDMost:432915970,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+PlainHeadDataTag display:{Name:"<#PlainHeadName#>",Lore:[<#PlainHeadDescription#>,<#PlainHeadStats#>],<#PlainHeadDisplayTags#>},<#PlainHeadTags#>
+PlainHead <#Item$PlainHeadItemID$PlainHeadDataTag#>
+
+PlainChestItemID chainmail_chestplate
+PlainChestNameText Chainmail Chestpiece
+PlainChestNameColour white
+PlainChestName <#ItemName$PlainChestNameText$PlainChestNameColour#>
+PlainChestDescription <#LoreLine$A standard piece of chainmail.#>
+PlainChestDescription <#StatsLine#>
+PlainChestStats <#LoreLine$<#Armour#>: 4#>
+PlainChestStats <#LoreLine$<#Weight#>: 2.0#>
+PlainChestDisplayTags
+PlainChestTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:469503776,UUIDMost:-1856568594,Slot:"chest"}],HideFlags:6
+
+PlainChestDataTag display:{Name:"<#PlainChestName#>",Lore:[<#PlainChestDescription#>,<#PlainChestStats#>],<#PlainChestDisplayTags#>},<#PlainChestTags#>
+PlainChest <#Item$PlainChestItemID$PlainChestDataTag#>
+
+PlainLegsItemID leather_leggings
+PlainLegsNameText Leather Trousers
+PlainLegsNameColour white
+PlainLegsName <#ItemName$PlainLegsNameText$PlainLegsNameColour#>
+PlainLegsDescription <#LoreLine$Some standard leather trousers.#>
+PlainLegsDescription <#StatsLine#>
+PlainLegsStats <#LoreLine$<#Armour#>: 2#>
+PlainLegsStats <#LoreLine$<#Weight#>: 1.0#>
+PlainLegsDisplayTags
+PlainLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:-151092316,UUIDMost:-663521803,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+PlainLegsDataTag display:{Name:"<#PlainLegsName#>",Lore:[<#PlainLegsDescription#>,<#PlainLegsStats#>],<#PlainLegsDisplayTags#>},<#PlainLegsTags#>
+PlainLegs <#Item$PlainLegsItemID$PlainLegsDataTag#>
+
+PlainFeetItemID leather_boots
+PlainFeetNameText Leather Boots
+PlainFeetNameColour white
+PlainFeetName <#ItemName$PlainFeetNameText$PlainFeetNameColour#>
+PlainFeetDescription <#LoreLine$Some standard leather boots.#>
+PlainFeetDescription <#StatsLine#>
+PlainFeetStats <#LoreLine$<#Armour#>: 1#>
+PlainFeetStats <#LoreLine$<#Weight#>: 0.5#>
+PlainFeetDisplayTags
+PlainFeetTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1289781863,UUIDMost:-1345284897,Slot:"feet"}],HideFlags:6
+
+PlainFeetDataTag display:{Name:"<#PlainFeetName#>",Lore:[<#PlainFeetDescription#>,<#PlainFeetStats#>],<#PlainFeetDisplayTags#>},<#PlainFeetTags#>
+PlainFeet <#Item$PlainFeetItemID$PlainFeetDataTag#>

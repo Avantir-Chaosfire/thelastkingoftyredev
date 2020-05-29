@@ -1,0 +1,1 @@
+execute if entity @s[scores={Cast=0..}] run function tlkot:core/casting/arc_lightning/locate_target/main

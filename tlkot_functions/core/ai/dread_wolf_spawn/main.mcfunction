@@ -1,0 +1,1 @@
+execute if entity @s[nbt={OnGround:1b}] run function tlkot:core/ai/dread_wolf_spawn/summon

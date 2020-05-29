@@ -1,0 +1,2 @@
+effect give @s minecraft:weakness 3 0 false
+effect give @s[scores={bEDPcJnxv7RJYWIz=1..}] minecraft:slowness 3 1 false

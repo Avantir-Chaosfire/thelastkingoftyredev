@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/weapons/scimitar
+#include items/weapons/katana
+#include items/weapons/black_oak_staff
+#include items/weapons/halberd
+#include items/weapons/battle_axe
+#include items/weapons/greatsword
+#include items/weapons/black_oak_bow
+#include items/weapons/crossbow
+#include items/materials
+
+#join functions ,
+
+KiermertRecipes <#NPCUpgradeTradeOffer$BaseScimitar$WispFibres$RefinedScimitar#>
+KiermertRecipes <#NPCUpgradeTradeOffer$BaseKatana$WispFibres$SwiftKatana#>
+KiermertRecipes <#NPCUpgradeTradeOffer$Base1HBlackOakStaff$WispFibres$Long1HBlackOakStaff#>
+KiermertRecipes <#NPCUpgradeTradeOffer$BaseCrossbow$WispFibres$LightCrossbow#>
+KiermertRecipes <#NPCUpgradeTradeOffer$Base1HHalberd$EmblemOfHope$Nimble1HHalberd#>
+KiermertRecipes <#NPCUpgradeTradeOffer$BaseBattleAxe$EmblemOfHope$BloodyBattleAxe#>
+KiermertRecipes <#NPCUpgradeTradeOffer$Base1HGreatsword$EmblemOfHope$Refined1HGreatsword#>
+KiermertRecipes <#NPCUpgradeTradeOffer$BaseBlackOakBow$EmblemOfHope$BlazingBlackOakBow#>

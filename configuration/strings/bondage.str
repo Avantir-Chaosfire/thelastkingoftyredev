@@ -1,0 +1,5 @@
+UndeadBondageRestore 9
+ReaperBondageRestore 13
+
+BondageRequirement 42
+CatalystBondageRequirement <#!BondageRequirement 2 /#>

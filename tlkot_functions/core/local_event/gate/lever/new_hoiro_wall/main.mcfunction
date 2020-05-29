@@ -1,0 +1,1 @@
+execute if block 544 255 464 minecraft:air if block 544 255 480 minecraft:air run function tlkot:core/local_event/gate/lever/new_hoiro_wall/loaded

@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+YanteRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$CripplingArrow$3#>
+YanteRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$CastingPowder$2#>
+YanteRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$SmokeBomb$1#>
+YanteRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$Snare$1#>
+
+YanteExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$4$CripplingArrow$1#>
+YanteExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$5$CastingPowder$1#>
+YanteExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$20$SmokeBomb$1#>
+YanteExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$20$Snare$1#>
+
+YanteStash crippling_arrow	$ CripplingArrow	$ 4
+YanteStash casting_powder	$ CastingPowder		$ 5
+YanteStash smoke_bomb		$ SmokeBomb		$ 3
+YanteStash snare		$ Snare			$ 2
+YanteStash head_of_yearning	$ HeadOfYearning	$ 4

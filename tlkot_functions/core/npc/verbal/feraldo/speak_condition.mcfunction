@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={FeraldoTalk=<#FeraldoWhoID#>..}] FeraldoLine 0

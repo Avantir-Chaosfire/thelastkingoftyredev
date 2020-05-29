@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^21 run particle minecraft:enchanted_hit ~ ~-0.62 ~ 0.1 0.1 0.1 0 1

@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Abandoned Outpost Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"The outposts in the Dreadwoods were","color":"gray"}','{"text":"abandoned when the dread scurried","color":"gray"}','{"text":"up from the bottomless hole.","color":"gray"}']}}

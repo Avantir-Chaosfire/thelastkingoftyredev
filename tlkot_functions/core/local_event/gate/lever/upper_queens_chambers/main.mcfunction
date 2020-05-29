@@ -1,0 +1,1 @@
+execute if block -16 255 256 minecraft:air run function tlkot:core/local_event/gate/lever/upper_queens_chambers/loaded

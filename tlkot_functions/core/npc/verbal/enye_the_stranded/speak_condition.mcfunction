@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={EnyeTalk=<#EnyeRetrieveSelfID#>..}] EnyeLine 0

@@ -1,0 +1,3 @@
+execute if entity @a[tag=QD0ZQsjWkVnwyMgQ.BouzPO78lYW1ZUaHquWpW00,scores={OWVfQ6tttSVablvb=0}] if entity @s[nbt={OnGround:1b}] run function tlkot:99fhjn1mkjfgff708unrmw7mscn9-pgnx4bsyscl
+execute if entity @a[tag=cFr7Ai_QckvmZdZ6NrcoSp7alyJvtknYQml83RN2] run function tlkot:h6jb7cogksuzfliui4qiuk-48kfwobjkp3qh3syu
+execute if entity @a[scores={OWVfQ6tttSVablvb=1..}] run function tlkot:26t4a1vexqjros_qms6-1bf25ievxle811s2meu0

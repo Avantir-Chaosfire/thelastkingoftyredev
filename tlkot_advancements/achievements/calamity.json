@@ -1,0 +1,45 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:fire_charge"
+		},
+		"title":
+		{
+			"text": "Calamity"
+		},
+		"description": "Witness the awakened Devourer",
+		"frame": "goal",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"calamity":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 217.0,
+						"min": 190.0
+					},
+					"y":
+					{
+						"max": 11.0,
+						"min": 0.0
+					},
+					"z":
+					{
+						"max": 797.0,
+						"min": 777.0
+					}
+				}
+			}
+		}
+	}
+}

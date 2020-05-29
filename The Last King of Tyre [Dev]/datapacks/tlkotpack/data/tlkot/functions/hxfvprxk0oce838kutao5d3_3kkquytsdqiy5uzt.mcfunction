@@ -1,0 +1,1 @@
+execute at @e[tag=ePFkKCIiMtj2b0lET3NGELx985IxbN1Uvw6U_hYS] run tp @s ~ ~ ~ facing entity @e[tag=GF1kb_EISQxxFYY9kDJT3f1uUw3zktVtb93IKTYL,limit=1]

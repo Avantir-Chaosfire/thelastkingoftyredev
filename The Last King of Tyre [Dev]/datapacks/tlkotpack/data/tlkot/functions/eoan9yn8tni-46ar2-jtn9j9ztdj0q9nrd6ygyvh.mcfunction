@@ -1,0 +1,3 @@
+execute if entity @a[scores={0AEJXSUAuG6rKLXb=0..}] run tellraw @a {"text": "Why you gotta force entry into other people's rooms, hm?", "color": "aqua", "italic": true}
+execute if entity @a[scores={0AEJXSUAuG6rKLXb=1..}] run tellraw @a {"text": "Well, scram!", "color": "aqua", "italic": true}
+execute if entity @a[scores={0AEJXSUAuG6rKLXb=2..}] run tellraw @a {"text": "And you best not have touched anything!", "color": "aqua", "italic": true}

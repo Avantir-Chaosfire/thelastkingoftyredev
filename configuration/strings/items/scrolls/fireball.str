@@ -1,0 +1,61 @@
+#include item_template
+#include versioned_tags
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+FireballScrollItemID fishing_rod
+FireballScrollNameText Fireball Scroll, Class 3
+FireballScrollNameColour dark_aqua
+FireballScrollName <#ItemName$FireballScrollNameText$FireballScrollNameColour#>
+FireballScrollDescription <#LoreLine$A wondrously precise projectile for#>
+FireballScrollDescription <#LoreLine$long range combat. Take care that#>
+FireballScrollDescription <#LoreLine$fire be all that escapes you.#>
+FireballScrollDescription <#StatsLine#>
+FireballScrollStats <#LoreLine$Shoot a Fireball#>
+FireballScrollStats <#LoreLine$Unleash an Apparition#>
+
+FireballScrollDataTag display:{Name:"<#FireballScrollName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:17,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468511,UUIDMost:-46785612,Slot:"mainhand"}]
+FireballScroll <#Item$FireballScrollItemID$FireballScrollDataTag#>
+
+FireballScrollActiveNameText <#FireballScrollNameText#> (Active)
+FireballScrollActiveName <#ItemName$FireballScrollActiveNameText$FireballScrollNameColour#>
+
+FireballScrollActiveDataTag display:{Name:"<#FireballScrollActiveName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:33,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468511,UUIDMost:-46785612,Slot:"mainhand"}]
+FireballScrollActive <#Item$FireballScrollItemID$FireballScrollActiveDataTag#>
+
+FireballWill0Cost 7
+FireballWill1Cost 6
+FireballWill2Cost 6
+FireballWill3Cost 5
+FireballWill4Cost 4
+FireballWill5Cost 4
+
+FireballWill0Time 28
+FireballWill1Time 28
+FireballWill2Time 28
+FireballWill3Time 28
+FireballWill4Time 28
+FireballWill5Time 28
+
+FireballWill0TimeIncrease 0
+FireballWill1TimeIncrease 0
+FireballWill2TimeIncrease 0
+FireballWill3TimeIncrease 0
+FireballWill4TimeIncrease 0
+FireballWill5TimeIncrease 0
+
+FireballBaseTags ‘direction:[0.0d,0.0d,0.0d],Tags:["Fireball","HasAI","AI.TimedLife"]‘
+FireballWill0Tags ‘<#FireballBaseTags#>,ExplosionPower:3‘
+FireballWill1Tags ‘<#FireballBaseTags#>,ExplosionPower:3‘
+FireballWill2Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
+FireballWill3Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
+FireballWill4Tags ‘<#FireballBaseTags#>,ExplosionPower:5‘
+FireballWill5Tags ‘<#FireballBaseTags#>,ExplosionPower:5‘
+
+FireballCatHealth 1
+FireballCatTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.movementSpeed,Base:0.3}],CustomName:"{\"text\":\"Apparition\"}",Tags:[<#CommonDumpableDivisionTags#>,"Enemy.Apparition","HasAI","AI.HealthScore","AI.FireballCat","FireballMaxStaminaMod","UsesHitScore","EnemyUnit"]‘
+FireballMaxStaminaReduction 3

@@ -1,0 +1,14 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ScrollsDetailsItemID written_book
+ScrollsDetailsAuthor Avantir Yihn
+ScrollsDetailsTitle Details
+ScrollsDetailsPages You'll find more scrolls on your journey.<Newline><Newline>The class of a scroll is a rough determinant of its power. That is, Class 4s are stronger than Class 2s.<Newline><Newline>Whenever you cast most scrolls, the time required to cast that
+ScrollsDetailsPages particular scroll next time will increase. Some scrolls do not have this limitation. Scroll cast time resets on death.<Newline><Newline>Some scrolls are damaged, but may be repaired with a Scroll Imprinter.
+
+ScrollsDetailsDataTag author:"<#ScrollsDetailsAuthor#>",title:"<#ScrollsDetailsTitle#>",resolved:1b,pages:["<#ScrollsDetailsPages#>"]
+ScrollsDetails <#Item$ScrollsDetailsItemID$ScrollsDetailsDataTag#>

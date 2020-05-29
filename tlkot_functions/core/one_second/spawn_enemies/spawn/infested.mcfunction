@@ -1,0 +1,2 @@
+execute if entity @a[scores={DevourerSealed=0}] run function tlkot:utility/summon_enemy/reaper/infested/normal/main
+execute if entity @a[scores={DevourerSealed=1}] run function tlkot:utility/summon_enemy/reaper/infested/hollow/main

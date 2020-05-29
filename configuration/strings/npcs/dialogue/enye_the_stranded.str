@@ -1,0 +1,73 @@
+#include npcs/tags
+#include items/extra/silver_locket
+
+#join compendium <Newline>
+#join functions <Newline>
+
+EnyeIDTag EnyeTheStranded
+EnyeTags <#CommonNPCTags$taiga$farmer#>,Tags:["<#EnyeIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Enye the Stranded\"}"
+
+EnyeColour white
+EnyeLocation 396.526 134 487.475
+EnyeStorageLocation 396.526 131 487.475
+EnyeEngageRadius 6
+EnyeDisengageRadius 13
+
+EnyeMeetID 0
+EnyeMeetLines			0	$ 44	$ Oh, a warrior are you? $
+EnyeMeetLines			1	$ 33	$ Excellent. $
+EnyeMeetLines			2	$ 53	$ If you would, I need a favour. $
+EnyeMeetLines			3	$ 93	$ This house here was once rather important to me... $
+EnyeMeetLines			4	$ 86	$ And, well, it still is, albeit in a rather roundabout way. $
+EnyeMeetLines			5	$ 84	$ However, the front door was sealed, and I cannot get in. $
+EnyeMeetLines			6	$ 99	$ The windows and walls seem to have been reinforced by something. $
+EnyeMeetLines			7	$ 75	$ Not force nor fire will work, and I am no caster. $
+EnyeMeetLines			8	$ 90	$ However, I happen to know the method by which it was locked. $
+EnyeMeetLines			9	$ 95	$ The doors requires a certain <#SilverLocketNameText#> to open. $
+EnyeMeetLines			10	$ 110	$ That <#SilverLocketNameText#> was in the possession of a woman of New Hoiro. $
+EnyeMeetLines			11	$ 92	$ I don't know if she's still alive, doubt she is, but... $
+EnyeMeetLines			12	$ 56	$ Her name was Yante the Caster. $
+EnyeMeetLines			13	$ 71	$ Would you kindly fetch that locket for me? $
+
+EnyeGreetID 1
+EnyeGreetLines			0	$ 35	$ Hello again. $
+EnyeGreetLines			1	$ 47	$ Found that locket yet? $
+
+EnyeRetrieveSelfID 2
+EnyeRetrieveSelfLines		0	$ 42	$ Well now... $
+EnyeRetrieveSelfLines		1	$ 80	$ You see, reapers aren't exactly attracted to me like with most folks. $
+EnyeRetrieveSelfLines		2	$ 88	$ Still though, there are a lot of dangerous things out there besides reapers. $
+EnyeRetrieveSelfLines		3	$ 77	$ And even they might still attack me if I were to stroll past them. $
+EnyeRetrieveSelfLines		4	$ 89	$ So... I guess you get a lot of requests like this... $
+EnyeRetrieveSelfLines		5	$ 45	$ We'd probably die if we tried. $
+EnyeRetrieveSelfLines		6	$ 103	$ What we need is someone who can traverse the land and achieve the things we can't do ourselves. $
+EnyeRetrieveSelfLines		7	$ 47	$ I'm betting that someone is you. $
+
+EnyeMansionSpecialID 3
+EnyeMansionSpecialLines	0	$ 40	$ Oh, yes... $
+EnyeMansionSpecialLines	1	$ 47	$ I, um, forgot something in there. $
+EnyeMansionSpecialLines	2	$ 58	$ Well I didn't forget, I mean... $
+EnyeMansionSpecialLines	3	$ 47	$ I wasn't exactly given a choice. $
+
+EnyeFoundLocketID 4
+EnyeFoundLocketLines		0	$ 31	$ You found it! $
+EnyeFoundLocketLines		1	$ 55	$ Was... Was she still alive? $
+EnyeFoundLocketLines		2	$ 37	$ No, wait, don't tell me. $
+EnyeFoundLocketLines		3	$ 43	$ I don't think I want to know. $
+EnyeFoundLocketLines		4	$ 35	$ ... $
+EnyeFoundLocketLines		5	$ 65	$ I... would like to be alone when I go in. $
+EnyeFoundLocketLines		6	$ 35	$ ... $
+EnyeFoundLocketLines		7	$ 41	$ Thanks...? $
+EnyeFoundLocketLines		8	$ 38	$ Bye... $
+
+EnyeSilenceID 5
+
+EnyeActionbarDiscussions 	meet		$ <#EnyeMeetID#>		$ Meet
+EnyeActionbarDiscussions 	greet		$ <#EnyeGreetID#>		$ Greet
+
+EnyeChatLogDiscussions 	retrieve_self	$ <#EnyeRetrieveSelfID#>	$ RetrieveSelf
+EnyeChatLogDiscussions 	mansion_special	$ <#EnyeMansionSpecialID#>	$ MansionSpecial
+EnyeChatLogDiscussions 	found_locket	$ <#EnyeFoundLocketID#>	$ FoundLocket
+
+EnyeBaseDialoguePrompt {<#DialoguePromptOption$Enye$EnyeRetrieveSelf$Why don't you retrieve it yourself?#>,"extra":[{<#DialoguePromptOptionFinal$Enye$EnyeMansionSpecial$Why is this place special?#>}]}
+EnyeSilverLocketDialoguePrompt {<#ActionPromptOptionFinal$Enye$EnyeFoundLocket$Present Silver Locket#>}

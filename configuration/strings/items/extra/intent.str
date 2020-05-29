@@ -1,0 +1,21 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+IntentItemID beetroot_seeds
+IntentNameText Intent
+IntentNameColour dark_red
+IntentName <#ItemName$IntentNameText$IntentNameColour#>
+IntentDescription <#LoreLine$By possessing this, you declare your#>
+IntentDescription <#LoreLine$intent for all to hear. Dissuassion no#>
+IntentDescription <#LoreLine$longer effective, only punishment#>
+IntentDescription <#LoreLine$shall await you as Kurnas\' full power#>
+IntentDescription <#LoreLine$is channeled right from the start. If#>
+IntentDescription <#LoreLine$that sounds too much for you, I#>
+IntentDescription <#LoreLine$suggest you hide your intent away in#>
+IntentDescription <#LoreLine$your chest.#>
+
+IntentDataTag display:{Name:"<#IntentName#>",Lore:[<#IntentDescription#>]}
+Intent <#Item$IntentItemID$IntentDataTag#>

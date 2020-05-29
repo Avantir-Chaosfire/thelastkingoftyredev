@@ -1,0 +1,111 @@
+#include npcs/tags
+#include npcs/shops/hiendil_the_scavenger
+
+#join compendium <Newline>
+#join functions <Newline>
+
+HiendilIDTag HiendilTheScavenger
+HiendilBaseTags ‘<#CommonNPCTags$savanna$mason#>,Tags:["<#HiendilIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Hiendil the Scavenger\"}"‘
+
+HiendilTags ‘<#HiendilBaseTags#>,Offers:{Recipes:[<#HiendilRecipes#>]}‘
+HiendilRefusalTags ‘<#HiendilBaseTags#>‘
+HiendilExpensiveTags ‘<#HiendilBaseTags#>,Offers:{Recipes:[<#HiendilExpensiveRecipes#>]}‘
+
+HiendilColour dark_green
+HiendilLocation 585.159 130 399.74
+HiendilEngageRadius 11] if entity @a[x=582,y=129,z=389,dx=6,dy=4,dz=16
+HiendilDisengageRadius 13
+
+HiendilMeetID 0
+HiendilMeetLines		0	$ 62	$ A new face, and such a unique one too. $
+HiendilMeetLines		1	$ 98	$ I'll peaceably trade with you, but be wary of my compatriots here. $
+HiendilMeetLines		2	$ 65	$ This is all they know now... $
+HiendilMeetLines		3	$ 83	$ It's how they were treated, until it was all they were. $
+
+HiendilGoodGreetID 1
+HiendilGoodGreetLines		0	$ 48	$ Found more heads for me? $
+
+HiendilBadGreetID 2
+HiendilBadGreetLines		0	$ 65	$ Best have many heads for me this time! $
+
+HiendilUncomfortableID 3
+HiendilUncomfortableLines	0	$ 41	$ Get out of my shop! $
+HiendilUncomfortableLines	1	$ 72	$ I claimed this place, you've nothing in here! $
+
+HiendilIntrusionID 4
+HiendilIntrusionLines		0	$ 23	$ OI! $
+HiendilIntrusionLines		1	$ 56	$ WHAT DO YOU THINK YOU'RE DOING? $
+HiendilIntrusionLines		2	$ 39	$ GET OUT OF THERE! $
+
+HiendilWaryID 5
+HiendilWaryLines		0	$ 93	$ I went to great effort to get these things, and what did you do? $
+HiendilWaryLines		1	$ 60	$ Don't tell me you're just like them! $
+HiendilWaryLines		2	$ 35	$ Out with you! $
+
+HiendilPardonID 6
+HiendilPardonLines		0	$ 101	$ My shop is not a street, and it's not some abandoned house to explore! $
+HiendilPardonLines		1	$ 59	$ So keep your butt out of my house! $
+
+HiendilAccusationID 7
+HiendilAccusationLines		0	$ 44	$ You're a right crook! $
+HiendilAccusationLines		1	$ 65	$ You bet you're deep in debt with me now! $
+
+HiendilBazaarID 8
+HiendilBazaarLines		0	$ 71	$ The Subjugate established this bazaar for their own use. $
+HiendilBazaarLines		1	$ 81	$ When we broke free, we drove them out and established ourselves here. $
+HiendilBazaarLines		2	$ 82	$ During the fighting... most of us lost sight of reality. $
+HiendilBazaarLines		3	$ 97	$ We still live here, together, but... my compatriots are no longer the same. $
+
+HiendilSubjugateID 9
+HiendilSubjugateLines		0	$ 70	$ Not so long ago, they owned this cavern, like they 'owned' us. $
+HiendilSubjugateLines		1	$ 56	$ Worse than slaves, we were their lab rats.  $
+HiendilSubjugateLines		2	$ 81	$ Filth living in the depths, undeserving of a human soul, they thought. $
+HiendilSubjugateLines		3	$ 23	$ Agh! $
+HiendilSubjugateLines		4	$ 92	$ They bound most all of us, pushed us to our limits, but they wanted us alive and sane. $
+HiendilSubjugateLines		5	$ 47	$ Better test subjects that way. $
+HiendilSubjugateLines		6	$ 59	$ They wanted to find a way to save themselves, $
+HiendilSubjugateLines		7	$ 69	$ But they were only willing to sacrifice others to do it. $
+HiendilSubjugateLines		8	$ 72	$ No cost too great for the cause, unless that cost was to them. $
+HiendilSubjugateLines		9	$ 61	$ Then, the second reaping, the omen of their doom. $
+HiendilSubjugateLines		10	$ 71	$ It spread panic and chaos through their insidious order. $
+HiendilSubjugateLines		11	$ 89	$ Some fellow captives were able to escape, free the rest of us and begin battle. $
+HiendilSubjugateLines		12	$ 92	$ Most of the Subjugate are dead or gone now, the rest are reapers, and good riddance. $
+HiendilSubjugateLines		13	$ 48	$ They deserved every ounce of it. $
+
+HiendilDangersID 10
+HiendilDangersLines		0	$ 53	$ It's not that dangerous out there now. $
+HiendilDangersLines		1	$ 114	$ You'll find more undead escapees, along with reapers from the Subjugate and their wretched experiments. $
+HiendilDangersLines		2	$ 90	$ They trapped the cavern too, fearful, as they were, of trespassers and escapees. $
+HiendilDangersLines		3	$ 50	$ But, truly deadly, is the mad knight. $
+HiendilDangersLines		4	$ 87	$ He only just arrived, but he's been roaming and killing everyone he can find. $
+HiendilDangersLines		5	$ 84	$ Worse, he's not just a normal madman, he's not even a reaper... $
+HiendilDangersLines		6	$ 43	$ They call him a 'Dread Host'. $
+HiendilDangersLines		7	$ 80	$ He's essentially superhuman; Fast, strong and nigh on invulnerable. $
+HiendilDangersLines		8	$ 70	$ The fools who tried to run didn't even get close to escape. $
+HiendilDangersLines		9	$ 71	$ But, I hear he does hurt from strikes that come from behind. $
+HiendilDangersLines		10	$ 61	$ If he does find you, just try not to lead him here. $
+
+HiendilActionbarDiscussions 	meet		$ <#HiendilMeetID#>		$ Meet
+HiendilActionbarDiscussions 	good_greet	$ <#HiendilGoodGreetID#>	$ GoodGreet
+HiendilActionbarDiscussions 	bad_greet	$ <#HiendilBadGreetID#>	$ BadGreet
+HiendilActionbarDiscussions 	uncomfortable	$ <#HiendilUncomfortableID#>	$ Uncomfortable
+HiendilActionbarDiscussions 	intrusion	$ <#HiendilIntrusionID#>	$ Intrusion
+HiendilActionbarDiscussions 	wary		$ <#HiendilWaryID#>		$ Wary
+HiendilActionbarDiscussions 	pardon		$ <#HiendilPardonID#>		$ Pardon
+HiendilActionbarDiscussions 	accusation	$ <#HiendilAccusationID#>	$ Accusation
+
+HiendilChatLogDiscussions 	bazaar		$ <#HiendilBazaarID#>		$ Bazaar
+HiendilChatLogDiscussions 	subjugate	$ <#HiendilSubjugateID#>	$ Subjugate
+HiendilChatLogDiscussions 	dangers		$ <#HiendilDangersID#>		$ Dangers
+
+HiendilDialoguePrompt {<#DialoguePromptOption$Hiendil$HiendilSubjugate$The Subjugate?#>,"extra":[{<#DialoguePromptOption$Hiendil$HiendilBazaar$Bazaar?#>},{<#DialoguePromptOptionFinal$Hiendil$HiendilDangers$Dangers ahead?#>}]}
+
+HiendilUncomfortableArea x=582,y=130,z=392,dx=6,dy=3,dz=8
+HiendilBackroomArea x=582,y=124,z=393,dx=6,dy=4,dz=7
+HiendilWaryArea x=582,y=131,z=395,dx=1,dy=0,dz=2
+
+HiendilStashLocation 0 $ 588 125 396
+HiendilStashLocation 1 $ 585 126 400
+HiendilStashLocation 2 $ 584 126 400
+HiendilStashLocation 3 $ 585 127 400
+HiendilStashLocation 4 $ 584 127 400

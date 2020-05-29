@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={YanteTalk=<#YanteCasterID#>..}] YanteLine 0

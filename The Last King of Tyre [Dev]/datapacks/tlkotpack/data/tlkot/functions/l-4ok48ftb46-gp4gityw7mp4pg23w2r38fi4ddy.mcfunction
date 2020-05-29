@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure] at @s run function tlkot:w_7gow9lszujb8ahk6hwreq2-f2f2bjkzj93utdy

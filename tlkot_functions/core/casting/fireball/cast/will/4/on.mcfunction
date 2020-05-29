@@ -1,0 +1,1 @@
+execute anchored eyes run summon minecraft:fireball ^ ^ ^3 {<#FireballWill4Tags#>}

@@ -1,0 +1,12 @@
+scoreboard players set @a d2Ca.dirkAgGp6Qw 0
+scoreboard players add @a[scores={yHvSD.aRhtLTeJj4=1}] d2Ca.dirkAgGp6Qw 1
+scoreboard players add @a[scores={p1ReA2G_xsCtDgXN=1}] d2Ca.dirkAgGp6Qw 1
+scoreboard players add @a[scores={FtQ2XyoidN9DtYft=1}] d2Ca.dirkAgGp6Qw 1
+scoreboard players add @a[scores={1dizpBb7xZBYshzh=1}] d2Ca.dirkAgGp6Qw 1
+scoreboard players add @a[scores={4VdfBDh3+Qvz2B_q=1}] d2Ca.dirkAgGp6Qw 1
+scoreboard players set @a .MIdEKFSIgEFqj42 0
+scoreboard players add @a[scores={yHvSD.aRhtLTeJj4=2..}] .MIdEKFSIgEFqj42 1
+scoreboard players add @a[scores={p1ReA2G_xsCtDgXN=2..}] .MIdEKFSIgEFqj42 1
+scoreboard players add @a[scores={FtQ2XyoidN9DtYft=2..}] .MIdEKFSIgEFqj42 1
+scoreboard players add @a[scores={1dizpBb7xZBYshzh=2..}] .MIdEKFSIgEFqj42 1
+scoreboard players add @a[scores={4VdfBDh3+Qvz2B_q=2..}] .MIdEKFSIgEFqj42 1

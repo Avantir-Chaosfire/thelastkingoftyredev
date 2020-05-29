@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={DarTalk=<#DarFirstEncounterID#>..}] DarLine 0

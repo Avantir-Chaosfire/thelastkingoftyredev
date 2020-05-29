@@ -1,0 +1,1 @@
+execute if block 704 255 240 minecraft:air run function tlkot:core/local_event/gate/lever/burrows_trap/loaded

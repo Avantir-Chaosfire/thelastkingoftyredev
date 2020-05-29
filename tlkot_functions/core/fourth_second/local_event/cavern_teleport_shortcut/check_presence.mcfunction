@@ -1,0 +1,2 @@
+execute if entity @a[tag=!CavernShortcutTeleported,x=513,y=89,z=351,dx=2,dy=4,dz=2,y_rotation=-180..0] run function tlkot:<~>/teleport_east
+execute if entity @a[tag=!CavernShortcutTeleported,x=613,y=74,z=343,dx=2,dy=4,dz=2,y_rotation=-180..0] run function tlkot:<~>/teleport_west

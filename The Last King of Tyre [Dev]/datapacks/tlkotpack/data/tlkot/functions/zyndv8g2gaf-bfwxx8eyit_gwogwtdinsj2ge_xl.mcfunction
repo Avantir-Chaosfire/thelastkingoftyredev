@@ -1,0 +1,2 @@
+execute unless entity @a[scores={D_964L4Udf0MzIey=4..5}] run function tlkot:2ail501ylad74di5w7311k6kd9cvt3w00rg7bj8v
+execute if entity @a[scores={D_964L4Udf0MzIey=4..5}] run function tlkot:5c22v48gw4---qhckc_o3eud3vic6j3r2epnaqnz

@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={NewProphet=0}] KyriTalk <#KyriGreetID#>
+execute if entity @a[scores={KyriTalk=..<#KyriMosesDeathID#>,NewProphet=1}] run function tlkot:core/npc/verbal/kyri_the_exile/choose_new_prophet_discussion

@@ -1,0 +1,9 @@
+#include versioned_tags
+#include attribute_modifiers
+
+NecromancerHealth 73000
+
+NecromancerBaseTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:0},{Name:generic.movementSpeed,Base:0.14},{Name:generic.knockbackResistance,Base:0},{Name:generic.followRange,Base:0}],CustomName:"{\"text\":\"Undead Necromancer\"}",ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}],Tags:["Enemy.Necromancer",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Undead","AI.Necromancer","UsesHitScore"<1>],Health:1000.0f‘
+
+NecromancerTags <#NecromancerBaseTags$#>
+NecromancerShadeTags <#NecromancerBaseTags$,"Shaded"#>

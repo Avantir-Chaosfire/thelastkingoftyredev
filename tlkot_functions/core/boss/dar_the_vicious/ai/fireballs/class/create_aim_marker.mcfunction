@@ -1,0 +1,1 @@
+execute rotated ~<2> ~<3> run summon minecraft:armor_stand ^ ^ ^1 {<#DarFireballAimMarkerTags#>}

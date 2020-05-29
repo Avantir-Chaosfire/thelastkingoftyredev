@@ -1,0 +1,8 @@
+#include attribute_modifiers
+#include versioned_tags
+
+BlightTags ‘id:"minecraft:magma_cube",PersistenceRequired:1b,Invulnerable:1b,Silent:1b,NoAI:1b,CustomName:"{\"text\":\"Blight\"}",Size:1b,Tags:["Versioned","Dumpable","Blight","HasAI","AI.FacePlayer"]‘
+
+BlightedHealth 105000
+
+BlightedTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:9},{Name:generic.movementSpeed,Base:0.16},{Name:generic.knockbackResistance,Base:1}],ArmorItems:[{id:iron_boots,Count:1b,tag:{<#NoArmourModifier1#>}},{id:iron_leggings,Count:1b,tag:{<#NoArmourModifier2#>}},{id:chainmail_chestplate,Count:1b,tag:{<#NoArmourModifier3#>}},{}],CustomName:"{\"text\":\"Blighted Reaper\"}",Tags:["Enemy.Blighted",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Blighted","UsesHitScore"],Health:1000.0f,Passengers:[{<#BlightTags#>}]‘

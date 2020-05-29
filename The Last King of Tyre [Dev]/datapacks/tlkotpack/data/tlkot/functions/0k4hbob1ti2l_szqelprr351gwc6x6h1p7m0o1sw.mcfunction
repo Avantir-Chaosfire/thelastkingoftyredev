@@ -1,0 +1,1 @@
+execute if entity @a[tag=3H+tzfs_gRohXZPVbx+OH2-aJ2qE+L0m7a+xpDXY] if block -352 255 320 #tlkot:all if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Tower Shield\",\"color\":\"dark_gray\",\"italic\":false}"}}},{tag:{display:{Name:"{\"text\":\"Empty Flask\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:he1ycdduj9alnx3mb5c66jbra116042szs9kq9jq

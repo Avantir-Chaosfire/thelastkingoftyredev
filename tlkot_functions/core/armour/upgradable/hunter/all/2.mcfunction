@@ -1,0 +1,1 @@
+execute if entity @a[scores={ObscureDuration=..0}] run function tlkot:core/armour/upgradable/hunter/obscure

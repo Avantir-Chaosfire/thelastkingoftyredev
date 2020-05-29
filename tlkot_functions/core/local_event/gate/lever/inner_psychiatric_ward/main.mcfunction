@@ -1,0 +1,1 @@
+execute if block 320 255 -16 minecraft:air run function tlkot:core/local_event/gate/lever/inner_psychiatric_ward/loaded

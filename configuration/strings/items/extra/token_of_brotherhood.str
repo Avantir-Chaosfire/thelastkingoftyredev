@@ -1,0 +1,18 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+TokenOfBrotherhoodItemID orange_dye
+TokenOfBrotherhoodNameText Token of Brotherhood
+TokenOfBrotherhoodNameColour gold
+TokenOfBrotherhoodName <#ItemName$TokenOfBrotherhoodNameText$TokenOfBrotherhoodNameColour#>
+TokenOfBrotherhoodDescription <#LoreLine$An old and worn coin, but with three#>
+TokenOfBrotherhoodDescription <#LoreLine$names scratched into it. One#>
+TokenOfBrotherhoodDescription <#LoreLine$certainly says Mingolot the Brazen,#>
+TokenOfBrotherhoodDescription <#LoreLine$and another is presumably Ogolov#>
+TokenOfBrotherhoodDescription <#LoreLine$the Bold.#>
+
+TokenOfBrotherhoodDataTag display:{Name:"<#TokenOfBrotherhoodName#>",Lore:[<#TokenOfBrotherhoodDescription#>]}
+TokenOfBrotherhood <#Item$TokenOfBrotherhoodItemID$TokenOfBrotherhoodDataTag#>

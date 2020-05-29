@@ -1,0 +1,13 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheWarningItemID written_book
+TheWarningAuthor Ziyon the Great
+TheWarningTitle The Warning
+TheWarningPages Servants of the Ageless One and the Formless Voice,<Newline><Newline>Go back. Leave. This library is a place of knowledge and research, a place for a secret. Not such a place for the likes of you. Turn back, or face death.
+
+TheWarningDataTag author:"<#TheWarningAuthor#>",title:"<#TheWarningTitle#>",resolved:1b,pages:["<#TheWarningPages#>"]
+TheWarning <#Item$TheWarningItemID$TheWarningDataTag#>

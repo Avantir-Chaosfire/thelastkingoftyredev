@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={t44CDG+k-gJJDETL=5..}] IDCivBfR7SA0Ag.s 0

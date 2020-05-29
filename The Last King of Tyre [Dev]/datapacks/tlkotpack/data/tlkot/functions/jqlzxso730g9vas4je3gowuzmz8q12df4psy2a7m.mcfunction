@@ -1,0 +1,2 @@
+execute if entity @a[scores={lCZI7toi0OahllHV=1}] positioned ^4 ^ ^ at @e[tag=DDygajIdJFKC8OHJ..8A63TLz88o0fjM7z9XdTFn,limit=1,sort=nearest] run function tlkot:8w3g-5_830i820f-c60oyryfeokwfto2qcjn3308
+execute if entity @a[scores={lCZI7toi0OahllHV=2}] rotated ~ 0 positioned ^ ^ ^-4 at @e[tag=DDygajIdJFKC8OHJ..8A63TLz88o0fjM7z9XdTFn,limit=1,sort=nearest] run function tlkot:8w3g-5_830i820f-c60oyryfeokwfto2qcjn3308

@@ -1,0 +1,1 @@
+#class$scores execute if entity @s[tag=<2>] run tag @a add Requires<1>

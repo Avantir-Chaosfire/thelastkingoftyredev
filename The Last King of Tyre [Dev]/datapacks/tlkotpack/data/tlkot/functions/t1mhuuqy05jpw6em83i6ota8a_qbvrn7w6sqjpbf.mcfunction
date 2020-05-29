@@ -1,0 +1,3 @@
+function tlkot:zvsx_pogzze75s9qzf4bbs07pqzt_evh38aifk85
+execute if entity @s[tag=R+bzCn8LdWwZCTKJBI-kcoiyEMrxJyKs2CeijOCn] run function tlkot:c9ofkk9ronng-jk3piw03e-29qcoa8a2kh7r55_1
+function tlkot:2ktq54auzkwiwiq3egm1f50g68__p8xfle2ao5s0

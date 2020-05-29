@@ -1,0 +1,44 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+XinsuIDTag XinsuTheQuietGuardian
+XinsuTags ‘<#CommonNPCTags$swamp$farmer#>,Tags:["<#XinsuIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Xinsu The Quiet Guardian\"}"‘
+
+XinsuColour green
+XinsuEngageRadius 6
+XinsuDisengageRadius 13
+XinsuTextProperties ,"obfuscated":true
+
+XinsuCircleColour <#XinsuColour#>
+XinsuCircleLocation 299.5 118 636.5
+XinsuCircleEngageRadius <#XinsuEngageRadius#>
+XinsuCircleDisengageRadius <#XinsuDisengageRadius#>
+
+XinsuCircleGreetID 0
+XinsuCircleGreetLines 0	$ 30	$ Welcome. $ <#XinsuTextProperties#>
+
+XinsuCircleToolID 1
+XinsuCircleToolLines 	0	$ 23	$ Yes. $ <#XinsuTextProperties#>
+XinsuCircleToolLines 	1	$ 59	$ This is to destroy the resonating crystals. $ <#XinsuTextProperties#>
+
+XinsuCircleSilenceID 2
+
+XinsuCircleActionbarDiscussions	greet	$ <#XinsuCircleGreetID#>	$ Greet
+XinsuCircleChatLogDiscussions		tool	$ <#XinsuCircleToolID#>	$ Tool
+
+XinsuCryptColour <#XinsuColour#>
+XinsuCryptLocation 295.266 121 612.013
+XinsuCryptEngageRadius <#XinsuEngageRadius#>
+XinsuCryptDisengageRadius <#XinsuDisengageRadius#>
+
+XinsuCryptGreetID 0
+XinsuCryptGreetLines 	0	$ 62	$ Can you understand sign language? $ <#XinsuTextProperties#>
+
+XinsuCryptSilenceID 1
+
+XinsuCryptActionbarDiscussions greet	$ <#XinsuCryptGreetID#> $ Greet
+XinsuCryptChatLogDiscussions
+
+XinsuToolDialoguePrompt {<#DialoguePromptOptionFinal$XinsuCircle$XinsuCircleTool$Tool?#>}

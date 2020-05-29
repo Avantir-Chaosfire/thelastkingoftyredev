@@ -1,0 +1,24 @@
+#include versioned_tags
+
+FireImmunityEffect ‘ActiveEffects:[{Id:12,Amplifier:0,Duration:32767,ShowParticles:0b}]‘
+
+SpiderFlamingHealth 37000
+
+SpiderFlamingBaseTags ‘PersistenceRequired:1b,Fire:32767,<#FireImmunityEffect#>,CustomName:"{\"text\":\"Giant Spider\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:4}],Health:1000.0f,Tags:["Enemy.Spider-Flaming",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"<1>]‘
+
+SpiderFlamingTags <#SpiderFlamingBaseTags$#>
+SpiderFlamingShadeTags <#SpiderFlamingBaseTags$,"Shaded"#>
+
+SpiderCaveHealth 28000
+
+SpiderCaveBaseTags ‘PersistenceRequired:1b,<#FireImmunityEffect#>,CustomName:"{\"text\":\"Venomous Spider\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:3}],Health:1000.0f,Tags:["Enemy.Spider-Cave",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"<1>]‘
+
+SpiderCaveTags <#SpiderCaveBaseTags$#>
+SpiderCaveShadeTags <#SpiderCaveBaseTags$,"Shaded"#>
+
+SpiderNormalHealth 37000
+
+SpiderNormalBaseTags ‘PersistenceRequired:1b,<#FireImmunityEffect#>,CustomName:"{\"text\":\"Giant Spider\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:6}],Health:1000.0f,Tags:["Enemy.Spider-Normal",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"<1>]‘
+
+SpiderNormalTags <#SpiderNormalBaseTags$#>
+SpiderNormalShadeTags <#SpiderNormalBaseTags$,"Shaded"#>

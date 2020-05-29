@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^0.6 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^1 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^1.4 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^1.8 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^2.2 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^2.6 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^3 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^3.4 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6
+execute positioned ^ ^ ^3.8 run function tlkot:n5l7za67y6boiyo2uiq3-i1x71mzseex-t6d8ur6

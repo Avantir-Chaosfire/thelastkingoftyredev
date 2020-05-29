@@ -1,0 +1,5 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Radiant Helmet\",\"color\":\"gold\",\"italic\":false}"}}}]}] run function tlkot:5rcvx3cp9hesdk90s-zeww5e-81stslnc_ngshs4
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Radiant Chestplate\",\"color\":\"gold\",\"italic\":false}"}}}]}] run function tlkot:juyj_-p6xtzv241cq3uxy16rzm_5i-bl_dxy42aj
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Radiant Chestplate (Complete)\",\"color\":\"gold\",\"italic\":false}"}}}]}] run function tlkot:hcsn3svmmdqn_w_sj400c-3vcb_5_9v61pzms0ys
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Radiant Leggings\",\"color\":\"gold\",\"italic\":false}"}}}]}] run function tlkot:o1a33kqdsbztx5gqst1t9ze9yax-mu3i7wf68enb
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Radiant Boots\",\"color\":\"gold\",\"italic\":false}"}}}]}] run function tlkot:-zvbnlfklvmcevslzd08v2ci80b7icotx4twfan8

@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["Zc+NW9cQoFDOm.Oywpk+jAK_ZMN-.9kzTiVgJ4If"]}
+execute as @e[tag=Zc+NW9cQoFDOm.Oywpk+jAK_ZMN-.9kzTiVgJ4If,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function dev:summon/burrows_blaster/initialize

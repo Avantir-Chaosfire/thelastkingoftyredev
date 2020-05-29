@@ -1,0 +1,1 @@
+particle minecraft:firework ~ ~1.3 ~ 0.1 0.1 0.1 0.12 2

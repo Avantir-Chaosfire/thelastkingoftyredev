@@ -1,0 +1,57 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+CommunionScrollItemID fishing_rod
+CommunionScrollNameText Communion Scroll, Class 3
+CommunionScrollNameColour dark_aqua
+CommunionScrollName <#ItemName$CommunionScrollNameText$CommunionScrollNameColour#>
+CommunionScrollDescription <#LoreLine$Communion is a forbidden practice, as#>
+CommunionScrollDescription <#LoreLine$it drags mortal casters down to#>
+CommunionScrollDescription <#LoreLine$reapers. However, undead may freely#>
+CommunionScrollDescription <#LoreLine$commune with the Cocoon, granting#>
+CommunionScrollDescription <#LoreLine$them sight of its true nature.#>
+CommunionScrollDescription <#LoreLine$Through Communion, the Cocoon#>
+CommunionScrollDescription <#LoreLine$grants chosen reapers protection#>
+CommunionScrollDescription <#LoreLine$and vigor.#>
+CommunionScrollDescription <#StatsLine#>
+CommunionScrollStats <#LoreLine$+4 <#Absorption#>#>
+CommunionScrollStats <#LoreLine$-1 <#AttackStamina#>#>
+CommunionScrollStats <#LoreLine$<#Evasion#>#>
+CommunionScrollStats <#LoreLine$<#Blindness#>#>
+CommunionScrollStats <#LoreLine$<#Duration#>: <#Time$40#>#>
+
+CommunionScrollDataTag display:{Name:"<#CommunionScrollName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:11,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468522,UUIDMost:-46785623,Slot:"mainhand"}]
+CommunionScroll <#Item$CommunionScrollItemID$CommunionScrollDataTag#>
+
+CommunionScrollActiveNameText <#CommunionScrollNameText#> (Active)
+CommunionScrollActiveName <#ItemName$CommunionScrollActiveNameText$CommunionScrollNameColour#>
+
+CommunionScrollActiveDataTag display:{Name:"<#CommunionScrollActiveName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:27,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468522,UUIDMost:-46785623,Slot:"mainhand"}]
+CommunionScrollActive <#Item$CommunionScrollItemID$CommunionScrollActiveDataTag#>
+
+CommunionWill0Cost 13
+CommunionWill1Cost 11
+CommunionWill2Cost 9
+CommunionWill3Cost 7
+CommunionWill4Cost 5
+CommunionWill5Cost 3
+
+CommunionWill0Time 20
+CommunionWill1Time 18
+CommunionWill2Time 16
+CommunionWill3Time 14
+CommunionWill4Time 12
+CommunionWill5Time 10
+
+CommunionWill0TimeIncrease 5
+CommunionWill1TimeIncrease 4
+CommunionWill2TimeIncrease 3
+CommunionWill3TimeIncrease 2
+CommunionWill4TimeIncrease 1
+CommunionWill5TimeIncrease 0

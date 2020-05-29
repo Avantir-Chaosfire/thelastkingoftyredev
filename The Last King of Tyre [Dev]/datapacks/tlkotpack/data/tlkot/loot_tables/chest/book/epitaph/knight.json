@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"A Knight of New Hoiro\",title:\"Epitaph of New Hoiro\",resolved:1b,pages:[\"I don't know who you are, I don't know if I even believe you exist, but... Ghost of the Future, do you know who you are? Do you know what you do, and why? I never did... Now I stand here, at the end of my life, dying for a dead nation, one that probably never deserved to be saved,\",\"and I wonder... Do I do this for them, or simply because I know no better? Ghost of the Future, I implore you, do better than I.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute if entity @a[scores={ArrowTrapDelay=1..}] run function tlkot:core/local_event/arrow_trap/loading

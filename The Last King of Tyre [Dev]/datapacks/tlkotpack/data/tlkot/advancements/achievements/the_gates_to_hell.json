@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:blaze_powder"}, "title": {"text": "The Gates to Hell"}, "description": "Find all of the Ashur Gates", "frame": "task", "hidden": true}, "parent": "tlkot:achievements/root", "criteria": {"the_gates_to_hell": {"trigger": "minecraft:impossible"}}}

@@ -1,0 +1,86 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+HalberdNameColour white
+HalberdDescription <#LoreLine$A long polearm that works best at#>
+HalberdDescription <#LoreLine$fending off groups of enemies.#>
+HalberdDescription <#StatsLine#>
+
+HalberdDamage 19
+HalberdStaminaCost 6
+HalberdCommunionStaminaCost 5
+HalberdMinimumStaminaCost 4
+HalberdRegenDelay 60
+
+Base1HHalberdItemID iron_sword
+Base1HHalberdNameText Halberd
+Base1HHalberdName <#ItemName$Base1HHalberdNameText$HalberdNameColour#>
+Base1HHalberdStats <#WeaponStats$Halberd#>
+Base1HHalberdStats <#LoreLine$<#Cleave#> II#>
+Base1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base1HHalberdHoldingID#>
+
+Base1HHalberdDataTag display:{Name:"<#Base1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Base1HHalberdStats#>]},<#Base1HHalberdTags#>
+Base1HHalberd <#Item$Base1HHalberdItemID$Base1HHalberdDataTag#>
+
+Base2HHalberdItemID iron_sword
+Base2HHalberdNameText Halberd (Two Handed)
+Base2HHalberdName <#ItemName$Base2HHalberdNameText$HalberdNameColour#>
+Base2HHalberdStats <#WeaponStats$Halberd#>
+Base2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Base2HHalberdStats <#LoreLine$Dodging Reduces Halberd Stamina Cost#>
+Base2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base2HHalberdHoldingID#>
+
+Base2HHalberdDataTag display:{Name:"<#Base2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Base2HHalberdStats#>]},<#Base2HHalberdTags#>
+Base2HHalberd <#Item$Base2HHalberdItemID$Base2HHalberdDataTag#>
+
+Bloody1HHalberdItemID iron_sword
+Bloody1HHalberdNameText Bloody Halberd
+Bloody1HHalberdName <#ItemName$Bloody1HHalberdNameText$HalberdNameColour#>
+Bloody1HHalberdStats <#WeaponStats$Halberd#>
+Bloody1HHalberdStats <#LoreLine$<#Cleave#> II#>
+Bloody1HHalberdStats <#LoreLine$Attacking Reduces Halberd Stamina Cost#>
+Bloody1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody1HHalberdHoldingID#>
+
+Bloody1HHalberdDataTag display:{Name:"<#Bloody1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Bloody1HHalberdStats#>]},<#Bloody1HHalberdTags#>
+Bloody1HHalberd <#Item$Bloody1HHalberdItemID$Bloody1HHalberdDataTag#>
+
+Bloody2HHalberdItemID iron_sword
+Bloody2HHalberdNameText Bloody Halberd (Two Handed)
+Bloody2HHalberdName <#ItemName$Bloody2HHalberdNameText$HalberdNameColour#>
+Bloody2HHalberdStats <#WeaponStats$Halberd#>
+Bloody2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Bloody2HHalberdStats <#LoreLine$Attacking Reduces Halberd Stamina Cost#>
+Bloody2HHalberdStats <#LoreLine$Dodging Reduces Halberd Stamina Cost#>
+Bloody2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody2HHalberdHoldingID#>
+
+Bloody2HHalberdDataTag display:{Name:"<#Bloody2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Bloody2HHalberdStats#>]},<#Bloody2HHalberdTags#>
+Bloody2HHalberd <#Item$Bloody2HHalberdItemID$Bloody2HHalberdDataTag#>
+
+Nimble1HHalberdItemID iron_sword
+Nimble1HHalberdNameText Nimble Halberd
+Nimble1HHalberdName <#ItemName$Nimble1HHalberdNameText$HalberdNameColour#>
+Nimble1HHalberdStats <#WeaponStats$Halberd#>
+Nimble1HHalberdStats <#LoreLine$<#Cleave#> II#>
+Nimble1HHalberdStats <#LoreLine$-2 <#DodgeStamina#>#>
+Nimble1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble1HHalberdHoldingID#>
+
+Nimble1HHalberdDataTag display:{Name:"<#Nimble1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Nimble1HHalberdStats#>]},<#Nimble1HHalberdTags#>
+Nimble1HHalberd <#Item$Nimble1HHalberdItemID$Nimble1HHalberdDataTag#>
+
+Nimble2HHalberdItemID iron_sword
+Nimble2HHalberdNameText Nimble Halberd (Two Handed)
+Nimble2HHalberdName <#ItemName$Nimble2HHalberdNameText$HalberdNameColour#>
+Nimble2HHalberdStats <#WeaponStats$Halberd#>
+Nimble2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Nimble2HHalberdStats <#LoreLine$-2 <#DodgeStamina#>#>
+Nimble2HHalberdStats <#LoreLine$Dodging Reduces Stamina Cost#>
+Nimble2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble2HHalberdHoldingID#>
+
+Nimble2HHalberdDataTag display:{Name:"<#Nimble2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Nimble2HHalberdStats#>]},<#Nimble2HHalberdTags#>
+Nimble2HHalberd <#Item$Nimble2HHalberdItemID$Nimble2HHalberdDataTag#>

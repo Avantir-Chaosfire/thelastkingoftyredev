@@ -1,0 +1,1 @@
+{"criteria": {"hurt_by_blocked": {"trigger": "minecraft:entity_hurt_player", "conditions": {"damage": {"blocked": true}}}}, "rewards": {"function": "tlkot:zql03-t_dxg9cwo4n9xt_lvr75_oimme_efth0ao"}}

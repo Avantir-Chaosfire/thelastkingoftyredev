@@ -1,0 +1,2 @@
+execute if entity @a[nbt={Inventory:[{id:"minecraft:<#FountainWaterItemID#>"}]}] run function tlkot:<~>/dump_contents
+execute if entity @a[scores={CarapaceCooldown=..0},nbt={Inventory:[{tag:{display:{Name:"<#DesiccatingCarapaceName#>"}}}]}] run function tlkot:<~>/desiccating_carapace/main

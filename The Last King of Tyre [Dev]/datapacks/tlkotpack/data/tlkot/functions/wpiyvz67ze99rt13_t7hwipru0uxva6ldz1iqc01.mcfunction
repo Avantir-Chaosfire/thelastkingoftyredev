@@ -1,0 +1,3 @@
+scoreboard players set @s mLw1_SHuvl4_3Rx6 80
+summon minecraft:armor_stand ^ ^ ^2.4 {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["BzZc-FBfFVbZAaJx50aKZxIrJVdqtudxa06nqK6s","RuqM9CUEdzUMcuQye3p6_n-114NuZU58d2WUn1F8","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute as @e[tag=RuqM9CUEdzUMcuQye3p6_n-114NuZU58d2WUn1F8,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] positioned as @s run function tlkot:49kcl7vqr7t2mlbpc_f00f9b1oc9ex-8vkith0fa

@@ -1,0 +1,3 @@
+execute as @e[tag=aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS] at @s unless block ~ ~-0.1 ~ minecraft:air run tag @s add n-q9D0L8a1UyJhnUBsBsikiTU6k0XVqHV.+.tG12
+execute at @a at @e[tag=aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS,tag=n-q9D0L8a1UyJhnUBsBsikiTU6k0XVqHV.+.tG12,limit=1,sort=furthest] run function tlkot:14ru5hvk5i6ecx0hzd4guv-cd1au8lv15duy1crc
+tag @e[tag=aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS] remove n-q9D0L8a1UyJhnUBsBsikiTU6k0XVqHV.+.tG12

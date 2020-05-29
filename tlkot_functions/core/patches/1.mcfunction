@@ -1,0 +1,13 @@
+execute unless entity @a[scores={DevourerSealed=-2147483648..2147483647}] run scoreboard players set @a DevourerSealed 0
+execute unless entity @a[scores={P5Stage=-2147483648..2147483647}] run scoreboard players set @a P5Stage 0
+execute unless entity @a[scores={DeathSigilUsed=-2147483648..2147483647}] run scoreboard players set @a DeathSigilUsed 0
+execute unless entity @a[scores={NecroStamina=-2147483648..2147483647}] run scoreboard players set @a NecroStamina 0
+execute unless entity @a[scores={GotHit=-2147483648..2147483647}] run scoreboard players set @a GotHit 0
+execute unless entity @a[scores={LastHurtTime=-2147483648..2147483647}] run scoreboard players set @a LastHurtTime 0
+execute unless entity @a[scores={ArmourSuitSpawn=-2147483648..2147483647}] run scoreboard players set @a ArmourSuitSpawn 0
+execute unless entity @a[scores={MosesCongSize=-2147483648..2147483647}] run scoreboard players set @a MosesCongSize 0
+execute unless entity @a[scores={CounterDodgeMod=-2147483648..2147483647}] run scoreboard players set @a CounterDodgeMod 0
+execute unless entity @a[scores={P3Phase=-2147483648..2147483647}] run scoreboard players set @a P3Phase 1
+execute unless entity @a[scores={MosesChargeStart=-2147483648..2147483647}] run scoreboard players set @a MosesChargeStart 0
+execute unless entity @a[scores={MosesCongPhase=-2147483648..2147483647}] run scoreboard players set @a MosesCongPhase 1
+execute unless entity @a[scores={MosesPrimPhase=-2147483648..2147483647}] run scoreboard players set @a MosesPrimPhase 1

@@ -1,0 +1,1 @@
+execute if entity @a[tag=!Berserker,tag=!Hunter] run function tlkot:core/tenth_second/local_event/class_select/process

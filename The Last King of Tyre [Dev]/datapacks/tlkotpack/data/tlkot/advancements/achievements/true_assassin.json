@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:iron_shovel"}, "title": {"text": "True Assassin"}, "description": "Deal 168 damage in a single hit", "frame": "challenge"}, "parent": "tlkot:achievements/root", "criteria": {"true_assassin": {"trigger": "minecraft:impossible"}}}

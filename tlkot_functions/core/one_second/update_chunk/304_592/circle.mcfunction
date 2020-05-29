@@ -1,0 +1,2 @@
+clone 304 2 596 319 15 607 304 116 596
+fill 306 130 602 316 136 607 minecraft:air replace

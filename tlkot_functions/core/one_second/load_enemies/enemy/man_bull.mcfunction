@@ -1,0 +1,1 @@
+function tlkot:utility/summon_enemy/animal/man_bull/main

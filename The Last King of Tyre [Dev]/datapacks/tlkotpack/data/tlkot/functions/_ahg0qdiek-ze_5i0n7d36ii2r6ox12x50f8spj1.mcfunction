@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"UnloadedEnemy\"}",Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz","Zix78wJnXv_ymRuQmIozQIw5N6U54aSf6grM8Db8","XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz"],Marker:1b,Invisible:1b}
+execute as @e[tag=jF6ECy6JMN9g8wr50gH1ye+p51TaJxt_woFpO2.J,distance=..3] run function tlkot:-jr8l4xgc01fyyez1a6zyl7_92vux_inwu4-7zup

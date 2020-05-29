@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={NewProphet=0}] IkseTalk <#IkseGreetID#>
+execute if entity @a[scores={IkseTalk=..<#IkseFaithfulID#>,NewProphet=1}] run function tlkot:core/npc/verbal/ikse_the_faithful/choose_new_prophet_discussion

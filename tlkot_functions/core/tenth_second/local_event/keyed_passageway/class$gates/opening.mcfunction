@@ -1,0 +1,1 @@
+#class execute if entity @s[scores={GateTime=<\1>}] run function tlkot:<~>/<\0>

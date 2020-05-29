@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={g65hK21X6TRGdjr0=-1}] g65hK21X6TRGdjr0 117
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Perhaps, then, something can be done, by you, though you wouldn't be the first to try.", "color": "aqua", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Perhaps, then, something can be done, by you, though you wouldn't be the first to try.", "color": "white", "italic": true}

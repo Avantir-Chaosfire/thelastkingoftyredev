@@ -1,0 +1,16 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+MinisterEpitaphItemID written_book
+MinisterEpitaphAuthor A Minister of Ixinik
+MinisterEpitaphTitle Epitaph of Ixinik
+MinisterEpitaphPages I am a Minister of Ixinik.<Newline><Newline>Once, I was against war. I thought those who practiced it were wrong, that they were not like me...<Newline><Newline>When my son chose to become a soldier, and fight in the undead crusades, I disowned him. Now I write this
+MinisterEpitaphPages last note, here to sacrifice my own life, and it is he who refuses to leave my side.<Newline><Newline>I, who preached love and forgiveness, have failed to follow those teachings. My own son, whom I believed myself so superior to... He has done better than I.
+MinisterEpitaphPages What a fool I was. Now I have a chance to change, and I choose to die.<Newline><Newline>Isn't that just the easy way out?<Newline><Newline>So do I believe what I preached? Or am I just hollow inside? If so, I am not alone.<Newline><Newline>To you, who journeys
+MinisterEpitaphPages this accursed path, do not join me in my depths of defeat. Seek strength, seek love, seek... Something greater, else you will find yourself on a hanging pole.<Newline><Newline>Too much like me.
+
+MinisterEpitaphDataTag author:"<#MinisterEpitaphAuthor#>",title:"<#MinisterEpitaphTitle#>",resolved:1b,pages:["<#MinisterEpitaphPages#>"]
+MinisterEpitaph <#Item$MinisterEpitaphItemID$MinisterEpitaphDataTag#>

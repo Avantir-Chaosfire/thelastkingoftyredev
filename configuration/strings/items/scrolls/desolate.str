@@ -1,0 +1,54 @@
+#include exploding_creeper
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+DesolateScrollItemID fishing_rod
+DesolateScrollNameText Desolate Scroll, Class 3
+DesolateScrollNameColour dark_aqua
+DesolateScrollName <#ItemName$DesolateScrollNameText$DesolateScrollNameColour#>
+DesolateScrollDescription <#LoreLine$Great power comes at a great cost.#>
+DesolateScrollDescription <#LoreLine$That cost should make you#>
+DesolateScrollDescription <#LoreLine$reevaluate just how important the#>
+DesolateScrollDescription <#LoreLine$power is, for very little is worth#>
+DesolateScrollDescription <#LoreLine$either your sanity, humanity or#>
+DesolateScrollDescription <#LoreLine$identity, but power always costs at#>
+DesolateScrollDescription <#LoreLine$least one.#>
+DesolateScrollDescription <#StatsLine#>
+DesolateScrollStats <#LoreLine$Instant Explosion#>
+
+DesolateScrollDataTag display:{Name:"<#DesolateScrollName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:13,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
+DesolateScroll <#Item$DesolateScrollItemID$DesolateScrollDataTag#>
+
+DesolateScrollActiveNameText <#DesolateScrollNameText#> (Active)
+DesolateScrollActiveName <#ItemName$DesolateScrollActiveNameText$DesolateScrollNameColour#>
+
+DesolateScrollActiveDataTag display:{Name:"<#DesolateScrollActiveName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:29,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
+DesolateScrollActive <#Item$DesolateScrollItemID$DesolateScrollActiveDataTag#>
+
+DesolateWill0Cost 6
+DesolateWill1Cost 6
+DesolateWill2Cost 5
+DesolateWill3Cost 4
+DesolateWill4Cost 4
+DesolateWill5Cost 3
+
+DesolateWill0Time 4
+DesolateWill1Time 4
+DesolateWill2Time 4
+DesolateWill3Time 4
+DesolateWill4Time 4
+DesolateWill5Time 4
+
+DesolateWill0TimeIncrease 0
+DesolateWill1TimeIncrease 0
+DesolateWill2TimeIncrease 0
+DesolateWill3TimeIncrease 0
+DesolateWill4TimeIncrease 0
+DesolateWill5TimeIncrease 0
+
+DesolateCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Desolate Explosion\"}",ExplosionRadius:6b‘

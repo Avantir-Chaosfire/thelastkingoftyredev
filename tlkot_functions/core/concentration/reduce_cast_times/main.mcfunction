@@ -1,0 +1,1 @@
+#class execute if entity @a[scores={Will=<0>}] run function tlkot:<~>/<0>

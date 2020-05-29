@@ -1,0 +1,1 @@
+function tlkot:core/fourth_second/local_event/main

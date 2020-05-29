@@ -1,0 +1,13 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheAltarItemID written_book
+TheAltarAuthor Avantir Yihn
+TheAltarTitle The Altar
+TheAltarPages This altar was built beneath the New Hoiro Library for casters to take the power of reapers.<Newline><Newline>Here you can offer very special heads of yearning to improve yourself. Not just any heads of yearning will do.
+
+TheAltarDataTag author:"<#TheAltarAuthor#>",title:"<#TheAltarTitle#>",resolved:1b,pages:["<#TheAltarPages#>"]
+TheAltar <#Item$TheAltarItemID$TheAltarDataTag#>

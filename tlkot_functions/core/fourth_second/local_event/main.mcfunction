@@ -1,0 +1,10 @@
+function tlkot:<~>/arrow_trap/main
+function tlkot:<~>/backup_lock/main
+function tlkot:<~>/can_fight_arvelo/main
+function tlkot:<~>/cavern_teleport_shortcut/main
+function tlkot:<~>/lock/main
+function tlkot:<~>/door_lever/main
+function tlkot:<~>/seal/main
+function tlkot:<~>/shade_lighthouse/main
+function tlkot:<~>/sacrifice_ending_trigger/main
+function tlkot:<~>/smoke_beast_lever/main

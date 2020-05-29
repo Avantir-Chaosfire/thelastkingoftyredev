@@ -1,0 +1,1 @@
+execute if block -64 255 304 minecraft:air run function tlkot:core/local_event/gate/lever/fates_puppeteer_exit/loaded

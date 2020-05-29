@@ -1,0 +1,1 @@
+execute as @e[tag=MosesDash,distance=2..] facing entity @s feet run function tlkot:<~>/1

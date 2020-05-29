@@ -1,0 +1,5 @@
+function tlkot:4hgx_wz5m3yla7nk_vv2973vgpu5kdjwd_4z33vy
+function tlkot:i45qblhri33q2jz2yn7jmejqz-yu_recwlhm7hys
+function tlkot:oxtmo5ict1e-lh1gmec48t6zj2fsj7da89m1xuge
+function tlkot:rwbtf3uy5rqnl-iv7t1vt2btya6uq-gtozz2yt24
+scoreboard players set @a 0XD_UojS..U07Blc 0

@@ -1,0 +1,1 @@
+execute if block 240 255 64 minecraft:air run function tlkot:core/local_event/gate/lever/depths_evangelist/loaded

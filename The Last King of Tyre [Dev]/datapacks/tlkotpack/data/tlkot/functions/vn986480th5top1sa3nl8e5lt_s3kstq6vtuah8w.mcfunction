@@ -1,0 +1,3 @@
+scoreboard players set @a -jbbmzZkgkWlndcw 104
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Now, using complex casts, casting devices and other objects imprinted with complex Illwoird,", "color": "green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Now, using complex casts, casting devices and other objects imprinted with complex Illwoird,", "color": "white", "italic": true}

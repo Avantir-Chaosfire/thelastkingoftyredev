@@ -1,0 +1,2 @@
+execute if entity @s[tag=!0gI-z_3-5tHZPlpb6y4XNaiWe8QrywfyczyitISb] if entity @a[distance=2..] run function tlkot:gtje6bg2tzmmhbksmlpvim5qtgfz23t2p_fl768k
+execute if entity @s[tag=0gI-z_3-5tHZPlpb6y4XNaiWe8QrywfyczyitISb] run function tlkot:tqbvp_pijie9pxxh76x7edgifqn_2eztr7z1ulla

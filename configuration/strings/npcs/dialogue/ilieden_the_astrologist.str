@@ -1,0 +1,66 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+IliedenIDTag IliedenTheAstrologist
+IliedenTags <#CommonNPCTags$plains$cleric#>,Tags:["<#IliedenIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Ilieden the Astrologist\"}"
+
+IliedenColour dark_blue
+IliedenLocation 707.5 247 366.5
+IliedenEngageRadius 6] if entity @a[x=699,y=247,z=358,dx=16,dy=2,dz=16
+IliedenDisengageRadius 13
+
+IliedenClearID 1
+IliedenClearLines		0	$ 42	$ Behold the cosmos! $
+IliedenClearLines		1	$ 74	$ Look, and see what is all around and within us, $
+IliedenClearLines		2	$ 74	$ What always has been and what always will be. $
+IliedenClearLines		3	$ 90	$ Is it not inspiring to see the world so plainly presented? $
+IliedenClearLines		4	$ 105	$ We may not fully comprehend it yet, but understanding comes with time. $
+
+IliedenRainyID 2
+IliedenRainyLines		0	$ 63	$ Ah, 'tis a sorry time you have arrived. $
+IliedenRainyLines		1	$ 84	$ The cosmos is shrouded, denying us the glorious view, $
+IliedenRainyLines		2	$ 90	$ And making us wonder if time has yet reverted... $
+
+IliedenStormyID 3
+IliedenStormyLines		0	$ 155	$ Hm... If the lightning travels vertically, it must flow through time at different rates... $
+IliedenStormyLines		1	$ 69	$ Could I use this to calculate the center? $
+IliedenStormyLines		2	$ 75	$ Or perhaps unravel the grey moon... $
+
+IliedenSunID 4
+IliedenSunLines			0	$ 62	$ Yes, the days have been getting longer as of late. $
+IliedenSunLines			1	$ 76	$ Much longer in fact, this last night lasted nearly a fortnight. $
+IliedenSunLines			2	$ 70	$ The passage of time in E'Siraph continues to accelerate, $
+IliedenSunLines			3	$ 73	$ And will do so as long as those fools keep falling to reapers. $
+
+IliedenMoonID 5
+IliedenMoonLines		0	$ 54	$ The moon mirrors the sun in all things. $
+IliedenMoonLines		1	$ 64	$ Where the sun casts light, the moon brings shadow. $
+IliedenMoonLines		2	$ 80	$ A true foil, for without the darkness, would we appreciate the light? $
+
+IliedenShiftingCosmosID 6
+IliedenShiftingCosmosLines	0	$ 56	$ The comos shifts... $
+IliedenShiftingCosmosLines	1	$ 72	$ Astonishing, these streams I've never seen! $
+IliedenShiftingCosmosLines	2	$ 86	$ But yet, I know enough to dread what this change brings. $
+IliedenShiftingCosmosLines	3	$ 44	$ Someone is calling. $
+
+IliedenRockingCosmosID 7
+IliedenRockingCosmosLines	0	$ 81	$ The turbulence continues, rocking back and forth. $
+IliedenRockingCosmosLines	1	$ 75	$ All was peaceful, for so long, but then you came. $
+IliedenRockingCosmosLines	2	$ 42	$ You, the disruptor. $
+IliedenRockingCosmosLines	3	$ 53	$ I know you fell from the sky. $
+IliedenRockingCosmosLines	4	$ 95	$ The fallen angel's presence has swept the land, now the sky too. $
+IliedenRockingCosmosLines	5	$ 74	$ What more shall change, and where will you go? $
+IliedenRockingCosmosLines	6	$ 110	$ As mysterious as the cosmos is, I cannot help but become fascinated by you. $
+
+IliedenActionbarDiscussions 	clear		$ <#IliedenClearID#>		$ Clear
+IliedenActionbarDiscussions 	rainy		$ <#IliedenRainyID#>		$ Rainy
+IliedenActionbarDiscussions 	stormy		$ <#IliedenStormyID#>		$ Stormy
+IliedenActionbarDiscussions 	shifting_cosmos	$ <#IliedenShiftingCosmosID#>	$ ShiftingCosmos
+IliedenActionbarDiscussions 	rocking_cosmos	$ <#IliedenRockingCosmosID#>	$ RockingCosmos
+
+IliedenChatLogDiscussions 	sun		$ <#IliedenSunID#>		$ Sun
+IliedenChatLogDiscussions 	moon		$ <#IliedenMoonID#>		$ Moon
+
+IliedenDialoguePrompt {<#DialoguePromptOption$Ilieden$IliedenSun$The sun?#>,"extra":[{<#DialoguePromptOptionFinal$Ilieden$IliedenMoon$The moon?#>}]}

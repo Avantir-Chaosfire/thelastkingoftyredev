@@ -1,0 +1,1 @@
+execute if block 352 255 -16 minecraft:air run function tlkot:core/local_event/gate/lever/catalyst_sigils/loaded

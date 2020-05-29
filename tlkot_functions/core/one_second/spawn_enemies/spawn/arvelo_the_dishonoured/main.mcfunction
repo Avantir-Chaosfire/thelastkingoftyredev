@@ -1,0 +1,2 @@
+execute if entity @a[scores={ArveloVictory=0,CanArveloSpawn=1,ArveloFighting=0}] run function tlkot:<~>/trigger
+execute unless entity @a[scores={ArveloVictory=0,CanArveloSpawn=1,ArveloFighting=0}] run tag @s remove Spawned

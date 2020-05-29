@@ -1,0 +1,1 @@
+tellraw @a {"text": "What can I do for ya?", "color": "white", "italic": true}

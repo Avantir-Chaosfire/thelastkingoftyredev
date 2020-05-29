@@ -1,0 +1,5 @@
+summon minecraft:arrow ~0.495 ~3.5 ~1.485 {life:1160s,pickup:0,Tags:["q075SdtaGzWMIh88oWn+h4kIeCWdusyFuLkAIWpF"],damage:2.0d,Silent:1b,Motion:[0.503d,-0.35d,1.006d]}
+summon minecraft:arrow ~0.742 ~3.5 ~1.237 {life:1160s,pickup:0,Tags:["q075SdtaGzWMIh88oWn+h4kIeCWdusyFuLkAIWpF"],damage:2.0d,Silent:1b,Motion:[0.654d,-0.35d,0.915d]}
+summon minecraft:arrow ~0.99 ~3.5 ~0.99 {life:1160s,pickup:0,Tags:["q075SdtaGzWMIh88oWn+h4kIeCWdusyFuLkAIWpF"],damage:2.0d,Motion:[0.795d,-0.35d,0.795d]}
+summon minecraft:arrow ~1.237 ~3.5 ~0.742 {life:1160s,pickup:0,Tags:["q075SdtaGzWMIh88oWn+h4kIeCWdusyFuLkAIWpF"],damage:2.0d,Silent:1b,Motion:[0.915d,-0.35d,0.654d]}
+summon minecraft:arrow ~1.485 ~3.5 ~0.495 {life:1160s,pickup:0,Tags:["q075SdtaGzWMIh88oWn+h4kIeCWdusyFuLkAIWpF"],damage:2.0d,Silent:1b,Motion:[1.006d,-0.35d,0.503d]}

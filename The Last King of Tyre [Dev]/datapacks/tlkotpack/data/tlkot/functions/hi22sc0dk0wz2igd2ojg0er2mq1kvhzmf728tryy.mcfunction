@@ -1,0 +1,2 @@
+scoreboard players set @a slu2exMd5HTEZqLH -1
+function tlkot:irn_bhonyaq3fbgfwj6pwd_i0gj52ioas7q1wx1j

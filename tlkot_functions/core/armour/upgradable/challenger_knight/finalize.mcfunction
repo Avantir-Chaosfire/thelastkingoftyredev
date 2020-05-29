@@ -1,0 +1,1 @@
+effect clear @a[tag=!ShieldChallenger,scores={CommuneDuration=-1}] minecraft:absorption

@@ -1,0 +1,2 @@
+execute if entity @s[tag=Iyv6WdHeD1Uo7DGuIq2WQc_x1UX4qtdmiDdcfOtj] run scoreboard players set @a lCZI7toi0OahllHV 1
+execute if entity @s[tag=0Iv7KQNWLLZaBsXOapjL1ZP96d8SCWBl6dn1qW_I] run scoreboard players set @a lCZI7toi0OahllHV 2

@@ -1,0 +1,1 @@
+execute at @a run function tlkot:dd6ylafh237izuhmir0_vo4w8h-qrlhd16jwd68-

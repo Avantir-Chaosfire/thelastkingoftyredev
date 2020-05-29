@@ -1,0 +1,2 @@
+execute as @a[gamemode=adventure] run function tlkot:wk38p9a8lx0urql0-rrc3jigtppichdvl5191g1l
+execute as @e[tag=dgjubb+HN-vD_fFzDSrk5SjmredeKgETL3+Lox-W,tag=!h8hcSXUYxYPTRrY7lYDFK_GAkzoENHxyn1LYonXE] run function tlkot:wk38p9a8lx0urql0-rrc3jigtppichdvl5191g1l

@@ -1,0 +1,1 @@
+execute at @e[tag=Fireball] positioned ~-4 ~-4 ~-4 as @e[tag=AI.Undead,dx=7,dy=7,dz=7] run data merge entity @s {Fire:60s}

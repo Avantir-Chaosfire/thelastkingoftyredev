@@ -1,0 +1,1 @@
+scoreboard players set @a OhM.7BYqSspFoU+h 3

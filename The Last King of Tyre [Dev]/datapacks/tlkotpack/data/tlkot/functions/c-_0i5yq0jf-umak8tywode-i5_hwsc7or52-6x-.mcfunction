@@ -1,0 +1,1 @@
+tellraw @a {"text": "Welcome.", "color": "green", "italic": true, "obfuscated": true}

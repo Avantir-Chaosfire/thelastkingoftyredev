@@ -1,0 +1,2 @@
+execute if entity @a[scores={HXgAvMFwOSLO+MHO=1}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s 299.5 118 636.5
+execute if entity @a[scores={HXgAvMFwOSLO+MHO=0}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s 295.266 121 612.013

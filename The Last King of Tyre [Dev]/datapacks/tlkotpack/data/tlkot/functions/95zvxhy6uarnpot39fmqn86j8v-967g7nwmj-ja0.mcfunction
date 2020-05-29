@@ -1,0 +1,1 @@
+execute unless entity @a[scores={_2Yw.eu7xIJr00Ub=2..5}] unless entity @a[scores={_2Yw.eu7xIJr00Ub=7}] run function tlkot:5ij9jfrd2ig7hio9ab-ehrlzgbr2nwi5_07-7bpb

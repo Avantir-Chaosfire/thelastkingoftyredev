@@ -1,0 +1,2 @@
+scoreboard players set @a OhM.7BYqSspFoU+h 2
+execute if entity @a[scores={Jx1d-T3eMKXzm++r=2..3}] as @e[tag=f9_pW2On7ODcuYfM7DumjA0hMwL7IiFtruIr0gaW,x=406,y=128,z=60,dx=40,dy=14,dz=17] run function tlkot:ngvpm41qu9sv_fxl_9dg-tnt0r02is9z82amu0hy

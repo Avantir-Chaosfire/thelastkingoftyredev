@@ -1,0 +1,1 @@
+execute if entity @a[x=-320,y=208,z=349,distance=..16,scores={BSigilTutComplet=0}] run function tlkot:<~>/process

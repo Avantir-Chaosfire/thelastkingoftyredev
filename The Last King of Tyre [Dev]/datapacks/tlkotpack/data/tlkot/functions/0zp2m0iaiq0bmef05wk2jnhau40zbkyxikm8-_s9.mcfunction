@@ -1,0 +1,1 @@
+scoreboard players set @a A6GuOZTXg6XmcY9C 1

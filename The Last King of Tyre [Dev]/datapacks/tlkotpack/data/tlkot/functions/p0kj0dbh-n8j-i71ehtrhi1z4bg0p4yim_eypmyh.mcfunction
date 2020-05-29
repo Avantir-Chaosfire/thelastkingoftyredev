@@ -1,0 +1,1 @@
+execute as @a[scores={NG4sqnyVvL9Sdz0T=1..}] run function tlkot:-7tx8lbcflm0eatqysi8tge0gjiun67r3clu60n_

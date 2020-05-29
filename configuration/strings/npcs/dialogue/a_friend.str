@@ -1,0 +1,63 @@
+#include npcs/tags
+#include npcs/shops/a_friend
+#include items/necessities
+#include items/accessories/shields/tower
+
+#join compendium <Newline>
+#join functions <Newline>
+
+AFriendIDTag AFriend
+AFriendTags ‘<#CommonNPCTags$plains$cartographer#>,Offers:{Recipes:[<#AFriend<1>Recipes#>]},Tags:["<#AFriendIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"A Friend\"}"‘
+AFriendBerserkerTags <#AFriendTags$Berserker#>
+AFriendHunterTags <#AFriendTags$Hunter#>
+
+AFriendColour green
+AFriendLocation -326.405 178 330.329
+AFriendEngageRadius 6
+AFriendDisengageRadius 13
+
+AFriendMeetID 0
+AFriendMeetLines 		0 $ 47	$ Excellent, you're here. $
+AFriendMeetLines		1 $ 48	$ In a moment, we can begin. $
+
+AFriendGreetID 1
+AFriendGreetLines		0 $ 62	$ Don't be afraid, you need to press on! $
+
+AFriendWaresID 2
+AFriendWaresLines		0 $ 23	$ Yes! $
+AFriendWaresLines		1 $ 70	$ Come close and interact with me to see them for yourself. $
+
+AFriendFarDoorID 3
+AFriendFarDoorLines		0 $ 51	$ That door leads... on. $
+AFriendFarDoorLines		1 $ 62	$ I have it locked until you've prepared yourself. $
+AFriendFarDoorLines		2 $ 83	$ Just purchase my Tower Shield and Empty Flask, then I'll let you through. $
+
+AFriendEmptyFlaskID 4
+AFriendEmptyFlaskLines		0 $ 67	$ You can store some healing fountain water in a flask. $
+AFriendEmptyFlaskLines		1 $ 101	$ Unfortunately, you won't always be near enough to a fountain, as there are rather few around. $
+AFriendEmptyFlaskLines		2 $ 78	$ So for most times, you must rely on your Blood Sigil to stay strong. $
+
+AFriendWoodenShieldID 5
+AFriendWoodenShieldLines	0 $ 81	$ Many combat tools you'll find out there have drawbacks to using them. $
+AFriendWoodenShieldLines	1 $ 94	$ You'll see the Tower Shield not only limits the number of blows you can block at once, $
+AFriendWoodenShieldLines	2 $ 72	$ It also weakens your strike due to how big and awkward it is. $
+AFriendWoodenShieldLines	3 $ 81	$ Picking the right tools for any battle or strategy is no simple task. $
+
+AFriendWhoID 6
+AFriendWhoLines			0 $ 37	$ Hm... $
+AFriendWhoLines			1 $ 54	$ I guess, if anyone asks... $
+AFriendWhoLines			2 $ 43	$ Just tell them I'm a friend. $
+AFriendWhoLines			3 $ 40	$ Also, I... $
+AFriendWhoLines			4 $ 39	$ No- no, sorry, nevermind. $
+AFriendWhoLines			5 $ 56	$ I'm your friend, that's all you need to know. $
+
+AFriendActionbarDiscussions 	meet		$ <#AFriendMeetID#>		$ Meet
+AFriendActionbarDiscussions 	greet		$ <#AFriendGreetID#>		$ Greet
+
+AFriendChatLogDiscussions 	wares		$ <#AFriendWaresID#>		$ Wares
+AFriendChatLogDiscussions 	far_door	$ <#AFriendFarDoorID#>		$ FarDoor
+AFriendChatLogDiscussions 	empty_flask	$ <#AFriendEmptyFlaskID#>	$ EmptyFlask
+AFriendChatLogDiscussions 	wooden_shield	$ <#AFriendWoodenShieldID#>	$ WoodenShield
+AFriendChatLogDiscussions 	who		$ <#AFriendWhoID#>		$ Who
+
+AFriendDialoguePrompt {<#DialoguePromptOption$AFriend$AFriendWares$Wares?#>,"extra":[{<#DialoguePromptOption$AFriend$AFriendFarDoor$The Far Door?#>},{<#DialoguePromptOption$AFriend$AFriendWoodenShield$<#TowerShieldNameText#>?#>},{<#DialoguePromptOption$AFriend$AFriendEmptyFlask$<#EmptyFlaskNameText#>?#>},{<#DialoguePromptOptionFinal$AFriend$AFriendWho$Who are you?#>}]}

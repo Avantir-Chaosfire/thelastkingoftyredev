@@ -1,0 +1,1 @@
+execute at @e[tag=aAYv4xs_deMfGY-CBswMwbehVtMpRqMxxX.K09di] run particle minecraft:smoke ~ ~1 ~ 0 0 0 0 2

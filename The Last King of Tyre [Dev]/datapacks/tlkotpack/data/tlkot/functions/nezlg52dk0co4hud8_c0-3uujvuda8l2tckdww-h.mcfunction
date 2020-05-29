@@ -1,0 +1,1 @@
+execute at @a as @e[tag=Zc+NW9cQoFDOm.Oywpk+jAK_ZMN-.9kzTiVgJ4If,distance=..16] positioned ~-16 ~-5 ~-16 at @s[dx=32,dy=10,dz=32] run function tlkot:wyp6-39g-8ahk-e9ag-iw0g0cex_p-glnk53wdt-

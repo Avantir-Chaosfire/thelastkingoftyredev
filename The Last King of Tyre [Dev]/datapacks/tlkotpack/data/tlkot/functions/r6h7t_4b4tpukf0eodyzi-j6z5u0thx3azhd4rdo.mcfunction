@@ -1,0 +1,2 @@
+execute if entity @a[gamemode=adventure,scores={v-i9JprH8G73N9wn=0}] run function tlkot:cvcky9zr42fa1lx1_gm15-2p57_p88ce-oz42698
+execute if entity @a[scores={v-i9JprH8G73N9wn=1}] run function tlkot:n1se5zo6ov4cs4-f-s9aq_7f054x_qy7blq81saw

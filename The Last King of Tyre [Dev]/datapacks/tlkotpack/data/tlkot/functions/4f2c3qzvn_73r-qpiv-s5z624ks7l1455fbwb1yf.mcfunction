@@ -1,0 +1,1 @@
+execute positioned ~ ~-1.62 ~ if entity @a[distance=..100] run tag @s add nH87Jk5mqNYU8OSeWClsDXxHXCCGxE5723nm-6AW

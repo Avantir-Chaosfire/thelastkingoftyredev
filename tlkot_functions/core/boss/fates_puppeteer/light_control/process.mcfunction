@@ -1,0 +1,1 @@
+#class execute if entity @s[scores={P1X=<1>,P1Y=<2>}] if block ~ ~ ~ minecraft:air run function tlkot:<~>/<0>

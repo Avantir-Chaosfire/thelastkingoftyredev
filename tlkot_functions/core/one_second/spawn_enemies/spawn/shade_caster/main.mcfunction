@@ -1,0 +1,2 @@
+execute if entity @s[name=ShadeCaster-Boss] run function tlkot:<~>/boss
+execute if entity @s[name=ShadeCaster-FightPosition] if entity @a[scores={ShadeRound=2,ShadeWave=4}] run function tlkot:<~>/fight_position

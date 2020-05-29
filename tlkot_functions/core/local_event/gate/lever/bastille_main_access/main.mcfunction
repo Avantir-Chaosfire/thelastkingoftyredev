@@ -1,0 +1,1 @@
+execute if block 400 255 16 minecraft:air run function tlkot:core/local_event/gate/lever/bastille_main_access/loaded

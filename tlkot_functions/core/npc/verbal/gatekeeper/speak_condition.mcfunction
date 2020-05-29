@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={GatekeeperTalk=<#GatekeeperBeyondID#>..}] GatekeeperLine 0

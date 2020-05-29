@@ -1,0 +1,1 @@
+give @s minecraft:gold_nugget{display:{Name:"{\"text\":\"Emblem of Hope\",\"color\":\"green\",\"italic\":false}",Lore:['{"text":"An emblem of casters imprinted as a","color":"gray"}','{"text":"key for certain Illwoirds of energy","color":"gray"}','{"text":"flow. Skilled practitioners can use","color":"gray"}','{"text":"these to upgrade weapons.","color":"gray"}']}}

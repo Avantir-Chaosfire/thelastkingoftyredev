@@ -1,0 +1,1 @@
+execute if block 0 255 288 minecraft:air if block 0 255 272 minecraft:air run function tlkot:core/local_event/gate/lever/enshadowed_thrones_pillars/loaded

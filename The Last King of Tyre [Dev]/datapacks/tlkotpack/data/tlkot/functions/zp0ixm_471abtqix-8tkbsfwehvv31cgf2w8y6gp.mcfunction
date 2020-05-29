@@ -1,0 +1,3 @@
+scoreboard players set @a f.EAu0RkdNmJ_9lm 106
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Another one sits in Tyre's wharfs to the north, and a third rests at the bottom of the nearby depths.", "color": "dark_blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Another one sits in Tyre's wharfs to the north, and a third rests at the bottom of the nearby depths.", "color": "white", "italic": true}

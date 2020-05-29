@@ -1,0 +1,1 @@
+scoreboard players set @a OtwO.0gl3AzzqcGg 1

@@ -1,0 +1,50 @@
+SoundLength <#!<1>Minutes 60 * <1>Seconds + 20 *#>
+
+FatesPuppeteerBossMusicTrackNumber 1
+FatesPuppeteerBossMusicMinutes 4
+FatesPuppeteerBossMusicSeconds 25.5
+FatesPuppeteerBossMusicLength <#SoundLength$FatesPuppeteerBossMusic#>
+
+DisgracefulBeastBossMusicTrackNumber 2
+DisgracefulBeastBossMusicMinutes 3
+DisgracefulBeastBossMusicSeconds 4.95
+DisgracefulBeastBossMusicLength <#SoundLength$DisgracefulBeastBossMusic#>
+
+SaviourMosesBossMusicTrackNumber 3
+SaviourMosesBossMusicMinutes 1
+SaviourMosesBossMusicSeconds 54.85
+SaviourMosesBossMusicLength <#SoundLength$SaviourMosesBossMusic#>
+
+HangingPoleBossMusicTrackNumber 4
+HangingPoleBossMusicMinutes 4
+HangingPoleBossMusicSeconds 14.2
+HangingPoleBossMusicLength <#SoundLength$HangingPoleBossMusic#>
+
+PerjurerBossMusicTrackNumber 5
+PerjurerBossMusicMinutes 2
+PerjurerBossMusicSeconds 39.4
+PerjurerBossMusicLength <#SoundLength$PerjurerBossMusic#>
+
+DarTheViciousBossMusicTrackNumber 6
+DarTheViciousBossMusicMinutes 6
+DarTheViciousBossMusicSeconds 2
+DarTheViciousBossMusicLength <#SoundLength$DarTheViciousBossMusic#>
+
+WardenYlsaAndTheFalseReaperBossMusicTrackNumber 7
+WardenYlsaAndTheFalseReaperBossMusicMinutes 3
+WardenYlsaAndTheFalseReaperBossMusicSeconds 13.9
+WardenYlsaAndTheFalseReaperBossMusicLength <#SoundLength$WardenYlsaAndTheFalseReaperBossMusic#>
+
+KurnasHarbingerOfRuinationBossMusicTrackNumber 8
+KurnasHarbingerOfRuinationBossMusicMinutes 3
+KurnasHarbingerOfRuinationBossMusicSeconds 5.55
+KurnasHarbingerOfRuinationBossMusicLength <#SoundLength$KurnasHarbingerOfRuinationBossMusic#>
+
+CreditsMusicTrackNumber 9
+CreditsMusicMinutes 10
+CreditsMusicSeconds 25.35
+CreditsMusicLength <#SoundLength$CreditsMusic#>
+
+WhisperSoundLength 526
+
+WhiteNoiseSoundLength 1100

@@ -1,0 +1,1 @@
+execute if block 496 255 96 minecraft:air run function tlkot:core/local_event/gate/lever/vaults_tunnels_access/loaded

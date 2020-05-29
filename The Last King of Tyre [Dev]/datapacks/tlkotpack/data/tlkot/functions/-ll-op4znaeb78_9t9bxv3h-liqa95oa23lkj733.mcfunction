@@ -1,0 +1,2 @@
+execute if entity @s[name=ShadeCaster-Boss] run function tlkot:laybgmxdoop0q-osz9g7w92sk1p7rbowglixm3l3
+execute if entity @s[name=ShadeCaster-FightPosition] if entity @a[scores={H2lAv47B-yUItTjY=2,60d8Dwh6RvkH+i9o=4}] run function tlkot:s05766i5_99pr52eti-60i1jm0d2_831-xv-anc2

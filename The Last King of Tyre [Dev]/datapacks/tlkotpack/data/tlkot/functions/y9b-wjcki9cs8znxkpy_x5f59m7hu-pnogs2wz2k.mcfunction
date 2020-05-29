@@ -1,0 +1,1 @@
+execute as @e[scores={jHjfAYjMIhJdPZ2U=1..}] at @s run function tlkot:64pr5o96ttndrll8cu7gbue70u010nmqmx31lg6a

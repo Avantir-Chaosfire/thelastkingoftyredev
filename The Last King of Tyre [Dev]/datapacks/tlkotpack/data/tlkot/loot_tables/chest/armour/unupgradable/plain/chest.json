@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:chainmail_chestplate",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Chainmail Chestpiece\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A standard piece of chainmail.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 4\",\"color\":\"gray\"}','{\"text\":\"Weight: 2.0\",\"color\":\"gray\"}'],},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:4,UUIDLeast:469503776,UUIDMost:-1856568594,Slot:\"chest\"}],HideFlags:6}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

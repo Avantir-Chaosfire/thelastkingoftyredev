@@ -1,0 +1,1 @@
+scoreboard players set @a Z5ljSJsbV5V1TuIt 1

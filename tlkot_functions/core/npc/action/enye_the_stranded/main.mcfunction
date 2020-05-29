@@ -1,0 +1,2 @@
+execute at @e[tag=<#EnyeIDTag#>] if entity @a[distance=64..,scores={EnyeTalk=<#EnyeFoundLocketID#>..,EnyeLocation=0,EnyeHasLocket=1}] positioned ~-255 ~-10 ~-255 unless entity @a[dx=512,dy=20,dz=512] run function tlkot:<~>/open
+execute if entity @a[scores={EnyeTalk=<#EnyeFoundLocketID#>..},nbt={Inventory:[{tag:{display:{Name:"<#SilverLocketName#>"}}}]}] run function tlkot:<~>/give_locket

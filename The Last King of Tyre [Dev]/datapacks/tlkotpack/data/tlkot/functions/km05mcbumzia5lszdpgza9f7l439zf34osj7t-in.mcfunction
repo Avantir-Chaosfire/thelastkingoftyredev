@@ -1,0 +1,3 @@
+scoreboard players set @a D_964L4Udf0MzIey 1
+scoreboard players enable @a D_964L4Udf0MzIey
+tellraw @a {"text": "\"Undead?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger D_964L4Udf0MzIey set 8"}, "extra": [{"text": "\"Depths?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger D_964L4Udf0MzIey set 9"}}, {"text": "\"Anything Else?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger D_964L4Udf0MzIey set 10"}}]}

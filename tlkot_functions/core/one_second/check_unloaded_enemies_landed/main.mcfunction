@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,name=UnloadedEnemy,tag=FallingHitbox] if entity @s[nbt={OnGround:1b}] run function tlkot:<~>/trigger

@@ -1,0 +1,12 @@
+astrologists_loft	$ AstrologistsLoft	$ 755	$ 357	$ 755	$ 359	$ 3	$ 220 $\$ 1<\Newline>221 $\$ 5				$ 752 255 352 minecraft:air						$ birch_fence[north=true,south=true]		$ block.ladder.step
+blackguards_wharfs	$ BlackguardsWharfs	$ 499	$ 330	$ 499	$ 340	$ 4	$ 29 $\$ 1<\Newline>30 $\$ 5<\Newline>31 $\$ 9	$ 496 255 320 minecraft:air if block 496 255 336 minecraft:air	$ dark_oak_fence[north=true,south=true]	$ block.ladder.step
+casting_lab_02		$ CastingLab02		$ 104	$ 52	$ 106	$ 52	$ 3	$ 83 $\$ 1<\Newline>84 $\$ 5<\Newline>85 $\$ 9	$ 96 255 48 minecraft:air						$ spruce_fence[east=true,west=true]		$ block.ladder.step
+crystal_vault		$ CrystalVault		$ 531	$ 71	$ 531	$ 74	$ 4	$ 51 $\$ 1<\Newline>52 $\$ 5<\Newline>53 $\$ 9	$ 528 255 64 minecraft:air						$ birch_fence[north=true,south=true]		$ block.ladder.step
+hidden_laboratory	$ HiddenLaboratory	$ 504	$ 354	$ 506	$ 354	$ 3	$ 104 $\$ 1<\Newline>105 $\$ 5				$ 496 255 352 minecraft:air						$ dark_oak_fence[east=true,west=true]		$ block.ladder.step
+lost			$ Lost			$ -315	$ 326	$ -315	$ 332	$ 4	$ 178 $\$ 1<\Newline>179 $\$ 5<\Newline>180 $\$ 9	$ -320 255 320 minecraft:terracotta					$ spruce_fence[north=true,south=true]		$ block.ladder.step
+mural_hall		$ MuralHall		$ 444	$ 262	$ 446	$ 262	$ 3	$ 107 $\$ 1<\Newline>108 $\$ 5<\Newline>109 $\$ 9	$ 432 255 256 minecraft:air						$ dark_oak_fence[east=true,west=true]		$ block.ladder.step
+new_hoiro_library	$ NewHoiroLibrary	$ 706	$ 340	$ 708	$ 340	$ 3	$ 149 $\$ 1<\Newline>150 $\$ 5<\Newline>151 $\$ 9	$ 704 255 336 minecraft:air						$ birch_fence[east=true,west=true]		$ block.ladder.step
+river_of_sacrifice	$ RiverOfSacrifice	$ 275	$ 73	$ 275	$ 76	$ 3	$ 140 $\$ 1<\Newline>141 $\$ 5<\Newline>142 $\$ 9	$ 272 255 64 minecraft:air						$ oak_fence[north=true,south=true]		$ block.ladder.step
+seven_lakes		$ SevenLakes		$ 776	$ 330	$ 776	$ 332	$ 3	$ 156 $\$ 1<\Newline>157 $\$ 5				$ 768 255 320 minecraft:air						$ birch_fence[north=true,south=true]		$ block.ladder.step
+tyre_reaches		$ TyreReaches		$ -5	$ 84	$ -3	$ 84	$ 3	$ 50 $\$ 1<\Newline>51 $\$ 5				$ -16 255 80 minecraft:air						$ spruce_fence[east=true,west=true]		$ block.ladder.step
+vanishing		$ Vanishing		$ 612	$ 197	$ 614	$ 197	$ 3	$ 174 $\$ 1<\Newline>175 $\$ 5<\Newline>176 $\$ 9	$ 608 255 192 minecraft:air						$ birch_fence[east=true,west=true]		$ block.ladder.step

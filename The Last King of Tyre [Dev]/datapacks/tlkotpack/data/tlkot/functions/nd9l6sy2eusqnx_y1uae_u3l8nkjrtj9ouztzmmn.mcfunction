@@ -1,0 +1,1 @@
+scoreboard players set @a Da-UUq6f4Lf5PhQ+ 0

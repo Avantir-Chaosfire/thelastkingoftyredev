@@ -1,0 +1,14 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ScrollsTutorialItemID written_book
+ScrollsTutorialAuthor Avantir Yihn
+ScrollsTutorialTitle How to Use
+ScrollsTutorialPage1 {"text":"Casting Scrolls<Newline><Newline>Step 1: Obtain scroll on your hotbar.<Newline><Newline>Step 2: Select scroll/hold it in your hand.<Newline><Newline>Step 3: Wait for dinging to cease and aquamarine circle to appear."}
+ScrollsTutorialPage2 {"text":"Step 4: Ensure you have enough Stamina.<Newline><Newline>Step 5: Press [","extra":[{"keybind":"key.use"},{"text":"]"}]}
+
+ScrollsTutorialDataTag author:"<#ScrollsTutorialAuthor#>",title:"<#ScrollsTutorialTitle#>",resolved:1b,pages:['<#ScrollsTutorialPage1#>','<#ScrollsTutorialPage2#>']
+ScrollsTutorial <#Item$ScrollsTutorialItemID$ScrollsTutorialDataTag#>

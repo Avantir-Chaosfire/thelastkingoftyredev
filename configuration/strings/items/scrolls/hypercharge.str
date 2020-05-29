@@ -1,0 +1,54 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+HyperchargeScrollItemID fishing_rod
+HyperchargeScrollNameText Hypercharge Scroll, Class 3
+HyperchargeScrollNameColour dark_aqua
+HyperchargeScrollName <#ItemName$HyperchargeScrollNameText$HyperchargeScrollNameColour#>
+HyperchargeScrollDescription <#LoreLine$Everything is conserved, from mass#>
+HyperchargeScrollDescription <#LoreLine$to energy and all the grey in#>
+HyperchargeScrollDescription <#LoreLine$between. To get more, one must#>
+HyperchargeScrollDescription <#LoreLine$take it from elsewhere, and doing#>
+HyperchargeScrollDescription <#LoreLine$so has a price.#>
+HyperchargeScrollDescription <#StatsLine#>
+HyperchargeScrollStats <#LoreLine$+2 <#StaminaRegeneration#>#>
+HyperchargeScrollStats <#LoreLine$-50% Movement Stamina Regeneration#>
+HyperchargeScrollStats <#LoreLine$  Delay#>
+HyperchargeScrollStats <#LoreLine$-50% <#ShieldRecoveryTime#>#>
+HyperchargeScrollStats <#LoreLine$-50% <#BloodSigilActiveDuration#>#>
+HyperchargeScrollStats <#LoreLine$<#Duration#>: <#Time$60#>#>
+
+HyperchargeScrollDataTag display:{Name:"<#HyperchargeScrollName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:18,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946859,UUIDMost:-46785610,Slot:"mainhand"}]
+HyperchargeScroll <#Item$HyperchargeScrollItemID$HyperchargeScrollDataTag#>
+
+HyperchargeScrollActiveNameText <#HyperchargeScrollNameText#> (Active)
+HyperchargeScrollActiveName <#ItemName$HyperchargeScrollActiveNameText$HyperchargeScrollNameColour#>
+
+HyperchargeScrollActiveDataTag display:{Name:"<#HyperchargeScrollActiveName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:34,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946859,UUIDMost:-46785610,Slot:"mainhand"}]
+HyperchargeScrollActive <#Item$HyperchargeScrollItemID$HyperchargeScrollActiveDataTag#>
+
+HyperchargeWill0Cost 8
+HyperchargeWill1Cost 8
+HyperchargeWill2Cost 7
+HyperchargeWill3Cost 6
+HyperchargeWill4Cost 6
+HyperchargeWill5Cost 5
+
+HyperchargeWill0Time 60
+HyperchargeWill1Time 52
+HyperchargeWill2Time 44
+HyperchargeWill3Time 36
+HyperchargeWill4Time 28
+HyperchargeWill5Time 20
+
+HyperchargeWill0TimeIncrease 10
+HyperchargeWill1TimeIncrease 10
+HyperchargeWill2TimeIncrease 10
+HyperchargeWill3TimeIncrease 10
+HyperchargeWill4TimeIncrease 10
+HyperchargeWill5TimeIncrease 10

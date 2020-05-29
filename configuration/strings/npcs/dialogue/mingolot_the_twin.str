@@ -1,0 +1,66 @@
+#include npcs/tags
+#include npcs/shops/mingolot_the_twin
+
+#join compendium <Newline>
+#join functions <Newline>
+
+MingolotIDTag MingolotTheTwin
+MingolotTags <#CommonNPCTags$taiga$weaponsmith#>,Offers:{Recipes:[<#MingolotRecipes#>]},Tags:["<#MingolotIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Mingolot the Twin\"}"
+
+MingolotColour dark_aqua
+MingolotLocation 10.400 40 39.802
+MingolotEngageRadius 6] if entity @a[x=9,y=40,z=38,dx=3,dy=4,dz=3
+MingolotDisengageRadius 13
+
+MingolotMeetID 0
+MingolotMeetLines	0	$ 29	$ So, ye've- $
+MingolotMeetLines	1	$ 23	$ Oh. $
+MingolotMeetLines	2	$ 96	$ I thought ye were me twin, Ogolov, the 'Lonesome' he calls himself. $
+MingolotMeetLines	3	$ 123	$ Ah, he be keepin' quiet down there, and I don't ever want to disturb me work to chat with 'im. $
+MingolotMeetLines	4	$ 54	$ The name's Mingolot, the Twin. $
+MingolotMeetLines	5	$ 51	$ I'm now Tyre's finest smith! $
+MingolotMeetLines	6	$ 26	$ Haha! $
+
+MingolotGreetID 1
+MingolotGreetLines	0	$ 50	$ Be needin' some work done? $
+
+MingolotInfestedID 2
+MingolotInfestedLines	0	$ 36	$ Infested reapers? $
+MingolotInfestedLines	1	$ 40	$ Oh, I seen 'em ones ye mean. $
+MingolotInfestedLines	2	$ 58	$ We never got trouble from 'em flyin' buggers. $
+MingolotInfestedLines	3	$ 37	$ What, they attack ye? $
+MingolotInfestedLines	4	$ 48	$ Guess they only like reapers, eh? $
+MingolotInfestedLines	5	$ 24	$ Haha! $
+
+MingolotWharfsID 3
+MingolotWharfsLines	0	$ 50	$ Aye, the wharfs be just down the way. $
+MingolotWharfsLines	1	$ 51	$ Hundreds used 'em to flee the reapin'. $
+MingolotWharfsLines	2	$ 76	$ Not nearly 'nough boats for all, so only 'em lucky ones made it out. $
+MingolotWharfsLines	3	$ 22	$ Me? $
+MingolotWharfsLines	4	$ 22	$ Ha! $
+MingolotWharfsLines	5	$ 62	$ Just need me hammer and some good metal to whack. $
+MingolotWharfsLines	6	$ 59	$ I'll be here when it ends, don't ye worry 'bout it! $
+
+MingolotTripletsID 10
+MingolotTripletsLines	0	$ 38	$ Wha...? $
+MingolotTripletsLines	1	$ 37	$ Where'd ye find that? $
+MingolotTripletsLines	2	$ 35	$ ... $
+MingolotTripletsLines	3	$ 46	$ I'm... not a twin. $
+MingolotTripletsLines	4	$ 45	$ Ogolov and I, we had a brother. $
+MingolotTripletsLines	5	$ 98	$ When 'em reapers came, our parents got attacked, and our brother trapped... $
+MingolotTripletsLines	6	$ 94	$ I- I could have saved one'a 'em... Maybe... But, I hesitated. $
+MingolotTripletsLines	7	$ 37	$ Now they all be dead. $
+MingolotTripletsLines	8	$ 46	$ Ogolov don't talk to me no more. $
+MingolotTripletsLines	9	$ 35	$ ... $
+MingolotTripletsLines	10	$ 49	$ Sorry, but that be the token for ye. $
+
+MingolotActionbarDiscussions 	meet		$ <#MingolotMeetID#>		$ Meet
+MingolotActionbarDiscussions 	greet		$ <#MingolotGreetID#>		$ Greet
+
+MingolotChatLogDiscussions 	infested	$ <#MingolotInfestedID#>	$ Infested
+MingolotChatLogDiscussions 	wharfs		$ <#MingolotWharfsID#>		$ Wharfs
+MingolotChatLogDiscussions 	triplets	$ <#MingolotTripletsID#>	$ Triplets
+
+MingolotBaseDialoguePrompt {<#DialoguePromptOption$Mingolot$MingolotInfested$Infested?#>,"extra":[{<#DialoguePromptOptionFinal$Mingolot$MingolotWharfs$Wharfs?#>}]}
+
+MingolotTripletsDialoguePrompt {<#ActionPromptOptionFinal$Mingolot$MingolotTriplets$Show Token of Brotherhood#>}

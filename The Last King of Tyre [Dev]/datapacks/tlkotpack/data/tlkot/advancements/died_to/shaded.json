@@ -1,0 +1,1 @@
+{"criteria": {"died_to_shaded": {"trigger": "minecraft:entity_killed_player", "conditions": {"entity": {"nbt": "{Tags:[\"R+HUn+Ab7bVvWHEyt4u6J1WtHC_Vss5DjNExg8dH\"]}"}}}}, "rewards": {"function": "tlkot:1r997xo4xvqk4spg90etefdr4_rhgnzos_jat-n3"}}

@@ -1,0 +1,1 @@
+execute rotated ~ 0 run function tlkot:3nv8jte72eeee6dhtq_pxwatcprsr9uv6c2sjg8g

@@ -1,0 +1,4 @@
+execute unless entity @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=y+Z0AQsgmKYEO.MVITlNTYDHYJkmUAy-9v+Zxbxk,tag=M+qQ_EapC.cLTOWT5_qxyO3Fnm-ll.AKGUT+3_MY] if block ~ ~2 ~ minecraft:air run tag @s[tag=!JxVVW4KLtYKa_EJcFPDIEzyoPbA7FlrR0_09vd5j,tag=!L0MPiC3IS0xnzh90uSzmG5i8UhxN-c2h6hoy+bwf,tag=!S7k6AiyD9Fz1_-wHH70MplsIm8gfyWOVP0NVR2rk,tag=!rXrsjLSW3hNZ-PLt2PHe4nVxuz3p0np_LG37Myj_] add S7k6AiyD9Fz1_-wHH70MplsIm8gfyWOVP0NVR2rk
+execute if entity @s[tag=JxVVW4KLtYKa_EJcFPDIEzyoPbA7FlrR0_09vd5j] run function tlkot:6m69uz0gt1afqvkkl-qfezcfh8nvalwyn5x84b6d
+execute if entity @s[tag=S7k6AiyD9Fz1_-wHH70MplsIm8gfyWOVP0NVR2rk] run function tlkot:grxf4dcdp86-fn13m4vc46d49_f_jcjhhb-nliad
+execute if entity @s[scores={mLw1_SHuvl4_3Rx6=1..}] run function tlkot:r8m6z25p2d_2pbuqe-pou4t3e0th1jfj1g3gxznv

@@ -1,0 +1,2 @@
+execute if block 48 255 304 minecraft:air run function tlkot:o_1175hs24n69m74ave305qj37jqdhvigp11pxcq
+execute unless entity @e[tag=0Iv7KQNWLLZaBsXOapjL1ZP96d8SCWBl6dn1qW_I] run function tlkot:lse6sjxuai50vden-eelpxusrelabcx1tiw57x49

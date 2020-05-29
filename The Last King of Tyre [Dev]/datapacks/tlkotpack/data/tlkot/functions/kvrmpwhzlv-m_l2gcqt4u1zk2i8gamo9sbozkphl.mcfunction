@@ -1,0 +1,1 @@
+tellraw @a {"text": "Don't be afraid, you need to press on!", "color": "white", "italic": true}

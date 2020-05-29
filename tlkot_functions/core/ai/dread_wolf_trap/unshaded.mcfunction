@@ -1,0 +1,3 @@
+execute positioned ~4 ~3 ~ if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["AI.DreadWolfSpawn","HasAI"],Silent:1b}
+execute positioned ~-2.83 ~3 ~2.83 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["AI.DreadWolfSpawn","HasAI"],Silent:1b}
+execute positioned ~-2.83 ~3 ~-2.83 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["AI.DreadWolfSpawn","HasAI"],Silent:1b}

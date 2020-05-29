@@ -1,0 +1,3 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"Lever\"}",Marker:1b,NoGravity:1b,Invisible:1b,Tags:["LBOBiBeu3XdckIfAzN_C0pd_NQQdRJsND7.m_KVC","nv-zPAXPNN8SjCD_3E0-5DlfH..2yiWzFFkmFt8H"]}
+scoreboard players set @e[name=Lever,distance=..1] -gS0TUaWZKGMNxDN 0
+execute as @e[name=Lever,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function dev:summon/lever/initialize

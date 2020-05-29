@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={ZVTr_WjCuOvpZr_5=0}] gQW1rxxfIXPfzaDd 1
+execute if entity @a[scores={gQW1rxxfIXPfzaDd=..3,ZVTr_WjCuOvpZr_5=1}] run function tlkot:yxlr58n3ppv8rlsz489k1_q0ao_5dklxkib6jdk3

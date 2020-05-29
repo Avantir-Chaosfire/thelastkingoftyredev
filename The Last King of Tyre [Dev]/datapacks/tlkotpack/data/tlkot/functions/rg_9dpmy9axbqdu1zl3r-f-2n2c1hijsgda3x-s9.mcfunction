@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 108
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "That's very noble and misguided of you, but it is not why I brought you here.", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "That's very noble and misguided of you, but it is not why I brought you here.", "color": "white", "italic": true}

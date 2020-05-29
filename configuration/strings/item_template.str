@@ -1,0 +1,6 @@
+LoreLine '{"text":"<1>","color":"gray"}'
+ItemName {\"text\":\"<#<1>#>\",\"color\":\"<#<2>#>\",\"italic\":false}
+
+Item minecraft:<#<1>#>{<#<2>#>}
+
+StatsLine				<#LoreLine$--------#>

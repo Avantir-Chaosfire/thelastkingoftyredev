@@ -1,0 +1,6 @@
+execute as @e[tag=EV9FK2eiv7JE+QLWG7MgL_uLsSTUr44jfsFXEfSD,tag=!NyqhaWlEzkle+_Nqmn--ge+Ogg_R4PbzQ38R9h0m] run function tlkot:iqrznppc3i860ch0c9zzz1iqncmibm-1rq1flt-d
+function tlkot:-7pogj6m5x9c3bml6zwwaffvr5rvh32luroyopl3
+function tlkot:da1lykdf45iqm_3uwl83np8dp9r21j8cra9flyon
+function tlkot:676x4je_dgohari9bxd_18jg45p9jrs2i38c88yp
+function tlkot:d_rme89hfjbnutc378rm5-auninn-u41t2cxnvc8
+function tlkot:h9x6t-xpl8wdcju8jk6ivpigc175q4791b_box5x

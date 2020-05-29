@@ -1,0 +1,3 @@
+tag @a remove nvYVnoqYdYZ_8aPJk10POZb8lGMqxKt.jK4C1TU2
+scoreboard players remove @a HolAt8.byvruHpdt 150
+function tlkot:ill8oktvv49mdyo34c_2uwmg9qn4fs_40v8ojqsv

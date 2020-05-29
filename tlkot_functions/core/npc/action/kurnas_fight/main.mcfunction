@@ -1,0 +1,1 @@
+execute at @a[tag=CowardsDeath,scores={KurnasFightTalk=<#KurnasFightPostHide5SilenceID#>}] if block ~ ~-0.5 ~ #tlkot:respawn_location run scoreboard players set @a KurnasFightTalk <#KurnasFightHideRespawnID#>

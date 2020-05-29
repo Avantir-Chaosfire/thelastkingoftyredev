@@ -1,0 +1,149 @@
+{
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"min": 2,
+				"max": 3
+			},
+			"bonus_rolls": 2,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/snare",
+					"weight": 9
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/condemnation",
+					"weight": 9
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/smoke_bomb",
+					"weight": 9
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/necromancers_slip",
+					"weight": 9
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/casting_powder",
+					"weight": 9
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/burning_salt",
+					"weight": 9,
+					"functions":
+					[
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/flare",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/head_of_yearning",
+					"weight": 9,
+					"functions":
+					[
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:<#NormalArrowItemID#>",
+					"weight": 9,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{<#NormalArrowDataTag#>}"
+						},
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:<#CripplingArrowItemID#>",
+					"weight": 8,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{<#CripplingArrowDataTag#>}"
+						},
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:<#PoisonArrowItemID#>",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{<#PoisonArrowDataTag#>}"
+						},
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

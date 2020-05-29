@@ -1,0 +1,3 @@
+tp @s -888 7 -728
+tag @s add r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b
+summon minecraft:silverfish ~ ~ ~ {PersistenceRequired:1b,CustomName:"{\"text\":\"Energy Ball\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attackDamage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","sciqtX2_0-c6_fbJUDzrUNpH9OmR7Wk67ms8h.yY","BzZc-FBfFVbZAaJx50aKZxIrJVdqtudxa06nqK6s","Tbefm3fv8Ip2gszDytO_VWK4O_gNw.EvH35aF_fQ","aMfTf0c3qJ9RDTGnIzW.r9j4Xq3fSdnD+RxL+IY."]}

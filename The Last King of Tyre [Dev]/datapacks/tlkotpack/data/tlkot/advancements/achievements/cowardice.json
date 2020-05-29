@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:spruce_boat"}, "title": {"text": "Cowardice"}, "description": "Board the Boat", "frame": "goal", "hidden": true}, "parent": "tlkot:achievements/calamity_averted", "criteria": {"cowardice": {"trigger": "minecraft:impossible"}}}

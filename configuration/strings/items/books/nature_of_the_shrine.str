@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+NatureOfTheShrineItemID written_book
+NatureOfTheShrineAuthor Ereli Irishana the Impetuous
+NatureOfTheShrineTitle Nature of the Shrine
+NatureOfTheShrinePages Things are not how you think. The path people tell you is best to walk so often leads to a very dark place. Here, you may take that very literally. This shrine honours a convenant made long ago, by those who wouldn't tell me which path to walk. But this shrine is just a facade. The true
+NatureOfTheShrinePages shrine lies far below, in the heart of the darkness. As it were, even those who would not tell me which path to walk stood blocking the one they wanted me to avoid. Don't trust anyone out there. The truth is complicated, mired by lies and you'll have to go through hell to find it. But it will be
+NatureOfTheShrinePages worth it. For me, for you, for all of us. I don't know the truth anymore... But the one thing I can offer you, be it a lie I can't know, is that when you stand in that heart of darkness, a bloody death may be all that you need to seal away the Eater of All.
+
+NatureOfTheShrineDataTag author:"<#NatureOfTheShrineAuthor#>",title:"<#NatureOfTheShrineTitle#>",resolved:1b,pages:["<#NatureOfTheShrinePages#>"]
+NatureOfTheShrine <#Item$NatureOfTheShrineItemID$NatureOfTheShrineDataTag#>

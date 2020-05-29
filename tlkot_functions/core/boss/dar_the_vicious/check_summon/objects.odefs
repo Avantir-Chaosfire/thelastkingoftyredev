@@ -1,0 +1,6 @@
+1 $ 496 127 276		$ DarDefeatedAt1	$ x=496,y=127,z=276,distance=..14
+2 $ 452 108.0625 254	$ DarDefeatedAt2	$ x=452,y=108.0625,z=254,distance=..11] if entity @a[x=440,y=107,z=242,dx=24,dy=12,dz=24
+3 $ 425 93 277		$ DarDefeatedAt3	$ x=422,y=93,z=274,dx=26,dy=2,dz=16
+4 $ 349 75 233		$ DarDefeatedAt4	$ x=344,y=75,z=230,dx=10,dy=2,dz=12
+5 $ 594 101 285		$ BrokenVictory		$ x=581,y=101,z=276,dx=15,dy=0,dz=15
+6 $ 622 29 312		$ BrokenVictory		$ x=608,y=28,z=298,dx=29,dy=8,dz=29] unless entity @a[x=609,y=28,z=299,dx=28,dy=8,dz=28

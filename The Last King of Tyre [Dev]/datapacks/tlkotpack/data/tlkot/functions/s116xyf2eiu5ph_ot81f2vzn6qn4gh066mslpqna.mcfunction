@@ -1,0 +1,1 @@
+execute at @a[x=-348,y=190,z=328,dx=1,dy=2,dz=2,y_rotation=45..135] run tp @a ~7 ~-24 ~

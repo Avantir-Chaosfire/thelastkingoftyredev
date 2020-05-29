@@ -1,0 +1,1 @@
+tellraw @a {"text": "Can you understand sign language?", "color": "white", "italic": true, "obfuscated": true}

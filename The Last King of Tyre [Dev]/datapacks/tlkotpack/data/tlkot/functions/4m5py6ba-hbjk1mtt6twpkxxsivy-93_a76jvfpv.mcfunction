@@ -1,0 +1,1 @@
+tellraw @a {"text": "If you think this is the right path then you truly are an utter fool.", "color": "white", "italic": true}

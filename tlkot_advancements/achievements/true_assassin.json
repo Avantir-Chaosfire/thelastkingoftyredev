@@ -1,0 +1,23 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#DaggerItemID#>"
+		},
+		"title":
+		{
+			"text": "True Assassin"
+		},
+		"description": "Deal <#!TrueAssassinDamageThreshold 1000 /#> damage in a single hit",
+		"frame": "challenge"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"true_assassin":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

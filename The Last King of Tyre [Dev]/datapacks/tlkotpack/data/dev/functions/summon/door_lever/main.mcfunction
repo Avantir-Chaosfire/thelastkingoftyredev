@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["m.m1aNn4928N3N.uwSsyCwQ2gaWA6vUYfhYkk_6O","LBOBiBeu3XdckIfAzN_C0pd_NQQdRJsND7.m_KVC"]}
+execute as @e[tag=m.m1aNn4928N3N.uwSsyCwQ2gaWA6vUYfhYkk_6O,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function dev:summon/door_lever/initialize

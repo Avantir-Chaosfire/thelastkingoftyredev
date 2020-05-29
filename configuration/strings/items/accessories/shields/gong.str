@@ -1,0 +1,38 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+GongShieldNameColour gold
+
+GongShieldItemID shield
+GongShieldNameText Gong Shield
+GongShieldName <#ItemName$GongShieldNameText$GongShieldNameColour#>
+
+GongShieldDisabledItemID purple_dye
+GongShieldDisabledNameText Gong Shield (Disabled)
+GongShieldDisabledName <#ItemName$GongShieldDisabledNameText$GongShieldNameColour#>
+
+GongShieldStability 3
+GongShieldRecoveryTime 260
+
+GongShieldDescription <#LoreLine$The gong is a favoured instrument#>
+GongShieldDescription <#LoreLine$in the southwest, but the genius#>
+GongShieldDescription <#LoreLine$who fashioned a reasonable shield#>
+GongShieldDescription <#LoreLine$out of it was nothing short of a#>
+GongShieldDescription <#LoreLine$gong fanatic.#>
+GongShieldDescription <#StatsLine#>
+GongShieldStats <#LoreLine$<#GongShieldStability#> <#Stability#>#>
+GongShieldStats <#LoreLine$<#Time$13#> <#Recovery#>#>
+GongShieldStats <#LoreLine$-45% <#MovementSpeed#> For All When#>
+GongShieldStats <#LoreLine$  Struck#>
+GongShieldTags HideFlags:38,Unbreakable:1b,Damage:3
+
+GongShieldDataTag display:{Name:"<#GongShieldName#>",Lore:[<#GongShieldDescription#>,<#GongShieldStats#>]},<#GongShieldTags#>,HoldingID:<#GongShieldHoldingID#>
+GongShield <#Item$GongShieldItemID$GongShieldDataTag#>
+
+GongShieldDisabledDataTag display:{Name:"<#GongShieldDisabledName#>",Lore:[<#GongShieldDescription#>,<#GongShieldStats#>]},<#GongShieldTags#>,HoldingID:<#GongShieldDisabledHoldingID#>
+GongShieldDisabled <#Item$GongShieldDisabledItemID$GongShieldDisabledDataTag#>

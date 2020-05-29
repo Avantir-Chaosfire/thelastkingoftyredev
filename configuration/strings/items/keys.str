@@ -1,0 +1,383 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+KeyName ‘{\"text\":\"<#<1>#>\",\"color\":\"white\",\"italic\":false}‘
+
+AbandonedOutpostKeyItemID iron_ingot
+AbandonedOutpostKeyNameText Abandoned Outpost Key
+AbandonedOutpostKeyName <#KeyName$AbandonedOutpostKeyNameText#>
+AbandonedOutpostKeyDescription <#LoreLine$The outposts in the Dreadwoods were#>
+AbandonedOutpostKeyDescription <#LoreLine$abandoned when the dread scurried#>
+AbandonedOutpostKeyDescription <#LoreLine$up from the bottomless hole.#>
+
+AbandonedOutpostKeyDataTag display:{Name:"<#AbandonedOutpostKeyName#>",Lore:[<#AbandonedOutpostKeyDescription#>]}
+AbandonedOutpostKey <#Item$AbandonedOutpostKeyItemID$AbandonedOutpostKeyDataTag#>
+
+AshurianTombKeyItemID iron_ingot
+AshurianTombKeyNameText Ashurian Tomb Key
+AshurianTombKeyName <#KeyName$AshurianTombKeyNameText#>
+AshurianTombKeyDescription <#LoreLine$When great heroes die, they are#>
+AshurianTombKeyDescription <#LoreLine$buried in the heavens of Ashur.#>
+
+AshurianTombKeyDataTag display:{Name:"<#AshurianTombKeyName#>",Lore:[<#AshurianTombKeyDescription#>]}
+AshurianTombKey <#Item$AshurianTombKeyItemID$AshurianTombKeyDataTag#>
+
+AstrologistsLoftKeyItemID iron_ingot
+AstrologistsLoftKeyNameText Astrologist's Loft Key
+AstrologistsLoftKeyName <#KeyName$AstrologistsLoftKeyNameText#>
+AstrologistsLoftKeyDescription <#LoreLine$For the Astrologist, who lived alone#>
+AstrologistsLoftKeyDescription <#LoreLine$even before the reaping, these#>
+AstrologistsLoftKeyDescription <#LoreLine$times are far more fascinating#>
+AstrologistsLoftKeyDescription <#LoreLine$than frightening.#>
+
+AstrologistsLoftKeyDataTag display:{Name:"<#AstrologistsLoftKeyName#>",Lore:[<#AstrologistsLoftKeyDescription#>]}
+AstrologistsLoftKey <#Item$AstrologistsLoftKeyItemID$AstrologistsLoftKeyDataTag#>
+
+BurrowsKeyItemID iron_ingot
+BurrowsKeyNameText Burrows Key
+BurrowsKeyName <#KeyName$BurrowsKeyNameText#>
+BurrowsKeyDescription <#LoreLine$From the central staircase of#>
+BurrowsKeyDescription <#LoreLine$Cathedral Plaza, tunnels burrow out#>
+BurrowsKeyDescription <#LoreLine$beneath the city. Dark and dirty, but#>
+BurrowsKeyDescription <#LoreLine$not abandoned, for the slums#>
+BurrowsKeyDescription <#LoreLine$weren\'t burrowed for their#>
+BurrowsKeyDescription <#LoreLine$inhabitants\' regrets.#>
+
+BurrowsKeyDataTag display:{Name:"<#BurrowsKeyName#>",Lore:[<#BurrowsKeyDescription#>]}
+BurrowsKey <#Item$BurrowsKeyItemID$BurrowsKeyDataTag#>
+
+CastingHQSideKeyItemID iron_ingot
+CastingHQSideKeyNameText Casting HQ Side Key
+CastingHQSideKeyName <#KeyName$CastingHQSideKeyNameText#>
+CastingHQSideKeyDescription <#LoreLine$Ixinik\'s casting division was quite#>
+CastingHQSideKeyDescription <#LoreLine$small compared to the Subjugate, but#>
+CastingHQSideKeyDescription <#LoreLine$they always prided themselves on#>
+CastingHQSideKeyDescription <#LoreLine$their independence and openness.#>
+
+CastingHQSideKeyDataTag display:{Name:"<#CastingHQSideKeyName#>",Lore:[<#CastingHQSideKeyDescription#>]}
+CastingHQSideKey <#Item$CastingHQSideKeyItemID$CastingHQSideKeyDataTag#>
+
+CastingLab02KeyItemID iron_ingot
+CastingLab02KeyNameText Casting Lab 02 Key
+CastingLab02KeyName <#KeyName$CastingLab02KeyNameText#>
+CastingLab02KeyDescription <#LoreLine$While Ixinik\'s casting division perched#>
+CastingLab02KeyDescription <#LoreLine$their laboratory in plain view of the#>
+CastingLab02KeyDescription <#LoreLine$city of Tyre, New Hoiro\'s Subjugate#>
+CastingLab02KeyDescription <#LoreLine$hid their\'s where no one could see#>
+CastingLab02KeyDescription <#LoreLine$their malevolent methods.#>
+
+CastingLab02KeyDataTag display:{Name:"<#CastingLab02KeyName#>",Lore:[<#CastingLab02KeyDescription#>]}
+CastingLab02Key <#Item$CastingLab02KeyItemID$CastingLab02KeyDataTag#>
+
+CathedralKeyItemID iron_ingot
+CathedralKeyNameText Cathedral Key
+CathedralKeyName <#KeyName$CathedralKeyNameText#>
+CathedralKeyDescription <#LoreLine$The Cathedral\'s back door was#>
+CathedralKeyDescription <#LoreLine$locked to protect its inhabitants, but#>
+CathedralKeyDescription <#LoreLine$can still be accessed through the#>
+CathedralKeyDescription <#LoreLine$passages under the plaza.#>
+
+CathedralKeyDataTag display:{Name:"<#CathedralKeyName#>",Lore:[<#CathedralKeyDescription#>]}
+CathedralKey <#Item$CathedralKeyItemID$CathedralKeyDataTag#>
+
+CrystalVaultKeyItemID iron_ingot
+CrystalVaultKeyNameText Crystal Vault Key
+CrystalVaultKeyName <#KeyName$CrystalVaultKeyNameText#>
+CrystalVaultKeyDescription <#LoreLine$Resonating Crystals were first#>
+CrystalVaultKeyDescription <#LoreLine$unearthed in Ashur. Appearing little#>
+CrystalVaultKeyDescription <#LoreLine$more than large pretty gems, it was#>
+CrystalVaultKeyDescription <#LoreLine$discovered they speak to one\'s#>
+CrystalVaultKeyDescription <#LoreLine$humanity on a primal level.#>
+
+CrystalVaultKeyDataTag display:{Name:"<#CrystalVaultKeyName#>",Lore:[<#CrystalVaultKeyDescription#>]}
+CrystalVaultKey <#Item$CrystalVaultKeyItemID$CrystalVaultKeyDataTag#>
+
+DeepTyreSideKeyItemID iron_ingot
+DeepTyreSideKeyNameText Deep Tyre Side Key
+DeepTyreSideKeyName <#KeyName$DeepTyreSideKeyNameText#>
+DeepTyreSideKeyDescription <#LoreLine$Tyre Chasm is one of the deepest#>
+DeepTyreSideKeyDescription <#LoreLine$waterways in the world, but its#>
+DeepTyreSideKeyDescription <#LoreLine$surface is poor for building. As#>
+DeepTyreSideKeyDescription <#LoreLine$such, the vast majority of the city,#>
+DeepTyreSideKeyDescription <#LoreLine$Deep Tyre, resides underground.#>
+
+DeepTyreSideKeyDataTag display:{Name:"<#DeepTyreSideKeyName#>",Lore:[<#DeepTyreSideKeyDescription#>]}
+DeepTyreSideKey <#Item$DeepTyreSideKeyItemID$DeepTyreSideKeyDataTag#>
+
+ExileLockawayKeyItemID iron_ingot
+ExileLockawayKeyNameText Exile Lockaway Key
+ExileLockawayKeyName <#KeyName$ExileLockawayKeyNameText#>
+ExileLockawayKeyDescription <#LoreLine$Those exiled from Ixinik for#>
+ExileLockawayKeyDescription <#LoreLine$starting a revolution were left to#>
+ExileLockawayKeyDescription <#LoreLine$roam free. All, that is, save one,#>
+ExileLockawayKeyDescription <#LoreLine$who was far too dangerous just on#>
+ExileLockawayKeyDescription <#LoreLine$her own. Long since dead, her cell#>
+ExileLockawayKeyDescription <#LoreLine$remains intact.#>
+
+ExileLockawayKeyDataTag display:{Name:"<#ExileLockawayKeyName#>",Lore:[<#ExileLockawayKeyDescription#>]}
+ExileLockawayKey <#Item$ExileLockawayKeyItemID$ExileLockawayKeyDataTag#>
+
+FlintAndSteelItemID flint_and_steel
+FlintAndSteelNameText Flint & Steel
+FlintAndSteelColour dark_gray
+FlintAndSteelName <#ItemName$FlintAndSteelNameText$FlintAndSteelColour#>
+FlintAndSteelDescription <#LoreLine$Useful for lighting explosives.#>
+
+FlintAndSteelDataTag display:{Name:"<#FlintAndSteelName#>",Lore:[<#FlintAndSteelDescription#>]},Damage:63
+FlintAndSteel <#Item$FlintAndSteelItemID$FlintAndSteelDataTag#>
+
+CastingSectionKeyItemID iron_ingot
+CastingSectionKeyNameText Ixinik Library Key - Casting Section
+CastingSectionKeyName <#KeyName$CastingSectionKeyNameText#>
+CastingSectionKeyDescription <#LoreLine$Casting, the art of mainpulating#>
+CastingSectionKeyDescription <#LoreLine$energy outside the body, is a well#>
+CastingSectionKeyDescription <#LoreLine$practiced and researched science#>
+CastingSectionKeyDescription <#LoreLine$taught throughout the world.#>
+
+CastingSectionKeyDataTag display:{Name:"<#CastingSectionKeyName#>",Lore:[<#CastingSectionKeyDescription#>]}
+CastingSectionKey <#Item$CastingSectionKeyItemID$CastingSectionKeyDataTag#>
+
+ReapingsSectionKeyItemID iron_ingot
+ReapingsSectionKeyNameText Ixinik Library Key - Reapings Section
+ReapingsSectionKeyName <#KeyName$ReapingsSectionKeyNameText#>
+ReapingsSectionKeyDescription <#LoreLine$To put an end to the second#>
+ReapingsSectionKeyDescription <#LoreLine$reaping, you must understand#>
+ReapingsSectionKeyDescription <#LoreLine$the first.#>
+
+ReapingsSectionKeyDataTag display:{Name:"<#ReapingsSectionKeyName#>",Lore:[<#ReapingsSectionKeyDescription#>]}
+ReapingsSectionKey <#Item$ReapingsSectionKeyItemID$ReapingsSectionKeyDataTag#>
+
+SocietySectionKeyItemID iron_ingot
+SocietySectionKeyNameText Ixinik Library Key - Society Section
+SocietySectionKeyName <#KeyName$SocietySectionKeyNameText#>
+SocietySectionKeyDescription <#LoreLine$The burning fires of the world trace#>
+SocietySectionKeyDescription <#LoreLine$their sparks to the societies they#>
+SocietySectionKeyDescription <#LoreLine$were born in. Understanding events,#>
+SocietySectionKeyDescription <#LoreLine$therefore, necessitates the#>
+SocietySectionKeyDescription <#LoreLine$understanding of society.#>
+
+SocietySectionKeyDataTag display:{Name:"<#SocietySectionKeyName#>",Lore:[<#SocietySectionKeyDescription#>]}
+SocietySectionKey <#Item$SocietySectionKeyItemID$SocietySectionKeyDataTag#>
+
+UndeadSectionKeyItemID iron_ingot
+UndeadSectionKeyNameText Ixinik Library Key - Undead Section
+UndeadSectionKeyName <#KeyName$UndeadSectionKeyNameText#>
+UndeadSectionKeyDescription <#LoreLine$The undead have plagued E\'Siraph#>
+UndeadSectionKeyDescription <#LoreLine$almost since its inception. Their#>
+UndeadSectionKeyDescription <#LoreLine$scribes have compiled the world\'s#>
+UndeadSectionKeyDescription <#LoreLine$greatest trove of knowledge on what#>
+UndeadSectionKeyDescription <#LoreLine$undead are, and, of course, how#>
+UndeadSectionKeyDescription <#LoreLine$best to kill them.#>
+
+UndeadSectionKeyDataTag display:{Name:"<#UndeadSectionKeyName#>",Lore:[<#UndeadSectionKeyDescription#>]}
+UndeadSectionKey <#Item$UndeadSectionKeyItemID$UndeadSectionKeyDataTag#>
+
+LostKeyItemID iron_ingot
+LostKeyNameText Lost Key
+LostKeyName <#KeyName$LostKeyNameText#>
+LostKeyDescription <#LoreLine$One lost this key that leads from#>
+LostKeyDescription <#LoreLine$these memories forgotten. Memories#>
+LostKeyDescription <#LoreLine$that scream these halls are not#>
+LostKeyDescription <#LoreLine$your home. How terrifying, that one\'s#>
+LostKeyDescription <#LoreLine$own mind is no longer refuge. It\'s#>
+LostKeyDescription <#LoreLine$time to go.#>
+
+LostKeyDataTag display:{Name:"<#LostKeyName#>",Lore:[<#LostKeyDescription#>]}
+LostKey <#Item$LostKeyItemID$LostKeyDataTag#>
+
+NewHoiroLibraryKeyItemID iron_ingot
+NewHoiroLibraryKeyNameText New Hoiro Library Key
+NewHoiroLibraryKeyName <#KeyName$NewHoiroLibraryKeyNameText#>
+NewHoiroLibraryKeyDescription <#LoreLine$The library of New Hoiro was the#>
+NewHoiroLibraryKeyDescription <#LoreLine$first place marked up in the symbol#>
+NewHoiroLibraryKeyDescription <#LoreLine$of the Subjugate. Since then, the#>
+NewHoiroLibraryKeyDescription <#LoreLine$Library has become a beacon amidst#>
+NewHoiroLibraryKeyDescription <#LoreLine$their followers, and the sanctuary of#>
+NewHoiroLibraryKeyDescription <#LoreLine$their deepest secret.#>
+
+NewHoiroLibraryKeyDataTag display:{Name:"<#NewHoiroLibraryKeyName#>",Lore:[<#NewHoiroLibraryKeyDescription#>]}
+NewHoiroLibraryKey <#Item$NewHoiroLibraryKeyItemID$NewHoiroLibraryKeyDataTag#>
+
+PrivateRoomKeyItemID iron_ingot
+PrivateRoomKeyNameText Private Room Key
+PrivateRoomKeyName <#KeyName$PrivateRoomKeyNameText#>
+PrivateRoomKeyDescription <#LoreLine$Key to a room rented out to a#>
+PrivateRoomKeyDescription <#LoreLine$distinguished guest... A wealthy#>
+PrivateRoomKeyDescription <#LoreLine$one, anyways.#>
+
+PrivateRoomKeyDataTag display:{Name:"<#PrivateRoomKeyName#>",Lore:[<#PrivateRoomKeyDescription#>]}
+PrivateRoomKey <#Item$PrivateRoomKeyItemID$PrivateRoomKeyDataTag#>
+
+PrivyKeyItemID iron_ingot
+PrivyKeyNameText Privy Key
+PrivyKeyName <#KeyName$PrivyKeyNameText#>
+PrivyKeyDescription <#LoreLine$No one knows all, and what the#>
+PrivyKeyDescription <#LoreLine$individual is privy to can be very#>
+PrivyKeyDescription <#LoreLine$important indeed.#>
+
+PrivyKeyDataTag display:{Name:"<#PrivyKeyName#>",Lore:[<#PrivyKeyDescription#>]}
+PrivyKey <#Item$PrivyKeyItemID$PrivyKeyDataTag#>
+
+QuellingKeyItemID iron_ingot
+QuellingKeyNameText Quelling Key
+QuellingKeyName <#KeyName$QuellingKeyNameText#>
+QuellingKeyDescription <#LoreLine$She quelled the fool\'s indiscreetness,#>
+QuellingKeyDescription <#LoreLine$proving herself the greater fool. But#>
+QuellingKeyDescription <#LoreLine$perhaps the greatest fools were#>
+QuellingKeyDescription <#LoreLine$those who didn\'t know the secret to#>
+QuellingKeyDescription <#LoreLine$begin with.#>
+
+QuellingKeyDataTag display:{Name:"<#QuellingKeyName#>",Lore:[<#QuellingKeyDescription#>]}
+QuellingKey <#Item$QuellingKeyItemID$QuellingKeyDataTag#>
+
+ScrollStorageKeyItemID iron_ingot
+ScrollStorageKeyNameText Scroll Storage Key
+ScrollStorageKeyName <#KeyName$ScrollStorageKeyNameText#>
+ScrollStorageKeyDescription <#LoreLine$Hidden by Iedilgaurd the Grey after#>
+ScrollStorageKeyDescription <#LoreLine$the Siege of New Hoiro to keep#>
+ScrollStorageKeyDescription <#LoreLine$Ixinik\'s scrolls from the reapers, for#>
+ScrollStorageKeyDescription <#LoreLine$not even she could stand up to the#>
+ScrollStorageKeyDescription <#LoreLine$onslaught of reapers.#>
+
+ScrollStorageKeyDataTag display:{Name:"<#ScrollStorageKeyName#>",Lore:[<#ScrollStorageKeyDescription#>]}
+ScrollStorageKey <#Item$ScrollStorageKeyItemID$ScrollStorageKeyDataTag#>
+
+SevenLakesKeyItemID iron_ingot
+SevenLakesKeyNameText Seven Lakes Key
+SevenLakesKeyNameColour white
+SevenLakesKeyName <#KeyName$SevenLakesKeyNameText#>
+SevenLakesKeyDescription <#LoreLine$The hidden cavern called the Seven#>
+SevenLakesKeyDescription <#LoreLine$Lakes has long been used by those#>
+SevenLakesKeyDescription <#LoreLine$needing time away from the world,#>
+SevenLakesKeyDescription <#LoreLine$especially when the world is trying#>
+SevenLakesKeyDescription <#LoreLine$to murder them.#>
+
+SevenLakesKeyDataTag display:{Name:"<#SevenLakesKeyName#>",Lore:[<#SevenLakesKeyDescription#>]}
+SevenLakesKey <#Item$SevenLakesKeyItemID$SevenLakesKeyDataTag#>
+
+LastCorridorKeyItemID iron_ingot
+LastCorridorKeyNameText Last Corridor Key
+LastCorridorKeyName <#KeyName$LastCorridorKeyNameText#>
+LastCorridorKeyDescription <#LoreLine$Dying residents of the Psychiatric#>
+LastCorridorKeyDescription <#LoreLine$Ward were sent to a happier place#>
+LastCorridorKeyDescription <#LoreLine$known as the Last Corridor, where#>
+LastCorridorKeyDescription <#LoreLine$they were euthanized and incinerated.#>
+LastCorridorKeyDescription <#LoreLine$This practice, combined with the#>
+LastCorridorKeyDescription <#LoreLine$oblivious cheeriness of the residents#>
+LastCorridorKeyDescription <#LoreLine$is why the Ward was the very last#>
+LastCorridorKeyDescription <#LoreLine$place to fall to the reaping.#>
+
+LastCorridorKeyDataTag display:{Name:"<#LastCorridorKeyName#>",Lore:[<#LastCorridorKeyDescription#>]}
+LastCorridorKey <#Item$LastCorridorKeyItemID$LastCorridorKeyDataTag#>
+
+TyreReachesKeyItemID iron_ingot
+TyreReachesKeyNameText Tyre Reaches Key
+TyreReachesKeyName <#KeyName$TyreReachesKeyNameText#>
+TyreReachesKeyDescription <#LoreLine$The surface portions of Tyre were#>
+TyreReachesKeyDescription <#LoreLine$largely abandoned even before the#>
+TyreReachesKeyDescription <#LoreLine$second reaping, owing to the#>
+TyreReachesKeyDescription <#LoreLine$dangerous nature of the cavern and#>
+TyreReachesKeyDescription <#LoreLine$the comfortable heat below ground.#>
+TyreReachesKeyDescription <#LoreLine$Come reaping time, it turned into a#>
+TyreReachesKeyDescription <#LoreLine$bottleneck for refugees.#>
+
+TyreReachesKeyDataTag display:{Name:"<#TyreReachesKeyName#>",Lore:[<#TyreReachesKeyDescription#>]}
+TyreReachesKey <#Item$TyreReachesKeyItemID$TyreReachesKeyDataTag#>
+
+VanishingKeyItemID iron_ingot
+VanishingKeyNameText Vanishing Key
+VanishingKeyName <#KeyName$VanishingKeyNameText#>
+VanishingKeyDescription <#LoreLine$This isn\'t yours. Put it back.#>
+
+VanishingKeyDataTag display:{Name:"<#VanishingKeyName#>",Lore:[<#VanishingKeyDescription#>]}
+VanishingKey <#Item$VanishingKeyItemID$VanishingKeyDataTag#>
+
+RiverOfSacrificeKeyItemID iron_ingot
+RiverOfSacrificeKeyNameText River of Sacrifice Key
+RiverOfSacrificeKeyName <#KeyName$RiverOfSacrificeKeyNameText#>
+RiverOfSacrificeKeyDescription <#LoreLine$The sacrifices began the moment the#>
+RiverOfSacrificeKeyDescription <#LoreLine$reapers covered E\'Siraph and#>
+RiverOfSacrificeKeyDescription <#LoreLine$Saviour Moses began to preach.#>
+RiverOfSacrificeKeyDescription <#LoreLine$Mere days, then it was, to abandon#>
+RiverOfSacrificeKeyDescription <#LoreLine$God for the Cocoon, and worship in#>
+RiverOfSacrificeKeyDescription <#LoreLine$the wake of the destruction and#>
+RiverOfSacrificeKeyDescription <#LoreLine$their enslavement.#>
+
+RiverOfSacrificeKeyDataTag display:{Name:"<#RiverOfSacrificeKeyName#>",Lore:[<#RiverOfSacrificeKeyDescription#>]}
+RiverOfSacrificeKey <#Item$RiverOfSacrificeKeyItemID$RiverOfSacrificeKeyDataTag#>
+
+BastilleKeyItemID iron_ingot
+BastilleKeyNameText Bastille Key
+BastilleKeyNameColour white
+BastilleKeyName <#KeyName$BastilleKeyNameText#>
+BastilleKeyDescription <#LoreLine$Those strong enough to resist the#>
+BastilleKeyDescription <#LoreLine$power of the evangelists get locked#>
+BastilleKeyDescription <#LoreLine$in the Bastille, where they await the#>
+BastilleKeyDescription <#LoreLine$death of the false prophet. But by#>
+BastilleKeyDescription <#LoreLine$the time the good news arrives, their#>
+BastilleKeyDescription <#LoreLine$minds will be long gone.#>
+
+BastilleKeyDataTag display:{Name:"<#BastilleKeyName#>",Lore:[<#BastilleKeyDescription#>]}
+BastilleKey <#Item$BastilleKeyItemID$BastilleKeyDataTag#>
+
+BastilleCellKeyItemID iron_ingot
+BastilleCellKeyNameText Bastille Cell Key
+BastilleCellKeyName <#KeyName$BastilleCellKeyNameText#>
+BastilleCellKeyDescription <#LoreLine$Having a personal cell with a unique#>
+BastilleCellKeyDescription <#LoreLine$key is a great honour, and promises#>
+BastilleCellKeyDescription <#LoreLine$special forms of torture too.#>
+
+BastilleCellKeyDataTag display:{Name:"<#BastilleCellKeyName#>",Lore:[<#BastilleCellKeyDescription#>]}
+BastilleCellKey <#Item$BastilleCellKeyItemID$BastilleCellKeyDataTag#>
+
+BlackguardsWharfsKeyItemID iron_ingot
+BlackguardsWharfsKeyNameText Darkened Wharfs Key
+BlackguardsWharfsKeyName <#KeyName$BlackguardsWharfsKeyNameText#>
+BlackguardsWharfsKeyDescription <#LoreLine$The cavern has its own wharfs for#>
+BlackguardsWharfsKeyDescription <#LoreLine$transporting goods to New Hoiro, and#>
+BlackguardsWharfsKeyDescription <#LoreLine$for direct black market exchanges.#>
+
+BlackguardsWharfsKeyDataTag display:{Name:"<#BlackguardsWharfsKeyName#>",Lore:[<#BlackguardsWharfsKeyDescription#>]}
+BlackguardsWharfsKey <#Item$BlackguardsWharfsKeyItemID$BlackguardsWharfsKeyDataTag#>
+
+HiddenLaboratoryKeyItemID iron_ingot
+HiddenLaboratoryKeyNameText Hidden Laboratory Key
+HiddenLaboratoryKeyName <#KeyName$HiddenLaboratoryKeyNameText#>
+HiddenLaboratoryKeyDescription <#LoreLine$Only the highest ranking members#>
+HiddenLaboratoryKeyDescription <#LoreLine$had access to the Hidden#>
+HiddenLaboratoryKeyDescription <#LoreLine$Laboratory. They also happened to#>
+HiddenLaboratoryKeyDescription <#LoreLine$be the most determined and#>
+HiddenLaboratoryKeyDescription <#LoreLine$maniacal researchers.#>
+
+HiddenLaboratoryKeyDataTag display:{Name:"<#HiddenLaboratoryKeyName#>",Lore:[<#HiddenLaboratoryKeyDescription#>]}
+HiddenLaboratoryKey <#Item$HiddenLaboratoryKeyItemID$HiddenLaboratoryKeyDataTag#>
+
+MuralHallKeyItemID iron_ingot
+MuralHallKeyNameText Mural Hall Key
+MuralHallKeyName <#KeyName$MuralHallKeyNameText#>
+MuralHallKeyDescription <#LoreLine$Completely and utterly impractical,#>
+MuralHallKeyDescription <#LoreLine$unrealistic, absurd, never could it#>
+MuralHallKeyDescription <#LoreLine$solve their problems, they said. But#>
+MuralHallKeyDescription <#LoreLine$they made a mural of it anyways.#>
+
+MuralHallKeyDataTag display:{Name:"<#MuralHallKeyName#>",Lore:[<#MuralHallKeyDescription#>]}
+MuralHallKey <#Item$MuralHallKeyItemID$MuralHallKeyDataTag#>
+
+DrowningKeyNameColour white
+
+DrowningKeyItemID iron_ingot
+DrowningKeyNameText Drowning Key
+DrowningKeyName <#KeyName$DrowningKeyNameText#>
+DrowningKeyDescription <#LoreLine$In cities of old the condemned were#>
+DrowningKeyDescription <#LoreLine$hung on poles as warnings to all.#>
+DrowningKeyDescription <#LoreLine$Tyre preferred to ignore such#>
+DrowningKeyDescription <#LoreLine$realities, and so erected a cage to#>
+DrowningKeyDescription <#LoreLine$drown them out of sight, and#>
+DrowningKeyDescription <#LoreLine$facilitate the removal and burial of#>
+DrowningKeyDescription <#LoreLine$their corpses.#>
+
+DrowningKeyDataTag display:{Name:"<#DrowningKeyName#>",Lore:[<#DrowningKeyDescription#>]}
+DrowningKey <#Item$DrowningKeyItemID$DrowningKeyDataTag#>

@@ -1,0 +1,2 @@
+execute if entity @s[tag=!Cjh-3ByMCrIp6iYWGwefvxm1CdIJh3uObctMLEFY] run tag @s[nbt={inGround:1b}] add Cjh-3ByMCrIp6iYWGwefvxm1CdIJh3uObctMLEFY
+execute if entity @s[tag=!Cjh-3ByMCrIp6iYWGwefvxm1CdIJh3uObctMLEFY] run function tlkot:iyd4ur74q9-zqg6445qxb16ajuxwow5cwoiy6z5e

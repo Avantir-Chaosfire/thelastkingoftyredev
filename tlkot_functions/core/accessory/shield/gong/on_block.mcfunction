@@ -1,0 +1,1 @@
+execute at @a run function tlkot:<~>/ring

@@ -1,0 +1,3 @@
+scoreboard players set @a 51-F_zRtwqnlordZ 97
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "We knew it might not be far enough to cover all of E'Siraph, but it could have been enough.", "color": "white", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "We knew it might not be far enough to cover all of E'Siraph, but it could have been enough.", "color": "white", "italic": true}

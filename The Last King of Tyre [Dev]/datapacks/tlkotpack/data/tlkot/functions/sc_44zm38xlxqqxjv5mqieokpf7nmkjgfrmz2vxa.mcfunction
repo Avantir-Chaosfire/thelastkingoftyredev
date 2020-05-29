@@ -1,0 +1,3 @@
+tag @s add COGO1--e45s9eFzp6nrqV4d924BMjLhRkJV.w-dn
+summon minecraft:witch ~ ~ ~ {NoAI:1,CustomName:"{\"text\":\"Puppet\"}",CustomNameVisible:0,Tags:["yZBOBGG+d9rdpZSgCA1+ZhqhGvoALc+XHimEBT7g","pQUBpOyg-tONCuNnUJkhIazcAzpaTKPF2VewfpX0","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","sciqtX2_0-c6_fbJUDzrUNpH9OmR7Wk67ms8h.yY"],Invulnerable:1b}
+execute as @e[tag=yZBOBGG+d9rdpZSgCA1+ZhqhGvoALc+XHimEBT7g,tag=pQUBpOyg-tONCuNnUJkhIazcAzpaTKPF2VewfpX0,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:7kua7pwl6h5c_9wu0cd9u6puv30xx6-ujahv0jid

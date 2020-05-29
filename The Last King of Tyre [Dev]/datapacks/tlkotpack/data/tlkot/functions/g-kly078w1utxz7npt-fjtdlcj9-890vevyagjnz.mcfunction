@@ -1,0 +1,2 @@
+execute if entity @a[scores={dz+HsFjUglry-S9X=-1}] run function tlkot:duwqgq1i37gzjysm6kn-537ugufjcz65yi8xvxg9
+execute if entity @e[tag=CxfRf0psNga4lonyr75aQYhE_XWy4O92XJ-WIt84] run function tlkot:u8sclg2tdytrfar06wfs76fzvo5j3btxolrff-vn

@@ -1,0 +1,1 @@
+execute if entity @s[tag=Tapped] run function tlkot:core/casting/energy_tap/tapped/main

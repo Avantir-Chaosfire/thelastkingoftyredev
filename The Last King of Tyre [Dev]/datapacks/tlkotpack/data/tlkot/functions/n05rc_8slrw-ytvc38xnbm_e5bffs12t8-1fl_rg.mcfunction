@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={gW-d+dbp7HABHHo_=-1}] gW-d+dbp7HABHHo_ 102
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "This gate is under my protection, and none shall enter while I stand.", "color": "gold", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "This gate is under my protection, and none shall enter while I stand.", "color": "white", "italic": true}

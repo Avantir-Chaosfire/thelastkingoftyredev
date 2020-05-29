@@ -1,0 +1,1 @@
+execute rotated ~ 0 run function tlkot:4d-2_ns4mglxjdedd5kpkw0ci2t49l8o116ujqy5

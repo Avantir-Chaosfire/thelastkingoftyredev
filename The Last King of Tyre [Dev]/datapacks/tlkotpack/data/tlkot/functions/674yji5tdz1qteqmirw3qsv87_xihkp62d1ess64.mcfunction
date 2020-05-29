@@ -1,0 +1,2 @@
+execute if block 629 154 298 minecraft:lever[powered=true] run function tlkot:wv9mo7h1ootngu3_nj7gdkg5o-0zy6nedza8ls50
+execute if block 629 154 276 minecraft:lever[powered=true] run function tlkot:62i-2_t0zck7ju40hhk5amw7b02q2pdrceynb-yu

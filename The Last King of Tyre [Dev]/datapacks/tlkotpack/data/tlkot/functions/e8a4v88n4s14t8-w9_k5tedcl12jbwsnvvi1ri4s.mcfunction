@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={dXl0aV9coU1bEgjb=-1}] dXl0aV9coU1bEgjb 101
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "How great a fool can you be to fear facing the choices you have made?", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "How great a fool can you be to fear facing the choices you have made?", "color": "white", "italic": true}

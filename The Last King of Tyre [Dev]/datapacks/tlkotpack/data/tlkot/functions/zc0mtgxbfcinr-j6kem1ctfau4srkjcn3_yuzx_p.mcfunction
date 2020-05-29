@@ -1,0 +1,2 @@
+execute if entity @s[name=SaviourMoses-Boss] run function tlkot:u5uwe3_2ebidrv24mz1zdhr8_y3k86ves9kvsewn
+execute if entity @s[name=SaviourMoses-DaughCommunion] run function tlkot:qrczykw2jky5t0ub465do0dypvlhslijhk6kha62

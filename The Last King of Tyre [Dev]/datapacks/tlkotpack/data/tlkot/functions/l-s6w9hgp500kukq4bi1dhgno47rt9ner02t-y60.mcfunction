@@ -1,0 +1,2 @@
+execute if entity @a[scores={ZVTr_WjCuOvpZr_5=0}] run function tlkot:mmzjucnce4mn_q3aiou96a1k_zbw0u3a1j9tpwiy
+execute if entity @a[scores={ZVTr_WjCuOvpZr_5=1,D_964L4Udf0MzIey=..10}] run function tlkot:exabqvc_l7r1nyecgsztb40amg4v5ont2ilo_48t

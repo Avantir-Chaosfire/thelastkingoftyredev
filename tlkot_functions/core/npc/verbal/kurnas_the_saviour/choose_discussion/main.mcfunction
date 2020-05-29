@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={KurnasTalk=<#KurnasMeetID#>,P4Victory=1..}] KurnasTalk <#KurnasSilenceID#>

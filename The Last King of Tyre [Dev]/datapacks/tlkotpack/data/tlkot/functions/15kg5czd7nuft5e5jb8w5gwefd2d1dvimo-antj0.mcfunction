@@ -1,0 +1,2 @@
+tp @e[tag=fdisuQgBqqT5g4GcAimkEYVsSDV_Fz.I3AlsOJZu,tag=Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD] @s
+execute store result score @e[tag=fdisuQgBqqT5g4GcAimkEYVsSDV_Fz.I3AlsOJZu,tag=Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD] O8_SaEwsXPZBUZv3 run scoreboard players get @s O8_SaEwsXPZBUZv3

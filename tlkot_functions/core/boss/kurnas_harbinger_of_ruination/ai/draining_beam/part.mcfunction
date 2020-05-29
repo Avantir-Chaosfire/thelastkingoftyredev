@@ -1,0 +1,2 @@
+execute if entity @s[scores={BeamParticleTime=0}] run particle minecraft:squid_ink ~ ~ ~ 0.1 0.1 0.1 0 1
+execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,dy=0,dz=0,scores={DrainBeamIFrames=0}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/draining_beam/inflict

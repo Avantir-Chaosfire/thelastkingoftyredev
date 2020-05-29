@@ -1,0 +1,100 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+HozolonIDTag HozolonDeathsKeeper
+HozolonTags ‘<#CommonNPCTags$taiga$cartographer#>,Tags:["<#HozolonIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Hozolon, Death's Keeper\"}"‘
+
+HozolonColour white
+HozolonLocation 612.904 56 78.368
+HozolonEngageRadius 6
+HozolonDisengageRadius 13
+
+HozolonMeetID 0
+HozolonMeetLines	0	$ 38	$ Wha- Who are you? $
+HozolonMeetLines	1	$ 35	$ ... $
+HozolonMeetLines	2	$ 38	$ Did- Did it work? $
+HozolonMeetLines	3	$ 47	$ Is it safe outside now? $
+HozolonMeetLines	4	$ 38	$ ...No? $
+HozolonMeetLines	5	$ 23	$ Oh. $
+
+HozolonGreetID 1
+HozolonGreetLines	0	$ 39	$ You've returned. $
+
+HozolonPlanID 8
+HozolonPlanLines	0	$ 59	$ This... It's the Crystal Vault. $
+HozolonPlanLines	1	$ 97	$ We store the resonating crystals we buy from Ashur here, and we research them here too. $
+HozolonPlanLines	2	$ 102	$ During the siege, we were desperate, looking for any way to stop the reapers... $
+HozolonPlanLines	3	$ 47	$ And we found it, in the crystals. $
+HozolonPlanLines	4	$ 86	$ There's a way to sacrifice a person's life to kill a large number of reapers. $
+HozolonPlanLines	5	$ 101	$ The surviving monarchs and their entourages met with us to create a plan... $
+HozolonPlanLines	6	$ 86	$ We calculated we'd need five crystals to wipe out the reapers completely. $
+HozolonPlanLines	7	$ 48	$ Five crystals, five sacrifices. $
+HozolonPlanLines	8	$ 90	$ They needed to be arranged at least a certain distance apart from one another, $
+HozolonPlanLines	9	$ 98	$ Or else the waves wouldn't interfere with each other properly and reach all of E'Siraph. $
+HozolonPlanLines	10	$ 84	$ The crystals are too big to transport manually, so we always use casting. $
+HozolonPlanLines	11	$ 103	$ It's a long and elaborate Aerteyp we use to safely teleport them to their destined locations. $
+HozolonPlanLines	12	$ 82	$ The monarchs decided to go find willing sacrifices... $
+HozolonPlanLines	13	$ 86	$ They seemed confident that some would be willing to die for their nation. $
+HozolonPlanLines	14	$ 65	$ But, we agreed, if no such sacrifices could be found, $
+HozolonPlanLines	15	$ 77	$ The monarchs and their personal casters would assume the role. $
+HozolonPlanLines	16	$ 52	$ It... It was a good plan. $
+HozolonPlanLines	17	$ 47	$ But, of course... $
+HozolonPlanLines	18	$ 39	$ Something went wrong. $
+HozolonPlanLines	19	$ 65	$ The bell rang, but the reapers live... $
+HozolonPlanLines	20	$ 64	$ I don't know... Did we fail, or did they? $
+HozolonPlanLines	21	$ 44	$ No, it doesn't really matter. $
+HozolonPlanLines	22	$ 45	$ One way or another, we failed. $
+HozolonPlanLines	23	$ 83	$ Lifetimes spent on little else, and all of it, just, gone... $
+
+HozolonRitualID 9
+HozolonRitualLines	0	$ 40	$ Oh, yes... $
+HozolonRitualLines	1	$ 74	$ It was... Moving the crystals... $
+HozolonRitualLines	2	$ 87	$ We were preparing and planning when the word came that the reapers were in. $
+HozolonRitualLines	3	$ 36	$ The siege was over. $
+HozolonRitualLines	4	$ 91	$ Under ordinary circumstances, we'd take three full days preparing to move them. $
+HozolonRitualLines	5	$ 35	$ But we had no time. $
+HozolonRitualLines	6	$ 39	$ There was only one way. $
+HozolonRitualLines	7	$ 71	$ We used a faster... costlier method, and- and- $
+HozolonRitualLines	8	$ 35	$ ... $
+HozolonRitualLines	9	$ 63	$ The energy toll... It was enormous. $
+HozolonRitualLines	10	$ 51	$ I barely survived... $
+HozolonRitualLines	11	$ 33	$ But I was alone. $
+
+HozolonConductorsID 10
+HozolonConductorsLines	0	$ 66	$ Sorry, I'm still just a junior member... $
+HozolonConductorsLines	1	$ 54	$ There are some things I just don't know. $
+HozolonConductorsLines	2	$ 65	$ I believe we created the conductors, some time ago. $
+HozolonConductorsLines	3	$ 64	$ They were locked up when I joined... $
+HozolonConductorsLines	4	$ 81	$ I- I think someone freed them after the seige, to help guard this vault. $
+HozolonConductorsLines	5	$ 88	$ But I don't understand what they are, or why they were created... $
+HozolonConductorsLines	6	$ 49	$ Sorry, that's all... $
+
+HozolonSixthID 11
+HozolonSixthLines	0	$ 63	$ Yes, I- I knew it all didn't work, but... $
+HozolonSixthLines	1	$ 72	$ Well, a man named Gjeldar, the Cursed, he came here before you. $
+HozolonSixthLines	2	$ 85	$ He told me it hadn't worked, but we- we came up with a new plan... $
+HozolonSixthLines	3	$ 103	$ I took the proper time to prepare transport of a sixth resonating crystal beneath New Hoiro. $
+HozolonSixthLines	4	$ 97	$ We knew it might not be far enough to cover all of E'Siraph, but it could have been enough. $
+HozolonSixthLines	5	$ 122	$ He was afraid, you see, that the original resonating crystals had become corrupted by their proximity to reapers. $
+HozolonSixthLines	6	$ 98	$ He thought- and I agreed- that one pure resonating crystal should avoid a corrupt purge. $
+HozolonSixthLines	7	$ 73	$ It's hard to be sure... But it might have worked. $
+HozolonSixthLines	8	$ 114	$ ...A short time after I moved the crystal, and he left, I heard things from the nearby tunnels. $
+HozolonSixthLines	9	$ 63	$ Screaming, hissing, explosions... $
+HozolonSixthLines	10	$ 45	$ Did he meet his end out there? $
+HozolonSixthLines	11	$ 80	$ If not... What could have caused that horrible noise? $
+HozolonSixthLines	12	$ 54	$ Then, when you arrived... $
+HozolonSixthLines	13	$ 59	$ I thought you were him, returned, victorious. $
+HozolonSixthLines	14	$ 40	$ But no... $
+HozolonSixthLines	15	$ 32	$ Of course not. $
+
+HozolonActionbarDiscussions 	meet		$ <#HozolonMeetID#>		$ Meet
+HozolonActionbarDiscussions 	greet		$ <#HozolonGreetID#>		$ Greet
+
+HozolonChatLogDiscussions 	plan		$ <#HozolonPlanID#>		$ Plan
+HozolonChatLogDiscussions 	ritual		$ <#HozolonRitualID#>		$ Ritual
+HozolonChatLogDiscussions 	conductors	$ <#HozolonConductorsID#>	$ Conductors
+HozolonChatLogDiscussions 	sixth		$ <#HozolonSixthID#>		$ Sixth
+
+HozolonDialoguePrompt {<#DialoguePromptOption$Hozolon$HozolonPlan$What's this for?#>,"extra":[{<#DialoguePromptOption$Hozolon$HozolonRitual$What happened here?#>},{<#DialoguePromptOption$Hozolon$HozolonSixth$Sixth Crystal?#>},{<#DialoguePromptOptionFinal$Hozolon$HozolonConductors$Conductors?#>}]}

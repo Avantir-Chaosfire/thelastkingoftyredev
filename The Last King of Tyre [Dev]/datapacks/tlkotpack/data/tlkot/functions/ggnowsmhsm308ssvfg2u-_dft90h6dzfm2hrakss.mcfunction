@@ -1,0 +1,3 @@
+function tlkot:_8vb5sf-d6_73dzqe9ej1v46mua8ev9dcnu9j7on
+execute if entity @s[tag=ifxB0AcLOpVuAo.pa6lGDw-pW1i34KOEnZXUolri] run scoreboard players operation @e[tag=jF6ECy6JMN9g8wr50gH1ye+p51TaJxt_woFpO2.J,tag=Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD,distance=..1] O8_SaEwsXPZBUZv3 = @s +03L9sSw-46Hj7GE
+execute if entity @s[tag=!ifxB0AcLOpVuAo.pa6lGDw-pW1i34KOEnZXUolri] run kill @e[tag=jF6ECy6JMN9g8wr50gH1ye+p51TaJxt_woFpO2.J,tag=Ui8d7MnT.h4OMsVAD9V8Kc-k.MgAA5CNl1hGjdKD,distance=..1]

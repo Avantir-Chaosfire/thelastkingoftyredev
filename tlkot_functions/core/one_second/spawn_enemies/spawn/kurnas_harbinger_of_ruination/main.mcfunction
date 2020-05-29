@@ -1,0 +1,3 @@
+execute if entity @s[name="Arrow Lane"] run function tlkot:core/one_second/spawn_enemies/spawn/kurnas_harbinger_of_ruination/reset/arrow_lane
+execute if entity @a[x=516,y=41,z=82,dx=20,dy=8,dz=8,scores={KurnasSpawn=1}] if entity @s[name=Kurnas-Boss] at @s run function tlkot:core/one_second/spawn_enemies/spawn/kurnas_harbinger_of_ruination/spawn
+execute if entity @s[name=Kurnas-SuitOfArmour] run function tlkot:core/one_second/spawn_enemies/spawn/kurnas_harbinger_of_ruination/reset/suits_of_armour

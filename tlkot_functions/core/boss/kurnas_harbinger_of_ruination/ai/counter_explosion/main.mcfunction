@@ -1,0 +1,3 @@
+execute if entity @a[tag=ExplosionCountering,scores={KurnasCounter=0}] if entity @s[nbt={OnGround:1b}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/counter_explosion/explode
+execute if entity @a[tag=CounterExplosion] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/counter_explosion/check_distance
+execute if entity @a[scores={KurnasCounter=1..}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/counter_explosion/active

@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"Arrow Hail\"}",Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz","l4eZ5pQKqP6Lh.dXN2JN84psQceatIRd0ayIq.a7"]}

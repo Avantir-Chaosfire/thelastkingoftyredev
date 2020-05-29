@@ -1,0 +1,9 @@
+scoreboard players operation @a K3iGPZOZ_H.KbLjr = @s bM+YhQBdz_5rFUFI
+scoreboard players operation @a K3iGPZOZ_H.KbLjr *= @a JCc5j7PqnVX82jbR
+scoreboard players operation @a K3iGPZOZ_H.KbLjr /= @s K3iGPZOZ_H.KbLjr
+scoreboard players operation @s X6yA-_vyO-qtmhJR *= @a K3iGPZOZ_H.KbLjr
+scoreboard players operation @s ezI9B70j.XrzUwH5 *= @a K3iGPZOZ_H.KbLjr
+scoreboard players operation @s IIBlC2ycf6UlcIes *= @a K3iGPZOZ_H.KbLjr
+scoreboard players operation @s X6yA-_vyO-qtmhJR /= @a JCc5j7PqnVX82jbR
+scoreboard players operation @s ezI9B70j.XrzUwH5 /= @a JCc5j7PqnVX82jbR
+scoreboard players operation @s IIBlC2ycf6UlcIes /= @a JCc5j7PqnVX82jbR

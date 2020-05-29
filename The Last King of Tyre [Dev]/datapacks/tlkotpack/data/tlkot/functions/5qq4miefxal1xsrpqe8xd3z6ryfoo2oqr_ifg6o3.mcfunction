@@ -1,0 +1,3 @@
+execute if entity @a[x=489,y=103,z=120,dx=4,dy=38,dz=3,tag=!OZgk_2tYw-DsecTfPhu8PanfUARbQOKdl4MopR0X] run function tlkot:1sb9abphd1a4ixgrqshnb79sh_d__mrnhbizjm-q
+execute if entity @a[x=489,y=142,z=120,dx=4,dy=6,dz=3,tag=!OZgk_2tYw-DsecTfPhu8PanfUARbQOKdl4MopR0X] run function tlkot:401ffxvjdo5g5clyqztpsdsf-wboj1gyng-kwy6l
+execute unless entity @a[x=489,y=103,z=119,dx=4,dy=45,dz=4] run tag @a remove OZgk_2tYw-DsecTfPhu8PanfUARbQOKdl4MopR0X

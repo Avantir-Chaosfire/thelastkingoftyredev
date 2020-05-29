@@ -1,0 +1,2 @@
+tag @e[tag=T0E9Ki_fGORcl60.DmQ5UpXB_.Ufxgu1o1BpYVuU,tag=!_Ny8AqiLxoh3kouod9RSCr_2XNLwzY-reqOJYv0a,tag=!1l0k7SBDbpKMSjtgd_1xp4wcE0n-TG+PyUF2O3L.,tag=!.ZirGSDv912XcaXXSEQW6OQLjhHeaSIFp3tq-7T1,sort=nearest,limit=1] add 17ZNiBOY7jUZgjCoimF4cwp1a0RyjI62RXwUa-lG
+execute unless entity @e[tag=17ZNiBOY7jUZgjCoimF4cwp1a0RyjI62RXwUa-lG] run tag @e[tag=T0E9Ki_fGORcl60.DmQ5UpXB_.Ufxgu1o1BpYVuU,sort=nearest,limit=1] add 17ZNiBOY7jUZgjCoimF4cwp1a0RyjI62RXwUa-lG

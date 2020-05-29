@@ -1,0 +1,2 @@
+execute at @e[tag=jgGAevV0aBWVmR3Oiln_cuSjPUqQTbjMwn3zzKXW] run function tlkot:475de3dcuhjcp39j12y84ibswu4r1fl0uh4nbpwn
+kill @e[tag=jgGAevV0aBWVmR3Oiln_cuSjPUqQTbjMwn3zzKXW]

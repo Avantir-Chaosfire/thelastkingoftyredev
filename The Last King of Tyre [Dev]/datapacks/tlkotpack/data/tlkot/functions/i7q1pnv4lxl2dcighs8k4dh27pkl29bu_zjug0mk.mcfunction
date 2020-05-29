@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Great Hammer (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:l3lbkt8x8hn_t4db6f4q87yod61tfvazef4f3tg5
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Crushing Great Hammer (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:hd27eg0utomi-5-jm29meeqb9anh2luo2ku8nojb
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Heavy Great Hammer (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:1oqnh4ptd-c170oh2_6gp6b3beoyew1es182pnqv

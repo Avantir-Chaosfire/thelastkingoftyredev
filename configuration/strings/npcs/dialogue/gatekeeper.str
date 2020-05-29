@@ -1,0 +1,56 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+GatekeeperIDTag Gatekeeper
+GatekeeperTags <#CommonNPCTags$taiga$nitwit#>,Tags:["Gatekeeper",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Gatekeeper\"}"
+
+GatekeeperColour gold
+GatekeeperLocation 639.0 192 90.0
+GatekeeperEngageRadius 6
+GatekeeperDisengageRadius 13
+
+GatekeeperMeetID 0
+GatekeeperMeetLines		0	$ 45	$ Don't try me, stranger. $
+GatekeeperMeetLines		1	$ 102	$ This gate is under my protection, and none shall enter while I stand. $
+
+GatekeeperGreetID 1
+GatekeeperGreetLines		0	$ 33	$ Back again. $
+
+GatekeeperBeyondID 2
+GatekeeperBeyondLines		0	$ 32	$ The true Gate. $
+GatekeeperBeyondLines		1	$ 100	$ From there the Emissaries of Kirion orginate, and to there all humans are forbidden to go. $
+GatekeeperBeyondLines		2	$ 75	$ Only we Gatekeepers have seen beyond, and even us, but briefly. $
+GatekeeperBeyondLines		3	$ 57	$ That place is not meant for the likes of us. $
+
+GatekeeperDutyID 4
+GatekeeperDutyLines		0	$ 47	$ It is my duty to guard this gate. $
+GatekeeperDutyLines		1	$ 84	$ I have done so since I was young and apprenticed to the prior Gatekeeper, $
+GatekeeperDutyLines		2	$ 49	$ And I will do so until the day I die. $
+GatekeeperDutyLines		3	$ 88	$ No one has ever crossed the threshold without the Gatekeeper's permission. $
+GatekeeperDutyLines		4	$ 72	$ Many have tried, in spite of that record, and all have failed. $
+
+GatekeeperPurgeID 5
+GatekeeperPurgeLines		0	$ 56	$ Yes, a purge of the reapers was attempted. $
+GatekeeperPurgeLines		1	$ 73	$ But the purge is no longer what you think, it's been corrupted. $
+GatekeeperPurgeLines		2	$ 73	$ You follow in the footsteps of truth, but not yet do you see it. $
+
+GatekeeperKeyID 6
+GatekeeperKeyLines		0	$ 32	$ The truth, yes. $
+GatekeeperKeyLines		1	$ 80	$ Not as some failed king tells it, nor even as the Formless Voice does. $
+GatekeeperKeyLines		2	$ 97	$ Take this key- You can find the lock it fits by the chasms along New Hoiro's eastern edge. $
+GatekeeperKeyLines		3	$ 47	$ You'll find some friends there. $
+GatekeeperKeyLines		4	$ 61	$ People who understand, who will lead you right. $
+
+GatekeeperActionbarDiscussions meet		$ <#GatekeeperMeetID#>		$ Meet
+GatekeeperActionbarDiscussions greet		$ <#GatekeeperGreetID#>	$ Greet
+
+GatekeeperChatLogDiscussions	beyond		$ <#GatekeeperBeyondID#>	$ Beyond
+GatekeeperChatLogDiscussions	duty		$ <#GatekeeperDutyID#>		$ Duty
+GatekeeperChatLogDiscussions	purge		$ <#GatekeeperPurgeID#>	$ Purge
+GatekeeperChatLogDiscussions	key		$ <#GatekeeperKeyID#>		$ Key
+
+GatekeeperBaseDialoguePrompt {<#DialoguePromptOption$Gatekeeper$GatekeeperBeyond$Beyond the Gate?#>,"extra":[{<#DialoguePromptOption$Gatekeeper$GatekeeperDuty$Duty?#>},{<#DialoguePromptOptionFinal$Gatekeeper$GatekeeperPurge$Purge?#>}]}
+
+GatekeeperKeyDialoguePrompt {<#DialoguePromptOptionFinal$Gatekeeper$GatekeeperKey$Truth?#>}

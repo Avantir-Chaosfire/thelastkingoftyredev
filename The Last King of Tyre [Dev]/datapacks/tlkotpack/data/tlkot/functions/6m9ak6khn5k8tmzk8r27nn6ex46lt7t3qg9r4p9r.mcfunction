@@ -1,0 +1,1 @@
+scoreboard players set @a aibgtz8jimpcdGKj 0

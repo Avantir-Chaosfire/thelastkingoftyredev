@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,name=UnloadedEnemy,tag=k+cJzhEl3QjHdbctGv2vpHE-r9+4382w.DQXCt3n] if entity @s[nbt={OnGround:1b}] run function tlkot:plrahf3u7k_nhgdyb8kb-1c1gj7vnt05e910350i

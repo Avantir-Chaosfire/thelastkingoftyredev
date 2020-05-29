@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={16Ubn76t+IUTS2SG=-1}] 16Ubn76t+IUTS2SG 110
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Follow him all the way to the deepest part of the cavern beneath New Hoiro.", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Follow him all the way to the deepest part of the cavern beneath New Hoiro.", "color": "white", "italic": true}

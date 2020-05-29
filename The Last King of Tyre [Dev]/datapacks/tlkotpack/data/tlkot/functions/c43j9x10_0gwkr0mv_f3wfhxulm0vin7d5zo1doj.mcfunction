@@ -1,0 +1,1 @@
+execute if entity @a[scores={NCH5fb3V3xxesejZ=0..}] run tellraw @a {"text": "Come to steal more, have ye?", "color": "white", "italic": true}

@@ -1,0 +1,1 @@
+execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,CustomName:"{\"text\":\"Kurnas-SuitOfArmour\"}",Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","0gI-z_3-5tHZPlpb6y4XNaiWe8QrywfyczyitISb","2He-8+tlMTLoGrVRCZ+RGn00L..0Kbr8r1Opl_HP"]}

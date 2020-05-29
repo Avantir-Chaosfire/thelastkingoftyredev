@@ -1,0 +1,2 @@
+scoreboard players set @s[scores={GotHit=1..}] Cast 300
+execute if entity @s[scores={Cast=0}] if entity @a[distance=..14] positioned ~-15 ~-5 ~-15 if entity @a[dx=29,dy=11,dz=29] positioned ~15 ~5 ~15 run function tlkot:core/ai/caster/scroll/transfiguration/trigger

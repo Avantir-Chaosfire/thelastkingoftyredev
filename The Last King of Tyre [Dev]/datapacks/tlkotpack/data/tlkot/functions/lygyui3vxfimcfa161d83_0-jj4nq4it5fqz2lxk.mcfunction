@@ -1,0 +1,3 @@
+scoreboard players set @a EY5IXyXQon6LNWOr 103
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "What we need is someone who can traverse the land and achieve the things we can't do ourselves.", "color": "white", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "What we need is someone who can traverse the land and achieve the things we can't do ourselves.", "color": "white", "italic": true}

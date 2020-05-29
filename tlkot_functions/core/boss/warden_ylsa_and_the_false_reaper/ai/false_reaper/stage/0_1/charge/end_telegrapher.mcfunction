@@ -1,0 +1,1 @@
+execute at @e[tag=NextChargePoint1] run tp @s ~ ~ ~ facing entity @e[tag=NextChargePoint2,limit=1]

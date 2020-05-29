@@ -1,0 +1,3 @@
+execute if entity @s[scores={P5Victory=1..}] if entity @a[scores={P5Victory=1..}] run function tlkot:utility/summon_enemy/undead/caster/general/normal
+execute if entity @s[scores={MosesVictory=1..}] if entity @a[scores={MosesVictory=1..}] run function tlkot:utility/summon_enemy/undead/caster/general/normal
+execute unless entity @s[scores={P5Victory=1..}] unless entity @s[scores={MosesVictory=1..}] run function tlkot:utility/summon_enemy/undead/caster/general/normal

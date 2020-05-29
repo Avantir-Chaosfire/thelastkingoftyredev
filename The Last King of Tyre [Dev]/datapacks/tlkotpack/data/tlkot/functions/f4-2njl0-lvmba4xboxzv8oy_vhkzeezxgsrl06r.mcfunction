@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={mf9L5CC4VvVuq_LG=-1}] mf9L5CC4VvVuq_LG 129
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Well, if you've got the need and the materials, I may be able to reinforce some of your armour.", "color": "dark_green", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Well, if you've got the need and the materials, I may be able to reinforce some of your armour.", "color": "white", "italic": true}

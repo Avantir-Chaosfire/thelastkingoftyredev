@@ -1,0 +1,2 @@
+execute as @e[tag=C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ,distance=1..10,limit=1,sort=nearest] at @s run function tlkot:u135g910p8tgw7udwupnpau8u6acc98zrer_9rsq
+scoreboard players set @s mLw1_SHuvl4_3Rx6 300

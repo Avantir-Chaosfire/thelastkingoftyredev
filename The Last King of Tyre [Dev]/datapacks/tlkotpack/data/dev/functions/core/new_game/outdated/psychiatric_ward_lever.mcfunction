@@ -1,0 +1,1 @@
+execute at @s if block ~ ~ ~ minecraft:lever run function dev:core/new_game/outdated/psychiatric_ward_lever_replace

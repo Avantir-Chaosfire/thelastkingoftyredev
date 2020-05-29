@@ -1,0 +1,28 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+TempestRegenDelay 34
+
+TempestItemID bow
+TempestNameText Tempest
+TempestNameColour dark_aqua
+TempestName <#ItemName$TempestNameText$TempestNameColour#>
+TempestDescription <#LoreLine$The bow of Gishira the Storm Archer,#>
+TempestDescription <#LoreLine$who had faith in her people until the#>
+TempestDescription <#LoreLine$end, although they could not say the#>
+TempestDescription <#LoreLine$same for her.#>
+TempestDescription <#StatsLine#>
+TempestStats <#LoreLine$Damage: 9#>
+TempestStats <#LoreLine$<#StaminaRegenerationDelay#>: <#Time$<#!TempestRegenDelay 20 /#>#>#>
+TempestStats <#LoreLine$<#Knockback#> I#>
+TempestTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:knockback",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HoldingID:<#TempestHoldingID#>
+
+TempestDataTag display:{Name:"<#TempestName#>",Lore:[<#TempestDescription#>,<#TempestStats#>]},<#TempestTags#>
+Tempest <#Item$TempestItemID$TempestDataTag#>
+
+TempestLightning Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["TempestLightning"]

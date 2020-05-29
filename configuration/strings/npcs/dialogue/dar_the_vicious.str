@@ -1,0 +1,74 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+DarColour dark_purple
+DarLocation -888 0 -728
+DarEngageRadius 1000000
+DarDisengageRadius 2000000
+
+DarSilenceID 1
+
+DarFirstEncounterID 2
+DarFirstEncounterLines		0	$ 75	$ Blood... You have blood... $
+DarFirstEncounterLines		1	$ 63	$ And a life I have yet to rend asunder! $
+DarFirstEncounterLines		2	$ 74	$ The scraping of flesh from bone... $
+DarFirstEncounterLines		3	$ 68	$ The pain, your agony, it will feed me well. $
+DarFirstEncounterLines		4	$ 71	$ Such thrilling screams, I must hear again! $
+
+DarSecondNoDeathEncounterID 3
+DarSecondNoDeathEncounterLines	0	$ 68	$ Stronger than presumed, but not enough. $
+DarSecondNoDeathEncounterLines	1	$ 74	$ You'll have no passage this time... $
+DarSecondNoDeathEncounterLines	2	$ 53	$ Why won't you feel the dread? $
+
+DarSecondDeathEncounterID 4
+DarSecondDeathEncounterLines	0	$ 44	$ Oh, a returning soul? $
+DarSecondDeathEncounterLines	1	$ 51	$ A growing determination? $
+DarSecondDeathEncounterLines	2	$ 62	$ All the sweeter for me... $
+DarSecondDeathEncounterLines	3	$ 42	$ I will §lbreak§5§o you! $
+
+DarThirdNoDeathEncounterID 5
+DarThirdNoDeathEncounterLines	0	$ 42	$ Come again to play? $
+DarThirdNoDeathEncounterLines	1	$ 54	$ Maybe this time... $
+DarThirdNoDeathEncounterLines	2	$ 74	$ Maybe now I can sink my axe deep in your flesh! $
+DarThirdNoDeathEncounterLines	3	$ 48	$ Cleave your head in two! $
+DarThirdNoDeathEncounterLines	4	$ 45	$ Just... DIE! $
+
+DarThirdDeathEncounterID 6
+DarThirdDeathEncounterLines	0	$ 42	$ Oh, yes... $
+DarThirdDeathEncounterLines	1	$ 78	$ Feed me, keep feeding me your precious strength. $
+DarThirdDeathEncounterLines	2	$ 54	$ I'll turn you into one of them. $
+
+DarFourthEncounterID 7
+DarFourthEncounterLines	0	$ 56	$ A determined one...! $
+DarFourthEncounterLines	1	$ 56	$ But how determined can you be? $
+DarFourthEncounterLines	2	$ 86	$ Can't be great in becoming mine, or better, becoming HIS! $
+
+DarFifthEncounterID 8
+DarFifthEncounterLines		0	$ 72	$ Feel the wrath, live the dread, die, DIE, §lDIE§5§o! $
+
+DarFinalEncounterID 9
+DarFinalEncounterLines		0	$ 51	$ So you think you can end me? $
+DarFinalEncounterLines		1	$ 44	$ Heh heh... $
+DarFinalEncounterLines		2	$ 30	$ You CAN'T. $
+DarFinalEncounterLines		3	$ 59	$ My spirit is too strong for that. $
+DarFinalEncounterLines		4	$ 68	$ I will endure, even if my body should die! $
+DarFinalEncounterLines		5	$ 72	$ And you of all people know the truth to that. $
+
+DarLockawayEncounterID 10
+DarLockawayEncounterLines	0	$ 38	$ Ah... $
+DarLockawayEncounterLines	1	$ 50	$ You've trapped yourself. $
+DarLockawayEncounterLines	2	$ 75	$ Luckily for you, corpses are no fun to butcher. $
+
+DarActionbarDiscussions first_encounter		$ <#DarFirstEncounterID#>		$ FirstEncounter
+DarActionbarDiscussions second_no_death_encounter	$ <#DarSecondNoDeathEncounterID#>	$ SecondNoDeathEncounter
+DarActionbarDiscussions second_death_encounter	$ <#DarSecondDeathEncounterID#>	$ SecondDeathEncounter
+DarActionbarDiscussions third_no_death_encounter	$ <#DarThirdNoDeathEncounterID#>	$ ThirdNoDeathEncounter
+DarActionbarDiscussions third_death_encounter		$ <#DarThirdDeathEncounterID#>		$ ThirdDeathEncounter
+DarActionbarDiscussions fourth_encounter		$ <#DarFourthEncounterID#>		$ FourthEncounter
+DarActionbarDiscussions fifth_encounter		$ <#DarFifthEncounterID#>		$ FifthEncounter
+DarActionbarDiscussions final_encounter		$ <#DarFinalEncounterID#>		$ FinalEncounter
+DarActionbarDiscussions lockaway_encounter		$ <#DarLockawayEncounterID#>		$ LockawayEncounter
+
+DarChatLogDiscussions

@@ -1,0 +1,10 @@
+function dev:<~>/fates_puppeteer/fight
+function dev:<~>/disgraceful_beast/fight
+function dev:<~>/saviour_moses/fight
+function dev:<~>/hanging_pole/fight
+function dev:<~>/perjurer/fight
+function dev:<~>/dar_the_vicious/fight
+function dev:<~>/warden_ylsa_and_the_false_reaper/fight
+function dev:<~>/kurnas_harbinger_of_ruination/fight
+function dev:<~>/shade_caster/fight
+function dev:<~>/arvelo_the_dishonoured/fight

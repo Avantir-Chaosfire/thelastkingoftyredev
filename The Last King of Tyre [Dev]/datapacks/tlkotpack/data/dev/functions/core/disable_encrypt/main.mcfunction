@@ -1,0 +1,1 @@
+execute as @e[tag=!8WVq4.THK-Ju.shH-eegHYLuDDsRCXUV.4No+Cq0] run function dev:core/disable_encrypt/trigger

@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=SuitOfArmour,tag=!Movable] at @s run function tlkot:<~>/process

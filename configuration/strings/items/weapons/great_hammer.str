@@ -1,0 +1,111 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+GreatHammerNameColour white
+GreatHammerDescription <#LoreLine$A heavy weapon that excels at#>
+GreatHammerDescription <#LoreLine$forcing foes back or crushing them.#>
+GreatHammerDescription <#StatsLine#>
+
+GreatHammerStaminaCost 7
+GreatHammerCommunionStaminaCost 5
+GreatHammerMinimumStaminaCost 5
+GreatHammerRegenDelay 56
+
+BaseGreatHammerDamage 20
+BaseGreatHammerStaminaCost <#GreatHammerStaminaCost#>
+BaseGreatHammerCommunionStaminaCost <#GreatHammerCommunionStaminaCost#>
+BaseGreatHammerMinimumStaminaCost <#GreatHammerMinimumStaminaCost#>
+BaseGreatHammerRegenDelay <#GreatHammerRegenDelay#>
+
+CrushingGreatHammerDamage 24
+CrushingGreatHammerStaminaCost <#GreatHammerStaminaCost#>
+CrushingGreatHammerCommunionStaminaCost <#GreatHammerCommunionStaminaCost#>
+CrushingGreatHammerMinimumStaminaCost <#GreatHammerMinimumStaminaCost#>
+CrushingGreatHammerRegenDelay <#GreatHammerRegenDelay#>
+
+HeavyGreatHammerDamage 20
+HeavyGreatHammerStaminaCost <#GreatHammerStaminaCost#>
+HeavyGreatHammerCommunionStaminaCost <#GreatHammerCommunionStaminaCost#>
+HeavyGreatHammerMinimumStaminaCost <#GreatHammerMinimumStaminaCost#>
+HeavyGreatHammerRegenDelay <#GreatHammerRegenDelay#>
+
+Base1HGreatHammerItemID diamond_axe
+Base1HGreatHammerNameText Great Hammer
+Base1HGreatHammerName <#ItemName$Base1HGreatHammerNameText$GreatHammerNameColour#>
+Base1HGreatHammerStats <#WeaponStats$BaseGreatHammer#>
+Base1HGreatHammerStats <#LoreLine$<#Knockback#> I#>
+Base1HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Base1HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Base1HGreatHammerHoldingID#>
+
+Base1HGreatHammerDataTag display:{Name:"<#Base1HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Base1HGreatHammerStats#>]},<#Base1HGreatHammerTags#>
+Base1HGreatHammer <#Item$Base1HGreatHammerItemID$Base1HGreatHammerDataTag#>
+
+Base2HGreatHammerItemID diamond_axe
+Base2HGreatHammerNameText Great Hammer (Two Handed)
+Base2HGreatHammerName <#ItemName$Base2HGreatHammerNameText$GreatHammerNameColour#>
+Base2HGreatHammerStats <#WeaponStats$BaseGreatHammer#>
+Base2HGreatHammerStats <#LoreLine$<#Knockback#> I#>
+Base2HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Base2HGreatHammerStats <#LoreLine$+25% <#Damage#>#>
+Base2HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Operation:2,Amount:0.25,UUIDLeast:98500376,UUIDMost:88365,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Base2HGreatHammerHoldingID#>
+
+Base2HGreatHammerDataTag display:{Name:"<#Base2HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Base2HGreatHammerStats#>]},<#Base2HGreatHammerTags#>
+Base2HGreatHammer <#Item$Base2HGreatHammerItemID$Base2HGreatHammerDataTag#>
+
+Crushing1HGreatHammerItemID diamond_axe
+Crushing1HGreatHammerNameText Crushing Great Hammer
+Crushing1HGreatHammerName <#ItemName$Crushing1HGreatHammerNameText$GreatHammerNameColour#>
+Crushing1HGreatHammerStats <#WeaponStats$CrushingGreatHammer#>
+Crushing1HGreatHammerStats <#LoreLine$<#Knockback#> I#>
+Crushing1HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Crushing1HGreatHammerStats <#LoreLine$Attacks Raise Great Hammer Stamina Cost#>
+Crushing1HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!CrushingGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Crushing1HGreatHammerHoldingID#>
+
+Crushing1HGreatHammerDataTag display:{Name:"<#Crushing1HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Crushing1HGreatHammerStats#>]},<#Crushing1HGreatHammerTags#>
+Crushing1HGreatHammer <#Item$Crushing1HGreatHammerItemID$Crushing1HGreatHammerDataTag#>
+
+Crushing2HGreatHammerItemID diamond_axe
+Crushing2HGreatHammerNameText Crushing Great Hammer (Two Handed)
+Crushing2HGreatHammerName <#ItemName$Crushing2HGreatHammerNameText$GreatHammerNameColour#>
+Crushing2HGreatHammerStats <#WeaponStats$CrushingGreatHammer#>
+Crushing2HGreatHammerStats <#LoreLine$<#Knockback#> I#>
+Crushing2HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Crushing2HGreatHammerStats <#LoreLine$Attacks Raise Great Hammer Stamina Cost#>
+Crushing2HGreatHammerStats <#LoreLine$+25% <#Damage#>#>
+Crushing2HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!CrushingGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Operation:2,Amount:0.25,UUIDLeast:98500376,UUIDMost:88365,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Crushing2HGreatHammerHoldingID#>
+
+Crushing2HGreatHammerDataTag display:{Name:"<#Crushing2HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Crushing2HGreatHammerStats#>]},<#Crushing2HGreatHammerTags#>
+Crushing2HGreatHammer <#Item$Crushing2HGreatHammerItemID$Crushing2HGreatHammerDataTag#>
+
+Heavy1HGreatHammerItemID diamond_axe
+Heavy1HGreatHammerNameText Heavy Great Hammer
+Heavy1HGreatHammerName <#ItemName$Heavy1HGreatHammerNameText$GreatHammerNameColour#>
+Heavy1HGreatHammerStats <#WeaponStats$HeavyGreatHammer#>
+Heavy1HGreatHammerStats <#LoreLine$<#Knockback#> II#>
+Heavy1HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Heavy1HGreatHammerStats <#LoreLine$Slows Target#>
+Heavy1HGreatHammerStats <#LoreLine$Weakens Nearby Enemies#>
+Heavy1HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HeavyGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:2}],HideFlags:7,HoldingID:<#Heavy1HGreatHammerHoldingID#>
+
+Heavy1HGreatHammerDataTag display:{Name:"<#Heavy1HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Heavy1HGreatHammerStats#>]},<#Heavy1HGreatHammerTags#>
+Heavy1HGreatHammer <#Item$Heavy1HGreatHammerItemID$Heavy1HGreatHammerDataTag#>
+
+Heavy2HGreatHammerItemID diamond_axe
+Heavy2HGreatHammerNameText Heavy Great Hammer (Two Handed)
+Heavy2HGreatHammerName <#ItemName$Heavy2HGreatHammerNameText$GreatHammerNameColour#>
+Heavy2HGreatHammerStats <#WeaponStats$HeavyGreatHammer#>
+Heavy2HGreatHammerStats <#LoreLine$<#Knockback#> II#>
+Heavy2HGreatHammerStats <#LoreLine$+100% <#KnockbackResistance#>#>
+Heavy2HGreatHammerStats <#LoreLine$Slows Target#>
+Heavy2HGreatHammerStats <#LoreLine$Weakens Nearby Enemies#>
+Heavy2HGreatHammerStats <#LoreLine$+25% <#Damage#>#>
+Heavy2HGreatHammerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HeavyGreatHammerDamage 1 -#>,Operation:0,UUIDLeast:8834,UUIDMost:38006,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:1,UUIDLeast:9946586,UUIDMost:134885,Slot:"mainhand"},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Operation:2,Amount:0.25,UUIDLeast:98500376,UUIDMost:88365,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:2}],HideFlags:7,HoldingID:<#Heavy2HGreatHammerHoldingID#>
+
+Heavy2HGreatHammerDataTag display:{Name:"<#Heavy2HGreatHammerName#>",Lore:[<#GreatHammerDescription#>,<#Heavy2HGreatHammerStats#>]},<#Heavy2HGreatHammerTags#>
+Heavy2HGreatHammer <#Item$Heavy2HGreatHammerItemID$Heavy2HGreatHammerDataTag#>

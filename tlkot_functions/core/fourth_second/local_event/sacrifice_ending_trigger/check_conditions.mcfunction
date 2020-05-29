@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={PActive=5,PDestroyed=0,DevourerSealed=0..1}] SacrificeTime 0
+scoreboard players set @a[scores={P1Victory=0,P2Victory=0,P3Victory=0,P4Victory=0,P5Victory=1,PDestroyed=0,NewProphet=1}] SacrificeTime 0

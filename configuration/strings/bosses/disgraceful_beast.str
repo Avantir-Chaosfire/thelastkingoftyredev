@@ -1,0 +1,18 @@
+DisgracefulBeastHealth 360000
+
+DisgracefulBeastHealthTransition1 300000
+DisgracefulBeastHealthTransition2 180000
+
+MisbegottenSoulDamage 6000
+
+DisgracefulBeastSkinTags ‘Invulnerable:1b,NoAI:1b,Size:15,CustomName:"{\"text\":\"Disgraceful Beast\"}",PersistenceRequired:1b,NoGravity:1b,Rotation:[90.0f,0.0f],Attributes:[{Name:"generic.knockbackResistance",Base:1}],ActiveEffects:[{Id:11b,Amplifier:3b,Duration:32767,ShowParticles:0b}],Tags:["Disgraceful_Beast","DisgracefulBeastCleanup","Skin","Versioned","Dumpable","EnemyUnit","Reaper","UsesHitScore"]‘
+
+DisgracefulBeastCoreTags ‘Invulnerable:1b,NoAI:1b,Size:10,CustomName:"{\"text\":\"Disgraceful Beast\"}",PersistenceRequired:1b,NoGravity:1b,Rotation:[90.0f,0.0f],Attributes:[{Name:"generic.knockbackResistance",Base:1}],ActiveEffects:[{Id:11b,Amplifier:3b,Duration:32767,ShowParticles:0b}],Tags:["Disgraceful_Beast","DisgracefulBeastCleanup","Core","Versioned","Dumpable","EnemyUnit","Reaper","UsesHitScore"],ArmorItems:[{},{id:"bone",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:-33,Operation:0,UUIDLeast:40892,UUIDMost:3099500}]}},{},{}]‘
+
+MisbegottenBlastResistance {id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:3}]}},{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:3}]}},{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:3}]}},{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:3}]}}
+
+StrongMisbegottenSoulsTags ‘Size:2,CustomName:"{\"text\":\"Misbegotten Souls\"}",PersistenceRequired:1b,Tags:["Misbegotten","Strong","EnemyUnit","Versioned","Dumpable"],ArmorItems:[<#MisbegottenBlastResistance#>],ActiveEffects:[{Id:11,Amplifier:3,Duration:32767,ShowParticles:false}],Passengers:[{id:"armor_stand",Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Tags:["MisbegottenMarker","Strong","EnemyUnit","Reaper","Versioned","Killable"]}]‘
+
+WeakMisbegottenSoulsTags ‘Size:1,CustomName:"{\"text\":\"Misbegotten Souls\"}",PersistenceRequired:1b,Tags:["Misbegotten","Weak","EnemyUnit","Versioned","Dumpable"],ArmorItems:[<#MisbegottenBlastResistance#>],ActiveEffects:[{Id:11,Amplifier:3,Duration:32767,ShowParticles:false}],Passengers:[{id:"armor_stand",Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Tags:["MisbegottenMarker","Weak","EnemyUnit","Reaper","Versioned","Killable"]}]‘
+
+DisgracefulBeastAerokineticProjectileTags NoGravity:1b,Invulnerable:1b,Invisible:1b,Marker:1b,Tags:["AerokineticProjectile","DisgracefulBeastCleanup","Killable","Angle<1>"]

@@ -1,0 +1,2 @@
+execute if entity @s[name=FatesPuppeteer-Boss] run function tlkot:<~>/boss
+execute if entity @s[name=FatesPuppeteer-PuppetChase] if entity @a[scores={P1Loops=6..},x=-94,y=70,z=204,dx=98,dy=9,dz=98] run function tlkot:<~>/puppet_chase

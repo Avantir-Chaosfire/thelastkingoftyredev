@@ -1,0 +1,3 @@
+scoreboard players set @a +Nl1uwuz0GnH7Kmf 109
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Anyway, she told us of a plan to kill all the reapers, which would require a sacrifice for the crystal.", "color": "red", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Anyway, she told us of a plan to kill all the reapers, which would require a sacrifice for the crystal.", "color": "white", "italic": true}

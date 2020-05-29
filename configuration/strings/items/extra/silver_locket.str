@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+SilverLocketItemID magenta_dye
+SilverLocketNameText Silver Locket
+SilverLocketNameColour white
+SilverLocketName <#ItemName$SilverLocketNameText$SilverLocketNameColour#>
+SilverLocketDescription <#LoreLine$A silver locket belonging to Yante#>
+SilverLocketDescription <#LoreLine$the Caster.#>
+
+SilverLocketDataTag display:{Name:"<#SilverLocketName#>",Lore:[<#SilverLocketDescription#>]}
+SilverLocket <#Item$SilverLocketItemID$SilverLocketDataTag#>

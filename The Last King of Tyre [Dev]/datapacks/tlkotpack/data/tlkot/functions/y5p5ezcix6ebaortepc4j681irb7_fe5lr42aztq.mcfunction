@@ -1,0 +1,1 @@
+execute as @e[tag=uRJyAmmNl_dqCoo_97drKBOyRms17bEUW-o_I_Yq] at @s run function tlkot:7knlwxjj-w_ao91zvw92zq69_ztyeu4mk0naf053

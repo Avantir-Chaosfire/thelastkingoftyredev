@@ -1,0 +1,1 @@
+execute as @e[tag=WardenYlsaBackstepMarker] at @s run function tlkot:<~>/finish

@@ -1,0 +1,18 @@
+#include attribute_modifiers
+#include eliminate_base_attributes
+#include versioned_tags
+#include items/weapons/great_hammer
+
+UndeadBerserkerCustomName CustomName:"{\"text\":\"Undead Berserker\"}"
+
+UndeadBerserkerHealth 45000
+
+UndeadBerserkerBaseTags PersistenceRequired:1b,ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{id:"iron_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{}],HandItems:[{id:"stone_hoe",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:5,Operation:0,UUIDLeast:<UUID>,UUIDMost:<UUID>}]}},{}],<#UndeadBerserkerCustomName#>,Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:3},{Name:"generic.movementSpeed",Base:0.27},{Name:generic.followRange,Base:16},<#EliminateBaseZombieAttributes#>],Health:1000.0f,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Undead","AI.ShieldBreaker","AI.Berserker","Enemy.Undead-Berserker","UsesHitScore"<1>],VillagerData:{level:1,type:"minecraft:jungle",profession:"minecraft:weaponsmith"}
+
+UndeadBerserkerTags <#UndeadBerserkerBaseTags$#>
+
+UndeadBerserkerShadeTags <#UndeadBerserkerBaseTags$,"Shaded"#>
+
+UndeadBerserkerHammerModelTags ‘<#UndeadBerserkerCustomName#>,Marker:1b,Invulnerable:1b,Invisible:1b,NoGravity:1b,Pose:{Head:[90.0f,0.0f,-90.0f]},Tags:["Versioned","Killable","HasAI","AI.BerserkerHammer","BerserkerHammerModel"],ArmorItems:[{},{},{},{id:"minecraft:<#Base1HGreatHammerItemID#>",Count:1b}]‘
+
+UndeadBerserkerHammerHitboxTags ‘<#UndeadBerserkerCustomName#>,Invulnerable:1b,NoGravity:1b,Silent:1b,Size:1b,ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","HasAI","AI.ShieldBreaker","BerserkerHammerHitbox"]‘

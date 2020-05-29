@@ -1,0 +1,3 @@
+scoreboard players set @a pBR7M7GkpsPpu+kP 1
+execute at @e[tag=U7J1Z9J_XvTK8oAS8VjlGK2mXMfn-ZM+61DCdU4z,x=519,y=232,z=162,distance=..2] run summon minecraft:armor_stand ~ ~1 ~-3 {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["Nfrl+Acy78zbluljz1U6pPtQbN1BosJzKpccjF+X","LBOBiBeu3XdckIfAzN_C0pd_NQQdRJsND7.m_KVC","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute as @e[tag=Nfrl+Acy78zbluljz1U6pPtQbN1BosJzKpccjF+X,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] at @s run function tlkot:10x8ui3ecvi6p3qg3uicxq1ij9ka9k7j6s39537z

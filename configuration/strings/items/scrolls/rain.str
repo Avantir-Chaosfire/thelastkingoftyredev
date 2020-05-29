@@ -1,0 +1,46 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+RainScrollItemID fishing_rod
+RainScrollNameText Scroll of Rain, Class 2
+RainScrollNameColour dark_green
+RainScrollName <#ItemName$RainScrollNameText$RainScrollNameColour#>
+RainScrollDescription <#LoreLine$When you can cry no longer, the#>
+RainScrollDescription <#LoreLine$sky will do so for you.#>
+RainScrollDescription <#StatsLine#>
+RainScrollStats <#LoreLine$Call for Rain#>
+
+RainScrollDataTag display:{Name:"<#RainScrollName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:21,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
+RainScroll <#Item$RainScrollItemID$RainScrollDataTag#>
+
+RainScrollActiveNameText <#RainScrollNameText#> (Active)
+RainScrollActiveName <#ItemName$RainScrollActiveNameText$RainScrollNameColour#>
+
+RainScrollActiveDataTag display:{Name:"<#RainScrollActiveName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:37,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
+RainScrollActive <#Item$RainScrollItemID$RainScrollActiveDataTag#>
+
+RainWill0Cost 8
+RainWill1Cost 7
+RainWill2Cost 6
+RainWill3Cost 5
+RainWill4Cost 4
+RainWill5Cost 3
+
+RainWill0Time 100
+RainWill1Time 84
+RainWill2Time 68
+RainWill3Time 52
+RainWill4Time 36
+RainWill5Time 20
+
+RainWill0TimeIncrease 5
+RainWill1TimeIncrease 4
+RainWill2TimeIncrease 3
+RainWill3TimeIncrease 2
+RainWill4TimeIncrease 1
+RainWill5TimeIncrease 0

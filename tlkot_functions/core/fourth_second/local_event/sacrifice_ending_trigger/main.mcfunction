@@ -1,0 +1,3 @@
+execute if entity @a[x=<#SacrificeLocationX#>,y=<#SacrificeLocationY#>,z=<#SacrificeLocationZ#>,distance=..12,scores={SacrificeTime=-1,Cutscene=-1}] run function tlkot:<~>/check_conditions
+execute unless entity @a[x=<#SacrificeLocationX#>,y=<#SacrificeLocationY#>,z=<#SacrificeLocationZ#>,distance=..12] if entity @a[scores={SacrificeTime=0..}] run function tlkot:<~>/halt
+execute at @a[scores={SacrificeTime=0..}] run function tlkot:<~>/process

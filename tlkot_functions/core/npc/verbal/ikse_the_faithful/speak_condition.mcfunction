@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={IkseTalk=<#IkseSmithingID#>..}] IkseLine 0

@@ -1,0 +1,20 @@
+{
+	"criteria":
+	{
+		"hurt_by_blocked":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"blocked": true
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt_by/blocked"
+	}
+}

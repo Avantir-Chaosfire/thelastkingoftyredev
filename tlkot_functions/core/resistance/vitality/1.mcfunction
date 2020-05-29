@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={VitalityStamina=1..}] Resistance 1

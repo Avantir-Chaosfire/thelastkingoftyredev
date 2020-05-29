@@ -1,0 +1,49 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#ObscuringSightItemID#>",
+			"nbt": "{<#ObscuringSightDataTag#>}"
+		},
+		"title":
+		{
+			"text": "Awakening"
+		},
+		"description":
+		{
+			"text": "Leave the void behind"
+ 		},
+		"frame": "goal",
+		"hidden": true,
+		"background": "minecraft:textures/block/mossy_cobblestone.png"
+	},
+	"criteria":
+	{
+		"discoveries":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 200.0,
+						"min": 0.0
+					},
+					"y":
+					{
+						"max": 140.0,
+						"min": 0.0
+					},
+					"z":
+					{
+						"max": 300.0,
+						"min": 0.0
+					}
+				}
+			}
+		}
+	}
+}

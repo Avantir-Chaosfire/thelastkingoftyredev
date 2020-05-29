@@ -1,0 +1,3 @@
+scoreboard players set @a mf9L5CC4VvVuq_LG 103
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "One day we got attacked and scattered by one of your crusades; I was captured and brought here.", "color": "dark_green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "One day we got attacked and scattered by one of your crusades; I was captured and brought here.", "color": "white", "italic": true}

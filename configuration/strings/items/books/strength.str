@@ -1,0 +1,17 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+StrengthItemID written_book
+StrengthAuthor Avantir Yihn
+StrengthTitle Strength
+StrengthPages Willpower represents your casting capability. The strength of the effect depends on the scroll being cast.<Newline><Newline>-Reduces cast time<Newline>-Reduces cast time growth<Newline>-Reduces casting stamina cost<Newline>-Increases scroll effect duration
+StrengthPages -Increases Fireball power
+StrengthPages Endurance represents how much foreign energy you can store to channel into your movements without growing tired.<Newline><Newline>+2 Maximum Stamina/Level
+StrengthPages Vitality represents your toughness in the heat of combat. Ordinarily one possesses no special vitality, but by channeling the yearning power of a reaper properly, one can strengthen their defenses by striking foes.
+StrengthPages -20% less damage taken from all sources per effect level (Additive)<Newline>-Resets when damage is taken<Newline>-Number of effect levels proportional to stamina expended in melee combat<Newline>-Stamina thresholds for effect levels: 1/13/29/48/101<Newline>-Maximum effect level equal to Vitality level
+
+StrengthDataTag author:"<#StrengthAuthor#>",title:"<#StrengthTitle#>",resolved:1b,pages:["<#StrengthPages#>"]
+Strength <#Item$StrengthItemID$StrengthDataTag#>

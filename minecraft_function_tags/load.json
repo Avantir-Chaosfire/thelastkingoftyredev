@@ -1,0 +1,8 @@
+{
+	"replace": true,
+	"values":
+	[
+		"dev:load",
+		"tlkot:load"
+	]
+}

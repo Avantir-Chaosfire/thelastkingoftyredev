@@ -1,0 +1,2 @@
+execute if entity @a[dx=2,dy=2,dz=2,scores={qBiarwqWnjtLqBOd=-1}] run function tlkot:tivj-jjpahul3r4uogpx1unzjy1rlxlx4nmmmuw8
+execute as @e[tag=r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b,tag=!su14iE9SA-c7e8uXzZys-jaJa0cMz7hcbs8Y5PRi,dx=2,dy=2,dz=2] run function tlkot:e2t9uj6tkr84nttqatyf_ro8ltvynv0nxlzyz6u3

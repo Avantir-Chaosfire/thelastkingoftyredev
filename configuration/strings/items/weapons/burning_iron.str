@@ -1,0 +1,33 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+BurningIronDamage 6
+BurningIronStaminaCost 4
+BurningIronCommunionStaminaCost 3
+BurningIronMinimumStaminaCost 3
+BurningIronRegenDelay 40
+
+BurningIronItemID iron_hoe
+BurningIronNameText Burning Iron
+BurningIronNameColour dark_red
+BurningIronName <#ItemName$BurningIronNameText$BurningIronNameColour#>
+BurningIronDescription <#LoreLine$A repurposed branding iron once#>
+BurningIronDescription <#LoreLine$used by the Subjugate to brand#>
+BurningIronDescription <#LoreLine$undead prisoners. It was later used#>
+BurningIronDescription <#LoreLine$to fend off undead who crawl out#>
+BurningIronDescription <#LoreLine$of the Depths, and is quite effective#>
+BurningIronDescription <#LoreLine$at doing so, but not so much as#>
+BurningIronDescription <#LoreLine$Burning Salt.#>
+BurningIronDescription <#StatsLine#>
+BurningIronStats <#WeaponStats$BurningIron#>
+BurningIronStats <#LoreLine$Burns Foes#>
+BurningIronTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BurningIronDamage 1 -#>,Operation:0,UUIDLeast:550742,UUIDMost:87125588,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9300079,UUIDMost:10048,Slot:"mainhand"}],Enchantments:[{id:"minecraft:fire_aspect",lvl:1}],HideFlags:7,Unbreakable:1b,HoldingID:<#BurningIronHoldingID#>
+
+BurningIronDataTag display:{Name:"<#BurningIronName#>",Lore:[<#BurningIronDescription#>,<#BurningIronStats#>]},<#BurningIronTags#>
+BurningIron <#Item$BurningIronItemID$BurningIronDataTag#>

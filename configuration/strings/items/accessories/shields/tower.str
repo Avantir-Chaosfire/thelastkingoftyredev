@@ -1,0 +1,36 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+TowerShieldNameColour dark_gray
+
+TowerShieldItemID shield
+TowerShieldNameText Tower Shield
+TowerShieldName <#ItemName$TowerShieldNameText$TowerShieldNameColour#>
+
+TowerShieldDisabledItemID cyan_dye
+TowerShieldDisabledNameText Tower Shield (Disabled)
+TowerShieldDisabledName <#ItemName$TowerShieldDisabledNameText$TowerShieldNameColour#>
+
+TowerShieldStability 5
+TowerShieldRecoveryTime 280
+
+TowerShieldDescription <#LoreLine$Perfect for blocking#>
+TowerShieldDescription <#LoreLine$projectiles. Unfortunately also#>
+TowerShieldDescription <#LoreLine$inhibits your ability to attack,#>
+TowerShieldDescription <#LoreLine$weakening your strike.#>
+TowerShieldDescription <#StatsLine#>
+TowerShieldStats <#LoreLine$<#TowerShieldStability#> <#Stability#>#>
+TowerShieldStats <#LoreLine$<#Time$14#> <#Recovery#>#>
+TowerShieldStats <#LoreLine$-30% <#Damage#>#>
+TowerShieldTags AttributeModifiers:[{Name:"generic.attackDamage",AttributeName:"generic.attackDamage",Amount:-0.3,Operation:2,UUIDLeast:964,UUIDMost:4327}],HideFlags:38,Unbreakable:1b,Damage:4
+
+TowerShieldDataTag display:{Name:"<#TowerShieldName#>",Lore:[<#TowerShieldDescription#>,<#TowerShieldStats#>]},<#TowerShieldTags#>,HoldingID:<#TowerShieldHoldingID#>
+TowerShield <#Item$TowerShieldItemID$TowerShieldDataTag#>
+
+TowerShieldDisabledDataTag display:{Name:"<#TowerShieldDisabledName#>",Lore:[<#TowerShieldDescription#>,<#TowerShieldStats#>]},<#TowerShieldTags#>,HoldingID:<#TowerShieldDisabledHoldingID#>
+TowerShieldDisabled <#Item$TowerShieldDisabledItemID$TowerShieldDisabledDataTag#>

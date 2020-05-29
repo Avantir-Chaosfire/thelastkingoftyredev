@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 116
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Many people already know the truth, perhaps you have met some of them yourself.", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Many people already know the truth, perhaps you have met some of them yourself.", "color": "white", "italic": true}

@@ -1,0 +1,1 @@
+{"criteria": {"hurt_by_berserker": {"trigger": "minecraft:entity_hurt_player", "conditions": {"damage": {"source_entity": {"nbt": "{Tags:[\"-li6M2nfVw8ga3pC9XJPB20lRQi6DXQ8A_CLVhjK\"]}"}}}}}, "rewards": {"function": "tlkot:5mw8igodcdif_qx555mtjni_wfb6r-w0m20cgtix"}}

@@ -1,0 +1,1 @@
+execute if entity @a[x=391,y=128,z=67,dx=4,dy=3,dz=3] run function tlkot:core/local_event/saviour_moses_teleport/trigger

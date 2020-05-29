@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ImprintingItemID written_book
+ImprintingAuthor Ziyon the Great
+ImprintingTitle Imprinting Instructions
+ImprintingPages The Scroll Imprinter is used to create scrolls and to repair existing ones.<Newline><Newline>If you want to create a scroll but don't know how, don't try. Submit your idea to a professional caster and let them do the dangerous work.<Newline><Newline>If you merely want to
+ImprintingPages repair an existing scroll, you will need to hold both it and a pre-prepared blank scroll in your hands. Stand over the Scroll Imprinter, and its Aerteyp mechanism will imprint the damaged scroll onto the blank scroll. Do note that the damaged scroll will be destroyed in this process.
+ImprintingPages If these instructions are unclear or if you have a special circumstance, ask a professional caster.
+
+ImprintingDataTag author:"<#ImprintingAuthor#>",title:"<#ImprintingTitle#>",resolved:1b,pages:["<#ImprintingPages#>"]
+Imprinting <#Item$ImprintingItemID$ImprintingDataTag#>

@@ -1,0 +1,3 @@
+scoreboard players set @a gQW1rxxfIXPfzaDd 4
+tp @e[tag=mVio28r67SFf4We3EZcsKQY5cWaMATVvamSG1WR2] -888 7 -728
+summon minecraft:villager 5.071 136.0625 190.454 {Attributes:[{Base:1.0d,Name:"generic.knockbackResistance"},{Base:0.0d,Name:"generic.movementSpeed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:taiga",profession:"minecraft:shepherd"},Tags:["mVio28r67SFf4We3EZcsKQY5cWaMATVvamSG1WR2","hEU96hZ_hupqscrho-iX6exg4Hyj7Qwt0WL18qfg","9be.GaWUygX-_jIzB3pRNtkGTWqgnzTrwM.bXYh."],CustomName:"{\"text\":\"Ikse the Faithful\"}"}

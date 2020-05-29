@@ -1,0 +1,19 @@
+#include npcs/tags
+#include items/weapons/mace
+#include items/weapons/rapier
+#include items/weapons/halberd
+#include items/weapons/scimitar
+#include items/weapons/katana
+#include items/weapons/great_hammer
+#include items/weapons/crossbow
+#include items/materials
+
+#join functions ,
+
+GarithuneRecipes <#NPCUpgradeTradeOffer$BaseMace$BloodEmblem$BloodyMace#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$BaseRapier$BloodEmblem$BloodyRapier#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$Base1HHalberd$BloodEmblem$Bloody1HHalberd#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$BaseScimitar$BloodCrystal$SharpenedScimitar#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$BaseKatana$BloodCrystal$SharpenedKatana#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$Base1HGreatHammer$BloodCrystal$Crushing1HGreatHammer#>
+GarithuneRecipes <#NPCUpgradeTradeOffer$BaseCrossbow$BloodCrystal$MultishotCrossbow#>

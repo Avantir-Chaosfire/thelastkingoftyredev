@@ -1,0 +1,1 @@
+give @s minecraft:arrow{display:{Name:"{\"text\":\"Arrow\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"A shot in the dark may be the best","color":"gray"}','{"text":"shot you have.","color":"gray"}']}}

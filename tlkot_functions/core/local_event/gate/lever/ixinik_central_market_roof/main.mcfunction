@@ -1,0 +1,1 @@
+execute if block 0 255 160 minecraft:air if block -16 255 160 minecraft:air run function tlkot:core/local_event/gate/lever/ixinik_central_market_roof/loaded

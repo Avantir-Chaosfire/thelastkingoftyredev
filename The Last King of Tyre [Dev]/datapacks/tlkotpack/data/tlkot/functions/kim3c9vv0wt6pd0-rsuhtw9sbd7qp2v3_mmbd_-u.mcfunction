@@ -1,0 +1,4 @@
+scoreboard players set @a GgR4ufr+n70nbQQT 1
+scoreboard players enable @a GgR4ufr+n70nbQQT
+tellraw @a {"text": "\"Who are you?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GgR4ufr+n70nbQQT set 2"}, "extra": [{"text": "\"Undead?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GgR4ufr+n70nbQQT set 3"}}, {"text": "\"Evangelists?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GgR4ufr+n70nbQQT set 4"}}, {"text": "\"Ashen Fish?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GgR4ufr+n70nbQQT set 8"}}]}
+tellraw @a[scores={gd_vCppihMeOmnTF=1..}] {"text": "\"Saviour Moses is dead.\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GgR4ufr+n70nbQQT set 9"}}

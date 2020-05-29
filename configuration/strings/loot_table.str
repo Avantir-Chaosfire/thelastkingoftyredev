@@ -1,0 +1,10 @@
+Address -1
+BaseX -896
+BaseY 0
+BaseZ -768
+
+AdX !BaseX Address 16 % +
+AdY !BaseY Address Address 256 % - 256 / +
+AdZ !BaseZ Address Address 16 % - 16 / 16 % +
+
+UID !Address Address 1 + =

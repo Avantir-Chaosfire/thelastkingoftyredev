@@ -1,0 +1,18 @@
+#include item_template
+#include item_holding_ids
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+TuningForkItemID fishing_rod
+TuningForkNameText Tuning Fork
+TuningForkNameColour gold
+TuningForkName <#ItemName$TuningForkNameText$TuningForkNameColour#>
+TuningForkDescription <#LoreLine$This fork makes no noise, but#>
+TuningForkDescription <#LoreLine$captures the frequency of any#>
+TuningForkDescription <#LoreLine$nearby primal resonance.#>
+TuningForkTags Unbreakable:1b,HideFlags:4,Damage:5,HoldingID:<#TuningForkHoldingID#>,CustomModelData:5
+
+TuningForkDataTag display:{Name:"<#TuningForkName#>",Lore:[<#TuningForkDescription#>]},<#TuningForkTags#>
+TuningFork <#Item$TuningForkItemID$TuningForkDataTag#>

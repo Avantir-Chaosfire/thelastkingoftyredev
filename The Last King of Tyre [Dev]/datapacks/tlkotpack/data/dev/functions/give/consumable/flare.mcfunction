@@ -1,0 +1,1 @@
+give @s minecraft:firework_rocket{display:{Name:"{\"text\":\"Flare\",\"color\":\"yellow\",\"italic\":false}",Lore:['{"text":"To light the dark, and see what","color":"gray"}','{"text":"you cannot.","color":"gray"}','{"text":"--------","color":"gray"}','{"text":"Purges Blindness","color":"gray"}']},CanPlaceOn:["#tlkot:all"],Fireworks:{},HideFlags:48}

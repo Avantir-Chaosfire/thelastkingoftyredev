@@ -1,0 +1,1 @@
+{"criteria": {"hurt_by_shield_breaker": {"trigger": "minecraft:entity_hurt_player", "conditions": {"damage": {"blocked": true, "source_entity": {"nbt": "{Tags:[\"6SetIHbdOAA+PUikMkEqYEhWOx0Q0FdiGcYs39kZ\"]}"}}}}}, "rewards": {"function": "tlkot:cl57sl610zo3gsa9z_h69_hbrx_gsqryfl3wev43"}}

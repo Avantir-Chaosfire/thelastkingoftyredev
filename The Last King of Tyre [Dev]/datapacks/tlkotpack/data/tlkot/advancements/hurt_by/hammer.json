@@ -1,0 +1,1 @@
+{"criteria": {"hurt_by_hammer": {"trigger": "minecraft:entity_hurt_player", "conditions": {"damage": {"source_entity": {"nbt": "{Tags:[\"ZSoZZv.m0t1O4mlI5UJf9mF2at2.p8wanlvI6y1m\"]}"}}}}}, "rewards": {"function": "tlkot:tqyupo4q6vqdrwlrhdv_5e12z0ja3-hkgr90jwub"}}

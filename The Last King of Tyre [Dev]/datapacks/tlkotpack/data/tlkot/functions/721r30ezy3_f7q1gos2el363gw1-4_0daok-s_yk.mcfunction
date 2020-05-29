@@ -1,0 +1,3 @@
+execute if entity @a[scores={PJca2fPQlIGfiThu=0..}] run tellraw @a {"text": "Go on, get out!", "color": "dark_gray", "italic": true}
+execute if entity @a[scores={PJca2fPQlIGfiThu=1..}] run tellraw @a {"text": "Leave!", "color": "dark_gray", "italic": true}
+execute if entity @a[scores={PJca2fPQlIGfiThu=2..}] run tellraw @a {"text": "Don't come back 'til you're willing to respect my rights!", "color": "dark_gray", "italic": true}

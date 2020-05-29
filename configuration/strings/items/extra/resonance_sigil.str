@@ -1,0 +1,21 @@
+#include item_template
+#include item_holding_ids
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+ResonanceSigilItemID fishing_rod
+ResonanceSigilNameText Resonance Sigil
+ResonanceSigilNameColour yellow
+ResonanceSigilName <#ItemName$ResonanceSigilNameText$ResonanceSigilNameColour#>
+ResonanceSigilDescription <#LoreLine$An imprint upon your body to enable#>
+ResonanceSigilDescription <#LoreLine$sacrifice at a resonating crystal.#>
+ResonanceSigilDescription <#LoreLine$Use at the lyceum\'s central terrace#>
+ResonanceSigilDescription <#LoreLine$to prepare the crystal and beckon#>
+ResonanceSigilDescription <#LoreLine$forth your final challenger.#>
+ResonanceSigilTags Unbreakable:1b,HideFlags:4,Damage:4,HoldingID:<#ResonanceSigilHoldingID#>,CustomModelData:4
+
+ResonanceSigilDataTag display:{Name:"<#ResonanceSigilName#>",Lore:[<#ResonanceSigilDescription#>]},<#ResonanceSigilTags#>
+ResonanceSigil <#Item$ResonanceSigilItemID$ResonanceSigilDataTag#>

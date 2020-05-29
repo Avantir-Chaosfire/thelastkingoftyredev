@@ -1,0 +1,2 @@
+clear @a minecraft:egg{display:{Name:"{\"text\":\"Burning Salt\",\"color\":\"red\",\"italic\":false}"}} 1
+execute at @a at @e[tag=r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b,scores={bEDPcJnxv7RJYWIz=1..},distance=..4] positioned ~ ~1.3 ~ run function tlkot:qll_47-3nxlmtu3494nqz6t8ty6lnq2c6sys-w_4

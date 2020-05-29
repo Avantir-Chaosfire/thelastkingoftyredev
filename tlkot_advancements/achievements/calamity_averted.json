@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#BloodlettingKnifeItemID#>",
+			"nbt": "{<#BloodlettingKnifeDataTag#>}"
+		},
+		"title":
+		{
+			"text": "Calamity Averted"
+		},
+		"description": "Seal away the Devourer",
+		"frame": "task",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/relic_of_a_false_gods_birth",
+	"criteria":
+	{
+		"calamity_averted":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

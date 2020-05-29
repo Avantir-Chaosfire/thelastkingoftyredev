@@ -1,0 +1,9 @@
+#include attribute_modifiers
+#include versioned_tags
+#include items/accessories/shields/tower
+
+StarvingKnightCustomName ‘CustomName:"{\"text\":\"Starving Knight Reaper\"}"‘
+
+StarvingKnightHealth 85000
+
+StarvingKnightTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:7},{Name:generic.movementSpeed,Base:0.34},{Name:generic.followRange,Base:32}],ArmorItems:[{id:chainmail_boots,Count:1b,tag:{<#NoArmourModifier1#>}},{id:chainmail_leggings,Count:1b,tag:{<#NoArmourModifier2#>}},{id:iron_chestplate,Count:1b,tag:{<#NoArmourModifier3#>}},{}],HandItems:[{id:stone_hoe,Count:1b,tag:{<#NoDamageModifier1#>}},{id:shield,Count:1b,tag:{Damage:4}}],<#StarvingKnightCustomName#>,Tags:["Enemy.Knight-Starving",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.StarvingKnight","AI.ShieldBreaker","UsesHitScore"],Health:1000.0f‘

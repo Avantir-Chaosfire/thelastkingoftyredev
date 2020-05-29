@@ -1,0 +1,16 @@
+execute if entity @s[tag=0_md-wu3OZMPothopto_9IDBoOq+tGZ-1VveBlu-] run function tlkot:it717_gdfg9nzucg4bfiglmcfvh4lx582thzmixy
+execute if entity @s[tag=TmV.NSwTL_cyTd5rC_P71hBfaqQ6iHVbM-YX+iEh] run function tlkot:oacbiq_9z60pdrcjrhz0urumxt039ppyzmp8dnk0
+execute if entity @s[tag=WFvnZ7rs8FmuJkJFiDkzb+p56ELp3QNBH_fzEWky] run function tlkot:9r3t-0es880bajb9eyphcxwxdj4nzbgcb7567rih
+execute if entity @s[tag=NMRfsF_ExXxY5+JH8.fQojX06-xGWx1VTLTBc2QA] run function tlkot:qi0u38avth5u15s5r3fxlzzygqx379e36e525awe
+execute if entity @s[tag=quRxgOFZks_hA5kMW_CU9LomG1.UHbcQSYUp1XCE] run function tlkot:94afneujsvwnzpalmrawmi_-hhfyjqjbsbb8_0rt
+execute if entity @s[tag=H5at073qErxZZ7VdciTkRbM67vxh650Wb+AklN9A] run function tlkot:3otuwn06shnlwifcudxyuh0iq1whvsd_nb9oe5l8
+execute if entity @s[tag=0Bh10mBiV-UFDPoPlBjxbykf+rNPiy0K+ULYJcrc] run function tlkot:ew23ndgb18utwj-5a3e8iqoz6u9swox3n3iyjhpz
+execute if entity @s[tag=5OFzp8GeqyLkcPS.yjet7goLVEQk7GKq+U6mvWgD] run function tlkot:scv66-lxw2oicga3fay2d04o4cm4s4wre-fjrr4s
+execute if entity @s[tag=JZ0Rw1.i5ILJuu7hcQEFl4bCNeuuiziBVJrGH7J8] run function tlkot:2ddl26n8ucslo5uvdu7zj47j37thcrx7krpfzz59
+execute if entity @s[tag=DkpL_WxLBki+lroStBTTHAUJOTmnF6jeQnRltzz8] run function tlkot:s9dq6jn5tw5l9o1wt9noyfqq9-gpeyy4j1_9fotb
+execute if entity @s[tag=-JGdCSXXKd1-lYJjKxl_rqcLW0uFEO1.-KFuFvCI] run function tlkot:bd1ihp5jrtagw8yqmq7w-u83t2mseirrokfjbrxk
+execute if entity @s[tag=XjFrNDPS_J6BWhaNrA+-.z7MP2SZ953u_Xwnql44] run function tlkot:-0id5gnku-zeome85-7a_sq5igkka6wk6fbird0r
+execute if entity @s[tag=Kx-honUAQbGL769GDKIJDb-Lc9Oalis5og3DK0KM] run function tlkot:04unqujnu2b28niagh540dsicdgkaldgb7zlk446
+execute if entity @s[tag=s-4bMB2tByR9x.E1o-Dg8.MmO--pGsSYHP75RXph] run function tlkot:4-lt6nnni017pjsqbdhnbcywacv89zwqhkzzi1fv
+execute if entity @s[tag=vQmm0dHMVufyn4JKtDddaldQXA_WQODv2.egq61B] run function tlkot:igq-q436h9rvhuyenrayle-h7bhk9jpmdvliltmc
+execute if entity @s[tag=-QfruHB8kQ0MplOo6-xppCy1o1nTFDaDf.BBGygM] run function tlkot:jrw-7oq7iukkn6lcjd4dtpxhp02_73zarwbmelg6

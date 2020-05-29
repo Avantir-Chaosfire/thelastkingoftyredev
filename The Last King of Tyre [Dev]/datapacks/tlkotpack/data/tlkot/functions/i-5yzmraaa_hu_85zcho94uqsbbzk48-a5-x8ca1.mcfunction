@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 115
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Xinsu, the Quiet Guardian, resides in the forest, at the Circle of Stones, where you can destroy the crystals.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Xinsu, the Quiet Guardian, resides in the forest, at the Circle of Stones, where you can destroy the crystals.", "color": "white", "italic": true}

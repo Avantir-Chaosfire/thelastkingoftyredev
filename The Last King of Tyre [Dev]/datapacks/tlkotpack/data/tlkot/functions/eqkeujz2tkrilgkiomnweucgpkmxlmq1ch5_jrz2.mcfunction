@@ -1,0 +1,3 @@
+execute if entity @a if entity @e[tag=z2zJqPOTdsMZsf4QvcCrvBnR-Rx2UtDr_I7Kyh.l,tag=D7g8QCfsrS8LVp_uA1bjOv.4uJW9b-O3jNHgGZDC] run function tlkot:p1ggbgssvzpypf2piqdwtxxsegw8dsdzm1d2dtk7
+execute if entity @a[scores={Ws_rA1hA09l7asI9=0}] run function tlkot:as2k6vao9df38sc72555w0cai__2vl07rz2n-5kl
+execute if entity @a[tag=B07IYDUpD83iB8AVo3bW-_rf60+frzx62gp3dvXz] run function tlkot:c_i5zsise73-3cp40mxg699rlku2aatd0e5o0xab

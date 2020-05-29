@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Casting HQ Side Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Ixinik\'s casting division was quite","color":"gray"}','{"text":"small compared to the Subjugate, but","color":"gray"}','{"text":"they always prided themselves on","color":"gray"}','{"text":"their independence and openness.","color":"gray"}']}}

@@ -1,0 +1,2 @@
+execute as @e[type=vex,tag=!EnemyUnit] at @s run function tlkot:core/ai/subjugate_caster/make_projectile
+execute as @e[tag=AI.EnergyBall,tag=!Initialized] run function tlkot:core/ai/subjugate_caster/initialize_projectiles

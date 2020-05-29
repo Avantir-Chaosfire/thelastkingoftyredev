@@ -1,0 +1,20 @@
+#include attribute_modifiers
+#include versioned_tags
+
+DirtyCustomName ‘CustomName:"{\"text\":\"Dirty Reaper\"}"‘
+
+DirtyBootsHealth 36000
+
+DirtyBootsTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:2},{Name:generic.movementSpeed,Base:0.2}],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:5000268},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:0},<#NoArmourModifier2#>}},{},{}],<#DirtyCustomName#>,Tags:["Enemy.Dirty-Boots",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+
+DirtyChestHealth 36000
+
+DirtyChestTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:2},{Name:generic.movementSpeed,Base:0.2}],ArmorItems:[{},{id:leather_leggings,Count:1b,tag:{display:{color:0},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:0},<#NoArmourModifier3#>}},{}],<#DirtyCustomName#>,Tags:["Enemy.Dirty-Chest",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+
+DirtyHelmetHealth 36000
+
+DirtyHelmetTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:2},{Name:generic.movementSpeed,Base:0.2}],ArmorItems:[{},{id:"leather_leggings",Count:1b,tag:{display:{color:0},<#NoArmourModifier2#>}},{},{id:"leather_helmet",Count:1b,tag:{display:{color:0},<#NoArmourModifier4#>}}],<#DirtyCustomName#>,Tags:["Enemy.Dirty-Helmet",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+
+DirtyShovelHealth 36000
+
+DirtyShovelTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:4},{Name:generic.movementSpeed,Base:0.18}],ArmorItems:[{},{id:leather_leggings,Count:1b,tag:{display:{color:0},<#NoArmourModifier2#>}},{},{}],HandItems:[{id:"stone_shovel",Count:1b,tag:{<#NoDamageModifier1#>}},{}],<#DirtyCustomName#>,Tags:["Enemy.Dirty-Shovel",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘

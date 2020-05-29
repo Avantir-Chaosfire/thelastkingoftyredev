@@ -1,0 +1,2 @@
+execute if entity @a[scores={055RiSY9Fk0_GllY=0,K0E-Eg6I4gJ8ZIuS=1,Rwo6_F5b7htWKYHn=0}] run function tlkot:-id4hh83a18ak1vqvrms_fdmgc1yv1-nxe14_612
+execute unless entity @a[scores={055RiSY9Fk0_GllY=0,K0E-Eg6I4gJ8ZIuS=1,Rwo6_F5b7htWKYHn=0}] run tag @s remove COGO1--e45s9eFzp6nrqV4d924BMjLhRkJV.w-dn

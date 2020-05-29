@@ -1,0 +1,8 @@
+health_score		$ EnemyHealth		$ AI.HealthScore
+fish_counter		$ FishCounter		$ AI.Faithful
+ashen_fish_count	$ AshenFishCount	$ AI.Faithful
+hit			$ Hit			$ AI.IronGuard
+cast			$ Cast			$ AI.Caster
+dread_charges		$ DreadCharges		$ AI.Caster,tag=DreadScroll
+dread_charges_2		$ DreadCharges		$ AI.Caster,tag=GeneralDreadCaster
+version			$ Version		$ Versioned

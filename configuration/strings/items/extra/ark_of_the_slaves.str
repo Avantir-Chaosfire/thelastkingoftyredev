@@ -1,0 +1,19 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+ArkOfTheSlavesItemID dead_tube_coral_fan
+ArkOfTheSlavesNameText Ark of the Slaves
+ArkOfTheSlavesNameColour dark_gray
+ArkOfTheSlavesName <#ItemName$ArkOfTheSlavesNameText$ArkOfTheSlavesNameColour#>
+ArkOfTheSlavesDescription <#LoreLine$An ark that represents an#>
+ArkOfTheSlavesDescription <#LoreLine$involuntary covenant between free#>
+ArkOfTheSlavesDescription <#LoreLine$peoples, binding many to slavery. If#>
+ArkOfTheSlavesDescription <#LoreLine$you want to see those slaves free,#>
+ArkOfTheSlavesDescription <#LoreLine$then leave this alone.#>
+
+ArkOfTheSlavesDataTag display:{Name:"<#ArkOfTheSlavesName#>",Lore:[<#ArkOfTheSlavesDescription#>]},CanPlaceOn:["red_nether_bricks"],HideFlags:16
+ArkOfTheSlaves <#Item$ArkOfTheSlavesItemID$ArkOfTheSlavesDataTag#>

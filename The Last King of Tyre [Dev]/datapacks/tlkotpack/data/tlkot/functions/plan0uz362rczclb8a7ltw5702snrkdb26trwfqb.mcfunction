@@ -1,0 +1,2 @@
+execute if entity @a[x=27,y=159,z=71,distance=..32] run particle minecraft:dripping_water 27.5 159.5 71.5 0.3 0.2 0.3 0 1
+execute if entity @a[x=255,y=147,z=58,distance=..32] run particle minecraft:dripping_water 255.5 147.5 58.5 0.3 0.2 0.3 0 1

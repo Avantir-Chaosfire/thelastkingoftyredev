@@ -1,0 +1,2 @@
+execute if entity @s[scores={P5Victory=1..}] if entity @a[scores={P5Victory=1..}] run function tlkot:utility/summon_enemy/reaper/dirty/boots/main
+execute unless entity @s[scores={P5Victory=1..}] run function tlkot:utility/summon_enemy/reaper/dirty/boots/main

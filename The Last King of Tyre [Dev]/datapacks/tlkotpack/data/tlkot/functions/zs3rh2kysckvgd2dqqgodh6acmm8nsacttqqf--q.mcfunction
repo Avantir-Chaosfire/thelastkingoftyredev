@@ -1,0 +1,2 @@
+effect clear @e[tag=C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ,distance=..10] minecraft:resistance
+execute at @e[tag=uRJyAmmNl_dqCoo_97drKBOyRms17bEUW-o_I_Yq] run summon minecraft:creeper ~ ~1 ~ {ActiveEffects:[{Id:14b,Duration:32767,Amplifer:0,ShowParticles:0b}],Fuse:0s,CustomName:"{\"text\":\"Warden Ylsa (Undead)\"}",ExplosionRadius:3b}

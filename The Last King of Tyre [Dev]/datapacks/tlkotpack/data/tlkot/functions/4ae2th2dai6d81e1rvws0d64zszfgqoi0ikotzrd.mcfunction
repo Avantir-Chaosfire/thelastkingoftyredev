@@ -1,0 +1,4 @@
+execute as @e[type=armor_stand,name="Arrow Lane"] at @s run function tlkot:lr5n-gt-zgrq56xz2ff04ngjful2lbd07xbqbacq
+execute if entity @a[scores={H1qid1s1K.n6EXX8=5}] as @e[type=arrow,tag=PUFn.1Z+9w48OypZNjxGlgb9XV_dLj3isi3PrL1p] run function tlkot:eqxn1a3gp3jbgmhnamag2ed0qjk5myvsss4yyo4y
+execute if entity @a[scores={Dw4tKd4uxX-BLi6A=1}] at @e[type=arrow,tag=PUFn.1Z+9w48OypZNjxGlgb9XV_dLj3isi3PrL1p,tag=!Cjh-3ByMCrIp6iYWGwefvxm1CdIJh3uObctMLEFY,sort=random,limit=1] run playsound minecraft:entity.player.attack.sweep hostile @a ~ ~ ~ 1 1
+kill @e[type=arrow,tag=PUFn.1Z+9w48OypZNjxGlgb9XV_dLj3isi3PrL1p,x=497,y=40,z=85,dx=0,dy=1.2,dz=2]

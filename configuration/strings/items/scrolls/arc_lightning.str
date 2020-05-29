@@ -1,0 +1,56 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ArcLightningScrollItemID fishing_rod
+ArcLightningScrollNameText Arc Lightning Scroll, Class 3
+ArcLightningScrollNameColour dark_aqua
+ArcLightningScrollName <#ItemName$ArcLightningScrollNameText$ArcLightningScrollNameColour#>
+ArcLightningScrollDescription <#LoreLine$A task ordinarily difficult made easy#>
+ArcLightningScrollDescription <#LoreLine$through the precise implementation of#>
+ArcLightningScrollDescription <#LoreLine$the Subjugate\'s research.#>
+ArcLightningScrollDescription <#StatsLine#>
+ArcLightningScrollStats <#LoreLine$Call For a Lightning Strike#>
+
+ArcLightningScrollDataTag display:{Name:"<#ArcLightningScrollName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:8,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
+ArcLightningScroll <#Item$ArcLightningScrollItemID$ArcLightningScrollDataTag#>
+
+ArcLightningScrollActiveNameText <#ArcLightningScrollNameText#> (Active)
+ArcLightningScrollActiveName <#ItemName$ArcLightningScrollActiveNameText$ArcLightningScrollNameColour#>
+
+ArcLightningScrollActiveDataTag display:{Name:"<#ArcLightningScrollActiveName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:24,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
+ArcLightningScrollActive <#Item$ArcLightningScrollItemID$ArcLightningScrollActiveDataTag#>
+
+ArcLightningWill0Cost 7
+ArcLightningWill1Cost 6
+ArcLightningWill2Cost 6
+ArcLightningWill3Cost 5
+ArcLightningWill4Cost 5
+ArcLightningWill5Cost 4
+
+ArcLightningWill0Time 12
+ArcLightningWill1Time 12
+ArcLightningWill2Time 12
+ArcLightningWill3Time 12
+ArcLightningWill4Time 12
+ArcLightningWill5Time 12
+
+ArcLightningWill0TimeIncrease 6
+ArcLightningWill1TimeIncrease 5
+ArcLightningWill2TimeIncrease 4
+ArcLightningWill3TimeIncrease 3
+ArcLightningWill4TimeIncrease 2
+ArcLightningWill5TimeIncrease 1
+
+ArcLightningYawTags ‘Invulnerable:1b,NoGravity:1b,Tags:["Trigonometry","Yaw","Boat"],Passengers:[{id:"minecraft:armor_stand",Invulnerable:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["Trigonometry","Yaw","FrontPassenger"]},{id:"minecraft:armor_stand",Invulnerable:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["Trigonometry","Yaw","BackPassenger"]}]‘
+
+ArcLightningPitchTags ‘Invulnerable:1b,NoGravity:1b,Tags:["Trigonometry","Pitch","Boat"],Passengers:[{id:"minecraft:armor_stand",Invulnerable:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["Trigonometry","Pitch","FrontPassenger"]},{id:"minecraft:armor_stand",Invulnerable:1b,Invisible:1b,NoGravity:1b,Marker:1b,Tags:["Trigonometry","Pitch","BackPassenger"]}]‘
+
+ArcLightningMarkerTags ‘Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b,Tags:["ArcLightningMarker","LightningVersioned","SetLightningVersion"]‘
+ArcLightningLookingMarkerTags ‘Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b,Tags:["ArcLightningLookingMarker"]‘
+
+LightningBolt ‘Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b,Tags:["ArcLightningMarker","HasAI","AI.ElectricCharge"]‘

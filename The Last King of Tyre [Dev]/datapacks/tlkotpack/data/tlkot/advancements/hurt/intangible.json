@@ -1,0 +1,1 @@
+{"criteria": {"hurt_intangible": {"trigger": "minecraft:player_hurt_entity", "conditions": {"entity": {"nbt": "{Tags:[\"JegP_svr+UQzKtr.DSw7xZF1m74fUILjgtwk0iFC\"]}"}}}}, "rewards": {"function": "tlkot:ubfd6lw6zrlzv9xs0uer4_mg2okc36c3xr_60ja0"}}

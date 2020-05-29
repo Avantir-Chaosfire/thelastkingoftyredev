@@ -1,0 +1,1 @@
+execute if entity @a[x=496,y=83,z=345,dx=7,dy=2,dz=2,nbt={OnGround:1b}] run fill 496 82 345 503 82 347 minecraft:air destroy

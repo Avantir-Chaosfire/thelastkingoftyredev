@@ -1,0 +1,1 @@
+#class execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#RadiantPlate<2>Name#>"}}}]}] run function tlkot:core/shade/dull/<0>/main

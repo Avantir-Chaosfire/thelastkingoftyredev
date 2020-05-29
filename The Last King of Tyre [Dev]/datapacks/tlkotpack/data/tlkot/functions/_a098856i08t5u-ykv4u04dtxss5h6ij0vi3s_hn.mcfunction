@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 114
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Circle back around to proceeed forward through the archway six times before continuing along the path.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Circle back around to proceeed forward through the archway six times before continuing along the path.", "color": "white", "italic": true}

@@ -1,0 +1,17 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+BlankScrollItemID paper
+BlankScrollNameText Blank Scroll
+BlankScrollNameColour white
+BlankScrollName <#ItemName$BlankScrollNameText$BlankScrollNameColour#>
+BlankScrollDescription <#LoreLine$A blank scroll, prepped and ready#>
+BlankScrollDescription <#LoreLine$to be imprinted upon.#>
+
+BlankScrollDataTag display:{Name:"<#BlankScrollName#>",Lore:[<#BlankScrollDescription#>]},HoldingID:<#BlankScrollHoldingID#>
+BlankScroll <#Item$BlankScrollItemID$BlankScrollDataTag#>

@@ -1,0 +1,153 @@
+#include npcs/tags
+#include npcs/shops/daluri_of_ixinik
+
+#join compendium <Newline>
+#join functions <Newline>
+
+DaluriIDTag DaluriOfIxinik
+DaluriBaseTags <#CommonNPCTags$taiga$leatherworker#>,Tags:["<#DaluriIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Daluri of Ixinik\"}"
+
+DaluriTags <#DaluriBaseTags#>,Offers:{Recipes:[<#DaluriRecipes#>]}
+DaluriRefusalTags <#DaluriBaseTags#>
+DaluriExpensiveTags <#DaluriBaseTags#>,Offers:{Recipes:[<#DaluriExpensiveRecipes#>]}
+
+DaluriColour aqua
+DaluriLocation 45.643 169 73.505
+DaluriEngageRadius 6] if entity @a[x=34,y=168,z=71,dx=16,dy=3,dz=16
+DaluriDisengageRadius 13
+
+DaluriMeetID 0
+DaluriMeetLines			0	$ 23	$ Oh! $
+DaluriMeetLines			1	$ 65	$ You're... not here to kill me. $
+DaluriMeetLines			2	$ 47	$ Goodness... $
+DaluriMeetLines			3	$ 35	$ ...  $
+DaluriMeetLines			4	$ 57	$ So, you can survive the reapers? $
+DaluriMeetLines			5	$ 117	$ Perhaps, then, something can be done, by you, though you wouldn't be the first to try. $
+DaluriMeetLines			6	$ 78	$ Also, I have items for you to purchase, if you like. $
+
+DaluriGoodGreetID 1
+DaluriGoodGreetLines		0	$ 41	$ Welcome, warrior. $
+
+DaluriBadGreetID 2
+DaluriBadGreetLines		0	$ 38	$ Back §lagain§b§o? $
+DaluriBadGreetLines		1	$ 66	$ You've already caused enough trouble! $
+
+DaluriThanksID 3
+DaluriThanksLines		0	$ 90	$ Your soul... You have grown stronger last we met. $
+DaluriThanksLines		1	$ 90	$ You've a true purpose now, slaying the reapers... $
+DaluriThanksLines		2	$ 89	$ You... You're actually trying to save me- Save us? $
+DaluriThanksLines		3	$ 86	$ And you're actually making a... a difference? $
+DaluriThanksLines		4	$ 54	$ I don't... Thank you. $
+DaluriThanksLines		5	$ 62	$ Even if you don't succeed, thank you. $
+DaluriThanksLines		6	$ 53	$ I could never, I would never- $
+DaluriThanksLines		7	$ 57	$ But I'm glad there's one who does. $
+
+DaluriUncomfortableID 4
+DaluriUncomfortableLines	0	$ 63	$ Um... That's a bit too close. $
+DaluriUncomfortableLines	1	$ 60	$ Can you give me some space, please? $
+
+DaluriIntrusionID 5
+DaluriIntrusionLines		0	$ 29	$ Wha- Hey! $
+DaluriIntrusionLines		1	$ 53	$ That's not your room, get out! $
+DaluriIntrusionLines		2	$ 69	$ Don't you dare think of touching my stuff! $
+
+DaluriWaryID 6
+DaluriWaryLines			0	$ 41	$ Touched nothing? $
+DaluriWaryLines			1	$ 38	$ A likely story. $
+DaluriWaryLines			2	$ 35	$ Now get lost! $
+DaluriWaryLines			3	$ 60	$ I need to check in on §lmy§b§o things. $
+
+DaluriPardonID 7
+DaluriPardonLines		0	$ 78	$ So it was just an 'accident', not a robbery attempt? $
+DaluriPardonLines		1	$ 26	$ Hmph. $
+DaluriPardonLines		2	$ 89	$ I'll let you off the hook this time, but really, boundaries! $
+
+DaluriAccusationID 8
+DaluriAccusationLines		0	$ 29	$ Bandit! $
+DaluriAccusationLines		1	$ 57	$ You've shown your true face now. $
+DaluriAccusationLines		2	$ 77	$ Best be willing to pay a steep price from now on. $
+DaluriAccusationLines		3	$ 87	$ I don't care if this is a reaping, I need things to live too! $
+
+DaluriEvangelistsID 9
+DaluriEvangelistsLines		0	$ 59	$ Yes, they arrived recently... $
+DaluriEvangelistsLines		1	$ 88	$ But before they did, before I moved up here, when I had some friends down below- $
+DaluriEvangelistsLines		2	$ 95	$ We could hear the undead whisper at night, whisper about a prophet in Ixinik's depths. $
+DaluriEvangelistsLines		3	$ 58	$ They say he preaches the word of the Cocoon! $
+DaluriEvangelistsLines		4	$ 58	$ ...You don't know what that is? $
+DaluriEvangelistsLines		5	$ 64	$ It's the source of the reapers, the root of all evil. $
+DaluriEvangelistsLines		6	$ 59	$ It was behind both this reaping, and the last! $
+DaluriEvangelistsLines		7	$ 100	$ Those evangelists down there, I can hear them whisper, but I can never quite hear the words. $
+DaluriEvangelistsLines		8	$ 53	$ But, even here, I can feel them, can't you? $
+DaluriEvangelistsLines		9	$ 63	$ The Daugh communion, rapturous... $
+DaluriEvangelistsLines		10	$ 36	$ But resist, resist! $
+DaluriEvangelistsLines		11	$ 47	$ Else, soon, you'll be a reaper too! $
+
+DaluriSunID 10
+DaluriSunLines			0	$ 87	$ The sun rises and sets, as it always has, but now each time slower than before. $
+DaluriSunLines			1	$ 80	$ Likely another working of the Cocoon and its blasphemous prophet! $
+
+DaluriNewHoiroID 11
+DaluriNewHoiroLines		0	$ 67	$ New Hoiro, it was the first city built here in E'Siraph. $
+DaluriNewHoiroLines		1	$ 86	$ Named, of course, for the old city of Hoiro, where the first reaping ravaged. $
+DaluriNewHoiroLines		2	$ 102	$ When this second reaping began, for a whole fortnight New Hoiro was beseiged by the reapers. $
+DaluriNewHoiroLines		3	$ 75	$ At the end, the gates opened as the Queen of New Hoiro was slain. $
+DaluriNewHoiroLines		4	$ 47	$ But opened not by the guards, no. $
+DaluriNewHoiroLines		5	$ 92	$ It's only ever a matter of time before the ones hiding become reapers themselves. $
+DaluriNewHoiroLines		6	$ 36	$ How long have I got? $
+DaluriNewHoiroLines		7	$ 43	$ Don't know... $
+DaluriNewHoiroLines		8	$ 58	$ Depends how long I can stay determined for. $
+
+DaluriWhatID 12
+DaluriWhatLines			0	$ 53	$ Before the reapers swarmed the city, $
+DaluriWhatLines			1	$ 93	$ The Last King of Tyre and his personal caster, Darmraug the Hunter, passed through. $
+DaluriWhatLines			2	$ 61	$ They were looking for sacrifices of some sort- $
+DaluriWhatLines			3	$ 54	$ I didn't volunteer, of course, who would? $
+DaluriWhatLines			4	$ 36	$ But, they had a plan. $
+DaluriWhatLines			5	$ 68	$ If anyone knows how to stop the reaping, it must be them. $
+DaluriWhatLines			6	$ 51	$ By now, they're probably back in Tyre. $
+DaluriWhatLines			7	$ 46	$ That's straight down, you know. $
+DaluriWhatLines			8	$ 37	$ Tyre, right below us. $
+DaluriWhatLines			9	$ 100	$ There's only one real path there, in the cave just northwest of here, towards the bell tower. $
+DaluriWhatLines			10	$ 82	$ If it's blocked, you'll likely need to pass through Ixinik's Casting Lab. $
+DaluriWhatLines			11	$ 80	$ Of course, you could always just hide away like I do... $
+DaluriWhatLines			12	$ 51	$ It's safer, and life's longer that way. $
+
+DaluriNewProphetID 13
+DaluriNewProphetLines		0	$ 77	$ You killed him, but- Just his body, not his spirit! $
+DaluriNewProphetLines		1	$ 41	$ I can't believe it. $
+DaluriNewProphetLines		2	$ 77	$ You actually side with the Cocoon... $
+DaluriNewProphetLines		3	$ 26	$ Evil! $
+DaluriNewProphetLines		4	$ 39	$ Monstrous evil! $
+DaluriNewProphetLines		5	$ 42	$ That's what you are! $
+DaluriNewProphetLines		6	$ 42	$ Begone, foul demon! $
+DaluriNewProphetLines		7	$ 29	$ BEGONE! $
+
+DaluriSilenceID 14
+
+DaluriActionbarDiscussions 	meet		$ <#DaluriMeetID#>		$ Meet
+DaluriActionbarDiscussions 	good_greet	$ <#DaluriGoodGreetID#>	$ GoodGreet
+DaluriActionbarDiscussions 	bad_greet	$ <#DaluriBadGreetID#>		$ BadGreet
+DaluriActionbarDiscussions 	thanks		$ <#DaluriThanksID#>		$ Thanks
+DaluriActionbarDiscussions 	uncomfortable	$ <#DaluriUncomfortableID#>	$ Uncomfortable
+DaluriActionbarDiscussions 	intrusion	$ <#DaluriIntrusionID#>	$ Intrusion
+DaluriActionbarDiscussions 	wary		$ <#DaluriWaryID#>		$ Wary
+DaluriActionbarDiscussions 	pardon		$ <#DaluriPardonID#>		$ Pardon
+DaluriActionbarDiscussions 	accusation	$ <#DaluriAccusationID#>	$ Accusation
+DaluriActionbarDiscussions 	new_prophet	$ <#DaluriNewProphetID#>	$ NewProphet
+
+DaluriChatLogDiscussions 	evangelists	$ <#DaluriEvangelistsID#>	$ Evangelists
+DaluriChatLogDiscussions 	sun		$ <#DaluriSunID#>		$ Sun
+DaluriChatLogDiscussions 	new_hoiro	$ <#DaluriNewHoiroID#>		$ NewHoiro
+DaluriChatLogDiscussions 	what		$ <#DaluriWhatID#>		$ What
+
+DaluriDialoguePrompt {<#DialoguePromptOption$Daluri$DaluriWhat$What can I do?#>,"extra":[{<#DialoguePromptOption$Daluri$DaluriEvangelists$Evangelists?#>},{<#DialoguePromptOption$Daluri$DaluriSun$The Sun?#>},{<#DialoguePromptOptionFinal$Daluri$DaluriNewHoiro$New Hoiro?#>}]}
+
+DaluriUncomfortableArea distance=..1.5
+DaluriBackroomArea x=38,y=164,z=72,dx=8,dy=3,dz=4
+DaluriWaryArea x=45,y=170,z=71,dx=2,dy=0,dz=2
+
+DaluriStashLocation 0 $ 46 164 73
+DaluriStashLocation 1 $ 43 164 76
+DaluriStashLocation 2 $ 42 164 76
+DaluriStashLocation 3 $ 38 164 73
+DaluriStashLocation 4 $ 38 164 72

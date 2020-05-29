@@ -1,0 +1,1 @@
+#class execute if entity @a[scores={ShadeRound=<0>}] run function tlkot:<~>/<0>/main

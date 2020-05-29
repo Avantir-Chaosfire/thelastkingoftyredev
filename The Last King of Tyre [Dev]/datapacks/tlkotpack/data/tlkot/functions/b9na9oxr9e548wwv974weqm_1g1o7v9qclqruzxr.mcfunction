@@ -1,0 +1,3 @@
+scoreboard players set @a iLssNGWZGo1tm_SW 111
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "I don't understand the precise meaning, but I think for Gesthiel the Grey, it would be proof he wasn't mad.", "color": "white", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "I don't understand the precise meaning, but I think for Gesthiel the Grey, it would be proof he wasn't mad.", "color": "white", "italic": true}

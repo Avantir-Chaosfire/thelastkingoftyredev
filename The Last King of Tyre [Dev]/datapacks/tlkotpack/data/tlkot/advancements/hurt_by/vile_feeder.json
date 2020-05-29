@@ -1,0 +1,1 @@
+{"criteria": {"hurt_by_vile_feeder": {"trigger": "minecraft:entity_hurt_player", "conditions": {"damage": {"blocked": false, "source_entity": {"nbt": "{Tags:[\"2w02RjjEgLeI4YWkuesgp.SI8+llEsyf5r3hoGxB\"]}"}}}}}, "rewards": {"function": "tlkot:pm97q0ks5pc2rmix8f99azfbrkdgvq8newj78fct"}}

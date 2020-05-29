@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={EndingTalk=<#EndingDialoguePurgeReapersID#>..}] EndingLine 0
+execute at @a run playsound minecraft:ambient.rumbling_boom ambient @a[scores={EndingTalk=<#EndingDialoguePurgeReapersID#>..}] ~ ~ ~ 1000 2 1

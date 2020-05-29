@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 135
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Yes, even if all humans still lived on the southern continent and never crossed the stormy sea,", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Yes, even if all humans still lived on the southern continent and never crossed the stormy sea,", "color": "white", "italic": true}

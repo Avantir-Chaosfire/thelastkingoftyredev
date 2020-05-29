@@ -1,0 +1,3 @@
+tag @s remove rBSfQ7bIwrhsuCdfAdr9Y0-QExqe.EKQ6wgq1BIq
+execute anchored eyes run summon minecraft:armor_stand ^0.35 ^-0.4 ^0.5 {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz","Z4Za8D4ct9M3aonFPnPeVuRPc.ez7n5Ut9hZ5kg1","TZWPqA7axzq7930I2X7iapmjsj9ZRQaNnKaNf19+","6B+5nLuSHVXS7NRWQaUzZB2k.HlSzcH1uIfj.4BQ"]}
+execute as @e[tag=Z4Za8D4ct9M3aonFPnPeVuRPc.ez7n5Ut9hZ5kg1,tag=TZWPqA7axzq7930I2X7iapmjsj9ZRQaNnKaNf19+,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] at @s run function tlkot:auwf1y3ernqc1pycjruttvu8_l_jxayy05wxv_yn

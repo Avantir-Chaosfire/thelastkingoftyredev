@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:campfire"}, "title": {"text": "A Light in the Dark"}, "description": "Meet the Survivors of the Seven Lakes", "frame": "task"}, "parent": "tlkot:achievements/root", "criteria": {"a_light_in_the_dark": {"trigger": "minecraft:impossible"}}}

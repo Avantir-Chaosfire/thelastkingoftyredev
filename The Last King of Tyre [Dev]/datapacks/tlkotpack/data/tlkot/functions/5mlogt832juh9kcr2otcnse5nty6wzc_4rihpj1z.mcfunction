@@ -1,0 +1,3 @@
+scoreboard players set @a 51-F_zRtwqnlordZ 114
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "...A short time after I moved the crystal, and he left, I heard things from the nearby tunnels.", "color": "white", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "...A short time after I moved the crystal, and he left, I heard things from the nearby tunnels.", "color": "white", "italic": true}

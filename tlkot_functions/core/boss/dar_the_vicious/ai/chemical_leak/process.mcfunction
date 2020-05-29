@@ -1,0 +1,1 @@
+#class execute if entity @s[y_rotation=<1>..<2>] run function tlkot:<~>/<0>/main

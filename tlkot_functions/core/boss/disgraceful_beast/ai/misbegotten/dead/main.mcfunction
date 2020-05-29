@@ -1,0 +1,2 @@
+execute if entity @s[tag=Weak] unless entity @e[tag=Misbegotten,tag=Weak,distance=..1] run function tlkot:<~>/common
+execute if entity @s[tag=Strong] unless entity @e[tag=Misbegotten,tag=Strong,distance=..2.4] run function tlkot:<~>/strong

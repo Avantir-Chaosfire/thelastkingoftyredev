@@ -1,0 +1,4 @@
+depths_bastille		$ DepthsBastille	$ 0.0d,0.0d,-2.1d	$ 481 133.5 101		$ 480 133.5 101		$ 479 133.5 101
+new_hoiro_wall		$ NewHoiroWall		$ 2.1d,0.0d,0.0d	$ 576 120.5 481		$ 576 120.5 480		$ 576 120.5 479
+shield_tutorial_lower	$ ShieldTutorialLower	$ 2.1d,0.0d,0.0d	$ -370 179.5 330	$ -370 179.5 329	$ -370 179.5 328
+cavern_arena		$ CavernArena		$ 0.0d,0.0d,2.1d	$ 452 103.5 256		$ 453 103.5 256		$ 454 103.5 256

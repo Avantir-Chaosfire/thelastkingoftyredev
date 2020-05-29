@@ -1,0 +1,3 @@
+tp @s[tag=!jh+MlfcpE1B.6xcTRo90XY6sC.WWkyl63QRei8lu] @a[limit=1]
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Death Sigil\",\"color\":\"dark_gray\",\"italic\":false}"}}}}] run function tlkot:xzp-zgt99fz3ohncqy03heaeeuri7yuvl6a8tfos
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Soul Key\",\"color\":\"gold\",\"italic\":false}"}}}}] run function tlkot:fu6iwfbmpahko1hol8x6w-_1t40e-8tyoxftarq6

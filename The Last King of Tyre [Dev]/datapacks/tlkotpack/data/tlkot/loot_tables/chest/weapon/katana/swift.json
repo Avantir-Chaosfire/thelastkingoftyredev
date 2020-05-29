@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:stone_sword",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Swift Katana\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A sword of great quality and speed.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 17\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 5\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.8s\",\"color\":\"gray\"}','{\"text\":\"Cleave I\",\"color\":\"gray\"}','{\"text\":\"+10% Movement Speed\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:16,Operation:0,UUIDLeast:55742,UUIDMost:8745588,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Operation:1,Amount:0.1,UUIDLeast:367,UUIDMost:400672,Slot:\"mainhand\"}],HideFlags:6,HoldingID:9}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2 @@
+execute if entity @a[scores={WhiteNPCSpeech=0}] run function tlkot:utility/interrupt/<0>/<\0>/regular
+execute if entity @a[scores={WhiteNPCSpeech=1}] run function tlkot:utility/interrupt/<0>/<\0>/white

@@ -1,0 +1,3 @@
+execute if entity @a[x=37.0,y=246,z=309,distance=..12,scores={ZYfjBnR5YFekZV+A=-1,tuOydgnmaaQ6LHx_=-1}] run function tlkot:q2o_ep47zdon_re5g4dki_bgsbd45_tfyaq3-r1u
+execute unless entity @a[x=37.0,y=246,z=309,distance=..12] if entity @a[scores={ZYfjBnR5YFekZV+A=0..}] run function tlkot:5xzh6msa19go04t9svv11qr36mhom58wj9-wmg4t
+execute at @a[scores={ZYfjBnR5YFekZV+A=0..}] run function tlkot:mfgg1b13i3l-4edwxsmug5riig-a8y2i09fea-ki

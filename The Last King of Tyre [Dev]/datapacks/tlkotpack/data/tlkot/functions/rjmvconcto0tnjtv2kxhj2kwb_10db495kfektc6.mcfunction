@@ -1,0 +1,1 @@
+execute if entity @s[scores={O8_SaEwsXPZBUZv3=..0}] positioned ~ ~1.8 ~ as @e[tag=yX-HE+a3IgfUa23J5hRZdPheWhTaeZJxJXlB7HKC,distance=..1] run function tlkot:xdai6ia2zf6mqcobg_uqylkvlg7zrc-v8uc9d0-6

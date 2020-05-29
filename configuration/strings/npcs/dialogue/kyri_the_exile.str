@@ -1,0 +1,121 @@
+#include npcs/tags
+#include npcs/shops/kyri_the_exile
+
+#join compendium <Newline>
+#join functions <Newline>
+
+KyriIDTag KyriTheExile
+KyriBaseTags <#CommonNPCTags$savanna$leatherworker#>,Tags:["<#KyriIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Kyri the Exile\"}"
+
+KyriTags <#KyriBaseTags#>,Offers:{Recipes:[<#KyriRecipes#>]}
+KyriRefusalTags <#KyriBaseTags#>
+
+KyriColour dark_aqua
+KyriLocation 230.359 58 17.541
+KyriEngageRadius 6
+KyriDisengageRadius 13
+
+KyriMeetID 0
+KyriMeetLines			0	$ 63	$ Journeying into the Depths, are you? $
+KyriMeetLines			1	$ 30	$ Careful. $
+KyriMeetLines			2	$ 90	$ This is one of the few places in E'Siraph that reapers fear. $
+KyriMeetLines			3	$ 53	$ That's no good thing either. $
+KyriMeetLines			4	$ 123	$ These people kill everything that comes their way, everything they don't recognize. $
+KyriMeetLines			5	$ 66	$ And they won't recognize you, will they? $
+
+KyriGreetID 1
+KyriGreetLines			0	$ 48	$ You're still alive I see. $
+
+KyriWhoID 2
+KyriWhoLines			0	$ 33	$ My name is Kyri. $
+KyriWhoLines			1	$ 53	$ I'm an undead, just like those outside. $
+KyriWhoLines			2	$ 56	$ We're not reapers, we can't become reapers. $
+KyriWhoLines			3	$ 85	$ But some days, looking at my friends and family out there... $
+KyriWhoLines			4	$ 61	$ I wonder if, maybe, it would be better if we could. $
+
+KyriUndeadID 3
+KyriUndeadLines			0	$ 49	$ Everyone in the depths was bound. $
+KyriUndeadLines			1	$ 118	$ Shortly before the reapers began to make their way down here, just after the sun began to slow... $
+KyriUndeadLines			2	$ 73	$ A caster, a man of the Subjugate, named Gesthiel the Grey, came. $
+KyriUndeadLines			3	$ 29	$ He bound us. $
+KyriUndeadLines			4	$ 50	$ Bound all of our souls to the earth. $
+KyriUndeadLines			5	$ 48	$ Now, we cannot die, cannot move on. $
+KyriUndeadLines			6	$ 79	$ Pain and loss remain all too real, and soon enough it drives you mad. $
+KyriUndeadLines			7	$ 47	$ I... I am the last. $
+KyriUndeadLines			8	$ 58	$ Soon I too, will be little more than lost ash. $
+
+KyriEvangelistsFirstID 4
+KyriEvangelistsFirstLines	0	$ 22	$ Oh? $
+KyriEvangelistsFirstLines	1	$ 51	$ You've seen those traitors, have you? $
+KyriEvangelistsFirstLines	2	$ 71	$ Do you know who... what, created the reapers? $
+
+KyriEvangelistsYesID 5
+KyriEvangelistsYesLines	0	$ 58	$ Then you know what the 'Evangelists' preach. $
+KyriEvangelistsYesLines	1	$ 36	$ A message of death. $
+
+KyriEvangelistsNoID 6
+KyriEvangelistsNoLines		0	$ 29	$ The Cocoon. $
+KyriEvangelistsNoLines		1	$ 67	$ It lives far away, in the ruins of our old city of Hoiro. $
+KyriEvangelistsNoLines		2	$ 88	$ When you give up, when you have no hope, no strength, no will left, your soul dies. $
+KyriEvangelistsNoLines		3	$ 47	$ And when your soul dies, you die. $
+KyriEvangelistsNoLines		4	$ 59	$ But reapers are different... $
+KyriEvangelistsNoLines		5	$ 79	$ They gave up the last of their strength, hope... life. $
+KyriEvangelistsNoLines		6	$ 65	$ They gave it to the Cocoon. $
+KyriEvangelistsNoLines		7	$ 65	$ And so now, it §lowns§3§o them. $
+KyriEvangelistsNoLines		8	$ 58	$ The Evangelists preach a message of death. $
+
+KyriEvangelistsSecondID 7
+KyriEvangelistsSecondLines	0	$ 82	$ Words to appease my fellow undead, and to get the last humans to give in. $
+KyriEvangelistsSecondLines	1	$ 55	$ They are enlisted by the 'Saviour' Moses. $
+KyriEvangelistsSecondLines	2	$ 59	$ He... was once a friend of mine. $
+KyriEvangelistsSecondLines	3	$ 66	$ The Subjugate captured him for their experiments. $
+KyriEvangelistsSecondLines	4	$ 39	$ But that was years ago. $
+KyriEvangelistsSecondLines	5	$ 66	$ Since then, it seems he has Communed with the Cocoon. $
+KyriEvangelistsSecondLines	6	$ 47	$ When the reapers came, so did he. $
+
+KyriAshenFishID 8
+KyriAshenFishLines		0	$ 42	$ Yes, be very wary of those. $
+KyriAshenFishLines		1	$ 84	$ They serve as a charm of sorts, a reminder of the message of Saviour Moses. $
+KyriAshenFishLines		2	$ 84	$ But he also uses them as a tool to defend his loyal undead from attackers. $
+KyriAshenFishLines		3	$ 75	$ Attackers, be they reapers... or people like you. $
+KyriAshenFishLines		4	$ 56	$ Never underestimate the power of a lich. $
+KyriAshenFishLines		5	$ 69	$ Saviour Moses may not be a lich, but he's not so different. $
+
+KyriMosesDeathID 9
+KyriMosesDeathLines		0	$ 25	$ Truly? $
+KyriMosesDeathLines		1	$ 51	$ Thank you for that... $
+KyriMosesDeathLines		2	$ 69	$ Perhaps, just maybe, I can find some peace here after all. $
+
+KyriNewProphetID 10
+KyriNewProphetLines		0	$ 29	$ Wha- Hey! $
+KyriNewProphetLines		1	$ 38	$ What did you do?! $
+KyriNewProphetLines		2	$ 57	$ I've felt that foul aura before. $
+KyriNewProphetLines		3	$ 66	$ You became the Cocoon's §lNew Prophet§3§o? $
+KyriNewProphetLines		4	$ 57	$ What the HELL is wrong with YOU?! $
+KyriNewProphetLines		5	$ 81	$ You went to all the effort of killing that monster, $
+KyriNewProphetLines		6	$ 77	$ And you can't even bother to make it meaningful! $
+KyriNewProphetLines		7	$ 41	$ What was he to you? $
+KyriNewProphetLines		8	$ 36	$ Just a trophy? $
+KyriNewProphetLines		9	$ 57	$ Or was this your plan all along? $
+KyriNewProphetLines		10	$ 36	$ Go rot in hell. $
+
+KyriSilenceID 11
+
+KyriActionbarDiscussions 	meet			$ <#KyriMeetID#>		$ Meet
+KyriActionbarDiscussions 	greet			$ <#KyriGreetID#>		$ Greet
+KyriActionbarDiscussions 	new_prophet		$ <#KyriNewProphetID#>		$ NewProphet
+
+KyriChatLogDiscussions 	who			$ <#KyriWhoID#>			$ Who
+KyriChatLogDiscussions 	undead			$ <#KyriUndeadID#>		$ Undead
+KyriChatLogDiscussions 	evangelists_first	$ <#KyriEvangelistsFirstID#>	$ EvangelistsFirst
+KyriChatLogDiscussions 	evangelists_yes		$ <#KyriEvangelistsYesID#>	$ EvangelistsYes
+KyriChatLogDiscussions 	evangelists_no		$ <#KyriEvangelistsNoID#>	$ EvangelistsNo
+KyriChatLogDiscussions 	evangelists_second	$ <#KyriEvangelistsSecondID#>	$ EvangelistsSecond
+KyriChatLogDiscussions 	ashen_fish		$ <#KyriAshenFishID#>		$ AshenFish
+KyriChatLogDiscussions 	moses_death		$ <#KyriMosesDeathID#>		$ MosesDeath
+
+KyriBaseDialoguePrompt {<#DialoguePromptOption$Kyri$KyriWho$Who are you?#>,"extra":[{<#DialoguePromptOption$Kyri$KyriUndead$Undead?#>},{<#DialoguePromptOption$Kyri$KyriEvangelistsFirst$Evangelists?#>},{<#DialoguePromptOptionFinal$Kyri$KyriAshenFish$Ashen Fish?#>}]}
+
+KyriMosesDeathDialoguePrompt {<#DialoguePromptOptionFinal$Kyri$KyriMosesDeath$Saviour Moses is dead.#>}
+
+KyriYesNoDialoguePrompt {<#DialoguePromptOption$Kyri$KyriEvangelistsYes$Yes#>,"extra":[{<#DialoguePromptOptionFinal$Kyri$KyriEvangelistsNo$No#>}]}

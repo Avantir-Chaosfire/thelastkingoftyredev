@@ -1,0 +1,74 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+FormlessVoiceColour gray
+FormlessVoiceLocation 11.5 67 271.5
+FormlessVoiceEngageRadius 20
+FormlessVoiceDisengageRadius 29
+
+FormlessVoiceMeetID 1
+FormlessVoiceMeetLines		0	$ 47	$ You there... $
+FormlessVoiceMeetLines		1	$ 60	$ Wait, I, the Formless Voice, am here. $
+FormlessVoiceMeetLines		2	$ 66	$ Here to help guide you along your path. $
+FormlessVoiceMeetLines		3	$ 147	$ Tell me, brave one, when you were first pulled from the void between worlds, did you, perchance, hear a voice? $
+FormlessVoiceMeetLines		4	$ 90	$ That voice belongs to the Ageless One, both my ally and foe. $
+FormlessVoiceMeetLines		5	$ 128	$ We, the Emissaries of Kirion, have haunted this land since before the day of its founding. $
+FormlessVoiceMeetLines		6	$ 101	$ I seek to protect E'Siraph, to protect its people, as I hope you do too. $
+FormlessVoiceMeetLines		7	$ 101	$ But the second reaping threatens the extinction of these people. $
+FormlessVoiceMeetLines		8	$ 137	$ Few survive onshore, but hundreds float offshore, waiting for the end, an end that may never come. $
+FormlessVoiceMeetLines		9	$ 99	$ The second reaping began deep below, in a place of riches and fire. $
+FormlessVoiceMeetLines		10	$ 65	$ But the reaping's origins matter not. $
+FormlessVoiceMeetLines		11	$ 72	$ It was always coming, and it will come again. $
+FormlessVoiceMeetLines		12	$ 87	$ No matter where you live, disaster strikes eventually. $
+FormlessVoiceMeetLines		13	$ 93	$ In these times, we must try to save as many lives as can be done. $
+FormlessVoiceMeetLines		14	$ 80	$ In this way, the Last King of Tyre speaks the truth. $
+FormlessVoiceMeetLines		15	$ 149	$ Do as he says, reactivate all five resonating crystals, purge the land and allow your world a time of peace. $
+FormlessVoiceMeetLines		16	$ 62	$ Is this what you already believed? $
+FormlessVoiceMeetLines		17	$ 80	$ My guidance, hardly as you may think, is worth much. $
+FormlessVoiceMeetLines		18	$ 50	$ Soon, you will be tempted. $
+FormlessVoiceMeetLines		19	$ 113	$ Stay strong, and do not waver in your path, for nothing matters more than life. $
+
+FormlessVoicePostMeetSilenceID 2
+
+FormlessVoiceSealID 3
+FormlessVoiceSealLines		0	$ 41	$ Troubled, are you? $
+FormlessVoiceSealLines		1	$ 54	$ Blocked by the sealed walls. $
+FormlessVoiceSealLines		2	$ 149	$ Well, shortly after the second reaping began, this very merchant ship sailed down the underground river. $
+FormlessVoiceSealLines		3	$ 122	$ It was caught on the fringes of the temporal warp that immersed this accursed land. $
+FormlessVoiceSealLines		4	$ 110	$ When they reached the famed Sea Gate, the occupants were all slaughtered. $
+FormlessVoiceSealLines		5	$ 42	$ All but one, that is. $
+FormlessVoiceSealLines		6	$ 111	$ He survived and met a man with whom you are acquainted: The Last King of Tyre. $
+FormlessVoiceSealLines		7	$ 71	$ From there, he followed in your footsteps. $
+FormlessVoiceSealLines		8	$ 53	$ Or rather, you followed his. $
+FormlessVoiceSealLines		9	$ 108	$ But he met a few unlike yourself, turned about, and went to make his amends. $
+FormlessVoiceSealLines		10	$ 50	$ Subjectivity, brave one. $
+FormlessVoiceSealLines		11	$ 50	$ His amends are not yours. $
+FormlessVoiceSealLines		12	$ 110	$ Follow him all the way to the deepest part of the cavern beneath New Hoiro. $
+FormlessVoiceSealLines		13	$ 54	$ There, you may break the seal. $
+
+FormlessVoicePostSealSilenceID 4
+
+FormlessVoiceAntiAgelessID 5
+FormlessVoiceAntiAgelessLines	0	$ 63	$ Do not be tempted by the Ageless One. $
+FormlessVoiceAntiAgelessLines	1	$ 57	$ He speaks truth through a veil. $
+FormlessVoiceAntiAgelessLines	2	$ 107	$ The condemnation of the survivors of E'Siraph will not save many lives. $
+FormlessVoiceAntiAgelessLines	3	$ 60	$ On the contrary, it will cost more. $
+FormlessVoiceAntiAgelessLines	4	$ 63	$ Listen to me, listen to your friends. $
+FormlessVoiceAntiAgelessLines	5	$ 87	$ Reactivate the resonating crystals, save their lives! $
+
+FormlessVoicePostAntiAgelessSilenceID 6
+
+FormlessVoiceJudgementID 7
+FormlessVoiceJudgementLines	0	$ 38	$ Hm... $
+FormlessVoiceJudgementLines	1	$ 78	$ Your judgement awaits at the Third Bell of Time. $
+
+FormlessVoiceFinalSilenceID 8
+
+FormlessVoiceActionbarDiscussions 	meet		$ <#FormlessVoiceMeetID#>		$ Meet
+FormlessVoiceActionbarDiscussions 	seal		$ <#FormlessVoiceSealID#>		$ Seal
+FormlessVoiceActionbarDiscussions 	anti_ageless	$ <#FormlessVoiceAntiAgelessID#>	$ AntiAgeless
+FormlessVoiceActionbarDiscussions 	judgement	$ <#FormlessVoiceJudgementID#>		$ Judgement
+
+FormlessVoiceChatLogDiscussions

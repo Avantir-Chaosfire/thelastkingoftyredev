@@ -1,0 +1,1 @@
+scoreboard players set @a FDr4vVXF.e_l+gMp 1

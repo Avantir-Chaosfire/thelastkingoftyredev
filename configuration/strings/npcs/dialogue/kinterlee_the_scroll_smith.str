@@ -1,0 +1,65 @@
+#include npcs/tags
+#include npcs/shops/kinterlee_the_scroll_smith
+
+#join compendium <Newline>
+#join functions <Newline>
+
+KinterleeIDTag KinterleeTheScrollSmith
+KinterleeTags ‘<#CommonNPCTags$taiga$librarian#>,Offers:{Recipes:[<#KinterleeRecipes#>]},Tags:["<#KinterleeIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Kinterlee the Scroll Smith\"}"‘
+
+KinterleeColour yellow
+KinterleeLocation 531.434 225 142.882
+KinterleeEngageRadius 6] if entity @a[x=529,y=225,z=135,dx=6,dy=2,dz=10
+KinterleeDisengageRadius 13
+
+KinterleeMeetID 0
+KinterleeMeetLines		0	$ 36	$ Oh, who are you? $
+KinterleeMeetLines		1	$ 60	$ Unphased by my heads of yearning? $
+KinterleeMeetLines		2	$ 29	$ I'd- Wait. $
+KinterleeMeetLines		3	$ 69	$ Your left arm, that's a Blood Sigil, isn't it? $
+KinterleeMeetLines		4	$ 77	$ Had I seen that before the reaping... $
+KinterleeMeetLines		5	$ 56	$ Well, times are different now. $
+KinterleeMeetLines		6	$ 44	$ I'm a smith, by the way. $
+KinterleeMeetLines		7	$ 81	$ I can imprint scrolls onto your armour, if you like. $
+
+KinterleeGreetID 1
+KinterleeGreetLines		0	$ 44	$ In need of my skills? $
+
+KinterleeBloodSigilID 8
+KinterleeBloodSigilLines	0	$ 99	$ Kshji, also known as human sign-casting, was banned primarily because of the Blood Sigil. $
+KinterleeBloodSigilLines	1	$ 72	$ I specialise in Aerteyp, but both are sub-forms of Illwoird. $
+KinterleeBloodSigilLines	2	$ 67	$ I don't know how you got the Blood Sigil, but I know this- $
+KinterleeBloodSigilLines	3	$ 65	$ No one branded with it ever lived and died happily. $
+KinterleeBloodSigilLines	4	$ 92	$ The human soul is a precious and delicate thing, casting that afflicts it is vile. $
+KinterleeBloodSigilLines	5	$ 70	$ There's a reason certain flows and forms were forbidden. $
+KinterleeBloodSigilLines	6	$ 59	$ They're useful for little else besides evil. $
+KinterleeBloodSigilLines	7	$ 77	$ You seem to be making good use of the Blood Sigil... $
+KinterleeBloodSigilLines	8	$ 54	$ But let me ask you, what do you remember? $
+KinterleeBloodSigilLines	9	$ 60	$ Anything farther back than a few dozen hours? $
+KinterleeBloodSigilLines	10	$ 32	$ I thought not. $
+KinterleeBloodSigilLines	11	$ 50	$ You have already lost a great deal. $
+
+KinterleeIllwoirdID 9
+KinterleeIllwoirdLines		0	$ 62	$ Yes, I can imprint your scrolls onto your armour. $
+KinterleeIllwoirdLines		1	$ 66	$ This will grant the armour the effect of the scroll. $
+KinterleeIllwoirdLines		2	$ 115	$ However, in doing so, the scroll will be destroyed, though you might find replacements somewhere out there. $
+
+KinterleeRefugeesID 10
+KinterleeRefugeesLines		0	$ 38	$ Yes... $
+KinterleeRefugeesLines		1	$ 114	$ During the Siege of New Hoiro, we received an influx of refugees from the larger, southern part of the city. $
+KinterleeRefugeesLines		2	$ 73	$ The wall that stands by the cliffs today is largely for show, $
+KinterleeRefugeesLines		3	$ 70	$ Although it was used long ago, in the opposite direction. $
+KinterleeRefugeesLines		4	$ 69	$ Most of New Hoiro lies on the mountain beyond that wall. $
+KinterleeRefugeesLines		5	$ 99	$ Fearing the southern wall might fall, many people from there fled here during the siege. $
+KinterleeRefugeesLines		6	$ 92	$ Additonally, this section of E'Siraph was among the last to be entirely consumed. $
+KinterleeRefugeesLines		7	$ 97	$ Those two factors combined to create a great density of reapers here... $
+KinterleeRefugeesLines		8	$ 88	$ I wonder, then, could there be larger bands of survivors beyond these cliffs? $
+
+KinterleeActionbarDiscussions 	meet		$ <#KinterleeMeetID#>		$ Meet
+KinterleeActionbarDiscussions 	greet		$ <#KinterleeGreetID#>		$ Greet
+
+KinterleeChatLogDiscussions 	blood_sigil	$ <#KinterleeBloodSigilID#>	$ BloodSigil
+KinterleeChatLogDiscussions 	illwoird	$ <#KinterleeIllwoirdID#>	$ Illwoird
+KinterleeChatLogDiscussions 	refugees	$ <#KinterleeRefugeesID#>	$ Refugees
+
+KinterleeDialoguePrompt {<#DialoguePromptOption$Kinterlee$KinterleeBloodSigil$Blood Sigil?#>,"extra":[{<#DialoguePromptOption$Kinterlee$KinterleeIllwoird$Imprinting?#>},{<#DialoguePromptOptionFinal$Kinterlee$KinterleeRefugees$Reaper hordes?#>}]}

@@ -1,0 +1,49 @@
+#include attribute_modifiers
+#include exploding_creeper
+
+WardenYlsaMaxHealth 300000
+FalseReaperMaxHealth 120000
+
+FalseReaperBloodSigilDamage 30000
+FalseReaperBloodSigilRegenerationIncrement 200
+
+LifestealAmount 20000
+SlashComboLungeDistance <#!2.8 10 /#>
+
+P5AttackCycleTime 70
+P5Stage2AttackDelayTime 30
+
+FalseReaperTags CustomName:"{\"text\":\"False Reaper\"}",PersistenceRequired:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:1000.0d},{Name:"generic.movementSpeed",Base:0}],Health:1000.0f,Tags:["FalseReaper","FalseVersioned","P5","YlsaFalseVersioned","Versioned","Dumpable","EnemyUnit","Reaper","UnusualUndead","UsesHitScore"],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{id:"minecraft:chainmail_helmet",Count:1b,tag:{<#NoArmourModifier3#>}}],Rotation:[90.0f,<1>f]
+
+WardenYlsaTags CustomName:"{\"text\":\"Warden Ylsa (Undead)\"}",PersistenceRequired:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:1000.0d},{Name:"generic.movementSpeed",Base:0}],Health:1000.0f,Tags:["WardenYlsa","HasAI","AI.Undead","YlsaVersioned","P5","YlsaFalseVersioned","Versioned","Dumpable","EnemyUnit","UsesHitScore"],Rotation:[90.0f,<1>f],Silent:1b,ArmorItems:[{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}],CanPickUpLoot:0b,Offers:{Recipes:[]}
+
+WardenYlsaAttackBackstep 0
+WardenYlsaAttackProjectileLine 1
+WardenYlsaAttackProjectileGuard 2
+WardenYlsaAttackResurrect 3
+
+FalseReaperAttackSlashCombo 10
+FalseReaperAttackDarkDisk 11
+FalseReaperAttackCharge 12
+
+P5MovementMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["P5MovementMarker"]
+
+P5MovementSideMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["SideMarker"]
+
+FalseReaperChargeTelegrapherTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["ChargeTelegrapher","YlsaFalseVersioned","FalseVersioned","Versioned","Killable"]
+
+FalseReaperSlashComboSelectionMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["SlashComboSelectionMarker","<1>"]
+
+FalseReaperBladeMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["BladeMarker","FalseVersioned","YlsaFalseVersioned","Versioned","Killable"]
+
+YlsaProjectileTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["YlsaProjectile","YlsaFalseVersioned","Versioned","Killable"]
+
+YlsaProjectileCreeperTags <#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Warden Ylsa (Undead)\"}",ExplosionRadius:2b
+
+FalseChargePointTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["FalseChargePoint","YlsaFalseVersioned","FalseVersioned","Versioned","Killable"]
+
+WardenYlsaBackstepMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["WardenYlsaBackstepMarker","YlsaFalseVersioned","YlsaVersioned","Versioned","Killable"]
+
+YlsaBackstepCreeperTags <#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Warden Ylsa (Undead)\"}",ExplosionRadius:3b
+
+FalseReaperIllusionTags CustomName:"{\"text\":\"False Reaper\"}",PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,Attributes:[{Name:"generic.movementSpeed",Base:0}],Tags:["FalseReaperIllusion","YlsaVersioned","YlsaFalseVersioned","Versioned","Dumpable","EnemyUnit"],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{id:"minecraft:chainmail_helmet",Count:1b,tag:{<#NoArmourModifier3#>}}]

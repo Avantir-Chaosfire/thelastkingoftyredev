@@ -1,0 +1,80 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+CrystalGuardianDescription <#LoreLine$Crystal Guardians were originally#>
+CrystalGuardianDescription <#LoreLine$used by the crystal miners of#>
+CrystalGuardianDescription <#LoreLine$Ashur, for the when the reaping#>
+CrystalGuardianDescription <#LoreLine$began to creep upon them, an#>
+CrystalGuardianDescription <#LoreLine$unlikely number of great reapers#>
+CrystalGuardianDescription <#LoreLine$began to appear amongst them. Great#>
+CrystalGuardianDescription <#LoreLine$reapers were never seen on the#>
+CrystalGuardianDescription <#LoreLine$surface until the sacrifices spoiled.#>
+CrystalGuardianDescription <#StatsLine#>
+
+CrystalGuardianHeadItemID chainmail_helmet
+CrystalGuardianHeadNameText Crystal Guardian Helmet
+CrystalGuardianHeadNameColour yellow
+CrystalGuardianHeadName <#ItemName$CrystalGuardianHeadNameText$CrystalGuardianHeadNameColour#>
+CrystalGuardianHeadDescription <#CrystalGuardianDescription#>
+CrystalGuardianHeadStats <#LoreLine$<#Armour#>: 3#>
+CrystalGuardianHeadStats <#LoreLine$<#Weight#>: 1.5#>
+CrystalGuardianHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:1365745383,UUIDMost:919817709,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+CrystalGuardianHeadDataTag display:{Name:"<#CrystalGuardianHeadName#>",Lore:[<#CrystalGuardianHeadDescription#>,<#CrystalGuardianHeadStats#>]},<#CrystalGuardianHeadTags#>
+CrystalGuardianHead <#Item$CrystalGuardianHeadItemID$CrystalGuardianHeadDataTag#>
+
+CrystalGuardianActiveChestItemID chainmail_chestplate
+CrystalGuardianActiveChestNameText Crystal Guardian Chestplate (Complete)
+CrystalGuardianActiveChestNameColour yellow
+CrystalGuardianActiveChestName <#ItemName$CrystalGuardianActiveChestNameText$CrystalGuardianActiveChestNameColour#>
+CrystalGuardianActiveChestDescription <#CrystalGuardianDescription#>
+CrystalGuardianActiveChestStats <#LoreLine$<#Armour#>: 4#>
+CrystalGuardianActiveChestStats <#LoreLine$<#Weight#>: 2.0#>
+CrystalGuardianActiveChestStats <#LoreLine$-1 <#JumpStamina#>#>
+CrystalGuardianActiveChestStats <#LoreLine$-1 <#SprintStamina#>#>
+CrystalGuardianActiveChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-240057621,UUIDMost:829480431,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+CrystalGuardianActiveChestDataTag display:{Name:"<#CrystalGuardianActiveChestName#>",Lore:[<#CrystalGuardianActiveChestDescription#>,<#CrystalGuardianActiveChestStats#>]},<#CrystalGuardianActiveChestTags#>
+CrystalGuardianActiveChest <#Item$CrystalGuardianActiveChestItemID$CrystalGuardianActiveChestDataTag#>
+
+CrystalGuardianChestItemID chainmail_chestplate
+CrystalGuardianChestNameText Crystal Guardian Chestplate
+CrystalGuardianChestNameColour yellow
+CrystalGuardianChestName <#ItemName$CrystalGuardianChestNameText$CrystalGuardianChestNameColour#>
+CrystalGuardianChestDescription <#CrystalGuardianDescription#>
+CrystalGuardianChestStats <#LoreLine$<#Armour#>: 4#>
+CrystalGuardianChestStats <#LoreLine$<#Weight#>: 2.0#>
+CrystalGuardianChestStats <#LoreLine$(-1 <#JumpStamina#>)#>
+CrystalGuardianChestStats <#LoreLine$(-1 <#SprintStamina#>)#>
+CrystalGuardianChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-763867243,UUIDMost:-261123185,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+CrystalGuardianChestDataTag display:{Name:"<#CrystalGuardianChestName#>",Lore:[<#CrystalGuardianChestDescription#>,<#CrystalGuardianChestStats#>]},<#CrystalGuardianChestTags#>
+CrystalGuardianChest <#Item$CrystalGuardianChestItemID$CrystalGuardianChestDataTag#>
+
+CrystalGuardianLegsItemID chainmail_leggings
+CrystalGuardianLegsNameText Crystal Guardian Leggings
+CrystalGuardianLegsNameColour yellow
+CrystalGuardianLegsName <#ItemName$CrystalGuardianLegsNameText$CrystalGuardianLegsNameColour#>
+CrystalGuardianLegsDescription <#CrystalGuardianDescription#>
+CrystalGuardianLegsStats <#LoreLine$<#Armour#>: 4#>
+CrystalGuardianLegsStats <#LoreLine$<#Weight#>: 2.0#>
+CrystalGuardianLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-954674576,UUIDMost:1538585190,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+CrystalGuardianLegsDataTag display:{Name:"<#CrystalGuardianLegsName#>",Lore:[<#CrystalGuardianLegsDescription#>,<#CrystalGuardianLegsStats#>]},<#CrystalGuardianLegsTags#>
+CrystalGuardianLegs <#Item$CrystalGuardianLegsItemID$CrystalGuardianLegsDataTag#>
+
+CrystalGuardianFeetItemID chainmail_boots
+CrystalGuardianFeetNameText Crystal Guardian Boots
+CrystalGuardianFeetNameColour yellow
+CrystalGuardianFeetName <#ItemName$CrystalGuardianFeetNameText$CrystalGuardianFeetNameColour#>
+CrystalGuardianFeetDescription <#CrystalGuardianDescription#>
+CrystalGuardianFeetStats <#LoreLine$<#Armour#>: 2#>
+CrystalGuardianFeetStats <#LoreLine$<#Weight#>: 1.0#>
+CrystalGuardianFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:1003611510,UUIDMost:-476768956,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+CrystalGuardianFeetDataTag display:{Name:"<#CrystalGuardianFeetName#>",Lore:[<#CrystalGuardianFeetDescription#>,<#CrystalGuardianFeetStats#>]},<#CrystalGuardianFeetTags#>
+CrystalGuardianFeet <#Item$CrystalGuardianFeetItemID$CrystalGuardianFeetDataTag#>

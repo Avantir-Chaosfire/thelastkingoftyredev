@@ -1,0 +1,3 @@
+execute if entity @a[distance=..16] positioned ~-16 ~-3 ~-16 if entity @a[dx=32,dy=10,dz=32] positioned ~16 ~3 ~16 unless entity @a[x=27,y=159,z=71,distance=..5] unless entity @a[x=255,y=147,z=58,distance=..7] run function tlkot:fdf8zf7c23lp6rn8z9bk02ncccixcfe5pi51q73u
+execute if entity @a[distance=..15] positioned ~-15 ~-3 ~-15 if entity @a[dx=30,dy=18,dz=30] positioned ~15 ~3 ~15 run function tlkot:vx6s-sln6n-gjt6yrkq41r40e3c9px1cb_fp_84s
+scoreboard players remove @s[scores={93mbLgig0G00smkG=1..}] 93mbLgig0G00smkG 1

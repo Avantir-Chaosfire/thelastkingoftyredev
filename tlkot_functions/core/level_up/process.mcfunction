@@ -1,0 +1,1 @@
+#class execute if entity @a[scores={<1>=..4}] run function tlkot:core/level_up/<0>/main

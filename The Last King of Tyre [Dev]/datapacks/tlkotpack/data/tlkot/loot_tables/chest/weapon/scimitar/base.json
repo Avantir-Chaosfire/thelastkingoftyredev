@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:wooden_sword",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Scimitar\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A nimble weapon, unusually effective\",\"color\":\"gray\"}','{\"text\":\"against multiple foes.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 10\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 4\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.5s\",\"color\":\"gray\"}','{\"text\":\"Cleave II\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:sweeping\",lvl:1}],HideFlags:7,HoldingID:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

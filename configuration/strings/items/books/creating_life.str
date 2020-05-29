@@ -1,0 +1,18 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+CreatingLifeItemID written_book
+CreatingLifeAuthor Ciliman Simia, the Red Writer
+CreatingLifeTitle Creating Life
+CreatingLifePages Many a mad man has tried to create life, and many of them were casters. But what is life? Thus far, our best description is that it is a chunk of mass capable of reacting to stimuli. But interestingly, it also seems that intelligent life is different, in that every intelligent creature has a soul.
+CreatingLifePages Whether or not unintelligent creatures also have souls is a matter of some debate. But we have been thus far unable to detect them, and we have been able to prove that if they do possess souls, their souls are fundamentally different than ours.
+CreatingLifePages So could we use casting to make a chunk of mass react to stimuli? That's what those mad men wondered, and as it turns out, the answer is yes. The easiest way to do it, by far, is to transfigure an existing creature together with regular matter to create a larger and different
+CreatingLifePages creature. It is also possible, albeit much harder, to create a living mass from nothing. In either case, without proper practice and knowledge, one is more likely to create a corpse than a creature. Despite these methods, no one has managed to create an intelligent
+CreatingLifePages being. Experimentation of this sort on humans has been forbidden, and so it seems unlikely that anyone will succeed anytime soon. That being said, suspicious living masses have been seen as results of experiments by the Subjugate, which has lead to questions of how well this law is
+CreatingLifePages being held, and if it should be held on condemned prisoners.
+
+CreatingLifeDataTag author:"<#CreatingLifeAuthor#>",title:"<#CreatingLifeTitle#>",resolved:1b,pages:["<#CreatingLifePages#>"]
+CreatingLife <#Item$CreatingLifeItemID$CreatingLifeDataTag#>

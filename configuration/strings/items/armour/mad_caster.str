@@ -1,0 +1,121 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+MadCasterDescription <#LoreLine$The Mad Caster, Kilio, served the#>
+MadCasterDescription <#LoreLine$Queen of Ixinik, and ultimately died#>
+MadCasterDescription <#LoreLine$doing so. Never known as the most#>
+MadCasterDescription <#LoreLine$stable fellow, but for her he could#>
+MadCasterDescription <#LoreLine$give nothing but his all.#>
+MadCasterDescription <#StatsLine#>
+
+MadCasterHeadItemID leather_helmet
+MadCasterHeadNameText The Mad Caster's Hood
+MadCasterHeadNameColour red
+MadCasterHeadName <#ItemName$MadCasterHeadNameText$MadCasterHeadNameColour#>
+MadCasterHeadDescription <#MadCasterDescription#>
+MadCasterHeadStats <#LoreLine$<#Armour#>: 2#>
+MadCasterHeadStats <#LoreLine$<#Weight#>: 1.0#>
+MadCasterHeadStats <#LoreLine$<#Thorns#> II#>
+MadCasterHeadDisplayTags color:14391347
+MadCasterHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:66607140,UUIDMost:-804841211,Slot:"head"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
+
+MadCasterHeadDataTag display:{Name:"<#MadCasterHeadName#>",Lore:[<#MadCasterHeadDescription#>,<#MadCasterHeadStats#>],<#MadCasterHeadDisplayTags#>},<#MadCasterHeadTags#>
+MadCasterHead <#Item$MadCasterHeadItemID$MadCasterHeadDataTag#>
+
+MadCasterChestItemID leather_chestplate
+MadCasterChestNameText The Mad Caster's Robes
+MadCasterChestNameColour red
+MadCasterChestName <#ItemName$MadCasterChestNameText$MadCasterChestNameColour#>
+MadCasterChestDescription <#MadCasterDescription#>
+MadCasterChestStats <#LoreLine$<#Armour#>: 4#>
+MadCasterChestStats <#LoreLine$<#Weight#>: 2.0#>
+MadCasterChestStats <#LoreLine$<#Thorns#> III#>
+MadCasterChestDisplayTags color:14391347
+MadCasterChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-1051076168,UUIDMost:-1627974638,Slot:"chest"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:13}],Damage:0
+
+MadCasterChestDataTag display:{Name:"<#MadCasterChestName#>",Lore:[<#MadCasterChestDescription#>,<#MadCasterChestStats#>],<#MadCasterChestDisplayTags#>},<#MadCasterChestTags#>
+MadCasterChest <#Item$MadCasterChestItemID$MadCasterChestDataTag#>
+
+MadCasterLegsItemID leather_leggings
+MadCasterLegsNameText The Mad Caster's Robes
+MadCasterLegsNameColour red
+MadCasterLegsName <#ItemName$MadCasterLegsNameText$MadCasterLegsNameColour#>
+MadCasterLegsDescription <#MadCasterDescription#>
+MadCasterLegsStats <#LoreLine$<#Armour#>: 3#>
+MadCasterLegsStats <#LoreLine$<#Weight#>: 1.5#>
+MadCasterLegsStats <#LoreLine$<#Thorns#> II#>
+MadCasterLegsDisplayTags color:14391347
+MadCasterLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:110815346,UUIDMost:-1049731843,Slot:"legs"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
+
+MadCasterLegsDataTag display:{Name:"<#MadCasterLegsName#>",Lore:[<#MadCasterLegsDescription#>,<#MadCasterLegsStats#>],<#MadCasterLegsDisplayTags#>},<#MadCasterLegsTags#>
+MadCasterLegs <#Item$MadCasterLegsItemID$MadCasterLegsDataTag#>
+
+MadCasterFeetItemID leather_boots
+MadCasterFeetNameText The Mad Caster's Boots
+MadCasterFeetNameColour red
+MadCasterFeetName <#ItemName$MadCasterFeetNameText$MadCasterFeetNameColour#>
+MadCasterFeetDescription <#MadCasterDescription#>
+MadCasterFeetStats <#LoreLine$<#Armour#>: 2#>
+MadCasterFeetStats <#LoreLine$<#Weight#>: 1.0#>
+MadCasterFeetStats <#LoreLine$<#Thorns#> I#>
+MadCasterFeetDisplayTags color:14391347
+MadCasterFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:-1475112623,UUIDMost:395506987,Slot:"feet"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:11}]
+
+MadCasterFeetDataTag display:{Name:"<#MadCasterFeetName#>",Lore:[<#MadCasterFeetDescription#>,<#MadCasterFeetStats#>],<#MadCasterFeetDisplayTags#>},<#MadCasterFeetTags#>
+MadCasterFeet <#Item$MadCasterFeetItemID$MadCasterFeetDataTag#>
+
+MadCasterActive1ChestItemID leather_chestplate
+MadCasterActive1ChestNameText Desolate Imprinted Mad Caster's Robes (Complete)
+MadCasterActive1ChestNameColour <#MadCasterChestNameColour#>
+MadCasterActive1ChestName <#ItemName$MadCasterActive1ChestNameText$MadCasterActive1ChestNameColour#>
+MadCasterActive1ChestDescription <#MadCasterChestDescription#>
+MadCasterActive1ChestStats <#MadCasterChestStats#>
+MadCasterActive1ChestStats <#LoreLine$<#DesolateImprint#>#>
+MadCasterActive1ChestDisplayTags <#MadCasterChestDisplayTags#>
+MadCasterActive1ChestTags <#MadCasterChestTags#>
+
+MadCasterActive1ChestDataTag display:{Name:"<#MadCasterActive1ChestName#>",Lore:[<#MadCasterActive1ChestDescription#>,<#MadCasterActive1ChestStats#>],<#MadCasterActive1ChestDisplayTags#>},<#MadCasterActive1ChestTags#>
+MadCasterActive1Chest <#Item$MadCasterActive1ChestItemID$MadCasterActive1ChestDataTag#>
+
+MadCasterInactive1ChestItemID leather_chestplate
+MadCasterInactive1ChestNameText Desolate Imprinted Mad Caster's Robes
+MadCasterInactive1ChestNameColour <#MadCasterChestNameColour#>
+MadCasterInactive1ChestName <#ItemName$MadCasterInactive1ChestNameText$MadCasterInactive1ChestNameColour#>
+MadCasterInactive1ChestDescription <#MadCasterChestDescription#>
+MadCasterInactive1ChestStats <#MadCasterChestStats#>
+MadCasterInactive1ChestStats <#LoreLine$(<#DesolateImprint#>)#>
+MadCasterInactive1ChestDisplayTags <#MadCasterChestDisplayTags#>
+MadCasterInactive1ChestTags <#MadCasterChestTags#>
+
+MadCasterInactive1ChestDataTag display:{Name:"<#MadCasterInactive1ChestName#>",Lore:[<#MadCasterInactive1ChestDescription#>,<#MadCasterInactive1ChestStats#>],<#MadCasterInactive1ChestDisplayTags#>},<#MadCasterInactive1ChestTags#>
+MadCasterInactive1Chest <#Item$MadCasterInactive1ChestItemID$MadCasterInactive1ChestDataTag#>
+
+MadCasterActive2ChestItemID leather_chestplate
+MadCasterActive2ChestNameText Sight Imprinted Mad Caster's Robes (Complete)
+MadCasterActive2ChestNameColour <#MadCasterChestNameColour#>
+MadCasterActive2ChestName <#ItemName$MadCasterActive2ChestNameText$MadCasterActive2ChestNameColour#>
+MadCasterActive2ChestDescription <#MadCasterChestDescription#>
+MadCasterActive2ChestStats <#MadCasterChestStats#>
+MadCasterActive2ChestStats <#LoreLine$<#SightImprint#>#>
+MadCasterActive2ChestDisplayTags <#MadCasterChestDisplayTags#>
+MadCasterActive2ChestTags <#MadCasterChestTags#>
+
+MadCasterActive2ChestDataTag display:{Name:"<#MadCasterActive2ChestName#>",Lore:[<#MadCasterActive2ChestDescription#>,<#MadCasterActive2ChestStats#>],<#MadCasterActive2ChestDisplayTags#>},<#MadCasterActive2ChestTags#>
+MadCasterActive2Chest <#Item$MadCasterActive2ChestItemID$MadCasterActive2ChestDataTag#>
+
+MadCasterInactive2ChestItemID leather_chestplate
+MadCasterInactive2ChestNameText Sight Imprinted Mad Caster's Robes
+MadCasterInactive2ChestNameColour <#MadCasterChestNameColour#>
+MadCasterInactive2ChestName <#ItemName$MadCasterInactive2ChestNameText$MadCasterInactive2ChestNameColour#>
+MadCasterInactive2ChestDescription <#MadCasterChestDescription#>
+MadCasterInactive2ChestStats <#MadCasterChestStats#>
+MadCasterInactive2ChestStats <#LoreLine$(<#SightImprint#>)#>
+MadCasterInactive2ChestDisplayTags <#MadCasterChestDisplayTags#>
+MadCasterInactive2ChestTags <#MadCasterChestTags#>
+
+MadCasterInactive2ChestDataTag display:{Name:"<#MadCasterInactive2ChestName#>",Lore:[<#MadCasterInactive2ChestDescription#>,<#MadCasterInactive2ChestStats#>],<#MadCasterInactive2ChestDisplayTags#>},<#MadCasterInactive2ChestTags#>
+MadCasterInactive2Chest <#Item$MadCasterInactive2ChestItemID$MadCasterInactive2ChestDataTag#>

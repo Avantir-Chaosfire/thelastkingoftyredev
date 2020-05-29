@@ -1,0 +1,39 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+CursedShieldNameColour red
+
+CursedShieldItemID shield
+CursedShieldNameText Cursed Shield
+CursedShieldName <#ItemName$CursedShieldNameText$CursedShieldNameColour#>
+
+CursedShieldDisabledItemID cocoa_beans
+CursedShieldDisabledNameText Cursed Shield (Disabled)
+CursedShieldDisabledName <#ItemName$CursedShieldDisabledNameText$CursedShieldNameColour#>
+
+CursedShieldStability 2
+CursedShieldRecoveryTime 190
+
+CursedShieldDescription <#LoreLine$Curses are mere Illwoirds designed#>
+CursedShieldDescription <#LoreLine$and cast with ill intent. Warding#>
+CursedShieldDescription <#LoreLine$curses is an obscure and deadly#>
+CursedShieldDescription <#LoreLine$art that grants the warder much#>
+CursedShieldDescription <#LoreLine$forbidden knowledge. Thus, those who#>
+CursedShieldDescription <#LoreLine$partake are both praised as heroes#>
+CursedShieldDescription <#LoreLine$and exiled as heretics.#>
+CursedShieldDescription <#StatsLine#>
+CursedShieldStats <#LoreLine$<#CursedShieldStability#> <#Stability#>#>
+CursedShieldStats <#LoreLine$<#Time$9.5#> <#Recovery#>#>
+CursedShieldStats <#LoreLine$-100% <#Armour#>#>
+CursedShieldTags AttributeModifiers:[{Name:"generic.armor",AttributeName:"generic.armor",Amount:-1,Operation:2,UUIDLeast:964,UUIDMost:4327}],BlockEntityTag:{Patterns:[{Pattern:"cs",Color:8},{Pattern:"bt",Color:0}],Base:1},HideFlags:38,Unbreakable:1b,Damage:2
+
+CursedShieldDataTag display:{Name:"<#CursedShieldName#>",Lore:[<#CursedShieldDescription#>,<#CursedShieldStats#>]},<#CursedShieldTags#>,HoldingID:<#CursedShieldHoldingID#>
+CursedShield <#Item$CursedShieldItemID$CursedShieldDataTag#>
+
+CursedShieldDisabledDataTag display:{Name:"<#CursedShieldDisabledName#>",Lore:[<#CursedShieldDescription#>,<#CursedShieldStats#>]},<#CursedShieldTags#>,HoldingID:<#CursedShieldDisabledHoldingID#>
+CursedShieldDisabled <#Item$CursedShieldDisabledItemID$CursedShieldDisabledDataTag#>

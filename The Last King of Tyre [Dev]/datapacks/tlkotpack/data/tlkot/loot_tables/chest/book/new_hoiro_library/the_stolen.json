@@ -1,0 +1,27 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Anonymous\",title:\"The Stolen\",resolved:1b,pages:[\"You old fool,
+
+Don't you remember, the words you once told me, spoken by a wise old man?
+
+'§oMake the lie big, make §oit simple, keep saying §oit, and eventually they §owill believe it.§r'\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

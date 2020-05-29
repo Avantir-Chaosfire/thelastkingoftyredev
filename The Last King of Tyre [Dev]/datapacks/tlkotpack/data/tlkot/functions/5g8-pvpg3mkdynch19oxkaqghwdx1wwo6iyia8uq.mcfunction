@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 127
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "The resonating crystals, they emanate one's willpower, one's strength, one's... essence, out across the land.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "The resonating crystals, they emanate one's willpower, one's strength, one's... essence, out across the land.", "color": "white", "italic": true}

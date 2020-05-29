@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#ResonatingCrystalShardItemID#>"
+		},
+		"title":
+		{
+			"text": "Let Doom Come Tomorrow"
+		},
+		"description": "Purge all of the Reapers",
+		"frame": "goal",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"let_doom_come_tomorrow":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+execute at @s if block ~1 ~ ~1 #tlkot:all if block ~1 ~ ~-1 #tlkot:all if block ~-1 ~ ~1 #tlkot:all if block ~-1 ~ ~-1 #tlkot:all if block ~ ~-1 ~ minecraft:air run function dev:core/new_game/outdated/pit_trap_replace

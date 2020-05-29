@@ -1,0 +1,1 @@
+function tlkot:utility/summon_enemy/animal/living_mass/main

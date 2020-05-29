@@ -1,0 +1,2 @@
+execute if entity @a[scores={KingInform=1}] run function tlkot:core/npc/action/last_king_of_tyre/inform
+execute as @e[tag=LastKingOfTyre,tag=!Killed,tag=!Initialized] at @s if block ~ ~ ~ #tlkot:all run function tlkot:<~>/reset_drowning_cage

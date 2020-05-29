@@ -1,0 +1,2 @@
+execute if entity @a[scores={InitTalk=<#InitializationInitialID#>}] run function tlkot:core/npc/action/initialization/initializing
+tp @a[scores={InitTalk=<#InitializationSilenceID#>}] -304 238 324 90 0

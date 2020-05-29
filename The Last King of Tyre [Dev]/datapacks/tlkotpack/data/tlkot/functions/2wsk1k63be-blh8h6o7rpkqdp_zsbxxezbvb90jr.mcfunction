@@ -1,0 +1,2 @@
+execute if block -324 209 341 minecraft:spruce_button[powered=true] run function tlkot:vtqf78kv9xe-iz_aw5yawftjypzqgsf-w_qta180
+execute if block -324 209 337 minecraft:spruce_button[powered=true] run function tlkot:bedbv0h_5utpq36sdlv--x3zengb7-6aqkd1szvt

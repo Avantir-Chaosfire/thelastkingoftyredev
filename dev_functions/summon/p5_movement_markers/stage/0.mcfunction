@@ -1,0 +1,1 @@
+#class$0 summon minecraft:armor_stand <0> 214 <1> {<#P5MovementMarkerTags#>}

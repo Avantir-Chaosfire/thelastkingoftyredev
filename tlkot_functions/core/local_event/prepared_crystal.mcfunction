@@ -1,0 +1,1 @@
+execute if entity @a[x=23,y=230,z=296,dx=31,dy=0,dz=26,scores={P5Prepared=1..}] run effect give @a minecraft:speed 2 1 false

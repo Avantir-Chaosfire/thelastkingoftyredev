@@ -1,0 +1,3 @@
+scoreboard players set @a lYtYWHRw7I1-GS.J 100
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Years ago, before my time, some people in Ixinik weren't happy with the way things were done.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Years ago, before my time, some people in Ixinik weren't happy with the way things were done.", "color": "white", "italic": true}

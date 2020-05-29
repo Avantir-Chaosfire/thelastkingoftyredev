@@ -1,0 +1,2 @@
+execute at @a[scores={EjZrTTSQvqefWp-e=80}] run playsound minecraft:entity.ender_dragon.growl ambient @a ~ ~ ~ 0.3 0.6
+execute if entity @a[scores={aibgtz8jimpcdGKj=0}] run function tlkot:yl22b_8d5zc-z3rvipxhrsgdttxpt7owgf6kj259

@@ -1,0 +1,2 @@
+scoreboard players add @a VLUBchW.Hay4Ra4P 1
+function tlkot:8pk2osu08cy_xanymjpi7qw6wjtth0fnd0yhmkfz

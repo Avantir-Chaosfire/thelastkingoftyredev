@@ -1,0 +1,66 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ScimitarNameColour white
+ScimitarDescription <#LoreLine$A nimble weapon, unusually effective#>
+ScimitarDescription <#LoreLine$against multiple foes.#>
+ScimitarDescription <#StatsLine#>
+
+ScimitarStaminaCost 4
+ScimitarCommunionStaminaCost 3
+ScimitarMinimumStaminaCost 3
+ScimitarRegenDelay 30
+
+BaseScimitarDamage 10
+BaseScimitarStaminaCost <#ScimitarStaminaCost#>
+BaseScimitarCommunionStaminaCost <#ScimitarCommunionStaminaCost#>
+BaseScimitarMinimumStaminaCost <#ScimitarMinimumStaminaCost#>
+BaseScimitarRegenDelay <#ScimitarRegenDelay#>
+
+RefinedScimitarDamage 10
+RefinedScimitarStaminaCost <#ScimitarStaminaCost#>
+RefinedScimitarCommunionStaminaCost <#ScimitarCommunionStaminaCost#>
+RefinedScimitarMinimumStaminaCost <#ScimitarMinimumStaminaCost#>
+RefinedScimitarRegenDelay <#ScimitarRegenDelay#>
+
+SharpenedScimitarDamage 14
+SharpenedScimitarStaminaCost <#ScimitarStaminaCost#>
+SharpenedScimitarCommunionStaminaCost <#ScimitarCommunionStaminaCost#>
+SharpenedScimitarMinimumStaminaCost <#ScimitarMinimumStaminaCost#>
+SharpenedScimitarRegenDelay <#ScimitarRegenDelay#>
+
+BaseScimitarItemID wooden_sword
+BaseScimitarNameText Scimitar
+BaseScimitarName <#ItemName$BaseScimitarNameText$ScimitarNameColour#>
+BaseScimitarStats <#WeaponStats$BaseScimitar#>
+BaseScimitarStats <#LoreLine$<#Cleave#> II#>
+BaseScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#BaseScimitarHoldingID#>
+
+BaseScimitarDataTag display:{Name:"<#BaseScimitarName#>",Lore:[<#ScimitarDescription#>,<#BaseScimitarStats#>]},<#BaseScimitarTags#>
+BaseScimitar <#Item$BaseScimitarItemID$BaseScimitarDataTag#>
+
+RefinedScimitarItemID wooden_sword
+RefinedScimitarNameText Refined Scimitar
+RefinedScimitarName <#ItemName$RefinedScimitarNameText$ScimitarNameColour#>
+RefinedScimitarStats <#WeaponStats$RefinedScimitar#>
+RefinedScimitarStats <#LoreLine$<#Cleave#> III#>
+RefinedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RefinedScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:32767}],HideFlags:7,HoldingID:<#RefinedScimitarHoldingID#>
+
+RefinedScimitarDataTag display:{Name:"<#RefinedScimitarName#>",Lore:[<#ScimitarDescription#>,<#RefinedScimitarStats#>]},<#RefinedScimitarTags#>
+RefinedScimitar <#Item$RefinedScimitarItemID$RefinedScimitarDataTag#>
+
+SharpenedScimitarItemID wooden_sword
+SharpenedScimitarNameText Sharpened Scimitar
+SharpenedScimitarName <#ItemName$SharpenedScimitarNameText$ScimitarNameColour#>
+SharpenedScimitarStats <#WeaponStats$SharpenedScimitar#>
+SharpenedScimitarStats <#LoreLine$<#Cleave#> II#>
+SharpenedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!SharpenedScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#SharpenedScimitarHoldingID#>
+
+SharpenedScimitarDataTag display:{Name:"<#SharpenedScimitarName#>",Lore:[<#ScimitarDescription#>,<#SharpenedScimitarStats#>]},<#SharpenedScimitarTags#>
+SharpenedScimitar <#Item$SharpenedScimitarItemID$SharpenedScimitarDataTag#>

@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["TVlKPwe3G6lHglvKVhfOG.08WG7MEvnvdhrSFCY_"]}
+scoreboard players set @e[tag=TVlKPwe3G6lHglvKVhfOG.08WG7MEvnvdhrSFCY_,limit=1,sort=nearest] .KJjEu5SnhgxrH_T 0

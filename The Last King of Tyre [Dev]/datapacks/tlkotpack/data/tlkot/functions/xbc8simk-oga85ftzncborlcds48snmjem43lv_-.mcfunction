@@ -1,0 +1,3 @@
+scoreboard players set @a yt8HsJDnc7Ai12b0 1
+scoreboard players enable @a yt8HsJDnc7Ai12b0
+tellraw @a {"text": "\"Heads of Yearning?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yt8HsJDnc7Ai12b0 set 8"}, "extra": [{"text": "\"Lonesome?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yt8HsJDnc7Ai12b0 set 9"}}, {"text": "\"The Last King of Tyre?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yt8HsJDnc7Ai12b0 set 10"}}, {"text": "\"Resonating Crystals?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger yt8HsJDnc7Ai12b0 set 11"}}]}

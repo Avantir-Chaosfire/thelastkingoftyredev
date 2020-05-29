@@ -1,0 +1,4 @@
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=0..}] run tellraw @a {"text": "We need you to ring the Third Bell of Time.", "color": "white", "italic": true}
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=1..}] run tellraw @a {"text": "Nothing else will suffice.", "color": "white", "italic": true}
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=2..}] run tellraw @a {"text": "Destroying the resonating crystals is only a secondary goal, a safety measure.", "color": "white", "italic": true}
+execute if entity @a[scores={rJlOYVUlCP.pfkfL=3..}] run tellraw @a {"text": "I am blocked from reaching it, so shall it be that none may ever reach it.", "color": "white", "italic": true}

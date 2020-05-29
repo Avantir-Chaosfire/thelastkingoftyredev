@@ -1,0 +1,70 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ForgottenHeadOfYearningItemID player_head
+ForgottenHeadOfYearningNameText Forgotten Head of Yearning
+ForgottenHeadOfYearningNameColour blue
+ForgottenHeadOfYearningName <#ItemName$ForgottenHeadOfYearningNameText$ForgottenHeadOfYearningNameColour#>
+ForgottenHeadOfYearningDescription <#LoreLine$The remains of one embodying she#>
+ForgottenHeadOfYearningDescription <#LoreLine$who feared being forgotten.#>
+ForgottenHeadOfYearningTags SkullOwner:"MHF_Ghast",CanPlaceOn:["minecraft:bedrock"],HideFlags:16
+
+ForgottenHeadOfYearningDataTag display:{Name:"<#ForgottenHeadOfYearningName#>",Lore:[<#ForgottenHeadOfYearningDescription#>]},<#ForgottenHeadOfYearningTags#>
+ForgottenHeadOfYearning <#Item$ForgottenHeadOfYearningItemID$ForgottenHeadOfYearningDataTag#>
+
+RottenHeadOfYearningItemID zombie_head
+RottenHeadOfYearningNameText Rotten Head of Yearning
+RottenHeadOfYearningNameColour dark_green
+RottenHeadOfYearningName <#ItemName$RottenHeadOfYearningNameText$RottenHeadOfYearningNameColour#>
+RottenHeadOfYearningDescription <#LoreLine$The remains of one embodying he#>
+RottenHeadOfYearningDescription <#LoreLine$who did right for wrong.#>
+RottenHeadOfYearningTags CanPlaceOn:["minecraft:bedrock"],HideFlags:16
+
+RottenHeadOfYearningDataTag display:{Name:"<#RottenHeadOfYearningName#>",Lore:[<#RottenHeadOfYearningDescription#>]},<#RottenHeadOfYearningTags#>
+RottenHeadOfYearning <#Item$RottenHeadOfYearningItemID$RottenHeadOfYearningDataTag#>
+
+HollowHeadOfYearningItemID player_head
+HollowHeadOfYearningNameText Hollow Head of Yearning
+HollowHeadOfYearningNameColour red
+HollowHeadOfYearningName <#ItemName$HollowHeadOfYearningNameText$HollowHeadOfYearningNameColour#>
+HollowHeadOfYearningDescription <#LoreLine$The remains of one embodying he#>
+HollowHeadOfYearningDescription <#LoreLine$who spoke of what he lacked.#>
+HollowHeadOfYearningTags SkullOwner:"tnt",CanPlaceOn:["minecraft:bedrock"],HideFlags:16
+
+HollowHeadOfYearningDataTag display:{Name:"<#HollowHeadOfYearningName#>",Lore:[<#HollowHeadOfYearningDescription#>]},<#HollowHeadOfYearningTags#>
+HollowHeadOfYearning <#Item$HollowHeadOfYearningItemID$HollowHeadOfYearningDataTag#>
+
+LostHeadOfYearningItemID player_head
+LostHeadOfYearningNameText Lost Head of Yearning
+LostHeadOfYearningNameColour dark_gray
+LostHeadOfYearningName <#ItemName$LostHeadOfYearningNameText$LostHeadOfYearningNameColour#>
+LostHeadOfYearningDescription <#LoreLine$The remains of one embodying he#>
+LostHeadOfYearningDescription <#LoreLine$who never found his way.#>
+LostHeadOfYearningTags SkullOwner:"Cypiea",CanPlaceOn:["minecraft:bedrock"],HideFlags:16
+
+LostHeadOfYearningDataTag display:{Name:"<#LostHeadOfYearningName#>",Lore:[<#LostHeadOfYearningDescription#>]},<#LostHeadOfYearningTags#>
+LostHeadOfYearning <#Item$LostHeadOfYearningItemID$LostHeadOfYearningDataTag#>
+
+FalseHeadOfYearningItemID player_head
+FalseHeadOfYearningNameText False Head of Yearning
+FalseHeadOfYearningNameColour yellow
+FalseHeadOfYearningName <#ItemName$FalseHeadOfYearningNameText$FalseHeadOfYearningNameColour#>
+FalseHeadOfYearningDescription <#LoreLine$The remains of one who could never#>
+FalseHeadOfYearningDescription <#LoreLine$be the true whole.#>
+FalseHeadOfYearningTags SkullOwner:"xMKK3L",CanPlaceOn:["minecraft:bedrock"],HideFlags:16
+
+FalseHeadOfYearningDataTag display:{Name:"<#FalseHeadOfYearningName#>",Lore:[<#FalseHeadOfYearningDescription#>]},<#FalseHeadOfYearningTags#>
+FalseHeadOfYearning <#Item$FalseHeadOfYearningItemID$FalseHeadOfYearningDataTag#>
+
+SkullOfYearningItemID skeleton_skull
+SkullOfYearningNameText Skull of Yearning
+SkullOfYearningNameColour white
+SkullOfYearningName <#ItemName$SkullOfYearningNameText$SkullOfYearningNameColour#>
+SkullOfYearningDescription <#LoreLine$A would-be Head of#>
+SkullOfYearningDescription <#LoreLine$Yearning. Worthless.#>
+
+SkullOfYearningDataTag display:{Name:"<#SkullOfYearningName#>",Lore:[<#SkullOfYearningDescription#>]}
+SkullOfYearning <#Item$SkullOfYearningItemID$SkullOfYearningDataTag#>

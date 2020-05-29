@@ -1,0 +1,3 @@
+setblock -890 0 -763 minecraft:stone
+execute if block 44 122 168 #tlkot:container run data merge block 44 122 168 {Items:[],LootTable:"tlkot:chest/book/ixinik_library/section/casting/a_brief_history_of_the_flows_and_forms_of_casting"}
+execute unless block 44 122 168 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 44 122 168."}]}

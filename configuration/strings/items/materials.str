@@ -1,0 +1,140 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+BloodCrystalItemID prismarine_crystals
+BloodCrystalNameText Blood Crystal
+BloodCrystalNameColour dark_red
+BloodCrystalName <#ItemName$BloodCrystalNameText$BloodCrystalNameColour#>
+BloodCrystalDescription <#LoreLine$When human blood is spilled, the#>
+BloodCrystalDescription <#LoreLine$energy contained within can cause#>
+BloodCrystalDescription <#LoreLine$the droplets to crystalize. Not only#>
+BloodCrystalDescription <#LoreLine$do these crytals have sharp edges,#>
+BloodCrystalDescription <#LoreLine$they synergize strongly with#>
+BloodCrystalDescription <#LoreLine$Illwoirds to improve the#>
+BloodCrystalDescription <#LoreLine$effectiveness of weapons.#>
+
+BloodCrystalDataTag display:{Name:"<#BloodCrystalName#>",Lore:[<#BloodCrystalDescription#>]}
+BloodCrystal <#Item$BloodCrystalItemID$BloodCrystalDataTag#>
+
+BloodEmblemItemID flint
+BloodEmblemNameText Blood Emblem
+BloodEmblemNameColour red
+BloodEmblemName <#ItemName$BloodEmblemNameText$BloodEmblemNameColour#>
+BloodEmblemDescription <#LoreLine$An Emblem of Hope mired in#>
+BloodEmblemDescription <#LoreLine$blood, altering the properties of#>
+BloodEmblemDescription <#LoreLine$the Aerteyp contained within.#>
+BloodEmblemDescription <#LoreLine$E\'Siraph\'s people would likely#>
+BloodEmblemDescription <#LoreLine$appreciate the human blood for#>
+BloodEmblemDescription <#LoreLine$the stronger connection it could#>
+BloodEmblemDescription <#LoreLine$grant with the dead.#>
+
+BloodEmblemDataTag display:{Name:"<#BloodEmblemName#>",Lore:[<#BloodEmblemDescription#>]}
+BloodEmblem <#Item$BloodEmblemItemID$BloodEmblemDataTag#>
+
+EmblemOfHopeItemID gold_nugget
+EmblemOfHopeNameText Emblem of Hope
+EmblemOfHopeNameColour green
+EmblemOfHopeName <#ItemName$EmblemOfHopeNameText$EmblemOfHopeNameColour#>
+EmblemOfHopeDescription <#LoreLine$An emblem of casters imprinted as a#>
+EmblemOfHopeDescription <#LoreLine$key for certain Illwoirds of energy#>
+EmblemOfHopeDescription <#LoreLine$flow. Skilled practitioners can use#>
+EmblemOfHopeDescription <#LoreLine$these to upgrade weapons.#>
+
+EmblemOfHopeDataTag display:{Name:"<#EmblemOfHopeName#>",Lore:[<#EmblemOfHopeDescription#>]}
+EmblemOfHope <#Item$EmblemOfHopeItemID$EmblemOfHopeDataTag#>
+
+LeadWeightItemID shulker_shell
+LeadWeightNameText Petrified Knot
+LeadWeightNameColour dark_gray
+LeadWeightName <#ItemName$LeadWeightNameText$LeadWeightNameColour#>
+LeadWeightDescription <#LoreLine$A petrified knot of heavy black oak.#>
+LeadWeightDescription <#LoreLine$The black oak trees of E\'Siraph#>
+LeadWeightDescription <#LoreLine$are tiny in comparison to their#>
+LeadWeightDescription <#LoreLine$southern cousins, but are just as#>
+LeadWeightDescription <#LoreLine$useful in casting and altering the#>
+LeadWeightDescription <#LoreLine$properties of weapons.#>
+
+LeadWeightDataTag display:{Name:"<#LeadWeightName#>",Lore:[<#LeadWeightDescription#>]}
+LeadWeight <#Item$LeadWeightItemID$LeadWeightDataTag#>
+
+SteelGuardItemID emerald
+SteelGuardNameText Warding Eye
+SteelGuardNameColour white
+SteelGuardName <#ItemName$SteelGuardNameText$SteelGuardNameColour#>
+SteelGuardDescription <#LoreLine$An imprinted eyeball that can be#>
+SteelGuardDescription <#LoreLine$combined with a weapon to watch and#>
+SteelGuardDescription <#LoreLine$ward off danger for you.#>
+
+SteelGuardDataTag display:{Name:"<#SteelGuardName#>",Lore:[<#SteelGuardDescription#>]}
+SteelGuard <#Item$SteelGuardItemID$SteelGuardDataTag#>
+
+WispFibresItemID nether_brick
+WispFibresNameText Vile Bones
+WispFibresNameColour blue
+WispFibresName <#ItemName$WispFibresNameText$WispFibresNameColour#>
+WispFibresDescription <#LoreLine$Infused bones of a Vile Feeder\'s#>
+WispFibresDescription <#LoreLine$wings. So light they can almost float#>
+WispFibresDescription <#LoreLine$in air, but rigid and strong. Used to#>
+WispFibresDescription <#LoreLine$improve the quality of weapons.#>
+
+WispFibresDataTag display:{Name:"<#WispFibresName#>",Lore:[<#WispFibresDescription#>]}
+WispFibres <#Item$WispFibresItemID$WispFibresDataTag#>
+
+BurialUrnItemID prismarine_shard
+BurialUrnNameText Burial Urn
+BurialUrnNameColour dark_gray
+BurialUrnName <#ItemName$BurialUrnNameText$BurialUrnNameColour#>
+BurialUrnDescription <#LoreLine$Undead remains are potent#>
+BurialUrnDescription <#LoreLine$materials for complex castings, but#>
+BurialUrnDescription <#LoreLine$those with lingering Kshji and#>
+BurialUrnDescription <#LoreLine$curses can present exotic options#>
+BurialUrnDescription <#LoreLine$for armour reinforcement.#>
+
+BurialUrnDataTag display:{Name:"<#BurialUrnName#>",Lore:[<#BurialUrnDescription#>]}
+BurialUrn <#Item$BurialUrnItemID$BurialUrnDataTag#>
+
+SealedBloodVialItemID pumpkin_seeds
+SealedBloodVialNameText Sealed Blood Vial
+SealedBloodVialNameColour dark_red
+SealedBloodVialName <#ItemName$SealedBloodVialNameText$SealedBloodVialNameColour#>
+SealedBloodVialDescription <#LoreLine$Blood clinics would extract blood#>
+SealedBloodVialDescription <#LoreLine$from people and store them in these#>
+SealedBloodVialDescription <#LoreLine$vials, which were then used for#>
+SealedBloodVialDescription <#LoreLine$energy transfusions and dangerous#>
+SealedBloodVialDescription <#LoreLine$castings. Some such Aerteyp can be#>
+SealedBloodVialDescription <#LoreLine$used to improve armour.#>
+
+SealedBloodVialDataTag display:{Name:"<#SealedBloodVialName#>",Lore:[<#SealedBloodVialDescription#>]}
+SealedBloodVial <#Item$SealedBloodVialItemID$SealedBloodVialDataTag#>
+
+PrismSphereItemID light_gray_dye
+PrismSphereNameText Prism Sphere
+PrismSphereNameColour white
+PrismSphereName <#ItemName$PrismSphereNameText$PrismSphereNameColour#>
+PrismSphereDescription <#LoreLine$Contains a complex lattice of#>
+PrismSphereDescription <#LoreLine$crystals to redirect energy in a#>
+PrismSphereDescription <#LoreLine$variety of ways. Perfect for#>
+PrismSphereDescription <#LoreLine$many kinds of Illwoird, including#>
+PrismSphereDescription <#LoreLine$armour reinforcement.#>
+
+PrismSphereDataTag display:{Name:"<#PrismSphereName#>",Lore:[<#PrismSphereDescription#>]}
+PrismSphere <#Item$PrismSphereItemID$PrismSphereDataTag#>
+
+HolySymbolItemID pink_dye
+HolySymbolNameText Holy Symbol
+HolySymbolNameColour yellow
+HolySymbolName <#ItemName$HolySymbolNameText$HolySymbolNameColour#>
+HolySymbolDescription <#LoreLine$Almost odd to find this in E\'Siraph,#>
+HolySymbolDescription <#LoreLine$all things considered, but some#>
+HolySymbolDescription <#LoreLine$people still hold onto their faith.#>
+HolySymbolDescription <#LoreLine$Everyone who still lives still holds#>
+HolySymbolDescription <#LoreLine$on to something, else they\'d be just#>
+HolySymbolDescription <#LoreLine$another reaper. Someone who#>
+HolySymbolDescription <#LoreLine$appreciates its value could improve#>
+HolySymbolDescription <#LoreLine$armour with it.#>
+
+HolySymbolDataTag display:{Name:"<#HolySymbolName#>",Lore:[<#HolySymbolDescription#>]}
+HolySymbol <#Item$HolySymbolItemID$HolySymbolDataTag#>

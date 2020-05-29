@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={NobodyTalk=<#NobodyWhoID#>..}] NobodyLine 0

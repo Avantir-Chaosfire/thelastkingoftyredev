@@ -1,0 +1,113 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ChallengerKnightDescription <#LoreLine$She challenged the order to shut#>
+ChallengerKnightDescription <#LoreLine$the gates, refused to obey then#>
+ChallengerKnightDescription <#LoreLine$fought and died for that belief. The#>
+ChallengerKnightDescription <#LoreLine$Challenger Knight, they named her,#>
+ChallengerKnightDescription <#LoreLine$the symbol of unity dead.#>
+ChallengerKnightDescription <#StatsLine#>
+
+ChallengerKnightHeadItemID iron_helmet
+ChallengerKnightHeadNameText The Challenger Knight's Helmet
+ChallengerKnightHeadNameColour blue
+ChallengerKnightHeadName <#ItemName$ChallengerKnightHeadNameText$ChallengerKnightHeadNameColour#>
+ChallengerKnightHeadDescription <#ChallengerKnightDescription#>
+ChallengerKnightHeadStats <#LoreLine$<#Armour#>: 4#>
+ChallengerKnightHeadStats <#LoreLine$<#Weight#>: 2.0#>
+ChallengerKnightHeadStats <#LoreLine$+2 <#Toughness#>#>
+ChallengerKnightHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:409203372,UUIDMost:1294686856,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:2,UUIDLeast:-1365564176,UUIDMost:-105179193,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+ChallengerKnightHeadDataTag display:{Name:"<#ChallengerKnightHeadName#>",Lore:[<#ChallengerKnightHeadDescription#>,<#ChallengerKnightHeadStats#>]},<#ChallengerKnightHeadTags#>
+ChallengerKnightHead <#Item$ChallengerKnightHeadItemID$ChallengerKnightHeadDataTag#>
+
+ChallengerKnightChestItemID iron_chestplate
+ChallengerKnightChestNameText The Challenger Knight's Chestplate
+ChallengerKnightChestNameColour blue
+ChallengerKnightChestName <#ItemName$ChallengerKnightChestNameText$ChallengerKnightChestNameColour#>
+ChallengerKnightChestDescription <#ChallengerKnightDescription#>
+ChallengerKnightChestStats <#LoreLine$<#Armour#>: 5#>
+ChallengerKnightChestStats <#LoreLine$<#Weight#>: 2.5#>
+ChallengerKnightChestStats <#LoreLine$+4 <#Toughness#>#>
+ChallengerKnightChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:5,UUIDLeast:1790819686,UUIDMost:-549680153,Slot:"chest"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:4,UUIDLeast:-954631637,UUIDMost:1004360076,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+
+ChallengerKnightChestDataTag display:{Name:"<#ChallengerKnightChestName#>",Lore:[<#ChallengerKnightChestDescription#>,<#ChallengerKnightChestStats#>]},<#ChallengerKnightChestTags#>
+ChallengerKnightChest <#Item$ChallengerKnightChestItemID$ChallengerKnightChestDataTag#>
+
+ChallengerKnightLegsItemID iron_leggings
+ChallengerKnightLegsNameText The Challenger Knight's Leggings
+ChallengerKnightLegsNameColour blue
+ChallengerKnightLegsName <#ItemName$ChallengerKnightLegsNameText$ChallengerKnightLegsNameColour#>
+ChallengerKnightLegsDescription <#ChallengerKnightDescription#>
+ChallengerKnightLegsStats <#LoreLine$<#Armour#>: 4#>
+ChallengerKnightLegsStats <#LoreLine$<#Weight#>: 2.0#>
+ChallengerKnightLegsStats <#LoreLine$+3 <#Toughness#>#>
+ChallengerKnightLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:456929238,UUIDMost:-515145992,Slot:"legs"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:3,UUIDLeast:-731746270,UUIDMost:1752978186,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+ChallengerKnightLegsDataTag display:{Name:"<#ChallengerKnightLegsName#>",Lore:[<#ChallengerKnightLegsDescription#>,<#ChallengerKnightLegsStats#>]},<#ChallengerKnightLegsTags#>
+ChallengerKnightLegs <#Item$ChallengerKnightLegsItemID$ChallengerKnightLegsDataTag#>
+
+ChallengerKnightFeetItemID iron_boots
+ChallengerKnightFeetNameText The Challenger Knight's Boots
+ChallengerKnightFeetNameColour blue
+ChallengerKnightFeetName <#ItemName$ChallengerKnightFeetNameText$ChallengerKnightFeetNameColour#>
+ChallengerKnightFeetDescription <#ChallengerKnightDescription#>
+ChallengerKnightFeetStats <#LoreLine$<#Armour#>: 3#>
+ChallengerKnightFeetStats <#LoreLine$<#Weight#>: 1.5#>
+ChallengerKnightFeetStats <#LoreLine$+1 <#Toughness#>#>
+ChallengerKnightFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:373937113,UUIDMost:-1818903858,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:1,UUIDLeast:-1761628648,UUIDMost:867937811,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+ChallengerKnightFeetDataTag display:{Name:"<#ChallengerKnightFeetName#>",Lore:[<#ChallengerKnightFeetDescription#>,<#ChallengerKnightFeetStats#>]},<#ChallengerKnightFeetTags#>
+ChallengerKnightFeet <#Item$ChallengerKnightFeetItemID$ChallengerKnightFeetDataTag#>
+
+ChallengerKnightActive1ChestItemID iron_chestplate
+ChallengerKnightActive1ChestNameText Blood Imprinted Challenger Knight's Chestplate (Complete)
+ChallengerKnightActive1ChestNameColour <#ChallengerKnightChestNameColour#>
+ChallengerKnightActive1ChestName <#ItemName$ChallengerKnightActive1ChestNameText$ChallengerKnightActive1ChestNameColour#>
+ChallengerKnightActive1ChestDescription <#ChallengerKnightChestDescription#>
+ChallengerKnightActive1ChestStats <#ChallengerKnightChestStats#>
+ChallengerKnightActive1ChestStats <#LoreLine$<#BloodImprint#>#>
+ChallengerKnightActive1ChestTags <#ChallengerKnightChestTags#>
+
+ChallengerKnightActive1ChestDataTag display:{Name:"<#ChallengerKnightActive1ChestName#>",Lore:[<#ChallengerKnightActive1ChestDescription#>,<#ChallengerKnightActive1ChestStats#>]},<#ChallengerKnightActive1ChestTags#>
+ChallengerKnightActive1Chest <#Item$ChallengerKnightActive1ChestItemID$ChallengerKnightActive1ChestDataTag#>
+
+ChallengerKnightInactive1ChestItemID iron_chestplate
+ChallengerKnightInactive1ChestNameText Blood Imprinted Challenger Knight's Chestplate
+ChallengerKnightInactive1ChestNameColour <#ChallengerKnightChestNameColour#>
+ChallengerKnightInactive1ChestName <#ItemName$ChallengerKnightInactive1ChestNameText$ChallengerKnightInactive1ChestNameColour#>
+ChallengerKnightInactive1ChestDescription <#ChallengerKnightChestDescription#>
+ChallengerKnightInactive1ChestStats <#ChallengerKnightChestStats#>
+ChallengerKnightInactive1ChestStats <#LoreLine$(<#BloodImprint#>)#>
+ChallengerKnightInactive1ChestTags <#ChallengerKnightChestTags#>
+
+ChallengerKnightInactive1ChestDataTag display:{Name:"<#ChallengerKnightInactive1ChestName#>",Lore:[<#ChallengerKnightInactive1ChestDescription#>,<#ChallengerKnightInactive1ChestStats#>]},<#ChallengerKnightInactive1ChestTags#>
+ChallengerKnightInactive1Chest <#Item$ChallengerKnightInactive1ChestItemID$ChallengerKnightInactive1ChestDataTag#>
+
+ChallengerKnightActive2ChestItemID iron_chestplate
+ChallengerKnightActive2ChestNameText Shield Imprinted Challenger Knight's Chestplate (Complete)
+ChallengerKnightActive2ChestNameColour <#ChallengerKnightChestNameColour#>
+ChallengerKnightActive2ChestName <#ItemName$ChallengerKnightActive2ChestNameText$ChallengerKnightActive2ChestNameColour#>
+ChallengerKnightActive2ChestDescription <#ChallengerKnightChestDescription#>
+ChallengerKnightActive2ChestStats <#ChallengerKnightChestStats#>
+ChallengerKnightActive2ChestStats <#LoreLine$<#ShieldImprint#>#>
+ChallengerKnightActive2ChestTags <#ChallengerKnightChestTags#>
+
+ChallengerKnightActive2ChestDataTag display:{Name:"<#ChallengerKnightActive2ChestName#>",Lore:[<#ChallengerKnightActive2ChestDescription#>,<#ChallengerKnightActive2ChestStats#>]},<#ChallengerKnightActive2ChestTags#>
+ChallengerKnightActive2Chest <#Item$ChallengerKnightActive2ChestItemID$ChallengerKnightActive2ChestDataTag#>
+
+ChallengerKnightInactive2ChestItemID iron_chestplate
+ChallengerKnightInactive2ChestNameText Shield Imprinted Challenger Knight's Chestplate
+ChallengerKnightInactive2ChestNameColour <#ChallengerKnightChestNameColour#>
+ChallengerKnightInactive2ChestName <#ItemName$ChallengerKnightInactive2ChestNameText$ChallengerKnightInactive2ChestNameColour#>
+ChallengerKnightInactive2ChestDescription <#ChallengerKnightChestDescription#>
+ChallengerKnightInactive2ChestStats <#ChallengerKnightChestStats#>
+ChallengerKnightInactive2ChestStats <#LoreLine$(<#ShieldImprint#>)#>
+ChallengerKnightInactive2ChestTags <#ChallengerKnightChestTags#>
+
+ChallengerKnightInactive2ChestDataTag display:{Name:"<#ChallengerKnightInactive2ChestName#>",Lore:[<#ChallengerKnightInactive2ChestDescription#>,<#ChallengerKnightInactive2ChestStats#>]},<#ChallengerKnightInactive2ChestTags#>
+ChallengerKnightInactive2Chest <#Item$ChallengerKnightInactive2ChestItemID$ChallengerKnightInactive2ChestDataTag#>

@@ -1,0 +1,32 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+BucklerNameColour white
+
+BucklerItemID shield
+BucklerNameText Buckler
+BucklerName <#ItemName$BucklerNameText$BucklerNameColour#>
+
+BucklerDisabledItemID red_dye
+BucklerDisabledNameText Buckler (Disabled)
+BucklerDisabledName <#ItemName$BucklerDisabledNameText$BucklerNameColour#>
+
+BucklerStability 1
+BucklerRecoveryTime 140
+
+BucklerDescription <#LoreLine$A simple small shield.#>
+BucklerDescription <#StatsLine#>
+BucklerStats <#LoreLine$<#BucklerStability#> <#Stability#>#>
+BucklerStats <#LoreLine$<#Time$7#> <#Recovery#>#>
+BucklerTags HideFlags:38,Unbreakable:1b,Damage:1
+
+BucklerDataTag display:{Name:"<#BucklerName#>",Lore:[<#BucklerDescription#>,<#BucklerStats#>]},<#BucklerTags#>,HoldingID:<#BucklerHoldingID#>
+Buckler <#Item$BucklerItemID$BucklerDataTag#>
+
+BucklerDisabledDataTag display:{Name:"<#BucklerDisabledName#>",Lore:[<#BucklerDescription#>,<#BucklerStats#>]},<#BucklerTags#>,HoldingID:<#BucklerDisabledHoldingID#>
+BucklerDisabled <#Item$BucklerDisabledItemID$BucklerDisabledDataTag#>

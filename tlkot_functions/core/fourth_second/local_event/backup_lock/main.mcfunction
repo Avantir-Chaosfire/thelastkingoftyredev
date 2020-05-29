@@ -1,0 +1,1 @@
+execute as @e[tag=BackupLockLever] at @s if block 512 255 246 minecraft:air run function tlkot:<~>/process

@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={HiendilTalk=<#HiendilBazaarID#>..}] HiendilLine 0

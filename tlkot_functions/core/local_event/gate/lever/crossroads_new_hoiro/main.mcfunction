@@ -1,0 +1,1 @@
+execute if block 464 255 112 minecraft:air run function tlkot:core/local_event/gate/lever/crossroads_new_hoiro/loaded

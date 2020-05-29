@@ -1,0 +1,50 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+AerokinesisScrollItemID fishing_rod
+AerokinesisScrollNameText Aerokinesis Scroll, Class 3
+AerokinesisScrollNameColour dark_aqua
+AerokinesisScrollName <#ItemName$AerokinesisScrollNameText$AerokinesisScrollNameColour#>
+AerokinesisScrollDescription <#LoreLine$An advanced and efficient form of#>
+AerokinesisScrollDescription <#LoreLine$telekinesis that bypasses the soul#>
+AerokinesisScrollDescription <#LoreLine$barrier by twisting the energy#>
+AerokinesisScrollDescription <#LoreLine$through one\'s own barrier and#>
+AerokinesisScrollDescription <#LoreLine$counteracting the upward force#>
+AerokinesisScrollDescription <#LoreLine$upon oneself.#>
+AerokinesisScrollDescription <#StatsLine#>
+AerokinesisScrollStats <#LoreLine$Levitate Nearby Foes#>
+
+AerokinesisScrollDataTag display:{Name:"<#AerokinesisScrollName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:7,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
+AerokinesisScroll <#Item$AerokinesisScrollItemID$AerokinesisScrollDataTag#>
+
+AerokinesisScrollActiveNameText <#AerokinesisScrollNameText#> (Active)
+AerokinesisScrollActiveName <#ItemName$AerokinesisScrollActiveNameText$AerokinesisScrollNameColour#>
+
+AerokinesisScrollActiveDataTag display:{Name:"<#AerokinesisScrollActiveName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:23,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
+AerokinesisScrollActive <#Item$AerokinesisScrollItemID$AerokinesisScrollActiveDataTag#>
+
+AerokinesisWill0Cost 3
+AerokinesisWill1Cost 2
+AerokinesisWill2Cost 2
+AerokinesisWill3Cost 1
+AerokinesisWill4Cost 1
+AerokinesisWill5Cost 0
+
+AerokinesisWill0Time 20
+AerokinesisWill1Time 18
+AerokinesisWill2Time 16
+AerokinesisWill3Time 14
+AerokinesisWill4Time 12
+AerokinesisWill5Time 10
+
+AerokinesisWill0TimeIncrease 5
+AerokinesisWill1TimeIncrease 5
+AerokinesisWill2TimeIncrease 4
+AerokinesisWill3TimeIncrease 3
+AerokinesisWill4TimeIncrease 3
+AerokinesisWill5TimeIncrease 2

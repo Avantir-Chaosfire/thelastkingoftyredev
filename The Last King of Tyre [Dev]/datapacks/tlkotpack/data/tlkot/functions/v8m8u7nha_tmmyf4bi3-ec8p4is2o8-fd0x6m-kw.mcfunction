@@ -1,0 +1,2 @@
+execute unless entity @a[x=513,y=89,z=351,dx=2,dy=4,dz=2] unless entity @a[x=613,y=74,z=343,dx=2,dy=4,dz=2] run tag @a remove 4FFmo.z7P8EWoW0b3nTsN8jhNkru1aIkiw-IEgnW
+execute as @a at @s run function tlkot:kpwbqx1tpth062z3u4lfqq8715l3ueisrfli0bba

@@ -1,0 +1,4 @@
+scoreboard players set @a A6GuOZTXg6XmcY9C 1
+scoreboard players enable @a A6GuOZTXg6XmcY9C
+tellraw @a {"text": "\"Infested?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger A6GuOZTXg6XmcY9C set 2"}, "extra": [{"text": "\"Wharfs?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger A6GuOZTXg6XmcY9C set 3"}}]}
+tellraw @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Token of Brotherhood\",\"color\":\"gold\",\"italic\":false}"}}}]}] {"text": "*Show Token of Brotherhood*", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger A6GuOZTXg6XmcY9C set 10"}}

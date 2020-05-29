@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"UnloadedEnemy\"}",Tags:[<#CommonKillableDivisionTags#>,"Enemy.ProximitySmokeBeast","Initialized"],Marker:1b,Invisible:1b}
+execute as @e[tag=SmokeBeastBomb,distance=..1] run function tlkot:core/one_second/unload_enemies/passenger

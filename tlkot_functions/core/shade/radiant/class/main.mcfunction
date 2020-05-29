@@ -1,0 +1,2 @@
+execute unless entity @a[nbt={Inventory:[{Slot:<3>b,tag:{display:{Name:"<#DullPlate<2>Name#>"}}}]}] run function tlkot:core/shade/radiant/<0>/inventory_reset
+replaceitem entity @a[nbt={Inventory:[{Slot:<3>b,tag:{display:{Name:"<#DullPlate<2>Name#>"}}}]}] armor.<1> <#RadiantPlate<2>#>

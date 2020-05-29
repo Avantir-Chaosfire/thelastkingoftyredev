@@ -1,0 +1,3 @@
+tag @s add COGO1--e45s9eFzp6nrqV4d924BMjLhRkJV.w-dn
+summon minecraft:wither_skeleton ~ ~ ~ {NoAI:1b,Silent:1b,NoGravity:1b,PersistenceRequired:1b,Invulnerable:1b,Health:1000.0f,Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","sciqtX2_0-c6_fbJUDzrUNpH9OmR7Wk67ms8h.yY","R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T","Mi-QB2E1QcoEXYzx-7U70M5xh.YgKPSa3mWpf032","6B+5nLuSHVXS7NRWQaUzZB2k.HlSzcH1uIfj.4BQ"]}
+execute as @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=94k74QUaLPrBSgJo7P+nob0oJcKbO9NdHHPdHzjA,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:nkkheu0ym64_tzi0epfji9ki11s142j7qavotwry

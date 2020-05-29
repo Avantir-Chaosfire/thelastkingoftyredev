@@ -1,0 +1,2 @@
+execute unless entity @a[scores={Shade=..7999,IliedenRocking=0,IliedenShifting=1}] run function tlkot:<~>/weather
+execute if entity @a[scores={Shade=..7999,IliedenRocking=0,IliedenShifting=1}] run function tlkot:<~>/rocking

@@ -1,0 +1,3 @@
+scoreboard players set @a ULZ0kSpgK.izJyW0 99
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "He told us how he used his limited knowledge of casting to escape the Subjugates' cavern,", "color": "dark_aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "He told us how he used his limited knowledge of casting to escape the Subjugates' cavern,", "color": "white", "italic": true}

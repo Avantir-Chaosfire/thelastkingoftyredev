@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#BloodEmblemItemID#>"
+		},
+		"title":
+		{
+			"text": "No Choice of Freedom"
+		},
+		"description": "Destroy all of the Crystals",
+		"frame": "goal",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"no_choice_of_freedom":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

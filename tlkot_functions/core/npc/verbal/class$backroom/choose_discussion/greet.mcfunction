@@ -1,0 +1,2 @@
+scoreboard players set @a[scores={<2>Opinion=<#BadOpinion#>}] <2>Talk <#<1>BadGreetID#>
+execute if entity @a[scores={<2>Opinion=<#GoodOpinion#>}] run function tlkot:core/npc/verbal/<0>/choose_discussion/default

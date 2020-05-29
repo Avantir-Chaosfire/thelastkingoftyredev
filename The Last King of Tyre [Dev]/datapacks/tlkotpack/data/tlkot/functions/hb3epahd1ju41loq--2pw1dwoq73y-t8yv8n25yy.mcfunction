@@ -1,0 +1,2 @@
+execute if entity @s[scores={Tx+mTqUir7wyvJYr=1..2}] run particle minecraft:dust 1 0 0 1 ^-0.2 ^ ^0.35 0 0 0 0 1
+execute if entity @s[scores={Tx+mTqUir7wyvJYr=2}] run particle minecraft:dust 1 0 0 1 ^0.2 ^ ^0.35 0 0 0 0 1

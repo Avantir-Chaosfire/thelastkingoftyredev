@@ -1,0 +1,14 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+LastScrollsItemID written_book
+LastScrollsAuthor Iedilgaurd Yven the Grey
+LastScrollsTitle Note
+LastScrollsPages Here lies Ixinik's last scrolls, the ones left behind when the Reapers came. They may seem useless, but all are powerful enough in the right hands and in the right situation.<Newline><Newline>I have locked the door and left the key behind in hopes of keeping the reapers
+LastScrollsPages off the scrolls, when they come... And they will. They will kill us all, or we will give up and kill one another, such is our fate.<Newline><Newline>Unto you, nameless conqueror, I present these scrolls as the Casters of Ixinik's will that you do what must be done.
+
+LastScrollsDataTag author:"<#LastScrollsAuthor#>",title:"<#LastScrollsTitle#>",resolved:1b,pages:["<#LastScrollsPages#>"]
+LastScrolls <#Item$LastScrollsItemID$LastScrollsDataTag#>

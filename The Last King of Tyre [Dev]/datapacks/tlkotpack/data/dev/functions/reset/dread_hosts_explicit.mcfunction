@@ -1,0 +1,1 @@
+kill @e[tag=VdXyMxH5WaZfKsKA+6y7PA2NYikRlulpi7Rpq05F]

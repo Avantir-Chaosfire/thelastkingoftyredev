@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={HozolonTalk=<#HozolonPlanID#>..}] HozolonLine 0

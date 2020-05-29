@@ -1,0 +1,1 @@
+tellraw @a {"text": "In need of supplies?", "color": "white", "italic": true}

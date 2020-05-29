@@ -1,0 +1,29 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ReceptacleDodgeCostAddition 2
+
+ReceptacleItemID green_dye
+ReceptacleNameText Alstroemeria
+ReceptacleNameColour light_purple
+ReceptacleName <#ItemName$ReceptacleNameText$ReceptacleNameColour#>
+ReceptacleDescription <#LoreLine$Some things are only to be had by#>
+ReceptacleDescription <#LoreLine$the dead, and so they are bestowed#>
+ReceptacleDescription <#LoreLine$with these flowers as the only thing#>
+ReceptacleDescription <#LoreLine$left that the world can offer. Not a#>
+ReceptacleDescription <#LoreLine$hope, but a beautiful memory for#>
+ReceptacleDescription <#LoreLine$those left behind. Sadly, death has#>
+ReceptacleDescription <#LoreLine$become the greatest challenge of all.#>
+ReceptacleDescription <#StatsLine#>
+ReceptacleStats <#LoreLine$+100% <#KnockbackResistance#>#>
+ReceptacleStats <#LoreLine$-50% <#StaminaRegenerationDelay#>#>
+ReceptacleStats <#LoreLine$+<#ReceptacleDodgeCostAddition#> <#DodgeStamina#>#>
+ReceptacleTags AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:-2019786425,UUIDMost:-70760150}],HideFlags:2,HoldingID:<#ReceptacleHoldingID#>
+
+ReceptacleDataTag display:{Name:"<#ReceptacleName#>",Lore:[<#ReceptacleDescription#>,<#ReceptacleStats#>]},<#ReceptacleTags#>
+Receptacle <#Item$ReceptacleItemID$ReceptacleDataTag#>

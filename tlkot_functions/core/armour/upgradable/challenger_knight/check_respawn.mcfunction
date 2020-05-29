@@ -1,0 +1,2 @@
+execute if block ~ ~-0.5 ~ minecraft:end_portal_frame run function tlkot:core/armour/upgradable/challenger_knight/respawn
+execute if block ~ ~-0.5 ~ minecraft:nether_bricks run function tlkot:core/armour/upgradable/challenger_knight/respawn

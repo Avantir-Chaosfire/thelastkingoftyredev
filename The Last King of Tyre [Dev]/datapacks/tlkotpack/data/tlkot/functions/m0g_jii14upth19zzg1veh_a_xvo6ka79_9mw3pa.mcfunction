@@ -1,0 +1,2 @@
+execute as @e[tag=8ULskNqv2cU9+K0T+lX+eec+FvqIIGu9u3eFfoXu] at @s run function tlkot:d82yd8d1g957ez3atwhwi2k9s2ehoqchwqd6j2t4
+execute if entity @a[scores={Dw4tKd4uxX-BLi6A=1}] if entity @e[tag=8ULskNqv2cU9+K0T+lX+eec+FvqIIGu9u3eFfoXu] positioned 497.5 40 86.5 run playsound minecraft:block.chorus_flower.death hostile @a ~ ~ ~ 2

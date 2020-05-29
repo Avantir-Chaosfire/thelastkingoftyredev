@@ -1,0 +1,2 @@
+execute if entity @s[tag=!BossMarker] if entity @a[distance=2..] run function tlkot:core/one_second/spawn_enemies/spawn/minion
+execute if entity @s[tag=BossMarker] run function tlkot:core/one_second/spawn_enemies/spawn/boss

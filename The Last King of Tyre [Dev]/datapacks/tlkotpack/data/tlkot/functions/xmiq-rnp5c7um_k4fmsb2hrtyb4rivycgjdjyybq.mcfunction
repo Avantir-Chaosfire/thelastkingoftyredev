@@ -1,0 +1,9 @@
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=10}] run function tlkot:py-n523kiy13qhhp4fnf8yr66wp14ba8-d3ck3w1
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=11}] run function tlkot:82haejak2h-gbckrx_4w3vr43sq7sggoq9g5e_ry
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=12}] run function tlkot:aju1aybunflvbd-wylmyaq7e63c3g76z5qzj1hzm
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=13}] run function tlkot:fj29i73xw3s9f9jz45qnh3jid1ehdjl5il8bezaf
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=14}] run function tlkot:7y2q1-mbpqpti_9yv4mkvxt-p1u4e2h1pzxj-bkv
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=15}] run function tlkot:imwt-kokp8kchbcq1ngprki4nw8ghe1mk55nyhdf
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=16}] run function tlkot:e3jbbaby8lygdj3id-wh992yre7lo5so3i1s2hwp
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=17}] run function tlkot:v2iv8wanvx--o2bkwqfo0--f152n3ucaccvk6b9a
+execute if entity @a[scores={Tl8TCZteT5Hpi3Zi=9}] run function tlkot:ix6yzgrgf0kd-iugpcg11_xouxugp8xss0qp-1ft

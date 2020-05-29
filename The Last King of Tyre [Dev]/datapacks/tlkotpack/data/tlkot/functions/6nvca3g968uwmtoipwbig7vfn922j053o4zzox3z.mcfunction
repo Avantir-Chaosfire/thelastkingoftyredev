@@ -1,0 +1,2 @@
+function tlkot:4c4imcbot5ef-q65vv5enirublw0l2cipxp394r3
+execute as @e[tag=OvGz_f+LqqO_QFcner5Zt5ViOr57Cgj_408tQPUl] run function tlkot:z_ukps7wrx1x8609dhi45ut2iq9dmqyl5fk88b40

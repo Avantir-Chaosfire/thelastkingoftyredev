@@ -1,0 +1,1 @@
+execute if block 641 39 303 minecraft:oak_button[powered=true] if entity @a[scores={Seal=1}] run function tlkot:<~>/trigger

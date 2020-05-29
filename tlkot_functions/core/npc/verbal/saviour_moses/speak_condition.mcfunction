@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={MosesTalk=<#SaviourMosesAttackFirstEncounterID#>..}] MosesLine 0

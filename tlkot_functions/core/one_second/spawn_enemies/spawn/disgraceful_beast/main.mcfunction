@@ -1,0 +1,2 @@
+execute if entity @s[name=DisgracefulBeast-Boss] run function tlkot:core/one_second/spawn_enemies/spawn/disgraceful_beast/spawn
+execute if entity @s[name=DisgracefulBeast-Misbegotten] run function tlkot:core/one_second/spawn_enemies/spawn/disgraceful_beast/reset_misbegotten

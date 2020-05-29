@@ -1,0 +1,1 @@
+execute if entity @s[tag=z1xjerXVonRgiw9j_qh-3SkbwQjn83Rb9AJpSept] run function tlkot:bkdqy-agjjsttjb_gibqun0_1l8z7rlbcie4ib-d

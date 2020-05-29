@@ -1,0 +1,50 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "<#RadiantScytheItemID#>"
+		},
+		"title":
+		{
+			"text": "Swathed in Distant Light"
+		},
+		"description": "Equip all five pieces of the Radiant set",
+		"frame": "task",
+		"hidden": false
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"swathed_in_distant_light":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:<#RadiantScytheItemID#>",
+						"nbt": "{<#RadiantScytheDataTag#>}"
+					},
+					{
+						"item": "minecraft:<#RadiantPlateHeadItemID#>",
+						"nbt": "{<#RadiantPlateHeadDataTag#>}"
+					},
+					{
+						"item": "minecraft:<#RadiantPlateActiveChestItemID#>",
+						"nbt": "{<#RadiantPlateActiveChestDataTag#>}"
+					},
+					{
+						"item": "minecraft:<#RadiantPlateLegsItemID#>",
+						"nbt": "{<#RadiantPlateLegsDataTag#>}"
+					},
+					{
+						"item": "minecraft:<#RadiantPlateFeetItemID#>",
+						"nbt": "{<#RadiantPlateFeetDataTag#>}"
+					}
+				]
+			}
+		}
+	}
+}

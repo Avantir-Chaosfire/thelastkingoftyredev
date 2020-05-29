@@ -1,0 +1,2 @@
+execute if entity @s[scores={-gS0TUaWZKGMNxDN=9}] run function tlkot:csh0b799v3_80i17w_u1jjboqds-kojl99qbp90o
+execute if entity @s[scores={-gS0TUaWZKGMNxDN=1}] run function tlkot:sxdq_jlp0czka8tly8dmposfadzfy77l7jlm5hsc

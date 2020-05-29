@@ -1,0 +1,2 @@
+execute if entity @s[name=LatitudinalWave] run function tlkot:v5siv4g96x2s3yrbqmzfpr6n2usk-5jjhk8acjg2
+execute if entity @s[name=LongitudinalWave] run function tlkot:n705qd62gbyj4sq2p6ggavefdoe221r7xng-kjn6

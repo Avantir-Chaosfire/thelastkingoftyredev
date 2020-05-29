@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+UnderneathItemID written_book
+UnderneathAuthor Author Unknown
+UnderneathTitle Underneath
+UnderneathPages <Newline><Newline><Newline>Deep down,<Newline>Beneath the ground,<Newline>A city lies in wait.<Newline>Full of life,<Newline>But humans not,<Newline>The living dead do creep.
+UnderneathPages <Newline><Newline><Newline><Newline>The beasts parade,<Newline>And the dead decay,<Newline>And he does watch,<Newline>From within said dark.
+UnderneathPages <Newline><Newline><Newline><Newline>The city of the bridge,<Newline>The great unknown,<Newline>Here the future rises,<Newline>And so too does it fall.
+
+UnderneathDataTag author:"<#UnderneathAuthor#>",title:"<#UnderneathTitle#>",resolved:1b,pages:["<#UnderneathPages#>"]
+Underneath <#Item$UnderneathItemID$UnderneathDataTag#>

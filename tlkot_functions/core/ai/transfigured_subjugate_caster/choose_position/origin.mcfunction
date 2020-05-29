@@ -1,0 +1,1 @@
+#class execute if entity @s[tag=!PositionChosen] positioned ~<1> ~<2> ~<3> if block ~ ~-1 ~ #tlkot:illegal_spawn unless block ~ ~ ~ #tlkot:illegal_spawn unless block ~ ~1 ~ #tlkot:illegal_spawn run function tlkot:core/ai/transfigured_subjugate_caster/choose_position/<0>

@@ -1,0 +1,2 @@
+execute align xyz unless entity @a[dx=0,dy=0,dz=0] positioned ~0.5 ~0.5 ~0.5 run function tlkot:<~>/trigger
+execute align xyz if entity @a[dx=0,dy=0,dz=0] positioned ~ ~1 ~ run function tlkot:<~>/rocket

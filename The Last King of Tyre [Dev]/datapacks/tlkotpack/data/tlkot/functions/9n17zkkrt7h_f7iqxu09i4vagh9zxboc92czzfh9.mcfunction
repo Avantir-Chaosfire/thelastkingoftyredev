@@ -1,0 +1,3 @@
+scoreboard players set @a g65hK21X6TRGdjr0 100
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "There's only one real path there, in the cave just northwest of here, towards the bell tower.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "There's only one real path there, in the cave just northwest of here, towards the bell tower.", "color": "white", "italic": true}

@@ -1,0 +1,170 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+LastKingOfTyreIDTag LastKingOfTyre
+LastKingOfTyreTags ‘<#CommonNPCTags$savanna$nitwit#>,Tags:["<#LastKingOfTyreIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Last King of Tyre\"}"‘
+
+LastKingOfTyreColour dark_blue
+LastKingOfTyreLocation -35.5 38 164.5
+LastKingOfTyreEngageRadius 7
+LastKingOfTyreDisengageRadius 15
+
+LastKingOfTyreMeetID 0
+LastKingOfTyreMeetLines		0	$ 26	$ Wait! $
+LastKingOfTyreMeetLines		1	$ 51	$ Are you... Alive? $
+LastKingOfTyreMeetLines		2	$ 63	$ Your face, it... Never mind. $
+LastKingOfTyreMeetLines		3	$ 38	$ Forget I spoke. $
+LastKingOfTyreMeetLines		4	$ 57	$ I do not deserve your presence. $
+LastKingOfTyreMeetLines		5	$ 35	$ ... $
+LastKingOfTyreMeetLines		6	$ 44	$ What do you inquire? $
+LastKingOfTyreMeetLines		7	$ 78	$ The reapers... Our cities... $
+LastKingOfTyreMeetLines		8	$ 36	$ It is my fault. $
+LastKingOfTyreMeetLines		9	$ 50	$ I am the Last King of Tyre. $
+LastKingOfTyreMeetLines		10	$ 81	$ I alone had the chance to stop it, and I alone failed. $
+LastKingOfTyreMeetLines		11	$ 75	$ I do not deserve what pitiful life I have left. $
+LastKingOfTyreMeetLines		12	$ 59	$ If I may... Ask a favour? $
+LastKingOfTyreMeetLines		13	$ 101	$ You seem to be able to walk freely in this land where others cannot. $
+LastKingOfTyreMeetLines		14	$ 30	$ Will you? $
+LastKingOfTyreMeetLines		15	$ 68	$ Will you help this forsaken land, and me? $
+
+LastKingOfTyreRequestID 1
+LastKingOfTyreRequestLines		0	$ 44	$ What do you inquire? $
+LastKingOfTyreRequestLines		1	$ 78	$ The reapers... Our cities... $
+LastKingOfTyreRequestLines		2	$ 36	$ It is my fault. $
+LastKingOfTyreRequestLines		3	$ 50	$ I am the Last King of Tyre. $
+LastKingOfTyreRequestLines		4	$ 81	$ I alone had the chance to stop it, and I alone failed. $
+LastKingOfTyreRequestLines		5	$ 75	$ I do not deserve what pitiful life I have left. $
+LastKingOfTyreRequestLines		6	$ 59	$ If I may... Ask a favour? $
+LastKingOfTyreRequestLines		7	$ 101	$ You seem to be able to walk freely in this land where others cannot. $
+LastKingOfTyreRequestLines		8	$ 30	$ Will you? $
+LastKingOfTyreRequestLines		9	$ 68	$ Will you help this forsaken land, and me? $
+
+LastKingOfTyreYesResponseID 2
+LastKingOfTyreYesResponseLines		0	$ 37	$ Thank you, kind soul. $
+LastKingOfTyreYesResponseLines		1	$ 55	$ Now listen, there were five sacrifices. $
+LastKingOfTyreYesResponseLines		2	$ 83	$ Across the land they were to sacrifice their lives to stop the reaping. $
+LastKingOfTyreYesResponseLines		3	$ 35	$ But I failed them. $
+LastKingOfTyreYesResponseLines		4	$ 108	$ To purge E'Siraph of reapers as they once tried, you must reactivate all five resonating crystals. $
+LastKingOfTyreYesResponseLines		5	$ 71	$ To start, there is one just here at the Sea Gate to the south. $
+LastKingOfTyreYesResponseLines		6	$ 106	$ Another one sits in Tyre's wharfs to the north, and a third rests at the bottom of the nearby depths. $
+LastKingOfTyreYesResponseLines		7	$ 41	$ Please... $
+LastKingOfTyreYesResponseLines		8	$ 26	$ Help us. $
+LastKingOfTyreYesResponseLines		9	$ 42	$ I know no one else who can. $
+
+LastKingOfTyrePostYesResponseSilenceID 3
+
+LastKingOfTyreNoResponseID 4
+LastKingOfTyreNoResponseLines		0	$ 27	$ I'm sorry. $
+LastKingOfTyreNoResponseLines		1	$ 32	$ Be on your way. $
+
+LastKingOfTyrePostNoResponseSilenceID 5
+
+LastKingOfTyreActivateNonResponseID 6
+LastKingOfTyreActivateNonResponseLines	0	$ 46	$ You amaze me... $
+LastKingOfTyreActivateNonResponseLines	1	$ 58	$ You inspire a broken man to continue again. $
+LastKingOfTyreActivateNonResponseLines	2	$ 64	$ You truly are something special... $
+LastKingOfTyreActivateNonResponseLines	3	$ 59	$ You are more deserving of being a king than I. $
+
+LastKingOfTyreActivateYesID 7
+LastKingOfTyreActivateYesLines		0	$ 46	$ You amaze me... $
+LastKingOfTyreActivateYesLines		1	$ 58	$ You inspire a broken man to continue again. $
+LastKingOfTyreActivateYesLines		2	$ 92	$ But there are more, more crystals to reactivate, more sacrifices to give meaning. $
+LastKingOfTyreActivateYesLines		3	$ 64	$ You truly are something special... $
+LastKingOfTyreActivateYesLines		4	$ 59	$ You are more deserving of being a king than I. $
+
+LastKingOfTyreActivateNoID 8
+LastKingOfTyreActivateNoLines		0	$ 44	$ Have you changed your mind? $
+LastKingOfTyreActivateNoLines		1	$ 32	$ I am grateful. $
+LastKingOfTyreActivateNoLines		2	$ 92	$ But there are more, more crystals to reactivate, more sacrifices to give meaning. $
+LastKingOfTyreActivateNoLines		3	$ 64	$ You truly are something special... $
+LastKingOfTyreActivateNoLines		4	$ 59	$ You are more deserving of being a king than I. $
+
+LastKingOfTyrePostActivateTwoSilenceID 9
+
+LastKingOfTyreActivateThreeLines	0	$ 39	$ You truly are doing it. $
+LastKingOfTyreActivateThreeLines	1	$ 51	$ This is wondrous, I thank you dearly. $
+LastKingOfTyreActivateThreeLines	2	$ 85	$ Perhaps you will be able to mend my tremendous failings... $
+LastKingOfTyreActivateThreeLines	3	$ 46	$ But two more crystals remain. $
+LastKingOfTyreActivateThreeLines	4	$ <1>	$ <2> $
+LastKingOfTyreActivateThreeLines	5	$ 58	$ I wish you luck, and I give my deepest thanks. $
+
+LastKingOfTyreActivateThreeSeaGateID 10
+LastKingOfTyreActivateThreeSeaGateLines <#LastKingOfTyreActivateThreeLines$76$The next is very near, up the steps to the south at Tyre's Sea Gate.#>
+
+LastKingOfTyreActivateThreeWharfsID 11
+LastKingOfTyreActivateThreeWharfsLines <#LastKingOfTyreActivateThreeLines$59$The next floats in Tyre's wharfs to the north.#>
+
+LastKingOfTyreActivateThreeDepthsID 12
+LastKingOfTyreActivateThreeDepthsLines <#LastKingOfTyreActivateThreeLines$66$The next rests at the bottom of the depths of Ixinik.#>
+
+LastKingOfTyreActivateThreeCathedralID 13
+LastKingOfTyreActivateThreeCathedralLines <#LastKingOfTyreActivateThreeLines$60$The next sits atop the Cathedral of New Hoiro.#>
+
+LastKingOfTyrePostActivateThreeSilenceID 14
+
+LastKingOfTyreActivateFourID 15
+LastKingOfTyreActivateFourLines	0	$ 35	$ It is nearly done. $
+LastKingOfTyreActivateFourLines	1	$ 58	$ For every moment I have failed, you have won. $
+LastKingOfTyreActivateFourLines	2	$ 90	$ I am tired and broken, I overflow with failure, loss and regret... $
+LastKingOfTyreActivateFourLines	3	$ 95	$ The last crystal is atop the Enshadowed Thrones in Ixinik, at the Lyceum of the Simia. $
+LastKingOfTyreActivateFourLines	4	$ 79	$ I sent someone up there once, a young, brave person... $
+LastKingOfTyreActivateFourLines	5	$ 72	$ A Farmer of Ixinik, they said they were, but... $
+LastKingOfTyreActivateFourLines	6	$ 36	$ They didn't make it. $
+LastKingOfTyreActivateFourLines	7	$ 66	$ When the bell rang, the crystal was never activated. $
+LastKingOfTyreActivateFourLines	8	$ 67	$ That poor person died, and with them, the whole nation. $
+LastKingOfTyreActivateFourLines	9	$ 121	$ That is the height of my failure, to send one to die when I could have done so, and assuredly succeed... $
+LastKingOfTyreActivateFourLines	10	$ 46	$ But I feared... $
+LastKingOfTyreActivateFourLines	11	$ 38	$ I was afraid of death. $
+LastKingOfTyreActivateFourLines	12	$ 48	$ The other monarchs are all dead. $
+LastKingOfTyreActivateFourLines	13	$ 152	$ One died leading his people through hell, one was slain defending her people, and one assassinated in her attempt to purge the land... $
+LastKingOfTyreActivateFourLines	14	$ 47	$ I, the coward of Tyre, am the last. $
+LastKingOfTyreActivateFourLines	15	$ 62	$ So before you leave, please, do me one last favour. $
+LastKingOfTyreActivateFourLines	16	$ 37	$ End my pitiful life. $
+LastKingOfTyreActivateFourLines	17	$ 81	$ Flood this cage, as I have had done for so many others... $
+LastKingOfTyreActivateFourLines	18	$ 26	$ Kill me. $
+
+LastKingOfTyreDeathRequestID 16
+LastKingOfTyreDeathRequestLines	0	$ 44	$ Please... $
+LastKingOfTyreDeathRequestLines	1	$ 51	$ End my pitiful existence. $
+LastKingOfTyreDeathRequestLines	2	$ 59	$ I have no further reason to live. $
+LastKingOfTyreDeathRequestLines	3	$ 59	$ It is what I deserve... $
+
+LastKingOfTyreDeadID 17
+LastKingOfTyreDeadLines		0	$ 51	$ No, no, you do it... $
+LastKingOfTyreDeadLines		1	$ 54	$ I'm a king after all, I can't die. $
+LastKingOfTyreDeadLines		2	$ 69	$ People live and serve for me... $
+LastKingOfTyreDeadLines		3	$ 65	$ They... Do they...? $
+LastKingOfTyreDeadLines		4	$ 48	$ Agh, my head... $
+LastKingOfTyreDeadLines		5	$ 74	$ Oh, the sacrifice, the sacrifice... $
+LastKingOfTyreDeadLines		6	$ 35	$ Why, why don't- $
+LastKingOfTyreDeadLines		7	$ 74	$ You go die, they'll be ok... with that? $
+
+LastKingOfTyreSorrowID 18
+LastKingOfTyreSorrowLines		0	$ 47	$ How could you...? $
+LastKingOfTyreSorrowLines		1	$ 42	$ No, I should not blame you. $
+LastKingOfTyreSorrowLines		2	$ 73	$ The decision would not have been yours had it not been for me. $
+LastKingOfTyreSorrowLines		3	$ 71	$ This is the knowledge, the fate, I deserve... $
+
+LastKingOfTyreFinalSilenceID 19
+
+LastKingOfTyreActionbarDiscussions 	meet				$ <#LastKingOfTyreMeetID#>			$ Meet
+LastKingOfTyreActionbarDiscussions 	request				$ <#LastKingOfTyreRequestID#>			$ Request
+LastKingOfTyreActionbarDiscussions 	death_request			$ <#LastKingOfTyreDeathRequestID#>		$ DeathRequest
+LastKingOfTyreActionbarDiscussions 	dead				$ <#LastKingOfTyreDeadID#>			$ Dead
+
+LastKingOfTyreChatLogDiscussions 	yes_response			$ <#LastKingOfTyreYesResponseID#>		$ YesResponse
+LastKingOfTyreChatLogDiscussions 	no_response			$ <#LastKingOfTyreNoResponseID#>		$ NoResponse
+LastKingOfTyreChatLogDiscussions 	activate_nonresponse		$ <#LastKingOfTyreActivateNonResponseID#>	$ ActivateNonResponse
+LastKingOfTyreChatLogDiscussions 	activate_yes			$ <#LastKingOfTyreActivateYesID#>		$ ActivateYes
+LastKingOfTyreChatLogDiscussions 	activate_no			$ <#LastKingOfTyreActivateNoID#>		$ ActivateNo
+LastKingOfTyreChatLogDiscussions 	activate_three_sea_gate	$ <#LastKingOfTyreActivateThreeSeaGateID#>	$ ActivateThreeSeaGate
+LastKingOfTyreChatLogDiscussions 	activate_three_wharfs		$ <#LastKingOfTyreActivateThreeWharfsID#>	$ ActivateThreeWharfs
+LastKingOfTyreChatLogDiscussions 	activate_three_depths		$ <#LastKingOfTyreActivateThreeDepthsID#>	$ ActivateThreeDepths
+LastKingOfTyreChatLogDiscussions 	activate_three_cathedral	$ <#LastKingOfTyreActivateThreeCathedralID#>	$ ActivateThreeCathedral
+LastKingOfTyreChatLogDiscussions 	activate_four			$ <#LastKingOfTyreActivateFourID#>		$ ActivateFour
+LastKingOfTyreChatLogDiscussions 	sorrow				$ <#LastKingOfTyreSorrowID#>			$ Sorrow
+
+LastKingOfTyreYesNoDialoguePrompt {<#DialoguePromptOption$King$LastKingOfTyreYesResponse$Yes#>,"extra":[{<#DialoguePromptOptionFinal$King$LastKingOfTyreNoResponse$No#>}]}
+LastKingOfTyreCrystalDialoguePrompt {"text":"*Inform of status of resonating crystals*","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger KingInform set 1"}}

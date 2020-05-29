@@ -1,0 +1,1 @@
+scoreboard players set @s 2MCrw5Zo.Hr4zO0j 200

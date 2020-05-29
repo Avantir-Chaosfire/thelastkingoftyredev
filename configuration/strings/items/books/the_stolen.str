@@ -1,0 +1,13 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheStolenItemID written_book
+TheStolenAuthor Anonymous
+TheStolenTitle The Stolen
+TheStolenPages You old fool,<Newline><Newline>Don't you remember, the words you once told me, spoken by a wise old man?<Newline><Newline>'§oMake the lie big, make §oit simple, keep saying §oit, and eventually they §owill believe it.§r'
+
+TheStolenDataTag author:"<#TheStolenAuthor#>",title:"<#TheStolenTitle#>",resolved:1b,pages:["<#TheStolenPages#>"]
+TheStolen <#Item$TheStolenItemID$TheStolenDataTag#>

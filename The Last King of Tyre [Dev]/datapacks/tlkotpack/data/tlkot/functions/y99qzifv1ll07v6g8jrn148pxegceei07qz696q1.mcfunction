@@ -1,0 +1,3 @@
+tag @e[tag=T0E9Ki_fGORcl60.DmQ5UpXB_.Ufxgu1o1BpYVuU,distance=..7] add _Ny8AqiLxoh3kouod9RSCr_2XNLwzY-reqOJYv0a
+execute at @e[tag=DDygajIdJFKC8OHJ..8A63TLz88o0fjM7z9XdTFn,distance=..20,sort=furthest,limit=1] run tag @e[tag=T0E9Ki_fGORcl60.DmQ5UpXB_.Ufxgu1o1BpYVuU,tag=!_Ny8AqiLxoh3kouod9RSCr_2XNLwzY-reqOJYv0a,tag=!I1hyjyKuME5Un8B5gIEpYb.Kl_K6I9-1c4HI.jcP,tag=!U.FL_6-sYyHcv_2WQK2-EWDgyjjiib21z4-rQav_,sort=nearest,limit=1] add CxfRf0psNga4lonyr75aQYhE_XWy4O92XJ-WIt84
+execute unless entity @e[tag=CxfRf0psNga4lonyr75aQYhE_XWy4O92XJ-WIt84] run tag @e[tag=T0E9Ki_fGORcl60.DmQ5UpXB_.Ufxgu1o1BpYVuU,sort=furthest,limit=1] add CxfRf0psNga4lonyr75aQYhE_XWy4O92XJ-WIt84

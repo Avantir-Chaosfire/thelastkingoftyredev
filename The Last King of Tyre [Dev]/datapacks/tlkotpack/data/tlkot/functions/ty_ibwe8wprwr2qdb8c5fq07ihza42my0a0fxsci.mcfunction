@@ -1,0 +1,1 @@
+execute at @a rotated ~ 0 positioned ^ ^ ^-5 align xyz positioned ~0.5 ~ ~0.5 run function tlkot:y16jtr3cdxm0gq_2vdegdnc8emgjt_1m-hxm2fv1

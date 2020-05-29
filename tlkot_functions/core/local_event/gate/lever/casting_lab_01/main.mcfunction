@@ -1,0 +1,1 @@
+execute if block 416 255 288 minecraft:air run function tlkot:core/local_event/gate/lever/casting_lab_01/loaded

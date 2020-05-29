@@ -1,0 +1,3 @@
+scoreboard players set @a -jbbmzZkgkWlndcw 109
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "The invention of sign-casting, called Illwoird, and its sub-form Aerteyp revolutionized smithing.", "color": "green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "The invention of sign-casting, called Illwoird, and its sub-form Aerteyp revolutionized smithing.", "color": "white", "italic": true}

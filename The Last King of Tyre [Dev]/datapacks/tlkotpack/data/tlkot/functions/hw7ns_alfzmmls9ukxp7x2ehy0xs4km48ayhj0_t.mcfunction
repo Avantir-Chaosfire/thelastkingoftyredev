@@ -1,0 +1,3 @@
+execute if entity @a[scores={6J0a26xSfJbZH1hh=0..}] run tellraw @a {"text": "Oh, really?", "color": "white", "italic": true}
+execute if entity @a[scores={6J0a26xSfJbZH1hh=1..}] run tellraw @a {"text": "It again?", "color": "white", "italic": true}
+execute if entity @a[scores={6J0a26xSfJbZH1hh=2..}] run tellraw @a {"text": "Its already won, what more could it want?", "color": "white", "italic": true}

@@ -1,0 +1,1 @@
+execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,CustomName:"{\"text\":\"HangingPole-Pillar\"}",Tags:["7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","0gI-z_3-5tHZPlpb6y4XNaiWe8QrywfyczyitISb","uitKEHRcRzbyrZtOgQE3AzpidHf2wJq1bPR2p3iT"]}

@@ -1,0 +1,34 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "<#ArkOfTheSlavesItemID#>"
+		},
+		"title":
+		{
+			"text": "Relic of a False God's Birth"
+		},
+		"description": "Obtain the Ark of the Slaves",
+		"frame": "challenge",
+		"hidden": false
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"relic_of_a_false_gods_birth":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:<#ArkOfTheSlavesItemID#>",
+						"nbt": "{<#ArkOfTheSlavesDataTag#>}"
+					}
+				]
+			}
+		}
+	}
+}

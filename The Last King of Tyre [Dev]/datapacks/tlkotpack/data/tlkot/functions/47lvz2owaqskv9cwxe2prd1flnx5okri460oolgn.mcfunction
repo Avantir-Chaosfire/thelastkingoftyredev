@@ -1,0 +1,3 @@
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=0..}] run tellraw @a {"text": "Oh, a survivor arrives.", "color": "yellow", "italic": true}
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=1..}] run tellraw @a {"text": "Chaos still rules Tyre, I believe your face implies.", "color": "yellow", "italic": true}
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=2..}] run tellraw @a {"text": "For that, I have items of use, for you, if you pay.", "color": "yellow", "italic": true}

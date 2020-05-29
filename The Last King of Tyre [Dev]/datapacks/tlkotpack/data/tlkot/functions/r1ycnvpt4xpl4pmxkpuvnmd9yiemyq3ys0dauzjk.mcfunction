@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={mf9L5CC4VvVuq_LG=-1}] mf9L5CC4VvVuq_LG 131
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Only person I've seen strong enough to fight their way down here is that vicious old knight.", "color": "dark_green", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Only person I've seen strong enough to fight their way down here is that vicious old knight.", "color": "white", "italic": true}

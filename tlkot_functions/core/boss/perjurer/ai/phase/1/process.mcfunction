@@ -1,0 +1,1 @@
+execute if entity @a[scores={PerjurerHealth=..280000}] run function tlkot:core/boss/perjurer/ai/phase/2/enter

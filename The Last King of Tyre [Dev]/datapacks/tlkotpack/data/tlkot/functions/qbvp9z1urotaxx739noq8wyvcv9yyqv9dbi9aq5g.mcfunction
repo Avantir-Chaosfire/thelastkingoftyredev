@@ -1,0 +1,1 @@
+execute if block 416 255 16 minecraft:air if block 432 255 16 minecraft:air run function tlkot:s-hh9ouz6aos_od_ovquppchr76a0im1qmq_d72y

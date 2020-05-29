@@ -1,0 +1,3 @@
+execute if entity @a[scores={YanteReaper=0}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run function tlkot:core/npc/physical/yante_the_caster/restore
+execute if entity @a[scores={YanteReaper=1}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] positioned <#YanteStorageLocation#> unless entity @s[dx=0,dy=0,dz=0] run function tlkot:core/npc/physical/yante_the_caster/store
+execute if entity @a[scores={YanteReaper=2}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s <#YanteStorageLocation#>

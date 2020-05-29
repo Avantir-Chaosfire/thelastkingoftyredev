@@ -1,0 +1,13 @@
+tp @a[tag=zf_9h4xLy+aEHRg6Vt2zHhYHUiLW3MHiXHOZNxqb] -304 237 324
+tp @a[tag=BvFqJm_-sfn044srW2Lzb-49udVYXmbX-VdLGoCW] -303 178 329
+tp @a[tag=oxltxpzH.2_i.GDJRXIK013o78x1VHgPpM-OMthq] 88 135 170
+tp @a[tag=_LMyodqA2uyKWq.41tO2LL5fBPy3Xtxo3bIv4MLB] -34 42 75
+tp @a[tag=qAk.Bwee1p6juIvbmubnBqMq11YZgVf.CiXLZCJm] 347 147 22
+tp @a[tag=e9pulONYg4Mfj0SspWOkD4jj26sNVaQT4M38GuWr] 302 38 51
+tp @a[tag=vMoFIuV-WOvNSgGsKa0qeJn-q3jI3sg3L3FfYoB_] 517 182 140
+tp @a[tag=JTFmbkI-5DIiKb0MP5O4TIx1+pNUnpUesiPiQW26] 613 187 299
+tp @a[tag=5sCXl6nBKjeNWTDAjkmQyqkCPCSpe6n0-_8-8G0m] 610 93 305
+tp @a[tag=oNDVlEgiD8KXZ5FkY5sOmhWO.sufvzzlE3EROaJ9] 398 78 237
+tp @a[tag=E5G9EB17KX+7+ABcy-sKy72ZV62cEflLJRlRxK8h] 378 41 535
+tp @a[tag=BpC2._4m0qm2QN+qPKT-TQ5eNPk3DCyjkS.qG3q3] 386 4 443
+tp @a[tag=E5IVR0S4fQ5ah9S_ALVcra_0cR3BNzmJNdzd8pRh] 231 4 727

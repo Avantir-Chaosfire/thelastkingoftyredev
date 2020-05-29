@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Bastille Cell Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Having a personal cell with a unique","color":"gray"}','{"text":"key is a great honour, and promises","color":"gray"}','{"text":"special forms of torture too.","color":"gray"}']}}

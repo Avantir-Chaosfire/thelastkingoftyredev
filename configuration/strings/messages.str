@@ -1,0 +1,10 @@
+#join compendium <Newline>
+#join functions \n
+
+LevelUpToast ‘It strengthens you.‘
+LevelUpToast ‘It substitutes you.‘
+LevelUpToast ‘It becomes you.‘
+LevelUpToast ‘But it is not you.‘
+LevelUpToast ‘===================‘
+
+DeveloperMusicNote {"text":"[Developer Note]","color":"gold","extra":[{"text":" Your game probably just froze. This is because Minecraft is loading in the boss music right now. Unfortunately, this is likely to happen for every boss the first time you fight them.","color":"white"}]}

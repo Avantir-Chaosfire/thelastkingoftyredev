@@ -1,0 +1,1 @@
+execute if entity @a run function tlkot:hyg-y3et3ct_c5jvmqa2da066127jqhdbpqb6hoq

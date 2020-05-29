@@ -1,0 +1,1 @@
+execute if entity @s[scores={EnrageDuration=0..}] run function tlkot:core/casting/enrage/active/main

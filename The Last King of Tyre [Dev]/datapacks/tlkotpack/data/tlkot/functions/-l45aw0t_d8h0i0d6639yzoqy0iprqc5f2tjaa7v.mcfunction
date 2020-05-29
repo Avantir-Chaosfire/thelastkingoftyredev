@@ -1,0 +1,3 @@
+scoreboard players set @a B5oL55hVEPX0jk6a 99
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Snap out'a it though, when me thinks many reapers were just folks who stared at 'em too long.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Snap out'a it though, when me thinks many reapers were just folks who stared at 'em too long.", "color": "white", "italic": true}

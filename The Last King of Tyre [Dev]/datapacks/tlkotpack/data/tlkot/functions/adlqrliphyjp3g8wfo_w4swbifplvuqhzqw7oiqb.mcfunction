@@ -1,0 +1,6 @@
+execute if entity @s[tag=SN3J8fVpR-LlaKTkk4qI24u166XFm+XyZrihwZ0t,tag=!FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=..6] run function tlkot:i_1vr6dm6iae6kl539bp931_bixpbxpu2fany0pm
+execute if entity @s[tag=SN3J8fVpR-LlaKTkk4qI24u166XFm+XyZrihwZ0t,tag=FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=9..24] run function tlkot:xmd7uylve3ky51sm-_9t79fdmdlrfrhux5hws5mi
+execute if entity @s[tag=MKV7+_umx+ioqNOYvUy2XfiUYC+Xxhqf2wyBE2EB,tag=!FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=..9] run function tlkot:i_1vr6dm6iae6kl539bp931_bixpbxpu2fany0pm
+execute if entity @s[tag=MKV7+_umx+ioqNOYvUy2XfiUYC+Xxhqf2wyBE2EB,tag=FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=16..24] run function tlkot:xmd7uylve3ky51sm-_9t79fdmdlrfrhux5hws5mi
+execute if entity @s[tag=4.2QNRqA41LjYKTz9pJVqmJHhFoDEU059ui513bP,tag=!FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=..4] run function tlkot:i_1vr6dm6iae6kl539bp931_bixpbxpu2fany0pm
+execute if entity @s[tag=4.2QNRqA41LjYKTz9pJVqmJHhFoDEU059ui513bP,tag=FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R] if entity @a[distance=7..24] run function tlkot:xmd7uylve3ky51sm-_9t79fdmdlrfrhux5hws5mi

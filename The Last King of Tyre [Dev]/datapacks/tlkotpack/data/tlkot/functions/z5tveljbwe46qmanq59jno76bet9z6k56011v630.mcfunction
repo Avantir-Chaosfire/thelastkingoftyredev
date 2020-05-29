@@ -1,0 +1,2 @@
+execute if entity @s[tag=JBsorDDSTgzXGtJocvKPZL7QGzPt8ZGDbTCp6ZFQ] run function tlkot:f01mua-y6hdx622dwpoiv9nol-1jnpepbzxxtm0y
+execute if entity @s[tag=!JBsorDDSTgzXGtJocvKPZL7QGzPt8ZGDbTCp6ZFQ] run function tlkot:xhtzvucmqbnafk-n3809gnvuiquchd_91qc4kg3k

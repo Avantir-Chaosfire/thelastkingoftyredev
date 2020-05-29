@@ -1,0 +1,2 @@
+execute if entity @a[scores={1dizpBb7xZBYshzh=0}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s 536.7 108 49.739
+execute if entity @a[scores={1dizpBb7xZBYshzh=1..}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s 536.5 105 48.5

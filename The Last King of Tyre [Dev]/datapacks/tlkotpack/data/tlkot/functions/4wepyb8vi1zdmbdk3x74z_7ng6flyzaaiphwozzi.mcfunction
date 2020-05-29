@@ -1,0 +1,1 @@
+execute if entity @a[scores={.J2dwrC_k+.pju-N=-1}] run function tlkot:2rapy-w_-tjwcvq-bns8_jwhpwen2ui86kspl5nd

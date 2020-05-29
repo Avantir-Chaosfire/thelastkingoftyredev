@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+FisherEpitaphItemID written_book
+FisherEpitaphAuthor A Fisherman of Tyre
+FisherEpitaphTitle Epitaph of Tyre
+FisherEpitaphPages Curse you, righteous fool.<Newline><Newline>He told me you would come, and he told me to write this for you.<Newline><Newline>I say blast him, blast you.<Newline><Newline>It's your fault, isn't it? Your fault that this won't work? I know so.
+FisherEpitaphPages Well then, 'hero', or whatever you are, know that I have already made MY sacrifice by the time you get here. My name will be remembered alongside yours. If I have my way, your name will be the one enshadowed.<Newline><Newline>I am a fisherman of Tyre. Before you lies
+FisherEpitaphPages my Disgraceful Beast.<Newline><Newline>Oh, I do hope it hurts you dearly.<Newline><Newline>No luck for you.
+
+FisherEpitaphDataTag author:"<#FisherEpitaphAuthor#>",title:"<#FisherEpitaphTitle#>",resolved:1b,pages:["<#FisherEpitaphPages#>"]
+FisherEpitaph <#Item$FisherEpitaphItemID$FisherEpitaphDataTag#>

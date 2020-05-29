@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={XinsuCircleTalk=<#XinsuCircleToolID#>}] XinsuCircleLine 0

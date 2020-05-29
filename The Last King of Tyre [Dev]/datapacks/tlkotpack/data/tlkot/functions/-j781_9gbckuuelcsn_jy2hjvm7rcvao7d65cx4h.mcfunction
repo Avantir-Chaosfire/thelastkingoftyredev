@@ -1,0 +1,1 @@
+execute as @e[type=potion,tag=!HMvabXmCqXBHHdxX_BkVEZnH+O9bRSeWvHH596-4] run function tlkot:e42qsp-m9m8279_g7_upj4e1xqyrakk7gppys2f_

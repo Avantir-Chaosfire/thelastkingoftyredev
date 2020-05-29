@@ -1,0 +1,2 @@
+tag @e[type=armor_stand,tag=7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu,tag=COGO1--e45s9eFzp6nrqV4d924BMjLhRkJV.w-dn,name=VileFeeder,limit=1,sort=nearest] remove COGO1--e45s9eFzp6nrqV4d924BMjLhRkJV.w-dn
+tp @s -888 7 -728

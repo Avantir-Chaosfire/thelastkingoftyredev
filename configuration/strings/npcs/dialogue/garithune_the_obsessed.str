@@ -1,0 +1,59 @@
+#include npcs/tags
+#include npcs/shops/garithune_the_obsessed
+
+#join compendium <Newline>
+#join functions <Newline>
+
+GarithuneIDTag GarithuneTheObsessed
+GarithuneTags ‘<#CommonNPCTags$savanna$toolsmith#>,Offers:{Recipes:[<#GarithuneRecipes#>]},Tags:["<#GarithuneIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Garithune the Obsessed\"}"‘
+
+GarithuneColour red
+GarithuneLocation 284.168 47 19.783
+GarithuneEngageRadius 6] if entity @a[x=281,y=46,z=16,dx=5,dy=5,dz=5
+GarithuneDisengageRadius 13
+
+GarithuneMeetID 0
+GarithuneMeetLines		0 $ 44	$ ...No harm. $
+GarithuneMeetLines		1 $ 32	$ Stranger. $
+GarithuneMeetLines		2 $ 35	$ ... $
+GarithuneMeetLines		3 $ 38	$ Forge weapons? $
+
+GarithuneGreetID 1
+GarithuneGreetLines		0 $ 35	$ ... $
+
+GarithuneEvangelionID 8
+GarithuneEvangelionLines	0 $ 22	$ Sh. $
+GarithuneEvangelionLines	1 $ 31	$ Quiet speak. $
+GarithuneEvangelionLines	2 $ 36	$ Evangelical lies. $
+GarithuneEvangelionLines	3 $ 34	$ Tempt, trap mind. $
+GarithuneEvangelionLines	4 $ 54	$ No way out, not... earthly. $
+GarithuneEvangelionLines	5 $ 37	$ Resist, sacrificed. $
+GarithuneEvangelionLines	6 $ 47	$ But, now no different from then. $
+GarithuneEvangelionLines	7 $ 41	$ Except... $
+GarithuneEvangelionLines	8 $ 37	$ Now, evil looks good. $
+GarithuneEvangelionLines	9 $ 39	$ Then, evil looked evil. $
+
+GarithuneCavernID 9
+GarithuneCavernLines		0 $ 39	$ Hsss... $
+GarithuneCavernLines		1 $ 40	$ Cavern, REAL afterlife! $
+GarithuneCavernLines		2 $ 55	$ Victims, cross display... $
+GarithuneCavernLines		3 $ 35	$ ... $
+GarithuneCavernLines		4 $ 38	$ Dread the Subjugate. $
+
+GarithuneBloodID 10
+GarithuneBloodLines		0 $ 40	$ Eehee... $
+GarithuneBloodLines		1 $ 32	$ Undead blood. $
+GarithuneBloodLines		2 $ 32	$ Friend blood. $
+GarithuneBloodLines		3 $ 31	$ My blood now. $
+GarithuneBloodLines		4 $ 44	$ Souls safe, blood don't rise. $
+GarithuneBloodLines		5 $ 27	$ Like, ark. $
+GarithuneBloodLines		6 $ 64	$ Real ark, but... soul form, transient. $
+
+GarithuneActionbarDiscussions 	meet		$ <#GarithuneMeetID#>		$ Meet
+GarithuneActionbarDiscussions 	greet		$ <#GarithuneGreetID#>		$ Greet
+
+GarithuneChatLogDiscussions 	evangelion	$ <#GarithuneEvangelionID#>	$ Evangelion
+GarithuneChatLogDiscussions 	cavern		$ <#GarithuneCavernID#>	$ Cavern
+GarithuneChatLogDiscussions 	blood		$ <#GarithuneBloodID#>		$ Blood
+
+GarithuneDialoguePrompt {<#DialoguePromptOption$Garithune$GarithuneEvangelion$Evangelion?#>,"extra":[{<#DialoguePromptOption$Garithune$GarithuneCavern$Cavern?#>},{<#DialoguePromptOptionFinal$Garithune$GarithuneBlood$Blood?#>}]}

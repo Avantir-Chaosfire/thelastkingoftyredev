@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=kVzLmSx4x1XI61OsWV2uTD_RFZbE2.89RFhaHGwV,tag=!EFOQ-V+Gq41ZiZxpQGvPn-5YF0EmAuyhNAxlurjA] at @s run function tlkot:bi6r_lc1wtfi-z3e1mq_vza4vfu33b53fkwjjv5n

@@ -1,0 +1,1 @@
+execute if entity @a[tag=FarDoorClosed] if block -352 255 320 #tlkot:all if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#TowerShieldName#>"}}},{tag:{display:{Name:"<#EmptyFlaskName#>"}}}]}] run function tlkot:<~>/trigger

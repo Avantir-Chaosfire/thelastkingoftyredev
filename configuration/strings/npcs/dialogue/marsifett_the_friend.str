@@ -1,0 +1,48 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+MarsifettIDTag MarsifettTheFriend
+MarsifettTags <#CommonNPCTags$desert$butcher#>,Tags:["<#MarsifettIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Marsifett the Friend\"}"
+
+MarsifettColour dark_blue
+MarsifettLocation 468.658 6 401.465
+MarsifettEngageRadius 6
+MarsifettDisengageRadius 13
+
+MarsifettMeetID 0
+MarsifettMeetLines		0	$ 35	$ ... $
+MarsifettMeetLines		1	$ 39	$ He didn't mean it. $
+MarsifettMeetLines		2	$ 77	$ He was a nice person, a good friend, I... $
+MarsifettMeetLines		3	$ 35	$ ... $
+MarsifettMeetLines		4	$ 44	$ Can you forgive him? $
+
+MarsifettGreetID 1
+MarsifettGreetLines		0	$ 23	$ Oh. $
+MarsifettGreetLines		1	$ 33	$ You're back. $
+
+MarsifettAssassinSetID 2
+MarsifettAssassinSetLines	0	$ 51	$ You found him... $
+MarsifettAssassinSetLines	1	$ 51	$ And you- Don't follow him, ok? $
+MarsifettAssassinSetLines	2	$ 68	$ It's all going to be alright, everything. $
+MarsifettAssassinSetLines	3	$ 62	$ Just save what little hope is left. $
+MarsifettAssassinSetLines	4	$ 51	$ Do your small part, and I'll- $
+MarsifettAssassinSetLines	5	$ 33	$ I'll do mine. $
+
+MarsifettForgivenessID 3
+MarsifettForgivenessLines	0	$ 35	$ Did I forgive him? $
+MarsifettForgivenessLines	1	$ 28	$ Of course! $
+MarsifettForgivenessLines	2	$ 38	$ What friend wouldn't? $
+MarsifettForgivenessLines	3	$ 84	$ If you had your home, friends and family stolen from you... $
+MarsifettForgivenessLines	4	$ 73	$ If it turned you vicious, wouldn't you want to be forgiven too? $
+MarsifettForgivenessLines	5	$ 32	$ I know I would. $
+MarsifettForgivenessLines	6	$ 47	$ How else could I ever come back? $
+
+MarsifettActionbarDiscussions 	meet		$ <#MarsifettMeetID#>		$ Meet
+MarsifettActionbarDiscussions 	greet		$ <#MarsifettGreetID#>		$ Greet
+MarsifettActionbarDiscussions 	assassin_set	$ <#MarsifettAssassinSetID#>	$ AssassinSet
+
+MarsifettChatLogDiscussions 	forgiveness	$ <#MarsifettForgivenessID#>	$ Forgiveness
+
+MarsifettDialoguePrompt {<#DialoguePromptOptionFinal$Marsifett$MarsifettForgiveness$Did you forgive him?#>}

@@ -1,0 +1,2 @@
+execute unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run function tlkot:r5endrop1rfzt9w31hs_im9zyhrbojpkdms7_bfe
+execute unless score @s +fkbyUV+P53ehaQp = @a[limit=1] +fkbyUV+P53ehaQp run function tlkot:cyjku2xo98k-o9o-d6o_p-kpp5_t6k50l3vwntmx

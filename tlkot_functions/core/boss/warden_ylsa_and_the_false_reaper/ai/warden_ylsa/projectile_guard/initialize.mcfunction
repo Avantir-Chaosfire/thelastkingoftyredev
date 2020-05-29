@@ -1,0 +1,1 @@
+function tlkot:core/boss/warden_ylsa_and_the_false_reaper/ai/warden_ylsa/dark_disk_teleport/main

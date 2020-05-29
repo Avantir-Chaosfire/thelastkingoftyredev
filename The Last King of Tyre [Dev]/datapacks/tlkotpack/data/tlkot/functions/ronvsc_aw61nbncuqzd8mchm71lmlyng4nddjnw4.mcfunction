@@ -1,0 +1,2 @@
+execute if entity @a[scores={e2U3SpDQbc2ipeRu=0}] run function tlkot:3mke_ob3okjernx-yw-c99vfoo1xn-c9amwuvazh
+execute if entity @a[scores={e2U3SpDQbc2ipeRu=1}] run function tlkot:156uldd0fp-o6u_ucx7geig8ynneg1vebql__5-l

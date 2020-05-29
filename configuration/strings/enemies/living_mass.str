@@ -1,0 +1,5 @@
+#include versioned_tags
+
+LivingMassHealth 183000
+
+LivingMassTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Living Mass\"}",Attributes:[{Name:"generic.movementSpeed",Base:0.29},{Name:"generic.attackDamage",Base:13},{Name:"generic.maxHealth",Base:1000},{Name:"generic.knockbackResistance",Base:1},{Name:"zombie.spawnReinforcements",Base:0},{Name:"generic.armor",Base:0},{Name:generic.followRange,Base:16}],Tags:["Enemy.LivingMass",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.LivingMass","AI.Pair","UsesHitScore","Paired"],Passengers:[{id:"minecraft:guardian",PersistenceRequired:1b,CustomName:"{\"text\":\"Living Mass\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:13},{Name:"generic.armor",Base:0}],Health:1000.0f,ActiveEffects:[{Id:10,Amplifier:3,Duration:32767,ShowParticles:0b}],Tags:["Enemy.LivingMassHead",<#CommonDumpableDivisionTags#>,"LivingMassHead","HasAI","AI.Pair","Paired","UsesHitScore"]}],Health:1000.0f‘

@@ -1,0 +1,2 @@
+scoreboard players set @e[tag=Vx87uYlDINbhFf9AVS_FFa6jOgOSQwLRACjjFCXc,tag=!xI4nob1VCFMQTo7N6bzB8a2j18GSxkKyg1vYMD-P] bEDPcJnxv7RJYWIz 0
+execute as @e[tag=xI4nob1VCFMQTo7N6bzB8a2j18GSxkKyg1vYMD-P] run function tlkot:u54vboew19hhz5mggad4edqlm1q9-17-8c8090sk

@@ -1,0 +1,2 @@
+execute if entity @a[scores={Shade=0}] run function tlkot:utility/summon_enemy/reaper/dread/none/main
+execute if entity @a[scores={Shade=1..}] run function tlkot:utility/summon_enemy/reaper/dread/normal/normal

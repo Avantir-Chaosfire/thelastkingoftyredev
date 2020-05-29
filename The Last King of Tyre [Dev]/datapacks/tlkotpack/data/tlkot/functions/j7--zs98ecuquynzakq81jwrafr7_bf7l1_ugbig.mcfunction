@@ -1,0 +1,2 @@
+kill @e[tag=S13_fnTmR97iwBBf5TwbFMharXTnWqGwH8UMW.S5]
+execute as @e[tag=RWbrm3gjKZr0I5kP5B2RWeX5uxpxHcaAITFzl9LO,tag=GF1kb_EISQxxFYY9kDJT3f1uUw3zktVtb93IKTYL] run function tlkot:0lkeudt6b2m4-fqh-hxrj_wdwglt5dvv2r_vcj3f

@@ -1,0 +1,25 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+TheLichKingItemID written_book
+TheLichKingAuthor Nidiara Zelefar the Historian
+TheLichKingTitle The Lich King
+TheLichKingPages Man has always sought a few things, such as love, riches, power, fame and immortality. Each one man desires, and each one has costs that make one question their worth. But immortality, eternal life... Unlike the others, no man had ever been immortal, until the undead, that is. For in
+TheLichKingPages the city of Gilith, after it was a mature city but not so long after it was founded in the shadow of Hoiro, immortality was discovered.<Newline><Newline>Imagine the joy those casters felt, the jubilation of creating man's last desire. They clearly felt some excitement, for they
+TheLichKingPages wasted no time in binding their own souls to the earth and demonstrating their work on a group of poor, unfortunate souls. The slaves in question were bound in front of a crowd and subsequently murdered. Of course they did not die, for they were immortal, but their wounds
+TheLichKingPages refused to heal properly and they carried out their slave labour in excruciating pain.<Newline><Newline>But such horror was no matter to the casters in question, for they had found immortality, and they had every intention of using it to reap the rewards of man's
+TheLichKingPages other great desires. The rich got bound, and the poor grew jealous. But the injuries were problematic, the immortals' pain grew too great. One by one, they began to go mad. They attacked friends, tried to kill themselves and screamed nightmares to the world. This continued
+TheLichKingPages until one such immortal delivered a mortal wound to the caster who had bound them. But the caster too, was immortal, and slowly degraded into one of the monsters they had created. This caster, the first true lich, the first undead caster to bind the souls of as many people as they could.
+TheLichKingPages Destroyed by the other casters to preserve business, the event gave another caster a rather sadistic idea. If one could so easily break the wills of other people with a wound in the right place and one cast, what's to stop one from binding people en masse, whole cities of
+TheLichKingPages people, and one by one systematically destroying their humanity with pain, and bending their wills to one's own? The Lich King found no reason it wouldn't work, especially in his first few victims, and soon had a sizeable force amassed before he did the same to a fellow caster,
+TheLichKingPages breaking their will and forcing them into his service in a town square, in front of hordes of onlookers. The Lich King now had a proper pet, another Lich who could build his army underneath him. And so they proceeded, laying waste to Gilith and declaring war on Hoiro, as thousands
+TheLichKingPages fell to the power of the Lich King. War ensued and fire raged until Gilith was but ashes and the only survivors had fled or resided in Hoiro.<Newline><Newline>That is, until true death smiled down on all in the land and from within the walls of Hoiro burst the
+TheLichKingPages reapers, set to tear every last bit of souls' life from the land, from every human, and from all who stood in their way. Mindless creatures of hunger, they fought the undead, for deep down within the undead something rang out as still strong, still human, still living. And it was that little bit of
+TheLichKingPages willpower left within every undead that the reapers so craved. The force was stronger in humans, but humans there were few.<Newline><Newline>A calculated strike by one of the groups still resistant to both the undead and the reapers slew the Lich King. A short reign it
+TheLichKingPages may have been, but its impact will be felt for centuries, millennia. Undead from that army still stalk the land, lead by the Lich King's underling liches or ones new to the fray. There have been many more liches over the years, but not a single Lich King. May that never change.
+
+TheLichKingDataTag author:"<#TheLichKingAuthor#>",title:"<#TheLichKingTitle#>",resolved:1b,pages:["<#TheLichKingPages#>"]
+TheLichKing <#Item$TheLichKingItemID$TheLichKingDataTag#>

@@ -1,0 +1,2 @@
+give @a minecraft:iron_ingot{display:{Name:"{\"text\":\"Seven Lakes Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"The hidden cavern called the Seven","color":"gray"}','{"text":"Lakes has long been used by those","color":"gray"}','{"text":"needing time away from the world,","color":"gray"}','{"text":"especially when the world is trying","color":"gray"}','{"text":"to murder them.","color":"gray"}']}}
+tellraw @a {"text": "Obtained ", "extra": [{"text": "Seven Lakes Key", "color": "white"}]}

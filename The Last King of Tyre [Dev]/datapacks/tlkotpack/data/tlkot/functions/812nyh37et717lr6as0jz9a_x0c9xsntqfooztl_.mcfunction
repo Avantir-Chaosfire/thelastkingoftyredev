@@ -1,0 +1,2 @@
+execute if entity @a[scores={gd_vCppihMeOmnTF=0}] run function tlkot:e9as2chi_tgtfjis7vhtmaox1cb1rrdb6-nhqb4o
+execute if entity @a[scores={gd_vCppihMeOmnTF=1..}] as @e[tag=2AYk-P21yXw..5IXc3L7gM15TvAfYAH+NrWyZiuU] run function tlkot:-nix_kpjcp3eymnqyhamgw5whon-cwcnlze87ctd

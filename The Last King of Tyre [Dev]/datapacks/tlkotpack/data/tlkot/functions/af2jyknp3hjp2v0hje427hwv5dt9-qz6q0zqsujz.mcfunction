@@ -1,0 +1,1 @@
+tellraw @a {"text": "Have you changed your mind?", "color": "white", "italic": true}

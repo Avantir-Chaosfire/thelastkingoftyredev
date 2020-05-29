@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"UnloadedEnemy\"}",Tags:[<#CommonKillableDivisionTags#>,"Enemy.Knight-Starving","Initialized"],Marker:1b,Invisible:1b}

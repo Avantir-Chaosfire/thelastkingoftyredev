@@ -1,0 +1,2 @@
+execute if entity @s[scores={mRx5VY9OvJgIfIcs=..-1}] facing entity @a eyes run function tlkot:o3b-98t0bluxir7wh9gb52yg3ca_8_-6r5kt9mjl
+execute if entity @s[scores={mRx5VY9OvJgIfIcs=0..}] run function tlkot:o3b-98t0bluxir7wh9gb52yg3ca_8_-6r5kt9mjl

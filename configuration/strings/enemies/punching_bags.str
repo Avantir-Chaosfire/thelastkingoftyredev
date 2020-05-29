@@ -1,0 +1,7 @@
+#include versioned_tags
+
+PunchingBagCustomName ‘CustomName:"{\"text\":\"Reaper\"}"‘
+
+PunchingBag1Tags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.knockbackResistance",Base:1},{Name:"generic.movementSpeed",Base:0},{Name:"generic.maxHealth",Base:3},{Name:"generic.armor",Base:0},{Name:generic.attackDamage,Base:3}],<#PunchingBagCustomName#>,Health:3.0f,Tags:["Enemy.PunchingBag-1",<#CommonDumpableDivisionTags#>,"Reaper","EnemyUnit"]‘
+
+PunchingBag2Tags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.movementSpeed",Base:0},{Name:"generic.maxHealth",Base:23},{Name:"generic.armor",Base:0},{Name:generic.attackDamage,Base:3}],<#PunchingBagCustomName#>,Health:23.0f,Tags:["Enemy.PunchingBag-2",<#CommonDumpableDivisionTags#>,"Reaper","EnemyUnit"]‘

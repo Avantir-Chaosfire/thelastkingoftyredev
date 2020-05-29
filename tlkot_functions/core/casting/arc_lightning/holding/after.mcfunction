@@ -1,0 +1,1 @@
+execute as @e[tag=ArcLightningMarker,tag=Thunder] at @s run function tlkot:utility/lightning_strike/main

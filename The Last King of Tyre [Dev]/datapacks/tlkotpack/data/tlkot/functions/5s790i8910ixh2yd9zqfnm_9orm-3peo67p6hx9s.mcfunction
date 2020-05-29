@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Greatsword (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:dq-09htzs5l1ahzzt-b4z94jcpvijopn1ab8z39j
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Refined Greatsword (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:92qho50y0se6c27xk9u92s5965po-cadrrtrq0h-
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Heavy Greatsword (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:urllvqngj6y2dn-jwyzh6b94e_zyc635l2-kkk2k

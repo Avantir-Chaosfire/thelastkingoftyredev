@@ -1,0 +1,3 @@
+execute if entity @a[scores={4lFseVf.IRefhvg8=0}] run function tlkot:r6h7t_4b4tpukf0eodyzi-j6z5u0thx3azhd4rdo
+execute if entity @a[scores={v-i9JprH8G73N9wn=0}] as @e[tag=rfx5zsmJrpnGm51aitA-XmXm-K_tUmv3wEu1SwUQ] run function tlkot:6gjzsbqb98367w24wm6fmu_pag8onuj4oyb20ozm
+execute at @a[tag=OVjdiE2.GBs+voJhtRbxjg3YdBFvY2pgQnHdOiga] if block ~ ~-0.5 ~ #tlkot:respawn_location run function tlkot:utlss4s-_zq0ur5mo2vp4oskesfv7z2br2et06jb

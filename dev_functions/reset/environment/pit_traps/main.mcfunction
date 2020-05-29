@@ -1,0 +1,1 @@
+execute as @e[tag=PitTrap] at @s if block ~ ~-1 ~ minecraft:air run function dev:<~>/replace

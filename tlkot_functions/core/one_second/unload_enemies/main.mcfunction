@@ -1,0 +1,1 @@
+execute at @a as @e[type=!armor_stand,tag=Versioned,tag=!AI.Passenger,distance=33..] unless entity @s[x=-897,y=0,z=-737,dx=17,dy=29,dz=17] at @s run function tlkot:<~>/process

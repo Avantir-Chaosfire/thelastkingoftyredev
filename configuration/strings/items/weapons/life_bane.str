@@ -1,0 +1,47 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+LifeBaneDamage 35
+LifeBaneStaminaCost 7
+LifeBaneCommunionStaminaCost 6
+LifeBaneMinimumStaminaCost 5
+LifeBaneRegenDelay 59
+
+PurifiedLifeBaneItemID stone_pickaxe
+PurifiedLifeBaneNameText Purified Life Bane
+PurifiedLifeBaneNameColour yellow
+PurifiedLifeBaneName <#ItemName$PurifiedLifeBaneNameText$PurifiedLifeBaneNameColour#>
+PurifiedLifeBaneDescription <#LoreLine$The blade of Azdavar the Warrior, a#>
+PurifiedLifeBaneDescription <#LoreLine$hero in the Undead Crusades and#>
+PurifiedLifeBaneDescription <#LoreLine$the legend who fought a lich.#>
+PurifiedLifeBaneDescription <#LoreLine$Fighting, unfortunately, is very#>
+PurifiedLifeBaneDescription <#LoreLine$different from killing.#>
+PurifiedLifeBaneDescription <#StatsLine#>
+PurifiedLifeBaneStats <#WeaponStats$LifeBane#>
+PurifiedLifeBaneStats <#LoreLine$Only Hurts Corrupted#>
+PurifiedLifeBaneStats <#LoreLine$Draws Into Foes Killed#>
+PurifiedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:-1,Operation:0,UUIDLeast:2,UUIDMost:6,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:smite",lvl:14}],HoldingID:<#PurifiedLifeBaneHoldingID#>
+
+PurifiedLifeBaneDataTag display:{Name:"<#PurifiedLifeBaneName#>",Lore:[<#PurifiedLifeBaneDescription#>,<#PurifiedLifeBaneStats#>]},<#PurifiedLifeBaneTags#>
+PurifiedLifeBane <#Item$PurifiedLifeBaneItemID$PurifiedLifeBaneDataTag#>
+
+CursedLifeBaneItemID diamond_pickaxe
+CursedLifeBaneNameText Cursed Life Bane
+CursedLifeBaneNameColour red
+CursedLifeBaneName <#ItemName$CursedLifeBaneNameText$CursedLifeBaneNameColour#>
+CursedLifeBaneDescription <#LoreLine$The cursed blade of Azdavar#>
+CursedLifeBaneDescription <#LoreLine$the Warrior.#>
+CursedLifeBaneDescription <#StatsLine#>
+CursedLifeBaneStats <#WeaponStats$LifeBane#>
+CursedLifeBaneStats <#LoreLine$Only Hurts Arthropods#>
+CursedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:-1,Operation:0,UUIDLeast:2,UUIDMost:6,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:12}],HoldingID:<#CursedLifeBaneHoldingID#>
+
+CursedLifeBaneDataTag display:{Name:"<#CursedLifeBaneName#>",Lore:[<#CursedLifeBaneDescription#>,<#CursedLifeBaneStats#>]},<#CursedLifeBaneTags#>
+CursedLifeBane <#Item$CursedLifeBaneItemID$CursedLifeBaneDataTag#>

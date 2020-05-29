@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Astrologist's Loft Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"For the Astrologist, who lived alone","color":"gray"}','{"text":"even before the reaping, these","color":"gray"}','{"text":"times are far more fascinating","color":"gray"}','{"text":"than frightening.","color":"gray"}']}}

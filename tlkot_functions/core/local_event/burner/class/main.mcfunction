@@ -1,0 +1,1 @@
+execute if block <2> minecraft:air if block <3> minecraft:air run function tlkot:core/local_event/burner/<0>/loaded

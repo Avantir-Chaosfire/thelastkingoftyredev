@@ -1,0 +1,2 @@
+execute if entity @a[scores={+b8qg+-lfW00Wdsd=75,bzdFAjnNavldW950=73}] run function tlkot:w_r368pfuagp86lpd0kvpr546ppcazo6vyxjwj0t
+execute if entity @a[scores={+b8qg+-lfW00Wdsd=73,bzdFAjnNavldW950=75}] run function tlkot:w_r368pfuagp86lpd0kvpr546ppcazo6vyxjwj0t

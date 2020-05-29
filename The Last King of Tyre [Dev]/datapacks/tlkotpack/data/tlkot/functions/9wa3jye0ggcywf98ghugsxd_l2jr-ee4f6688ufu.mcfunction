@@ -1,0 +1,3 @@
+scoreboard players set @a iLssNGWZGo1tm_SW 116
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "I think he saw it as a unique opportunity to save lives, but he never wanted to curse people like that forever.", "color": "white", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "I think he saw it as a unique opportunity to save lives, but he never wanted to curse people like that forever.", "color": "white", "italic": true}

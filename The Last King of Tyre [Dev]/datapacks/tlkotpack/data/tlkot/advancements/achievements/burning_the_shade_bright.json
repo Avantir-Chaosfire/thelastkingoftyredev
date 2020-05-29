@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:dragon_egg"}, "title": {"text": "Burning the Shade Bright"}, "description": "Attain maximum Shade", "frame": "task", "hidden": true}, "parent": "tlkot:achievements/root", "criteria": {"burning_the_shade_bright": {"trigger": "minecraft:impossible"}}}

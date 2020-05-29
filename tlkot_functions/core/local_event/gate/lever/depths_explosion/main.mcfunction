@@ -1,0 +1,1 @@
+execute if block 256 255 32 minecraft:air run function tlkot:core/local_event/gate/lever/depths_explosion/loaded

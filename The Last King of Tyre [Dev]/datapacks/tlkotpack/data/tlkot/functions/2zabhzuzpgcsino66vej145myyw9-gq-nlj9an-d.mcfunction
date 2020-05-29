@@ -1,0 +1,1 @@
+tellraw @a {"text": "So now accept the consequences of your actions.", "color": "white", "italic": true}

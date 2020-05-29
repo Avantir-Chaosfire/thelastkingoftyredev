@@ -1,0 +1,2 @@
+execute if entity @s[name=LatitudinalWave] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/rolling_wave/project/latitudinal/<0>
+execute if entity @s[name=LongitudinalWave] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/rolling_wave/project/longitudinal/<0>

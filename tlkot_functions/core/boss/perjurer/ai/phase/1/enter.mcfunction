@@ -1,0 +1,1 @@
+scoreboard players set @a P4Phase 1

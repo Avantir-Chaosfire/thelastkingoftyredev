@@ -1,0 +1,60 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+CharredDeathPactScrollItemID glowstone_dust
+CharredDeathPactScrollNameText Charred Death Pact Scroll
+CharredDeathPactScrollNameColour dark_purple
+CharredDeathPactScrollName <#ItemName$CharredDeathPactScrollNameText$CharredDeathPactScrollNameColour#>
+CharredDeathPactScrollDescription <#LoreLine$Burnt; Unusable.#>
+
+CharredDeathPactScrollDataTag display:{Name:"<#CharredDeathPactScrollName#>",Lore:[<#CharredDeathPactScrollDescription#>]},HoldingID:<#CharredDeathPactScrollHoldingID#>
+CharredDeathPactScroll <#Item$CharredDeathPactScrollItemID$CharredDeathPactScrollDataTag#>
+
+DeathPactScrollItemID fishing_rod
+DeathPactScrollNameText Death Pact Scroll, Class 4
+DeathPactScrollNameColour dark_red
+DeathPactScrollName <#ItemName$DeathPactScrollNameText$DeathPactScrollNameColour#>
+DeathPactScrollDescription <#LoreLine$A pact with a long forgotten enemy.#>
+DeathPactScrollDescription <#LoreLine$Great strength comes with a heavy#>
+DeathPactScrollDescription <#LoreLine$toll. Do not take this cast lightly,#>
+DeathPactScrollDescription <#LoreLine$for someone will always die.#>
+DeathPactScrollDescription <#StatsLine#>
+DeathPactScrollStats <#LoreLine$Take Continuous Damage Until Death#>
+DeathPactScrollStats <#LoreLine$Halt Effect Upon Killing Foe#>
+DeathPactScrollStats <#LoreLine$Full Heal Upon Killing Foe#>
+DeathPactScrollStats <#LoreLine$Increased Damage Upon Killing Foe#>
+
+DeathPactScrollDataTag display:{Name:"<#DeathPactScrollName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:12,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468520,UUIDMost:-46785621,Slot:"mainhand"}]
+DeathPactScroll <#Item$DeathPactScrollItemID$DeathPactScrollDataTag#>
+
+DeathPactScrollActiveNameText <#DeathPactScrollNameText#> (Active)
+DeathPactScrollActiveName <#ItemName$DeathPactScrollActiveNameText$DeathPactScrollNameColour#>
+
+DeathPactScrollActiveDataTag display:{Name:"<#DeathPactScrollActiveName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:28,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468520,UUIDMost:-46785621,Slot:"mainhand"}]
+DeathPactScrollActive <#Item$DeathPactScrollItemID$DeathPactScrollActiveDataTag#>
+
+DeathPactWill0Cost 4
+DeathPactWill1Cost 4
+DeathPactWill2Cost 4
+DeathPactWill3Cost 4
+DeathPactWill4Cost 4
+DeathPactWill5Cost 4
+
+DeathPactWill0Time 50
+DeathPactWill1Time 50
+DeathPactWill2Time 50
+DeathPactWill3Time 50
+DeathPactWill4Time 50
+DeathPactWill5Time 50
+
+DeathPactWill0TimeIncrease 0
+DeathPactWill1TimeIncrease 0
+DeathPactWill2TimeIncrease 0
+DeathPactWill3TimeIncrease 0
+DeathPactWill4TimeIncrease 0
+DeathPactWill5TimeIncrease 0

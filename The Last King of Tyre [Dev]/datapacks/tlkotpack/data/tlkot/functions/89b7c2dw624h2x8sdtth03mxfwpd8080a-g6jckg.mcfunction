@@ -1,0 +1,1 @@
+execute if entity @s[tag=Exjadb.fWL2Y5CBx0JxK.mSwjmWI8nPEZ1cornyg] run function tlkot:3wcpzvaflxby-ep4getat5mp1z-9anoph9sgvm43

@@ -1,0 +1,2 @@
+execute if entity @a[scores={NewProphet=0}] run function tlkot:<~>/not_new_prophet
+execute if entity @a[scores={NewProphet=1,AlamoneTalk=..<#AlamoneAnythingElseID#>}] run function tlkot:core/npc/verbal/alamone_over_deep/choose_new_prophet_discussion

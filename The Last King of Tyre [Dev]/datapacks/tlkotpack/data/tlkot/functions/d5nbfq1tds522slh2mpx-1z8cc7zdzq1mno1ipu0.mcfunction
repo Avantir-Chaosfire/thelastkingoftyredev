@@ -1,0 +1,5 @@
+tag @a add 5zafpTzgzcun81Nj5i-os2MNMmF094E8S-lcwb7K
+scoreboard players set @a fO2fHfES6kEFgEMp 2
+execute as @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=94k74QUaLPrBSgJo7P+nob0oJcKbO9NdHHPdHzjA,tag=!M+qQ_EapC.cLTOWT5_qxyO3Fnm-ll.AKGUT+3_MY] at @s run function tlkot:_u9b3csj4vccfd8icjui_9bq7tprwf2_er-siv9b
+execute if entity @a[scores={pvamq.RcrSa28nd.=..0}] as @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=y+Z0AQsgmKYEO.MVITlNTYDHYJkmUAy-9v+Zxbxk,tag=!M+qQ_EapC.cLTOWT5_qxyO3Fnm-ll.AKGUT+3_MY] at @s run function tlkot:1ctv-_u0r3_cxgsy7-ojak87l5kcye46fh5_p1ar
+execute if entity @a[scores={pvamq.RcrSa28nd.=..0,aWfm5k4Q0QqBKsAa=..0}] as @e[tag=R0-BOaAAA+WP7IB6PolU5qMC9yDVpnn9CzIFpQ-T,tag=JEEP7qABacdna_MpF+y6f2NELji_xBOLMq2pbS1l,tag=!M+qQ_EapC.cLTOWT5_qxyO3Fnm-ll.AKGUT+3_MY] at @s run function tlkot:730vhi_848zik3o27i3x35igrl84vu-uqnhnymom

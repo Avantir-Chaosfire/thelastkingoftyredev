@@ -1,0 +1,26 @@
+NoSpawnpoint			-304 237 324
+DreamSpawnpoint			-303 178 329
+EdgeOfTheFrontierSpawnpoint	88 135 170
+CentralTyreSpawnpoint		-34 42 75
+FireGulfSpawnpoint		347 147 22
+CrucifixionPassSpawnpoint	302 38 51
+RimOfTheCitySpawnpoint		517 182 140
+CathedralPlazaSpawnpoint	613 187 299
+UndeadLockawaySpawnpoint	610 93 305
+CastingLab01Spawnpoint		398 78 237
+SevenLakesSpawnpoint		378 41 535
+AshurianHeavensSpawnpoint	386 4 443
+DevourerAwokenSpawnpoint	231 4 727
+
+GarbageDump -888 7 -728
+InGarbageDump x=-896,y=0,z=-736,dx=15,dy=19,dz=15
+
+Storage -888 23 -728
+
+CreditsLocation -888 20 -716 0 0
+
+SacrificeLocationX 37.0
+SacrificeLocationY 246
+SacrificeLocationZ 309
+SacrificeLocation <#SacrificeLocationX#> <#SacrificeLocationY#> <#SacrificeLocationZ#>
+SacrificePosition <#SacrificeLocation#> -90 0

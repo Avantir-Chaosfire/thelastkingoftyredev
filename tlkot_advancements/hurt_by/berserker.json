@@ -1,0 +1,23 @@
+{
+	"criteria":
+	{
+		"hurt_by_berserker":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"source_entity":
+					{
+						"nbt": "{Tags:[\"AI.Berserker\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/hurt_by/berserker"
+	}
+}

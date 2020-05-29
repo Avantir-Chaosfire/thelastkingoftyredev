@@ -1,0 +1,2 @@
+execute if entity @a[scores={MainHandItemID=<#BlankScrollHoldingID#>}] run function tlkot:<~>/imprint/offhand
+execute if entity @a[scores={OffHandItemID=<#BlankScrollHoldingID#>}] run function tlkot:<~>/imprint/mainhand

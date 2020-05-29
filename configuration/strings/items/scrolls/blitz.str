@@ -1,0 +1,49 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+BlitzScrollItemID fishing_rod
+BlitzScrollNameText Blitz Scroll, Class 2
+BlitzScrollNameColour dark_green
+BlitzScrollName <#ItemName$BlitzScrollNameText$BlitzScrollNameColour#>
+BlitzScrollDescription <#LoreLine$Your willpower will keep you safe#>
+BlitzScrollDescription <#LoreLine$from the reapers, and so can their#>
+BlitzScrollDescription <#LoreLine$perverted will if you know how to#>
+BlitzScrollDescription <#LoreLine$use it right.#>
+BlitzScrollDescription <#StatsLine#>
+BlitzScrollStats <#LoreLine$+40% <#MovementSpeed#> Per Nearby Foe#>
+BlitzScrollStats <#LoreLine$<#Duration#>: <#Time$1#>#>
+
+BlitzScrollDataTag display:{Name:"<#BlitzScrollName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:9,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
+BlitzScroll <#Item$BlitzScrollItemID$BlitzScrollDataTag#>
+
+BlitzScrollActiveNameText <#BlitzScrollNameText#> (Active)
+BlitzScrollActiveName <#ItemName$BlitzScrollActiveNameText$BlitzScrollNameColour#>
+
+BlitzScrollActiveDataTag display:{Name:"<#BlitzScrollActiveName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:25,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
+BlitzScrollActive <#Item$BlitzScrollItemID$BlitzScrollActiveDataTag#>
+
+BlitzWill0Cost 3
+BlitzWill1Cost 2
+BlitzWill2Cost 2
+BlitzWill3Cost 1
+BlitzWill4Cost 1
+BlitzWill5Cost 0
+
+BlitzWill0Time 2
+BlitzWill1Time 2
+BlitzWill2Time 2
+BlitzWill3Time 2
+BlitzWill4Time 2
+BlitzWill5Time 2
+
+BlitzWill0TimeIncrease 0
+BlitzWill1TimeIncrease 0
+BlitzWill2TimeIncrease 0
+BlitzWill3TimeIncrease 0
+BlitzWill4TimeIncrease 0
+BlitzWill5TimeIncrease 0

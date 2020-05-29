@@ -1,0 +1,2 @@
+execute if entity @a[nbt={Inventory:[{id:"minecraft:potion"}]}] run function tlkot:ha8-t6lpzghhzmv6io8wbpc6tkli7rt4i9bkkrhc
+execute if entity @a[scores={gxTa_jXlr1KdjwHU=..0},nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Desiccating Carapace\",\"color\":\"dark_purple\",\"italic\":false}"}}}]}] run function tlkot:p7nk8sp0zde3uyhl1b9x4dc9aa0scgs7jwoic-ru

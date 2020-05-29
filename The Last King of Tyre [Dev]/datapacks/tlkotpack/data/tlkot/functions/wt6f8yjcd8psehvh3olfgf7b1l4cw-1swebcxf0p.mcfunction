@@ -1,0 +1,2 @@
+execute if entity @a[scores={oHeFVx6Fk00QQmpo=0..}] run tellraw @a {"text": "Um... That's a bit too close.", "color": "white", "italic": true}
+execute if entity @a[scores={oHeFVx6Fk00QQmpo=1..}] run tellraw @a {"text": "Can you give me some space, please?", "color": "white", "italic": true}

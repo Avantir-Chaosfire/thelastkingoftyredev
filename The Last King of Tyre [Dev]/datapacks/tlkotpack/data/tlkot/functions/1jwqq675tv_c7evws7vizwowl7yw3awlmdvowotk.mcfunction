@@ -1,0 +1,3 @@
+scoreboard players set @a ia-otN-0ZQk4D86J 112
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "A certain portion of every caster's time was dedicated to serving whatever requests people made of us.", "color": "dark_gray", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "A certain portion of every caster's time was dedicated to serving whatever requests people made of us.", "color": "white", "italic": true}

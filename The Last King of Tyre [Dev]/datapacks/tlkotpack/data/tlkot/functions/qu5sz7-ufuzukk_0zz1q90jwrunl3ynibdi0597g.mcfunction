@@ -1,0 +1,1 @@
+execute unless entity @a[scores={huwi+YuwDB.Nvers=17..}] run function tlkot:maoyuz7p_aug1n66goi8y08u7kxaswt9jwtukln8

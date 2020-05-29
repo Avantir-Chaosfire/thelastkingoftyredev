@@ -1,0 +1,3 @@
+scoreboard players set @a +Nl1uwuz0GnH7Kmf 110
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "I know not which went forth, but the other two descended through the altar below to the Vaults of Time.", "color": "red", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "I know not which went forth, but the other two descended through the altar below to the Vaults of Time.", "color": "white", "italic": true}

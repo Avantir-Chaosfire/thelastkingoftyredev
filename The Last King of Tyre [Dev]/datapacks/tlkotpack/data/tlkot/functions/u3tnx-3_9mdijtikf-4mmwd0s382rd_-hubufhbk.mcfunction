@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={jX+4Xjb.MWLDuue.=-1}] jX+4Xjb.MWLDuue. 98
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "I'll peaceably trade with you, but be wary of my compatriots here.", "color": "dark_green", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "I'll peaceably trade with you, but be wary of my compatriots here.", "color": "white", "italic": true}

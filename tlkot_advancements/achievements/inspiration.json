@@ -1,0 +1,45 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:writable_book"
+		},
+		"title":
+		{
+			"text": "Inspiration"
+		},
+		"description": "Witness the Mural Hall",
+		"frame": "task",
+		"hidden": false
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"inspiration":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 442.0,
+						"min": 408.0
+					},
+					"y":
+					{
+						"max": 122.0,
+						"min": 105.0
+					},
+					"z":
+					{
+						"max": 269.0,
+						"min": 263.0
+					}
+				}
+			}
+		}
+	}
+}

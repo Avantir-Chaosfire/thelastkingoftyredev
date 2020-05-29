@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"We'll never get out, so fight for\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",Lore:[\"{\\\"text\\\":\\\"them all!\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

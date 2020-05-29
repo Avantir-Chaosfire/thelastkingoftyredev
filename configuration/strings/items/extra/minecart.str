@@ -1,0 +1,3 @@
+MinecartItemID minecart
+MinecartDataTag CanPlaceOn:["minecraft:rail","minecraft:powered_rail"],HideFlags:16
+Minecart <#Item$MinecartItemID$MinecartDataTag#>

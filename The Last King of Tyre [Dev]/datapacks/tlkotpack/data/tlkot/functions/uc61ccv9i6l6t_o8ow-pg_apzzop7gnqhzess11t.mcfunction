@@ -1,0 +1,3 @@
+execute if entity @a[scores={lH3o5cjGcmYUQ96E=0}] run function tlkot:pjz74rd4phmtt8li9jkn7j6m6lph50540o50fkdu
+execute if entity @a[scores={lH3o5cjGcmYUQ96E=1}] run function tlkot:5p7nnt3r_c8nib3zpaqod-in-kq_amb1k1qpmjgo
+execute as @e[tag=SgqMoC7OABA8PwFR60+2.sB7g9i1fvq5ab3CAlEJ] unless score @s ZRs5EbEap9yjSBc1 = @a[limit=1] ZRs5EbEap9yjSBc1 run function tlkot:yr3119lh3g5o6phl9hpuutro4bd380qnb88m6o2s

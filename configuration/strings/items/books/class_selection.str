@@ -1,0 +1,23 @@
+#include item_template
+#include items/weapons/battle_axe
+#include items/weapons/black_oak_bow
+#include items/weapons/dagger
+#include items/consumables
+#include items/scrolls/enrage
+#include items/scrolls/blitz
+#include items/scrolls/death_pact
+#include items/scrolls/spacial_lapse
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ClassSelectionItemID written_book
+ClassSelectionAuthor Avantir Yihn
+ClassSelectionTitle Class Selection
+ClassSelectionPages Your combat class will determine your starting equipment, but will otherwise have no long-term impact.
+ClassSelectionPages Warrior:<Newline>-<#BaseBattleAxeNameText#> (Medium-heavy weapon)<Newline>-Standard Armour (Slower, better defense)<Newline>-<#EnrageScrollNameText#> (Boost battle damage)<Newline>-<#CharredDeathPactScrollNameText#>
+ClassSelectionPages Hunter:<Newline>-<#DaggerNameText#> (Weak weapon)<Newline>-<#BaseBlackOakBowNameText#><Newline>-<#NormalArrowNameText#>s<Newline>-Standard Helmet (Faster, less defense)<Newline>-<#BlitzScrollNameText#> (Boost battle speed)<Newline>-<#TornSpacialLapseScrollNameText#>
+
+ClassSelectionDataTag author:"<#ClassSelectionAuthor#>",title:"<#ClassSelectionTitle#>",resolved:1b,pages:["<#ClassSelectionPages#>"]
+ClassSelection <#Item$ClassSelectionItemID$ClassSelectionDataTag#>

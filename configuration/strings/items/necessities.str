@@ -1,0 +1,111 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+BloodSigilItemID fishing_rod
+BloodSigilNameText Blood Sigil
+BloodSigilNameColour red
+BloodSigilName <#ItemName$BloodSigilNameText$BloodSigilNameColour#>
+BloodSigilDescription <#LoreLine$Normally only carved into the dying#>
+BloodSigilDescription <#LoreLine$as a last hope of survival, foolish#>
+BloodSigilDescription <#LoreLine$warriors would sometimes take this#>
+BloodSigilDescription <#LoreLine$Kshji upon themselves. Almost all#>
+BloodSigilDescription <#LoreLine$branded died relatively quicky,#>
+BloodSigilDescription <#LoreLine$resulting in its forbidding.#>
+BloodSigilDescription <#StatsLine#>
+BloodSigilStats <#LoreLine$Usable Within <#Time$4#> of Getting Hit#>
+BloodSigilStats <#LoreLine$-30% <#CurrentHealth#>#>
+BloodSigilStats <#LoreLine$<#CurrentHealth#> Regenerates to#>
+BloodSigilStats <#LoreLine$  Original Health#>
+BloodSigilStats <#LoreLine$Purges Wither#>
+BloodSigilTags Unbreakable:1b,HideFlags:4,Damage:1,HoldingID:<#BloodSigilHoldingID#>,CustomModelData:1
+
+BloodSigilDataTag display:{Name:"<#BloodSigilName#>",Lore:[<#BloodSigilDescription#>,<#BloodSigilStats#>]},<#BloodSigilTags#>
+BloodSigil <#Item$BloodSigilItemID$BloodSigilDataTag#>
+
+DeathSigilItemID chorus_fruit
+DeathSigilNameText Death Sigil
+DeathSigilNameColour dark_gray
+DeathSigilName <#ItemName$DeathSigilNameText$DeathSigilNameColour#>
+DeathSigilDescription <#LoreLine$Many casters traded sanity for life#>
+DeathSigilDescription <#LoreLine$during the reaping, but you are#>
+DeathSigilDescription <#LoreLine$different than they, the undead.#>
+DeathSigilDescription <#LoreLine$Through this Kshji and from your#>
+DeathSigilDescription <#LoreLine$nature, you can dormantly activate#>
+DeathSigilDescription <#LoreLine$your Blood Sigil, allowing your Warden#>
+DeathSigilDescription <#LoreLine$to restore your place.#>
+DeathSigilDescription <#StatsLine#>
+DeathSigilStats <#LoreLine$Die#>
+DeathSigilStats <#LoreLine$Return to Your Binding Point#>
+
+DeathSigilDataTag display:{Name:"<#DeathSigilName#>",Lore:[<#DeathSigilDescription#>,<#DeathSigilStats#>]}
+DeathSigil <#Item$DeathSigilItemID$DeathSigilDataTag#>
+
+EmptyFlaskItemID glass_bottle
+EmptyFlaskNameText Empty Flask
+EmptyFlaskNameColour white
+EmptyFlaskName <#ItemName$EmptyFlaskNameText$EmptyFlaskNameColour#>
+EmptyFlaskDescription <#LoreLine$Can be filled with fountain water.#>
+
+EmptyFlaskDataTag display:{Name:"<#EmptyFlaskName#>",Lore:[<#EmptyFlaskDescription#>]},HoldingID:<#EmptyFlaskHoldingID#>
+EmptyFlask <#Item$EmptyFlaskItemID$EmptyFlaskDataTag#>
+
+FountainWaterItemID potion
+FountainWaterNameText Fountain Water
+FountainWaterNameColour white
+FountainWaterName <#ItemName$FountainWaterNameText$FountainWaterNameColour#>
+FountainWaterDescription <#LoreLine$Certain fountains in E\'Siraph#>
+FountainWaterDescription <#LoreLine$have had live human blood mixed#>
+FountainWaterDescription <#LoreLine$in, granting their water#>
+FountainWaterDescription <#LoreLine$restorative properties.#>
+FountainWaterDescription <#StatsLine#>
+FountainWaterStats <#LoreLine$+16 <#CurrentHealth#>#>
+FountainWaterTags Potion:"minecraft:water",HideFlags:32
+
+FountainWaterDataTag display:{Name:"<#FountainWaterName#>",Lore:[<#FountainWaterDescription#>,<#FountainWaterStats#>]},<#FountainWaterTags#>
+FountainWater <#Item$FountainWaterItemID$FountainWaterDataTag#>
+
+SoulKeyItemID ender_eye
+SoulKeyNameText Soul Key
+SoulKeyNameColour gold
+SoulKeyName <#ItemName$SoulKeyNameText$SoulKeyNameColour#>
+SoulKeyDescription <#LoreLine$An imprint of your earth bound#>
+SoulKeyDescription <#LoreLine$soul, used to mark the spot in#>
+SoulKeyDescription <#LoreLine$which it can be reformed. As an#>
+SoulKeyDescription <#LoreLine$undead, your soul cannot die, but#>
+SoulKeyDescription <#LoreLine$as you are, so too can your soul#>
+SoulKeyDescription <#LoreLine$anchor itself to reform your body#>
+SoulKeyDescription <#LoreLine$from death.#>
+SoulKeyDescription <#StatsLine#>
+SoulKeyStats <#LoreLine$Marks a Binding Point as Your#>
+SoulKeyStats <#LoreLine$  Respawn Location#>
+SoulKeyTags CanPlaceOn:["minecraft:end_portal_frame"],HideFlags:16
+
+SoulKeyDataTag display:{Name:"<#SoulKeyName#>",Lore:[<#SoulKeyDescription#>,<#SoulKeyStats#>]},<#SoulKeyTags#>
+SoulKey <#Item$SoulKeyItemID$SoulKeyDataTag#>
+
+ObscuringSightStaminaRegenerationPenalty 0.7
+
+ObscuringSightItemID fishing_rod
+ObscuringSightNameText Obscuring Sight
+ObscuringSightNameColour dark_gray
+ObscuringSightName <#ItemName$ObscuringSightNameText$ObscuringSightNameColour#>
+ObscuringSightDescription <#LoreLine$Can be used to obscure the sight#>
+ObscuringSightDescription <#LoreLine$of your soul from those who would#>
+ObscuringSightDescription <#LoreLine$look upon it, granting you immunity to#>
+ObscuringSightDescription <#LoreLine$many unnatural ailments. Just#>
+ObscuringSightDescription <#LoreLine$remember, not all such ailments are#>
+ObscuringSightDescription <#LoreLine$also unwanted.#>
+ObscuringSightDescription <#StatsLine#>
+ObscuringSightStats <#LoreLine$<#CastingResistance#>#>
+ObscuringSightStats <#LoreLine$-<#!ObscuringSightStaminaRegenerationPenalty 100 *#>% <#StaminaRegeneration#>#>
+ObscuringSightStats <#LoreLine$<#Duration#>: <#Time$20#>#>
+ObscuringSightTags Unbreakable:1b,HideFlags:4,Damage:2,HoldingID:<#ObscuringSightHoldingID#>,CustomModelData:2
+
+ObscuringSightDataTag display:{Name:"<#ObscuringSightName#>",Lore:[<#ObscuringSightDescription#>,<#ObscuringSightStats#>]},<#ObscuringSightTags#>
+ObscuringSight <#Item$ObscuringSightItemID$ObscuringSightDataTag#>

@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+OgolovRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$13#>
+OgolovRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$CripplingArrow$4#>
+OgolovRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Condemnation$1#>
+OgolovRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$SmokeBomb$1#>
+
+OgolovExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$1#>
+OgolovExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$5$CripplingArrow$2#>
+OgolovExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$10$Condemnation$1#>
+OgolovExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$10$SmokeBomb$1#>
+
+OgolovStash flare		$ Flare			$ 27
+OgolovStash crippling_arrow	$ CripplingArrow	$ 9
+OgolovStash condemnation	$ Condemnation		$ 5
+OgolovStash smoke_bomb		$ SmokeBomb		$ 4
+OgolovStash head_of_yearning	$ HeadOfYearning	$ 2

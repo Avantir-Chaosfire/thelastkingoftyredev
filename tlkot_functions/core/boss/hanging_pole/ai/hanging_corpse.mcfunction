@@ -1,0 +1,1 @@
+tp @s ~ ~ ~ facing entity @a[limit=1]

@@ -1,0 +1,1 @@
+tellraw @a {"text": "Found more heads for me?", "color": "white", "italic": true}

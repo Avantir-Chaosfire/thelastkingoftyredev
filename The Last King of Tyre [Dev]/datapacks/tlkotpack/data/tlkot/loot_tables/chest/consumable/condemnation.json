@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Condemnation\\\",\\\"color\\\":\\\"dark_red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Ixinik condemned the exiles, Tyre\",\"color\":\"gray\"}','{\"text\":\"condemned the ashen survivors,\",\"color\":\"gray\"}','{\"text\":\"New Hoiro condemned its\",\"color\":\"gray\"}','{\"text\":\"strongest knights and E\\'Siraph\",\"color\":\"gray\"}','{\"text\":\"condemned itself. One should\",\"color\":\"gray\"}','{\"text\":\"clean their own face before they\",\"color\":\"gray\"}','{\"text\":\"point out dirt on another\\'s.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Affected Foes Take Dramatically Increased Damage\",\"color\":\"gray\"}']},CustomPotionEffects:[{Id:30,Amplifier:0,Duration:1200,Ambient:0,ShowParticles:1}],CustomPotionColor:10040115,HideFlags:32}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

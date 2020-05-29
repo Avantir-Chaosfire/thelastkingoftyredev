@@ -1,0 +1,2 @@
+execute if entity @s[tag=Activate] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/arrow_lane/activate
+execute if entity @s[scores={KurnasArrowTime=1..}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/ai/arrow_lane/active

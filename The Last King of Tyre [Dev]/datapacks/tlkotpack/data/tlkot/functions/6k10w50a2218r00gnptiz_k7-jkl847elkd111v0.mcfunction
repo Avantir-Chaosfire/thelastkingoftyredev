@@ -1,0 +1,3 @@
+execute if entity @a[x=90,y=144,z=34,dx=17,dy=7,dz=17,scores={A89mYp_e2BN0XjT_=1..}] run function tlkot:ar11us330xh_plokk2rwrcedttnj-7u5rae6m-q3
+execute if entity @a[x=301,y=30,z=40,dx=17,dy=4,dz=17,scores={5NYuI1MRqVcOWssO=1..}] run function tlkot:hbk0n1llqzi_31eppy45-jemdcun1gmo9-84fhh4
+execute if entity @a[x=696,y=204,z=392,dx=17,dy=7,dz=17,scores={uhSv3BylkH1.SVb4=1..}] run function tlkot:4zw698c-cs_-tsw1caoe8-n4sms0e0l13pej55-b

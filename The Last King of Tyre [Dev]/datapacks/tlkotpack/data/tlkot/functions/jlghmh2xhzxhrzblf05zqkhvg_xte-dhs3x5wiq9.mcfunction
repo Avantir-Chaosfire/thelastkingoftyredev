@@ -1,0 +1,2 @@
+give @a minecraft:zombie_head{display:{Name:"{\"text\":\"Rotten Head of Yearning\",\"color\":\"dark_green\",\"italic\":false}",Lore:['{"text":"The remains of one embodying he","color":"gray"}','{"text":"who did right for wrong.","color":"gray"}']},CanPlaceOn:["minecraft:bedrock"],HideFlags:16}
+tellraw @a {"text": "Obtained ", "extra": [{"text": "Rotten Head of Yearning", "color": "dark_green"}]}

@@ -1,0 +1,1 @@
+function tlkot:utility/summon_enemy/animal/spider/cave/normal

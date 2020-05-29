@@ -1,0 +1,1 @@
+function tlkot:utility/summon_enemy/animal/spore/poison/main

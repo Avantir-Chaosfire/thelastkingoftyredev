@@ -1,0 +1,2 @@
+give @a minecraft:emerald{display:{Name:"{\"text\":\"Warding Eye\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"An imprinted eyeball that can be","color":"gray"}','{"text":"combined with a weapon to watch and","color":"gray"}','{"text":"ward off danger for you.","color":"gray"}']}}
+tellraw @a {"text": "Obtained ", "extra": [{"text": "Warding Eye", "color": "white"}]}

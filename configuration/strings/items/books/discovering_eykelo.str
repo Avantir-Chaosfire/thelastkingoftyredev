@@ -1,0 +1,18 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+DiscoveringEykeloItemID written_book
+DiscoveringEykeloAuthor A Friend
+DiscoveringEykeloTitle Discovering Eykelo
+DiscoveringEykeloPages A long line of people stood all in a row,<Newline><Newline>And amongst them saw I my friend Eykelo.<Newline><Newline>'Eykelo', said I, 'In this line, why this spot?'
+DiscoveringEykeloPages 'Eykelo', he replied, 'My name that is not,<Newline><Newline>But wandering as may your instincts be,<Newline><Newline>Not so far are they from the truth, you see.'
+DiscoveringEykeloPages To his left, he gestured, behold a woman, did I,<Newline><Newline>'The third', he said, 'The one after I,<Newline><Newline>My true name originates in my product with she.'
+DiscoveringEykeloPages To his right, he gestured, behold a child, did I,<Newline><Newline>'The first', he said, 'The one before I,<Newline><Newline>My true name is the sum of our entirety.'
+DiscoveringEykeloPages Lost, now I, stepped back to view,<Newline><Newline>A long line of people who I not knew.<Newline><Newline>The name, the meaning, I strove to see,
+DiscoveringEykeloPages And tilted my head left that I may be<Newline><Newline>Of a greater perspective and a wiser way<Newline><Newline>Than those who would grimace, and turn away.
+
+DiscoveringEykeloDataTag author:"<#DiscoveringEykeloAuthor#>",title:"<#DiscoveringEykeloTitle#>",resolved:1b,pages:["<#DiscoveringEykeloPages#>"]
+DiscoveringEykelo <#Item$DiscoveringEykeloItemID$DiscoveringEykeloDataTag#>

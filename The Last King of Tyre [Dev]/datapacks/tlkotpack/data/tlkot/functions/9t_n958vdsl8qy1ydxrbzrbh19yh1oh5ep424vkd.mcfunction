@@ -1,0 +1,2 @@
+execute as @e[tag=uitKEHRcRzbyrZtOgQE3AzpidHf2wJq1bPR2p3iT,tag=0k1M+vr9yLrwWwf12pmosZYYhmd-2zw4zXev6rwS] run function tlkot:qgsw2i5zpyvijj1vro95do6hmflvx_jsdmcj4jag
+scoreboard players set @s[scores={mLw1_SHuvl4_3Rx6=0}] mLw1_SHuvl4_3Rx6 81

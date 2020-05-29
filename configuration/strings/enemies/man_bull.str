@@ -1,0 +1,5 @@
+#include versioned_tags
+
+ManBullHealth 183000
+
+ManBullTags PersistenceRequired:1b,CustomName:"{\"text\":\"Man-Bull\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:7},{Name:generic.movementSpeed,Base:0.0},{Name:generic.followRange,Base:32},{Name:"generic.knockbackResistance",Base:1}],Health:1000.0f,Tags:["Enemy.ManBull",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore","AI.ManBull"]

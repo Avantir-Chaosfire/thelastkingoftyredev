@@ -1,0 +1,1 @@
+execute unless entity @e[tag=DreadHostDeathMarker,distance=..1] run function tlkot:<~>/trigger

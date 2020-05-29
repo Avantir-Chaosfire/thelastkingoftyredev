@@ -1,0 +1,3 @@
+scoreboard players set @a +JGstOX82AT3vOTh 1
+scoreboard players enable @a +JGstOX82AT3vOTh
+tellraw @a {"text": "\"The Subjugate?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger +JGstOX82AT3vOTh set 9"}, "extra": [{"text": "\"Bazaar?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger +JGstOX82AT3vOTh set 8"}}, {"text": "\"Dangers ahead?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger +JGstOX82AT3vOTh set 10"}}]}

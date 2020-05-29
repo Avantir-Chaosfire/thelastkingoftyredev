@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Blood Emblem\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"An Emblem of Hope mired in\",\"color\":\"gray\"}','{\"text\":\"blood, altering the properties of\",\"color\":\"gray\"}','{\"text\":\"the Aerteyp contained within.\",\"color\":\"gray\"}','{\"text\":\"E\\'Siraph\\'s people would likely\",\"color\":\"gray\"}','{\"text\":\"appreciate the human blood for\",\"color\":\"gray\"}','{\"text\":\"the stronger connection it could\",\"color\":\"gray\"}','{\"text\":\"grant with the dead.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

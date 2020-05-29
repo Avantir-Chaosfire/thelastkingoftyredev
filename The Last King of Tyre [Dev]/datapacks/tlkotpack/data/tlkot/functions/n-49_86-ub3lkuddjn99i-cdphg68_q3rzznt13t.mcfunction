@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={v9jW.czrPQqAmyJO=-1}] v9jW.czrPQqAmyJO 116
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "I've shown this world truth, and as I've done to this world I'll do the same to \u00a7lYOU\u00a78\u00a7o!", "color": "dark_gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "I've shown this world truth, and as I've done to this world I'll do the same to \u00a7lYOU\u00a78\u00a7o!", "color": "white", "italic": true}

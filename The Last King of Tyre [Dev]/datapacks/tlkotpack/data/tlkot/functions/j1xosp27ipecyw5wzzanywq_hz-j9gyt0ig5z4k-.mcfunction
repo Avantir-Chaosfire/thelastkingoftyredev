@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={wqKEjHMOmBCYMYWw=-1}] wqKEjHMOmBCYMYWw 96
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "I thought ye were me twin, Ogolov, the 'Lonesome' he calls himself.", "color": "dark_aqua", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "I thought ye were me twin, Ogolov, the 'Lonesome' he calls himself.", "color": "white", "italic": true}

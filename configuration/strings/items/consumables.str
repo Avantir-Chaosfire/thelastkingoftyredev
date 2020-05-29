@@ -1,0 +1,216 @@
+#include item_template
+#include versioned_tags
+#include item_holding_ids
+#include stats
+#include items/necessities
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+#join advancements ,
+
+BurningSaltItemID egg
+BurningSaltNameText Burning Salt
+BurningSaltNameColour red
+BurningSaltName <#ItemName$BurningSaltNameText$BurningSaltNameColour#>
+BurningSaltDescription <#LoreLine$Mineral regularly used by the#>
+BurningSaltDescription <#LoreLine$hunters in the Undead Crusades,#>
+BurningSaltDescription <#LoreLine$despite its rarity, to start fires#>
+BurningSaltDescription <#LoreLine$and light undead ablaze. Burning#>
+BurningSaltDescription <#LoreLine$undead are more susceptible to#>
+BurningSaltDescription <#LoreLine$injury as the fire inhibits their#>
+BurningSaltDescription <#LoreLine$flesh\'s toughness.#>
+BurningSaltDescription <#StatsLine#>
+BurningSaltStats <#LoreLine$Lights Foes Ablaze#>
+BurningSaltTags Enchantments:[{id:"minecraft:fire_aspect",lvl:3}],HideFlags:1,HoldingID:<#BurningSaltHoldingID#>
+
+BurningSaltDataTag display:{Name:"<#BurningSaltName#>",Lore:[<#BurningSaltDescription#>,<#BurningSaltStats#>]},<#BurningSaltTags#>
+BurningSalt <#Item$BurningSaltItemID$BurningSaltDataTag#>
+
+CastingPowderItemID experience_bottle
+CastingPowderNameText Southern Catalyst Powder
+CastingPowderNameColour green
+CastingPowderName <#ItemName$CastingPowderNameText$CastingPowderNameColour#>
+CastingPowderDescription <#LoreLine$Emblazoned hope to invigorate the#>
+CastingPowderDescription <#LoreLine$transference of energy. To be#>
+CastingPowderDescription <#LoreLine$without hope is to have no living#>
+CastingPowderDescription <#LoreLine$soul, but hope is not the soul; It#>
+CastingPowderDescription <#LoreLine$runs deeper than that.#>
+CastingPowderDescription <#StatsLine#>
+CastingPowderStats <#LoreLine$Emblazons a Sigil at Your Feet, Granting:#>
+CastingPowderStats <#LoreLine$+10 Max Stamina#>
+CastingPowderStats <#LoreLine$-60% Damage Taken#>
+CastingPowderStats <#LoreLine$Dramatically Reduced Casting Time#>
+
+CastingPowderDataTag display:{Name:"<#CastingPowderName#>",Lore:[<#CastingPowderDescription#>,<#CastingPowderStats#>]}
+CastingPowder <#Item$CastingPowderItemID$CastingPowderDataTag#>
+
+CastingPowderMarkerTags ‘Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[<#CommonKillableDivisionTags#>,"CastingSymbol"]‘
+
+CondemnationItemID splash_potion
+CondemnationNameText Condemnation
+CondemnationNameColour dark_red
+CondemnationName <#ItemName$CondemnationNameText$CondemnationNameColour#>
+CondemnationDescription <#LoreLine$Ixinik condemned the exiles, Tyre#>
+CondemnationDescription <#LoreLine$condemned the ashen survivors,#>
+CondemnationDescription <#LoreLine$New Hoiro condemned its#>
+CondemnationDescription <#LoreLine$strongest knights and E\'Siraph#>
+CondemnationDescription <#LoreLine$condemned itself. One should#>
+CondemnationDescription <#LoreLine$clean their own face before they#>
+CondemnationDescription <#LoreLine$point out dirt on another\'s.#>
+CondemnationDescription <#StatsLine#>
+CondemnationStats <#LoreLine$Affected Foes Take Dramatically Increased Damage#>
+CondemnationTags CustomPotionEffects:[{Id:30,Amplifier:0,Duration:1200,Ambient:0,ShowParticles:1}],CustomPotionColor:10040115,HideFlags:32
+
+CondemnationDataTag display:{Name:"<#CondemnationName#>",Lore:[<#CondemnationDescription#>,<#CondemnationStats#>]},<#CondemnationTags#>
+Condemnation <#Item$CondemnationItemID$CondemnationDataTag#>
+
+DesiccatingCarapaceItemID iron_nugget
+DesiccatingCarapaceNameText Desiccating Carapace
+DesiccatingCarapaceNameColour dark_purple
+DesiccatingCarapaceName <#ItemName$DesiccatingCarapaceNameText$DesiccatingCarapaceNameColour#>
+DesiccatingCarapaceDescription <#LoreLine$Old, dead and ready to crumble, it#>
+DesiccatingCarapaceDescription <#LoreLine$holds just enough water to refill an#>
+DesiccatingCarapaceDescription <#LoreLine$empty flask. The dreadful arthropods#>
+DesiccatingCarapaceDescription <#LoreLine$that leave these behind are brimming#>
+DesiccatingCarapaceDescription <#LoreLine$with biological stimulants, but use#>
+DesiccatingCarapaceDescription <#LoreLine$them not for noble intent.#>
+DesiccatingCarapaceDescription <#StatsLine#>
+DesiccatingCarapaceStats <#LoreLine$Hold in Hand With an <#EmptyFlaskNameText#>#>
+DesiccatingCarapaceStats <#LoreLine$Fills the <#EmptyFlaskNameText#>#>
+DesiccatingCarapaceStats <#LoreLine$Cooldown: 2min#>
+
+DesiccatingCarapaceDataTag display:{Name:"<#DesiccatingCarapaceName#>",Lore:[<#DesiccatingCarapaceDescription#>,<#DesiccatingCarapaceStats#>]},HoldingID:<#DesiccatingCarapaceHoldingID#>
+DesiccatingCarapace <#Item$DesiccatingCarapaceItemID$DesiccatingCarapaceDataTag#>
+
+Fireworks Flight:1b,Explosions:[{FadeColors:[I; 11743532]},{FadeColors:[I; 11743532]},{FadeColors:[I; 11743532]},{FadeColors:[I; 11743532]},{FadeColors:[I; 11743532]},{FadeColors:[I; 11743532]}]
+
+FlareItemID firework_rocket
+FlareNameText Flare
+FlareNameColour yellow
+FlareName <#ItemName$FlareNameText$FlareNameColour#>
+FlareDescription <#LoreLine$To light the dark, and see what#>
+FlareDescription <#LoreLine$you cannot.#>
+FlareDescription <#StatsLine#>
+FlareDescription <#LoreLine$Purges Blindness#>
+
+FlareDataTag display:{Name:"<#FlareName#>",Lore:[<#FlareDescription#>]},CanPlaceOn:["#tlkot:all"],Fireworks:{},HideFlags:48
+Flare <#Item$FlareItemID$FlareDataTag#>
+
+FlareLighterTags ‘Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,Tags:["Flare","Lighter"]‘
+FlareDouserTags ‘Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,Tags:["Flare","Douser"]‘
+
+HeadOfYearningItemID wither_skeleton_skull
+HeadOfYearningNameText Head of Yearning
+HeadOfYearningNameColour dark_red
+HeadOfYearningName <#ItemName$HeadOfYearningNameText$HeadOfYearningNameColour#>
+HeadOfYearningDescription <#LoreLine$A reaper\'s remains are sometimes#>
+HeadOfYearningDescription <#LoreLine$dried and embalmed like this to keep#>
+HeadOfYearningDescription <#LoreLine$it from necromancers and preserve#>
+HeadOfYearningDescription <#LoreLine$its ghastly appeal to all creatures#>
+HeadOfYearningDescription <#LoreLine$once human. For the latter reason,#>
+HeadOfYearningDescription <#LoreLine$these are often treated as#>
+HeadOfYearningDescription <#LoreLine$currency by survivors.#>
+
+HeadOfYearningDataTag display:{Name:"<#HeadOfYearningName#>",Lore:[<#HeadOfYearningDescription#>]}
+HeadOfYearning <#Item$HeadOfYearningItemID$HeadOfYearningDataTag#>
+
+SmokeBombDuration 12
+
+SmokeBombItemID snowball
+SmokeBombNameText Smoke Bomb
+SmokeBombNameColour white
+SmokeBombName <#ItemName$SmokeBombNameText$SmokeBombNameColour#>
+SmokeBombDescription <#LoreLine$Deception is an art long practiced#>
+SmokeBombDescription <#LoreLine$in E\'Siraph, and this tool was a#>
+SmokeBombDescription <#LoreLine$favourite of many. Not all deception#>
+SmokeBombDescription <#LoreLine$is intentional of course, they could#>
+SmokeBombDescription <#LoreLine$just have been presented a#>
+SmokeBombDescription <#LoreLine$narrow view.#>
+SmokeBombDescription <#StatsLine#>
+SmokeBombStats <#LoreLine$Unleashes a Cloud of Smoke#>
+SmokeBombStats <#LoreLine$Affected Creatures Become Invisible#>
+SmokeBombStats <#LoreLine$<#Duration#>: <#Time$<#SmokeBombDuration#>#>#>
+
+SmokeBombDataTag display:{Name:"<#SmokeBombName#>",Lore:[<#SmokeBombDescription#>,<#SmokeBombStats#>]}
+SmokeBomb <#Item$SmokeBombItemID$SmokeBombDataTag#>
+
+SmokeBombEmitterTags ‘Age:5600,PickupDelay:32767,Item:{Count:1,Damage:0,id:"minecraft:snowball"},Tags:["Smoke","Relevant"]‘
+
+NecromancersSlipItemID leather
+NecromancersSlipNameText Necromancer's Slip
+NecromancersSlipNameColour gold
+NecromancersSlipName <#ItemName$NecromancersSlipNameText$NecromancersSlipNameColour#>
+NecromancersSlipDescription <#LoreLine$A fragment of a scroll left by the#>
+NecromancersSlipDescription <#LoreLine$necromancers to bypass the#>
+NecromancersSlipDescription <#LoreLine$barriers of any who find it, which is#>
+NecromancersSlipDescription <#LoreLine$ironically very useful for you.#>
+NecromancersSlipDescription <#StatsLine#>
+NecromancersSlipStats <#LoreLine$Obscuring Sight Doesn\'t Reduce#>
+NecromancersSlipStats <#LoreLine$  <#StaminaRegeneration#>#>
+
+NecromancersSlipDataTag display:{Name:"<#NecromancersSlipName#>",Lore:[<#NecromancersSlipDescription#>,<#NecromancersSlipStats#>]}
+NecromancersSlip <#Item$NecromancersSlipItemID$NecromancersSlipDataTag#>
+
+SnareItemID lingering_potion
+SnareNameText Snare
+SnareNameColour dark_purple
+SnareName <#ItemName$SnareNameText$SnareNameColour#>
+SnareDescription <#LoreLine$A standard combat tool for trapping#>
+SnareDescription <#LoreLine$foes that was distributed to the#>
+SnareDescription <#LoreLine$populace during the Siege of New#>
+SnareDescription <#LoreLine$Hoiro in case the worst were to#>
+SnareDescription <#LoreLine$happen, as it did. But as potent as#>
+SnareDescription <#LoreLine$these are against the foes in front,#>
+SnareDescription <#LoreLine$useless they are for the newborn#>
+SnareDescription <#LoreLine$reaper behind your back.#>
+SnareDescription <#StatsLine#>
+SnareStats <#LoreLine$Plants an Immobilizing Cloud#>
+SnareTags CustomPotionEffects:[{Id:2,Amplifier:127,Duration:600,Ambient:0,ShowParticles:1}],CustomPotionColor:6636927,HideFlags:34
+
+SnareDataTag display:{Name:"<#SnareName#>",Lore:[<#SnareDescription#>,<#SnareStats#>]},<#SnareTags#>
+Snare <#Item$SnareItemID$SnareDataTag#>
+
+NormalArrowItemID arrow
+NormalArrowNameText Arrow
+NormalArrowNameColour white
+NormalArrowName <#ItemName$NormalArrowNameText$NormalArrowNameColour#>
+NormalArrowDescription <#LoreLine$A shot in the dark may be the best#>
+NormalArrowDescription <#LoreLine$shot you have.#>
+
+NormalArrowDataTag display:{Name:"<#NormalArrowName#>",Lore:[<#NormalArrowDescription#>]}
+NormalArrow <#Item$NormalArrowItemID$NormalArrowDataTag#>
+
+CripplingArrowItemID tipped_arrow
+CripplingArrowNameText Crippling Arrow
+CripplingArrowNameColour dark_gray
+CripplingArrowName <#ItemName$CripplingArrowNameText$CripplingArrowNameColour#>
+CripplingArrowDescription <#LoreLine$Arrow imprinted with a crippling#>
+CripplingArrowDescription <#LoreLine$Aerteyp, delivered to the target on#>
+CripplingArrowDescription <#LoreLine$impact. Illwoirds such as these#>
+CripplingArrowDescription <#LoreLine$allow even ordinary warriors to#>
+CripplingArrowDescription <#LoreLine$use augmented tools and skills in#>
+CripplingArrowDescription <#LoreLine$battle, not that it helps much#>
+CripplingArrowDescription <#LoreLine$against the hordes.#>
+CripplingArrowDescription <#StatsLine#>
+CripplingArrowStats <#LoreLine$Slowness III#>
+CripplingArrowStats <#LoreLine$Weakness I#>
+CripplingArrowTags CustomPotionEffects:[{Id:2,Amplifier:2,Duration:300,ShowParticles:1,Ambient:0},{Id:18,Amplifier:0,Duration:300,ShowParticles:1,Ambient:0}],CustomPotionColor:5000268,HideFlags:32
+
+CripplingArrowDataTag display:{Name:"<#CripplingArrowName#>",Lore:[<#CripplingArrowDescription#>,<#CripplingArrowStats#>]},<#CripplingArrowTags#>
+CripplingArrow <#Item$CripplingArrowItemID$CripplingArrowDataTag#>
+
+PoisonArrowItemID tipped_arrow
+PoisonArrowNameText Poison Tipped Arrow
+PoisonArrowNameColour dark_green
+PoisonArrowName <#ItemName$PoisonArrowNameText$PoisonArrowNameColour#>
+PoisonArrowDescription <#LoreLine$A rare imprint of arrows, effective#>
+PoisonArrowDescription <#LoreLine$at ensuring your target\'s demise.#>
+PoisonArrowDescription <#LoreLine$Naturally, it was primarily used for#>
+PoisonArrowDescription <#LoreLine$murder in E\'Siraph.#>
+PoisonArrowDescription <#StatsLine#>
+PoisonArrowStats <#LoreLine$Poison II#>
+PoisonArrowTags CustomPotionEffects:[{Id:20,Amplifier:1,Duration:480,ShowParticles:0,Ambient:0},{Id:19,Amplifier:1,Duration:480,ShowParticles:1,Ambient:0}],CustomPotionColor:5399852,HideFlags:32
+
+PoisonArrowDataTag display:{Name:"<#PoisonArrowName#>",Lore:[<#PoisonArrowDescription#>,<#PoisonArrowStats#>]},<#PoisonArrowTags#>
+PoisonArrow <#Item$PoisonArrowItemID$PoisonArrowDataTag#>

@@ -1,0 +1,3 @@
+execute if entity @a[scores={NjBa8xXTNSecj9P2=0..}] run tellraw @a {"text": "Ah...", "color": "dark_purple", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=1..}] run tellraw @a {"text": "You've trapped yourself.", "color": "dark_purple", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=2..}] run tellraw @a {"text": "Luckily for you, corpses are no fun to butcher.", "color": "dark_purple", "italic": true}

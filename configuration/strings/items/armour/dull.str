@@ -1,0 +1,92 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+DullPlateDescription <#LoreLine$The dulled plate armour harbours a#>
+DullPlateDescription <#LoreLine$ring of something calling... Calling#>
+DullPlateDescription <#LoreLine$itself greater, but may in fact be#>
+DullPlateDescription <#LoreLine$far worse.#>
+DullPlateDescription <#StatsLine#>
+
+DullPlateHeadItemID golden_helmet
+DullPlateHeadNameText Dull Helmet
+DullPlateHeadNameColour dark_gray
+DullPlateHeadName <#ItemName$DullPlateHeadNameText$DullPlateHeadNameColour#>
+DullPlateHeadDescription <#DullPlateDescription#>
+DullPlateHeadStats <#LoreLine$<#Armour#>: 4#>
+DullPlateHeadStats <#LoreLine$<#<#Weight#>#>: 2.0#>
+DullPlateHeadStats <#LoreLine$+1 <#Toughness#>#>
+DullPlateHeadStats <#LoreLine$-6% <#MovementSpeed#>#>
+DullPlateHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-1714722307,UUIDMost:-1433147721,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:1,UUIDLeast:-1713691595,UUIDMost:1567868941,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:-0.06,UUIDLeast:-632382615,UUIDMost:1395400110,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+DullPlateHeadDataTag display:{Name:"<#DullPlateHeadName#>",Lore:[<#DullPlateHeadDescription#>,<#DullPlateHeadStats#>]},<#DullPlateHeadTags#>
+DullPlateHead <#Item$DullPlateHeadItemID$DullPlateHeadDataTag#>
+
+DullPlateActiveChestItemID golden_chestplate
+DullPlateActiveChestNameText Dull Chestplate (Complete)
+DullPlateActiveChestNameColour dark_gray
+DullPlateActiveChestName <#ItemName$DullPlateActiveChestNameText$DullPlateActiveChestNameColour#>
+DullPlateActiveChestDescription <#DullPlateDescription#>
+DullPlateActiveChestStats <#LoreLine$<#Armour#>: 6#>
+DullPlateActiveChestStats <#LoreLine$<#<#Weight#>#>: 3.0#>
+DullPlateActiveChestStats <#LoreLine$+2 <#Toughness#>#>
+DullPlateActiveChestStats <#LoreLine$-9% <#MovementSpeed#>#>
+DullPlateActiveChestStats <#LoreLine$+100% <#KnockbackResistance#>#>
+DullPlateActiveChestStats <#LoreLine$+2.25 <#StaminaRegeneration#> While Still#>
+DullPlateActiveChestStats <#LoreLine$  Still#>
+DullPlateActiveChestStats <#LoreLine$-2.25 <#StaminaRegeneration#> While Moving#>
+DullPlateActiveChestStats <#LoreLine$  Moving#>
+DullPlateActiveChestTags AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:-994056136,UUIDMost:1051051522,Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:6,UUIDLeast:1192028916,UUIDMost:693226422,Slot:"chest"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:2,UUIDLeast:-655947384,UUIDMost:779879822,Slot:"chest"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:-0.09,UUIDLeast:604712458,UUIDMost:684683058,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+DullPlateActiveChestDataTag display:{Name:"<#DullPlateActiveChestName#>",Lore:[<#DullPlateActiveChestDescription#>,<#DullPlateActiveChestStats#>]},<#DullPlateActiveChestTags#>
+DullPlateActiveChest <#Item$DullPlateActiveChestItemID$DullPlateActiveChestDataTag#>
+
+DullPlateChestItemID golden_chestplate
+DullPlateChestNameText Dull Chestplate
+DullPlateChestNameColour dark_gray
+DullPlateChestName <#ItemName$DullPlateChestNameText$DullPlateChestNameColour#>
+DullPlateChestDescription <#DullPlateDescription#>
+DullPlateChestStats <#LoreLine$<#Armour#>: 6#>
+DullPlateChestStats <#LoreLine$<#<#Weight#>#>: 3.0#>
+DullPlateChestStats <#LoreLine$+2 <#Toughness#>#>
+DullPlateChestStats <#LoreLine$-9% <#MovementSpeed#>#>
+DullPlateChestStats <#LoreLine$(+100% <#KnockbackResistance#>)#>
+DullPlateChestStats <#LoreLine$(+2.25 <#StaminaRegeneration#> While#>
+DullPlateChestStats <#LoreLine$  Still)#>
+DullPlateChestStats <#LoreLine$(-2.25 <#StaminaRegeneration#> While#>
+DullPlateChestStats <#LoreLine$  Moving)#>
+DullPlateChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:6,UUIDLeast:-384998627,UUIDMost:14912704,Slot:"chest"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:2,UUIDLeast:-1845857163,UUIDMost:-1234124730,Slot:"chest"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:-0.09,UUIDLeast:762990661,UUIDMost:185736561,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+
+DullPlateChestDataTag display:{Name:"<#DullPlateChestName#>",Lore:[<#DullPlateChestDescription#>,<#DullPlateChestStats#>]},<#DullPlateChestTags#>
+DullPlateChest <#Item$DullPlateChestItemID$DullPlateChestDataTag#>
+
+DullPlateLegsItemID golden_leggings
+DullPlateLegsNameText Dull Leggings
+DullPlateLegsNameColour dark_gray
+DullPlateLegsName <#ItemName$DullPlateLegsNameText$DullPlateLegsNameColour#>
+DullPlateLegsDescription <#DullPlateDescription#>
+DullPlateLegsStats <#LoreLine$<#Armour#>: 5#>
+DullPlateLegsStats <#LoreLine$<#<#Weight#>#>: 2.5#>
+DullPlateLegsStats <#LoreLine$+2 <#Toughness#>#>
+DullPlateLegsStats <#LoreLine$-9% <#MovementSpeed#>#>
+DullPlateLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:5,UUIDLeast:1166263629,UUIDMost:762984558,Slot:"legs"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:2,UUIDLeast:327713086,UUIDMost:1939006451,Slot:"legs"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:-0.09,UUIDLeast:-1058036600,UUIDMost:-824100503,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+DullPlateLegsDataTag display:{Name:"<#DullPlateLegsName#>",Lore:[<#DullPlateLegsDescription#>,<#DullPlateLegsStats#>]},<#DullPlateLegsTags#>
+DullPlateLegs <#Item$DullPlateLegsItemID$DullPlateLegsDataTag#>
+
+DullPlateFeetItemID golden_boots
+DullPlateFeetNameText Dull Boots
+DullPlateFeetNameColour dark_gray
+DullPlateFeetName <#ItemName$DullPlateFeetNameText$DullPlateFeetNameColour#>
+DullPlateFeetDescription <#DullPlateDescription#>
+DullPlateFeetStats <#LoreLine$<#Armour#>: 3#>
+DullPlateFeetStats <#LoreLine$<#<#Weight#>#>: 1.5#>
+DullPlateFeetStats <#LoreLine$+1 <#Toughness#>#>
+DullPlateFeetStats <#LoreLine$-6% <#MovementSpeed#>#>
+DullPlateFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:-1327412678,UUIDMost:-1542187573,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:1,UUIDLeast:115623056,UUIDMost:1813013614,Slot:"feet"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:-0.06,UUIDLeast:-1987916061,UUIDMost:914188273,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+DullPlateFeetDataTag display:{Name:"<#DullPlateFeetName#>",Lore:[<#DullPlateFeetDescription#>,<#DullPlateFeetStats#>]},<#DullPlateFeetTags#>
+DullPlateFeet <#Item$DullPlateFeetItemID$DullPlateFeetDataTag#>

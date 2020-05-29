@@ -1,0 +1,2 @@
+execute if block 198 103 393 minecraft:dead_tube_coral_fan if entity @a[scores={DevourerPassage=0}] run function tlkot:<~>/open
+execute if block 198 103 393 minecraft:air if entity @a[scores={DevourerPassage=1}] run function tlkot:<~>/close

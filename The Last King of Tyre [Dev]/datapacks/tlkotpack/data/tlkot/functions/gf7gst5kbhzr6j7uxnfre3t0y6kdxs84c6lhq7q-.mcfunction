@@ -1,0 +1,3 @@
+scoreboard players set @a GvZ6o4Fjf3G+nb5N 1
+scoreboard players enable @a GvZ6o4Fjf3G+nb5N
+tellraw @a {"text": "\"Who are you?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GvZ6o4Fjf3G+nb5N set 2"}, "extra": [{"text": "\"Where are you from?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GvZ6o4Fjf3G+nb5N set 3"}}, {"text": "\"The Binding Beam?\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GvZ6o4Fjf3G+nb5N set 4"}}, {"text": "\"Smithing?\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger GvZ6o4Fjf3G+nb5N set 5"}}]}

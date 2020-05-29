@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Ashurian Tomb Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"When great heroes die, they are","color":"gray"}','{"text":"buried in the heavens of Ashur.","color":"gray"}']}}

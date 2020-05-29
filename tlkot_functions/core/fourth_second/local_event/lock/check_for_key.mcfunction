@@ -1,0 +1,1 @@
+#class execute if entity @s[tag=<0>] if block ~ ~ ~ minecraft:dropper{Items:[{tag:{display:{Name:"<#<0>KeyName#>"}}}]} run tag @s add Unlocked

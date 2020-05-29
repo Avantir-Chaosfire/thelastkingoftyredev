@@ -1,0 +1,2 @@
+execute if entity @a[scores={Shade=0}] run function tlkot:utility/summon_enemy/animal/wolf/normal/main
+execute if entity @a[scores={Shade=1..}] run function tlkot:utility/summon_enemy/animal/wolf/dread/normal

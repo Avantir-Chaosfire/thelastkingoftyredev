@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,name=HangingPole-Pillar,tag=7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu] if block ~ ~2 ~ minecraft:air run fill ~ ~1 ~ ~ ~4 ~ minecraft:prismarine_bricks replace minecraft:air
+execute as @e[tag=6B+5nLuSHVXS7NRWQaUzZB2k.HlSzcH1uIfj.4BQ] run function tlkot:zptid_z5wqm9sitzdl8uvyn9ar644rqn9nnc-60z

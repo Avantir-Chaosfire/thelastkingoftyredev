@@ -1,0 +1,17 @@
+#include eliminate_base_attributes
+#include versioned_tags
+#include exploding_creeper
+
+BloatedHeadName CustomName:"{\"text\":\"Bloated Head Reaper\"}"
+
+BloatedHeadTags ‘<#BloatedHeadName#>,PersistenceRequired:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:9999}],Silent:1b,Health:9999.0f,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.Pair","Paired","BloatedHead","AI.BloatedHead","UsesHitScore"]‘
+
+BloatedHeadReaperHealth 114000
+
+BloatedHeadReaperDeflatedTags ‘<#BloatedHeadName#>,NoAI:1b,PersistenceRequired:1b,Anger:32767,Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:6},{Name:"generic.knockbackResistance",Base:1},{Name:"generic.movementSpeed",Base:0.12},<#EliminateBaseZombiePigmanAttributes#>],Health:1000.0f,Tags:["Enemy.BloatedHead",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.AgroClose","AI.BloatedHeadInfection","UsesHitScore"],ArmorItems:[{},{},{},{id:"player_head",Count:1b,tag:{SkullOwner:"MHF_Ghast"}}]‘
+
+BloatedHeadReaperInflatedTags ‘<#BloatedHeadReaperDeflatedTags#>,Passengers:[{id:"minecraft:ghast",<#BloatedHeadTags#>}]‘
+
+BloatedFireballTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["HasAI","AI.BloatedFireball","Versioned","Killable"]
+
+BloatedHeadProjectileCreeperTags <#ExplodingCreeperBaseTags#>,<#BloatedHeadName#>,ExplosionRadius:2b

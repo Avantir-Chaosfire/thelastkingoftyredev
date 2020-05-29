@@ -1,0 +1,1 @@
+tellraw @a {"text": "Come to steal more, have ye?", "color": "white", "italic": true}

@@ -1,0 +1,3 @@
+SayScore tellraw @a {"text":"<2>: ","extra":[{"score":{"objective":"<2>","name":"<1>"}}]}
+
+SayXYZ tellraw @a {"text":"VectorX: ","extra":[{"score":{"objective":"VectorX","name":"<1>"}},{"text":", VectorY: "},{"score":{"objective":"VectorY","name":"<1>"}},{"text":", VectorZ: "},{"score":{"objective":"VectorZ","name":"<1>"}}]}

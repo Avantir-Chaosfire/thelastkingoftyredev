@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={wqKEjHMOmBCYMYWw=-1}] wqKEjHMOmBCYMYWw 123
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Ah, he be keepin' quiet down there, and I don't ever want to disturb me work to chat with 'im.", "color": "dark_aqua", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Ah, he be keepin' quiet down there, and I don't ever want to disturb me work to chat with 'im.", "color": "white", "italic": true}

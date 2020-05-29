@@ -1,0 +1,2 @@
+function dev:reset/boss/kurnas_harbinger_of_ruination/boss
+function dev:reset/boss/kurnas_harbinger_of_ruination/entrance

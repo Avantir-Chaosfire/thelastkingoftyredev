@@ -1,0 +1,1 @@
+execute if entity @a[tag=SummonPerjurer] if entity @s[name=Perjurer-Boss] run function tlkot:core/one_second/spawn_enemies/spawn/perjurer/spawn

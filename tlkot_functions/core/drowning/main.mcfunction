@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure,nbt={OnGround:0b}] at @s if block ~ ~-0.2 ~ minecraft:water if block ~ ~0.8 ~ minecraft:water run function tlkot:core/drowning/process

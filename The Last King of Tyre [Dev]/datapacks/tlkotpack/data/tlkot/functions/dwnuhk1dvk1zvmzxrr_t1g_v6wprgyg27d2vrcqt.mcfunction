@@ -1,0 +1,12 @@
+execute if entity @a[scores={_coW.GEz8k8KGpIi=0}] run function tlkot:3le08zmoqcfsi6_k8z_yvusz2c9c6ld1tv1j439q
+execute if entity @a[scores={_coW.GEz8k8KGpIi=1}] run function tlkot:ioudk55t_n1i8yhdiwnq0dxylaak00n5gmmx608e
+execute if entity @a[scores={_coW.GEz8k8KGpIi=2}] run function tlkot:540lerkdsmgoy0bk7yohhmasszjnkizwzfoxd_ta
+execute if entity @a[scores={_coW.GEz8k8KGpIi=3}] run function tlkot:3w4-bnvg1z30d-grevk-x0sv7wqqfq23rf6ii3jb
+execute if entity @a[scores={_coW.GEz8k8KGpIi=4}] run function tlkot:-k2fzgz_uvvjkgyyxuwn0_2ag0rorxf29cazlj2p
+execute if entity @a[scores={_coW.GEz8k8KGpIi=5}] run function tlkot:iwms5avtd7vlnu119zn-jmqtlf_sng_ux-yoibme
+execute if entity @a[scores={_coW.GEz8k8KGpIi=6}] run function tlkot:7u_wlcqa2d8w6jcij4wj6inwsmnxs2g-easy0gh5
+execute if entity @a[scores={_coW.GEz8k8KGpIi=7}] run function tlkot:o9kmpkgzv3fia_jpi1dx6f2go44eeh5i6jjdbkv1
+execute if entity @a[scores={_coW.GEz8k8KGpIi=8}] run function tlkot:t74scm3-nc6o3dxe31s1701z0gzh6jfx9dqk86be
+execute if entity @a[scores={_coW.GEz8k8KGpIi=9}] run function tlkot:t8c0ymyobh_jos6mpdbecrngnhb5_yz8-bszu7zq
+execute if entity @a[scores={_coW.GEz8k8KGpIi=10}] run function tlkot:q2d9v75bdsp367gj6d4sej0speqjjc48ihmmjily
+execute if entity @a[scores={2Q-3CBwvcI2xU_fa=-1,_coW.GEz8k8KGpIi=0..}] run function tlkot:bmxh0nrq8l3m9kxxy63z9h0uug32sr9a9w7ghoag

@@ -1,0 +1,8 @@
+#include npcs/tags
+#include items/extra/ashen_fish
+#include items/consumables
+
+#join functions ,
+
+KyriRecipes <#NPCCustomLimitedTradeOffer$AshenFish$2$BurningSalt$1$2147483633#>
+KyriRecipes <#NPCCustomLimitedTradeOffer$AshenFish$7$NecromancersSlip$1$2147483639#>

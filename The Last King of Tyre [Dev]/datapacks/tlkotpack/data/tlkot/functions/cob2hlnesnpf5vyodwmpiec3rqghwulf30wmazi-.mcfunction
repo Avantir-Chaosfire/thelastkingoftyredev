@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={16Ubn76t+IUTS2SG=-1}] 16Ubn76t+IUTS2SG 113
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Stay strong, and do not waver in your path, for nothing matters more than life.", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Stay strong, and do not waver in your path, for nothing matters more than life.", "color": "white", "italic": true}

@@ -1,0 +1,2 @@
+execute as @e[type=vex,tag=!r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b] at @s run function tlkot:r_mfjfly1o4ak0p2x95p0pre9b3x7mwslw81b6z_
+execute as @e[tag=Tbefm3fv8Ip2gszDytO_VWK4O_gNw.EvH35aF_fQ,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:2wln6zw14k05kzztdfzvcpo-6e-yozaeo_7li_07

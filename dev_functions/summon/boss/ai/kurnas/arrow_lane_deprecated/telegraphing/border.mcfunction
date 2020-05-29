@@ -1,0 +1,1 @@
+execute align xz positioned ~ ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"{\"text\":\"Arrow Lane Border\"}",Marker:1b,NoGravity:1b,Invisible:1b,Tags:["Versioned","SetVersion","BossMarker"]}

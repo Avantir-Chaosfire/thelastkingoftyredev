@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:leather_boots",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Assassin's Boots\\\",\\\"color\\\":\\\"dark_red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The Queen of New Hoiro,\",\"color\":\"gray\"}','{\"text\":\"assassinated for an evil she didn\\'t\",\"color\":\"gray\"}','{\"text\":\"commit and before she had a chance\",\"color\":\"gray\"}','{\"text\":\"to help. Better perhaps than the\",\"color\":\"gray\"}','{\"text\":\"King who committed evil and chose\",\"color\":\"gray\"}','{\"text\":\"not to help.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}','{\"text\":\"+4% Damage Dealt\",\"color\":\"gray\"}','{\"text\":\"-1 Max Health\",\"color\":\"gray\"}'],color:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.04,Operation:1,UUIDLeast:2128013790,UUIDMost:756178549,Slot:\"feet\"},{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-1,Operation:0,UUIDLeast:1649991224,UUIDMost:-863915970,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUIDLeast:-1540532953,UUIDMost:-1120348422,Slot:\"feet\"}],Unbreakable:1b,HideFlags:6}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

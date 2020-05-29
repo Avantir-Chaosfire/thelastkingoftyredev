@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={DaluriTalk=<#DaluriEvangelistsID#>..}] DaluriLine 0

@@ -1,0 +1,2 @@
+execute if entity @a[scores={VectorY=..217}] run function tlkot:core/boss/warden_ylsa_and_the_false_reaper/ai/stage/0/enter
+execute if entity @a[scores={VectorY=218..228}] run function tlkot:core/boss/warden_ylsa_and_the_false_reaper/ai/stage/2/enter

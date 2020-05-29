@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Private Room Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Key to a room rented out to a","color":"gray"}','{"text":"distinguished guest... A wealthy","color":"gray"}','{"text":"one, anyways.","color":"gray"}']}}

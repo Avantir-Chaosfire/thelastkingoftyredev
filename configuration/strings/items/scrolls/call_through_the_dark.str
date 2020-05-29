@@ -1,0 +1,45 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+CallThroughTheDarkScrollItemID fishing_rod
+CallThroughTheDarkScrollNameText Call Through the Dark Scroll, Class 4
+CallThroughTheDarkScrollNameColour dark_red
+CallThroughTheDarkScrollName <#ItemName$CallThroughTheDarkScrollNameText$CallThroughTheDarkScrollNameColour#>
+CallThroughTheDarkScrollDescription <#LoreLine$Call to the strange things that lurk#>
+CallThroughTheDarkScrollDescription <#LoreLine$in the dark, wherein lies a bridge,#>
+CallThroughTheDarkScrollDescription <#LoreLine$waiting for all to cross.#>
+
+CallThroughTheDarkScrollDataTag display:{Name:"<#CallThroughTheDarkScrollName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:10,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
+CallThroughTheDarkScroll <#Item$CallThroughTheDarkScrollItemID$CallThroughTheDarkScrollDataTag#>
+
+CallThroughTheDarkScrollActiveNameText <#CallThroughTheDarkScrollNameText#> (Active)
+CallThroughTheDarkScrollActiveName <#ItemName$CallThroughTheDarkScrollActiveNameText$CallThroughTheDarkScrollNameColour#>
+
+CallThroughTheDarkScrollActiveDataTag display:{Name:"<#CallThroughTheDarkScrollActiveName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:26,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
+CallThroughTheDarkScrollActive <#Item$CallThroughTheDarkScrollItemID$CallThroughTheDarkScrollActiveDataTag#>
+
+CallThroughTheDarkWill0Cost 1
+CallThroughTheDarkWill1Cost 1
+CallThroughTheDarkWill2Cost 1
+CallThroughTheDarkWill3Cost 1
+CallThroughTheDarkWill4Cost 1
+CallThroughTheDarkWill5Cost 1
+
+CallThroughTheDarkWill0Time 100
+CallThroughTheDarkWill1Time 100
+CallThroughTheDarkWill2Time 100
+CallThroughTheDarkWill3Time 100
+CallThroughTheDarkWill4Time 100
+CallThroughTheDarkWill5Time 100
+
+CallThroughTheDarkWill0TimeIncrease 0
+CallThroughTheDarkWill1TimeIncrease 0
+CallThroughTheDarkWill2TimeIncrease 0
+CallThroughTheDarkWill3TimeIncrease 0
+CallThroughTheDarkWill4TimeIncrease 0
+CallThroughTheDarkWill5TimeIncrease 0

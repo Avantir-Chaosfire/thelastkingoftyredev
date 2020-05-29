@@ -1,0 +1,4 @@
+execute if entity @a[tag=!A0FbWKBjZuYmsb31di.hD3PEbIT0ASsYZLGDk-oE,x=23,y=127,z=295,dx=11,dy=6,dz=10,scores={L+mDwe8JSzGqAc3P=1}] run function tlkot:51pay5snak38j7ubgsdvnm2jzfha4eswgfxohikc
+execute unless entity @a[x=13,y=117,z=285,dx=31,dy=26,dz=30,scores={L+mDwe8JSzGqAc3P=1}] run function tlkot:fnqm9nxowxkklsd23vj_evl_cke8y6aa5nzl3u30
+execute if entity @a[tag=!742Lh7iNkdd1CBbhwMO1AwD4nYsyX4XAdLIKTvUT,x=527,y=68,z=63,dx=10,dy=3,dz=5,scores={L+mDwe8JSzGqAc3P=1}] run function tlkot:bmjl82jqv6ttz2wveb5davxy2wc9qgj4jnbxq5ec
+execute unless entity @a[x=517,y=58,z=53,dx=30,dy=23,dz=25,scores={L+mDwe8JSzGqAc3P=1}] run function tlkot:b9c84l4ueebuewku7z9fpxouoq724rkhdv6joti8

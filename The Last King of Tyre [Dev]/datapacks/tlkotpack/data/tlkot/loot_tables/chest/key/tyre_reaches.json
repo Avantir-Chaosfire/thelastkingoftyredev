@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Tyre Reaches Key\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The surface portions of Tyre were\",\"color\":\"gray\"}','{\"text\":\"largely abandoned even before the\",\"color\":\"gray\"}','{\"text\":\"second reaping, owing to the\",\"color\":\"gray\"}','{\"text\":\"dangerous nature of the cavern and\",\"color\":\"gray\"}','{\"text\":\"the comfortable heat below ground.\",\"color\":\"gray\"}','{\"text\":\"Come reaping time, it turned into a\",\"color\":\"gray\"}','{\"text\":\"bottleneck for refugees.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

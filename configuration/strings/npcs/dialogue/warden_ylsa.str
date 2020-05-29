@@ -1,0 +1,91 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+WardenYlsaColour yellow
+WardenYlsaLocation 48.5 222 309.5
+
+WardenYlsaUnusedLines		0	$ 78	$ Challenging this creature won't go well for you. $
+WardenYlsaUnusedLines		1	$ 83	$ Look into its eyes, do you not see the void of a reaper? $
+WardenYlsaUnusedLines		2	$ 89	$ It was lost, without strength or purpose until I found it. $
+WardenYlsaUnusedLines		3	$ 92	$ I am this reaper's Warden, and with my help it will never fall. $
+WardenYlsaUnusedLines		4	$ 89	$ Young one, do you not see that you cannot follow this path? $
+
+WardenYlsaInitialSilenceID 1
+WardenYlsaPostPurgeOneSilenceID 2
+WardenYlsaPostPurgeTwoSilenceID 3
+WardenYlsaPostPurgeThreeSilenceID 4
+WardenYlsaPostDestroyOneSilenceID 5
+WardenYlsaPostDestroyTwoSilenceID 6
+WardenYlsaPostSurvivorsSilenceID 7
+WardenYlsaPostGenericOneSilenceID 8
+WardenYlsaPostGenericTwoSilenceID 9
+WardenYlsaPostGenericTwoSilenceLines
+
+WardenYlsaPurgeOneID 10
+WardenYlsaPurgeOneLines	0	$ 35	$ Oh, young one. $
+WardenYlsaPurgeOneLines	1	$ 66	$ Still trying to purge the land, are you? $
+WardenYlsaPurgeOneLines	2	$ 57	$ You must know better than that. $
+WardenYlsaPurgeOneLines	3	$ 65	$ The purge will only bring death to us. $
+
+WardenYlsaPurgeTwoID 11
+WardenYlsaPurgeTwoLines	0	$ 39	$ Why do you fight? $
+WardenYlsaPurgeTwoLines	1	$ 99	$ You have not researched, you know not the results of your actions. $
+WardenYlsaPurgeTwoLines	2	$ 99	$ The resonating crystals have been contaminated by the reapers. $
+WardenYlsaPurgeTwoLines	3	$ 78	$ Activating them now will only purge us, not them! $
+
+WardenYlsaPurgeThreeID 12
+WardenYlsaPurgeThreeLines	0	$ 54	$ How can you be so persistent? $
+WardenYlsaPurgeThreeLines	1	$ 84	$ So determined, so sure that you follow the right path? $
+WardenYlsaPurgeThreeLines	2	$ 81	$ All you've been told is lies, and you blindly listen. $
+WardenYlsaPurgeThreeLines	3	$ 80	$ You believe the first thing you're told, is that it? $
+
+WardenYlsaDestroyOneID 13
+WardenYlsaDestroyOneLines	0	$ 35	$ Oh, young one. $
+WardenYlsaDestroyOneLines	1	$ 77	$ You have already turned from purging the land. $
+WardenYlsaDestroyOneLines	2	$ 83	$ The only way forward now is to unleash the Devourer. $
+WardenYlsaDestroyOneLines	3	$ 56	$ Clean the slate, begin afresh. $
+WardenYlsaDestroyOneLines	4	$ 42	$ So why are you here? $
+
+WardenYlsaDestroyTwoID 14
+WardenYlsaDestroyTwoLines	0	$ 69	$ We need you to ring the Third Bell of Time. $
+WardenYlsaDestroyTwoLines	1	$ 53	$ Nothing else will suffice. $
+WardenYlsaDestroyTwoLines	2	$ 117	$ Destroying the resonating crystals is only a secondary goal, a safety measure. $
+WardenYlsaDestroyTwoLines	3	$ 105	$ I am blocked from reaching it, so shall it be that none may ever reach it. $
+
+WardenYlsaSurvivorsID 15
+WardenYlsaSurvivorsLines	0	$ 96	$ You have spoken to my friends, the Survivors of the Seven Lakes. $
+WardenYlsaSurvivorsLines	1	$ 81	$ If you will not listen to me, will you listen to them? $
+
+WardenYlsaGenericOneID 16
+WardenYlsaGenericOneLines	0	$ 68	$ Stop fighting us and think for youself! $
+WardenYlsaGenericOneLines	1	$ 51	$ You know this land is dead! $
+WardenYlsaGenericOneLines	2	$ 71	$ You know there is nothing left for us here! $
+WardenYlsaGenericOneLines	3	$ 51	$ Nothing left for any of us! $
+WardenYlsaGenericOneLines	4	$ 32	$ Now leave! $
+WardenYlsaGenericOneLines	5	$ 23	$ Go! $
+WardenYlsaGenericOneLines	6	$ 29	$ Move on! $
+WardenYlsaGenericOneLines	7	$ 47	$ Let us die... $
+WardenYlsaGenericOneLines	8	$ 53	$ And don't you ever look back. $
+
+WardenYlsaGenericTwoID 17
+WardenYlsaGenericTwoLines	0	$ 83	$ Everyone I've met wants to be saved from the reaping, $
+WardenYlsaGenericTwoLines	1	$ 86	$ Yet no one seems to really understand what that means! $
+WardenYlsaGenericTwoLines	2	$ 59	$ Not you, not my fellow survivors! $
+WardenYlsaGenericTwoLines	3	$ 98	$ It's not about surviving, you need to feel something... $
+WardenYlsaGenericTwoLines	4	$ 48	$ You need to really live! $
+WardenYlsaGenericTwoLines	5	$ 77	$ The only one who can do that for you is yourself. $
+WardenYlsaGenericTwoLines	6	$ 102	$ No amount of killing reapers or undead is ever going to change that. $
+
+WardenYlsaActionbarDiscussions purge_one	$ <#WardenYlsaPurgeOneID#>			$ PurgeOne
+WardenYlsaActionbarDiscussions purge_two	$ <#WardenYlsaPurgeTwoID#>			$ PurgeTwo
+WardenYlsaActionbarDiscussions purge_three	$ <#WardenYlsaPurgeThreeID#>			$ PurgeThree
+WardenYlsaActionbarDiscussions destroy_one	$ <#WardenYlsaDestroyOneID#>			$ DestroyOne
+WardenYlsaActionbarDiscussions destroy_two	$ <#WardenYlsaDestroyTwoID#>			$ DestroyTwo
+WardenYlsaActionbarDiscussions survivors	$ <#WardenYlsaSurvivorsID#>			$ Survivors
+WardenYlsaActionbarDiscussions generic_one	$ <#WardenYlsaGenericOneID#>			$ GenericOne
+WardenYlsaActionbarDiscussions generic_two	$ <#WardenYlsaGenericTwoID#>			$ GenericTwo
+WardenYlsaActionbarDiscussions final_silence	$ <#WardenYlsaPostGenericTwoSilenceID#>	$ PostGenericTwoSilence
+
+WardenYlsaChatLogDiscussions

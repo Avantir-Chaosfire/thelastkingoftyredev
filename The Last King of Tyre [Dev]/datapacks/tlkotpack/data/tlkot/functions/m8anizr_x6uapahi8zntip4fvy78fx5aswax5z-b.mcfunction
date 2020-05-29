@@ -1,0 +1,15 @@
+function tlkot:q62k7rp7lorke490rj6wfdjm2s2-8nyfxqhhdyt8
+function tlkot:a1gao9fs3m7i07wvngulto-z2ep5ckt53z85cy75
+function tlkot:88bq3dkzv_1ek0sixc66-w1h47xsog5pegh7gcuo
+function tlkot:8phmxe1q2qjm0j_p-5f8b3pmwy_7xbk0485bvx8p
+function tlkot:5eaahj7m1jex30srj2oeebo78o917d762zhn7nvr
+function tlkot:7rs3da4mqd3g6aap3r-vhkt-06juyygu8vjem71r
+function tlkot:4gjgqzy1xuliqprzmiebu6utf66ga9vo0gw4tqa9
+function tlkot:huc91g6u-zpw_vjq5mk2ey--3wnoh8gqdsi3cere
+function tlkot:pg0_3c_yoyjgipc0h0meglgyycopi7px6uyrw54v
+function tlkot:fsp53kt19j9v_r99aih5q47g29mza751vb_h59y8
+setblock -888 33 -712 minecraft:air replace
+gamerule maxCommandChainLength 32000000
+title @a reset
+advancement revoke @a everything
+scoreboard players operation @a 2fBUeLTktKiUS5u6 = @e[tag=z2zJqPOTdsMZsf4QvcCrvBnR-Rx2UtDr_I7Kyh.l] 2fBUeLTktKiUS5u6

@@ -1,0 +1,1 @@
+function tlkot:utility/summon_enemy/reaper/hunter/fire/no_helmet/main

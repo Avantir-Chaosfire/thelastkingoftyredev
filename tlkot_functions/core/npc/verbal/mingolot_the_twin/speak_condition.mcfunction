@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={MingolotTalk=<#MingolotInfestedID#>..}] MingolotLine 0

@@ -1,0 +1,1 @@
+execute if block -32 255 176 minecraft:air run function tlkot:core/local_event/gate/lever/upper_ixinik_path/loaded

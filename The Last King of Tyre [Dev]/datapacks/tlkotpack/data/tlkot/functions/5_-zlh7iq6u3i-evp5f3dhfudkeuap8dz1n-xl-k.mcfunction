@@ -1,0 +1,12 @@
+execute if block ~-0.6 ~ ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~-0.6 ~ ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~ ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~ ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~-0.6 ~0.9 ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~-0.6 ~0.9 ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~0.9 ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~0.9 ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~-0.6 ~1.8 ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~-0.6 ~1.8 ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~1.8 ~-0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2
+execute if block ~0.6 ~1.8 ~0.6 #tlkot:illegal_spawn run tag @a add Sfg8fGbqyQwUo9D42441Y17sGcEs6LjELjCNrmE2

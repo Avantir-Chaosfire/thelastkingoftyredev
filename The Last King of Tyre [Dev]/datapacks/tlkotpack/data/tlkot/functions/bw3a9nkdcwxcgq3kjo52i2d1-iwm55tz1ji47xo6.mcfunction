@@ -1,0 +1,1 @@
+tellraw @a {"text": "You chose to listen to them.", "color": "gray", "italic": true}

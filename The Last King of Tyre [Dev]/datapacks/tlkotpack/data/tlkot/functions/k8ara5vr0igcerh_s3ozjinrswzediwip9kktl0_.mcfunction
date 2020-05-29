@@ -1,0 +1,3 @@
+scoreboard players set @a +Nl1uwuz0GnH7Kmf 124
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "We had... a disagreement, about whether we should wait for salvation, or pursue further answers there.", "color": "red", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "We had... a disagreement, about whether we should wait for salvation, or pursue further answers there.", "color": "white", "italic": true}

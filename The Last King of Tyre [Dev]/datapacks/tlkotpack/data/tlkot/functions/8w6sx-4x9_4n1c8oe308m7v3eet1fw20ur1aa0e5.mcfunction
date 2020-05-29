@@ -1,0 +1,4 @@
+tag @a[scores={fL71fulxkF-LwJH5=-20,60d8Dwh6RvkH+i9o=..3}] add A8nXECfSty0OmIlgHPh.tqmg5POk+n1ZhQ7NS_jU
+execute unless entity @e[x=577,y=127,z=145,dx=47,dy=23,dz=37,tag=r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b,tag=!kJx_UVk9EvUhT-F833FsYvIm.fohyag-yKeDt_jD] unless entity @e[x=577,y=127,z=145,dx=47,dy=23,dz=37,type=armor_stand,name=UnloadedEnemy] unless entity @e[tag=kJx_UVk9EvUhT-F833FsYvIm.fohyag-yKeDt_jD,tag=sQjTTv6rGsTEy+TqKpRPrr1wKLppCrNiaJWw_Ax+] run tag @a add A8nXECfSty0OmIlgHPh.tqmg5POk+n1ZhQ7NS_jU
+execute if entity @a[tag=A8nXECfSty0OmIlgHPh.tqmg5POk+n1ZhQ7NS_jU] run function tlkot:vqbqpckw_w7nursmr3ouza2cbxwy7_j2e4jo91u0
+execute if entity @a[scores={60d8Dwh6RvkH+i9o=..3}] run function tlkot:ubxo-gaateyy281o6wbqzm394yxd6ofuyf99181a

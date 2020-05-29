@@ -1,0 +1,137 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+HunterHeadStaminaRegenerationDelayFloat 0.3
+HunterChestStaminaRegenerationDelayFloat 0.4
+HunterLegsStaminaRegenerationDelayFloat 0.3
+HunterFeetStaminaRegenerationDelayFloat 0.2
+
+HunterHeadStaminaRegenerationDelay <#!HunterHeadStaminaRegenerationDelayFloat 20 *#>
+HunterChestStaminaRegenerationDelay <#!HunterChestStaminaRegenerationDelayFloat 20 *#>
+HunterLegsStaminaRegenerationDelay <#!HunterLegsStaminaRegenerationDelayFloat 20 *#>
+HunterFeetStaminaRegenerationDelay <#!HunterFeetStaminaRegenerationDelayFloat 20 *#>
+
+HunterDescription <#LoreLine$Darmraug the Hunter, personal#>
+HunterDescription <#LoreLine$caster to the Last King of Tyre#>
+HunterDescription <#LoreLine$made a name for herself when she#>
+HunterDescription <#LoreLine$singlehandely slew a crew of pirate#>
+HunterDescription <#LoreLine$casters. She lost her life for the#>
+HunterDescription <#LoreLine$duty she always risked it for, much#>
+HunterDescription <#LoreLine$unlike the King she served.#>
+HunterDescription <#StatsLine#>
+
+HunterHeadItemID leather_helmet
+HunterHeadNameText The Hunter's Cap
+HunterHeadNameColour dark_purple
+HunterHeadName <#ItemName$HunterHeadNameText$HunterHeadNameColour#>
+HunterHeadDescription <#HunterDescription#>
+HunterHeadStats <#LoreLine$<#ProjectileResistance#>#>
+HunterHeadStats <#LoreLine$<#FireResistance#>#>
+HunterHeadStats <#LoreLine$<#ExplosionResistance#>#>
+HunterHeadStats <#LoreLine$+<#Time$<#HunterHeadStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
+HunterHeadDisplayTags color:10448837
+HunterHeadTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,UUIDLeast:-817753341,UUIDMost:-675176780,Slot:"head"}]
+
+HunterHeadDataTag display:{Name:"<#HunterHeadName#>",Lore:[<#HunterHeadDescription#>,<#HunterHeadStats#>],<#HunterHeadDisplayTags#>},<#HunterHeadTags#>
+HunterHead <#Item$HunterHeadItemID$HunterHeadDataTag#>
+
+HunterChestItemID leather_chestplate
+HunterChestNameText The Hunter's Garb
+HunterChestNameColour dark_purple
+HunterChestName <#ItemName$HunterChestNameText$HunterChestNameColour#>
+HunterChestDescription <#HunterDescription#>
+HunterChestStats <#LoreLine$<#ProjectileResistance#>#>
+HunterChestStats <#LoreLine$<#FireResistance#>#>
+HunterChestStats <#LoreLine$<#ExplosionResistance#>#>
+HunterChestStats <#LoreLine$+<#Time$<#HunterChestStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
+HunterChestDisplayTags color:10448837
+HunterChestTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:3},{id:"minecraft:fire_protection",lvl:3},{id:"minecraft:blast_protection",lvl:3}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,UUIDLeast:1295816970,UUIDMost:-905964403,Slot:"chest"}],Damage:0
+
+HunterChestDataTag display:{Name:"<#HunterChestName#>",Lore:[<#HunterChestDescription#>,<#HunterChestStats#>],<#HunterChestDisplayTags#>},<#HunterChestTags#>
+HunterChest <#Item$HunterChestItemID$HunterChestDataTag#>
+
+HunterLegsItemID leather_leggings
+HunterLegsNameText The Hunter's Trousers
+HunterLegsNameColour dark_purple
+HunterLegsName <#ItemName$HunterLegsNameText$HunterLegsNameColour#>
+HunterLegsDescription <#HunterDescription#>
+HunterLegsStats <#LoreLine$<#ProjectileResistance#>#>
+HunterLegsStats <#LoreLine$<#FireResistance#>#>
+HunterLegsStats <#LoreLine$<#ExplosionResistance#>#>
+HunterLegsStats <#LoreLine$+<#Time$<#HunterLegsStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
+HunterLegsDisplayTags color:10448837
+HunterLegsTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:2},{id:"minecraft:fire_protection",lvl:2},{id:"minecraft:blast_protection",lvl:2}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,UUIDLeast:-902245154,UUIDMost:-279223414,Slot:"legs"}]
+
+HunterLegsDataTag display:{Name:"<#HunterLegsName#>",Lore:[<#HunterLegsDescription#>,<#HunterLegsStats#>],<#HunterLegsDisplayTags#>},<#HunterLegsTags#>
+HunterLegs <#Item$HunterLegsItemID$HunterLegsDataTag#>
+
+HunterFeetItemID leather_boots
+HunterFeetNameText The Hunter's Boots
+HunterFeetNameColour dark_purple
+HunterFeetName <#ItemName$HunterFeetNameText$HunterFeetNameColour#>
+HunterFeetDescription <#HunterDescription#>
+HunterFeetStats <#LoreLine$<#ProjectileResistance#>#>
+HunterFeetStats <#LoreLine$<#FireResistance#>#>
+HunterFeetStats <#LoreLine$<#ExplosionResistance#>#>
+HunterFeetStats <#LoreLine$+<#Time$<#HunterFeetStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
+HunterFeetDisplayTags color:10448837
+HunterFeetTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,UUIDLeast:376944130,UUIDMost:-1962002737,Slot:"feet"}]
+
+HunterFeetDataTag display:{Name:"<#HunterFeetName#>",Lore:[<#HunterFeetDescription#>,<#HunterFeetStats#>],<#HunterFeetDisplayTags#>},<#HunterFeetTags#>
+HunterFeet <#Item$HunterFeetItemID$HunterFeetDataTag#>
+
+HunterActive1ChestItemID leather_chestplate
+HunterActive1ChestNameText Spacial Lapse Imprinted Hunter's Garb (Complete)
+HunterActive1ChestNameColour <#HunterChestNameColour#>
+HunterActive1ChestName <#ItemName$HunterActive1ChestNameText$HunterActive1ChestNameColour#>
+HunterActive1ChestDescription <#HunterChestDescription#>
+HunterActive1ChestStats <#HunterChestStats#>
+HunterActive1ChestStats <#LoreLine$<#SpacialLapseImprint#>#>
+HunterActive1ChestDisplayTags <#HunterChestDisplayTags#>
+HunterActive1ChestTags <#HunterChestTags#>
+
+HunterActive1ChestDataTag display:{Name:"<#HunterActive1ChestName#>",Lore:[<#HunterActive1ChestDescription#>,<#HunterActive1ChestStats#>],<#HunterActive1ChestDisplayTags#>},<#HunterActive1ChestTags#>
+HunterActive1Chest <#Item$HunterActive1ChestItemID$HunterActive1ChestDataTag#>
+
+HunterInactive1ChestItemID leather_chestplate
+HunterInactive1ChestNameText Spacial Lapse Imprinted Hunter's Garb
+HunterInactive1ChestNameColour <#HunterChestNameColour#>
+HunterInactive1ChestName <#ItemName$HunterInactive1ChestNameText$HunterInactive1ChestNameColour#>
+HunterInactive1ChestDescription <#HunterChestDescription#>
+HunterInactive1ChestStats <#HunterChestStats#>
+HunterInactive1ChestStats <#LoreLine$(<#SpacialLapseImprint#>)#>
+HunterInactive1ChestDisplayTags <#HunterChestDisplayTags#>
+HunterInactive1ChestTags <#HunterChestTags#>
+
+HunterInactive1ChestDataTag display:{Name:"<#HunterInactive1ChestName#>",Lore:[<#HunterInactive1ChestDescription#>,<#HunterInactive1ChestStats#>],<#HunterInactive1ChestDisplayTags#>},<#HunterInactive1ChestTags#>
+HunterInactive1Chest <#Item$HunterInactive1ChestItemID$HunterInactive1ChestDataTag#>
+
+HunterActive2ChestItemID leather_chestplate
+HunterActive2ChestNameText Obscure Imprinted Hunter's Garb (Complete)
+HunterActive2ChestNameColour <#HunterChestNameColour#>
+HunterActive2ChestName <#ItemName$HunterActive2ChestNameText$HunterActive2ChestNameColour#>
+HunterActive2ChestDescription <#HunterChestDescription#>
+HunterActive2ChestStats <#HunterChestStats#>
+HunterActive2ChestStats <#LoreLine$<#ObscureImprint#>#>
+HunterActive2ChestDisplayTags <#HunterChestDisplayTags#>
+HunterActive2ChestTags <#HunterChestTags#>
+
+HunterActive2ChestDataTag display:{Name:"<#HunterActive2ChestName#>",Lore:[<#HunterActive2ChestDescription#>,<#HunterActive2ChestStats#>],<#HunterActive2ChestDisplayTags#>},<#HunterActive2ChestTags#>
+HunterActive2Chest <#Item$HunterActive2ChestItemID$HunterActive2ChestDataTag#>
+
+HunterInactive2ChestItemID leather_chestplate
+HunterInactive2ChestNameText Obscure Imprinted Hunter's Garb
+HunterInactive2ChestNameColour <#HunterChestNameColour#>
+HunterInactive2ChestName <#ItemName$HunterInactive2ChestNameText$HunterInactive2ChestNameColour#>
+HunterInactive2ChestDescription <#HunterChestDescription#>
+HunterInactive2ChestStats <#HunterChestStats#>
+HunterInactive2ChestStats <#LoreLine$(<#ObscureImprint#>)#>
+HunterInactive2ChestDisplayTags <#HunterChestDisplayTags#>
+HunterInactive2ChestTags <#HunterChestTags#>
+
+HunterInactive2ChestDataTag display:{Name:"<#HunterInactive2ChestName#>",Lore:[<#HunterInactive2ChestDescription#>,<#HunterInactive2ChestStats#>],<#HunterInactive2ChestDisplayTags#>},<#HunterInactive2ChestTags#>
+HunterInactive2Chest <#Item$HunterInactive2ChestItemID$HunterInactive2ChestDataTag#>

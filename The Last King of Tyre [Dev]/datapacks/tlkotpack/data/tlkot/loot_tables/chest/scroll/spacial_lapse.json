@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:fishing_rod",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Spacial Lapse Scroll, Class 4\\\",\\\"color\\\":\\\"dark_red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"What is done is done, and cannot be\",\"color\":\"gray\"}','{\"text\":\"undone, even if only in memory. Take\",\"color\":\"gray\"}','{\"text\":\"your past in stride.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Move to a Prior Location\",\"color\":\"gray\"}','{\"text\":\"Distance: 4s\",\"color\":\"gray\"}']},HoldingID:68,Unbreakable:1b,HideFlags:6,CustomModelData:22,AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:\"mainhand\"}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

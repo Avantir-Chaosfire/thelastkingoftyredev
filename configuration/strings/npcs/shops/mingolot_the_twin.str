@@ -1,0 +1,19 @@
+#include npcs/tags
+#include items/weapons/mace
+#include items/weapons/rapier
+#include items/weapons/black_oak_staff
+#include items/weapons/battle_axe
+#include items/weapons/greatsword
+#include items/weapons/great_hammer
+#include items/weapons/black_oak_bow
+#include items/materials
+
+#join functions ,
+
+MingolotRecipes <#NPCUpgradeTradeOffer$BaseMace$SteelGuard$SteadyMace#>
+MingolotRecipes <#NPCUpgradeTradeOffer$BaseRapier$SteelGuard$GuardedRapier#>
+MingolotRecipes <#NPCUpgradeTradeOffer$Base1HBlackOakStaff$SteelGuard$Steady1HBlackOakStaff#>
+MingolotRecipes <#NPCUpgradeTradeOffer$BaseBattleAxe$LeadWeight$HeavyBattleAxe#>
+MingolotRecipes <#NPCUpgradeTradeOffer$Base1HGreatsword$LeadWeight$Heavy1HGreatsword#>
+MingolotRecipes <#NPCUpgradeTradeOffer$Base1HGreatHammer$LeadWeight$Heavy1HGreatHammer#>
+MingolotRecipes <#NPCUpgradeTradeOffer$BaseBlackOakBow$LeadWeight$HeavyBlackOakBow#>

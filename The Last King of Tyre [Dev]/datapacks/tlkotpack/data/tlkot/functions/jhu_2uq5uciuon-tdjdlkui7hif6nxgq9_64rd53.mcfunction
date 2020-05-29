@@ -1,0 +1,2 @@
+tag @e[tag=RQB7Wxs85JOwuqgD9mPjOKYq_g1f6D7+yR0vmABe,distance=..1] add qSrAV2wY0r.31JJBed3ZQVqAtj70jpmhbgO3xjEg
+execute if entity @s[scores={O8_SaEwsXPZBUZv3=..0}] run particle minecraft:large_smoke ~ ~1 ~ 0.5 1 0.5 0 40

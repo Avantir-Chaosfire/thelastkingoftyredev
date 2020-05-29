@@ -1,0 +1,2 @@
+execute if entity @a[tag=MZs9-W2P2kQrzvov90cihM54Hc.ZkUescoP4Uo.+] run function tlkot:lbyq_wurkr708fiu0uop7l6c1i0a1rr1ypcnkpcu
+execute as @e[type=armor_stand,name=Kurnas-SuitOfArmour] at @s if score @s l8SPqN-Z7WTziHa4 < @a[limit=1] l8SPqN-Z7WTziHa4 run function tlkot:bmykzn_c1xemlomacrakosy1t1tyf4t01sk3iv-h

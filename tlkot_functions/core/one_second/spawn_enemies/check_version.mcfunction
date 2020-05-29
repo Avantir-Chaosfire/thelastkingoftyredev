@@ -1,0 +1,1 @@
+execute unless score @s Version = @a[limit=1] Version run function tlkot:core/one_second/spawn_enemies/outdated

@@ -1,0 +1,1 @@
+execute positioned ~-4.5 ~-4.5 ~-4.5 run function tlkot:<~>/trigger

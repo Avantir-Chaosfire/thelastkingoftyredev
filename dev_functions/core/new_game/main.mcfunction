@@ -1,0 +1,2 @@
+execute as @e[tag=NewGameVersioned] unless score @s NewGameVersion = @a[limit=1] NewGameVersion run function dev:<~>/outdated/main
+execute unless score @a[limit=1] NewGameVersion = @e[tag=Global,limit=1] NewGameVersion run function dev:<~>/reset

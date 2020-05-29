@@ -1,0 +1,2 @@
+tag @e[tag=jF6ECy6JMN9g8wr50gH1ye+p51TaJxt_woFpO2.J,distance=..3] add AccgiYMdPRGbI11QwhZpPBzwbQNA963qUrqvRoMV
+execute if entity @s[tag=!FUzGnU42+BocSv3aXWn_FI.lf2xGSeeXXDcqeui-] unless entity @e[tag=jF6ECy6JMN9g8wr50gH1ye+p51TaJxt_woFpO2.J,distance=..3] run function tlkot:lg9luqari3kn3oia-o7lla1sysn-2ra7ajxwv_r3

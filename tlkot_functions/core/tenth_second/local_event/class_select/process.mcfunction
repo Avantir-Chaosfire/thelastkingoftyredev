@@ -1,0 +1,2 @@
+execute if block -324 209 341 minecraft:spruce_button[powered=true] run function tlkot:core/tenth_second/local_event/class_select/berserker
+execute if block -324 209 337 minecraft:spruce_button[powered=true] run function tlkot:core/tenth_second/local_event/class_select/hunter

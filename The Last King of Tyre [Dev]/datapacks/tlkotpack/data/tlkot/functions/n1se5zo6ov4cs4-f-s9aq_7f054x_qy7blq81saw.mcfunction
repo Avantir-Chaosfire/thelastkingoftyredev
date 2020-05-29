@@ -1,0 +1,3 @@
+execute unless entity @e[tag=Kkc2d4YQ3Vf4bHrEhe6kr1E6+NrDl7a81Z1pbPmG] at @a[tag=!OVjdiE2.GBs+voJhtRbxjg3YdBFvY2pgQnHdOiga] at @e[tag=aQHzmWPW04ejD1BFNcTp7QqKZZe92ftKK3CU47FS,limit=1,sort=furthest] run function tlkot:oc_5_n978x6pf9dt1kmvktiet6sk123cufoo2gks
+execute as @e[tag=u5sOfIm6s7hOrUayYvYdT4S+d1ENAr.DtTIoDD9C] at @s run function tlkot:mg11ou4giywokia-zkj2midtosjl48vygoj8lad1
+execute as @e[tag=Kkc2d4YQ3Vf4bHrEhe6kr1E6+NrDl7a81Z1pbPmG] at @s run function tlkot:km7tjnb1wyclbaqjbhi7js-1_czjl2n4ktv1y5mx

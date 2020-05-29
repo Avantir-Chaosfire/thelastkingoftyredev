@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 108
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "You can get there along the path into the mountains, south of the lake between Ixinik and New Hoiro.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "You can get there along the path into the mountains, south of the lake between Ixinik and New Hoiro.", "color": "white", "italic": true}

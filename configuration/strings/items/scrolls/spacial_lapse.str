@@ -1,0 +1,59 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+SpacialLapseScrollItemID fishing_rod
+SpacialLapseScrollNameText Spacial Lapse Scroll, Class 4
+SpacialLapseScrollNameColour dark_red
+SpacialLapseScrollName <#ItemName$SpacialLapseScrollNameText$SpacialLapseScrollNameColour#>
+SpacialLapseScrollDescription <#LoreLine$What is done is done, and cannot be#>
+SpacialLapseScrollDescription <#LoreLine$undone, even if only in memory. Take#>
+SpacialLapseScrollDescription <#LoreLine$your past in stride.#>
+SpacialLapseScrollDescription <#StatsLine#>
+SpacialLapseScrollStats <#LoreLine$Move to a Prior Location#>
+SpacialLapseScrollStats <#LoreLine$Distance: <#Time$4#>#>
+
+SpacialLapseScrollDataTag display:{Name:"<#SpacialLapseScrollName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:22,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
+SpacialLapseScroll <#Item$SpacialLapseScrollItemID$SpacialLapseScrollDataTag#>
+
+SpacialLapseScrollActiveNameText <#SpacialLapseScrollNameText#> (Active)
+SpacialLapseScrollActiveName <#ItemName$SpacialLapseScrollActiveNameText$SpacialLapseScrollNameColour#>
+
+SpacialLapseScrollActiveDataTag display:{Name:"<#SpacialLapseScrollActiveName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:38,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
+SpacialLapseScrollActive <#Item$SpacialLapseScrollItemID$SpacialLapseScrollActiveDataTag#>
+
+TornSpacialLapseScrollItemID sugar_cane
+TornSpacialLapseScrollNameText Torn Spacial Lapse Scroll
+TornSpacialLapseScrollNameColour dark_purple
+TornSpacialLapseScrollName <#ItemName$TornSpacialLapseScrollNameText$TornSpacialLapseScrollNameColour#>
+TornSpacialLapseScrollDescription <#LoreLine$Torn; Unusable.#>
+
+TornSpacialLapseScrollDataTag display:{Name:"<#TornSpacialLapseScrollName#>",Lore:[<#TornSpacialLapseScrollDescription#>]},HoldingID:<#TornSpacialLapseScrollHoldingID#>
+TornSpacialLapseScroll <#Item$TornSpacialLapseScrollItemID$TornSpacialLapseScrollDataTag#>
+
+SpacialLapseTracker ‘Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["SpacialLapseTracker","New","Versioned","Killable"]‘
+
+SpacialLapseWill0Cost 4
+SpacialLapseWill1Cost 4
+SpacialLapseWill2Cost 3
+SpacialLapseWill3Cost 3
+SpacialLapseWill4Cost 2
+SpacialLapseWill5Cost 2
+
+SpacialLapseWill0Time 10
+SpacialLapseWill1Time 10
+SpacialLapseWill2Time 10
+SpacialLapseWill3Time 10
+SpacialLapseWill4Time 10
+SpacialLapseWill5Time 10
+
+SpacialLapseWill0TimeIncrease 0
+SpacialLapseWill1TimeIncrease 0
+SpacialLapseWill2TimeIncrease 0
+SpacialLapseWill3TimeIncrease 0
+SpacialLapseWill4TimeIncrease 0
+SpacialLapseWill5TimeIncrease 0

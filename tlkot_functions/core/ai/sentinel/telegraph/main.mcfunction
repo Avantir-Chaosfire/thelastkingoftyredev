@@ -1,0 +1,1 @@
+execute anchored eyes as @e[tag=SentinelTarget,distance=2..] facing entity @s eyes run function tlkot:<~>/1

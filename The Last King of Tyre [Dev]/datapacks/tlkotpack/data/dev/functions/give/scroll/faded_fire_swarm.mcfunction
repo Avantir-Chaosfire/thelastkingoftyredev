@@ -1,0 +1,1 @@
+give @s minecraft:ink_sac{display:{Name:"{\"text\":\"Faded Fire Swarm Scroll\",\"color\":\"dark_purple\",\"italic\":false}",Lore:['{"text":"The symbols have worn","color":"gray"}','{"text":"away; Unusable.","color":"gray"}']},HoldingID:94}

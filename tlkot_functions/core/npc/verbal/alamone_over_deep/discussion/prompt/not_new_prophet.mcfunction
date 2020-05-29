@@ -1,0 +1,1 @@
+execute unless entity @a[scores={AlamoneTalk=<#AlamoneBadGreetID#>..<#AlamoneWaryID#>}] unless entity @a[scores={AlamoneTalk=<#AlamoneAccusationID#>}] run function tlkot:<~>/comfortable

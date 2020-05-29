@@ -1,0 +1,1 @@
+execute if entity @a[scores={MainHandItemID=<#BurningIronHoldingID#>}] run function tlkot:core/weapon/burning_iron/holding

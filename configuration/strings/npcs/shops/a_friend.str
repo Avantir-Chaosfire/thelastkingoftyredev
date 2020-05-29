@@ -1,0 +1,25 @@
+#include npcs/tags
+#include items/consumables
+#include items/scrolls/blitz
+#include items/scrolls/spacial_lapse
+#include items/scrolls/enrage
+#include items/scrolls/death_pact
+#include items/accessories/shields/tower
+#include items/necessities
+#include items/weapons/battle_axe
+#include items/weapons/dagger
+
+#join functions ,
+
+AFriendRecipes <#NPCLimitedTradeOffer$HeadOfYearning$1$EmptyFlask$1#>
+AFriendRecipes <#NPCLimitedTradeOffer$HeadOfYearning$1$TowerShield$1#>
+
+AFriendBerserkerRecipes <#AFriendRecipes#>
+AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$26$Dagger$1#>
+AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$14$BlitzScroll$1#>
+AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$37$TornSpacialLapseScroll$1#>
+
+AFriendHunterRecipes <#AFriendRecipes#>
+AFriendHunterRecipes <#NPCLimitedTradeOffer$HeadOfYearning$26$BaseBattleAxe$1#>
+AFriendHunterRecipes <#NPCLimitedTradeOffer$HeadOfYearning$18$EnrageScroll$1#>
+AFriendHunterRecipes <#NPCLimitedTradeOffer$HeadOfYearning$37$CharredDeathPactScroll$1#>

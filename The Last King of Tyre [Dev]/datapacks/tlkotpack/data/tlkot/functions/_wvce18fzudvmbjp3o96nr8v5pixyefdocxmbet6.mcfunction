@@ -1,0 +1,1 @@
+execute if entity @a[distance=..2] run function tlkot:yjzcai081a1en9-0upt0qffo7fyh9gv81s7qeec5

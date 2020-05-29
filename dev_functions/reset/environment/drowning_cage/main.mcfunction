@@ -1,0 +1,1 @@
+execute as @e[tag=LastKingOfTyre] at @s run function dev:reset/environment/drowning_cage/trigger

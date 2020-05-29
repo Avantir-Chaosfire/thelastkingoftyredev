@@ -1,0 +1,1 @@
+scoreboard players add @a N8wby7c9_yLnuyZN 6

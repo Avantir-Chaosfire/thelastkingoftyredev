@@ -1,0 +1,1 @@
+execute if entity @a[distance=..16] run function tlkot:<~>/process

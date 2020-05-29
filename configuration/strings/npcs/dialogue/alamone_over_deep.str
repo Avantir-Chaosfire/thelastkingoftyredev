@@ -1,0 +1,135 @@
+#include npcs/tags
+#include npcs/shops/alamone_over_deep
+
+#join compendium <Newline>
+#join functions <Newline>
+
+AlamoneIDTag AlamoneOverDeep
+AlamoneBaseTags <#CommonNPCTags$taiga$fletcher#>,Tags:["<#AlamoneIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Alamone Over Deep\"}"
+
+AlamoneTags <#AlamoneBaseTags#>,Offers:{Recipes:[<#AlamoneRecipes#>]}
+AlamoneRefusalTags <#AlamoneBaseTags#>
+AlamoneExpensiveTags <#AlamoneBaseTags#>,Offers:{Recipes:[<#AlamoneExpensiveRecipes#>]}
+
+AlamoneColour aqua
+AlamoneLocation 276.186 133 24.191
+AlamoneEngageRadius 6] if entity @a[x=266,y=132,z=22,dx=12,dy=6,dz=9
+AlamoneDisengageRadius 13
+
+AlamoneMeetID 0
+AlamoneMeetLines		0	$ 30	$ Ho, there! $
+AlamoneMeetLines		1	$ 60	$ You're not a- Well, uh, I guess you are? $
+AlamoneMeetLines		2	$ 69	$ You're not yearning for my faith anyways. $
+AlamoneMeetLines		3	$ 60	$ Name's Alamone, Alamone Over Deep. $
+AlamoneMeetLines		4	$ 110	$ See I figure I'm the last normal person up here, so how better to call myself? $
+AlamoneMeetLines		5	$ 74	$ Anyways, I've got some gear, want to take a look? $
+
+AlamoneGoodGreetID 1
+AlamoneGoodGreetLines		0	$ 36	$ Ah, you're back! $
+AlamoneGoodGreetLines		1	$ 53	$ Looking to make a purchase? $
+
+AlamoneBadGreetID 2
+AlamoneBadGreetLines		0	$ 26	$ Oh ho! $
+AlamoneBadGreetLines		1	$ 63	$ Look who's showing their face about! $
+AlamoneBadGreetLines		2	$ 50	$ Back for more trouble, hm? $
+
+AlamoneUncomfortableID 3
+AlamoneUncomfortableLines	0	$ 35	$ Uh- excuse me. $
+AlamoneUncomfortableLines	1	$ 59	$ That's the line you just crossed. $
+AlamoneUncomfortableLines	2	$ 78	$ Get back on the other side of the counter, please. $
+
+AlamoneIntrusionID 4
+AlamoneIntrusionLines		0	$ 24	$ HEY! $
+AlamoneIntrusionLines		1	$ 39	$ Get out of there! $
+AlamoneIntrusionLines		2	$ 38	$ That's my stuff! $
+
+AlamoneWaryID 5
+AlamoneWaryLines		0	$ 86	$ Why you gotta force entry into other people's rooms, hm? $
+AlamoneWaryLines		1	$ 33	$ Well, scram! $
+AlamoneWaryLines		2	$ 68	$ And you best not have touched anything! $
+
+AlamonePardonID 6
+AlamonePardonLines		0	$ 39	$ Hrm... $
+AlamonePardonLines		1	$ 59	$ Seems you didn't touch anything. $
+AlamonePardonLines		2	$ 68	$ Don't make me suspect you again, you hear? $
+
+AlamoneAccusationID 7
+AlamoneAccusationLines		0	$ 27	$ Thief! $
+AlamoneAccusationLines		1	$ 57	$ What the hell is wrong with you? $
+AlamoneAccusationLines		2	$ 89	$ And what, you think you're just gonna show up to shop again? $
+AlamoneAccusationLines		3	$ 23	$ Ha! $
+AlamoneAccusationLines		4	$ 122	$ If you want to legitimately buy my stuff, you better be willing to pay for your crime! $
+
+AlamoneUndeadRuleID 8
+AlamoneUndeadRuleLines		0	$ 59	$ Agh, those undead monsters... $
+AlamoneUndeadRuleLines		1	$ 79	$ Used to be that undead were only told of in history and war stories. $
+AlamoneUndeadRuleLines		2	$ 66	$ Never saw any myself, none of us did, not until HE came. $
+AlamoneUndeadRuleLines		3	$ 92	$ Most people fled this area when the siege ended, so not many reapers came this way. $
+AlamoneUndeadRuleLines		4	$ 84	$ Then, amidst the hiding and skirmishing on the streets... $
+AlamoneUndeadRuleLines		5	$ 57	$ Well, anyways, he gave us reason to hate him. $
+AlamoneUndeadRuleLines		6	$ 82	$ Many people I knew died, a few became reapers, but most... $
+AlamoneUndeadRuleLines		7	$ 38	$ Most of them, he broke. $
+AlamoneUndeadRuleLines		8	$ 67	$ I'm not hiding in here from reapers, they don't scare me. $
+AlamoneUndeadRuleLines		9	$ 47	$ I've held out this long, haven't I? $
+AlamoneUndeadRuleLines		10	$ 39	$ They'll never get to me. $
+AlamoneUndeadRuleLines		11	$ 79	$ But... It's a bit different when it's your old friends. $
+AlamoneUndeadRuleLines		12	$ 103	$ Sometimes the screaming in the distance makes me regret living... Surviving. $
+AlamoneUndeadRuleLines		13	$ 32	$ But I can't die. $
+AlamoneUndeadRuleLines		14	$ 77	$ Too many lost or dead for us, for me to get this far... $
+AlamoneUndeadRuleLines		15	$ 27	$ I can't- It- $
+AlamoneUndeadRuleLines		16	$ 37	$ It wasn't all in vain. $
+
+AlamoneDepthsID 9
+AlamoneDepthsLines		0	$ 100	$ Years ago, before my time, some people in Ixinik weren't happy with the way things were done. $
+AlamoneDepthsLines		1	$ 71	$ They started a revolution, lost, and got exiled down below. $
+AlamoneDepthsLines		2	$ 103	$ Since then, people've found a fair few revolutionaries hiding in our midst, waiting, plotting. $
+AlamoneDepthsLines		3	$ 79	$ They all get shipped down to the depths, where they rightly belong. $
+AlamoneDepthsLines		4	$ 83	$ Pay no attention to such filth, unless they try and eat you or something. $
+AlamoneDepthsLines		5	$ 79	$ They're probably the cause of this whole reaping... $
+AlamoneDepthsLines		6	$ 51	$ We should've just hung the whole lot. $
+
+AlamoneAnythingElseID 10
+AlamoneAnythingElseLines	0	$ 22	$ Oh! $
+AlamoneAnythingElseLines	1	$ 36	$ Yes, glad you asked. $
+AlamoneAnythingElseLines	2	$ 114	$ Awhile back... Well, yesterday, but that's not a very helpful measure of time... $
+AlamoneAnythingElseLines	3	$ 72	$ A man came through here, called himself Gjeldar the 'Cursed'. $
+AlamoneAnythingElseLines	4	$ 86	$ Cursed with what beats me, but even if a warrior, he's still just a normal man. $
+AlamoneAnythingElseLines	5	$ 54	$ Not like, um, well... Sorry. $
+AlamoneAnythingElseLines	6	$ 53	$ You'll keep an eye out for him, won't you? $
+AlamoneAnythingElseLines	7	$ 55	$ I fear death may have already found him. $
+
+AlamoneNewProphetID 11
+AlamoneNewProphetLines		0	$ 30	$ Ah, you're- $
+AlamoneNewProphetLines		1	$ 50	$ Wait, did you...? $
+AlamoneNewProphetLines		2	$ 35	$ ... $
+AlamoneNewProphetLines		3	$ 54	$ You can't fool me, §ltraitor§b§o. $
+AlamoneNewProphetLines		4	$ 29	$ GET OUT! $
+AlamoneNewProphetLines		5	$ 42	$ GET OUT OF MY HOUSE! $
+
+AlamoneSilenceID 12
+
+AlamoneActionbarDiscussions 	meet		$ <#AlamoneMeetID#>		$ Meet
+AlamoneActionbarDiscussions 	good_greet	$ <#AlamoneGoodGreetID#>	$ GoodGreet
+AlamoneActionbarDiscussions 	bad_greet	$ <#AlamoneBadGreetID#>	$ BadGreet
+AlamoneActionbarDiscussions 	uncomfortable	$ <#AlamoneUncomfortableID#>	$ Uncomfortable
+AlamoneActionbarDiscussions 	intrusion	$ <#AlamoneIntrusionID#>	$ Intrusion
+AlamoneActionbarDiscussions 	wary		$ <#AlamoneWaryID#>		$ Wary
+AlamoneActionbarDiscussions 	pardon		$ <#AlamonePardonID#>		$ Pardon
+AlamoneActionbarDiscussions 	accusation	$ <#AlamoneAccusationID#>	$ Accusation
+AlamoneActionbarDiscussions 	new_prophet	$ <#AlamoneNewProphetID#>	$ NewProphet
+
+AlamoneChatLogDiscussions 	undead_rule	$ <#AlamoneUndeadRuleID#>	$ UndeadRule
+AlamoneChatLogDiscussions 	depths		$ <#AlamoneDepthsID#>		$ Depths
+AlamoneChatLogDiscussions 	anything_else	$ <#AlamoneAnythingElseID#>	$ AnythingElse
+
+AlamoneDialoguePrompt {<#DialoguePromptOption$Alamone$AlamoneUndeadRule$Undead?#>,"extra":[{<#DialoguePromptOption$Alamone$AlamoneDepths$Depths?#>},{<#DialoguePromptOptionFinal$Alamone$AlamoneAnythingElse$Anything Else?#>}]}
+
+AlamoneUncomfortableArea x=274,y=133,z=20,dx=4,dy=5,dz=6
+AlamoneBackroomArea x=271,y=133,z=27,dx=7,dy=3,dz=3
+AlamoneWaryArea x=277,y=133,z=25,dx=0,dy=1,dz=0
+
+AlamoneStashLocation 0 $ 278 134 30
+AlamoneStashLocation 1 $ 277 134 30
+AlamoneStashLocation 2 $ 275 133 30
+AlamoneStashLocation 3 $ 271 133 28
+AlamoneStashLocation 4 $ 271 133 27

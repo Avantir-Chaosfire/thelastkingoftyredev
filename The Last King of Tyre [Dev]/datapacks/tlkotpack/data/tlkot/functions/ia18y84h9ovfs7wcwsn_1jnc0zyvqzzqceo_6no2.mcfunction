@@ -1,0 +1,2 @@
+scoreboard players set @a kmCdbjVGsDFmDE6v 210000
+function tlkot:nj5nkjs1h99aqfp_xjuj1jfmdw62z0za8l4_m2js

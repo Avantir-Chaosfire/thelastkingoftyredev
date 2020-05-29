@@ -1,0 +1,129 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+RaggedNameColour dark_gray
+RaggedDisplayTags color:5000268
+RaggedDescription <#LoreLine$The liches to the south turn undead#>
+RaggedDescription <#LoreLine$anyone and everyone they can, which#>
+RaggedDescription <#LoreLine$is not so different from Gesthiel the#>
+RaggedDescription <#LoreLine$Grey. The crucial distinction is of#>
+RaggedDescription <#LoreLine$motive, for liches bind souls for#>
+RaggedDescription <#LoreLine$abuse, whilst he sought a brighter#>
+RaggedDescription <#LoreLine$future, no matter the cost. The#>
+RaggedDescription <#LoreLine$future, it turns out, would hardly be#>
+RaggedDescription <#LoreLine$bright at all.#>
+RaggedDescription <#StatsLine#>
+
+RaggedHeadItemID leather_helmet
+RaggedHeadNameText Ragged Hood
+RaggedHeadNameColour <#RaggedNameColour#>
+RaggedHeadName <#ItemName$RaggedHeadNameText$RaggedHeadNameColour#>
+RaggedHeadDescription <#RaggedDescription#>
+RaggedHeadStats <#LoreLine$<#Armour#>: 1#>
+RaggedHeadStats <#LoreLine$<#Weight#>: 0.5#>
+RaggedHeadStats <#LoreLine$Blood Sigil Purges Blindness#>
+RaggedHeadDisplayTags <#RaggedDisplayTags#>
+RaggedHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:863408482,UUIDMost:1160332330,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+RaggedHeadDataTag display:{Name:"<#RaggedHeadName#>",Lore:[<#RaggedHeadDescription#>,<#RaggedHeadStats#>],<#RaggedHeadDisplayTags#>},<#RaggedHeadTags#>
+RaggedHead <#Item$RaggedHeadItemID$RaggedHeadDataTag#>
+
+RaggedChestItemID leather_chestplate
+RaggedChestNameText Ragged Garb
+RaggedChestNameColour <#RaggedNameColour#>
+RaggedChestName <#ItemName$RaggedChestNameText$RaggedChestNameColour#>
+RaggedChestDescription <#RaggedDescription#>
+RaggedChestStats <#LoreLine$<#Armour#>: 2#>
+RaggedChestStats <#LoreLine$<#Weight#>: 1.0#>
+RaggedChestStats <#LoreLine$Blood Sigil Purges Poison#>
+RaggedChestDisplayTags <#RaggedDisplayTags#>
+RaggedChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:875886536,UUIDMost:1501650845,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+
+RaggedChestDataTag display:{Name:"<#RaggedChestName#>",Lore:[<#RaggedChestDescription#>,<#RaggedChestStats#>],<#RaggedChestDisplayTags#>},<#RaggedChestTags#>
+RaggedChest <#Item$RaggedChestItemID$RaggedChestDataTag#>
+
+RaggedLegsItemID leather_leggings
+RaggedLegsNameText Ragged Trousers
+RaggedLegsNameColour <#RaggedNameColour#>
+RaggedLegsName <#ItemName$RaggedLegsNameText$RaggedLegsNameColour#>
+RaggedLegsDescription <#RaggedDescription#>
+RaggedLegsStats <#LoreLine$<#Armour#>: 2#>
+RaggedLegsStats <#LoreLine$<#Weight#>: 1.0#>
+RaggedLegsStats <#LoreLine$Blood Sigil Purges Slowness#>
+RaggedLegsDisplayTags <#RaggedDisplayTags#>
+RaggedLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:234552935,UUIDMost:-1705522591,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+RaggedLegsDataTag display:{Name:"<#RaggedLegsName#>",Lore:[<#RaggedLegsDescription#>,<#RaggedLegsStats#>],<#RaggedLegsDisplayTags#>},<#RaggedLegsTags#>
+RaggedLegs <#Item$RaggedLegsItemID$RaggedLegsDataTag#>
+
+RaggedFeetItemID leather_boots
+RaggedFeetNameText Ragged Boots
+RaggedFeetNameColour <#RaggedNameColour#>
+RaggedFeetName <#ItemName$RaggedFeetNameText$RaggedFeetNameColour#>
+RaggedFeetDescription <#RaggedDescription#>
+RaggedFeetStats <#LoreLine$<#Armour#>: 1#>
+RaggedFeetStats <#LoreLine$<#Weight#>: 0.5#>
+RaggedFeetStats <#LoreLine$Blood Sigil Purges Weakness#>
+RaggedFeetDisplayTags <#RaggedDisplayTags#>
+RaggedFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1620559971,UUIDMost:-1777166184,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+RaggedFeetDataTag display:{Name:"<#RaggedFeetName#>",Lore:[<#RaggedFeetDescription#>,<#RaggedFeetStats#>],<#RaggedFeetDisplayTags#>},<#RaggedFeetTags#>
+RaggedFeet <#Item$RaggedFeetItemID$RaggedFeetDataTag#>
+
+RaggedActive1ChestItemID leather_chestplate
+RaggedActive1ChestNameText Vapour Imprinted <#RaggedChestNameText#> (Complete)
+RaggedActive1ChestNameColour <#RaggedChestNameColour#>
+RaggedActive1ChestName <#ItemName$RaggedActive1ChestNameText$RaggedActive1ChestNameColour#>
+RaggedActive1ChestDescription <#RaggedChestDescription#>
+RaggedActive1ChestStats <#RaggedChestStats#>
+RaggedActive1ChestStats <#LoreLine$<#DecayImprint#>#>
+RaggedActive1ChestDisplayTags <#RaggedChestDisplayTags#>
+RaggedActive1ChestTags <#RaggedChestTags#>
+
+RaggedActive1ChestDataTag display:{Name:"<#RaggedActive1ChestName#>",Lore:[<#RaggedActive1ChestDescription#>,<#RaggedActive1ChestStats#>],<#RaggedActive1ChestDisplayTags#>},<#RaggedActive1ChestTags#>
+RaggedActive1Chest <#Item$RaggedActive1ChestItemID$RaggedActive1ChestDataTag#>
+
+RaggedInactive1ChestItemID leather_chestplate
+RaggedInactive1ChestNameText Vapour Imprinted <#RaggedChestNameText#>
+RaggedInactive1ChestNameColour <#RaggedChestNameColour#>
+RaggedInactive1ChestName <#ItemName$RaggedInactive1ChestNameText$RaggedInactive1ChestNameColour#>
+RaggedInactive1ChestDescription <#RaggedChestDescription#>
+RaggedInactive1ChestStats <#RaggedChestStats#>
+RaggedInactive1ChestStats <#LoreLine$(<#DecayImprint#>)#>
+RaggedInactive1ChestDisplayTags <#RaggedChestDisplayTags#>
+RaggedInactive1ChestTags <#RaggedChestTags#>
+
+RaggedInactive1ChestDataTag display:{Name:"<#RaggedInactive1ChestName#>",Lore:[<#RaggedInactive1ChestDescription#>,<#RaggedInactive1ChestStats#>],<#RaggedInactive1ChestDisplayTags#>},<#RaggedInactive1ChestTags#>
+RaggedInactive1Chest <#Item$RaggedInactive1ChestItemID$RaggedInactive1ChestDataTag#>
+
+RaggedActive2ChestItemID leather_chestplate
+RaggedActive2ChestNameText Decay Imprinted <#RaggedChestNameText#> (Complete)
+RaggedActive2ChestNameColour <#RaggedChestNameColour#>
+RaggedActive2ChestName <#ItemName$RaggedActive2ChestNameText$RaggedActive2ChestNameColour#>
+RaggedActive2ChestDescription <#RaggedChestDescription#>
+RaggedActive2ChestStats <#RaggedChestStats#>
+RaggedActive2ChestStats <#LoreLine$<#VapourImprint#>#>
+RaggedActive2ChestStats <#LoreLine$Damage: 31#>
+RaggedActive2ChestDisplayTags <#RaggedChestDisplayTags#>
+RaggedActive2ChestTags <#RaggedChestTags#>
+
+RaggedActive2ChestDataTag display:{Name:"<#RaggedActive2ChestName#>",Lore:[<#RaggedActive2ChestDescription#>,<#RaggedActive2ChestStats#>],<#RaggedActive2ChestDisplayTags#>},<#RaggedActive2ChestTags#>
+RaggedActive2Chest <#Item$RaggedActive2ChestItemID$RaggedActive2ChestDataTag#>
+
+RaggedInactive2ChestItemID leather_chestplate
+RaggedInactive2ChestNameText Decay Imprinted <#RaggedChestNameText#>
+RaggedInactive2ChestNameColour <#RaggedChestNameColour#>
+RaggedInactive2ChestName <#ItemName$RaggedInactive2ChestNameText$RaggedInactive2ChestNameColour#>
+RaggedInactive2ChestDescription <#RaggedChestDescription#>
+RaggedInactive2ChestStats <#RaggedChestStats#>
+RaggedInactive2ChestStats <#LoreLine$(<#VapourImprint#>)#>
+RaggedInactive2ChestStats <#LoreLine$Damage: 31#>
+RaggedInactive2ChestDisplayTags <#RaggedChestDisplayTags#>
+RaggedInactive2ChestTags <#RaggedChestTags#>
+
+RaggedInactive2ChestDataTag display:{Name:"<#RaggedInactive2ChestName#>",Lore:[<#RaggedInactive2ChestDescription#>,<#RaggedInactive2ChestStats#>],<#RaggedInactive2ChestDisplayTags#>},<#RaggedInactive2ChestTags#>
+RaggedInactive2Chest <#Item$RaggedInactive2ChestItemID$RaggedInactive2ChestDataTag#>

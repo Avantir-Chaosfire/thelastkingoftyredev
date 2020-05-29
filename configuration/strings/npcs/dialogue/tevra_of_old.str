@@ -1,0 +1,101 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+TevraIDTag TevraOfOld
+TevraTags <#CommonNPCTags$savanna$cleric#>,Tags:["<#TevraIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Tevra of Old\"}"
+
+TevraColour dark_aqua
+TevraLocation 398.93 147 65.886
+TevraEngageRadius 6] if entity @a[x=391,y=147,z=65,dx=13,dy=4,dz=7
+TevraDisengageRadius 13
+
+TevraFirstEncounterID 1
+TevraFirstEncounterLines	0	$ 53	$ Just remember... $
+TevraFirstEncounterLines	1	$ 72	$ Most of these people can't be saved anymore. $
+TevraFirstEncounterLines	2	$ 53	$ You're far too late for that. $
+
+TevraPostFirstEncounterSilenceID 2
+
+TevraHistoryID 3
+TevraHistoryLines		0	$ 51	$ Thank you for killing him. $
+TevraHistoryLines		1	$ 60	$ He... Well, I was his aunt. $
+TevraHistoryLines		2	$ 95	$ We lived down below, simple fishers in a settlement of exiles. $
+TevraHistoryLines		3	$ 60	$ Would you, uh, care to hear about it? $
+
+TevraHistoryAgainID 4
+TevraHistoryAgainLines		0	$ 53	$ Have you changed your mind? $
+
+TevraHistoryYesID 5
+TevraHistoryYesLines		0	$ 28	$ Thank you. $
+TevraHistoryYesLines		1	$ 35	$ ... $
+TevraHistoryYesLines		2	$ 57	$ I was born in the depths, grew up down there. $
+TevraHistoryYesLines		3	$ 71	$ I was told that in the beginning, there were many more of us, $
+TevraHistoryYesLines		4	$ 61	$ But nearly everyone starved in the beginning. $
+TevraHistoryYesLines		5	$ 66	$ Fishing provides little food in such a small space. $
+TevraHistoryYesLines		6	$ 49	$ Many people attempted to escape. $
+TevraHistoryYesLines		7	$ 83	$ The ways up to Ixinik were blocked, but there was always the Dreadwoods. $
+TevraHistoryYesLines		8	$ 89	$ It was a dark temptation that was always on everyone's mind, even when I grew up. $
+TevraHistoryYesLines		9	$ 53	$ But as far as I know, no one ever made it. $
+TevraHistoryYesLines		10	$ 24	$ We- We- $
+TevraHistoryYesLines		11	$ 95	$ We were even attacked by some of our own, who entered the Dreadwoods and came out with- $
+TevraHistoryYesLines		12	$ 57	$ With those §lthings§3§o stuck in their heads. $
+TevraHistoryYesLines		13	$ 35	$ ... $
+TevraHistoryYesLines		14	$ 42	$ Moses was my sister's son. $
+TevraHistoryYesLines		15	$ 81	$ He grew up just like we did, survived well enough, but... $
+TevraHistoryYesLines		16	$ 55	$ Have, uh, have you heard of the Subjugate? $
+TevraHistoryYesLines		17	$ 90	$ They're a group of casters who do research on casting, souls, reapers.. and undead. $
+TevraHistoryYesLines		18	$ 69	$ You know, 'With heavy hearts and broken eyes' and all that. $
+TevraHistoryYesLines		19	$ 103	$ They, well, they regularly performed strange experiments on people, including soul binding. $
+TevraHistoryYesLines		20	$ 66	$ They would take our friends, family... $
+TevraHistoryYesLines		21	$ 33	$ Haul them away. $
+TevraHistoryYesLines		22	$ 42	$ We'd never see them again. $
+TevraHistoryYesLines		23	$ 105	$ Except for, well, except for the times we resisted, they decided to provide some... $
+TevraHistoryYesLines		24	$ 55	$ Some... I... $
+TevraHistoryYesLines		25	$ 38	$ They crucified them. $
+TevraHistoryYesLines		26	$ 35	$ ... $
+TevraHistoryYesLines		27	$ 39	$ I'll never forget that. $
+TevraHistoryYesLines		28	$ 102	$ Never forget watching my sister die, seeing her decomposing body up there... $
+TevraHistoryYesLines		29	$ 47	$ Every day we woke to the stench. $
+TevraHistoryYesLines		30	$ 62	$ Every day it swayed in the wind... $
+TevraHistoryYesLines		31	$ 35	$ ... $
+TevraHistoryYesLines		32	$ 104	$ Once... One time when we resisted, Moses manged to steal a casting book from them. $
+TevraHistoryYesLines		33	$ 66	$ He taught himself to cast, he was going to fight them. $
+TevraHistoryYesLines		34	$ 78	$ Then we woke up one morning to his screams as they hauled him away. $
+TevraHistoryYesLines		35	$ 83	$ I never saw him again until he opened the depths and came down to meet us. $
+TevraHistoryYesLines		36	$ 71	$ By then we were already bound, already undead, and so was he. $
+TevraHistoryYesLines		37	$ 99	$ He told us how he used his limited knowledge of casting to escape the Subjugates' cavern, $
+TevraHistoryYesLines		38	$ 76	$ How he fled E'Siraph, how he made his way to Hoiro... $
+TevraHistoryYesLines		39	$ 58	$ And he told us, he §ltold§3§o us he met the Cocoon. $
+TevraHistoryYesLines		40	$ 94	$ Well, none of us believed him, but when he performed communion for us, we saw the truth. $
+TevraHistoryYesLines		41	$ 92	$ He made many of us evangelists, many of the same evangelists you see out there now. $
+TevraHistoryYesLines		42	$ 57	$ I, well, I pretended to lack the skill for it. $
+TevraHistoryYesLines		43	$ 50	$ So he kept me close, kept an eye on me. $
+TevraHistoryYesLines		44	$ 67	$ He didn't trust those who couldn't perform communion. $
+TevraHistoryYesLines		45	$ 64	$ And, well, that's what happened, until you showed up. $
+TevraHistoryYesLines		46	$ 50	$ He's no longer who he was as an exile. $
+TevraHistoryYesLines		47	$ 76	$ He lost his humanity in his time in prison, and in his time alone. $
+TevraHistoryYesLines		48	$ 86	$ You've saved many people's lives and sanity by killing him... $
+TevraHistoryYesLines		49	$ 86	$ But so many are already lost, so far beyond saving at the hands of any human. $
+TevraHistoryYesLines		50	$ 37	$ What have we become? $
+
+TevraHistoryNoID 6
+TevraHistoryNoLines		0	$ 28	$ I- I'm sorry. $
+
+TevraNewProphetID 7
+TevraNewProphetLines		0	$ 50	$ Glory to our New Prophet. $
+TevraNewProphetLines		1	$ 81	$ May you lead us ever closer to the Cocoon's embrace. $
+TevraNewProphetLines		2	$ 38	$ Glory, unto you. $
+
+TevraPostHistorySilenceID 8
+
+TevraActionbarDiscussions 	first_encounter	$ <#TevraFirstEncounterID#>	$ FirstEncounter
+TevraActionbarDiscussions 	history		$ <#TevraHistoryID#>		$ History
+TevraActionbarDiscussions 	history_again	$ <#TevraHistoryAgainID#>	$ HistoryAgain
+TevraActionbarDiscussions 	new_prophet	$ <#TevraNewProphetID#>	$ NewProphet
+
+TevraChatLogDiscussions 	history_yes	$ <#TevraHistoryYesID#>	$ HistoryYes
+TevraChatLogDiscussions 	history_no	$ <#TevraHistoryNoID#>		$ HistoryNo
+
+TevraYesNoDialoguePrompt {<#DialoguePromptOption$Tevra$TevraHistoryYes$Yes#>,"extra":[{<#DialoguePromptOptionFinal$Tevra$TevraHistoryNo$No#>}]}

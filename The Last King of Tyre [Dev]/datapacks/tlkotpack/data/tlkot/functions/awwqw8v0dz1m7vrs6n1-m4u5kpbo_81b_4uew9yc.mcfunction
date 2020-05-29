@@ -1,0 +1,5 @@
+execute if entity @a[scores={WQOcSQ-LGwqm9KNJ=0}] if block 704 149 307 #tlkot:great_head_of_yearning run function tlkot:312tglo1vjmj6kc5xjecdqv8_eeknihgcawnts4j
+execute if entity @a[scores={WQOcSQ-LGwqm9KNJ=1}] if block 704 149 309 #tlkot:great_head_of_yearning run function tlkot:wwp9hugjsfm_6yh-y6hlqysbj0zfdwd63pn8-23w
+execute if entity @a[scores={WQOcSQ-LGwqm9KNJ=2}] if block 704 149 311 #tlkot:great_head_of_yearning run function tlkot:6v159phus41xtltq8ta0bscvcu-zo0uo-hjpdber
+execute if entity @a[scores={WQOcSQ-LGwqm9KNJ=3}] if block 704 149 313 #tlkot:great_head_of_yearning run function tlkot:3005zihwtv4njhctt20mlg4d-3zxvmxklywb72vz
+execute if entity @a[scores={WQOcSQ-LGwqm9KNJ=4}] if block 704 149 315 #tlkot:great_head_of_yearning run function tlkot:4k3v3efx-ci8khu2_u8_moockpf9exelm3oij1sj

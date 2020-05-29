@@ -1,0 +1,97 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+ShadeCasterColour dark_purple
+ShadeCasterLocation 625.0 153 164.0
+ShadeCasterEngageRadius 41] if entity @a[x=585,y=124,z=146,dx=36,dy=26,dz=35
+ShadeCasterDisengageRadius 55
+
+ShadeCasterInitialSilenceID 1
+ShadeCasterPostFirstEncounterSilenceID 2
+ShadeCasterPostChallengeSilenceID 4
+ShadeCasterPostRoundOneVictorySilenceID 5
+ShadeCasterPostRoundTwoStartSilenceID 6
+ShadeCasterPostRoundTwoVictorySilenceID 7
+
+ShadeCasterLowShadeFirstEncounterID 10
+ShadeCasterLowShadeFirstEncounterLines	0	$ 23	$ Hm? $
+ShadeCasterLowShadeFirstEncounterLines	1	$ 38	$ Oh, hello there. $
+ShadeCasterLowShadeFirstEncounterLines	2	$ 47	$ Did you just wander in? $
+ShadeCasterLowShadeFirstEncounterLines	3	$ 56	$ Well, I'm sure you didn't mean to. $
+ShadeCasterLowShadeFirstEncounterLines	4	$ 36	$ You can go now. $
+ShadeCasterLowShadeFirstEncounterLines	5	$ 71	$ Be on your way, do your duty, be your own hero. $
+ShadeCasterLowShadeFirstEncounterLines	6	$ 30	$ Alright? $
+ShadeCasterLowShadeFirstEncounterLines	7	$ 35	$ ... $
+ShadeCasterLowShadeFirstEncounterLines	8	$ 62	$ Seriously, you don't want to be here. $
+
+ShadeCasterHighShadeFirstEncounterID 11
+ShadeCasterHighShadeFirstEncounterLines	0	$ 30	$ Ah, hello. $
+ShadeCasterHighShadeFirstEncounterLines	1	$ 86	$ You've been doing some truly fantastic work out there. $
+ShadeCasterHighShadeFirstEncounterLines	2	$ 42	$ Keep it up, won't you? $
+ShadeCasterHighShadeFirstEncounterLines	3	$ 35	$ ... $
+ShadeCasterHighShadeFirstEncounterLines	4	$ 36	$ You can go now. $
+
+ShadeCasterChallengeID 12
+ShadeCasterChallengeLines			0	$ 24	$ Hehe. $
+ShadeCasterChallengeLines			1	$ 53	$ It knows not know what may it provoke. $
+ShadeCasterChallengeLines			2	$ 56	$ Fool that it is, I'll show its place proper. $
+
+ShadeCasterRoundOneVictoryID 13
+ShadeCasterRoundOneVictoryLines		0	$ 32	$ Oh, its won. $
+ShadeCasterRoundOneVictoryLines		1	$ 78	$ Ah, woe is me, how could I be so foolish... $
+ShadeCasterRoundOneVictoryLines		2	$ 27	$ *cough* $
+ShadeCasterRoundOneVictoryLines		3	$ 83	$ Well, I suppose it needs some token of appreciation. $
+ShadeCasterRoundOneVictoryLines		4	$ 66	$ Can't have it roiling in self doubt now. $
+
+ShadeCasterVictoryReturnID 14
+ShadeCasterVictoryReturnLines			0	$ 32	$ Oh, really? $
+ShadeCasterVictoryReturnLines			1	$ 30	$ It again? $
+ShadeCasterVictoryReturnLines			2	$ 68	$ Its already won, what more could it want? $
+
+ShadeCasterFailureReturnID 15
+ShadeCasterFailureReturnLines			0	$ 30	$ It's back. $
+ShadeCasterFailureReturnLines			1	$ 56	$ What does it hope to gain here? $
+ShadeCasterFailureReturnLines			2	$ 62	$ Well perhaps I do know... $
+ShadeCasterFailureReturnLines			3	$ 42	$ But I doubt it does. $
+
+ShadeCasterRoundTwoStartID 16
+ShadeCasterRoundTwoStartLines			0	$ 26	$ Fine. $
+ShadeCasterRoundTwoStartLines			1	$ 38	$ It wants to die? $
+ShadeCasterRoundTwoStartLines			2	$ 32	$ Let it die! $
+
+ShadeCasterRoundTwoVictoryID 17
+ShadeCasterRoundTwoVictoryLines		0	$ 39	$ Ugh... $
+ShadeCasterRoundTwoVictoryLines		1	$ 44	$ Master... $
+ShadeCasterRoundTwoVictoryLines		2	$ 69	$ The beacon, your lighthouse... $
+ShadeCasterRoundTwoVictoryLines		3	$ 33	$ Has.. fallen. $
+ShadeCasterRoundTwoVictoryLines		4	$ 35	$ ... $
+ShadeCasterRoundTwoVictoryLines		5	$ 53	$ It, you, you fool... $
+ShadeCasterRoundTwoVictoryLines		6	$ 69	$ When the end comes, just know... $
+ShadeCasterRoundTwoVictoryLines		7	$ 96	$ You and your people brought this upon yourselves... $
+
+ShadeCasterChallengePromptID 20
+ShadeCasterChallengePromptLines
+
+ShadeCasterSilentChallengePromptID 21
+ShadeCasterSilentChallengePromptLines
+
+ShadeCasterSilentChallengePrompt2ID 22
+ShadeCasterSilentChallengePrompt2Lines
+
+ShadeCasterActionbarDiscussions	low_shade_first_encounter	$ <#ShadeCasterLowShadeFirstEncounterID#>	$ LowShadeFirstEncounter
+ShadeCasterActionbarDiscussions	high_shade_first_encounter	$ <#ShadeCasterHighShadeFirstEncounterID#>	$ HighShadeFirstEncounter
+ShadeCasterActionbarDiscussions	round_one_victory		$ <#ShadeCasterRoundOneVictoryID#>		$ RoundOneVictory
+ShadeCasterActionbarDiscussions	victory_return			$ <#ShadeCasterVictoryReturnID#>		$ VictoryReturn
+ShadeCasterActionbarDiscussions	failure_return			$ <#ShadeCasterFailureReturnID#>		$ FailureReturn
+ShadeCasterActionbarDiscussions	round_two_start			$ <#ShadeCasterRoundTwoStartID#>		$ RoundTwoStart
+ShadeCasterActionbarDiscussions	round_two_victory		$ <#ShadeCasterRoundTwoVictoryID#>		$ RoundTwoVictory
+ShadeCasterActionbarDiscussions	challenge_prompt		$ <#ShadeCasterChallengePromptID#>		$ ChallengePrompt
+ShadeCasterActionbarDiscussions	silent_challenge_prompt	$ <#ShadeCasterSilentChallengePromptID#>	$ SilentChallengePrompt
+ShadeCasterActionbarDiscussions	silent_challenge_prompt_2	$ <#ShadeCasterSilentChallengePrompt2ID#>	$ SilentChallengePrompt2
+
+ShadeCasterChatLogDiscussions		challenge			$ <#ShadeCasterChallengeID#>			$ Challenge
+
+ShadeCasterSilentChallengeDialoguePrompt {"text":"*Challenge*","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger ShadeCasterStart set 1"}}
+ShadeCasterChallengeDialoguePrompt {<#ActionPromptOptionFinal$ShadeCaster$ShadeCasterChallenge$Challenge#>}

@@ -1,0 +1,45 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:skeleton_skull"
+		},
+		"title":
+		{
+			"text": "The Heroes' Graves"
+		},
+		"description": "Unlock the Ashurian Tomb",
+		"frame": "task",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_heroes_graves":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": -7.0,
+						"min": -11.0
+					},
+					"y":
+					{
+						"max": 3.0,
+						"min": 1.0
+					},
+					"z":
+					{
+						"max": 94.0,
+						"min": 88.0
+					}
+				}
+			}
+		}
+	}
+}

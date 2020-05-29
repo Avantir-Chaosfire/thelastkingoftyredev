@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 42
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "And so too can you kill us.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "And so too can you kill us.", "color": "white", "italic": true}

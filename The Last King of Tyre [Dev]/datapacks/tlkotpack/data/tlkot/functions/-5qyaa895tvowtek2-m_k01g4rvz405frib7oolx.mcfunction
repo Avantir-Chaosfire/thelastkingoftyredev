@@ -1,0 +1,1 @@
+execute unless score @s McSrT25cr7sOSDAR = @a[limit=1] McSrT25cr7sOSDAR run function tlkot:koeb7uplhqwzrochnf7hrxg3x3y1p0ifbljmquf9

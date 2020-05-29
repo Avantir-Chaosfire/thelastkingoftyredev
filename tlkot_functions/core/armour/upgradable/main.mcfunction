@@ -1,0 +1,1 @@
+#class function tlkot:core/armour/upgradable/<0>/main

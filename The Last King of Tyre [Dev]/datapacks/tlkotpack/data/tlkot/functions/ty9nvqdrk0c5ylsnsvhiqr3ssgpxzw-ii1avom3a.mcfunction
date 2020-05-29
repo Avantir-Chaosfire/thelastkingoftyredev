@@ -1,0 +1,9 @@
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=1,.MIdEKFSIgEFqj42=0}] Tl8TCZteT5Hpi3Zi 10
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=2,.MIdEKFSIgEFqj42=0}] Tl8TCZteT5Hpi3Zi 11
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=3,.MIdEKFSIgEFqj42=0}] Tl8TCZteT5Hpi3Zi 12
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=1..4,.MIdEKFSIgEFqj42=1..}] Tl8TCZteT5Hpi3Zi 13
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=5}] Tl8TCZteT5Hpi3Zi 14
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=..6,FDr4vVXF.e_l+gMp=1..}] Tl8TCZteT5Hpi3Zi 15
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=..7}] Tl8TCZteT5Hpi3Zi 16
+scoreboard players set @a[scores={Tl8TCZteT5Hpi3Zi=8}] Tl8TCZteT5Hpi3Zi 17
+scoreboard players set @a tQyTp1XzVGwrPRH- 7

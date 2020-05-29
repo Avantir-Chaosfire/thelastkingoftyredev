@@ -1,0 +1,2 @@
+kill @s
+function tlkot:jm_j4bl3idvynd8er26nwzgei2-o3tyn41tfor38

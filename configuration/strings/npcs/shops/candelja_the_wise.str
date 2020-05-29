@@ -1,0 +1,14 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+CandeljaRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$PoisonArrow$2#>
+CandeljaRecipes <#NPCCustomLimitedTradeOffer$HeadOfYearning$8$DesiccatingCarapace$1$2147483642#>‘
+
+CandeljaExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$5$PoisonArrow$1#>
+
+CandeljaStash poison_arrow		$ PoisonArrow		$ 8
+CandeljaStash desiccating_carapace	$ DesiccatingCarapace	$ 1
+CandeljaStash head_of_yearning		$ HeadOfYearning	$ 7

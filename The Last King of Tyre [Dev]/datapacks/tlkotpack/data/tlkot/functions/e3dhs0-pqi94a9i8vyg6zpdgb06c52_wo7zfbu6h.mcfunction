@@ -1,0 +1,1 @@
+execute at @e[tag=L.tlckWafhIv9zgTMHlmVM6py+nOxEWOoKD2+JE9] positioned ~-4 ~-4 ~-4 as @e[tag=C.z9cdmQyKsx7-jT2uFL1Z7qbP1tK8FhX.SMZzLZ,dx=7,dy=7,dz=7] run data merge entity @s {Fire:60s}

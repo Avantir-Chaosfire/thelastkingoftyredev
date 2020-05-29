@@ -1,0 +1,2 @@
+execute if entity @s[tag=LdrDeapukvexfVO6.bYhJ7OZC3uKlBnYqcmDp-f.,scores={RzwIXk15WUYOQ3Uc=1..}] run function tlkot:6eg33o5yg8huszc97e_pjmscshxden2srv9hwmal
+scoreboard players set @s RzwIXk15WUYOQ3Uc 0

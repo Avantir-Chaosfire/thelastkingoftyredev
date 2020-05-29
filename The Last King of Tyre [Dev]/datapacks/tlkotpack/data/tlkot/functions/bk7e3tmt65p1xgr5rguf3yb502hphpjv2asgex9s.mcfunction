@@ -1,0 +1,1 @@
+tellraw @a {"text": "Hrmph, come to trade this time?", "color": "white", "italic": true}

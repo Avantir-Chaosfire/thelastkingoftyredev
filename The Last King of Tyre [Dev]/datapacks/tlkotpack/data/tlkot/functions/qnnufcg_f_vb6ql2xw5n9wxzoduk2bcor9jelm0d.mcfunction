@@ -1,0 +1,1 @@
+scoreboard players set @a NjB73iJ.dHxzzN45 2

@@ -1,0 +1,1 @@
+execute if entity @a[scores={MosesHealth=..<2>}] run function tlkot:core/boss/saviour_moses/ai/phases/primary/<1>/enter

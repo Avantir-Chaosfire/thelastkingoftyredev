@@ -1,0 +1,1 @@
+execute as @e[type=arrow,nbt={pickup:1b}] run data merge entity @s {damage:4.0d}

@@ -1,0 +1,133 @@
+#include item_template
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+ExileDefenderHeadStaminaRegenerationDelayFloat 0.1
+ExileDefenderChestStaminaRegenerationDelayFloat 0.15
+ExileDefenderLegsStaminaRegenerationDelayFloat 0.1
+ExileDefenderFeetStaminaRegenerationDelayFloat 0.05
+
+ExileDefenderHeadStaminaRegenerationDelay <#!ExileDefenderHeadStaminaRegenerationDelayFloat 1000 *#>
+ExileDefenderChestStaminaRegenerationDelay <#!ExileDefenderChestStaminaRegenerationDelayFloat 1000 *#>
+ExileDefenderLegsStaminaRegenerationDelay <#!ExileDefenderLegsStaminaRegenerationDelayFloat 1000 *#>
+ExileDefenderFeetStaminaRegenerationDelay <#!ExileDefenderFeetStaminaRegenerationDelayFloat 1000 *#>
+
+ExileDefenderDescription <#LoreLine$Armour of Edual Delarno, defender#>
+ExileDefenderDescription <#LoreLine$of the exiles. The first and last#>
+ExileDefenderDescription <#LoreLine$person to voluntarily join the exiles#>
+ExileDefenderDescription <#LoreLine$of Ixinik. He defended them from the#>
+ExileDefenderDescription <#LoreLine$Subjugate right to the end, but#>
+ExileDefenderDescription <#LoreLine$ultimately could not balance the#>
+ExileDefenderDescription <#LoreLine$world alone.#>
+ExileDefenderDescription <#StatsLine#>
+
+ExileDefenderHeadItemID leather_helmet
+ExileDefenderHeadNameText The 	Exile Defender's Mask
+ExileDefenderHeadNameColour dark_green
+ExileDefenderHeadName <#ItemName$ExileDefenderHeadNameText$ExileDefenderHeadNameColour#>
+ExileDefenderHeadDescription <#ExileDefenderDescription#>
+ExileDefenderHeadStats <#LoreLine$<#Armour#>: 1#>
+ExileDefenderHeadStats <#LoreLine$<#Weight#>: 0.5#>
+ExileDefenderHeadStats <#LoreLine$-<#Percent$<#!ExileDefenderHeadStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
+ExileDefenderHeadDisplayTags color:6192150
+ExileDefenderHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1365104443,UUIDMost:1619437511,Slot:"head"}],Unbreakable:1b,HideFlags:6
+
+ExileDefenderHeadDataTag display:{Name:"<#ExileDefenderHeadName#>",Lore:[<#ExileDefenderHeadDescription#>,<#ExileDefenderHeadStats#>],<#ExileDefenderHeadDisplayTags#>},<#ExileDefenderHeadTags#>
+ExileDefenderHead <#Item$ExileDefenderHeadItemID$ExileDefenderHeadDataTag#>
+
+ExileDefenderChestItemID leather_chestplate
+ExileDefenderChestNameText The Exile Defender's Tunic
+ExileDefenderChestNameColour dark_green
+ExileDefenderChestName <#ItemName$ExileDefenderChestNameText$ExileDefenderChestNameColour#>
+ExileDefenderChestDescription <#ExileDefenderDescription#>
+ExileDefenderChestStats <#LoreLine$<#Armour#>: 3#>
+ExileDefenderChestStats <#LoreLine$<#Weight#>: 1.5#>
+ExileDefenderChestStats <#LoreLine$-<#Percent$<#!ExileDefenderChestStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
+ExileDefenderChestDisplayTags color:6192150
+ExileDefenderChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:331128630,UUIDMost:242880359,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+
+ExileDefenderChestDataTag display:{Name:"<#ExileDefenderChestName#>",Lore:[<#ExileDefenderChestDescription#>,<#ExileDefenderChestStats#>],<#ExileDefenderChestDisplayTags#>},<#ExileDefenderChestTags#>
+ExileDefenderChest <#Item$ExileDefenderChestItemID$ExileDefenderChestDataTag#>
+
+ExileDefenderLegsItemID leather_leggings
+ExileDefenderLegsNameText The Exile Defender's Trousers
+ExileDefenderLegsNameColour dark_green
+ExileDefenderLegsName <#ItemName$ExileDefenderLegsNameText$ExileDefenderLegsNameColour#>
+ExileDefenderLegsDescription <#ExileDefenderDescription#>
+ExileDefenderLegsStats <#LoreLine$<#Armour#>: 2#>
+ExileDefenderLegsStats <#LoreLine$<#Weight#>: 1.0#>
+ExileDefenderLegsStats <#LoreLine$-<#Percent$<#!ExileDefenderLegsStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
+ExileDefenderLegsDisplayTags color:6192150
+ExileDefenderLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:-1306872123,UUIDMost:443413613,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+
+ExileDefenderLegsDataTag display:{Name:"<#ExileDefenderLegsName#>",Lore:[<#ExileDefenderLegsDescription#>,<#ExileDefenderLegsStats#>],<#ExileDefenderLegsDisplayTags#>},<#ExileDefenderLegsTags#>
+ExileDefenderLegs <#Item$ExileDefenderLegsItemID$ExileDefenderLegsDataTag#>
+
+ExileDefenderFeetItemID leather_boots
+ExileDefenderFeetNameText The Exile Defender's Boots
+ExileDefenderFeetNameColour dark_green
+ExileDefenderFeetName <#ItemName$ExileDefenderFeetNameText$ExileDefenderFeetNameColour#>
+ExileDefenderFeetDescription <#ExileDefenderDescription#>
+ExileDefenderFeetStats <#LoreLine$<#Armour#>: 1#>
+ExileDefenderFeetStats <#LoreLine$<#Weight#>: 0.5#>
+ExileDefenderFeetStats <#LoreLine$-<#Percent$<#!ExileDefenderFeetStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
+ExileDefenderFeetDisplayTags color:6192150
+ExileDefenderFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-123034357,UUIDMost:511104637,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+
+ExileDefenderFeetDataTag display:{Name:"<#ExileDefenderFeetName#>",Lore:[<#ExileDefenderFeetDescription#>,<#ExileDefenderFeetStats#>],<#ExileDefenderFeetDisplayTags#>},<#ExileDefenderFeetTags#>
+ExileDefenderFeet <#Item$ExileDefenderFeetItemID$ExileDefenderFeetDataTag#>
+
+ExileDefenderActive1ChestItemID leather_chestplate
+ExileDefenderActive1ChestNameText Blitz Imprinted Exile Defender's Tunic (Complete)
+ExileDefenderActive1ChestNameColour <#ExileDefenderChestNameColour#>
+ExileDefenderActive1ChestName <#ItemName$ExileDefenderActive1ChestNameText$ExileDefenderActive1ChestNameColour#>
+ExileDefenderActive1ChestDescription <#ExileDefenderChestDescription#>
+ExileDefenderActive1ChestStats <#ExileDefenderChestStats#>
+ExileDefenderActive1ChestStats <#LoreLine$<#BlitzImprint#>#>
+ExileDefenderActive1ChestDisplayTags <#ExileDefenderChestDisplayTags#>
+ExileDefenderActive1ChestTags <#ExileDefenderChestTags#>
+
+ExileDefenderActive1ChestDataTag display:{Name:"<#ExileDefenderActive1ChestName#>",Lore:[<#ExileDefenderActive1ChestDescription#>,<#ExileDefenderActive1ChestStats#>],<#ExileDefenderActive1ChestDisplayTags#>},<#ExileDefenderActive1ChestTags#>
+ExileDefenderActive1Chest <#Item$ExileDefenderActive1ChestItemID$ExileDefenderActive1ChestDataTag#>
+
+ExileDefenderInactive1ChestItemID leather_chestplate
+ExileDefenderInactive1ChestNameText Blitz Imprinted Exile Defender's Tunic
+ExileDefenderInactive1ChestNameColour <#ExileDefenderChestNameColour#>
+ExileDefenderInactive1ChestName <#ItemName$ExileDefenderInactive1ChestNameText$ExileDefenderInactive1ChestNameColour#>
+ExileDefenderInactive1ChestDescription <#ExileDefenderChestDescription#>
+ExileDefenderInactive1ChestStats <#ExileDefenderChestStats#>
+ExileDefenderInactive1ChestStats <#LoreLine$(<#BlitzImprint#>)#>
+ExileDefenderInactive1ChestDisplayTags <#ExileDefenderChestDisplayTags#>
+ExileDefenderInactive1ChestTags <#ExileDefenderChestTags#>
+
+ExileDefenderInactive1ChestDataTag display:{Name:"<#ExileDefenderInactive1ChestName#>",Lore:[<#ExileDefenderInactive1ChestDescription#>,<#ExileDefenderInactive1ChestStats#>],<#ExileDefenderInactive1ChestDisplayTags#>},<#ExileDefenderInactive1ChestTags#>
+ExileDefenderInactive1Chest <#Item$ExileDefenderInactive1ChestItemID$ExileDefenderInactive1ChestDataTag#>
+
+ExileDefenderActive2ChestItemID leather_chestplate
+ExileDefenderActive2ChestNameText Stealth Imprinted Exile Defender's Tunic (Complete)
+ExileDefenderActive2ChestNameColour <#ExileDefenderChestNameColour#>
+ExileDefenderActive2ChestName <#ItemName$ExileDefenderActive2ChestNameText$ExileDefenderActive2ChestNameColour#>
+ExileDefenderActive2ChestDescription <#ExileDefenderChestDescription#>
+ExileDefenderActive2ChestStats <#ExileDefenderChestStats#>
+ExileDefenderActive2ChestStats <#LoreLine$<#StealthImprint#>#>
+ExileDefenderActive2ChestDisplayTags <#ExileDefenderChestDisplayTags#>
+ExileDefenderActive2ChestTags <#ExileDefenderChestTags#>
+
+ExileDefenderActive2ChestDataTag display:{Name:"<#ExileDefenderActive2ChestName#>",Lore:[<#ExileDefenderActive2ChestDescription#>,<#ExileDefenderActive2ChestStats#>],<#ExileDefenderActive2ChestDisplayTags#>},<#ExileDefenderActive2ChestTags#>
+ExileDefenderActive2Chest <#Item$ExileDefenderActive2ChestItemID$ExileDefenderActive2ChestDataTag#>
+
+ExileDefenderInactive2ChestItemID leather_chestplate
+ExileDefenderInactive2ChestNameText Stealth Imprinted Exile Defender's Tunic
+ExileDefenderInactive2ChestNameColour <#ExileDefenderChestNameColour#>
+ExileDefenderInactive2ChestName <#ItemName$ExileDefenderInactive2ChestNameText$ExileDefenderInactive2ChestNameColour#>
+ExileDefenderInactive2ChestDescription <#ExileDefenderChestDescription#>
+ExileDefenderInactive2ChestStats <#ExileDefenderChestStats#>
+ExileDefenderInactive2ChestStats <#LoreLine$(<#StealthImprint#>)#>
+ExileDefenderInactive2ChestDisplayTags <#ExileDefenderChestDisplayTags#>
+ExileDefenderInactive2ChestTags <#ExileDefenderChestTags#>
+
+ExileDefenderInactive2ChestDataTag display:{Name:"<#ExileDefenderInactive2ChestName#>",Lore:[<#ExileDefenderInactive2ChestDescription#>,<#ExileDefenderInactive2ChestStats#>],<#ExileDefenderInactive2ChestDisplayTags#>},<#ExileDefenderInactive2ChestTags#>
+ExileDefenderInactive2Chest <#Item$ExileDefenderInactive2ChestItemID$ExileDefenderInactive2ChestDataTag#>

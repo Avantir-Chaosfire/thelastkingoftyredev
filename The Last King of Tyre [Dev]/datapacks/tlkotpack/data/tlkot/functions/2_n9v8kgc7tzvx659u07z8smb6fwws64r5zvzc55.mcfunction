@@ -1,0 +1,2 @@
+scoreboard players add @a lfk4TIjj2yeNddBD 1
+function tlkot:wl93vjwnsiob1lsamtt3qsuy3xtfk_aisz3x019r

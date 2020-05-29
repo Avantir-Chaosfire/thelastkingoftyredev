@@ -1,0 +1,15 @@
+UniqueCutsceneID 0
+
+CreditsCutscene						<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+PurgeReapersAwakenDevourerEndingCutscene		<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+PurgeReapersEndingCutscene				<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+PurgeHumansEndingCutscene				<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+DestroyAllCrystalsEndingCutscene			<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+RingBellAwakenDevourerEndingCutscene			<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+RingBellEndingCutscene					<#!UniqueCutsceneID UniqueCutsceneID 1 + =#>
+
+Credit minecraft:armor_stand -888 8 -709 {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,CustomNameVisible:1b,CustomName:"{\"text\":\"<1>\"}",Tags:["EndingCredit"]}
+
+CreditTime 0
+
+EndCrystalDuration 230

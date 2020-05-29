@@ -1,0 +1,2 @@
+execute if entity @s[scores={njaGWcBlxIaauhy1=0}] run particle minecraft:squid_ink ~ ~ ~ 0.1 0.1 0.1 0 1
+execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,dy=0,dz=0,scores={diPB.-EXj+wz5dWU=0}] run function tlkot:8iamopj6io1oozcsbi1qfkv0zlquphj81t4y31nd

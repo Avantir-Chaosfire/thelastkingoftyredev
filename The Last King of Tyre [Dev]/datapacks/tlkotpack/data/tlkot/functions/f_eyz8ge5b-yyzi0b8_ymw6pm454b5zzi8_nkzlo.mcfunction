@@ -1,0 +1,3 @@
+scoreboard players set @a g65hK21X6TRGdjr0 100
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Those evangelists down there, I can hear them whisper, but I can never quite hear the words.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Those evangelists down there, I can hear them whisper, but I can never quite hear the words.", "color": "white", "italic": true}

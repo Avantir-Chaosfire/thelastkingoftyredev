@@ -1,0 +1,3 @@
+scoreboard players set @a Sbfrt5MsOhaDvfxj 114
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "During the Siege of New Hoiro, we received an influx of refugees from the larger, southern part of the city.", "color": "yellow", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "During the Siege of New Hoiro, we received an influx of refugees from the larger, southern part of the city.", "color": "white", "italic": true}

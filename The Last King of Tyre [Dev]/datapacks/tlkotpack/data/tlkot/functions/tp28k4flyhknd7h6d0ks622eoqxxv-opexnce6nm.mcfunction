@@ -1,0 +1,1 @@
+scoreboard players set @a a543XRvs-DnCeX-g 1

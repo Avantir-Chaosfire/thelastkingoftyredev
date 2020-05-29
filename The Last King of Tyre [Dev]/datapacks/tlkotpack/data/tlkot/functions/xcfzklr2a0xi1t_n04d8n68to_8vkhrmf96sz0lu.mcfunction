@@ -1,0 +1,2 @@
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=0..}] run tellraw @a {"text": "Trespassing I do not appreciate.", "color": "white", "italic": true}
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=1..}] run tellraw @a {"text": "But I shall forgive, in this case.", "color": "white", "italic": true}

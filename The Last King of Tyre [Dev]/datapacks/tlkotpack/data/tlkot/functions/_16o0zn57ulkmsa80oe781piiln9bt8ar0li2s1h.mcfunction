@@ -1,0 +1,1 @@
+execute if entity @a[scores={ZaI9Kjwvb-i9PsME=0..}] run tellraw @a {"text": "Your insult can be forgiven, if no harm you caused.", "color": "yellow", "italic": true}

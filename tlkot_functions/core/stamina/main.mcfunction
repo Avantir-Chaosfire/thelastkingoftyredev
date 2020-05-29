@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure] at @s run function tlkot:core/stamina/process

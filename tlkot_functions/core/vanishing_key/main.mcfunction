@@ -1,0 +1,2 @@
+execute if entity @a[tag=!HasVanishingKey,nbt={Inventory:[{tag:{display:{Name:"<#VanishingKeyName#>"}}}]}] run function tlkot:<~>/pickup
+execute if entity @a[tag=HasVanishingKey] unless entity @a[nbt={Inventory:[{tag:{display:{Name:"<#VanishingKeyName#>"}}}]}] run tag @a remove HasVanishingKey

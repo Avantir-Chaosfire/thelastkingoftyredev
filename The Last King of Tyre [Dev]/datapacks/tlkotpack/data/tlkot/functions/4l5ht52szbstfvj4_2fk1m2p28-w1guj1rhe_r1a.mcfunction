@@ -1,0 +1,1 @@
+execute if block 480 255 208 minecraft:air if block 480 255 192 minecraft:air if block 464 255 208 minecraft:air run function tlkot:qfh9pid4tbaxyar1cguc62zoxwfahxn-lticry2g

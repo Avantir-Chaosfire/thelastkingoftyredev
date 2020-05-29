@@ -1,0 +1,1 @@
+execute if entity @a[x=-903,y=30,z=-743,dx=30,dy=16,dz=30] run function tlkot:_wp38xjp-fkwbcs7adk2mjmqow1u0vr99n-yf02d

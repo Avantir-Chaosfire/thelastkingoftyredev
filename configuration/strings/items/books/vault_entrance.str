@@ -1,0 +1,17 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+VaultEntranceItemID written_book
+VaultEntranceAuthor Keeper of the Vault
+VaultEntranceTitle Gaining Entrance
+VaultEntrancePages One people, one goal, one vault, yet four levers throughout the cavern lock the entrance.
+VaultEntrancePages The lever first, in the west wall of the Cavern Bazaar.
+VaultEntrancePages The lever second, on the upper floor of the Hermit's Dark House, at the East Undead Lockaway.
+VaultEntrancePages The lever third, near the base of the southern elevator, across the bridge far beneath the West Undead Lockaway.
+VaultEntrancePages The lever fourth, in the arena situated between the Mural Hall and the Butchering Room.
+
+VaultEntranceDataTag author:"<#VaultEntranceAuthor#>",title:"<#VaultEntranceTitle#>",resolved:1b,pages:["<#VaultEntrancePages#>"]
+VaultEntrance <#Item$VaultEntranceItemID$VaultEntranceDataTag#>

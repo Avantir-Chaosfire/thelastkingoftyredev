@@ -1,0 +1,119 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+SaviourMosesColour dark_gray
+SaviourMosesLocation 439.0 133 69.0
+
+SaviourMosesInitialSilenceID 1
+SaviourMosesPostFirstSilenceID 2
+SaviourMosesPostSecondSilenceID 3
+SaviourMosesPostThirdSilenceID 4
+SaviourMosesPostFourthSilenceID 5
+SaviourMosesPostFifthSilenceID 6
+
+SaviourMosesAttackFirstEncounterID 7
+SaviourMosesAttackFirstEncounterLines	0	$ 23	$ Oh! $
+SaviourMosesAttackFirstEncounterLines	1	$ 41	$ What have we here? $
+SaviourMosesAttackFirstEncounterLines	2	$ 48	$ Your heart... $
+SaviourMosesAttackFirstEncounterLines	3	$ 56	$ It's mine, and yet, you attack us? $
+SaviourMosesAttackFirstEncounterLines	4	$ 47	$ You will burn for that. $
+
+SaviourMosesFirstEncounterID 8
+SaviourMosesFirstEncounterLines	0	$ 42	$ Ohhhh... $
+SaviourMosesFirstEncounterLines	1	$ 101	$ Another undead has come, come seeking freedom, come seeking death. $
+SaviourMosesFirstEncounterLines	2	$ 51	$ Well then, I... No. $
+SaviourMosesFirstEncounterLines	3	$ 66	$ No no, what kind of abomination are you? $
+SaviourMosesFirstEncounterLines	4	$ 60	$ Your heart already belongs to me! $
+SaviourMosesFirstEncounterLines	5	$ 38	$ Hm... $
+SaviourMosesFirstEncounterLines	6	$ 23	$ So. $
+SaviourMosesFirstEncounterLines	7	$ 53	$ You fought my evangelists. $
+SaviourMosesFirstEncounterLines	8	$ 101	$ You experienced my rapturous Daugh communion, and yet you resist. $
+SaviourMosesFirstEncounterLines	9	$ 116	$ ...You're here to activate the former minister's resonating crystal. $
+SaviourMosesFirstEncounterLines	10	$ 35	$ ... $
+SaviourMosesFirstEncounterLines	11	$ 44	$ I cannot allow that. $
+SaviourMosesFirstEncounterLines	12	$ 54	$ The purge must remain a myth. $
+SaviourMosesFirstEncounterLines	13	$ 59	$ Your journey ends here, monster. $
+SaviourMosesFirstEncounterLines	14	$ 84	$ I am the §lSaviour§8§o, §lI§8§o will not be killed... $
+SaviourMosesFirstEncounterLines	15	$ 102	$ Not be §loverruled§8§o, not be §ltrivialised§8§o, not by you, not by §lANYONE§8§o! $
+
+SaviourMosesSecondEncounterID 9
+SaviourMosesSecondEncounterLines	0	$ 24	$ You! $
+SaviourMosesSecondEncounterLines	1	$ 93	$ How are you still sane, still moving in that disgusting skin? $
+SaviourMosesSecondEncounterLines	2	$ 90	$ You've seen what I've done to this world, how I've overcome it. $
+SaviourMosesSecondEncounterLines	3	$ 116	$ I've shown this world truth, and as I've done to this world I'll do the same to §lYOU§8§o! $
+
+SaviourMosesThirdEncounterID 10
+SaviourMosesThirdEncounterLines	0	$ 47	$ How can you judge me so? $
+SaviourMosesThirdEncounterLines	1	$ 47	$ We are the chosen ones! $
+SaviourMosesThirdEncounterLines	2	$ 108	$ Through our sacrifice, through our glory, the rest of the world will live! $
+SaviourMosesThirdEncounterLines	3	$ 35	$ Don't you see? $
+SaviourMosesThirdEncounterLines	4	$ 72	$ The rest of the world is better off this way! $
+
+SaviourMosesFourthEncounterID 11
+SaviourMosesFourthEncounterLines	0	$ 77	$ Why can you not revel in the glory of the Cocoon? $
+SaviourMosesFourthEncounterLines	1	$ 29	$ Give in! $
+SaviourMosesFourthEncounterLines	2	$ 72	$ You've already felt the power of communion. $
+SaviourMosesFourthEncounterLines	3	$ 45	$ Feel its clarity too! $
+
+SaviourMosesFifthEncounterID 12
+SaviourMosesFifthEncounterLines	0	$ 65	$ Ah, Cocoon, spare us from this evil one. $
+SaviourMosesFifthEncounterLines	1	$ 89	$ Let your message spread, let not the preaching halt here. $
+SaviourMosesFifthEncounterLines	2	$ 80	$ Until the end of time, deliver us from the madness! $
+
+SaviourMosesVictoryID 13
+SaviourMosesVictoryLines		0	$ 38	$ THAT IS ENOUGH! $
+SaviourMosesVictoryLines		1	$ 60	$ COCOON! I call on you, §lSPEAK TO ME§8§o! $
+SaviourMosesVictoryLines		2	$ 51	$ How do I kill this monster? $
+SaviourMosesVictoryLines		3	$ 69	$ How do I continue to spread your message? $
+
+SaviourMosesNewProphetID 14
+SaviourMosesNewProphetLines		0	$ 35	$ What is this? $
+SaviourMosesNewProphetLines		1	$ 39	$ Why... $
+SaviourMosesNewProphetLines		2	$ 74	$ Why will you not attack this monster with me? $
+SaviourMosesNewProphetLines		3	$ 41	$ I am your Saviour! $
+SaviourMosesNewProphetLines		4	$ 36	$ Your prophet! $
+SaviourMosesNewProphetLines		5	$ 59	$ We worship the Cocoon together! $
+SaviourMosesNewProphetLines		6	$ 90	$ Why, now that my life is threatened, do you cease the attack? $
+SaviourMosesNewProphetLines		7	$ 42	$ Why won't you FIGHT?! $
+SaviourMosesNewProphetLines		8	$ 35	$ ... $
+SaviourMosesNewProphetLines		9	$ 53	$ Am I not good enough for you? $
+SaviourMosesNewProphetLines		10	$ 35	$ ... $
+SaviourMosesNewProphetLines		11	$ 50	$ Defiled One... $
+SaviourMosesNewProphetLines		12	$ 35	$ ... $
+SaviourMosesNewProphetLines		13	$ 77	$ You didn't come for the former minister, did you? $
+SaviourMosesNewProphetLines		14	$ 38	$ You came for me. $
+SaviourMosesNewProphetLines		15	$ 45	$ You came... $
+SaviourMosesNewProphetLines		16	$ 23	$ To- $
+SaviourMosesNewProphetLines		17	$ 35	$ ... $
+SaviourMosesNewProphetLines		18	$ 36	$ To replace me. $
+SaviourMosesNewProphetLines		19	$ 35	$ ... $
+SaviourMosesNewProphetLines		20	$ 39	$ That's it, isn't it? $
+SaviourMosesNewProphetLines		21	$ 44	$ Cocoon... $
+SaviourMosesNewProphetLines		22	$ 60	$ You side with the Defiled One now. $
+SaviourMosesNewProphetLines		23	$ 45	$ I- I thought I knew you. $
+SaviourMosesNewProphetLines		24	$ 51	$ But, to you, was I just a tool? $
+SaviourMosesNewProphetLines		25	$ 56	$ Someone, anyone, to fill a role? $
+SaviourMosesNewProphetLines		26	$ 56	$ What are you planning, Cocoon? $
+SaviourMosesNewProphetLines		27	$ 53	$ Why now, why don't you need me? $
+SaviourMosesNewProphetLines		28	$ 35	$ ... $
+SaviourMosesNewProphetLines		29	$ 33	$ Ah, silence. $
+SaviourMosesNewProphetLines		30	$ 47	$ I'm right; You ignore me. $
+SaviourMosesNewProphetLines		31	$ 50	$ You favour this monster. $
+SaviourMosesNewProphetLines		32	$ 35	$ ... $
+SaviourMosesNewProphetLines		33	$ 32	$ Fine, then. $
+SaviourMosesNewProphetLines		34	$ 62	$ Take my role, you be the New Prophet. $
+SaviourMosesNewProphetLines		35	$ 45	$ But always remember: $
+SaviourMosesNewProphetLines		36	$ 101	$ If the Cocoon could play so fickle with me, why would it not with you? $
+
+SaviourMosesActionbarDiscussions 	attack_first_encounter	$ <#SaviourMosesAttackFirstEncounterID#>	$ AttackFirstEncounter
+SaviourMosesActionbarDiscussions 	first_encounter		$ <#SaviourMosesFirstEncounterID#>		$ FirstEncounter
+SaviourMosesActionbarDiscussions 	second_encounter	$ <#SaviourMosesSecondEncounterID#>		$ SecondEncounter
+SaviourMosesActionbarDiscussions 	third_encounter		$ <#SaviourMosesThirdEncounterID#>		$ ThirdEncounter
+SaviourMosesActionbarDiscussions 	fourth_encounter	$ <#SaviourMosesFourthEncounterID#>		$ FourthEncounter
+SaviourMosesActionbarDiscussions 	fifth_encounter		$ <#SaviourMosesFifthEncounterID#>		$ FifthEncounter
+SaviourMosesActionbarDiscussions 	victory			$ <#SaviourMosesVictoryID#>			$ Victory
+SaviourMosesActionbarDiscussions 	new_prophet		$ <#SaviourMosesNewProphetID#>			$ NewProphet
+
+SaviourMosesChatLogDiscussions

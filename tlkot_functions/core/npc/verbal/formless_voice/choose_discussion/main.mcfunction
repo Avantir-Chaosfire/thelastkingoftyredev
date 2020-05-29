@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={PDestroyed=1..}] FormlessTalk <#FormlessVoiceJudgementID#>
+scoreboard players set @a[scores={FormlessTalk=<#FormlessVoicePostMeetSilenceID#>..<#FormlessVoicePostSealSilenceID#>,AgelessOneTalk=<#AgelessOneRambleMosesDeadID#>..}] FormlessTalk <#FormlessVoiceAntiAgelessID#>
+scoreboard players set @a[scores={FormlessTalk=<#FormlessVoicePostMeetSilenceID#>,FormlessSeal=1,Seal=1}] FormlessTalk <#FormlessVoiceSealID#>

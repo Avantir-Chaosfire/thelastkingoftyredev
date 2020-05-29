@@ -1,0 +1,13 @@
+#include npcs/tags
+#include items/armour/exile_defender
+#include items/armour/mad_caster
+#include items/armour/challenger_knight
+#include items/armour/ragged
+#include items/materials
+
+#join functions ,
+
+IkseRecipes <#NPCUpgradeTradeOffer$ExileDefenderChest$PrismSphere$ExileDefenderInactive2Chest#>
+IkseRecipes <#NPCUpgradeTradeOffer$MadCasterChest$PrismSphere$MadCasterInactive2Chest#>
+IkseRecipes <#NPCUpgradeTradeOffer$ChallengerKnightChest$HolySymbol$ChallengerKnightInactive2Chest#>
+IkseRecipes <#NPCUpgradeTradeOffer$RaggedChest$HolySymbol$RaggedInactive1Chest#>

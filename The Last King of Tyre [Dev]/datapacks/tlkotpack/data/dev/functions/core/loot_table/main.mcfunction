@@ -1,0 +1,1 @@
+execute if entity @a[scores={H1qid1s1K.n6EXX8=2}] run function dev:core/loot_table/process

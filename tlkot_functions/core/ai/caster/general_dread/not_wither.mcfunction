@@ -1,0 +1,2 @@
+execute if entity @e[tag=AI.HealthScore,scores={EnemyHealth=..20000},distance=1..8] run function tlkot:core/ai/caster/general_dread/choose/healing
+execute if entity @s[tag=!ScrollChosen] run function tlkot:core/ai/caster/general_dread/not_healing

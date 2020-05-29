@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={AlamoneTalk=<#AlamoneUndeadRuleID#>..}] AlamoneLine 0

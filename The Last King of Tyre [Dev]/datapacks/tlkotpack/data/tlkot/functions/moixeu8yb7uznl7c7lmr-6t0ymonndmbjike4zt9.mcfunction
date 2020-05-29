@@ -1,0 +1,3 @@
+execute if entity @a[distance=..6] run tag @s add USO5omKOYCz_h4QDnb9Iflh_Xvx+mD4OG8UC_QA3
+execute if entity @e[tag=f9_pW2On7ODcuYfM7DumjA0hMwL7IiFtruIr0gaW,distance=..6] run tag @s add USO5omKOYCz_h4QDnb9Iflh_Xvx+mD4OG8UC_QA3
+execute if entity @s[tag=USO5omKOYCz_h4QDnb9Iflh_Xvx+mD4OG8UC_QA3] if entity @e[tag=e.OraaVcR2ePEyZ+etN7_NsyacXF46LX9OUQeCJ_,distance=..6] run tag @s remove USO5omKOYCz_h4QDnb9Iflh_Xvx+mD4OG8UC_QA3

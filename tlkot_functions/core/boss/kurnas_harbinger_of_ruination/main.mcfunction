@@ -1,0 +1,2 @@
+execute if entity @a[scores={BellVictory=0}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/not_defeated
+execute if entity @a[scores={BellVictory=1..}] as @e[tag=KurnasCleanup] run function tlkot:core/boss/kurnas_harbinger_of_ruination/clean_up

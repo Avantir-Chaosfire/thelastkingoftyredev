@@ -1,0 +1,3 @@
+execute unless entity @a[scores={D_964L4Udf0MzIey=3..5}] positioned 276.186 133 24.191 if entity @a[x=274,y=133,z=20,dx=4,dy=5,dz=6] run function tlkot:cs6x7a03_t_20sbultyy6c-7jmiln859y64ep3ou
+execute if entity @a[scores={D_964L4Udf0MzIey=3,ZKC_2WF+tH3xFryq=0},x=271,y=133,z=27,dx=7,dy=3,dz=3] run function tlkot:p_28h1y9z94sxttnq6sl-rftehyn8649a-jxik4q
+execute if entity @a[scores={D_964L4Udf0MzIey=4},x=277,y=133,z=25,dx=0,dy=1,dz=0] run function tlkot:m54zd-cu0sm2eknladucy0gjledh-rwgj37zgyei

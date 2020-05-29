@@ -1,0 +1,3 @@
+scoreboard players set @a PSK265zyV0tcakg. 101
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "Unfortunately, you won't always be near enough to a fountain, as there are rather few around.", "color": "green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "Unfortunately, you won't always be near enough to a fountain, as there are rather few around.", "color": "white", "italic": true}

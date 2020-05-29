@@ -1,0 +1,12 @@
+execute positioned 21 218 317 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 21 218 301 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 22 223 302 if entity @a[x=20,y=224,z=300,dx=2,dy=0,dz=2,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 28 223 293 if entity @a[x=27,y=224,z=293,dx=2,dy=0,dz=2,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 28 218 294 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 44 218 294 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 48 221 307 if entity @a[distance=..4,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 59 220 307 if entity @a[distance=..4,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 50 223 318 if entity @a[x=50,y=224,z=316,dx=2,dy=0,dz=2,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 51 218 317 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 48 221 318 if entity @a[distance=..3,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2
+execute positioned 29 231 323 if entity @a[x=27,y=231,z=323,dx=2,dy=0,dz=2,scores={2Ts6MMTNxFNCXfXt=1..}] run function tlkot:86g20v0l3gj31ohk6i-es80v6_jv8imtn3oseor2

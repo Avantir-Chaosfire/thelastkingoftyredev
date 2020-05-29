@@ -1,0 +1,1 @@
+execute unless entity @e[tag=VdXyMxH5WaZfKsKA+6y7PA2NYikRlulpi7Rpq05F,distance=..1] run function tlkot:-f8d1tg7kgva1l25jdv8v110odu7_eay2jgovvy2

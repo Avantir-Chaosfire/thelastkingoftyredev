@@ -1,0 +1,62 @@
+#include npcs/tags
+#include npcs/dialogue/ageless_one
+
+#join compendium <Newline>
+#join functions <Newline>
+
+ThirdBellColour <#AgelessOneColour#>
+ThirdBellLocation 479 46 86
+ThirdBellEngageRadius 3
+ThirdBellDisengageRadius 60
+
+ThirdBellRingPromptID 0
+ThirdBellRingPromptLines
+
+ThirdBellGenericEndingID 1
+ThirdBellGenericEndingLines
+
+ThirdBellAwakenDevourerEndingID 2
+ThirdBellAwakenDevourerEndingLines	0	$ 120	$ ... $
+ThirdBellAwakenDevourerEndingLines	1	$ 41	$ Is that...? $
+ThirdBellAwakenDevourerEndingLines	2	$ 25	$ No- How? $
+ThirdBellAwakenDevourerEndingLines	3	$ 38	$ WHY WOULD YOU DO THAT? $
+ThirdBellAwakenDevourerEndingLines	4	$ 35	$ ... $
+ThirdBellAwakenDevourerEndingLines	5	$ 36	$ I... $
+ThirdBellAwakenDevourerEndingLines	6	$ 43	$ We... failed. $
+ThirdBellAwakenDevourerEndingLines	7	$ 35	$ ... $
+ThirdBellAwakenDevourerEndingLines	8	$ 38	$ I did not expect this. $
+ThirdBellAwakenDevourerEndingLines	9	$ 43	$ I am sorry... $
+ThirdBellAwakenDevourerEndingLines	10	$ 38	$ I did not know of this. $
+ThirdBellAwakenDevourerEndingLines	11	$ 72	$ I did not realize what would happen when you rang that bell. $
+ThirdBellAwakenDevourerEndingLines	12	$ 35	$ ... $
+ThirdBellAwakenDevourerEndingLines	13	$ 52	$ I suppose... that is it. $
+ThirdBellAwakenDevourerEndingLines	14	$ 48	$ There is nothing more to be done. $
+ThirdBellAwakenDevourerEndingLines	15	$ 77	$ But... do you even realize what you have unleashed? $
+ThirdBellAwakenDevourerEndingLines	16	$ 55	$ Defiled One, see the truth for yourself. $
+
+ThirdBellEscapeEndingID 3
+ThirdBellEscapeEndingLines		0	$ 45	$ So, you've made your decision. $
+ThirdBellEscapeEndingLines		1	$ 39	$ To let another choose? $
+ThirdBellEscapeEndingLines		2	$ 69	$ Or was it just to let the land fade away... $
+ThirdBellEscapeEndingLines		3	$ 60	$ Are you not capable of choosing for yourself? $
+ThirdBellEscapeEndingLines		4	$ 67	$ Or were you afraid to sentence your friends to death? $
+ThirdBellEscapeEndingLines		5	$ 39	$ There is a ship coming. $
+ThirdBellEscapeEndingLines		6	$ 26	$ For you. $
+ThirdBellEscapeEndingLines		7	$ 46	$ Will you board it and run away? $
+ThirdBellEscapeEndingLines		8	$ 73	$ Or will you shoulder the responsibility your power grants, $
+ThirdBellEscapeEndingLines		9	$ 56	$ Take up your blade and carve out a future? $
+ThirdBellEscapeEndingLines		10	$ 43	$ Ask yourself, Defiled One. $
+ThirdBellEscapeEndingLines		11	$ 42	$ For whom will you choose? $
+
+ThirdBellBoardBoatEndingID 4
+ThirdBellBoardBoatEndingLines
+
+ThirdBellActionbarDiscussions
+ThirdBellChatLogDiscussions ring_prompt $ <#ThirdBellRingPromptID#> $ RingPrompt
+ThirdBellChatLogDiscussions awaken_devourer_ending $ <#ThirdBellAwakenDevourerEndingID#> $ AwakenDevourerEnding
+ThirdBellChatLogDiscussions escape_ending $ <#ThirdBellEscapeEndingID#> $ EscapeEnding
+ThirdBellChatLogDiscussions board_boat_ending $ <#ThirdBellBoardBoatEndingID#> $ BoardBoatEnding
+ThirdBellChatLogDiscussions generic_ending $ <#ThirdBellGenericEndingID#> $ GenericEnding
+
+ThirdBellRingBellPrompt {<#ActionPromptOptionFinal$ThirdBell$ThirdBellGenericEnding$Ring Bell#>}
+ThirdBellBoardBoatPrompt {<#ActionPromptOptionFinal$ThirdBell$ThirdBellBoardBoatEnding$Board Ship#>}

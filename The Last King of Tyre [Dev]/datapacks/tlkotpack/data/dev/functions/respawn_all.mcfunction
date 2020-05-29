@@ -1,0 +1,1 @@
+scoreboard players add @a McSrT25cr7sOSDAR 1

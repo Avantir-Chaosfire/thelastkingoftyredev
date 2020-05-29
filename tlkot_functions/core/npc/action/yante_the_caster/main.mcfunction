@@ -1,0 +1,1 @@
+execute if entity @a[scores={YanteReaper=0}] run function tlkot:core/npc/action/yante_the_caster/not_a_reaper

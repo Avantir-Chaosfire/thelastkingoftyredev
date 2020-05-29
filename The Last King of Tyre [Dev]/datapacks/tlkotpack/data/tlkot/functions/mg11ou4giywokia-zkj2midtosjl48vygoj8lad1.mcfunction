@@ -1,0 +1,1 @@
+execute unless score @s VLUBchW.Hay4Ra4P = @a[limit=1] VLUBchW.Hay4Ra4P run function tlkot:hb6_v14of1pejuoby06qhf1_e2s93z3hxrjv9uk4

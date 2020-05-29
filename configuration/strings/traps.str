@@ -1,0 +1,16 @@
+#include exploding_creeper
+
+BurrowsBlasterTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["BurrowsBlaster"]
+BurrowsBombTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["HasAI","AI.BurrowsBomb"]
+
+BurrowsBombCreeperTags <#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Explosion\"}",ExplosionRadius:4b
+
+PitTrapTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["PitTrap","NewGameVersioned"]
+
+RoamingWitherCloudTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["RoamingWitherCloud"]
+
+RisingWaterMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["RisingWaterMarker",<1>]
+
+GhasterBlasterTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["GhasterBlaster","NewGameVersioned","Killable"]
+
+GhasterBlasterCreeperTags <#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Explosion\"}",ExplosionRadius:4b

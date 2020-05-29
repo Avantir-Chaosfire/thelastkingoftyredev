@@ -1,0 +1,1 @@
+give @s minecraft:iron_ingot{display:{Name:"{\"text\":\"Darkened Wharfs Key\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"The cavern has its own wharfs for","color":"gray"}','{"text":"transporting goods to New Hoiro, and","color":"gray"}','{"text":"for direct black market exchanges.","color":"gray"}']}}

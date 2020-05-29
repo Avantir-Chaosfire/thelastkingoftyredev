@@ -1,0 +1,1 @@
+execute at @a[x=467,y=83,z=210,dx=0,dy=1,dz=0] run function tlkot:<~>/process

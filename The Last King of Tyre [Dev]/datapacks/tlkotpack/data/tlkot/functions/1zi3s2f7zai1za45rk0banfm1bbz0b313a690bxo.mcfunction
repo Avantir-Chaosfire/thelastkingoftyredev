@@ -1,0 +1,2 @@
+tellraw @a {"text": "You have spoken to my friends, the Survivors of the Seven Lakes.", "color": "white", "italic": true}
+tellraw @a {"text": "If you will not listen to me, will you listen to them?", "color": "white", "italic": true}

@@ -1,0 +1,35 @@
+#include npcs/tags
+
+#join compendium <Newline>
+#join functions <Newline>
+
+KurnasIDTag KurnasTheSaviour
+KurnasTags ‘<#CommonNPCTags$plains$nitwit#>,Tags:["<#KurnasIDTag#>",<#NPCSpecificTags#>],CustomName:"{\"text\":\"Kurnas the Saviour\"}"‘
+
+KurnasColour dark_gray
+KurnasLocation 536.7 108 49.739
+KurnasStorageLocation 536.5 105 48.5
+KurnasEngageRadius 6
+KurnasDisengageRadius 13
+
+KurnasMeetID 1
+KurnasMeetLines 0	$ 39	$ You... $
+KurnasMeetLines 1	$ 53	$ What do you think you can do? $
+KurnasMeetLines 2	$ 42	$ You can do nothing. $
+KurnasMeetLines 3	$ 32	$ No one can. $
+KurnasMeetLines 4	$ 48	$ You think differently? $
+KurnasMeetLines 5	$ 50	$ Huh... Pitiful. $
+KurnasMeetLines 6	$ 35	$ ... $
+KurnasMeetLines 7	$ 51	$ Once, I thought different. $
+KurnasMeetLines 8	$ 86	$ We thought we could make a difference, save this world. $
+KurnasMeetLines 9	$ 69	$ Now I see... It changed nothing. $
+KurnasMeetLines 10	$ 83	$ I saw the writing on these walls, and I read the truth. $
+KurnasMeetLines 11	$ 60	$ I lost many friends in those days. $
+KurnasMeetLines 12	$ 117	$ Foolish child, you were not the first, and nor will you be the last to seek freedom. $
+KurnasMeetLines 13	$ 72	$ We're all doomed, and that will never change. $
+KurnasMeetLines 14	$ 80	$ Read your fill, then leave this place and let me be. $
+
+KurnasSilenceID 2
+
+KurnasActionbarDiscussions meet $ <#KurnasMeetID#> $ Meet
+KurnasChatLogDiscussions

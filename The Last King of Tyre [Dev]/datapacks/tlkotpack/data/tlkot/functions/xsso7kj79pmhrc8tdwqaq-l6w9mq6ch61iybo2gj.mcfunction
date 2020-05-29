@@ -1,0 +1,2 @@
+execute unless entity @a[scores={02Fo_z.sA6raSdLq=2..,neXn2WOfsMbqVEwb=2..,fO2fHfES6kEFgEMp=2..}] run function tlkot:ejtr5m0jvbq9urs0wj4g8ok8op7obg-en6wztbhp
+execute if entity @a[scores={02Fo_z.sA6raSdLq=2..,neXn2WOfsMbqVEwb=2..,fO2fHfES6kEFgEMp=2..}] run particle minecraft:witch ~ ~1 ~ 0.25 0.7 0.25 0 4

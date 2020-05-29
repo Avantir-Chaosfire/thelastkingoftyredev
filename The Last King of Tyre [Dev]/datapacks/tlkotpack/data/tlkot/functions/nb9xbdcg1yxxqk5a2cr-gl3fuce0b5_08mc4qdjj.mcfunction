@@ -1,0 +1,1 @@
+scoreboard players set @s njD8i+PzwYCWmeEv 36

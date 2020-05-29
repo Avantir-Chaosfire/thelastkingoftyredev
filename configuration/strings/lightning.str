@@ -1,0 +1,12 @@
+LightningMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["AI.LightningMarker","HasAI","Versioned","Killable"]
+
+MosesLightningTelegraphingTime 50
+MosesLightningTime1 61
+MosesLightningTime2 111
+MosesLightningTime3 161
+
+LightningTelegraphingTime 50
+LightningTime1 61
+LightningTime2 111
+LightningTime3 161
+StartLightningTime 256

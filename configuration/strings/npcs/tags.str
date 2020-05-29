@@ -1,0 +1,16 @@
+CommonNPCTags ‘Attributes:[{Base:1.0d,Name:"generic.knockbackResistance"},{Base:0.0d,Name:"generic.movementSpeed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:<1>",profession:"minecraft:<2>"}‘
+
+NPCSpecificTags "SetNPCVersion","NPC"
+
+NPCUnlimitedTradeOffer ‘{maxUses:2147483647,buy:{id:"<#<1>ItemID#>",tag:{<#<1>DataTag#>},Count:<2>b},sell:{id:"minecraft:<#<3>ItemID#>",tag:{<#<3>DataTag#>},Count:<4>b},uses:0,rewardExp:0b}‘
+NPCLimitedTradeOffer ‘{maxUses:2147483647,buy:{id:"<#<1>ItemID#>",tag:{<#<1>DataTag#>},Count:<2>b},sell:{id:"minecraft:<#<3>ItemID#>",tag:{<#<3>DataTag#>},Count:<4>b},uses:2147483646,rewardExp:0b}‘
+NPCCustomLimitedTradeOffer ‘{maxUses:2147483647,buy:{id:"<#<1>ItemID#>",tag:{<#<1>DataTag#>},Count:<2>b},sell:{id:"minecraft:<#<3>ItemID#>",tag:{<#<3>DataTag#>},Count:<4>b},uses:<5>,rewardExp:0b}‘
+NPCUpgradeTradeOffer ‘{maxUses:2147483647,buy:{id:"<#<1>ItemID#>",tag:{<#<1>DataTag#>},Count:1b},buyB:{id:"<#<2>ItemID#>",tag:{<#<2>DataTag#>},Count:1b},sell:{id:"minecraft:<#<3>ItemID#>",tag:{<#<3>DataTag#>},Count:1b},uses:2147483646,rewardExp:0b}‘
+
+DialoguePromptOption ‘"text":"\"<3>\"\n","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger <1>Talk set <#<2>ID#>"}‘
+DialoguePromptOptionFinal ‘"text":"\"<3>\"","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger <1>Talk set <#<2>ID#>"}‘
+ActionPromptOption ‘"text":"*<3>*\n","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger <1>Talk set <#<2>ID#>"}‘
+ActionPromptOptionFinal ‘"text":"*<3>*","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger <1>Talk set <#<2>ID#>"}‘
+
+GoodOpinion 0
+BadOpinion 1

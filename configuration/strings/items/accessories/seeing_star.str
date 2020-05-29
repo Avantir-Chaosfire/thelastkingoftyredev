@@ -1,0 +1,18 @@
+#include item_template
+#include item_holding_ids
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+SeeingStarItemID nether_star
+SeeingStarNameText Seeing Star
+SeeingStarNameColour yellow
+SeeingStarName <#ItemName$SeeingStarNameText$SeeingStarNameColour#>
+SeeingStarDescription <#LoreLine$The legend goes that the whoever#>
+SeeingStarDescription <#LoreLine$holds this star can see places#>
+SeeingStarDescription <#LoreLine$forbidden. But of course, legends#>
+SeeingStarDescription <#LoreLine$are just that; Legends.#>
+
+SeeingStarDataTag display:{Name:"<#SeeingStarName#>",Lore:[<#SeeingStarDescription#>]},HoldingID:<#SeeingStarHoldingID#>
+SeeingStar <#Item$SeeingStarItemID$SeeingStarDataTag#>

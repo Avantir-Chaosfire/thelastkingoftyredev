@@ -1,0 +1,3 @@
+scoreboard players set @a g65hK21X6TRGdjr0 102
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "When this second reaping began, for a whole fortnight New Hoiro was beseiged by the reapers.", "color": "aqua", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "When this second reaping began, for a whole fortnight New Hoiro was beseiged by the reapers.", "color": "white", "italic": true}

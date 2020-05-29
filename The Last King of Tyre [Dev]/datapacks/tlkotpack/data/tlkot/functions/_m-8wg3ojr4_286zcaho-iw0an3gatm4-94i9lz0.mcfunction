@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Black Oak Staff (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:telxib9graso-wrz-d0ar4ou9cbqqojjy7p1zzeq
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Black Oak Long Staff (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:dev5i2a-wcjtywb4aycu_ofvno9xt_p8ky_jh4r3
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Steady Black Oak Staff (Two Handed)\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:7lhj-u3w89_o63-h95gjcv7vir6i87qwew6-ru7z

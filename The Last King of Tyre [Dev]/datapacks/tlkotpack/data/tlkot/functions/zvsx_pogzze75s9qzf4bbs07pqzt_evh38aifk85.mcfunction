@@ -1,0 +1,1 @@
+execute as @e[tag=bYjpze0JpLT34WTtsEMZkgQHNdj0FA2N9cZwp30j,tag=wG9cyKlOJRYmF55vY3R9l_ws8aKQ8wXPgPPYkAoU] unless score @s 7ttCqqDdGtcucU.d = @a[limit=1] 7ttCqqDdGtcucU.d run kill @s

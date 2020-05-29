@@ -1,0 +1,1 @@
+execute if entity @a[scores={ConcentrateKills=1..}] run function tlkot:core/concentration/trigger

@@ -1,0 +1,2 @@
+execute if entity @a[scores={EnyeLocation=1}] if entity @s[tag=!Spawned] run function tlkot:<~>/spawn
+execute if entity @a[scores={EnyeLocation=0}] if entity @s[tag=Spawned] run function tlkot:<~>/despawn

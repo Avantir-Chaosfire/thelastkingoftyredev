@@ -1,0 +1,3 @@
+scoreboard players set @a DMvJy39j12DX9Kb9 111
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "But the Circle of Stones are hidden, for the location is shared with the entrance to Alaeborous Crypt.", "color": "blue", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "But the Circle of Stones are hidden, for the location is shared with the entrance to Alaeborous Crypt.", "color": "white", "italic": true}

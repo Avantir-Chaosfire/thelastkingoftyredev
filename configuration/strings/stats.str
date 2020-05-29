@@ -1,0 +1,63 @@
+Time					<1>s
+Percent					<1>%
+
+Health					Health
+CurrentHealth				Current <#Health#>
+MaximumHealth				Max <#Health#>
+
+MaximumStamina				Max Stamina
+
+StaminaRegeneration			Stamina Regeneration
+StaminaRegenerationDelay		Stamina Regeneration Delay
+MovementStaminaRegenerationDelay	Movement Stamina Regeneration Delay
+WeaponStaminaRegenerationDelay		Weapon Stamina Regeneration Delay
+
+Damage					Damage Dealt
+
+CastingResistance			Casting Resistance
+KnockbackResistance			Knockback Resistance
+ProjectileResistance			Projectile Resistance
+FireResistance				Fire Resistance
+ExplosionResistance			Explosion Resistance
+
+AttackStamina				Weapon Stamina Cost
+DodgeStamina				Arrow Deflect Stamina Cost
+SprintStamina				Sprint Stamina Cost
+JumpStamina				Jump Stamina Cost
+
+Armour					Armour
+Toughness				Armour Toughness
+Weight					Weight
+
+Stability				Stability
+Recovery				Recovery
+ShieldRecoveryTime			Shield Recovery Time
+
+MovementSpeed				Movement Speed
+
+Duration				Duration
+
+Absorption				Bonus Health
+
+Evasion					Arrow Immunity
+
+Blindness				Blindness
+
+Thorns					Thorns
+Cleave					Cleave
+Knockback				Knockback
+
+BloodSigilActiveDuration		Blood Sigil Active Duration
+
+LightningImprint			Consuming Stamina Sends Lightning Call
+DeterminationImprint			+2 <#MaximumStamina#>
+BloodImprint				Blood Sigil Restores Health Faster
+ShieldImprint				+4 <#Absorption#>
+BlitzImprint				Casts Blitz When Injured
+StealthImprint				Invisibility When Low on Health or Stamina
+SpacialLapseImprint			All Scrolls Also Cast Spacial Lapse
+ObscureImprint				<#CastingResistance#>
+DesolateImprint				Casts Desolate When Injured
+SightImprint				Discover More Shortly After Injury
+DecayImprint				Slows Nearby Foes
+VapourImprint				Blood Sigil Hurts Foes

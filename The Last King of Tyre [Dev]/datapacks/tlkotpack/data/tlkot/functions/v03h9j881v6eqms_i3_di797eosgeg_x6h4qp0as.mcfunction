@@ -1,0 +1,3 @@
+summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["S13_fnTmR97iwBBf5TwbFMharXTnWqGwH8UMW.S5","SgqMoC7OABA8PwFR60+2.sB7g9i1fvq5ab3CAlEJ","NZieKiYinZDIRDmLHgUPinAgwoSpQhjKILJkxl5r","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+playsound minecraft:entity.lightning_bolt.impact hostile @a ~ ~ ~ 16 1.6
+execute as @e[tag=S13_fnTmR97iwBBf5TwbFMharXTnWqGwH8UMW.S5,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:9izramafttkczsl1f1knabx0urhvdol8i4uclt7t

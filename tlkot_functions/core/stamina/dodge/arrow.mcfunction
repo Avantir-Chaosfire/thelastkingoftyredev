@@ -1,0 +1,1 @@
+execute if entity @a[tag=!DodgedArrow] run function tlkot:core/stamina/dodge/hostile_check

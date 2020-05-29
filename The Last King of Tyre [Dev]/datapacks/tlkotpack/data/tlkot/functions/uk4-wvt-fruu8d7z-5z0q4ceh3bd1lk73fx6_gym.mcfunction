@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={DO9-_zcf6dtt7.qH=-1}] DO9-_zcf6dtt7.qH 105
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "We may not fully comprehend it yet, but understanding comes with time.", "color": "dark_blue", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "We may not fully comprehend it yet, but understanding comes with time.", "color": "white", "italic": true}

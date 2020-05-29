@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={2Q-3CBwvcI2xU_fa=-1}] 2Q-3CBwvcI2xU_fa 105
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "You sacrificed yourselves for exactly what you were hoping to avoid.", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "You sacrificed yourselves for exactly what you were hoping to avoid.", "color": "white", "italic": true}

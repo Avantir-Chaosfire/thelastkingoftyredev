@@ -1,0 +1,21 @@
+#include attribute_modifiers
+#include versioned_tags
+#include items/accessories/shields/tower
+
+KnightCustomName ‘CustomName:"{\"text\":\"Knight Reaper\"}"‘
+
+KnightMeleeStanceTags ‘HandItems:[{id:golden_shovel,Count:1b,tag:{<#NoDamageModifier1#>}},{id:shield,Count:1b,tag:{Damage:4}}]‘
+
+KnightRangedStanceTags ‘HandItems:[{id:bow,Count:1b},{}]‘
+
+KnightMediumHealth 98000
+
+KnightMediumTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:8},{Name:generic.movementSpeed,Base:0.205}],ArmorItems:[{id:chainmail_boots,Count:1b,tag:{<#NoArmourModifier1#>}},{id:chainmail_leggings,Count:1b,tag:{<#NoArmourModifier2#>}},{id:chainmail_chestplate,Count:1b,tag:{<#NoArmourModifier3#>}},{id:iron_helmet,Count:1b,tag:{<#NoArmourModifier4#>}}],<#KnightRangedStanceTags#>,<#KnightCustomName#>,Tags:["Enemy.Knight-Medium",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Knight","Medium","UsesHitScore"],Health:1000.0f‘
+
+KnightMeleeHealth 98000
+
+KnightMeleeTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:10},{Name:generic.movementSpeed,Base:0.24}],ArmorItems:[{id:chainmail_boots,Count:1b,tag:{<#NoArmourModifier1#>}},{id:iron_leggings,Count:1b,tag:{<#NoArmourModifier2#>}},{id:iron_chestplate,Count:1b,tag:{<#NoArmourModifier3#>}},{id:iron_helmet,Count:1b,tag:{<#NoArmourModifier4#>}}],<#KnightRangedStanceTags#>,<#KnightCustomName#>,Tags:["Enemy.Knight-Melee",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Knight","Melee","UsesHitScore"],Health:1000.0f‘
+
+KnightRangedHealth 98000
+
+KnightRangedTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:6},{Name:generic.movementSpeed,Base:0.17}],ArmorItems:[{id:chainmail_boots,Count:1b,tag:{<#NoArmourModifier1#>}},{id:chainmail_leggings,Count:1b,tag:{<#NoArmourModifier2#>}},{id:chainmail_chestplate,Count:1b,tag:{<#NoArmourModifier3#>}},{}],<#KnightRangedStanceTags#>,<#KnightCustomName#>,Tags:["Enemy.Knight-Ranged",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Knight","Ranged","UsesHitScore"],Health:1000.0f‘

@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#CondemnationItemID#>",
+			"nbt": "{<#CondemnationDataTag#>}"
+		},
+		"title":
+		{
+			"text": "Condemnation"
+		},
+		"description": "Purge all of the Humans",
+		"frame": "goal",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/a_different_perspective",
+	"criteria":
+	{
+		"condemnation":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

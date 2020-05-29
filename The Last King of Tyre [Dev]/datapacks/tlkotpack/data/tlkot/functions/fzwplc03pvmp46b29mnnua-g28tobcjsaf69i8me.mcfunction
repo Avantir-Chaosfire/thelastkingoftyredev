@@ -1,0 +1,1 @@
+tellraw @a {"text": "Your insult can be forgiven, if no harm you caused.", "color": "yellow", "italic": true}

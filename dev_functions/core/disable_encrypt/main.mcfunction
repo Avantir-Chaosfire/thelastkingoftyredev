@@ -1,0 +1,1 @@
+execute as @e[tag=!Release] run function dev:<~>/trigger

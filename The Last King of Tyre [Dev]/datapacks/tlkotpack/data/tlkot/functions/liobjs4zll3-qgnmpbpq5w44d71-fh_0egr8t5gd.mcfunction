@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={dXl0aV9coU1bEgjb=-1}] dXl0aV9coU1bEgjb 101
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "If you think this is the right path then you truly are an utter fool.", "color": "gray", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "If you think this is the right path then you truly are an utter fool.", "color": "white", "italic": true}

@@ -1,0 +1,3 @@
+execute if score @s[scores={HolAt8.byvruHpdt=1..}] HolAt8.byvruHpdt <= @a[limit=1] HolAt8.byvruHpdt run function tlkot:l5-_oq8tkejqy1tqfq3wpt7awjdwysyuzj952q9g
+execute if score @s[scores={60d8Dwh6RvkH+i9o=1..}] H2lAv47B-yUItTjY = @a[limit=1] H2lAv47B-yUItTjY if score @s 60d8Dwh6RvkH+i9o <= @a[limit=1] 60d8Dwh6RvkH+i9o run function tlkot:l5-_oq8tkejqy1tqfq3wpt7awjdwysyuzj952q9g
+execute unless entity @s[scores={HolAt8.byvruHpdt=1..}] unless entity @s[scores={60d8Dwh6RvkH+i9o=1..}] run function tlkot:qujl3zgr9ij2h8t7ttkw12c_lb4inz2saie-e44-

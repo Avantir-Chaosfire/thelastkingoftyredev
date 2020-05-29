@@ -1,0 +1,9 @@
+#include versioned_tags
+
+InfestedHealth 67000
+
+InfestedTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Infested Reaper\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.movementSpeed",Base:0.2},{Name:"generic.attackDamage",Base:7}],Health:1000.0f,Tags:["Enemy.Infested",<#CommonDumpableDivisionTags#>,"Reaper","HasAI","AI.HealthScore","EnemyUnit","AI.Infested","UsesHitScore"]‘
+
+HollowHealth 72000
+
+HollowTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Hollow Reaper\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.movementSpeed",Base:0.2},{Name:"generic.attackDamage",Base:7}],Health:1000.0f,Tags:["Enemy.Hollow",<#CommonDumpableDivisionTags#>,"Reaper","HasAI","AI.HealthScore","EnemyUnit","AI.AgroClose","UsesHitScore"]‘

@@ -1,0 +1,1 @@
+execute at @a as @e[tag=r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b] run function tlkot:zvf5_chcfv5mfbe4xbh90c2--_ea-jzgykrgm5jn

@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 144
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Whether you like it or not, you must play the role of divine judge, for you alone have the power to choose.", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Whether you like it or not, you must play the role of divine judge, for you alone have the power to choose.", "color": "white", "italic": true}

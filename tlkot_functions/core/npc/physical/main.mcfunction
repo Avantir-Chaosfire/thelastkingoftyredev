@@ -1,0 +1,1 @@
+execute as @e[tag=NPC] at @s run function tlkot:<~>/process

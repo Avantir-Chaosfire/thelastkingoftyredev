@@ -1,0 +1,21 @@
+#include npcs/tags
+#include items/consumables
+
+#join functions ,
+#join loot_tables <Newline>
+
+DaluriRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$15#>
+DaluriRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$NormalArrow$4#>
+DaluriRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$2$Condemnation$1#>
+DaluriRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Snare$1#>
+
+DaluriExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$1$Flare$1#>
+DaluriExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$3$NormalArrow$1#>
+DaluriExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$20$Condemnation$1#>
+DaluriExpensiveRecipes <#NPCUnlimitedTradeOffer$HeadOfYearning$10$Snare$1#>
+
+DaluriStash flare		$ Flare			$ 34
+DaluriStash normal_arrow	$ NormalArrow		$ 12
+DaluriStash condemnation	$ Condemnation		$ 3
+DaluriStash snare		$ Snare			$ 5
+DaluriStash head_of_yearning	$ HeadOfYearning	$ 2

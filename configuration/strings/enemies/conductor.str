@@ -1,0 +1,12 @@
+#include eliminate_base_attributes
+#include versioned_tags
+
+ConductorHealth 147000
+
+ConductorTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},<#EliminateBaseZombieAttributes#>],NoAI:1b,CustomName:"{\"text\":\"Conductor\"}",Tags:["Enemy.Conductor",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Human","AI.Conductor","UsesHitScore"],Silent:1b,Health:1000.0f‘
+
+PossessionHealth 175000
+
+PossessionTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:9},{Name:generic.movementSpeed,Base:0.11},{Name:generic.knockbackResistance,Base:1},{Name:generic.followRange,Base:32},{Name:"zombie.spawnReinforcements",Base:0},{Name:"generic.armor",Base:0}],CustomName:"{\"text\":\"Possessed Suit of Armour\"}",Tags:["Enemy.Possession",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore","AI.Possession","Possessable"],Silent:1b,Health:1000.0f,ActiveEffects:[{Id:14,Duration:32767,ShowParticles:false}],ArmorItems:[{id:"chainmail_boots",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"chainmail_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{id:"chainmail_chestplate",Count:1b,tag:{<#NoArmourModifier3#>}},{id:"chainmail_helmet",Count:1b,tag:{<#NoArmourModifier4#>}}]‘
+
+ConductorDeathMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["ConductorDeathMarker","NewGameVersioned","Killable"]

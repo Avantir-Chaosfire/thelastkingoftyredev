@@ -1,0 +1,1 @@
+tp @s[scores={kugmQknE-99VJINj=5}] -101 82 301

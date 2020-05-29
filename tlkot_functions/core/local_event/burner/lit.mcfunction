@@ -1,0 +1,1 @@
+#class execute if entity @s[tag=<1>] run function tlkot:core/local_event/burner/<0>/main

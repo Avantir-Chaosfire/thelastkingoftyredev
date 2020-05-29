@@ -1,0 +1,14 @@
+summon minecraft:arrow ~-0.36 ~1.88 ~ {<#KurnasSouthArrowTags#>}
+summon minecraft:arrow ~-1.07 ~0.94 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~-0.59 ~3.28 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~0.04 ~0.92 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~0.92 ~3.52 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~1.23 ~0.36 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~0.2 ~3.14 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~0.96 ~2.04 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~0.29 ~0.15 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~-1.34 ~2.58 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~-0.73 ~0.11 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~-1.31 ~1.77 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~-1.31 ~3.75 ~ {<#KurnasSouthSilentArrowTags#>}
+summon minecraft:arrow ~1.25 ~1.27 ~ {<#KurnasSouthSilentArrowTags#>}

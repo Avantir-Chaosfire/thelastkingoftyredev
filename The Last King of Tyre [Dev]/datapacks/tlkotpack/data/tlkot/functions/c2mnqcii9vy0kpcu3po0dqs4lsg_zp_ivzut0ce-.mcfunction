@@ -1,0 +1,3 @@
+execute if entity @a[scores={t-tKVXNbB5WT5hf+=0}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run function tlkot:nts2aefh52epvfio_wrnfclclwdn1ksarfhir45s
+execute if entity @a[scores={t-tKVXNbB5WT5hf+=1}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] positioned 586.5 154 399.5 unless entity @s[dx=0,dy=0,dz=0] run function tlkot:dse6pzd0mi2rs541uhh5tky1zylmqmqcuw5vi5h5
+execute if entity @a[scores={t-tKVXNbB5WT5hf+=2}] unless entity @s[x=-896,y=0,z=-736,dx=15,dy=19,dz=15] run tp @s 586.5 154 399.5

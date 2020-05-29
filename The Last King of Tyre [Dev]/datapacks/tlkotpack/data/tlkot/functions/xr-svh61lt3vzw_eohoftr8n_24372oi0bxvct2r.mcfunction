@@ -1,0 +1,3 @@
+execute if entity @a[scores={NjBa8xXTNSecj9P2=0..}] run tellraw @a {"text": "Stronger than presumed, but not enough.", "color": "white", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=1..}] run tellraw @a {"text": "You'll have no passage this time...", "color": "white", "italic": true}
+execute if entity @a[scores={NjBa8xXTNSecj9P2=2..}] run tellraw @a {"text": "Why won't you feel the dread?", "color": "white", "italic": true}

@@ -1,0 +1,3 @@
+scoreboard players set @a mf9L5CC4VvVuq_LG 99
+tellraw @a[scores={e2U3SpDQbc2ipeRu=0}] {"text": "They wanted to use it to forever prevent a second reaping, and a load of good that did them.", "color": "dark_green", "italic": true}
+tellraw @a[scores={e2U3SpDQbc2ipeRu=1}] {"text": "They wanted to use it to forever prevent a second reaping, and a load of good that did them.", "color": "white", "italic": true}

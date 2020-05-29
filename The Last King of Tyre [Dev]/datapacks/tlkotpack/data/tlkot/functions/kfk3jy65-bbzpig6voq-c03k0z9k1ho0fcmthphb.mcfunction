@@ -1,0 +1,3 @@
+scoreboard players set @a[scores={BMgI9mzNKaZ6nEOi=-1}] BMgI9mzNKaZ6nEOi 117
+title @a[scores={e2U3SpDQbc2ipeRu=0}] actionbar {"text": "Condemn the last survivors here to death, for their deaths will save more lives.", "color": "dark_red", "italic": true}
+title @a[scores={e2U3SpDQbc2ipeRu=1}] actionbar {"text": "Condemn the last survivors here to death, for their deaths will save more lives.", "color": "white", "italic": true}

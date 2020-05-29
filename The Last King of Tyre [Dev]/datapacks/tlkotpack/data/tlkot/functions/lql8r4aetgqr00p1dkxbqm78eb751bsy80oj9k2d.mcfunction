@@ -1,0 +1,2 @@
+scoreboard players enable @a huwi+YuwDB.Nvers
+tellraw @a {"text": "\"Yes\"\n", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger huwi+YuwDB.Nvers set 2"}, "extra": [{"text": "\"No\"", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "/trigger huwi+YuwDB.Nvers set 4"}}]}

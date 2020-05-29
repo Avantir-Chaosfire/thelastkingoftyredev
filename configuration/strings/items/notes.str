@@ -1,0 +1,512 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+NoteText ‘{\"text\":\"<#<1>#>\",\"color\":\"white\",\"italic\":true}‘
+
+CallNoteItemID paper
+CallNoteText1 Willpower, inner strength, essence,
+CallNoteText2 hope... What to call it?
+CallNoteName <#NoteText$CallNoteText1#>
+CallNoteDescription "<#NoteText$CallNoteText2#>"
+
+CallNoteDataTag display:{Name:"<#CallNoteName#>",Lore:[<#CallNoteDescription#>]}
+CallNote <#Item$CallNoteItemID$CallNoteDataTag#>
+
+SoulNoteItemID paper
+SoulNoteText The soul's soul. Vitality.
+SoulNoteName <#NoteText$SoulNoteText#>
+
+SoulNoteDataTag display:{Name:"<#SoulNoteName#>"}
+SoulNote <#Item$SoulNoteItemID$SoulNoteDataTag#>
+
+DarkNoteItemID paper
+DarkNoteText1 Turn off the lights, they can't find
+DarkNoteText2 us in the dark...
+DarkNoteName <#NoteText$DarkNoteText1#>
+DarkNoteDescription "<#NoteText$DarkNoteText2#>"
+
+DarkNoteDataTag display:{Name:"<#DarkNoteName#>",Lore:[<#DarkNoteDescription#>]}
+DarkNote <#Item$DarkNoteItemID$DarkNoteDataTag#>
+
+MosesNoteItemID paper
+MosesNoteText1 He calls himself the Saviour, but his
+MosesNoteText2 real name is Moses.
+MosesNoteName <#NoteText$MosesNoteText1#>
+MosesNoteDescription "<#NoteText$MosesNoteText2#>"
+
+MosesNoteDataTag display:{Name:"<#MosesNoteName#>",Lore:[<#MosesNoteDescription#>]}
+MosesNote <#Item$MosesNoteItemID$MosesNoteDataTag#>
+
+ChoiceNoteItemID paper
+ChoiceNoteText1 The mad take power, the sane
+ChoiceNoteText2 take dread.
+ChoiceNoteName <#NoteText$ChoiceNoteText1#>
+ChoiceNoteDescription "<#NoteText$ChoiceNoteText2#>"
+
+ChoiceNoteDataTag display:{Name:"<#ChoiceNoteName#>",Lore:[<#ChoiceNoteDescription#>]}
+ChoiceNote <#Item$ChoiceNoteItemID$ChoiceNoteDataTag#>
+
+CommunionNoteItemID paper
+CommunionNoteText1 This rapturous Daugh communion will
+CommunionNoteText2 be the end of us.
+CommunionNoteName <#NoteText$CommunionNoteText1#>
+CommunionNoteDescription "<#NoteText$CommunionNoteText2#>"
+
+CommunionNoteDataTag display:{Name:"<#CommunionNoteName#>",Lore:[<#CommunionNoteDescription#>]}
+CommunionNote <#Item$CommunionNoteItemID$CommunionNoteDataTag#>
+
+EvangelistsNoteItemID paper
+EvangelistsNoteText1 To find themselves, the evangelists
+EvangelistsNoteText2 cast all selves aside.
+EvangelistsNoteName <#NoteText$EvangelistsNoteText1#>
+EvangelistsNoteDescription "<#NoteText$EvangelistsNoteText2#>"
+
+EvangelistsNoteDataTag display:{Name:"<#EvangelistsNoteName#>",Lore:[<#EvangelistsNoteDescription#>]}
+EvangelistsNote <#Item$EvangelistsNoteItemID$EvangelistsNoteDataTag#>
+
+SafeHouseNoteItemID paper
+SafeHouseNoteText1 safe house - straight across the
+SafeHouseNoteText2 courtyard. jump the gap, climb
+SafeHouseNoteText3 the tower
+SafeHouseNoteName <#NoteText$SafeHouseNoteText1#>
+SafeHouseNoteDescription "<#NoteText$SafeHouseNoteText2#>","<#NoteText$SafeHouseNoteText3#>"
+
+SafeHouseNoteDataTag display:{Name:"<#SafeHouseNoteName#>",Lore:[<#SafeHouseNoteDescription#>]}
+SafeHouseNote <#Item$SafeHouseNoteItemID$SafeHouseNoteDataTag#>
+
+SeraphNoteItemID paper
+SeraphNoteText1 When the Seraph turns around, its
+SeraphNoteText2 true nature is revealed.
+SeraphNoteName <#NoteText$SeraphNoteText1#>
+SeraphNoteDescription "<#NoteText$SeraphNoteText2#>"
+
+SeraphNoteDataTag display:{Name:"<#SeraphNoteName#>",Lore:[<#SeraphNoteDescription#>]}
+SeraphNote <#Item$SeraphNoteItemID$SeraphNoteDataTag#>
+
+TruthNoteItemID paper
+TruthNoteText1 Find the truth in the First
+TruthNoteText2 Vault of Time.
+TruthNoteName <#NoteText$TruthNoteText1#>
+TruthNoteDescription "<#NoteText$TruthNoteText2#>"
+
+TruthNoteDataTag display:{Name:"<#TruthNoteName#>",Lore:[<#TruthNoteDescription#>]}
+TruthNote <#Item$TruthNoteItemID$TruthNoteDataTag#>
+
+WaysNoteItemID paper
+WaysNoteText1 There are two ways to survive
+WaysNoteText2 the reaping, but they are not
+WaysNoteText3 mutually exclusive.
+WaysNoteName <#NoteText$WaysNoteText1#>
+WaysNoteDescription "<#NoteText$WaysNoteText2#>","<#NoteText$WaysNoteText3#>"
+
+WaysNoteDataTag display:{Name:"<#WaysNoteName#>",Lore:[<#WaysNoteDescription#>]}
+WaysNote <#Item$WaysNoteItemID$WaysNoteDataTag#>
+
+BackNoteItemID paper
+BackNoteText1 We threw them back,
+BackNoteText2 survivors no more.
+BackNoteName <#NoteText$BackNoteText1#>
+BackNoteDescription "<#NoteText$BackNoteText2#>"
+
+BackNoteDataTag display:{Name:"<#BackNoteName#>",Lore:[<#BackNoteDescription#>]}
+BackNote <#Item$BackNoteItemID$BackNoteDataTag#>
+
+BricksNoteItemID paper
+BricksNoteText1 We sealed the gate. We laid
+BricksNoteText2 the bricks.
+BricksNoteName <#NoteText$BricksNoteText1#>
+BricksNoteDescription "<#NoteText$BricksNoteText2#>"
+
+BricksNoteDataTag display:{Name:"<#BricksNoteName#>",Lore:[<#BricksNoteDescription#>]}
+BricksNote <#Item$BricksNoteItemID$BricksNoteDataTag#>
+
+FearsNoteItemID paper
+FearsNoteText1 Old fears, long dead, aroused in us
+FearsNoteText2 yet stronger.
+FearsNoteName <#NoteText$FearsNoteText1#>
+FearsNoteDescription "<#NoteText$FearsNoteText2#>"
+
+FearsNoteDataTag display:{Name:"<#FearsNoteName#>",Lore:[<#FearsNoteDescription#>]}
+FearsNote <#Item$FearsNoteItemID$FearsNoteDataTag#>
+
+LostNoteItemID paper
+LostNoteText1 No. What we risked was failure. We
+LostNoteText2 lost our hope.
+LostNoteName <#NoteText$LostNoteText1#>
+LostNoteDescription "<#NoteText$LostNoteText2#>"
+
+LostNoteDataTag display:{Name:"<#LostNoteName#>",Lore:[<#LostNoteDescription#>]}
+LostNote <#Item$LostNoteItemID$LostNoteDataTag#>
+
+OrdersNoteItemID paper
+OrdersNoteText1 From our determined King, our
+OrdersNoteText2 orders came.
+OrdersNoteName <#NoteText$OrdersNoteText1#>
+OrdersNoteDescription "<#NoteText$OrdersNoteText2#>"
+
+OrdersNoteDataTag display:{Name:"<#OrdersNoteName#>",Lore:[<#OrdersNoteDescription#>]}
+OrdersNote <#Item$OrdersNoteItemID$OrdersNoteDataTag#>
+
+RiskNoteItemID paper
+RiskNoteText1 How could we risk it all, even to
+RiskNoteText2 save our friends?
+RiskNoteName <#NoteText$RiskNoteText1#>
+RiskNoteDescription "<#NoteText$RiskNoteText2#>"
+
+RiskNoteDataTag display:{Name:"<#RiskNoteName#>",Lore:[<#RiskNoteDescription#>]}
+RiskNote <#Item$RiskNoteItemID$RiskNoteDataTag#>
+
+TearsNoteItemID paper
+TearsNoteText Our tears will never run dry.
+TearsNoteName <#NoteText$TearsNoteText#>
+
+TearsNoteDataTag display:{Name:"<#TearsNoteName#>"}
+TearsNote <#Item$TearsNoteItemID$TearsNoteDataTag#>
+
+WarningNoteItemID paper
+WarningNoteText1 The warning came, a screaming
+WarningNoteText2 survivor, witness.
+WarningNoteName <#NoteText$WarningNoteText1#>
+WarningNoteDescription "<#NoteText$WarningNoteText2#>"
+
+WarningNoteDataTag display:{Name:"<#WarningNoteName#>",Lore:[<#WarningNoteDescription#>]}
+WarningNote <#Item$WarningNoteItemID$WarningNoteDataTag#>
+
+ANoteItemID paper
+ANoteText1 ...what they do not want to be, yet
+ANoteText2 on some level, what they are.
+ANoteName <#NoteText$ANoteText1#>
+ANoteDescription "<#NoteText$ANoteText2#>"
+
+ANoteDataTag display:{Name:"<#ANoteName#>",Lore:[<#ANoteDescription#>]}
+ANote <#Item$ANoteItemID$ANoteDataTag#>
+
+UnleashNoteItemID paper
+UnleashNoteText1 The tolling of the bell will unleash
+UnleashNoteText2 the power of five sacrifices.
+UnleashNoteName <#NoteText$UnleashNoteText1#>
+UnleashNoteDescription "<#NoteText$UnleashNoteText2#>"
+
+UnleashNoteDataTag display:{Name:"<#UnleashNoteName#>",Lore:[<#UnleashNoteDescription#>]}
+UnleashNote <#Item$UnleashNoteItemID$UnleashNoteDataTag#>
+
+WhenNoteItemID paper
+WhenNoteText1 Only when five crystals are
+WhenNoteText2 activated shall the bell toll.
+WhenNoteName <#NoteText$WhenNoteText1#>
+WhenNoteDescription "<#NoteText$WhenNoteText2#>"
+
+WhenNoteDataTag display:{Name:"<#WhenNoteName#>",Lore:[<#WhenNoteDescription#>]}
+WhenNote <#Item$WhenNoteItemID$WhenNoteDataTag#>
+
+BoatsNoteItemID paper
+BoatsNoteText1 There aren't enough boats. There
+BoatsNoteText2 never would have been...
+BoatsNoteName <#NoteText$BoatsNoteText1#>
+BoatsNoteDescription "<#NoteText$BoatsNoteText2#>"
+
+BoatsNoteDataTag display:{Name:"<#BoatsNoteName#>",Lore:[<#BoatsNoteDescription#>]}
+BoatsNote <#Item$BoatsNoteItemID$BoatsNoteDataTag#>
+
+CindersNoteItemID paper
+CindersNoteText Cinders will not hurt a soul.
+CindersNoteName <#NoteText$CindersNoteText#>
+
+CindersNoteDataTag display:{Name:"<#CindersNoteName#>"}
+CindersNote <#Item$CindersNoteItemID$CindersNoteDataTag#>
+
+FireNoteItemID paper
+FireNoteText1 Fire is the undeads' greatest
+FireNoteText2 weakness, but all creatures
+FireNoteText3 can burn.
+FireNoteName <#NoteText$FireNoteText1#>
+FireNoteDescription "<#NoteText$FireNoteText2#>","<#NoteText$FireNoteText3#>"
+
+FireNoteDataTag display:{Name:"<#FireNoteName#>",Lore:[<#FireNoteDescription#>]}
+FireNote <#Item$FireNoteItemID$FireNoteDataTag#>
+
+HurtNoteItemID paper
+HurtNoteText My daughter's cinders hurt me.
+HurtNoteName <#NoteText$HurtNoteText#>
+
+HurtNoteDataTag display:{Name:"<#HurtNoteName#>"}
+HurtNote <#Item$HurtNoteItemID$HurtNoteDataTag#>
+
+HornsNoteItemID paper
+HornsNoteText1 Keep your distance; The reach of its
+HornsNoteText2 horns is unbelievable...
+HornsNoteName <#NoteText$HornsNoteText1#>
+HornsNoteDescription "<#NoteText$HornsNoteText2#>"
+
+HornsNoteDataTag display:{Name:"<#HornsNoteName#>",Lore:[<#HornsNoteDescription#>]}
+HornsNote <#Item$HornsNoteItemID$HornsNoteDataTag#>
+
+BarsNoteItemID paper
+BarsNoteText That cage won't hold it much longer.
+BarsNoteName <#NoteText$BarsNoteText#>
+
+BarsNoteDataTag display:{Name:"<#BarsNoteName#>"}
+BarsNote <#Item$BarsNoteItemID$BarsNoteDataTag#>
+
+ElsewhereNoteItemID paper
+ElsewhereNoteText1 Why wait here, when it could
+ElsewhereNoteText2 lie elsewhere?
+ElsewhereNoteName <#NoteText$ElsewhereNoteText1#>
+ElsewhereNoteDescription "<#NoteText$ElsewhereNoteText2#>"
+
+ElsewhereNoteDataTag display:{Name:"<#ElsewhereNoteName#>",Lore:[<#ElsewhereNoteDescription#>]}
+ElsewhereNote <#Item$ElsewhereNoteItemID$ElsewhereNoteDataTag#>
+
+LetdownNoteItemID paper
+LetdownNoteText1 With the first choice a letdown, we
+LetdownNoteText2 seek out the next...
+LetdownNoteName <#NoteText$LetdownNoteText1#>
+LetdownNoteDescription "<#NoteText$LetdownNoteText2#>"
+
+LetdownNoteDataTag display:{Name:"<#LetdownNoteName#>",Lore:[<#LetdownNoteDescription#>]}
+LetdownNote <#Item$LetdownNoteItemID$LetdownNoteDataTag#>
+
+DutyNoteItemID paper
+DutyNoteText1 It's New Hoiro's duty to defend us,
+DutyNoteText2 never have they failed.
+DutyNoteName <#NoteText$DutyNoteText1#>
+DutyNoteDescription "<#NoteText$DutyNoteText2#>"
+
+DutyNoteDataTag display:{Name:"<#DutyNoteName#>",Lore:[<#DutyNoteDescription#>]}
+DutyNote <#Item$DutyNoteItemID$DutyNoteDataTag#>
+
+TooManyNoteItemID paper
+TooManyNoteText1 There's too many! Run, hide! Before
+TooManyNoteText2 we become like them.
+TooManyNoteName <#NoteText$TooManyNoteText1#>
+TooManyNoteDescription "<#NoteText$TooManyNoteText2#>"
+
+TooManyNoteDataTag display:{Name:"<#TooManyNoteName#>",Lore:[<#TooManyNoteDescription#>]}
+TooManyNote <#Item$TooManyNoteItemID$TooManyNoteDataTag#>
+
+HoldNoteItemID paper
+HoldNoteText Must hold out, cannot think...
+HoldNoteName <#NoteText$HoldNoteText#>
+
+HoldNoteDataTag display:{Name:"<#HoldNoteName#>"}
+HoldNote <#Item$HoldNoteItemID$HoldNoteDataTag#>
+
+WhereNoteItemID paper
+WhereNoteText1 Where are they? Why has no one
+WhereNoteText2 come for us?
+WhereNoteName <#NoteText$WhereNoteText1#>
+WhereNoteDescription "<#NoteText$WhereNoteText2#>"
+
+WhereNoteDataTag display:{Name:"<#WhereNoteName#>",Lore:[<#WhereNoteDescription#>]}
+WhereNote <#Item$WhereNoteItemID$WhereNoteDataTag#>
+
+TerribleHuntNoteItemID paper
+TerribleHuntNoteText1 We can hear screams from above...
+TerribleHuntNoteText2 Something terrible hunts tonight.
+TerribleHuntNoteName <#NoteText$TerribleHuntNoteText1#>
+TerribleHuntNoteDescription "<#NoteText$TerribleHuntNoteText2#>"
+
+TerribleHuntNoteDataTag display:{Name:"<#TerribleHuntNoteName#>",Lore:[<#TerribleHuntNoteDescription#>]}
+TerribleHuntNote <#Item$TerribleHuntNoteItemID$TerribleHuntNoteDataTag#>
+
+KidnappedFriendsNoteItemID paper
+KidnappedFriendsNoteText1 Waking up to the empty beds, to
+KidnappedFriendsNoteText2 the distant pleas of our
+KidnappedFriendsNoteText3 kidnapped friends...
+KidnappedFriendsNoteName <#NoteText$KidnappedFriendsNoteText1#>
+KidnappedFriendsNoteDescription "<#NoteText$KidnappedFriendsNoteText2#>","<#NoteText$KidnappedFriendsNoteText3#>"
+
+KidnappedFriendsNoteDataTag display:{Name:"<#KidnappedFriendsNoteName#>",Lore:[<#KidnappedFriendsNoteDescription#>]}
+KidnappedFriendsNote <#Item$KidnappedFriendsNoteItemID$KidnappedFriendsNoteDataTag#>
+
+CavernLairNoteItemID paper
+CavernLairNoteText1 That cavern is the lair of all
+CavernLairNoteText2 things evil.
+CavernLairNoteName <#NoteText$CavernLairNoteText1#>
+CavernLairNoteDescription "<#NoteText$CavernLairNoteText2#>"
+
+CavernLairNoteDataTag display:{Name:"<#CavernLairNoteName#>",Lore:[<#CavernLairNoteDescription#>]}
+CavernLairNote <#Item$CavernLairNoteItemID$CavernLairNoteDataTag#>
+
+RisingGravesNoteItemID paper
+RisingGravesNoteText1 Since that caster Gesthiel came... We
+RisingGravesNoteText2 keep rising from our graves.
+RisingGravesNoteName <#NoteText$RisingGravesNoteText1#>
+RisingGravesNoteDescription "<#NoteText$RisingGravesNoteText2#>"
+
+RisingGravesNoteDataTag display:{Name:"<#RisingGravesNoteName#>",Lore:[<#RisingGravesNoteDescription#>]}
+RisingGravesNote <#Item$RisingGravesNoteItemID$RisingGravesNoteDataTag#>
+
+SalvationEventNoteItemID paper
+SalvationEventNoteText1 This is the greatest thing to happen
+SalvationEventNoteText2 to us! Saviour Moses, real salvation!
+SalvationEventNoteName <#NoteText$SalvationEventNoteText1#>
+SalvationEventNoteDescription "<#NoteText$SalvationEventNoteText2#>"
+
+SalvationEventNoteDataTag display:{Name:"<#SalvationEventNoteName#>",Lore:[<#SalvationEventNoteDescription#>]}
+SalvationEventNote <#Item$SalvationEventNoteItemID$SalvationEventNoteDataTag#>
+
+BlockedTrappedNoteItemID paper
+BlockedTrappedNoteText1 They keep pouring in, they've got us
+BlockedTrappedNoteText2 trapped... Trapped!
+BlockedTrappedNoteName <#NoteText$BlockedTrappedNoteText1#>
+BlockedTrappedNoteDescription "<#NoteText$BlockedTrappedNoteText2#>"
+
+BlockedTrappedNoteDataTag display:{Name:"<#BlockedTrappedNoteName#>",Lore:[<#BlockedTrappedNoteDescription#>]}
+BlockedTrappedNote <#Item$BlockedTrappedNoteItemID$BlockedTrappedNoteDataTag#>
+
+FightAllNoteItemID paper
+FightAllNoteText1 We'll never get out, so fight for
+FightAllNoteText2 them all!
+FightAllNoteName <#NoteText$FightAllNoteText1#>
+FightAllNoteDescription "<#NoteText$FightAllNoteText2#>"
+
+FightAllNoteDataTag display:{Name:"<#FightAllNoteName#>",Lore:[<#FightAllNoteDescription#>]}
+FightAllNote <#Item$FightAllNoteItemID$FightAllNoteDataTag#>
+
+SavedThiefNoteItemID paper
+SavedThiefNoteText Saved... By a thief?
+SavedThiefNoteName <#NoteText$SavedThiefNoteText#>
+
+SavedThiefNoteDataTag display:{Name:"<#SavedThiefNoteName#>"}
+SavedThiefNote <#Item$SavedThiefNoteItemID$SavedThiefNoteDataTag#>
+
+GuiltyInnocentNoteItemID paper
+GuiltyInnocentNoteText1 Guilty and innocent both have equal
+GuiltyInnocentNoteText2 status in the eyes of death.
+GuiltyInnocentNoteName <#NoteText$GuiltyInnocentNoteText1#>
+GuiltyInnocentNoteDescription "<#NoteText$GuiltyInnocentNoteText2#>"
+
+GuiltyInnocentNoteDataTag display:{Name:"<#GuiltyInnocentNoteName#>",Lore:[<#GuiltyInnocentNoteDescription#>]}
+GuiltyInnocentNote <#Item$GuiltyInnocentNoteItemID$GuiltyInnocentNoteDataTag#>
+
+DoomInnocentNoteItemID paper
+DoomInnocentNoteText1 Is this our doom? If so... Can we
+DoomInnocentNoteText2 even be innocent?
+DoomInnocentNoteName <#NoteText$DoomInnocentNoteText1#>
+DoomInnocentNoteDescription "<#NoteText$DoomInnocentNoteText2#>"
+
+DoomInnocentNoteDataTag display:{Name:"<#DoomInnocentNoteName#>",Lore:[<#DoomInnocentNoteDescription#>]}
+DoomInnocentNote <#Item$DoomInnocentNoteItemID$DoomInnocentNoteDataTag#>
+
+LockedHellNoteItemID paper
+LockedHellNoteText Die! She locked them in hell to die!
+LockedHellNoteName <#NoteText$LockedHellNoteText#>
+
+LockedHellNoteDataTag display:{Name:"<#LockedHellNoteName#>"}
+LockedHellNote <#Item$LockedHellNoteItemID$LockedHellNoteDataTag#>
+
+StrongestKnightsNoteItemID paper
+StrongestKnightsNoteText1 We still have the strongest knights,
+StrongestKnightsNoteText2 they'll save us for certain...
+StrongestKnightsNoteName <#NoteText$StrongestKnightsNoteText1#>
+StrongestKnightsNoteDescription "<#NoteText$StrongestKnightsNoteText2#>"
+
+StrongestKnightsNoteDataTag display:{Name:"<#StrongestKnightsNoteName#>",Lore:[<#StrongestKnightsNoteDescription#>]}
+StrongestKnightsNote <#Item$StrongestKnightsNoteItemID$StrongestKnightsNoteDataTag#>
+
+WallsForeverNoteItemID paper
+WallsForeverNoteText1 Can the walls really hold the
+WallsForeverNoteText2 reapers out forever?
+WallsForeverNoteName <#NoteText$WallsForeverNoteText1#>
+WallsForeverNoteDescription "<#NoteText$WallsForeverNoteText2#>"
+
+WallsForeverNoteDataTag display:{Name:"<#WallsForeverNoteName#>",Lore:[<#WallsForeverNoteDescription#>]}
+WallsForeverNote <#Item$WallsForeverNoteItemID$WallsForeverNoteDataTag#>
+
+UndeadCeaseNoteItemID paper
+UndeadCeaseNoteText1 How long can this last? Reapers
+UndeadCeaseNoteText2 or not, the undead never cease
+UndeadCeaseNoteText3 their attacks.
+UndeadCeaseNoteName <#NoteText$UndeadCeaseNoteText1#>
+UndeadCeaseNoteDescription "<#NoteText$UndeadCeaseNoteText2#>","<#NoteText$UndeadCeaseNoteText3#>"
+
+UndeadCeaseNoteDataTag display:{Name:"<#UndeadCeaseNoteName#>",Lore:[<#UndeadCeaseNoteDescription#>]}
+UndeadCeaseNote <#Item$UndeadCeaseNoteItemID$UndeadCeaseNoteDataTag#>
+
+FriendsAttackNoteItemID paper
+FriendsAttackNoteText1 How many more friends will turn and
+FriendsAttackNoteText2 attack us?
+FriendsAttackNoteName <#NoteText$FriendsAttackNoteText1#>
+FriendsAttackNoteDescription "<#NoteText$FriendsAttackNoteText2#>"
+
+FriendsAttackNoteDataTag display:{Name:"<#FriendsAttackNoteName#>",Lore:[<#FriendsAttackNoteDescription#>]}
+FriendsAttackNote <#Item$FriendsAttackNoteItemID$FriendsAttackNoteDataTag#>
+
+Mantra1NoteItemID paper
+Mantra1NoteText1 Unity, equality and faith, we will
+Mantra1NoteText2 never be reaped...
+Mantra1NoteName <#NoteText$Mantra1NoteText1#>
+Mantra1NoteDescription "<#NoteText$Mantra1NoteText2#>"
+
+Mantra1NoteDataTag display:{Name:"<#Mantra1NoteName#>",Lore:[<#Mantra1NoteDescription#>]}
+Mantra1Note <#Item$Mantra1NoteItemID$Mantra1NoteDataTag#>
+
+Mantra2NoteItemID paper
+Mantra2NoteText Never be reaped, unity, equality...?
+Mantra2NoteName <#NoteText$Mantra2NoteText#>
+
+Mantra2NoteDataTag display:{Name:"<#Mantra2NoteName#>"}
+Mantra2Note <#Item$Mantra2NoteItemID$Mantra2NoteDataTag#>
+
+NeverRiseNoteItemID paper
+NeverRiseNoteText1 Burn them to ash, let it never
+NeverRiseNoteText2 rise again!
+NeverRiseNoteName <#NoteText$NeverRiseNoteText1#>
+NeverRiseNoteDescription "<#NoteText$NeverRiseNoteText2#>"
+
+NeverRiseNoteDataTag display:{Name:"<#NeverRiseNoteName#>",Lore:[<#NeverRiseNoteDescription#>]}
+NeverRiseNote <#Item$NeverRiseNoteItemID$NeverRiseNoteDataTag#>
+
+SafePromiseNoteItemID paper
+SafePromiseNoteText You'll be safe, I promise, don't fear.
+SafePromiseNoteName <#NoteText$SafePromiseNoteText#>
+
+SafePromiseNoteDataTag display:{Name:"<#SafePromiseNoteName#>"}
+SafePromiseNote <#Item$SafePromiseNoteItemID$SafePromiseNoteDataTag#>
+
+ReapingStopsNoteItemID paper
+ReapingStopsNoteText On our lives, the reaping stops here!
+ReapingStopsNoteName <#NoteText$ReapingStopsNoteText#>
+
+ReapingStopsNoteDataTag display:{Name:"<#ReapingStopsNoteName#>"}
+ReapingStopsNote <#Item$ReapingStopsNoteItemID$ReapingStopsNoteDataTag#>
+
+DestroyBridgeNoteItemID paper
+DestroyBridgeNoteText1 Take out the bridge, don't let
+DestroyBridgeNoteText2 them cross!
+DestroyBridgeNoteName <#NoteText$DestroyBridgeNoteText1#>
+DestroyBridgeNoteDescription "<#NoteText$DestroyBridgeNoteText2#>"
+
+DestroyBridgeNoteDataTag display:{Name:"<#DestroyBridgeNoteName#>",Lore:[<#DestroyBridgeNoteDescription#>]}
+DestroyBridgeNote <#Item$DestroyBridgeNoteItemID$DestroyBridgeNoteDataTag#>
+
+ValuableSecretkeeperNoteItemID paper
+ValuableSecretkeeperNoteText1 You are too valuable; You must leave
+ValuableSecretkeeperNoteText2 now, Secretkeeper.
+ValuableSecretkeeperNoteName <#NoteText$ValuableSecretkeeperNoteText1#>
+ValuableSecretkeeperNoteDescription "<#NoteText$ValuableSecretkeeperNoteText2#>"
+
+ValuableSecretkeeperNoteDataTag display:{Name:"<#ValuableSecretkeeperNoteName#>",Lore:[<#ValuableSecretkeeperNoteDescription#>]}
+ValuableSecretkeeperNote <#Item$ValuableSecretkeeperNoteItemID$ValuableSecretkeeperNoteDataTag#>
+
+RiskSteadNoteItemID paper
+RiskSteadNoteText1 I cannot. No other shall risk their
+RiskSteadNoteText2 life in my stead for my people.
+RiskSteadNoteName <#NoteText$RiskSteadNoteText1#>
+RiskSteadNoteDescription "<#NoteText$RiskSteadNoteText2#>"
+
+RiskSteadNoteDataTag display:{Name:"<#RiskSteadNoteName#>",Lore:[<#RiskSteadNoteDescription#>]}
+RiskSteadNote <#Item$RiskSteadNoteItemID$RiskSteadNoteDataTag#>
+
+BeyondDeathNoteItemID paper
+BeyondDeathNoteText1 As always, my Queen. Even through
+BeyondDeathNoteText2 death and beyond.
+BeyondDeathNoteName <#NoteText$BeyondDeathNoteText1#>
+BeyondDeathNoteDescription "<#NoteText$BeyondDeathNoteText2#>"
+
+BeyondDeathNoteDataTag display:{Name:"<#BeyondDeathNoteName#>",Lore:[<#BeyondDeathNoteDescription#>]}
+BeyondDeathNote <#Item$BeyondDeathNoteItemID$BeyondDeathNoteDataTag#>

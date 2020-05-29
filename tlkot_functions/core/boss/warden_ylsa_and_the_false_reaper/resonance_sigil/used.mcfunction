@@ -1,0 +1,3 @@
+kill @s
+
+execute if entity @a[x=33,y=213,z=306,dx=6,dy=4,dz=6,scores={P5Prepared=0}] run function tlkot:<~>/prepare_crystal

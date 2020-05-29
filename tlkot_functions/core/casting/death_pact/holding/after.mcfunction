@@ -1,0 +1,1 @@
+execute if entity @a[tag=DeathPact] run function tlkot:core/casting/death_pact/active/main

@@ -1,0 +1,1 @@
+execute at @s run tp @s ~ ~ ~ facing entity @a[limit=1]

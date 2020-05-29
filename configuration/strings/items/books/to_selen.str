@@ -1,0 +1,14 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ","
+#join loot_tables ","
+
+ToSelenItemID written_book
+ToSelenAuthor A Fisherman of Tyre
+ToSelenTitle To Selen
+ToSelenPages Dear Selen,<Newline><Newline>I do hope you read this. These are my final moments of awareness before the end.<Newline><Newline>Do I regret my choice? No. No, it was the right choice, and it is not my choice that I question, but rather my reasoning. You see,
+ToSelenPages my life is not an altogether precious commodity, so when I die my work and my name will be lost to the mists of time.<Newline><Newline>Unless, of course, I do something worth remembering.<Newline><Newline>Good luck to you, and goodbye.
+
+ToSelenDataTag author:"<#ToSelenAuthor#>",title:"<#ToSelenTitle#>",resolved:1b,pages:["<#ToSelenPages#>"]
+ToSelen <#Item$ToSelenItemID$ToSelenDataTag#>

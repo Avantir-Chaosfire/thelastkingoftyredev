@@ -1,0 +1,1 @@
+execute if entity @s[nbt={OnGround:1b}] run function tlkot:toivczad918j8u_qnylp7ohfwpz4espvufhc3i4o

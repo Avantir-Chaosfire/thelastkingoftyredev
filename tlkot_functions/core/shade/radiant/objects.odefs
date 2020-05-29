@@ -1,0 +1,5 @@
+head $ head $ Head $ 103
+inactive_chest $ chest $ Chest $ 102
+active_chest $ chest $ ActiveChest $ 102
+legs $ legs $ Legs $ 101
+feet $ feet $ Feet $ 100

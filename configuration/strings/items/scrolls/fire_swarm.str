@@ -1,0 +1,68 @@
+#include exploding_creeper
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+FadedFireSwarmScrollItemID ink_sac
+FadedFireSwarmScrollNameText Faded Fire Swarm Scroll
+FadedFireSwarmScrollNameColour dark_purple
+FadedFireSwarmScrollName <#ItemName$FadedFireSwarmScrollNameText$FadedFireSwarmScrollNameColour#>
+FadedFireSwarmScrollDescription <#LoreLine$The symbols have worn#>
+FadedFireSwarmScrollDescription <#LoreLine$away; Unusable.#>
+
+FadedFireSwarmScrollDataTag display:{Name:"<#FadedFireSwarmScrollName#>",Lore:[<#FadedFireSwarmScrollDescription#>]},HoldingID:<#FadedFireSwarmScrollHoldingID#>
+FadedFireSwarmScroll <#Item$FadedFireSwarmScrollItemID$FadedFireSwarmScrollDataTag#>
+
+FireSwarmScrollItemID fishing_rod
+FireSwarmScrollNameText Fire Swarm Scroll, Class 4
+FireSwarmScrollNameColour dark_red
+FireSwarmScrollName <#ItemName$FireSwarmScrollNameText$FireSwarmScrollNameColour#>
+FireSwarmScrollDescription <#LoreLine$Starts a chain reaction, much like#>
+FireSwarmScrollDescription <#LoreLine$the strike of a match. The invention#>
+FireSwarmScrollDescription <#LoreLine$of this scroll forced an entire#>
+FireSwarmScrollDescription <#LoreLine$rewrite of the ways of warfare,#>
+FireSwarmScrollDescription <#LoreLine$from which a satisfying resolution#>
+FireSwarmScrollDescription <#LoreLine$has yet to be reached.#>
+FireSwarmScrollDescription <#StatsLine#>
+FireSwarmScrollStats <#LoreLine$Create a Contagious Explosion#>
+
+FireSwarmScrollDataTag display:{Name:"<#FireSwarmScrollName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:16,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
+FireSwarmScroll <#Item$FireSwarmScrollItemID$FireSwarmScrollDataTag#>
+
+FireSwarmScrollActiveNameText <#FireSwarmScrollNameText#> (Active)
+FireSwarmScrollActiveName <#ItemName$FireSwarmScrollActiveNameText$FireSwarmScrollNameColour#>
+
+FireSwarmScrollActiveDataTag display:{Name:"<#FireSwarmScrollActiveName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:32,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
+FireSwarmScrollActive <#Item$FireSwarmScrollItemID$FireSwarmScrollActiveDataTag#>
+
+FireSwarmWill0Cost 19
+FireSwarmWill1Cost 19
+FireSwarmWill2Cost 18
+FireSwarmWill3Cost 18
+FireSwarmWill4Cost 17
+FireSwarmWill5Cost 17
+
+FireSwarmWill0Time 60
+FireSwarmWill1Time 60
+FireSwarmWill2Time 60
+FireSwarmWill3Time 60
+FireSwarmWill4Time 60
+FireSwarmWill5Time 60
+
+FireSwarmWill0TimeIncrease 40
+FireSwarmWill1TimeIncrease 36
+FireSwarmWill2TimeIncrease 32
+FireSwarmWill3TimeIncrease 28
+FireSwarmWill4TimeIncrease 24
+FireSwarmWill5TimeIncrease 20
+
+FireSwarmSeed ‘Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Tags:["FireSeed","New"]‘
+
+FireSwarmWill0Creeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Fire Swarm Explosion\"}",ExplosionRadius:3b‘
+FireSwarmWill12Creeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Fire Swarm Explosion\"}",ExplosionRadius:4b‘
+FireSwarmWill34Creeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Fire Swarm Explosion\"}",ExplosionRadius:5b‘
+FireSwarmWill5Creeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Fire Swarm Explosion\"}",ExplosionRadius:6b‘

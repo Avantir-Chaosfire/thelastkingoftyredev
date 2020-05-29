@@ -1,0 +1,2 @@
+execute if entity @a[tag=CursedVariant] run function tlkot:core/weapon/life_bane/variant/cursed/main
+execute if entity @a[tag=PurifiedVariant] run function tlkot:core/weapon/life_bane/variant/purified/main
