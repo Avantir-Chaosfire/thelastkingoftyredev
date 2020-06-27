@@ -1,5 +1,6 @@
 scoreboard players set @a d2Ca.dirkAgGp6Qw 0
 scoreboard players set @a .MIdEKFSIgEFqj42 0
+bossbar set tlkot:fates_puppeteer players @a
 scoreboard players set @a yHvSD.aRhtLTeJj4 0
 scoreboard players set @a ZpPhk3MN8_U5e+_Z 0
 scoreboard players set @a IatnnYj_k4b9S_pd 0
