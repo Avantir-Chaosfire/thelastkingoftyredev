@@ -45,3 +45,4 @@ execute if entity @s[tag=Y.M5yXsa-i4WSC1nx0iBq5hTNYc14kxWPipqmfZF] run function 
 execute if entity @s[tag=MtZEZyOf0vqK5byNHorF6vfRIN0XfXqvW+0OF2KZ] run function tlkot:hriw9o62kg8fr_yvka7hf8nwikx0p6ucdw3fvapg
 execute if entity @s[tag=_BIcZhvtBs7XmA+Vul.U9s+mN.TxCYKVeqoOB9Vh] run function tlkot:pjilxxrwxkqfr3scq8eyovcghd0w51m_8y4-lc-q
 execute if entity @s[tag=lty8psEUr+vDLGlksHR4pFak2J58jlJ-FQdQ.DGA] run function tlkot:llevwr210havkv3uo1w10jppxdc_eovblyocukc9
+execute if entity @s[tag=CNXozC2kqLO421.Yz3pgrxWGvQBcPvMZecGm+jtx] run function tlkot:i1d3ojz5avpunm-z_a4w9_vdm07zfzk_3x07qkvb
