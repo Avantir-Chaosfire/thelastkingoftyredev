@@ -39,6 +39,14 @@ Foreword:
 		-Disable cheats
 		-Rename save file to remove "[Dev]"
 
+	Post-Release:
+		-Intangible reapers take damage from the Heavy Battle Axe
+		-Iron guard reapers should only gain speed from 3+ damage
+		-Ashen Talisman doesn't indicate health requirement
+		-"If you go up the stairs from the [upper depths] binding point you can jump onto some logs and from there get onto the arches that cross the area. From there you can drop into a few later sections of the zone"
+		-Give Desiccating Carapaces for defeating Shade Caster in addition to button
+		-Sac Knife & New Prophet absorption don't work thanks to challenge knight set - should only clear absorption when you lose the tag and don't get it back
+
 Upgrading:
 	1.15 Changes Required:
 		-Full re-test of Disgraceful Beast fight (Slimes/Magma Cubes now use attributes)
