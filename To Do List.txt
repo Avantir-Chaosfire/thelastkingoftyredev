@@ -51,6 +51,32 @@ Foreword:
 		-spyglass in astrologist's loft
 		-nerf desolate
 		-can yante talk to you after becoming a reaper?
+		-test casting hq main entrance
+		-test if block changes, alrteady adjusted (not tested) for:
+			-backup lock
+			-door lever
+			-locked doors
+			-seal
+			-shade lighthouse
+			-smoke beast lever
+			-burners
+			-blackout switch
+			-cavern rising water room switch
+			-drowning cage
+			-lever gates
+			-government tunnel tripwires
+			-pit traps
+			-psych ward tripwires
+			-dar trap
+			-yante reaper
+		-test replaceitem changes:
+			-ashen talisman
+			-shield disabling
+			-armour set bonuses
+			-all scrolls
+			-dull/radiant armour/weapon
+			-two handing weapons
+		-More distinct sprite for fountain water full/empty
 
 		Level design:
 			-moving tyre reaches key?
