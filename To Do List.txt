@@ -19,7 +19,6 @@ Foreword:
 		-Punching bags stick around after leaving tutorial, if you return without dying
 		-Oogieface had one of the two final Dread Hosts in the shade caster fight permanently stop spawning
 		-Giant Spider Fang slow doesn't work with Radiant set equipped
-		-Fireball gives True Assassin achievement
 
 	Release Procedure:
 		-Make backup
@@ -43,9 +42,22 @@ Foreword:
 		-Intangible reapers take damage from the Heavy Battle Axe
 		-Iron guard reapers should only gain speed from 3+ damage
 		-Ashen Talisman doesn't indicate health requirement
-		-"If you go up the stairs from the [upper depths] binding point you can jump onto some logs and from there get onto the arches that cross the area. From there you can drop into a few later sections of the zone"
-		-Give Desiccating Carapaces for defeating Shade Caster in addition to button
 		-Sac Knife & New Prophet absorption don't work thanks to challenge knight set - should only clear absorption when you lose the tag and don't get it back
+		-You can permanently lose items in map item frames in Enshadowed Thrones
+		-Can attack with Life Bane at <5 stamina
+		-ashen talisman tooltip
+		-crystal guardian name tag visibility
+		-Fireball gives True Assassin achievement
+		-spyglass in astrologist's loft
+		-nerf desolate
+		-can yante talk to you after becoming a reaper?
+
+		Level design:
+			-moving tyre reaches key?
+			-glowering mines more obvious
+			-Give Desiccating Carapaces for defeating Shade Caster in addition to button
+			-psych ward parkour
+			-vanishing key shortcut
 
 Upgrading:
 	1.15 Changes Required:
@@ -53,18 +65,24 @@ Upgrading:
 		-Locked chest texture broken
 		-Enchantment glint texture broken
 		-Remove arrow particles (Kurnas, Hanging Pole, Kiermert, local_event/arrow_trap, local_event/blood_sigil_tutorial, one_second/local_event/arrow_trap)
-		-Data pack version changed to 5
-		-Resource pack version changed to 5
+		-Data pack version changed to 5 (or 6 or 7?)
+		-Resource pack version changed to 5 (or 6 or 7?)
 		-Commands executing "if block" checks every tick are keeping chunks loaded. "if block" checks need preconditions to limit their checks and allow the chunks to unload. This must respect the ability to reset the map during the release process.
+		-Living Mass laser beam is mostly invisible
+			-May need to edit "Time" in level.dat - see MC-165595
 
 	1.16 Changes Required:
 		-Update all attribute names
 		-Change all references to "zombie_pigman" to "zombified_piglin"
 		-Change all single drop blood splatters to dots, so the texture doesn't overlap with itself
-		-Investigate interaction of shulkers/stone guardians pushing spawn points (Due to a bug, they can push marker armor stands)
+		-Investigate interaction of shulkers/stone guardians pushing spawn points (Due to a bug, they can push marker armor stands) [Fixed in 1.17]
 		-Change nose and ears of zombified piglin texture to be invisible, and fix the Noble Reaper texture
 		-Set gamerule forgiveDeadPlayers true
 		-Set gamerule universalAnger false
 
-	Known Bugs on 1.15:
-		-Living Mass laser beam is mostly invisible
+	1.17 Notes:
+		-shulkers can spawn other shulkers by attacking each other
+		-maximum slime size is 128
+		-variable world height
+		-chain block
+		-bug regarding ungenerated loot - make sure loot table reset, even when chest contents are present, works and doesn't drop items (MC-225394)
