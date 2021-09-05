@@ -1,0 +1,1 @@
+execute as @e[tag=PitTrap] at @s run function tlkot:<~>/process

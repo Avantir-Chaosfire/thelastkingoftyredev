@@ -39,32 +39,7 @@ Foreword:
 		-Disable cheats
 		-Rename save file to remove "[Dev]"
 
-	Post-Release:
-		-Intangible reapers take damage from the Heavy Battle Axe
-		-Iron guard reapers should only gain speed from 3+ damage
-		-Ashen Talisman doesn't indicate health requirement
-		-"If you go up the stairs from the [upper depths] binding point you can jump onto some logs and from there get onto the arches that cross the area. From there you can drop into a few later sections of the zone"
-		-Give Desiccating Carapaces for defeating Shade Caster in addition to button
-		-Sac Knife & New Prophet absorption don't work thanks to challenge knight set - should only clear absorption when you lose the tag and don't get it back
-
-Upgrading:
-	1.15 Changes Required:
-		-Full re-test of Disgraceful Beast fight (Slimes/Magma Cubes now use attributes)
-		-Locked chest texture broken
-		-Enchantment glint texture broken
-		-Remove arrow particles (Kurnas, Hanging Pole, Kiermert, local_event/arrow_trap, local_event/blood_sigil_tutorial, one_second/local_event/arrow_trap)
-		-Data pack version changed to 5
-		-Resource pack version changed to 5
-		-Commands executing "if block" checks every tick are keeping chunks loaded. "if block" checks need preconditions to limit their checks and allow the chunks to unload. This must respect the ability to reset the map during the release process.
-
-	1.16 Changes Required:
-		-Update all attribute names
-		-Change all references to "zombie_pigman" to "zombified_piglin"
-		-Change all single drop blood splatters to dots, so the texture doesn't overlap with itself
-		-Investigate interaction of shulkers/stone guardians pushing spawn points (Due to a bug, they can push marker armor stands)
-		-Change nose and ears of zombified piglin texture to be invisible, and fix the Noble Reaper texture
-		-Set gamerule forgiveDeadPlayers true
-		-Set gamerule universalAnger false
-
-	Known Bugs on 1.15:
-		-Living Mass laser beam is mostly invisible
+-What happens when you Burning Salt the Evangelist? Does it agro?
+-You can skip to bow and upper depths from Ixinik
+-You can get out of bounds to Alaeborous Crypt by using enrage's speed to jump over the fence
+-Xinsu disappears?

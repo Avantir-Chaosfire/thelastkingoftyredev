@@ -20,7 +20,7 @@ HeartOfTheGolemStats <#LoreLine$Armour Doesn\'t Reduce Stamina#>
 HeartOfTheGolemStats <#LoreLine$  Regeneration#>
 HeartOfTheGolemStats <#LoreLine$+4 <#Toughness#>#>
 HeartOfTheGolemStats <#LoreLine$Slow Weapon#>
-HeartOfTheGolemTags AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:-1023,UUIDLeast:6334970,UUIDMost:8893227},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:4,UUIDLeast:73668539,UUIDMost:5729013}],HideFlags:34,HoldingID:<#HeartOfTheGolemHoldingID#>
+HeartOfTheGolemTags AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:-1023,UUIDLeast:6334970,UUIDMost:8893227},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:4,UUIDLeast:73668539,UUIDMost:5729013}],HideFlags:34,HoldingID:<#HeartOfTheGolemHoldingID#>
 
 HeartOfTheGolemDataTag display:{Name:"<#HeartOfTheGolemName#>",Lore:[<#HeartOfTheGolemDescription#>,<#HeartOfTheGolemStats#>]},<#HeartOfTheGolemTags#>
 HeartOfTheGolem <#Item$HeartOfTheGolemItemID$HeartOfTheGolemDataTag#>

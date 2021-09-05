@@ -1,5 +1,4 @@
 function tlkot:<~>/burrows_trap
-function tlkot:<~>/casting_lab_01_blackout
 function tlkot:<~>/cavern_hall_floor_trap
 function tlkot:<~>/fall_from_sky
 function tlkot:<~>/pit_traps
@@ -13,6 +12,7 @@ function tlkot:<~>/arrow_trap/main
 function tlkot:<~>/burner/main
 function tlkot:<~>/bridge_collapse/main
 function tlkot:<~>/blood_sigil_tutorial/main
+function tlkot:<~>/casting_lab_01_blackout/main
 function tlkot:<~>/cavern_water_trap/main
 function tlkot:<~>/cavern_rising_water_room/main
 function tlkot:<~>/cursed_pools/main

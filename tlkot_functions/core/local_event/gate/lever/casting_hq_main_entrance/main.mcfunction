@@ -1,1 +1,0 @@
-execute if block 16 255 176 minecraft:air run function tlkot:<~>/loaded

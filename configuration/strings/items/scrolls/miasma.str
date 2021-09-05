@@ -18,13 +18,13 @@ MiasmaScrollDescription <#LoreLine$mimic their nature.#>
 MiasmaScrollDescription <#StatsLine#>
 MiasmaScrollStats <#LoreLine$Create a Noxious Spore Cloud#>
 
-MiasmaScrollDataTag display:{Name:"<#MiasmaScrollName#>",Lore:[<#MiasmaScrollDescription#>,<#MiasmaScrollStats#>]},HoldingID:<#MiasmaScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:20,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946855,UUIDMost:-4678566,Slot:"mainhand"}]
+MiasmaScrollDataTag display:{Name:"<#MiasmaScrollName#>",Lore:[<#MiasmaScrollDescription#>,<#MiasmaScrollStats#>]},HoldingID:<#MiasmaScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:20,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946855,UUIDMost:-4678566,Slot:"mainhand"}]
 MiasmaScroll <#Item$MiasmaScrollItemID$MiasmaScrollDataTag#>
 
 MiasmaScrollActiveNameText <#MiasmaScrollNameText#> (Active)
 MiasmaScrollActiveName <#ItemName$MiasmaScrollActiveNameText$MiasmaScrollNameColour#>
 
-MiasmaScrollActiveDataTag display:{Name:"<#MiasmaScrollActiveName#>",Lore:[<#MiasmaScrollDescription#>,<#MiasmaScrollStats#>]},HoldingID:<#MiasmaScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:36,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946855,UUIDMost:-4678566,Slot:"mainhand"}]
+MiasmaScrollActiveDataTag display:{Name:"<#MiasmaScrollActiveName#>",Lore:[<#MiasmaScrollDescription#>,<#MiasmaScrollStats#>]},HoldingID:<#MiasmaScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:36,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946855,UUIDMost:-4678566,Slot:"mainhand"}]
 MiasmaScrollActive <#Item$MiasmaScrollItemID$MiasmaScrollActiveDataTag#>
 
 MiasmaCloudTags Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["Miasma","Versioned","Killable"]

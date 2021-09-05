@@ -2,7 +2,7 @@
 
 ShadeCasterHealth 240000
 
-BaseShadeCasterTags CustomName:"{\"text\":\"Shade Caster\"}",PersistenceRequired:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:1000.0d},{Name:"generic.movementSpeed",Base:0}],Health:1000.0f,Tags:["ShadeCaster","Versioned","Dumpable","EnemyUnit","HasAI","AI.Undead","AI.HealthScore","UsesHitScore"<1>],Silent:1b,ArmorItems:[{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}]
+BaseShadeCasterTags CustomName:"{\"text\":\"Shade Caster\"}",PersistenceRequired:1b,NoAI:1b,Attributes:[{Name:"generic.max_health",Base:1000.0d},{Name:"generic.movement_speed",Base:0}],Health:1000.0f,Tags:["ShadeCaster","Versioned","Dumpable","EnemyUnit","HasAI","AI.Undead","AI.HealthScore","UsesHitScore"<1>],Silent:1b,ArmorItems:[{id:"bone",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}]
 
 ShadeCasterStationaryTags <#BaseShadeCasterTags$#>,Rotation:[90.0f,35.0f]
 

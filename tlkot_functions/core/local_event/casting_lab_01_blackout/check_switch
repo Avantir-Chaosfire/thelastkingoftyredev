@@ -1,0 +1,2 @@
+execute if block 385 58 269 minecraft:lever[powered=true] run scoreboard players set @a[scores={BlackoutSwitch=0}] BlackoutSwitch 1
+execute if block 385 58 269 minecraft:lever[powered=false] run scoreboard players set @a[scores={BlackoutSwitch=1}] BlackoutSwitch 0

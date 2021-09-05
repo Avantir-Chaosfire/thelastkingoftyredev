@@ -30,13 +30,13 @@ FireSwarmScrollDescription <#LoreLine$has yet to be reached.#>
 FireSwarmScrollDescription <#StatsLine#>
 FireSwarmScrollStats <#LoreLine$Create a Contagious Explosion#>
 
-FireSwarmScrollDataTag display:{Name:"<#FireSwarmScrollName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:16,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
+FireSwarmScrollDataTag display:{Name:"<#FireSwarmScrollName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:16,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
 FireSwarmScroll <#Item$FireSwarmScrollItemID$FireSwarmScrollDataTag#>
 
 FireSwarmScrollActiveNameText <#FireSwarmScrollNameText#> (Active)
 FireSwarmScrollActiveName <#ItemName$FireSwarmScrollActiveNameText$FireSwarmScrollNameColour#>
 
-FireSwarmScrollActiveDataTag display:{Name:"<#FireSwarmScrollActiveName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:32,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
+FireSwarmScrollActiveDataTag display:{Name:"<#FireSwarmScrollActiveName#>",Lore:[<#FireSwarmScrollDescription#>,<#FireSwarmScrollStats#>]},HoldingID:<#FireSwarmScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:32,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468513,UUIDMost:-46785614,Slot:"mainhand"}]
 FireSwarmScrollActive <#Item$FireSwarmScrollItemID$FireSwarmScrollActiveDataTag#>
 
 FireSwarmWill0Cost 19

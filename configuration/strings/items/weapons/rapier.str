@@ -24,7 +24,7 @@ BaseRapierNameText Rapier
 BaseRapierName <#ItemName$BaseRapierNameText$RapierNameColour#>
 BaseRapierStats <#WeaponStats$Rapier#>
 BaseRapierStats <#LoreLine$+1.8 <#StaminaRegeneration#>#>
-BaseRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,HoldingID:<#BaseRapierHoldingID#>
+BaseRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,HoldingID:<#BaseRapierHoldingID#>
 
 BaseRapierDataTag display:{Name:"<#BaseRapierName#>",Lore:[<#RapierDescription#>,<#BaseRapierStats#>]},<#BaseRapierTags#>
 BaseRapier <#Item$BaseRapierItemID$BaseRapierDataTag#>
@@ -35,7 +35,7 @@ BloodyRapierName <#ItemName$BloodyRapierNameText$RapierNameColour#>
 BloodyRapierStats <#WeaponStats$Rapier#>
 BloodyRapierStats <#LoreLine$+1.8 <#StaminaRegeneration#>#>
 BloodyRapierStats <#LoreLine$Attacking Reduces Rapier Stamina Cost#>
-BloodyRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BloodyRapierHoldingID#>
+BloodyRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BloodyRapierHoldingID#>
 
 BloodyRapierDataTag display:{Name:"<#BloodyRapierName#>",Lore:[<#RapierDescription#>,<#BloodyRapierStats#>]},<#BloodyRapierTags#>
 BloodyRapier <#Item$BloodyRapierItemID$BloodyRapierDataTag#>
@@ -48,7 +48,7 @@ GuardedRapierStats <#LoreLine$+1.8 <#StaminaRegeneration#>#>
 GuardedRapierStats <#LoreLine$+5 <#Toughness#>#>
 GuardedRapierStats <#LoreLine$+4 <#Armour#>#>
 GuardedRapierStats <#LoreLine$<#Weight#>: 2.0#>
-GuardedRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:97400437,UUIDMost:5507375,Slot:"mainhand"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Operation:0,Amount:5,UUIDLeast:204794,UUIDMost:4893100,Slot:"mainhand"}],HideFlags:6,HoldingID:<#GuardedRapierHoldingID#>
+GuardedRapierTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RapierDamage 1 -#>,Operation:0,UUIDLeast:73475,UUIDMost:923636,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:97400437,UUIDMost:5507375,Slot:"mainhand"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:5,UUIDLeast:204794,UUIDMost:4893100,Slot:"mainhand"}],HideFlags:6,HoldingID:<#GuardedRapierHoldingID#>
 
 GuardedRapierDataTag display:{Name:"<#GuardedRapierName#>",Lore:[<#RapierDescription#>,<#GuardedRapierStats#>]},<#GuardedRapierTags#>
 GuardedRapier <#Item$GuardedRapierItemID$GuardedRapierDataTag#>

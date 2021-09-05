@@ -25,13 +25,13 @@ EnergyTapScrollStats <#LoreLine$Use <#Health#> Instead of Stamina#>
 EnergyTapScrollStats <#LoreLine$<#Health#> Consumed at 1/3rd the#>
 EnergyTapScrollStats <#LoreLine$  Stamina Cost#>
 
-EnergyTapScrollDataTag display:{Name:"<#EnergyTapScrollName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:14,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
+EnergyTapScrollDataTag display:{Name:"<#EnergyTapScrollName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:14,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
 EnergyTapScroll <#Item$EnergyTapScrollItemID$EnergyTapScrollDataTag#>
 
 EnergyTapScrollActiveNameText <#EnergyTapScrollNameText#> (Active)
 EnergyTapScrollActiveName <#ItemName$EnergyTapScrollActiveNameText$EnergyTapScrollNameColour#>
 
-EnergyTapScrollActiveDataTag display:{Name:"<#EnergyTapScrollActiveName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:30,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
+EnergyTapScrollActiveDataTag display:{Name:"<#EnergyTapScrollActiveName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:30,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
 EnergyTapScrollActive <#Item$EnergyTapScrollItemID$EnergyTapScrollActiveDataTag#>
 
 EnergyTapWill0Cost 13

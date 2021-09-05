@@ -27,7 +27,7 @@ AshenTalismanActiveNameText Ashen Talisman (Active)
 AshenTalismanActiveName <#ItemName$AshenTalismanActiveNameText$AshenTalismanNameColour#>
 AshenTalismanActiveDescription <#AshenTalismanDescription#>
 AshenTalismanActiveStats <#LoreLine$+50% <#Damage#>#>
-AshenTalismanActiveTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.5,Operation:2,Slot:"offhand",UUIDLeast:488502,UUIDMost:3793003}],HideFlags:2,HoldingID:<#AshenTalismanActiveHoldingID#>
+AshenTalismanActiveTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.5,Operation:2,Slot:"offhand",UUIDLeast:488502,UUIDMost:3793003}],HideFlags:2,HoldingID:<#AshenTalismanActiveHoldingID#>
 
 AshenTalismanActiveDataTag display:{Name:"<#AshenTalismanActiveName#>",Lore:[<#AshenTalismanActiveDescription#>,<#AshenTalismanActiveStats#>]},<#AshenTalismanActiveTags#>
 AshenTalismanActive <#Item$AshenTalismanItemID$AshenTalismanActiveDataTag#>

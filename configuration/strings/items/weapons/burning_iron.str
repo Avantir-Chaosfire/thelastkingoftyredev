@@ -27,7 +27,7 @@ BurningIronDescription <#LoreLine$Burning Salt.#>
 BurningIronDescription <#StatsLine#>
 BurningIronStats <#WeaponStats$BurningIron#>
 BurningIronStats <#LoreLine$Burns Foes#>
-BurningIronTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BurningIronDamage 1 -#>,Operation:0,UUIDLeast:550742,UUIDMost:87125588,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9300079,UUIDMost:10048,Slot:"mainhand"}],Enchantments:[{id:"minecraft:fire_aspect",lvl:1}],HideFlags:7,Unbreakable:1b,HoldingID:<#BurningIronHoldingID#>
+BurningIronTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BurningIronDamage 1 -#>,Operation:0,UUIDLeast:550742,UUIDMost:87125588,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9300079,UUIDMost:10048,Slot:"mainhand"}],Enchantments:[{id:"minecraft:fire_aspect",lvl:1}],HideFlags:7,Unbreakable:1b,HoldingID:<#BurningIronHoldingID#>
 
 BurningIronDataTag display:{Name:"<#BurningIronName#>",Lore:[<#BurningIronDescription#>,<#BurningIronStats#>]},<#BurningIronTags#>
 BurningIron <#Item$BurningIronItemID$BurningIronDataTag#>

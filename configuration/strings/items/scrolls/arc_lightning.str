@@ -16,13 +16,13 @@ ArcLightningScrollDescription <#LoreLine$the Subjugate\'s research.#>
 ArcLightningScrollDescription <#StatsLine#>
 ArcLightningScrollStats <#LoreLine$Call For a Lightning Strike#>
 
-ArcLightningScrollDataTag display:{Name:"<#ArcLightningScrollName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:8,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
+ArcLightningScrollDataTag display:{Name:"<#ArcLightningScrollName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:8,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
 ArcLightningScroll <#Item$ArcLightningScrollItemID$ArcLightningScrollDataTag#>
 
 ArcLightningScrollActiveNameText <#ArcLightningScrollNameText#> (Active)
 ArcLightningScrollActiveName <#ItemName$ArcLightningScrollActiveNameText$ArcLightningScrollNameColour#>
 
-ArcLightningScrollActiveDataTag display:{Name:"<#ArcLightningScrollActiveName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:24,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
+ArcLightningScrollActiveDataTag display:{Name:"<#ArcLightningScrollActiveName#>",Lore:[<#ArcLightningScrollDescription#>,<#ArcLightningScrollStats#>]},HoldingID:<#ArcLightningScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:24,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468528,UUIDMost:-46785629,Slot:"mainhand"}]
 ArcLightningScrollActive <#Item$ArcLightningScrollItemID$ArcLightningScrollActiveDataTag#>
 
 ArcLightningWill0Cost 7

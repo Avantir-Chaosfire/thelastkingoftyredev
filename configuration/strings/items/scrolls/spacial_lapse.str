@@ -17,13 +17,13 @@ SpacialLapseScrollDescription <#StatsLine#>
 SpacialLapseScrollStats <#LoreLine$Move to a Prior Location#>
 SpacialLapseScrollStats <#LoreLine$Distance: <#Time$4#>#>
 
-SpacialLapseScrollDataTag display:{Name:"<#SpacialLapseScrollName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:22,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
+SpacialLapseScrollDataTag display:{Name:"<#SpacialLapseScrollName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:22,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
 SpacialLapseScroll <#Item$SpacialLapseScrollItemID$SpacialLapseScrollDataTag#>
 
 SpacialLapseScrollActiveNameText <#SpacialLapseScrollNameText#> (Active)
 SpacialLapseScrollActiveName <#ItemName$SpacialLapseScrollActiveNameText$SpacialLapseScrollNameColour#>
 
-SpacialLapseScrollActiveDataTag display:{Name:"<#SpacialLapseScrollActiveName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:38,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
+SpacialLapseScrollActiveDataTag display:{Name:"<#SpacialLapseScrollActiveName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:38,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946851,UUIDMost:-4678562,Slot:"mainhand"}]
 SpacialLapseScrollActive <#Item$SpacialLapseScrollItemID$SpacialLapseScrollActiveDataTag#>
 
 TornSpacialLapseScrollItemID sugar_cane

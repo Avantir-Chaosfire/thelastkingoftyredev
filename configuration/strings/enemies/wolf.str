@@ -2,4 +2,4 @@
 
 WolfNormalHealth 38000
 
-WolfNormalTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Wolf\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:4}],Health:1000.0f,Tags:["Enemy.Wolf-Normal",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"]‘
+WolfNormalTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Wolf\"}",Attributes:[{Name:"generic.max_health",Base:1000},{Name:generic.attack_damage,Base:4}],Health:1000.0f,Tags:["Enemy.Wolf-Normal",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"]‘

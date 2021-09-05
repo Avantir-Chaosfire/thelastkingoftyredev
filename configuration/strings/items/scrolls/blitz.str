@@ -18,13 +18,13 @@ BlitzScrollDescription <#StatsLine#>
 BlitzScrollStats <#LoreLine$+40% <#MovementSpeed#> Per Nearby Foe#>
 BlitzScrollStats <#LoreLine$<#Duration#>: <#Time$1#>#>
 
-BlitzScrollDataTag display:{Name:"<#BlitzScrollName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:9,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
+BlitzScrollDataTag display:{Name:"<#BlitzScrollName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:9,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
 BlitzScroll <#Item$BlitzScrollItemID$BlitzScrollDataTag#>
 
 BlitzScrollActiveNameText <#BlitzScrollNameText#> (Active)
 BlitzScrollActiveName <#ItemName$BlitzScrollActiveNameText$BlitzScrollNameColour#>
 
-BlitzScrollActiveDataTag display:{Name:"<#BlitzScrollActiveName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:25,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
+BlitzScrollActiveDataTag display:{Name:"<#BlitzScrollActiveName#>",Lore:[<#BlitzScrollDescription#>,<#BlitzScrollStats#>]},HoldingID:<#BlitzScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:25,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468526,UUIDMost:-46785627,Slot:"mainhand"}]
 BlitzScrollActive <#Item$BlitzScrollItemID$BlitzScrollActiveDataTag#>
 
 BlitzWill0Cost 3

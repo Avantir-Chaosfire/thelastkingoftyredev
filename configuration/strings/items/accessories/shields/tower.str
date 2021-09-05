@@ -27,7 +27,7 @@ TowerShieldDescription <#StatsLine#>
 TowerShieldStats <#LoreLine$<#TowerShieldStability#> <#Stability#>#>
 TowerShieldStats <#LoreLine$<#Time$14#> <#Recovery#>#>
 TowerShieldStats <#LoreLine$-30% <#Damage#>#>
-TowerShieldTags AttributeModifiers:[{Name:"generic.attackDamage",AttributeName:"generic.attackDamage",Amount:-0.3,Operation:2,UUIDLeast:964,UUIDMost:4327}],HideFlags:38,Unbreakable:1b,Damage:4
+TowerShieldTags AttributeModifiers:[{Name:"generic.attack_damage",AttributeName:"generic.attack_damage",Amount:-0.3,Operation:2,UUIDLeast:964,UUIDMost:4327}],HideFlags:38,Unbreakable:1b,Damage:4
 
 TowerShieldDataTag display:{Name:"<#TowerShieldName#>",Lore:[<#TowerShieldDescription#>,<#TowerShieldStats#>]},<#TowerShieldTags#>,HoldingID:<#TowerShieldHoldingID#>
 TowerShield <#Item$TowerShieldItemID$TowerShieldDataTag#>

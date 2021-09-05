@@ -2,4 +2,4 @@ execute unless entity @a[scores={YanteTalk=<#YanteUncomfortableID#>..<#YanteWary
 execute if entity @a[scores={YanteTalk=<#YanteUncomfortableID#>,YanteOpinion=<#GoodOpinion#>},<#YanteBackroomArea#>] run function tlkot:core/npc/action/yante_the_caster/intrusion
 execute if entity @a[scores={YanteTalk=<#YanteIntrusionID#>},<#YanteWaryArea#>] run function tlkot:core/npc/action/yante_the_caster/wary
 
-execute unless entity @a[x=553,y=157,z=380,dx=37,dy=10,dz=49] if block 590 160 409 minecraft:chest run function tlkot:core/npc/action/yante_the_caster/check_locket
+execute unless entity @a[x=553,y=157,z=380,dx=37,dy=10,dz=49] positioned 590 160 409 if entity @a[distance=..100] if block ~ ~ ~ minecraft:chest run function tlkot:core/npc/action/yante_the_caster/check_locket

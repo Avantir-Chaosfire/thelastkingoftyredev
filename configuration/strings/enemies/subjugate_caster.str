@@ -3,14 +3,14 @@
 
 UndeadSubjugateCasterHealth 88000
 
-UndeadSubjugateCasterTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:"generic.movementSpeed",Base:0}],ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}],CustomName:"{\"text\":\"Undead Subjugate Caster\"}",Health:1000.0f,Tags:["Enemy.SubjugateCaster",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SubjugateCaster","AI.Undead","UsesHitScore"]‘
+UndeadSubjugateCasterTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:"generic.movement_speed",Base:0}],ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{},{},{}],CustomName:"{\"text\":\"Undead Subjugate Caster\"}",Health:1000.0f,Tags:["Enemy.SubjugateCaster",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SubjugateCaster","AI.Undead","UsesHitScore"]‘
 
 UndeadSubjugateCasterEnergyBallDuration 135
 UndeadSubjugateCasterEnergyBallAcceleration 12
 UndeadSubjugateCasterEnergyBallMaxVelocity 1000
 
-UndeadSubjugateCasterEnergyBallTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Energy Ball\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attackDamage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","HasAI","AI.EnergyBall","AI.Homing"]‘
+UndeadSubjugateCasterEnergyBallTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Energy Ball\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attack_damage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","HasAI","AI.EnergyBall","AI.Homing"]‘
 
-UndeadSubjugateCasterBatTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000}],Health:1000.0f,Tags:["Versioned","Dumpable","HasAI","AI.SubjugateCasterBat","AI.HealthScore","UsesHitScore"]‘
+UndeadSubjugateCasterBatTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000}],Health:1000.0f,Tags:["Versioned","Dumpable","HasAI","AI.SubjugateCasterBat","AI.HealthScore","UsesHitScore"]‘
 
 TransfiguredUndeadSubjugateCasterTags ‘Marker:1b,Invulnerable:1b,Invisible:1b,NoGravity:1b,Tags:["Versioned","Killable","HasAI","AI.TransfiguredSubjugateCaster"]‘

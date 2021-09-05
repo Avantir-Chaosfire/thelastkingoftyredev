@@ -15,13 +15,13 @@ RainScrollDescription <#LoreLine$sky will do so for you.#>
 RainScrollDescription <#StatsLine#>
 RainScrollStats <#LoreLine$Call for Rain#>
 
-RainScrollDataTag display:{Name:"<#RainScrollName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:21,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
+RainScrollDataTag display:{Name:"<#RainScrollName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:21,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
 RainScroll <#Item$RainScrollItemID$RainScrollDataTag#>
 
 RainScrollActiveNameText <#RainScrollNameText#> (Active)
 RainScrollActiveName <#ItemName$RainScrollActiveNameText$RainScrollNameColour#>
 
-RainScrollActiveDataTag display:{Name:"<#RainScrollActiveName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:37,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
+RainScrollActiveDataTag display:{Name:"<#RainScrollActiveName#>",Lore:[<#RainScrollDescription#>,<#RainScrollStats#>]},HoldingID:<#RainScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:37,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946853,UUIDMost:-4678564,Slot:"mainhand"}]
 RainScrollActive <#Item$RainScrollItemID$RainScrollActiveDataTag#>
 
 RainWill0Cost 8

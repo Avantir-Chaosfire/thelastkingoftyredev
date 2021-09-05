@@ -14,13 +14,13 @@ CallThroughTheDarkScrollDescription <#LoreLine$Call to the strange things that l
 CallThroughTheDarkScrollDescription <#LoreLine$in the dark, wherein lies a bridge,#>
 CallThroughTheDarkScrollDescription <#LoreLine$waiting for all to cross.#>
 
-CallThroughTheDarkScrollDataTag display:{Name:"<#CallThroughTheDarkScrollName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:10,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
+CallThroughTheDarkScrollDataTag display:{Name:"<#CallThroughTheDarkScrollName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:10,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
 CallThroughTheDarkScroll <#Item$CallThroughTheDarkScrollItemID$CallThroughTheDarkScrollDataTag#>
 
 CallThroughTheDarkScrollActiveNameText <#CallThroughTheDarkScrollNameText#> (Active)
 CallThroughTheDarkScrollActiveName <#ItemName$CallThroughTheDarkScrollActiveNameText$CallThroughTheDarkScrollNameColour#>
 
-CallThroughTheDarkScrollActiveDataTag display:{Name:"<#CallThroughTheDarkScrollActiveName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:26,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
+CallThroughTheDarkScrollActiveDataTag display:{Name:"<#CallThroughTheDarkScrollActiveName#>",Lore:[<#CallThroughTheDarkScrollDescription#>]},HoldingID:<#CallThroughTheDarkScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:26,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468524,UUIDMost:-46785625,Slot:"mainhand"}]
 CallThroughTheDarkScrollActive <#Item$CallThroughTheDarkScrollItemID$CallThroughTheDarkScrollActiveDataTag#>
 
 CallThroughTheDarkWill0Cost 1

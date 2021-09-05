@@ -3,14 +3,14 @@
 
 WolfDreadHealth 48000
 
-WolfDreadBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Wolf\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:5}],Health:1000.0f,Tags:["Enemy.Wolf-Dread",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.DreadHost","UsesHitScore"<1>],Passengers:[{id:"minecraft:endermite",<#DreadTags#>}]‘
+WolfDreadBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Wolf\"}",Attributes:[{Name:"generic.max_health",Base:1000},{Name:generic.attack_damage,Base:5}],Health:1000.0f,Tags:["Enemy.Wolf-Dread",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.DreadHost","UsesHitScore"<1>],Passengers:[{id:"minecraft:endermite",<#DreadTags#>}]‘
 
 WolfDreadTags <#WolfDreadBaseTags$#>
 WolfDreadShadeTags <#WolfDreadBaseTags$,"Shaded"#>
 
 WolfDreadTrapHealth 20000
 
-WolfDreadTrapBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Dread Wolf\"}",Attributes:[{Name:"generic.maxHealth",Base:1000}],Health:1000.0f,ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:1b}],NoAI:1b,Silent:1b,Tags:["Enemy.Wolf-DreadTrap",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","AI.DreadWolfTrap","EnemyUnit","UsesHitScore"<1>]‘
+WolfDreadTrapBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Dread Wolf\"}",Attributes:[{Name:"generic.max_health",Base:1000}],Health:1000.0f,ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:1b}],NoAI:1b,Silent:1b,Tags:["Enemy.Wolf-DreadTrap",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","AI.DreadWolfTrap","EnemyUnit","UsesHitScore"<1>]‘
 
 WolfDreadTrapTags <#WolfDreadTrapBaseTags$#>
 WolfDreadTrapShadeTags <#WolfDreadTrapBaseTags$,"Shaded"#>

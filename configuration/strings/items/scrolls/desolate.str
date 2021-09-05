@@ -21,13 +21,13 @@ DesolateScrollDescription <#LoreLine$least one.#>
 DesolateScrollDescription <#StatsLine#>
 DesolateScrollStats <#LoreLine$Instant Explosion#>
 
-DesolateScrollDataTag display:{Name:"<#DesolateScrollName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:13,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
+DesolateScrollDataTag display:{Name:"<#DesolateScrollName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:13,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
 DesolateScroll <#Item$DesolateScrollItemID$DesolateScrollDataTag#>
 
 DesolateScrollActiveNameText <#DesolateScrollNameText#> (Active)
 DesolateScrollActiveName <#ItemName$DesolateScrollActiveNameText$DesolateScrollNameColour#>
 
-DesolateScrollActiveDataTag display:{Name:"<#DesolateScrollActiveName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:29,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
+DesolateScrollActiveDataTag display:{Name:"<#DesolateScrollActiveName#>",Lore:[<#DesolateScrollDescription#>,<#DesolateScrollStats#>]},HoldingID:<#DesolateScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:29,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468519,UUIDMost:-46785620,Slot:"mainhand"}]
 DesolateScrollActive <#Item$DesolateScrollItemID$DesolateScrollActiveDataTag#>
 
 DesolateWill0Cost 6

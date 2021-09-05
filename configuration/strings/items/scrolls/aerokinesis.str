@@ -19,13 +19,13 @@ AerokinesisScrollDescription <#LoreLine$upon oneself.#>
 AerokinesisScrollDescription <#StatsLine#>
 AerokinesisScrollStats <#LoreLine$Levitate Nearby Foes#>
 
-AerokinesisScrollDataTag display:{Name:"<#AerokinesisScrollName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:7,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
+AerokinesisScrollDataTag display:{Name:"<#AerokinesisScrollName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:7,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
 AerokinesisScroll <#Item$AerokinesisScrollItemID$AerokinesisScrollDataTag#>
 
 AerokinesisScrollActiveNameText <#AerokinesisScrollNameText#> (Active)
 AerokinesisScrollActiveName <#ItemName$AerokinesisScrollActiveNameText$AerokinesisScrollNameColour#>
 
-AerokinesisScrollActiveDataTag display:{Name:"<#AerokinesisScrollActiveName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:23,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
+AerokinesisScrollActiveDataTag display:{Name:"<#AerokinesisScrollActiveName#>",Lore:[<#AerokinesisScrollDescription#>,<#AerokinesisScrollStats#>]},HoldingID:<#AerokinesisScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:23,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468530,UUIDMost:-46785631,Slot:"mainhand"}]
 AerokinesisScrollActive <#Item$AerokinesisScrollItemID$AerokinesisScrollActiveDataTag#>
 
 AerokinesisWill0Cost 3

@@ -18,13 +18,13 @@ IncendiaryScrollDescription <#LoreLine$their preference.#>
 IncendiaryScrollDescription <#StatsLine#>
 IncendiaryScrollStats <#LoreLine$Incinerate Nearby Foes#>
 
-IncendiaryScrollDataTag display:{Name:"<#IncendiaryScrollName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:19,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
+IncendiaryScrollDataTag display:{Name:"<#IncendiaryScrollName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:19,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
 IncendiaryScroll <#Item$IncendiaryScrollItemID$IncendiaryScrollDataTag#>
 
 IncendiaryScrollActiveNameText <#IncendiaryScrollNameText#> (Active)
 IncendiaryScrollActiveName <#ItemName$IncendiaryScrollActiveNameText$IncendiaryScrollNameColour#>
 
-IncendiaryScrollActiveDataTag display:{Name:"<#IncendiaryScrollActiveName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:35,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
+IncendiaryScrollActiveDataTag display:{Name:"<#IncendiaryScrollActiveName#>",Lore:[<#IncendiaryScrollDescription#>,<#IncendiaryScrollStats#>]},HoldingID:<#IncendiaryScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:35,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:9946857,UUIDMost:-4678568,Slot:"mainhand"}]
 IncendiaryScrollActive <#Item$IncendiaryScrollItemID$IncendiaryScrollActiveDataTag#>
 
 IncendiaryWill0Cost 4

@@ -12,7 +12,7 @@ DreadReaperHealth 82000
 
 NoDreadReaperHealth 57000
 
-DreadReaperBaseTags ‘PersistenceRequired:1b,<#DreadReaperWeaponsTags#>,Attributes:[{Name:"generic.movementSpeed",Base:0.2},{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:0}],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier3#>}},{}],<#DreadReaperCustomName#>,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.AgroClose","UsesHitScore","AI.DreadReaper"<1>],Health:1000.0f‘
+DreadReaperBaseTags ‘PersistenceRequired:1b,<#DreadReaperWeaponsTags#>,Attributes:[{Name:"generic.movement_speed",Base:0.2},{Name:"generic.max_health",Base:1000},{Name:"generic.attack_damage",Base:0}],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier1#>}},{id:"leather_leggings",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier2#>}},{id:"leather_chestplate",Count:1b,tag:{display:{color:3678790},<#NoArmourModifier3#>}},{}],<#DreadReaperCustomName#>,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.AgroClose","UsesHitScore","AI.DreadReaper"<1>],Health:1000.0f‘
 
 DreadReaperTags ‘<#DreadReaperBaseTags$,"Enemy.DreadReaper","AI.DreadHost"#>,Passengers:[{id:"minecraft:endermite",<#DreadTags#>}]‘
 

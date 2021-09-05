@@ -1,2 +1,2 @@
 execute if entity @a[tag=!PsychWardTripwire,tag=!PsychWardGateTriggered] run function tlkot:<~>/check_tripwires
-execute if block 320 255 -16 minecraft:air if entity @a[tag=PsychWardTripwire,tag=!PsychWardGateTriggered] run function tlkot:<~>/close_gate
+execute if entity @a[tag=PsychWardTripwire,tag=!PsychWardGateTriggered] if block 320 255 -16 minecraft:air run function tlkot:<~>/close_gate
