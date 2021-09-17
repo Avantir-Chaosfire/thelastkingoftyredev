@@ -17,7 +17,7 @@ BaseCrossbowName <#ItemName$BaseCrossbowNameText$CrossbowNameColour#>
 BaseCrossbowStats <#LoreLine$Damage: 9#>
 BaseCrossbowStats <#LoreLine$Piercing#>
 BaseCrossbowStats <#LoreLine$Up to 16 arrows returned on death#>
-BaseCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:994685,UUIDMost:-467856,Slot:"mainhand"}]
+BaseCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 BaseCrossbowDataTag display:{Name:"<#BaseCrossbowName#>",Lore:[<#CrossbowDescription#>,<#BaseCrossbowStats#>]},<#BaseCrossbowTags#>
 BaseCrossbow <#Item$BaseCrossbowItemID$BaseCrossbowDataTag#>
@@ -29,7 +29,7 @@ MultishotCrossbowStats <#LoreLine$Damage: 9#>
 MultishotCrossbowStats <#LoreLine$Piercing#>
 MultishotCrossbowStats <#LoreLine$Up to 16 arrows returned on death#>
 MultishotCrossbowStats <#LoreLine$Multishot#>
-MultishotCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127},{id:"minecraft:multishot",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:994685,UUIDMost:-467856,Slot:"mainhand"}]
+MultishotCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127},{id:"minecraft:multishot",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 MultishotCrossbowDataTag display:{Name:"<#MultishotCrossbowName#>",Lore:[<#CrossbowDescription#>,<#MultishotCrossbowStats#>]},<#MultishotCrossbowTags#>
 MultishotCrossbow <#Item$MultishotCrossbowItemID$MultishotCrossbowDataTag#>
@@ -41,7 +41,7 @@ LightCrossbowStats <#LoreLine$Damage: 9#>
 LightCrossbowStats <#LoreLine$Piercing#>
 LightCrossbowStats <#LoreLine$Up to 16 arrows returned on death#>
 LightCrossbowStats <#LoreLine$Quick Charge#>
-LightCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127},{id:"minecraft:quick_charge",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:994685,UUIDMost:-467856,Slot:"mainhand"}]
+LightCrossbowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:piercing",lvl:127},{id:"minecraft:quick_charge",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 LightCrossbowDataTag display:{Name:"<#LightCrossbowName#>",Lore:[<#CrossbowDescription#>,<#LightCrossbowStats#>]},<#LightCrossbowTags#>
 LightCrossbow <#Item$LightCrossbowItemID$LightCrossbowDataTag#>

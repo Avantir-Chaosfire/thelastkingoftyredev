@@ -1,2 +1,2 @@
-execute store result score @a HasLootTable run data get block 590 160 409 LootTable
-execute if entity @a[scores={HasLootTable=0}] unless block 590 160 409 minecraft:chest{Inventory:[{tag:{display:{Name:"<#SilverLocketName#>"}}}]} run scoreboard players set @a YanteReaper 1
+execute store result score @a HasLootTable run data get block ~ ~ ~ LootTable
+execute if entity @a[scores={HasLootTable=0}] unless block ~ ~ ~ minecraft:chest{Items:[{tag:{display:{Name:"<#SilverLocketName#>"}}}]} run scoreboard players set @a YanteReaper 1

@@ -1,1 +1,0 @@
-#class execute if entity @a[tag=!<1>Bound] run function tlkot:core/binding_point/<0>/main

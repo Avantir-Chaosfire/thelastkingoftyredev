@@ -40,7 +40,7 @@ BaseScimitarNameText Scimitar
 BaseScimitarName <#ItemName$BaseScimitarNameText$ScimitarNameColour#>
 BaseScimitarStats <#WeaponStats$BaseScimitar#>
 BaseScimitarStats <#LoreLine$<#Cleave#> II#>
-BaseScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#BaseScimitarHoldingID#>
+BaseScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#BaseScimitarHoldingID#>
 
 BaseScimitarDataTag display:{Name:"<#BaseScimitarName#>",Lore:[<#ScimitarDescription#>,<#BaseScimitarStats#>]},<#BaseScimitarTags#>
 BaseScimitar <#Item$BaseScimitarItemID$BaseScimitarDataTag#>
@@ -50,7 +50,7 @@ RefinedScimitarNameText Refined Scimitar
 RefinedScimitarName <#ItemName$RefinedScimitarNameText$ScimitarNameColour#>
 RefinedScimitarStats <#WeaponStats$RefinedScimitar#>
 RefinedScimitarStats <#LoreLine$<#Cleave#> III#>
-RefinedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RefinedScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:32767}],HideFlags:7,HoldingID:<#RefinedScimitarHoldingID#>
+RefinedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RefinedScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:32767}],HideFlags:7,HoldingID:<#RefinedScimitarHoldingID#>
 
 RefinedScimitarDataTag display:{Name:"<#RefinedScimitarName#>",Lore:[<#ScimitarDescription#>,<#RefinedScimitarStats#>]},<#RefinedScimitarTags#>
 RefinedScimitar <#Item$RefinedScimitarItemID$RefinedScimitarDataTag#>
@@ -60,7 +60,7 @@ SharpenedScimitarNameText Sharpened Scimitar
 SharpenedScimitarName <#ItemName$SharpenedScimitarNameText$ScimitarNameColour#>
 SharpenedScimitarStats <#WeaponStats$SharpenedScimitar#>
 SharpenedScimitarStats <#LoreLine$<#Cleave#> II#>
-SharpenedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!SharpenedScimitarDamage 1 -#>,Operation:0,UUIDLeast:22355,UUIDMost:9772225,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#SharpenedScimitarHoldingID#>
+SharpenedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!SharpenedScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#SharpenedScimitarHoldingID#>
 
 SharpenedScimitarDataTag display:{Name:"<#SharpenedScimitarName#>",Lore:[<#ScimitarDescription#>,<#SharpenedScimitarStats#>]},<#SharpenedScimitarTags#>
 SharpenedScimitar <#Item$SharpenedScimitarItemID$SharpenedScimitarDataTag#>

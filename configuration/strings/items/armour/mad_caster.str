@@ -21,7 +21,7 @@ MadCasterHeadStats <#LoreLine$<#Armour#>: 2#>
 MadCasterHeadStats <#LoreLine$<#Weight#>: 1.0#>
 MadCasterHeadStats <#LoreLine$<#Thorns#> II#>
 MadCasterHeadDisplayTags color:14391347
-MadCasterHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:66607140,UUIDMost:-804841211,Slot:"head"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
+MadCasterHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
 
 MadCasterHeadDataTag display:{Name:"<#MadCasterHeadName#>",Lore:[<#MadCasterHeadDescription#>,<#MadCasterHeadStats#>],<#MadCasterHeadDisplayTags#>},<#MadCasterHeadTags#>
 MadCasterHead <#Item$MadCasterHeadItemID$MadCasterHeadDataTag#>
@@ -35,7 +35,7 @@ MadCasterChestStats <#LoreLine$<#Armour#>: 4#>
 MadCasterChestStats <#LoreLine$<#Weight#>: 2.0#>
 MadCasterChestStats <#LoreLine$<#Thorns#> III#>
 MadCasterChestDisplayTags color:14391347
-MadCasterChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:-1051076168,UUIDMost:-1627974638,Slot:"chest"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:13}],Damage:0
+MadCasterChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:13}],Damage:0
 
 MadCasterChestDataTag display:{Name:"<#MadCasterChestName#>",Lore:[<#MadCasterChestDescription#>,<#MadCasterChestStats#>],<#MadCasterChestDisplayTags#>},<#MadCasterChestTags#>
 MadCasterChest <#Item$MadCasterChestItemID$MadCasterChestDataTag#>
@@ -49,7 +49,7 @@ MadCasterLegsStats <#LoreLine$<#Armour#>: 3#>
 MadCasterLegsStats <#LoreLine$<#Weight#>: 1.5#>
 MadCasterLegsStats <#LoreLine$<#Thorns#> II#>
 MadCasterLegsDisplayTags color:14391347
-MadCasterLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:110815346,UUIDMost:-1049731843,Slot:"legs"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
+MadCasterLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:12}]
 
 MadCasterLegsDataTag display:{Name:"<#MadCasterLegsName#>",Lore:[<#MadCasterLegsDescription#>,<#MadCasterLegsStats#>],<#MadCasterLegsDisplayTags#>},<#MadCasterLegsTags#>
 MadCasterLegs <#Item$MadCasterLegsItemID$MadCasterLegsDataTag#>
@@ -63,7 +63,7 @@ MadCasterFeetStats <#LoreLine$<#Armour#>: 2#>
 MadCasterFeetStats <#LoreLine$<#Weight#>: 1.0#>
 MadCasterFeetStats <#LoreLine$<#Thorns#> I#>
 MadCasterFeetDisplayTags color:14391347
-MadCasterFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:-1475112623,UUIDMost:395506987,Slot:"feet"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:11}]
+MadCasterFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:thorns",lvl:11}]
 
 MadCasterFeetDataTag display:{Name:"<#MadCasterFeetName#>",Lore:[<#MadCasterFeetDescription#>,<#MadCasterFeetStats#>],<#MadCasterFeetDisplayTags#>},<#MadCasterFeetTags#>
 MadCasterFeet <#Item$MadCasterFeetItemID$MadCasterFeetDataTag#>

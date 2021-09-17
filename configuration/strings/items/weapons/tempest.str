@@ -20,7 +20,7 @@ TempestDescription <#StatsLine#>
 TempestStats <#LoreLine$Damage: 9#>
 TempestStats <#LoreLine$<#StaminaRegenerationDelay#>: <#Time$<#!TempestRegenDelay 20 /#>#>#>
 TempestStats <#LoreLine$<#Knockback#> I#>
-TempestTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:knockback",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HoldingID:<#TempestHoldingID#>
+TempestTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:knockback",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HoldingID:<#TempestHoldingID#>
 
 TempestDataTag display:{Name:"<#TempestName#>",Lore:[<#TempestDescription#>,<#TempestStats#>]},<#TempestTags#>
 Tempest <#Item$TempestItemID$TempestDataTag#>

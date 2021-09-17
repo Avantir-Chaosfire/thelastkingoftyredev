@@ -1,1 +1,2 @@
-function tlkot:core/fourth_second/local_event/main
+function tlkot:<~>/binding_point/main
+function tlkot:<~>/local_event/main

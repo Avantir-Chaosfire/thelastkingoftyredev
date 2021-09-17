@@ -20,7 +20,7 @@ ChallengerKnightHeadDescription <#ChallengerKnightDescription#>
 ChallengerKnightHeadStats <#LoreLine$<#Armour#>: 4#>
 ChallengerKnightHeadStats <#LoreLine$<#Weight#>: 2.0#>
 ChallengerKnightHeadStats <#LoreLine$+2 <#Toughness#>#>
-ChallengerKnightHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:409203372,UUIDMost:1294686856,Slot:"head"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:2,UUIDLeast:-1365564176,UUIDMost:-105179193,Slot:"head"}],Unbreakable:1b,HideFlags:6
+ChallengerKnightHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,<UUID>,Slot:"head"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:2,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:6
 
 ChallengerKnightHeadDataTag display:{Name:"<#ChallengerKnightHeadName#>",Lore:[<#ChallengerKnightHeadDescription#>,<#ChallengerKnightHeadStats#>]},<#ChallengerKnightHeadTags#>
 ChallengerKnightHead <#Item$ChallengerKnightHeadItemID$ChallengerKnightHeadDataTag#>
@@ -33,7 +33,7 @@ ChallengerKnightChestDescription <#ChallengerKnightDescription#>
 ChallengerKnightChestStats <#LoreLine$<#Armour#>: 5#>
 ChallengerKnightChestStats <#LoreLine$<#Weight#>: 2.5#>
 ChallengerKnightChestStats <#LoreLine$+4 <#Toughness#>#>
-ChallengerKnightChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:5,UUIDLeast:1790819686,UUIDMost:-549680153,Slot:"chest"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:4,UUIDLeast:-954631637,UUIDMost:1004360076,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+ChallengerKnightChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:5,<UUID>,Slot:"chest"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:4,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
 
 ChallengerKnightChestDataTag display:{Name:"<#ChallengerKnightChestName#>",Lore:[<#ChallengerKnightChestDescription#>,<#ChallengerKnightChestStats#>]},<#ChallengerKnightChestTags#>
 ChallengerKnightChest <#Item$ChallengerKnightChestItemID$ChallengerKnightChestDataTag#>
@@ -46,7 +46,7 @@ ChallengerKnightLegsDescription <#ChallengerKnightDescription#>
 ChallengerKnightLegsStats <#LoreLine$<#Armour#>: 4#>
 ChallengerKnightLegsStats <#LoreLine$<#Weight#>: 2.0#>
 ChallengerKnightLegsStats <#LoreLine$+3 <#Toughness#>#>
-ChallengerKnightLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,UUIDLeast:456929238,UUIDMost:-515145992,Slot:"legs"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:3,UUIDLeast:-731746270,UUIDMost:1752978186,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+ChallengerKnightLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,<UUID>,Slot:"legs"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:3,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:6
 
 ChallengerKnightLegsDataTag display:{Name:"<#ChallengerKnightLegsName#>",Lore:[<#ChallengerKnightLegsDescription#>,<#ChallengerKnightLegsStats#>]},<#ChallengerKnightLegsTags#>
 ChallengerKnightLegs <#Item$ChallengerKnightLegsItemID$ChallengerKnightLegsDataTag#>
@@ -59,7 +59,7 @@ ChallengerKnightFeetDescription <#ChallengerKnightDescription#>
 ChallengerKnightFeetStats <#LoreLine$<#Armour#>: 3#>
 ChallengerKnightFeetStats <#LoreLine$<#Weight#>: 1.5#>
 ChallengerKnightFeetStats <#LoreLine$+1 <#Toughness#>#>
-ChallengerKnightFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:373937113,UUIDMost:-1818903858,Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:1,UUIDLeast:-1761628648,UUIDMost:867937811,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+ChallengerKnightFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:6
 
 ChallengerKnightFeetDataTag display:{Name:"<#ChallengerKnightFeetName#>",Lore:[<#ChallengerKnightFeetDescription#>,<#ChallengerKnightFeetStats#>]},<#ChallengerKnightFeetTags#>
 ChallengerKnightFeet <#Item$ChallengerKnightFeetItemID$ChallengerKnightFeetDataTag#>

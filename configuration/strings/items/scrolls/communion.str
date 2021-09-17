@@ -26,13 +26,13 @@ CommunionScrollStats <#LoreLine$<#Evasion#>#>
 CommunionScrollStats <#LoreLine$<#Blindness#>#>
 CommunionScrollStats <#LoreLine$<#Duration#>: <#Time$40#>#>
 
-CommunionScrollDataTag display:{Name:"<#CommunionScrollName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:11,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468522,UUIDMost:-46785623,Slot:"mainhand"}]
+CommunionScrollDataTag display:{Name:"<#CommunionScrollName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:11,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 CommunionScroll <#Item$CommunionScrollItemID$CommunionScrollDataTag#>
 
 CommunionScrollActiveNameText <#CommunionScrollNameText#> (Active)
 CommunionScrollActiveName <#ItemName$CommunionScrollActiveNameText$CommunionScrollNameColour#>
 
-CommunionScrollActiveDataTag display:{Name:"<#CommunionScrollActiveName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:27,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468522,UUIDMost:-46785623,Slot:"mainhand"}]
+CommunionScrollActiveDataTag display:{Name:"<#CommunionScrollActiveName#>",Lore:[<#CommunionScrollDescription#>,<#CommunionScrollStats#>]},HoldingID:<#CommunionScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:27,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 CommunionScrollActive <#Item$CommunionScrollItemID$CommunionScrollActiveDataTag#>
 
 CommunionWill0Cost 13

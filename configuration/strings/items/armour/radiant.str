@@ -19,7 +19,7 @@ RadiantPlateHeadName <#ItemName$RadiantPlateHeadNameText$RadiantPlateHeadNameCol
 RadiantPlateHeadDescription <#RadiantPlateDescription#>
 RadiantPlateHeadStats <#LoreLine$<#Armour#>: 2#>
 RadiantPlateHeadStats <#LoreLine$<#Weight#>: 1.0#>
-RadiantPlateHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:275548851,UUIDMost:-1485181482,Slot:"head"}],Unbreakable:1b,HideFlags:6
+RadiantPlateHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:6
 
 RadiantPlateHeadDataTag display:{Name:"<#RadiantPlateHeadName#>",Lore:[<#RadiantPlateHeadDescription#>,<#RadiantPlateHeadStats#>]},<#RadiantPlateHeadTags#>
 RadiantPlateHead <#Item$RadiantPlateHeadItemID$RadiantPlateHeadDataTag#>
@@ -34,7 +34,7 @@ RadiantPlateActiveChestStats <#LoreLine$<#Weight#>: 1.5#>
 RadiantPlateActiveChestStats <#LoreLine$Steal More Energy From Killing Foes#>
 RadiantPlateActiveChestStats <#LoreLine$Attacks Stun Foes#>
 RadiantPlateActiveChestStats <#LoreLine$Poison Immunity#>
-RadiantPlateActiveChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:-1339158824,UUIDMost:-560282782,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+RadiantPlateActiveChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:6
 
 RadiantPlateActiveChestDataTag display:{Name:"<#RadiantPlateActiveChestName#>",Lore:[<#RadiantPlateActiveChestDescription#>,<#RadiantPlateActiveChestStats#>]},<#RadiantPlateActiveChestTags#>
 RadiantPlateActiveChest <#Item$RadiantPlateActiveChestItemID$RadiantPlateActiveChestDataTag#>
@@ -49,7 +49,7 @@ RadiantPlateChestStats <#LoreLine$<#Weight#>: 1.5#>
 RadiantPlateChestStats <#LoreLine$(Steal More Energy From Killing Foes)#>
 RadiantPlateChestStats <#LoreLine$(Attacks Stun Foes)#>
 RadiantPlateChestStats <#LoreLine$(Poison Immunity)#>
-RadiantPlateChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:1529011595,UUIDMost:-1815537785,Slot:"chest"}],Unbreakable:1b,HideFlags:6
+RadiantPlateChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:6
 
 RadiantPlateChestDataTag display:{Name:"<#RadiantPlateChestName#>",Lore:[<#RadiantPlateChestDescription#>,<#RadiantPlateChestStats#>]},<#RadiantPlateChestTags#>
 RadiantPlateChest <#Item$RadiantPlateChestItemID$RadiantPlateChestDataTag#>
@@ -61,7 +61,7 @@ RadiantPlateLegsName <#ItemName$RadiantPlateLegsNameText$RadiantPlateLegsNameCol
 RadiantPlateLegsDescription <#RadiantPlateDescription#>
 RadiantPlateLegsStats <#LoreLine$<#Armour#>: 3#>
 RadiantPlateLegsStats <#LoreLine$<#Weight#>: 1.5#>
-RadiantPlateLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:1838229029,UUIDMost:953484050,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+RadiantPlateLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:6
 
 RadiantPlateLegsDataTag display:{Name:"<#RadiantPlateLegsName#>",Lore:[<#RadiantPlateLegsDescription#>,<#RadiantPlateLegsStats#>]},<#RadiantPlateLegsTags#>
 RadiantPlateLegs <#Item$RadiantPlateLegsItemID$RadiantPlateLegsDataTag#>
@@ -73,7 +73,7 @@ RadiantPlateFeetName <#ItemName$RadiantPlateFeetNameText$RadiantPlateFeetNameCol
 RadiantPlateFeetDescription <#RadiantPlateDescription#>
 RadiantPlateFeetStats <#LoreLine$<#Armour#>: 1#>
 RadiantPlateFeetStats <#LoreLine$<#Weight#>: 0.5#>
-RadiantPlateFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1756515925,UUIDMost:-1884988107,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+RadiantPlateFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:6
 
 RadiantPlateFeetDataTag display:{Name:"<#RadiantPlateFeetName#>",Lore:[<#RadiantPlateFeetDescription#>,<#RadiantPlateFeetStats#>]},<#RadiantPlateFeetTags#>
 RadiantPlateFeet <#Item$RadiantPlateFeetItemID$RadiantPlateFeetDataTag#>

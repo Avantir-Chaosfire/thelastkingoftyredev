@@ -20,13 +20,13 @@ EnrageScrollStats <#LoreLine$Taking Damage: +3 <#Damage#>#>
 EnrageScrollStats <#LoreLine$Taking Damage: -15% <#MovementSpeed#>#>
 EnrageScrollStats <#LoreLine$<#Duration#>: <#Time$30#>#>
 
-EnrageScrollDataTag display:{Name:"<#EnrageScrollName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:15,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468515,UUIDMost:-46785616,Slot:"mainhand"}]
+EnrageScrollDataTag display:{Name:"<#EnrageScrollName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:15,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 EnrageScroll <#Item$EnrageScrollItemID$EnrageScrollDataTag#>
 
 EnrageScrollActiveNameText <#EnrageScrollNameText#> (Active)
 EnrageScrollActiveName <#ItemName$EnrageScrollActiveNameText$EnrageScrollNameColour#>
 
-EnrageScrollActiveDataTag display:{Name:"<#EnrageScrollActiveName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:31,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468515,UUIDMost:-46785616,Slot:"mainhand"}]
+EnrageScrollActiveDataTag display:{Name:"<#EnrageScrollActiveName#>",Lore:[<#EnrageScrollDescription#>,<#EnrageScrollStats#>]},HoldingID:<#EnrageScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:31,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 EnrageScrollActive <#Item$EnrageScrollItemID$EnrageScrollActiveDataTag#>
 
 EnrageWill0Cost 6

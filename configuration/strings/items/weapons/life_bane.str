@@ -27,7 +27,7 @@ PurifiedLifeBaneDescription <#StatsLine#>
 PurifiedLifeBaneStats <#WeaponStats$LifeBane#>
 PurifiedLifeBaneStats <#LoreLine$Only Hurts Corrupted#>
 PurifiedLifeBaneStats <#LoreLine$Draws Into Foes Killed#>
-PurifiedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:-1,Operation:0,UUIDLeast:2,UUIDMost:6,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:smite",lvl:14}],HoldingID:<#PurifiedLifeBaneHoldingID#>
+PurifiedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:-1,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:smite",lvl:14}],HoldingID:<#PurifiedLifeBaneHoldingID#>
 
 PurifiedLifeBaneDataTag display:{Name:"<#PurifiedLifeBaneName#>",Lore:[<#PurifiedLifeBaneDescription#>,<#PurifiedLifeBaneStats#>]},<#PurifiedLifeBaneTags#>
 PurifiedLifeBane <#Item$PurifiedLifeBaneItemID$PurifiedLifeBaneDataTag#>
@@ -41,7 +41,7 @@ CursedLifeBaneDescription <#LoreLine$the Warrior.#>
 CursedLifeBaneDescription <#StatsLine#>
 CursedLifeBaneStats <#WeaponStats$LifeBane#>
 CursedLifeBaneStats <#LoreLine$Only Hurts Arthropods#>
-CursedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:-1,Operation:0,UUIDLeast:2,UUIDMost:6,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:12}],HoldingID:<#CursedLifeBaneHoldingID#>
+CursedLifeBaneTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:-1,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:12}],HoldingID:<#CursedLifeBaneHoldingID#>
 
 CursedLifeBaneDataTag display:{Name:"<#CursedLifeBaneName#>",Lore:[<#CursedLifeBaneDescription#>,<#CursedLifeBaneStats#>]},<#CursedLifeBaneTags#>
 CursedLifeBane <#Item$CursedLifeBaneItemID$CursedLifeBaneDataTag#>

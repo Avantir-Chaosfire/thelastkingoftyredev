@@ -29,7 +29,7 @@ Base1HBlackOakStaffNameText Black Oak Staff
 Base1HBlackOakStaffName <#ItemName$Base1HBlackOakStaffNameText$BlackOakStaffNameColour#>
 Base1HBlackOakStaffStats <#WeaponStats$1HBlackOakStaff#>
 Base1HBlackOakStaffStats <#LoreLine$<#Cleave#> I#>
-Base1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base1HBlackOakStaffHoldingID#>
+Base1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base1HBlackOakStaffHoldingID#>
 
 Base1HBlackOakStaffDataTag display:{Name:"<#Base1HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Base1HBlackOakStaffStats#>]},<#Base1HBlackOakStaffTags#>
 Base1HBlackOakStaff <#Item$Base1HBlackOakStaffItemID$Base1HBlackOakStaffDataTag#>
@@ -40,7 +40,7 @@ Base2HBlackOakStaffName <#ItemName$Base2HBlackOakStaffNameText$BlackOakStaffName
 Base2HBlackOakStaffStats <#WeaponStats$2HBlackOakStaff#>
 Base2HBlackOakStaffStats <#LoreLine$<#Cleave#> I#>
 Base2HBlackOakStaffStats <#LoreLine$-1 <#DodgeStamina#>#>
-Base2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base2HBlackOakStaffHoldingID#>
+Base2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base2HBlackOakStaffHoldingID#>
 
 Base2HBlackOakStaffDataTag display:{Name:"<#Base2HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Base2HBlackOakStaffStats#>]},<#Base2HBlackOakStaffTags#>
 Base2HBlackOakStaff <#Item$Base2HBlackOakStaffItemID$Base2HBlackOakStaffDataTag#>
@@ -50,7 +50,7 @@ Long1HBlackOakStaffNameText Black Oak Long Staff
 Long1HBlackOakStaffName <#ItemName$Long1HBlackOakStaffNameText$BlackOakStaffNameColour#>
 Long1HBlackOakStaffStats <#WeaponStats$1HBlackOakStaff#>
 Long1HBlackOakStaffStats <#LoreLine$<#Cleave#> I (II)#>
-Long1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Long1HBlackOakStaffHoldingID#>
+Long1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Long1HBlackOakStaffHoldingID#>
 
 Long1HBlackOakStaffDataTag display:{Name:"<#Long1HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Long1HBlackOakStaffStats#>]},<#Long1HBlackOakStaffTags#>
 Long1HBlackOakStaff <#Item$Long1HBlackOakStaffItemID$Long1HBlackOakStaffDataTag#>
@@ -61,7 +61,7 @@ Long2HBlackOakStaffName <#ItemName$Long2HBlackOakStaffNameText$BlackOakStaffName
 Long2HBlackOakStaffStats <#WeaponStats$2HBlackOakStaff#>
 Long2HBlackOakStaffStats <#LoreLine$<#Cleave#> II#>
 Long2HBlackOakStaffStats <#LoreLine$-1 <#DodgeStamina#>#>
-Long2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Long2HBlackOakStaffHoldingID#>
+Long2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Long2HBlackOakStaffHoldingID#>
 
 Long2HBlackOakStaffDataTag display:{Name:"<#Long2HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Long2HBlackOakStaffStats#>]},<#Long2HBlackOakStaffTags#>
 Long2HBlackOakStaff <#Item$Long2HBlackOakStaffItemID$Long2HBlackOakStaffDataTag#>
@@ -73,7 +73,7 @@ Steady1HBlackOakStaffStats <#WeaponStats$1HBlackOakStaff#>
 Steady1HBlackOakStaffStats <#LoreLine$<#Cleave#> I#>
 Steady1HBlackOakStaffStats <#LoreLine$(+100% <#KnockbackResistance#>)#>
 Steady1HBlackOakStaffStats <#LoreLine$(+10 <#Toughness#>)#>
-Steady1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Steady1HBlackOakStaffHoldingID#>
+Steady1HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!1HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Steady1HBlackOakStaffHoldingID#>
 
 Steady1HBlackOakStaffDataTag display:{Name:"<#Steady1HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Steady1HBlackOakStaffStats#>]},<#Steady1HBlackOakStaffTags#>
 Steady1HBlackOakStaff <#Item$Steady1HBlackOakStaffItemID$Steady1HBlackOakStaffDataTag#>
@@ -86,7 +86,7 @@ Steady2HBlackOakStaffStats <#LoreLine$<#Cleave#> I#>
 Steady2HBlackOakStaffStats <#LoreLine$-1 <#DodgeStamina#>#>
 Steady2HBlackOakStaffStats <#LoreLine$+100% <#KnockbackResistance#>#>
 Steady2HBlackOakStaffStats <#LoreLine$+10 <#Toughness#>#>
-Steady2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,UUIDLeast:98725,UUIDMost:764534676,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Operation:0,Amount:1.0,UUIDLeast:77439,UUIDMost:10047,Slot:"mainhand"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:10,UUIDLeast:989400,UUIDMost:1664,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Steady2HBlackOakStaffHoldingID#>
+Steady2HBlackOakStaffTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!2HBlackOakStaffDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Operation:0,Amount:1.0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Operation:0,Amount:10,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Steady2HBlackOakStaffHoldingID#>
 
 Steady2HBlackOakStaffDataTag display:{Name:"<#Steady2HBlackOakStaffName#>",Lore:[<#BlackOakStaffDescription#>,<#Steady2HBlackOakStaffStats#>]},<#Steady2HBlackOakStaffTags#>
 Steady2HBlackOakStaff <#Item$Steady2HBlackOakStaffItemID$Steady2HBlackOakStaffDataTag#>

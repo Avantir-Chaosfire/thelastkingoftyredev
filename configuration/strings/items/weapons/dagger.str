@@ -21,7 +21,7 @@ DaggerDescription <#LoreLine$A simple, quick dagger. A poor choice#>
 DaggerDescription <#LoreLine$in weapon for real combat.#>
 DaggerDescription <#StatsLine#>
 DaggerStats <#WeaponStats$Dagger#>
-DaggerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!DaggerDamage 1 -#>,Operation:0,UUIDLeast:22155,UUIDMost:9733225,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#DaggerHoldingID#>
+DaggerTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!DaggerDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#DaggerHoldingID#>
 
 DaggerDataTag display:{Name:"<#DaggerName#>",Lore:[<#DaggerDescription#>,<#DaggerStats#>]},<#DaggerTags#>
 Dagger <#Item$DaggerItemID$DaggerDataTag#>

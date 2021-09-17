@@ -18,13 +18,13 @@ FireballScrollDescription <#StatsLine#>
 FireballScrollStats <#LoreLine$Shoot a Fireball#>
 FireballScrollStats <#LoreLine$Unleash an Apparition#>
 
-FireballScrollDataTag display:{Name:"<#FireballScrollName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:17,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468511,UUIDMost:-46785612,Slot:"mainhand"}]
+FireballScrollDataTag display:{Name:"<#FireballScrollName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:17,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 FireballScroll <#Item$FireballScrollItemID$FireballScrollDataTag#>
 
 FireballScrollActiveNameText <#FireballScrollNameText#> (Active)
 FireballScrollActiveName <#ItemName$FireballScrollActiveNameText$FireballScrollNameColour#>
 
-FireballScrollActiveDataTag display:{Name:"<#FireballScrollActiveName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:33,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:99468511,UUIDMost:-46785612,Slot:"mainhand"}]
+FireballScrollActiveDataTag display:{Name:"<#FireballScrollActiveName#>",Lore:[<#FireballScrollDescription#>,<#FireballScrollStats#>]},HoldingID:<#FireballScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:33,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 FireballScrollActive <#Item$FireballScrollItemID$FireballScrollActiveDataTag#>
 
 FireballWill0Cost 7

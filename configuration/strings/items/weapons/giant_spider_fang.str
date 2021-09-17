@@ -26,7 +26,7 @@ GiantSpiderFangStats <#WeaponStats$GiantSpiderFang#>
 GiantSpiderFangStats <#LoreLine$Poison I#>
 GiantSpiderFangStats <#LoreLine$Slowness V#>
 GiantSpiderFangStats <#LoreLine$<#Duration#>: <#Time$10#>#>
-GiantSpiderFangTags AttributeModifiers:[{Name:"generic.attack_damage",AttributeName:"generic.attack_damage",Operation:0,Amount:<#!GiantSpiderFangDamage 1 -#>,UUIDLeast:48862,UUIDMost:699751,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,UUIDLeast:85757869,UUIDMost:4744856,Slot:"mainhand"}],HideFlags:6,Unbreakable:1b,HoldingID:<#GiantSpiderFangHoldingID#>
+GiantSpiderFangTags AttributeModifiers:[{Name:"generic.attack_damage",AttributeName:"generic.attack_damage",Operation:0,Amount:<#!GiantSpiderFangDamage 1 -#>,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,Unbreakable:1b,HoldingID:<#GiantSpiderFangHoldingID#>
 
 GiantSpiderFangDataTag display:{Name:"<#GiantSpiderFangName#>",Lore:[<#GiantSpiderFangDescription#>,<#GiantSpiderFangStats#>]},<#GiantSpiderFangTags#>
 GiantSpiderFang <#Item$GiantSpiderFangItemID$GiantSpiderFangDataTag#>

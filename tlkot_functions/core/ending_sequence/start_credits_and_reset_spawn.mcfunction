@@ -1,6 +1,6 @@
 tag @a remove StartCreditsOnRespawn
 
-function tlkot:core/binding_point/unbind_all
+function tlkot:core/fourth_second/binding_point/unbind_all
 tag @a add NotBound
 spawnpoint @a -304 238 324
 

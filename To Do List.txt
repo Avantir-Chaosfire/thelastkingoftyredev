@@ -36,6 +36,7 @@ Foreword:
 		-Launch a copy of the world on the server and see if loading the data pack gives any error messages
 		-Check there's only one copy of every npc
 		-Disable cheats
+		-Set Time to 0
 		-Rename save file to remove "[Dev]"
 
 	Post-Release:
@@ -45,38 +46,18 @@ Foreword:
 		-Sac Knife & New Prophet absorption don't work thanks to challenge knight set - should only clear absorption when you lose the tag and don't get it back
 		-You can permanently lose items in map item frames in Enshadowed Thrones
 		-Can attack with Life Bane at <5 stamina
-		-ashen talisman tooltip
 		-crystal guardian name tag visibility
 		-Fireball gives True Assassin achievement
 		-spyglass in astrologist's loft
-		-nerf desolate
-		-can yante talk to you after becoming a reaper?
-		-test casting hq main entrance
-		-test if block changes, alrteady adjusted (not tested) for:
-			-backup lock
-			-door lever
-			-locked doors
-			-seal
-			-shade lighthouse
-			-smoke beast lever
-			-burners
-			-blackout switch
-			-cavern rising water room switch
-			-drowning cage
-			-lever gates
-			-government tunnel tripwires
-			-pit traps
-			-psych ward tripwires
-			-dar trap
-			-yante reaper
-		-test replaceitem changes:
-			-ashen talisman
-			-shield disabling
-			-armour set bonuses
-			-all scrolls
-			-dull/radiant armour/weapon
-			-two handing weapons
 		-More distinct sprite for fountain water full/empty
+		-balance changes
+			-nerf desolate
+		-returning to lobby on new prophet ending?
+			-also endings force activate death sigil, which kind of breaks useless emissary
+		-Hanging Pole fight didn't start that one time
+		-banners are messed up
+		-bossbar textures
+		-shulker texture not working
 
 		Level design:
 			-moving tyre reaches key?
@@ -84,6 +65,7 @@ Foreword:
 			-Give Desiccating Carapaces for defeating Shade Caster in addition to button
 			-psych ward parkour
 			-vanishing key shortcut
+			-bcg skip via that big shaft in new hoiro
 
 Upgrading:
 	1.15 Changes Required:
@@ -91,24 +73,10 @@ Upgrading:
 		-Locked chest texture broken
 		-Enchantment glint texture broken
 		-Remove arrow particles (Kurnas, Hanging Pole, Kiermert, local_event/arrow_trap, local_event/blood_sigil_tutorial, one_second/local_event/arrow_trap)
-		-Data pack version changed to 5 (or 6 or 7?)
-		-Resource pack version changed to 5 (or 6 or 7?)
-		-Commands executing "if block" checks every tick are keeping chunks loaded. "if block" checks need preconditions to limit their checks and allow the chunks to unload. This must respect the ability to reset the map during the release process.
-		-Living Mass laser beam is mostly invisible
-			-May need to edit "Time" in level.dat - see MC-165595
 
 	1.16 Changes Required:
-		-Update all attribute names
-		-Change all references to "zombie_pigman" to "zombified_piglin"
 		-Change all single drop blood splatters to dots, so the texture doesn't overlap with itself
-		-Investigate interaction of shulkers/stone guardians pushing spawn points (Due to a bug, they can push marker armor stands) [Fixed in 1.17]
-		-Change nose and ears of zombified piglin texture to be invisible, and fix the Noble Reaper texture
-		-Set gamerule forgiveDeadPlayers true
-		-Set gamerule universalAnger false
 
 	1.17 Notes:
-		-shulkers can spawn other shulkers by attacking each other
 		-maximum slime size is 128
-		-variable world height
 		-chain block
-		-bug regarding ungenerated loot - make sure loot table reset, even when chest contents are present, works and doesn't drop items (MC-225394)

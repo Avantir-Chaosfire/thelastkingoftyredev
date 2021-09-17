@@ -16,7 +16,7 @@ BaseBlackOakBowNameText Black Oak Bow
 BaseBlackOakBowName <#ItemName$BaseBlackOakBowNameText$BlackOakBowNameColour#>
 BaseBlackOakBowStats <#LoreLine$Damage: 9#>
 BaseBlackOakBowStats <#LoreLine$Up to 16 arrows returned on death#>
-BaseBlackOakBowTags Unbreakable:1b,HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:96784,UUIDMost:-4671,Slot:"mainhand"}]
+BaseBlackOakBowTags Unbreakable:1b,HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 BaseBlackOakBowDataTag display:{Name:"<#BaseBlackOakBowName#>",Lore:[<#BlackOakBowDescription#>,<#BaseBlackOakBowStats#>]},<#BaseBlackOakBowTags#>
 BaseBlackOakBow <#Item$BaseBlackOakBowItemID$BaseBlackOakBowDataTag#>
@@ -27,7 +27,7 @@ BlazingBlackOakBowName <#ItemName$BlazingBlackOakBowNameText$BlackOakBowNameColo
 BlazingBlackOakBowStats <#LoreLine$Damage: 9#>
 BlazingBlackOakBowStats <#LoreLine$Up to 16 arrows returned on death#>
 BlazingBlackOakBowStats <#LoreLine$Burns Foes#>
-BlazingBlackOakBowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:flame",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:967841,UUIDMost:-46712,Slot:"mainhand"}]
+BlazingBlackOakBowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:flame",lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 BlazingBlackOakBowDataTag display:{Name:"<#BlazingBlackOakBowName#>",Lore:[<#BlackOakBowDescription#>,<#BlazingBlackOakBowStats#>]},<#BlazingBlackOakBowTags#>
 BlazingBlackOakBow <#Item$BlazingBlackOakBowItemID$BlazingBlackOakBowDataTag#>
@@ -38,7 +38,7 @@ HeavyBlackOakBowName <#ItemName$HeavyBlackOakBowNameText$BlackOakBowNameColour#>
 HeavyBlackOakBowStats <#LoreLine$Damage: 9#>
 HeavyBlackOakBowStats <#LoreLine$Up to 16 arrows returned on death#>
 HeavyBlackOakBowStats <#LoreLine$Punch II#>
-HeavyBlackOakBowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:punch",lvl:2}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,UUIDLeast:967843,UUIDMost:-46714,Slot:"mainhand"}]
+HeavyBlackOakBowTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:punch",lvl:2}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 
 HeavyBlackOakBowDataTag display:{Name:"<#HeavyBlackOakBowName#>",Lore:[<#BlackOakBowDescription#>,<#HeavyBlackOakBowStats#>]},<#HeavyBlackOakBowTags#>
 HeavyBlackOakBow <#Item$HeavyBlackOakBowItemID$HeavyBlackOakBowDataTag#>

@@ -27,6 +27,7 @@ function tlkot:<~>/tenth_second/main
 function tlkot:<~>/chuckle
 function tlkot:<~>/garbage_dump
 function tlkot:<~>/kill_erroneous_drowned
+function tlkot:<~>/kill_erroneous_shulker
 function tlkot:<~>/modify_player_arrow_damage
 function tlkot:<~>/no_sleeping
 function tlkot:<~>/return_arrow
@@ -37,7 +38,6 @@ function tlkot:<~>/ai/main
 function tlkot:<~>/area_name_announcement/main
 function tlkot:<~>/armour/main
 function tlkot:<~>/background_noise/main
-function tlkot:<~>/binding_point/main
 function tlkot:<~>/bloodletting_knife/main
 function tlkot:<~>/bondage/main
 function tlkot:<~>/boss/main
