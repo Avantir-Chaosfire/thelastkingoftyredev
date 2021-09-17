@@ -1,2 +1,4 @@
-execute if entity @s[tag=!G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF] if block ~ ~ ~ minecraft:lever[powered=true] run function tlkot:g39_cs4-6dqncfm2nrf4gi1q9emco4it_yyo_u3v
-execute if block ~ ~ ~ minecraft:lever[powered=false] run tag @s remove G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF
+tag @a[tag=jvqeJ7.SQn4trybGnwOdE_A-iMLLEFGmondC_FSl] add aq-Ypl3AK2aJNjnf59i0aicxHWtpIVP-PD6Ppfxv
+tag @a[distance=..12] add aq-Ypl3AK2aJNjnf59i0aicxHWtpIVP-PD6Ppfxv
+execute if entity @a[tag=aq-Ypl3AK2aJNjnf59i0aicxHWtpIVP-PD6Ppfxv] run function tlkot:69sqszpo0imkurvsctzt_8h58j18ciavvb4u7a04
+tag @a remove aq-Ypl3AK2aJNjnf59i0aicxHWtpIVP-PD6Ppfxv

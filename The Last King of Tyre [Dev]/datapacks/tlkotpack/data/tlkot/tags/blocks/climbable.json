@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:cave_vines",
+		"minecraft:ladder",
+		"minecraft:scaffolding",
+		"minecraft:twisting_vines",
+		"minecraft:vine",
+		"minecraft:weeping_vines"
+	]
+}

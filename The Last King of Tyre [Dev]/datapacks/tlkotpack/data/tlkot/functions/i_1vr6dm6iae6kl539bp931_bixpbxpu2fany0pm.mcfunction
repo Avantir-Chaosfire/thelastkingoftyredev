@@ -1,2 +1,2 @@
-data merge entity @s {HandItems:[{id:golden_shovel,Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0,Operation:0,UUIDLeast:22355,UUIDMost:9772225}]}},{id:shield,Count:1b,tag:{Damage:4}}]}
+data merge entity @s {HandItems:[{id:golden_shovel,Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-2083990783,469882328,-704073346,-327271035]}]}},{id:shield,Count:1b,tag:{Damage:4}}]}
 tag @s add FR.huK9BfUfj_GrL2ElJ-Pxch9FNpcB9HE-t7r-R

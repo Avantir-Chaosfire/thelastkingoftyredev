@@ -11,5 +11,5 @@ function tlkot:5ovq5k7gz16x6i36jkdivkyexmrdj-o_7unewlxu
 function tlkot:d6fh_l9lkd4pxz5rlwpjkgzezfp3jefl_umjx310
 scoreboard players remove @e[type=armor_stand,name="Arrow Lane",tag=.w6Q_TOebGc2OkeerLZDv-R9J3+Nd8.FLhQ.ycmf,scores={zh3ZtxhYua3jcet8=1..}] zh3ZtxhYua3jcet8 1
 particle minecraft:large_smoke 515 44 86 0 1.5 1 0 5
-execute as @e[type=zombie_pigman,tag=0geg4Cpn-IYhI7-X-fA33IgGnYEee4l6YwRix74R] at @s run function tlkot:f0hrzuj2-onsyuwrccz5butmy1hunisnwpunh0-8
+execute as @e[type=zombified_piglin,tag=0geg4Cpn-IYhI7-X-fA33IgGnYEee4l6YwRix74R] at @s run function tlkot:f0hrzuj2-onsyuwrccz5butmy1hunisnwpunh0-8
 execute if entity @a[scores={u3Jl0xeQ_k4hs_EJ=..0}] run function tlkot:ugwcdavwbnn6r7kalq7xvrsjl54eue1ubti2jfhz

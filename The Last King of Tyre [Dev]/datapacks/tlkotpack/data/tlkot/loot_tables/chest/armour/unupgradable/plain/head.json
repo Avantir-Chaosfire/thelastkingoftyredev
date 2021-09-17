@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Cap\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A standard leather cap.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}'],},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUIDLeast:-262791071,UUIDMost:432915970,Slot:\"head\"}],Unbreakable:1b,HideFlags:6}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Cap\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A standard leather cap.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}'],},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUID:[I;-484023989,-1619398274,1246638755,-163599858],Slot:\"head\"}],Unbreakable:1b,HideFlags:6}"
 						}
 					]
 				}

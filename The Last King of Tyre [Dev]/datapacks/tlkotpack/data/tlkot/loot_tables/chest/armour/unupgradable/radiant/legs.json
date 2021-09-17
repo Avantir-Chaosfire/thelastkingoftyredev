@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Radiant Leggings\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Plate armour radiating with energy\",\"color\":\"gray\"}','{\"text\":\"that only you can see... Could it be\",\"color\":\"gray\"}','{\"text\":\"that many of E\\'Siraph are garbed in\",\"color\":\"gray\"}','{\"text\":\"things beyond your ken?\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 3\",\"color\":\"gray\"}','{\"text\":\"Weight: 1.5\",\"color\":\"gray\"}']},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:3,UUIDLeast:1838229029,UUIDMost:953484050,Slot:\"legs\"}],Unbreakable:1b,HideFlags:6}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Radiant Leggings\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Plate armour radiating with energy\",\"color\":\"gray\"}','{\"text\":\"that only you can see... Could it be\",\"color\":\"gray\"}','{\"text\":\"that many of E\\'Siraph are garbed in\",\"color\":\"gray\"}','{\"text\":\"things beyond your ken?\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 3\",\"color\":\"gray\"}','{\"text\":\"Weight: 1.5\",\"color\":\"gray\"}']},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:3,UUID:[I;79825857,401739265,1372520794,2108076613],Slot:\"legs\"}],Unbreakable:1b,HideFlags:6}"
 						}
 					]
 				}

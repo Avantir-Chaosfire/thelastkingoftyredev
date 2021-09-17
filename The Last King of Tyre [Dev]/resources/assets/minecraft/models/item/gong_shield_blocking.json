@@ -1,0 +1,359 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+"textures": {
+    "particle": "item/gong_shield_back_board",
+    "handle": "item/shield_handle",
+    "back": "item/gong_shield_back_board",
+    "front": "item/gong_shield_front_board"
+},
+    "display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, -90, 0 ],
+        "translation": [ 2.3, -7, 4 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 0, -90, 0 ],
+        "translation": [ 2.3, -7, 5 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, -5, -7.56 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, -3, 0 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, -5, -0.38 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 0, -15, 15 ],
+        "translation": [ 1, -7.5, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 0, -15, 15 ],
+        "translation": [ 2, -7.5, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 0, 180, 0 ],
+        "translation": [ 0.5, -5, 0 ],
+        "scale": [ 0.9, 0.9, 0.9 ]
+    }
+},
+    "elements": [
+        {
+            "name": "WristBraceTop",
+            "from": [ 8.0, 15.0, 8.5 ], 
+            "to": [ 9.0, 16.0, 13.0 ], 
+            "faces": {
+                "east": { "texture": "#handle", "uv": [ 5.0, 1.0, 10.0, 2.0 ] },
+                "south": { "texture": "#handle", "uv": [ 7.0, 1.0, 8.0, 2.0 ] },
+                "west": { "texture": "#handle", "uv": [ 5.0, 1.0, 10.0, 2.0 ] },
+                "up": { "texture": "#handle", "uv": [ 13.0, 2.0, 14.0, 7.0 ] },
+                "down": { "texture": "#handle", "uv": [ 13.0, 2.0, 14.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "WristBraceOuterSide",
+            "from": [ 8.0, 11.0, 12.0 ], 
+            "to": [ 9.0, 15.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#handle", "uv": [ 11.0, 7.0, 12.0, 11.0 ] },
+                "east": { "texture": "#handle", "uv": [ 5.0, 3.0, 9.0, 4.0 ], "rotation": 90 },
+                "south": { "texture": "#handle", "uv": [ 11.0, 7.0, 12.0, 11.0 ] },
+                "west": { "texture": "#handle", "uv": [ 5.0, 3.0, 9.0, 4.0 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "WristBraceBottom",
+            "from": [ 8.0, 10.0, 8.5 ], 
+            "to": [ 9.0, 11.0, 13.0 ], 
+            "faces": {
+                "east": { "texture": "#handle", "uv": [ 5.0, 1.0, 10.0, 2.0 ] },
+                "south": { "texture": "#handle", "uv": [ 8.0, 1.0, 9.0, 2.0 ] },
+                "west": { "texture": "#handle", "uv": [ 5.0, 1.0, 10.0, 2.0 ] },
+                "up": { "texture": "#handle", "uv": [ 3.0, 6.0, 4.0, 11.0 ] },
+                "down": { "texture": "#handle", "uv": [ 3.0, 6.0, 4.0, 11.0 ] }
+            }
+        },
+        {
+            "name": "WristBraceAnchorTop",
+            "from": [ 7.0, 15.0, 7.5 ], 
+            "to": [ 10.0, 16.0, 8.5 ], 
+            "faces": {
+                "east": { "texture": "#handle", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+                "south": { "texture": "#handle", "uv": [ 6.0, 0.0, 9.0, 1.0 ] },
+                "west": { "texture": "#handle", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+                "up": { "texture": "#handle", "uv": [ 8.0, 0.0, 11.0, 1.0 ] },
+                "down": { "texture": "#handle", "uv": [ 8.0, 0.0, 11.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "WristBraceAnchorBottom",
+            "from": [ 7.0, 10.0, 7.5 ], 
+            "to": [ 10.0, 11.0, 8.5 ], 
+            "faces": {
+                "east": { "texture": "#handle", "uv": [ 3.0, 12.0, 4.0, 13.0 ] },
+                "south": { "texture": "#handle", "uv": [ 8.0, 0.0, 11.0, 1.0 ] },
+                "west": { "texture": "#handle", "uv": [ 3.0, 12.0, 4.0, 13.0 ] },
+                "up": { "texture": "#handle", "uv": [ 8.0, 1.0, 5.0, 0.0 ] },
+                "down": { "texture": "#handle", "uv": [ 8.0, 1.0, 5.0, 0.0 ] }
+            }
+        },
+        {
+            "name": "WristBraceInnerSide",
+            "from": [ 8.0, 11.0, 7.5 ], 
+            "to": [ 9.0, 15.0, 8.5 ], 
+            "faces": {
+                "east": { "texture": "#handle", "uv": [ 5.0, 3.0, 9.0, 4.0 ] },
+                "south": { "texture": "#handle", "uv": [ 11.0, 7.0, 12.0, 11.0 ] },
+                "west": { "texture": "#handle", "uv": [ 5.0, 3.0, 9.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "BoardMiddle",
+            "from": [ 6.5, 9.0, 6.5 ], 
+            "to": [ 10.5, 17.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 3.0, 7.0, 7.0, 15.0 ], "cullface": "north" },
+                "east": { "texture": "#back", "uv": [ 0.0, 7.0, 1.0, 15.0 ], "cullface": "east" },
+                "south": { "texture": "#back", "uv": [ 3.0, 7.0, 7.0, 15.0 ] },
+                "west": { "texture": "#back", "uv": [ 9.0, 7.0, 10.0, 15.0 ], "cullface": "west" },
+                "up": { "texture": "#back", "uv": [ 7.0, 7.0, 3.0, 6.0 ] },
+                "down": { "texture": "#back", "uv": [ 7.0, 16.0, 3.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "BoardSide1",
+            "from": [ 5.5, 10.0, 6.5 ], 
+            "to": [ 6.5, 16.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 7.0, 8.0, 8.0, 14.0 ] },
+                "south": { "texture": "#back", "uv": [ 7.0, 8.0, 8.0, 14.0 ] },
+                "west": { "texture": "#back", "uv": [ 9.0, 8.0, 10.0, 14.0 ], "cullface": "west" },
+                "up": { "texture": "#back", "uv": [ 7.0, 6.0, 8.0, 7.0 ] },
+                "down": { "texture": "#back", "uv": [ 7.0, 15.0, 8.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "BoardSide2",
+            "from": [ 4.5, 11.0, 6.5 ], 
+            "to": [ 5.5, 15.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 8.0, 9.0, 9.0, 13.0 ] },
+                "south": { "texture": "#back", "uv": [ 8.0, 9.0, 9.0, 13.0 ] },
+                "west": { "texture": "#back", "uv": [ 9.0, 9.0, 10.0, 13.0 ] },
+                "up": { "texture": "#back", "uv": [ 8.0, 6.0, 9.0, 7.0 ] },
+                "down": { "texture": "#back", "uv": [ 8.0, 15.0, 9.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "BoardSide3",
+            "from": [ 10.5, 10.0, 6.5 ], 
+            "to": [ 11.5, 16.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 2.0, 8.0, 3.0, 14.0 ] },
+                "east": { "texture": "#back", "uv": [ 0.0, 8.0, 1.0, 14.0 ], "cullface": "east" },
+                "south": { "texture": "#back", "uv": [ 2.0, 8.0, 3.0, 14.0 ] },
+                "up": { "texture": "#back", "uv": [ 2.0, 6.0, 3.0, 7.0 ] },
+                "down": { "texture": "#back", "uv": [ 2.0, 15.0, 3.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "BoardSide4",
+            "from": [ 11.5, 11.0, 6.5 ], 
+            "to": [ 12.5, 15.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 1.0, 9.0, 2.0, 13.0 ] },
+                "east": { "texture": "#back", "uv": [ 0.0, 9.0, 1.0, 13.0 ] },
+                "south": { "texture": "#back", "uv": [ 1.0, 9.0, 2.0, 13.0 ] },
+                "up": { "texture": "#back", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+                "down": { "texture": "#back", "uv": [ 1.0, 15.0, 2.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "BumpMiddle",
+            "from": [ 7.5, 11.0, 5.5 ], 
+            "to": [ 9.5, 15.0, 6.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 4.0, 9.0, 6.0, 13.0 ] },
+                "east": { "texture": "#back", "uv": [ 10.0, 9.0, 11.0, 13.0 ], "cullface": "east" },
+                "west": { "texture": "#back", "uv": [ 15.0, 9.0, 16.0, 13.0 ], "cullface": "west" },
+                "up": { "texture": "#back", "uv": [ 6.0, 1.0, 4.0, 0.0 ] },
+                "down": { "texture": "#back", "uv": [ 6.0, 2.0, 4.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "BumpSide1",
+            "from": [ 6.5, 12.0, 5.5 ], 
+            "to": [ 7.5, 14.0, 6.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 6.0, 10.0, 7.0, 12.0 ] },
+                "west": { "texture": "#back", "uv": [ 15.0, 10.0, 16.0, 12.0 ] },
+                "up": { "texture": "#back", "uv": [ 6.0, 0.0, 7.0, 1.0 ] },
+                "down": { "texture": "#back", "uv": [ 6.0, 1.0, 7.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "BumpSide2",
+            "from": [ 9.5, 12.0, 5.5 ], 
+            "to": [ 10.5, 14.0, 6.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 3.0, 10.0, 4.0, 12.0 ] },
+                "east": { "texture": "#back", "uv": [ 10.0, 10.0, 11.0, 12.0 ] },
+                "up": { "texture": "#back", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+                "down": { "texture": "#back", "uv": [ 3.0, 1.0, 4.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "GongMiddle",
+            "from": [ 6.5, 7.0, 3.5 ], 
+            "to": [ 10.5, 19.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 6.0, 3.0, 10.0, 15.0 ] },
+                "east": { "texture": "#front", "uv": [ 1.0, 3.0, 2.0, 15.0 ], "cullface": "east" },
+                "south": { "texture": "#front", "uv": [ 6.0, 3.0, 10.0, 15.0 ] },
+                "west": { "texture": "#front", "uv": [ 14.0, 3.0, 15.0, 15.0 ], "cullface": "west" },
+                "up": { "texture": "#front", "uv": [ 10.0, 3.0, 6.0, 2.0 ] },
+                "down": { "texture": "#front", "uv": [ 10.0, 16.0, 6.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "GongSide1",
+            "from": [ 4.5, 8.0, 3.5 ], 
+            "to": [ 6.5, 18.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 10.0, 4.0, 12.0, 14.0 ] },
+                "south": { "texture": "#front", "uv": [ 10.0, 4.0, 12.0, 14.0 ] },
+                "west": { "texture": "#front", "uv": [ 14.0, 4.0, 15.0, 14.0 ], "cullface": "west" },
+                "up": { "texture": "#front", "uv": [ 12.0, 3.0, 10.0, 2.0 ] },
+                "down": { "texture": "#front", "uv": [ 12.0, 16.0, 10.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "GongSide2",
+            "from": [ 3.5, 9.0, 3.5 ], 
+            "to": [ 4.5, 17.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 12.0, 5.0, 13.0, 13.0 ] },
+                "south": { "texture": "#front", "uv": [ 12.0, 5.0, 13.0, 13.0 ] },
+                "west": { "texture": "#front", "uv": [ 14.0, 5.0, 15.0, 13.0 ], "cullface": "west" },
+                "up": { "texture": "#front", "uv": [ 12.0, 2.0, 13.0, 3.0 ] },
+                "down": { "texture": "#front", "uv": [ 12.0, 15.0, 13.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "GongSide3",
+            "from": [ 2.5, 11.0, 3.5 ], 
+            "to": [ 3.5, 15.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 13.0, 7.0, 14.0, 11.0 ] },
+                "south": { "texture": "#front", "uv": [ 13.0, 7.0, 14.0, 11.0 ] },
+                "west": { "texture": "#front", "uv": [ 14.0, 7.0, 15.0, 11.0 ], "cullface": "west" },
+                "up": { "texture": "#front", "uv": [ 13.0, 2.0, 14.0, 3.0 ] },
+                "down": { "texture": "#front", "uv": [ 13.0, 15.0, 14.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "GongSide4",
+            "from": [ 10.5, 8.0, 3.5 ], 
+            "to": [ 12.5, 18.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 4.0, 4.0, 6.0, 14.0 ] },
+                "east": { "texture": "#front", "uv": [ 1.0, 4.0, 2.0, 14.0 ], "cullface": "east" },
+                "south": { "texture": "#front", "uv": [ 4.0, 4.0, 6.0, 14.0 ] },
+                "up": { "texture": "#front", "uv": [ 6.0, 3.0, 4.0, 2.0 ] },
+                "down": { "texture": "#front", "uv": [ 6.0, 16.0, 4.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "GongSide5",
+            "from": [ 12.5, 9.0, 3.5 ], 
+            "to": [ 13.5, 17.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 3.0, 5.0, 4.0, 13.0 ] },
+                "east": { "texture": "#front", "uv": [ 1.0, 5.0, 2.0, 13.0 ], "cullface": "east" },
+                "south": { "texture": "#front", "uv": [ 3.0, 5.0, 4.0, 13.0 ] },
+                "up": { "texture": "#front", "uv": [ 3.0, 2.0, 4.0, 3.0 ] },
+                "down": { "texture": "#front", "uv": [ 3.0, 15.0, 4.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "GongSide6",
+            "from": [ 13.5, 11.0, 3.5 ], 
+            "to": [ 14.5, 15.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 2.0, 7.0, 3.0, 11.0 ] },
+                "east": { "texture": "#front", "uv": [ 1.0, 7.0, 2.0, 11.0 ], "cullface": "east" },
+                "south": { "texture": "#front", "uv": [ 2.0, 7.0, 3.0, 11.0 ] },
+                "up": { "texture": "#front", "uv": [ 2.0, 2.0, 3.0, 3.0 ] },
+                "down": { "texture": "#front", "uv": [ 2.0, 15.0, 3.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "GongBraceTop",
+            "from": [ 6.5, 20.0, 3.5 ], 
+            "to": [ 10.5, 21.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 11.0, 5.0, 15.0, 6.0 ] },
+                "east": { "texture": "#back", "uv": [ 11.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#back", "uv": [ 11.0, 5.0, 15.0, 6.0 ] },
+                "west": { "texture": "#back", "uv": [ 11.0, 0.0, 15.0, 1.0 ] },
+                "up": { "texture": "#back", "uv": [ 15.0, 5.0, 11.0, 1.0 ] },
+                "down": { "texture": "#back", "uv": [ 15.0, 10.0, 11.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "BoardBraceVerticalConnector1",
+            "from": [ 6.5, 17.0, 6.5 ], 
+            "to": [ 7.5, 20.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 3.0, 2.0, 4.0, 5.0 ] },
+                "east": { "texture": "#back", "uv": [ 2.0, 2.0, 3.0, 5.0 ] },
+                "south": { "texture": "#back", "uv": [ 3.0, 2.0, 4.0, 5.0 ] },
+                "west": { "texture": "#back", "uv": [ 2.0, 2.0, 3.0, 5.0 ] }
+            }
+        },
+        {
+            "name": "BoardBraceVerticalConnector2",
+            "from": [ 9.5, 17.0, 6.5 ], 
+            "to": [ 10.5, 20.0, 7.5 ], 
+            "faces": {
+                "north": { "texture": "#back", "uv": [ 6.0, 2.0, 7.0, 5.0 ] },
+                "east": { "texture": "#back", "uv": [ 7.0, 2.0, 8.0, 5.0 ] },
+                "south": { "texture": "#back", "uv": [ 6.0, 2.0, 7.0, 5.0 ] },
+                "west": { "texture": "#back", "uv": [ 7.0, 2.0, 8.0, 5.0 ] }
+            }
+        },
+        {
+            "name": "GongBraceVerticalConnector1",
+            "from": [ 6.5, 19.0, 3.5 ], 
+            "to": [ 7.5, 20.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 6.0, 0.0, 7.0, 1.0 ] },
+                "east": { "texture": "#front", "uv": [ 5.0, 0.0, 6.0, 1.0 ] },
+                "south": { "texture": "#front", "uv": [ 6.0, 0.0, 7.0, 1.0 ] },
+                "west": { "texture": "#front", "uv": [ 5.0, 0.0, 6.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "GongBraceVerticalConnector2",
+            "from": [ 9.5, 19.0, 3.5 ], 
+            "to": [ 10.5, 20.0, 4.5 ], 
+            "faces": {
+                "north": { "texture": "#front", "uv": [ 9.0, 0.0, 10.0, 1.0 ] },
+                "east": { "texture": "#front", "uv": [ 10.0, 0.0, 11.0, 1.0 ] },
+                "south": { "texture": "#front", "uv": [ 9.0, 0.0, 10.0, 1.0 ] },
+                "west": { "texture": "#front", "uv": [ 10.0, 0.0, 11.0, 1.0 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=!G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF] if block ~ ~ ~ minecraft:lever[powered=true] run function tlkot:ma_i0kvjg0ij4ro8pw1gt136ts7l3_wnkxczrxko
+execute if entity @s[tag=G3B7gXXgMeV5Us.4k8a38bllx1zvDer1RcjuYGeF] if block ~ ~ ~ minecraft:lever[powered=false] run function tlkot:t1qp0u20i_-w9fpg3eovj0skxk889sypfprjkvpy

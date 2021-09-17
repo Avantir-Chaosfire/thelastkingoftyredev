@@ -1,1 +1,0 @@
-execute if block 302 37 51 minecraft:end_portal_frame[eye=true] run function tlkot:zk1jvwk_t-hfrupx4cxbkap-zx-s1-q0t_6x3l6u

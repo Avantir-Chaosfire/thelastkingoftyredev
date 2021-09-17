@@ -1,0 +1,152 @@
+{
+	"entity.reaper.scream":
+	{
+		"sounds":
+		[
+			"reaper_scream"
+		]
+	},
+	"entity.evangelist.whisper":
+	{
+		"sounds":
+		[
+			"rapturous_daugh_communion_whisper"
+		]
+	},
+	"music.boss.fates_puppeteer":
+	{
+		"sounds":
+		[
+			{
+				"name": "fates_puppeteer_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.disgraceful_beast":
+	{
+		"sounds":
+		[
+			{
+				"name": "disgraceful_beast_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.saviour_moses":
+	{
+		"sounds":
+		[
+			{
+				"name": "saviour_moses_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.hanging_pole":
+	{
+		"sounds":
+		[
+			{
+				"name": "hanging_pole_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.perjurer":
+	{
+		"sounds":
+		[
+			{
+				"name": "perjurer_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.dar_the_vicious":
+	{
+		"sounds":
+		[
+			{
+				"name": "dar_the_vicious_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.warden_ylsa_and_the_false_reaper":
+	{
+		"sounds":
+		[
+			{
+				"name": "warden_ylsa_and_the_false_reaper_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.boss.kurnas_harbinger_of_ruination":
+	{
+		"sounds":
+		[
+			{
+				"name": "kurnas_harbinger_of_ruination_boss_music",
+				"stream": true
+			}
+		]
+	},
+	"music.credits":
+	{
+		"sounds":
+		[
+			{
+				"name": "credits_music",
+				"stream": true
+			}
+		]
+	},
+	"ambient.white_noise":
+	{
+		"sounds":
+		[
+			{
+				"name": "white_noise",
+				"preload": true
+			}
+		]
+	},
+	"ambient.rumbling_boom":
+	{
+		"sounds":
+		[
+			"rumbling_boom"
+		]
+	},
+	"ambient.third_bell_toll":
+	{
+		"sounds":
+		[
+			"third_bell_toll"
+		]
+	},
+	"item.gong_shield.hit":
+	{
+		"sounds":
+		[
+			"gong_shield_hit"
+		]
+	},
+	"entity.player.levelup":
+	{
+		"replace": true,
+		"sounds":
+		[
+			"nothing"
+		]
+	},
+	"base.levelup":
+	{
+		"sounds":
+		[
+			"random/levelup"
+		]
+	}
+}

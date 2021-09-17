@@ -1,1 +1,0 @@
-execute if block 517 181 140 minecraft:end_portal_frame[eye=true] run function tlkot:ca--3f-m08_kbelv15b0b0mba3vcw3ljqd5p3wfp

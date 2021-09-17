@@ -1,3 +1,4 @@
+tag @a remove jvqeJ7.SQn4trybGnwOdE_A-iMLLEFGmondC_FSl
 scoreboard players reset @a _XLxGTCjws-yMXcr
 setblock -888 33 -712 minecraft:stone_button[face=wall,facing=north,powered=false]
 tp @a -888 31 -728 0 0

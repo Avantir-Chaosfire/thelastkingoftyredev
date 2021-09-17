@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Boots\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Some standard leather boots.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}'],},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUIDLeast:-1289781863,UUIDMost:-1345284897,Slot:\"feet\"}],HideFlags:6}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Boots\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Some standard leather boots.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}'],},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUID:[I;-155209369,-1533642840,1333008415,1733469210],Slot:\"feet\"}],HideFlags:6}"
 						}
 					]
 				}

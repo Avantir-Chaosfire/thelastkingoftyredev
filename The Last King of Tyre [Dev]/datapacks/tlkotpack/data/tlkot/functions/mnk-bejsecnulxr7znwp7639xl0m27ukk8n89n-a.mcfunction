@@ -1,5 +1,5 @@
 tag @a remove GqDxgXIq0_M_q6f3bdo42vRFXqnooHz2YZ5o9OFd
-function tlkot:92txe3x28jp7kclp_7n_q8mlktomgai6pkj_4m-h
+function tlkot:x8xh3h_s1kcoxgaw5kg5kj-yddsp6s_cagr9398e
 tag @a add zf_9h4xLy+aEHRg6Vt2zHhYHUiLW3MHiXHOZNxqb
 spawnpoint @a -304 238 324
 function tlkot:jqvirqkt14l7xiqv9tm4iwl6ou2hhuq7e3k5k6gf

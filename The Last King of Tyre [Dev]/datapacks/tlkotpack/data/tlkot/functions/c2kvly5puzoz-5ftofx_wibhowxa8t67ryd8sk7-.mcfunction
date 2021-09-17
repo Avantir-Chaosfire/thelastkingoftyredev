@@ -1,0 +1,12 @@
+execute if entity @a[tag=!BvFqJm_-sfn044srW2Lzb-49udVYXmbX-VdLGoCW] run function tlkot:iytcgkcf8-dg9kigvwmy3nvwl2o3g_gfpfv0kjc5
+execute if entity @a[tag=!oxltxpzH.2_i.GDJRXIK013o78x1VHgPpM-OMthq] run function tlkot:4wsurqusk2egvnbw2h61-s2ur2esfryma_ak6m9i
+execute if entity @a[tag=!_LMyodqA2uyKWq.41tO2LL5fBPy3Xtxo3bIv4MLB] run function tlkot:k3qof854ee_f1w_3u8f6detl31isvj1ahaads4ln
+execute if entity @a[tag=!qAk.Bwee1p6juIvbmubnBqMq11YZgVf.CiXLZCJm] run function tlkot:dhqulmykh-nzo8rpeghsp3atxdvfoz-0t0cwqg8j
+execute if entity @a[tag=!e9pulONYg4Mfj0SspWOkD4jj26sNVaQT4M38GuWr] run function tlkot:cyij1exnwkh_e3e1bmxm9go_ub27bsaluzp784hn
+execute if entity @a[tag=!vMoFIuV-WOvNSgGsKa0qeJn-q3jI3sg3L3FfYoB_] run function tlkot:b8dg3izittrbr1to459p-weoowgkn_2l9qbggcr7
+execute if entity @a[tag=!JTFmbkI-5DIiKb0MP5O4TIx1+pNUnpUesiPiQW26] run function tlkot:x02chb3waodgd3d34m9ye1xzioyc11xdrttfv_y5
+execute if entity @a[tag=!5sCXl6nBKjeNWTDAjkmQyqkCPCSpe6n0-_8-8G0m] run function tlkot:d73866a0qh9n4g49zt_bfp0k8cqyz-6rvcfazi-u
+execute if entity @a[tag=!oNDVlEgiD8KXZ5FkY5sOmhWO.sufvzzlE3EROaJ9] run function tlkot:vhoat6lsnqrbuuy9qo5n92wvr_4q_fa3c--iqeh_
+execute if entity @a[tag=!E5G9EB17KX+7+ABcy-sKy72ZV62cEflLJRlRxK8h] run function tlkot:bvale5qvmr-6q7idbmnzlc91ip11eu5hqf1cls5i
+execute if entity @a[tag=!BpC2._4m0qm2QN+qPKT-TQ5eNPk3DCyjkS.qG3q3] run function tlkot:1y4yxs77s1jv6jn-792m2vxj4-q5dbeb0etq6qg9
+execute if entity @a[tag=!E5IVR0S4fQ5ah9S_ALVcra_0cR3BNzmJNdzd8pRh] run function tlkot:2evm-9jfywy3fbptcke6r1rfa69wud1293kh9mdo

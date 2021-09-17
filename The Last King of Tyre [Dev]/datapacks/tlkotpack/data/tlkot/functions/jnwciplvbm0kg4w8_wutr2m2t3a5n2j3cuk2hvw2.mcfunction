@@ -1,6 +1,6 @@
 particle minecraft:smoke ~ ~1 ~ 0.23 1 0.23 0 2
 particle minecraft:witch ~ ~1 ~ 0.23 1 0.23 0 1
-execute if block ~ ~-0.25 ~ minecraft:air run particle minecraft:witch ~ ~ ~ 0.25 0.05 0.25 0 5
+execute if entity @a[distance=..32] if block ~ ~-0.25 ~ minecraft:air run particle minecraft:witch ~ ~ ~ 0.25 0.05 0.25 0 5
 function tlkot:elrh9s-k2x8603v212q9d_9kltpxx5diow_sdk5-
 function tlkot:f53y49203kvjuk2lpyayofco7z_vrkooywu8whth
 function tlkot:v2rf2hib2mf5rt_zfibubfthzi8hj97a1umxy6r9

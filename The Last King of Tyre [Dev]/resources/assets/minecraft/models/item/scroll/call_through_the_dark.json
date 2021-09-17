@@ -1,0 +1,6 @@
+{
+    "parent": "item/fishing_rod",
+    "textures": {
+        "layer0": "item/call_through_the_dark_scroll"
+    }
+}
