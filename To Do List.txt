@@ -72,7 +72,3 @@ Foreword:
 			-bcg skip via that big shaft in new hoiro
 			-replace iron bars with chains where appropriate
 			-quelling key skip
-
-Upgrading:
-	1.15 Changes Required:
-		-Full re-test of Disgraceful Beast fight (Slimes/Magma Cubes now use attributes)
