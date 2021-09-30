@@ -1,1 +1,1 @@
-execute if entity @s[scores={bEDPcJnxv7RJYWIz=1..}] run function tlkot:i_33n5ynvcae3yhnm5shk4dp0a0zgu39hpo3x384
+execute if entity @s[scores={bEDPcJnxv7RJYWIz=1..,99U+r2nhFTwAKng1=3000..}] run function tlkot:i_33n5ynvcae3yhnm5shk4dp0a0zgu39hpo3x384

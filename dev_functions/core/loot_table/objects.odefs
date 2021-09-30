@@ -426,6 +426,10 @@ $ Mushroom Cavern
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 45 62 328	$ grouping/npc/candelja_the_wise/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 44 62 328	$ grouping/npc/candelja_the_wise/head_of_yearning
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 70 60 341	$ material/lead_weight
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 93 49 225	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 48 226	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 50 228	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 50 229	$ consumable/desiccating_carapace
 
 $ Glowering Mines
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -41 63 240	$ book/epitaph/noble
@@ -967,6 +971,7 @@ $ New Hoiro
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 610 213 256	$ key/burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 624 183 290	$ key/cathedral
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 489 180 135	$ general/rare
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 499 149 266	$ consumable/desiccating_carapace
 
 $ Burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 620 158 353	$ general/common
@@ -1070,6 +1075,7 @@ $ Burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 607 152 163	$ general/rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 693 146 220	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 628 140 381	$ general/very_rare
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 628 152 162	$ consumable/desiccating_carapace
 
 $ Blackguards' Cavern
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 672 131 437	$ general/common

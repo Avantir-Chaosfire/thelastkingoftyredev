@@ -6,8 +6,8 @@ title @a[x=-320,y=208,z=341,distance=17..,scores={r-PzazChS8jbaRXQ=40..,8J9O33im
 scoreboard players remove @a[scores={r-PzazChS8jbaRXQ=0..}] r-PzazChS8jbaRXQ 1
 execute if entity @a[scores={bEDPcJnxv7RJYWIz=1..}] run function tlkot:k7ai_wl1wkxp-goq6t3p601pjsz00vn05lwube7l
 tag @a remove ggU5qUlflB3z8PK-4PSYLalAf3.8TG+sLaW4tC6K
-tag @a[scores={+b8qg+-lfW00Wdsd=52}] add bfpe5rq.RSu+vTjsRyVAs+gi5RhBDWSGYac9G+h3
-execute unless entity @a[scores={+b8qg+-lfW00Wdsd=49..72}] run tag @a[scores={bzdFAjnNavldW950=52}] add bfpe5rq.RSu+vTjsRyVAs+gi5RhBDWSGYac9G+h3
+tag @a[scores={+b8qg+-lfW00Wdsd=54}] add bfpe5rq.RSu+vTjsRyVAs+gi5RhBDWSGYac9G+h3
+execute unless entity @a[scores={+b8qg+-lfW00Wdsd=51..74}] run tag @a[scores={bzdFAjnNavldW950=54}] add bfpe5rq.RSu+vTjsRyVAs+gi5RhBDWSGYac9G+h3
 execute if entity @a[tag=bfpe5rq.RSu+vTjsRyVAs+gi5RhBDWSGYac9G+h3] run function tlkot:2_2o8avltecshyljnksnxyn3bvojv97prn-ho5ck
 scoreboard players operation @a uJBGUs5m5U3xs3lV = @a ilR6Q1CT9B4gMfJw
 tag @a remove M5Xtnu8N5ofeoytZHNRF2eVmLreTnvyeB4rB0xhk

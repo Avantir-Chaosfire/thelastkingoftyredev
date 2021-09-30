@@ -37,5 +37,6 @@ scoreboard players set @a jx-QDTut0ImlbCj2 60
 scoreboard players set @a 2SjdhdwoKAoZNCGD 50
 scoreboard players set @a TJiQ-IXLkzwmG+Kc 20
 scoreboard players set @a V0AlsLB.TP5Yn0LW 0
+scoreboard players set @a qUMkcARbHVYr8P3t 0
 scoreboard players set @a TiX_arBEjB3wjyO- 10
 scoreboard players set @a 35OcA9ItS421vswb 100

@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Arc Lightning Scroll, Class 3\\\",\\\"color\\\":\\\"dark_aqua\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A task ordinarily difficult made easy\",\"color\":\"gray\"}','{\"text\":\"through the precise implementation of\",\"color\":\"gray\"}','{\"text\":\"the Subjugate\\'s research.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Call For a Lightning Strike\",\"color\":\"gray\"}']},HoldingID:60,Unbreakable:1b,HideFlags:6,CustomModelData:8,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1024,UUID:[I;-84639253,-1964393214,1869569921,-1721451225],Slot:\"mainhand\"}]}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Arc Lightning Scroll, Class 3\\\",\\\"color\\\":\\\"dark_aqua\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A task ordinarily difficult made easy\",\"color\":\"gray\"}','{\"text\":\"through the precise implementation of\",\"color\":\"gray\"}','{\"text\":\"the Subjugate\\'s research.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Call For a Lightning Strike\",\"color\":\"gray\"}']},HoldingID:62,Unbreakable:1b,HideFlags:6,CustomModelData:8,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1024,UUID:[I;-84639253,-1964393214,1869569921,-1721451225],Slot:\"mainhand\"}]}"
 						}
 					]
 				}

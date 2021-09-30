@@ -1,1 +1,2 @@
 execute if entity @a[tag=9WfTvg+rz3Jfj00MkFuWAYVVxJvRSzjThH8-MHQK] run function tlkot:65dsf3x_o_ieg179u0vj616ov_yzs-tvpghqyhwg
+execute if entity @s[scores={qUMkcARbHVYr8P3t=1..}] run function tlkot:5orkoc1gt64hk2n_-tntcdp207v5hanwd13_t5kl

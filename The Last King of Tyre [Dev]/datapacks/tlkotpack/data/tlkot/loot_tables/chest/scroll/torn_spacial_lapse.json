@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Torn Spacial Lapse Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Torn; Unusable.\",\"color\":\"gray\"}']},HoldingID:95}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Torn Spacial Lapse Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Torn; Unusable.\",\"color\":\"gray\"}']},HoldingID:97}"
 						}
 					]
 				}

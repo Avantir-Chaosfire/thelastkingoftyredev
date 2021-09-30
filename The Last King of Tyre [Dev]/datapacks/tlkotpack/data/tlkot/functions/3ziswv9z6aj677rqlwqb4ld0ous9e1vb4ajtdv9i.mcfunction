@@ -1,4 +1,3 @@
-execute as @e[tag=.D4t+4BmfO4fDvVRA19pCcvvjD0bA22CHdwoA5jk,tag=!NyqhaWlEzkle+_Nqmn--ge+Ogg_R4PbzQ38R9h0m] run function tlkot:0d530tzemd00p1zezpuqp12loqkw7aw_ctr1zuea
 scoreboard players add @a[scores={yYMZQeeb5cdluIIb=160}] Yil+Eia5XVG2pWbJ 1
 scoreboard players add @a[scores={yYMZQeeb5cdluIIb=320}] Yil+Eia5XVG2pWbJ 1
 scoreboard players add @a[scores={yYMZQeeb5cdluIIb=520}] Yil+Eia5XVG2pWbJ 1
@@ -13,5 +12,5 @@ scoreboard players add @a[scores={3UrLDFu8Mdv89c13=720}] ZuGl0RaLBryC5YUo 1
 scoreboard players remove @a[scores={3UrLDFu8Mdv89c13=0..}] 3UrLDFu8Mdv89c13 1
 execute as @e[type=armor_stand,name=DisgracefulBeast-Misbegotten] at @s run function tlkot:07x261ob9o7jl_vlne89_dctd0ndjljajss9i75d
 execute as @e[name="Misbegotten Souls",nbt={Size:0}] at @s run function tlkot:-k-i6gw1q4-6o9lvac83k87-2v213o7490azlm5k
-execute as @e[tag=yfXqXO9JsTPtdTW-+IiMukpqpxZnu_1MTclii2Pp] at @s run function tlkot:gmouz09ibgeou4kwc0mzu7q8qcnal3yagwdb1dj3
+execute as @e[tag=.D4t+4BmfO4fDvVRA19pCcvvjD0bA22CHdwoA5jk,scores={O8_SaEwsXPZBUZv3=..0}] at @s run function tlkot:gmouz09ibgeou4kwc0mzu7q8qcnal3yagwdb1dj3
 tag @a remove qKHmjTsO0960gVj8-aPBO7-9vH65+Qv+lhkd+Ndg

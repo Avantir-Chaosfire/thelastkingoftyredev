@@ -52,5 +52,6 @@ scoreboard players set @a TutorialIsMemory 0
 scoreboard players set @a NewProphet 0
 scoreboard players set @a InCutsceneMode 0
 scoreboard players set @a CarapaceCooldown 0
+scoreboard players set @a Strength 0
 
 tag @a add NotBound

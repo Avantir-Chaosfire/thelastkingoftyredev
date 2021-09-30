@@ -4,6 +4,9 @@ tag @a remove LoopingFine
 #Patch previous versions
 function tlkot:<~>/patches/main
 
+#Prep strength calculation
+scoreboard players set @a Strength 0
+
 #Spawn things
 function tlkot:<~>/aoe_cloud_control
 
@@ -65,6 +68,9 @@ function tlkot:<~>/study_teleport/main
 function tlkot:<~>/tuning_fork/main
 function tlkot:<~>/vanishing_key/main
 execute if entity @a[scores={InCutsceneMode=0}] run function tlkot:<~>/weapon/main
+
+#Compute strength after everything's applied
+function tlkot:<~>/strength/main
 
 #Compute invulnerability/vitality/blood sigil last
 function tlkot:<~>/blood_sigil/main

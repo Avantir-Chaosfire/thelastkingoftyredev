@@ -40,12 +40,6 @@ Foreword:
 		-Rename save file to remove "[Dev]"
 
 	Post-Release:
-		-Intangible reapers take damage from the Heavy Battle Axe
-		-Iron guard reapers should only gain speed from 3+ damage
-		-Ashen Talisman doesn't indicate health requirement
-		-Sac Knife & New Prophet absorption don't work thanks to challenge knight set - should only clear absorption when you lose the tag and don't get it back
-		-You can permanently lose items in map item frames in Enshadowed Thrones
-		-Can attack with Life Bane at <5 stamina
 		-crystal guardian name tag visibility
 		-Fireball gives True Assassin achievement
 		-spyglass in astrologist's loft
@@ -60,15 +54,11 @@ Foreword:
 		-collecting item achievements?
 		-Remove arrow particles (Kurnas, Hanging Pole, Kiermert, local_event/arrow_trap, local_event/blood_sigil_tutorial, one_second/local_event/arrow_trap)
 		-flare should use light instead of jack o lantern
-		-add chest to mushroom cavern under lava
 		-update credits
 
 		Level design:
-			-moving tyre reaches key?
 			-glowering mines more obvious
-			-Give Desiccating Carapaces for defeating Shade Caster in addition to button
+				-update thrones map
 			-psych ward parkour
+				-update thrones map
 			-vanishing key shortcut (x3 through burrows/railway)
-			-bcg skip via that big shaft in new hoiro
-			-replace iron bars with chains where appropriate
-			-quelling key skip

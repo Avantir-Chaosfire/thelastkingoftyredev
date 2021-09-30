@@ -1,6 +1,7 @@
 execute if entity @a[tag=!52L11TA.4oTgBbC6veu5bleNDCgDKU4bAknKLMKU] run tellraw @a {"text": "[Server] ", "extra": [{"text": "[CRITICAL ERROR]", "color": "red"}, {"text": " maxCommandChainLength exceeded on the previous tick, commands skipped! If you see this message, please report it ASAP!", "color": "dark_purple"}]}
 tag @a remove 52L11TA.4oTgBbC6veu5bleNDCgDKU4bAknKLMKU
 function tlkot:ghlrj--7lejz5900onmy4xbr0dva49umbk9g3h07
+scoreboard players set @a 1LIqGSzQ_BtpjODT 0
 function tlkot:ut8p8w9dmz65n1x75itf19svjknktz80xt_nbq_0
 function tlkot:ejdqrvja_pm9lm21m0uvkmvtybd0fdsz-9eddz9e
 function tlkot:w5veicikp2cecltouan97_7thynzs_f6qzshsyvd
@@ -49,6 +50,7 @@ function tlkot:tjbcs511iz8gi6w-x3zz2mgc8xgirdrq98cthv5z
 function tlkot:8lpdfdck99ecft2qe71bc-ssr0n_qgapyne9rvk9
 function tlkot:kv3wq5_lpuwx2a3-p0yy3_vkp9i258zndws78lai
 execute if entity @a[scores={kdJ-OTtT6Ksybb-3=0}] run function tlkot:56yiipguapj_u1uwot9i6rpdwr-_epw1i8k8pl9d
+function tlkot:5sk-9w36mmw0m0pllokfxx-teds79u_ziitryr0w
 function tlkot:97fd199a3tclwa29623cuspf47xiyc3xwcl69t53
 execute if entity @a[scores={kdJ-OTtT6Ksybb-3=0}] run function tlkot:n_xiquv-ef0dz6e7j-n864rumzjrcchy9gwpxij_
 function tlkot:51jwhyz-ctzmla2sdayc44-k-s_umddhm51atxwz

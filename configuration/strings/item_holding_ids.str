@@ -49,7 +49,9 @@ Crushing2HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 Heavy2HGreatHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
 CursedLifeBaneHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+CursedLifeBaneDisarmedHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 PurifiedLifeBaneHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+PurifiedLifeBaneDisarmedHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
 DullScytheHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 RadiantScytheHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>

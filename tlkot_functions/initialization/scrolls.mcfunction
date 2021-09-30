@@ -51,6 +51,7 @@ scoreboard players set @a SwarmTime <#FireSwarmWill0Time#>
 scoreboard players set @a DeathPactTime <#DeathPactWill0Time#>
 scoreboard players set @a DeathPactCounter 20
 scoreboard players set @a DeathPactKills 0
+scoreboard players set @a DeathPactStrDur 0
 
 scoreboard players set @a SpacialTime <#SpacialLapseWill0Time#>
 

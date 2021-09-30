@@ -26,6 +26,7 @@ scoreboard players set @a dEBCQUV9IWZZO1HF 0
 scoreboard players set @a OKBH2MK0hMmBIotZ -1
 scoreboard players set @a u8_LM8pVN+4ZuJTg 0
 scoreboard players set @a .MBp1foOO_Jyv1t0 0
+scoreboard players set @a A+p5OPJ4L03LLajE 0
 scoreboard players set @a 3X6+i_nvGwa5aoV0 0
 scoreboard players set @a k.gUKqads4Z0IALN 0
 scoreboard players set @a Yo4l+UC28wCYzo3N 0

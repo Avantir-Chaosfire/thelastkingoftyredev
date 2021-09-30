@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Faded Fire Swarm Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The symbols have worn\",\"color\":\"gray\"}','{\"text\":\"away; Unusable.\",\"color\":\"gray\"}']},HoldingID:94}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Faded Fire Swarm Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The symbols have worn\",\"color\":\"gray\"}','{\"text\":\"away; Unusable.\",\"color\":\"gray\"}']},HoldingID:96}"
 						}
 					]
 				}

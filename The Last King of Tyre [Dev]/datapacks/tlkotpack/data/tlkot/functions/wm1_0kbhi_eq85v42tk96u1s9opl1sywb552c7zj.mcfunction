@@ -1,3 +1,3 @@
-tag @a[scores={+b8qg+-lfW00Wdsd=91}] add O3b-+ubaTTHURBxAQb9JSZCZ-QuGuQYHlTUya.eO
-tag @a[scores={bzdFAjnNavldW950=91}] add Y+IwMztshc7g+sxRK6ljGa9ZnU9yeA06+EB8AIyB
+tag @a[scores={+b8qg+-lfW00Wdsd=93}] add O3b-+ubaTTHURBxAQb9JSZCZ-QuGuQYHlTUya.eO
+tag @a[scores={bzdFAjnNavldW950=93}] add Y+IwMztshc7g+sxRK6ljGa9ZnU9yeA06+EB8AIyB
 tag @a add O.WEwY1V0LHRgiV.PPTz.zD0CFNYawLJBlLFUzEd

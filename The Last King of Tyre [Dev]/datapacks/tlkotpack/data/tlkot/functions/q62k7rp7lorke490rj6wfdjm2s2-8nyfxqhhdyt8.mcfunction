@@ -43,4 +43,5 @@ scoreboard players set @a dCdcPvj8cI6y903O 0
 scoreboard players set @a ZVTr_WjCuOvpZr_5 0
 scoreboard players set @a kdJ-OTtT6Ksybb-3 0
 scoreboard players set @a gxTa_jXlr1KdjwHU 0
+scoreboard players set @a 1LIqGSzQ_BtpjODT 0
 tag @a add zf_9h4xLy+aEHRg6Vt2zHhYHUiLW3MHiXHOZNxqb

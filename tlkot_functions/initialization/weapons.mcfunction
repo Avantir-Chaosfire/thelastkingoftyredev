@@ -37,6 +37,7 @@ scoreboard players set @a DaggerSRegenDur -1
 scoreboard players set @a DaggerSRegenMod 0
 
 scoreboard players set @a SSacKnife 0
+scoreboard players set @a SacKnifeStrDur 0
 
 scoreboard players set @a SBurningIron 0
 scoreboard players set @a SGiantSpiderFang 0

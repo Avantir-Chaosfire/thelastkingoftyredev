@@ -1,1 +1,2 @@
-execute if entity @a[scores={+b8qg+-lfW00Wdsd=47}] run function tlkot:5_6eda6yebv8nabbwtbp4j0isw1b7t_p8csy2dea
+execute if entity @a[scores={+b8qg+-lfW00Wdsd=49}] run function tlkot:5_6eda6yebv8nabbwtbp4j0isw1b7t_p8csy2dea
+execute if entity @a[scores={A+p5OPJ4L03LLajE=1..}] run function tlkot:xarmc-fz1fv8yq41uf651omukk2_8d8ns56bb4i-
