@@ -6,7 +6,7 @@ scoreboard players operation @s DamageTaken -= @s MobHealth
 # Damage Modifiers
 scoreboard players operation @s[scores={CondemnDuration=1..}] DamageTaken *= @a[limit=1] Two
 execute if entity @s[scores={DamageTaken=1100..}] if entity @a[scores={BonusDuration=1..}] run function tlkot:core/ai/health_score/bonus
-execute if entity @a[tag=WasHoldingHalberd] run function tlkot:<~>/halberd/main
+execute if entity @a[tag=WasHoldingHalberd] run function tlkot:<~>/halberd/main
 execute if entity @a[tag=HurtIntangible] if entity @s[tag=AI.Intangible] run function tlkot:<~>/intangible
 execute if entity @s[tag=AI.Intangible,scores={DamageTaken=1..}] run function tlkot:<~>/intangible_hit
 
