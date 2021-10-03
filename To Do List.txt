@@ -42,20 +42,16 @@ Foreword:
 
 	Post-Release:
 		-balance changes
-			-Bonus Damage Window: 0.3s -> 0.45s
 			-Added Overcharge Scroll
-			-Desolate Explosion Power: 6 -> 4
-			-Aerokinesis Channeling Interval: 1s -> 1.5s
 			-Energy Tap now grants +15% Damage
 			-Blitz grants +1 Max Stamina per nearby enemy (armour imprint is unchanged)
 			-Spacial Lapse is now starter scroll for Ranger
 			-Blitz is now broken scroll for Ranger
-			-Battle Axe Stamina Regeneration Delay: 2.5s -> 2.8s
-			-Halberd Crit Damage: 150% -> 200%
-			-Scimitar Bonus Damage: 6 -> 12
-			-Black Oak Staff (Two Handed) Bonus Damage Window: 0.3s -> 0.6s
 		-achievements
 			-Recalibrate True Assassin
 			-boss achievements
 			-collecting item achievements?
 			-verify all achievements run is possible
+
+		-test:
+			-Halberd Crit: +20% Damage

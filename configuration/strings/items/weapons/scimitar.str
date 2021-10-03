@@ -40,6 +40,8 @@ BaseScimitarNameText Scimitar
 BaseScimitarName <#ItemName$BaseScimitarNameText$ScimitarNameColour#>
 BaseScimitarStats <#WeaponStats$BaseScimitar#>
 BaseScimitarStats <#LoreLine$<#Cleave#> II#>
+BaseScimitarStats <#LoreLine$+6 Bonus Damage from Stamina#>
+BaseScimitarStats <#LoreLine$  Regen start#>
 BaseScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#BaseScimitarHoldingID#>
 
 BaseScimitarDataTag display:{Name:"<#BaseScimitarName#>",Lore:[<#ScimitarDescription#>,<#BaseScimitarStats#>]},<#BaseScimitarTags#>
@@ -50,6 +52,8 @@ RefinedScimitarNameText Refined Scimitar
 RefinedScimitarName <#ItemName$RefinedScimitarNameText$ScimitarNameColour#>
 RefinedScimitarStats <#WeaponStats$RefinedScimitar#>
 RefinedScimitarStats <#LoreLine$<#Cleave#> III#>
+RefinedScimitarStats <#LoreLine$+6 Bonus Damage from Stamina#>
+RefinedScimitarStats <#LoreLine$  Regen start#>
 RefinedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RefinedScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:32767}],HideFlags:7,HoldingID:<#RefinedScimitarHoldingID#>
 
 RefinedScimitarDataTag display:{Name:"<#RefinedScimitarName#>",Lore:[<#ScimitarDescription#>,<#RefinedScimitarStats#>]},<#RefinedScimitarTags#>
@@ -60,6 +64,8 @@ SharpenedScimitarNameText Sharpened Scimitar
 SharpenedScimitarName <#ItemName$SharpenedScimitarNameText$ScimitarNameColour#>
 SharpenedScimitarStats <#WeaponStats$SharpenedScimitar#>
 SharpenedScimitarStats <#LoreLine$<#Cleave#> II#>
+SharpenedScimitarStats <#LoreLine$+6 Bonus Damage from Stamina#>
+SharpenedScimitarStats <#LoreLine$  Regen start#>
 SharpenedScimitarTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!SharpenedScimitarDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#SharpenedScimitarHoldingID#>
 
 SharpenedScimitarDataTag display:{Name:"<#SharpenedScimitarName#>",Lore:[<#ScimitarDescription#>,<#SharpenedScimitarStats#>]},<#SharpenedScimitarTags#>

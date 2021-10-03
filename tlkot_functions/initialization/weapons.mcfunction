@@ -17,6 +17,7 @@ scoreboard players set @a HalberdSCost <#HalberdStaminaCost#>
 scoreboard players set @a HalberdDodgeMod 0
 scoreboard players set @a HalberdSCostDec 0
 scoreboard players set @a HalberdDodgeTrig 0
+scoreboard players set @a HalberdCritMod 1200
 
 scoreboard players set @a SBattleAxe 0
 scoreboard players set @a AxeMoveDuration -1

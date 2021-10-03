@@ -48,6 +48,8 @@ scoreboard players set @a Sleeping 0
 scoreboard players set @a DodgeCost 3
 scoreboard players set @a LastGroundHeight 0
 scoreboard players set @a CurrentHeight 0
+scoreboard players set @a PreviousHeight 0
+scoreboard players set @a VerticalMovement 0
 scoreboard players set @a TutorialIsMemory 0
 scoreboard players set @a NewProphet 0
 scoreboard players set @a InCutsceneMode 0

@@ -51,4 +51,4 @@ DesolateWill3TimeIncrease 0
 DesolateWill4TimeIncrease 0
 DesolateWill5TimeIncrease 0
 
-DesolateCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Desolate Explosion\"}",ExplosionRadius:6b‘
+DesolateCreeper ‘<#ExplodingCreeperBaseTags#>,CustomName:"{\"text\":\"Desolate Explosion\"}",ExplosionRadius:5b‘

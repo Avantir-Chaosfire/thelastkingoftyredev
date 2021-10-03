@@ -1,3 +1,4 @@
+tag @a remove WasHoldingBlackOakStaffTwoHanded
 scoreboard players set @a StaffDodgeMod 0
 
 execute if entity @a[scores={MainHandItemID=<#Base1HBlackOakStaffHoldingID#>}] run function tlkot:core/weapon/black_oak_staff/using_variant/one_hand/base

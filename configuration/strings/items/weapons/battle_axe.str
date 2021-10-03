@@ -16,19 +16,19 @@ BaseBattleAxeDamage 22
 BaseBattleAxeStaminaCost 6
 BaseBattleAxeCommunionStaminaCost 5
 BaseBattleAxeMinimumStaminaCost 3
-BaseBattleAxeRegenDelay 50
+BaseBattleAxeRegenDelay 56
 
 BloodyBattleAxeDamage 22
 BloodyBattleAxeStaminaCost 6
 BloodyBattleAxeCommunionStaminaCost 5
 BloodyBattleAxeMinimumStaminaCost 5
-BloodyBattleAxeRegenDelay 50
+BloodyBattleAxeRegenDelay 56
 
 HeavyBattleAxeDamage 22
 HeavyBattleAxeStaminaCost 6
 HeavyBattleAxeCommunionStaminaCost 5
 HeavyBattleAxeMinimumStaminaCost 3
-HeavyBattleAxeRegenDelay 50
+HeavyBattleAxeRegenDelay 56
 
 BaseBattleAxeItemID iron_axe
 BaseBattleAxeNameText Battle Axe
