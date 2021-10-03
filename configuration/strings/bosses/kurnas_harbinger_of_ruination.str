@@ -18,7 +18,7 @@ KurnasSacrificeTags ‘Tags:["Versioned","Dumpable","KurnasSacrifice"],Invulnera
 
 KurnasRollingWaveAttackTags ‘Marker:1b,NoGravity:1b,Invisible:1b,Tags:[<#CommonKillableDivisionTags#>,"KurnasRollingWave","KurnasCleanup"]‘
 
-KurnasRiftArrowTags ‘life:1160s,Color:0,NoGravity:1b,pickup:0‘
+KurnasRiftArrowTags ‘life:1160s,NoGravity:1b,pickup:0‘
 
 KurnasNorthArrowTags ‘Motion:[0.0d,0.0d,2.0d],Tags:["KurnasArrow","North","KurnasCleanup","Killable"],<#KurnasRiftArrowTags#>‘
 KurnasNorthSilentArrowTags ‘Motion:[0.0d,0.0d,2.0d],Tags:["KurnasArrow","North","KurnasCleanup","Killable"],Silent:1b,<#KurnasRiftArrowTags#>‘
@@ -27,8 +27,8 @@ KurnasSouthSilentArrowTags ‘Motion:[0.0d,0.0d,-2.0d],Tags:["KurnasArrow","Sout
 
 KurnasArrowHailAttackTags ‘CustomName:"{\"text\":\"Arrow Hail\"}",Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["Versioned","Killable","KurnasCleanup"]‘
 
-KurnasHailArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,Color:0,pickup:0‘
-KurnasHailSilentArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,Color:0,pickup:0,Silent:1b‘
+KurnasHailArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,pickup:0‘
+KurnasHailSilentArrowTags ‘Tags:["KurnasHailArrow","KurnasCleanup","Killable"],life:1160s,pickup:0,Silent:1b‘
 
 TelekineticWeaponRootTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Telekinetic Weapon\"}",Invulnerable:1b,NoGravity:1b,Silent:1b,Attributes:[{Name:"generic.attack_damage",Base:0}],ActiveEffects:[{Id:14b,Duration:32767,ShowParticles:0b}],Tags:["Versioned","Dumpable","NeedsID","TelekineticWeapon","KurnasCleanup","Root","HasAI","AI.Homing"],Motion:[0.0d,0.0d,<1>.0d]‘
 

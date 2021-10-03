@@ -13,6 +13,7 @@ Foreword:
 				-You were using Heart of the Golem
 				-You were using Tower Shield
 				-You didn't fully draw back the bow
+		-Crystal Guardian names are never visible (they have invisibility) and they can't directly kill you, so it doesn't show up in death messages either.
 
 	Indefinitely postponed:
 *		-Probably need to trim out extra chunks/entities that I generated when testing Arc Lightning
@@ -40,25 +41,21 @@ Foreword:
 		-Rename save file to remove "[Dev]"
 
 	Post-Release:
-		-crystal guardian name tag visibility
-		-Fireball gives True Assassin achievement
-		-spyglass in astrologist's loft
-		-More distinct sprite for fountain water full/empty
 		-balance changes
-			-nerf desolate
-		-returning to lobby on new prophet ending?
-			-also endings force activate death sigil, which kind of breaks useless emissary
-		-Hanging Pole fight didn't start that one time
-		-banners are messed up
-		-boss achievements
-		-collecting item achievements?
-		-Remove arrow particles (Kurnas, Hanging Pole, Kiermert, local_event/arrow_trap, local_event/blood_sigil_tutorial, one_second/local_event/arrow_trap)
-		-flare should use light instead of jack o lantern
-		-update credits
-
-		Level design:
-			-glowering mines more obvious
-				-update thrones map
-			-psych ward parkour
-				-update thrones map
-			-vanishing key shortcut (x3 through burrows/railway)
+			-Bonus Damage Window: 0.3s -> 0.45s
+			-Added Overcharge Scroll
+			-Desolate Explosion Power: 6 -> 4
+			-Aerokinesis Channeling Interval: 1s -> 1.5s
+			-Energy Tap now grants +15% Damage
+			-Blitz grants +1 Max Stamina per nearby enemy (armour imprint is unchanged)
+			-Spacial Lapse is now starter scroll for Ranger
+			-Blitz is now broken scroll for Ranger
+			-Battle Axe Stamina Regeneration Delay: 2.5s -> 2.8s
+			-Halberd Crit Damage: 150% -> 200%
+			-Scimitar Bonus Damage: 6 -> 12
+			-Black Oak Staff (Two Handed) Bonus Damage Window: 0.3s -> 0.6s
+		-achievements
+			-Recalibrate True Assassin
+			-boss achievements
+			-collecting item achievements?
+			-verify all achievements run is possible

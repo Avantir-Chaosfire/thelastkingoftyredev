@@ -51,11 +51,11 @@ FireballWill5TimeIncrease 0
 FireballBaseTags ‘direction:[0.0d,0.0d,0.0d],Tags:["Fireball","HasAI","AI.TimedLife"]‘
 FireballWill0Tags ‘<#FireballBaseTags#>,ExplosionPower:3‘
 FireballWill1Tags ‘<#FireballBaseTags#>,ExplosionPower:3‘
-FireballWill2Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
+FireballWill2Tags ‘<#FireballBaseTags#>,ExplosionPower:3‘
 FireballWill3Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
-FireballWill4Tags ‘<#FireballBaseTags#>,ExplosionPower:5‘
-FireballWill5Tags ‘<#FireballBaseTags#>,ExplosionPower:5‘
+FireballWill4Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
+FireballWill5Tags ‘<#FireballBaseTags#>,ExplosionPower:4‘
 
 FireballCatHealth 1
-FireballCatTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.movement_speed,Base:0.3}],CustomName:"{\"text\":\"Apparition\"}",Tags:[<#CommonDumpableDivisionTags#>,"Enemy.Apparition","HasAI","AI.HealthScore","AI.FireballCat","FireballMaxStaminaMod","UsesHitScore","EnemyUnit"]‘
+FireballCatTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.movement_speed,Base:0.3}],Health:1000.0f,CustomName:"{\"text\":\"Apparition\"}",Tags:[<#CommonDumpableDivisionTags#>,"Enemy.Apparition","HasAI","AI.HealthScore","AI.FireballCat","FireballMaxStaminaMod","UsesHitScore","EnemyUnit"]‘
 FireballMaxStaminaReduction 3

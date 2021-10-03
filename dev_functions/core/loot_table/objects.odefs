@@ -833,7 +833,7 @@ $ New Hoiro
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 707 225 368	$ grouping/stolen_secret
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 711 243 360	$ consumable/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 243 370	$ consumable/desiccating_carapace
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 704 243 372	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 704 243 372	$ extra/spyglass
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 243 369	$ general/very_rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 245 369	$ general/very_rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 245 370	$ general/very_rare

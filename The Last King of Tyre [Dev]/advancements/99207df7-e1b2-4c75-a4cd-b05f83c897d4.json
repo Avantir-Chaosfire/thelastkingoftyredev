@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "tlkot:achievements/true_assassin": {
+    "criteria": {
+      "true_assassin": "2021-09-30 18:57:03 -0700"
+    },
+    "done": true
+  },
   "tlkot:achievements/the_gates_to_hell": {
     "criteria": {
       "the_gates_to_hell": "2021-09-24 10:35:08 -0700"

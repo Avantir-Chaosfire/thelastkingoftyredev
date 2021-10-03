@@ -17,6 +17,6 @@ execute if entity @a[scores={OneSecClock=7}] run function tlkot:<~>/local_event/
 execute if entity @a[scores={OneSecClock=6}] run function tlkot:<~>/6
 execute if entity @a[scores={OneSecClock=5}] run function tlkot:<~>/local_event/vault_teleport/main
 execute if entity @a[scores={OneSecClock=4}] run function tlkot:<~>/local_event/gravesite_lava/main
-execute if entity @a[scores={OneSecClock=3}] run function tlkot:<~>/local_event/vanishing_door/main
+execute if entity @a[scores={OneSecClock=3}] run function tlkot:<~>/local_event/vanishing_doors/main
 execute if entity @a[scores={OneSecClock=2}] run function tlkot:<~>/local_event/thrones_soul_gate/main
 execute if entity @a[scores={OneSecClock=1}] run function tlkot:<~>/ensure_vital_items/main

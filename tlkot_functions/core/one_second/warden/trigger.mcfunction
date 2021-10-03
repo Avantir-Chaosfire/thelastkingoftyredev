@@ -133,8 +133,6 @@ execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"<#VanishingKeyName#>"}
 
 execute if entity @a[scores={ReturnArrows=1..}] run function tlkot:core/one_second/warden/return_arrows
 
-tag @a add GiveDeathSigil
-
 scoreboard players set @a DeathTrigger 0
 execute if entity @a[scores={DeathSigilUsed=1..}] run function tlkot:core/one_second/warden/death_sigil/main
 execute if entity @a[scores={DeathSigilUsed=0}] run function tlkot:core/one_second/warden/haul/main

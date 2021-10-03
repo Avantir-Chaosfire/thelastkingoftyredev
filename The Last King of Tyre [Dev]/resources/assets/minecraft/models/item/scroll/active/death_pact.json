@@ -1,7 +1,0 @@
-{
-    "parent": "item/fishing_rod",
-    "textures": {
-        "layer0": "item/death_pact_scroll",
-        "layer1": "item/active_scroll_overlay"
-    }
-}

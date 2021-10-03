@@ -1,1 +1,1 @@
-execute if block 320 255 -16 minecraft:air run function tlkot:core/local_event/gate/lever/inner_psychiatric_ward/loaded
+execute if block 320 255 -16 #tlkot:all if block 352 255 -16 #tlkot:all run function tlkot:core/local_event/gate/lever/inner_psychiatric_ward/loaded

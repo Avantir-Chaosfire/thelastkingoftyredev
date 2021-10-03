@@ -55,3 +55,4 @@ execute if entity @s[tag=BurrowsTrap] run function tlkot:<~>/burrows_trap/main
 execute if entity @s[tag=DreadwoodsMob] run function tlkot:<~>/dreadwoods_mob/main
 execute if entity @s[tag=DreadwoodsLava] run function tlkot:<~>/dreadwoods_lava/main
 execute if entity @s[tag=CastingHQMainEntrance] run function tlkot:<~>/casting_hq_main_entrance/main
+execute if entity @s[tag=GloweringMinesShortcut] run function tlkot:<~>/glowering_mines_shortcut/main

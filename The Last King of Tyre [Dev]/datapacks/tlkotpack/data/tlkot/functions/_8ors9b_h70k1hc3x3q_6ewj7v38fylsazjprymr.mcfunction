@@ -1,1 +1,1 @@
-execute if block 320 255 -16 minecraft:air run function tlkot:45gr1lk0qk006i3fvl-gdm9w2z5ylyrviiv6q6pl
+execute if block 320 255 -16 #tlkot:all if block 352 255 -16 #tlkot:all run function tlkot:45gr1lk0qk006i3fvl-gdm9w2z5ylyrviiv6q6pl

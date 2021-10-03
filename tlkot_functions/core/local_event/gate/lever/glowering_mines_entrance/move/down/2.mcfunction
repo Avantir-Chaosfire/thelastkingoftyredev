@@ -1,3 +1,3 @@
-clone -26 66 230 -25 66 230 -26 63 230 replace move
+clone -18 66 237 -18 66 238 -18 63 237 replace move
 
-playsound block.ladder.step block @a -26 64 230
+playsound block.ladder.step block @a -18 64 237
