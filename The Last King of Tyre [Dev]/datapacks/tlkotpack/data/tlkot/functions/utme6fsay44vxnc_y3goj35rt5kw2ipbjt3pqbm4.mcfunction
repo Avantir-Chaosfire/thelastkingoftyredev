@@ -6,4 +6,4 @@ execute if entity @s[scores={gQ6nNA9TDD3RdRRh=1..}] run function tlkot:4-2oqq8ch
 execute if entity @s[scores={99U+r2nhFTwAKng1=1100..}] if entity @a[scores={n3hw-Z76w5-uJlNJ=1..}] run function tlkot:t6_i62hcv5jzuqls-c0q9iejv4tjo5oou_n9penf
 scoreboard players operation @a pvamq.RcrSa28nd. -= @s .8C9ofoqODkfoUgx
 execute store result bossbar tlkot:hanging_hunter value run scoreboard players get @a[limit=1] pvamq.RcrSa28nd.
-advancement grant @a[scores={.8C9ofoqODkfoUgx=168000..}] only tlkot:achievements/true_assassin
+advancement grant @a[scores={.8C9ofoqODkfoUgx=500000..}] only tlkot:achievements/true_assassin

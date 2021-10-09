@@ -3,6 +3,7 @@ scoreboard players operation @s pE1CjpEWr+n4YFEE *= @s PaH6acPqrmgD9nu0
 scoreboard players add @s pE1CjpEWr+n4YFEE 20
 scoreboard players operation @s pE1CjpEWr+n4YFEE += @s -aiBLtlR6rbRakkJ
 scoreboard players operation @s pE1CjpEWr+n4YFEE += @s GqnW+F-SV_8c-e9w
+scoreboard players operation @s pE1CjpEWr+n4YFEE += @s mQmpqJE3L3e04GKV
 execute as @e[tag=hm.SwAQC48pUYu3y-iTIY4_WWXC4gn0vAaeawxyk] run scoreboard players remove @a pE1CjpEWr+n4YFEE 3
 scoreboard players add @s[tag=yFeHBcDgnGEE0mfPekzN34SJYy7qWRR91fD3DBY3] pE1CjpEWr+n4YFEE 10
 scoreboard players set @s[scores={hLcgTCIrSukU3+iI=-1}] pE1CjpEWr+n4YFEE 3

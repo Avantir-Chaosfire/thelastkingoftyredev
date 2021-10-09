@@ -39,6 +39,8 @@ scoreboard players set @a K0oC-Ir9RA4AWbZX 0
 scoreboard players set @a 83WB9D6gWIstJQEX 3
 scoreboard players set @a neM5wYBj4ZJFT8vB 0
 scoreboard players set @a ABdVGWYtK4dlKJTw 0
+scoreboard players set @a Rt.-qQvNXG4u.fbk 0
+scoreboard players set @a LfKVXzwWTmKb3CoG 0
 scoreboard players set @a dCdcPvj8cI6y903O 0
 scoreboard players set @a ZVTr_WjCuOvpZr_5 0
 scoreboard players set @a kdJ-OTtT6Ksybb-3 0

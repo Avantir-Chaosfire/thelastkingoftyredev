@@ -12,6 +12,4 @@ execute if entity @s[tag=AI.Intangible,scores={DamageTaken=1..}] run function tl
 
 scoreboard players operation @s EnemyHealth -= @s DamageTaken
 
-<#SayScore$@s$DamageTaken#>
-
 execute if entity @s[scores={DamageTaken=<#TrueAssassinDamageThreshold#>..}] run advancement grant @a only tlkot:achievements/true_assassin

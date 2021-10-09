@@ -14,3 +14,4 @@ effect give @a minecraft:instant_health 3
 scoreboard players add @a[scores={Z6UaLns0tn2fM6hA=..19999}] Z6UaLns0tn2fM6hA 4000
 tag @a[scores={tQyTp1XzVGwrPRH-=1..}] add B07IYDUpD83iB8AVo3bW-_rf60+frzx62gp3dvXz
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+advancement grant @a only tlkot:achievements/the_rotten

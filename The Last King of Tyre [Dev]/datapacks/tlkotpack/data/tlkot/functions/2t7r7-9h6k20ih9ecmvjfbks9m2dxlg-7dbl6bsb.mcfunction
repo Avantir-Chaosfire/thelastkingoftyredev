@@ -1,2 +1,2 @@
 clear @a minecraft:red_dye{display:{Name:"{\"text\":\"Buckler (Disabled)\",\"color\":\"white\",\"italic\":false}"}}
-give @a minecraft:shield{display:{Name:"{\"text\":\"Buckler\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"A simple small shield.","color":"gray"}','{"text":"--------","color":"gray"}','{"text":"1 Stability","color":"gray"}','{"text":"7s Recovery","color":"gray"}']},HideFlags:38,Unbreakable:1b,Damage:1,HoldingID:86}
+give @a minecraft:shield{display:{Name:"{\"text\":\"Buckler\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"A simple small shield.","color":"gray"}','{"text":"--------","color":"gray"}','{"text":"1 Stability","color":"gray"}','{"text":"7s Recovery","color":"gray"}']},HideFlags:38,Unbreakable:1b,Damage:1,HoldingID:91}

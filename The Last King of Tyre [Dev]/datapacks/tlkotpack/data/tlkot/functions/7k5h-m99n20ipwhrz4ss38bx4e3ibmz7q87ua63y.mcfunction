@@ -9,4 +9,4 @@ scoreboard players operation @a 2Ts6MMTNxFNCXfXt -= @s mKrbZsAo.jL6nYdB
 execute store result bossbar tlkot:false_reaper value run scoreboard players get @a[limit=1] 2Ts6MMTNxFNCXfXt
 execute if entity @s[scores={mKrbZsAo.jL6nYdB=6000..}] run scoreboard players set @a oljGfgaAIjwS9ord 80
 execute if entity @s[scores={mKrbZsAo.jL6nYdB=..5999}] run scoreboard players set @a oljGfgaAIjwS9ord 0
-advancement grant @a[scores={mKrbZsAo.jL6nYdB=168000..}] only tlkot:achievements/true_assassin
+advancement grant @a[scores={mKrbZsAo.jL6nYdB=500000..}] only tlkot:achievements/true_assassin

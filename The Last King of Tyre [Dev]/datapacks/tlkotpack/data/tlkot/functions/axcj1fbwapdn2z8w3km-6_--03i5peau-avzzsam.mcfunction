@@ -1,3 +1,4 @@
+tag @a remove PgrZs6-.1KE70p9mIQvoDbHvzF1ian+p9dH0k3f1
 scoreboard players set @a CCfT7iia4CiZa5lp 0
 execute if entity @a[scores={+b8qg+-lfW00Wdsd=13}] run function tlkot:lo9lv6rj7w551rrpqeu80fn5edud6v9y2oesvh8m
 execute if entity @a[scores={+b8qg+-lfW00Wdsd=14}] run function tlkot:er6ho5pzzqjy2pg69roahfdxzr-1rq358uzarcop

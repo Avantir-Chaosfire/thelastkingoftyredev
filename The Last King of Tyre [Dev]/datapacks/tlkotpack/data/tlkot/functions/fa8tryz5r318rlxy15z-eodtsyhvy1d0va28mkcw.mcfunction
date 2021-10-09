@@ -14,6 +14,8 @@ function tlkot:afof8gqr6kbz9z5d9rymzkc8233hb6mg7mqxxhrk
 function tlkot:g7aka3w5n5jevce96lr6zoy1fp30w0xh9sjmyx49
 function tlkot:25303grkfj1_lanl2gx7u72l6ykmn6b0hitg7633
 function tlkot:ui1l8j381je5fdwjgxfzf1v_lwz_umc4ke45qu03
+function tlkot:wvmsq29mgsudgusalymolsd-5t8u-26x0sm0egxy
+function tlkot:-10gr_3eqvcp1c6xca8buin7qrdw3bqt_hwz2voi
 function tlkot:mtv0zpv148kzsra_h6mo7lfz9oh88uo0nkhy2vuk
 function tlkot:o6-mjc0qvzojctvzyfd7rbmds__wf-qhcseewrs0
 function tlkot:69ahypsybzs-8oa2aia-fz0zor1jvtq5mnqz945q

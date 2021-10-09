@@ -1,2 +1,2 @@
-execute if entity @a[scores={+b8qg+-lfW00Wdsd=94}] run function tlkot:5drlq9nm44cstz393e7bq73wpfr2s8xvr3a29ovn
-execute if entity @a[scores={bzdFAjnNavldW950=94}] run function tlkot:twtr2i24a0wwdy8qagqnezxo50a7da_fn2p65pxu
+execute if entity @a[scores={+b8qg+-lfW00Wdsd=99}] run function tlkot:5drlq9nm44cstz393e7bq73wpfr2s8xvr3a29ovn
+execute if entity @a[scores={bzdFAjnNavldW950=99}] run function tlkot:twtr2i24a0wwdy8qagqnezxo50a7da_fn2p65pxu

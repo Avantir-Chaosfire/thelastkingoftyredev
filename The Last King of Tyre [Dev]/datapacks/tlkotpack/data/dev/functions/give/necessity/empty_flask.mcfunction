@@ -1,1 +1,1 @@
-give @s minecraft:glass_bottle{display:{Name:"{\"text\":\"Empty Flask\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Can be filled with fountain water.","color":"gray"}']},HoldingID:75}
+give @s minecraft:glass_bottle{display:{Name:"{\"text\":\"Empty Flask\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"Can be filled with fountain water.","color":"gray"}']},HoldingID:80}

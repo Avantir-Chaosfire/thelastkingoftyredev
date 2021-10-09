@@ -11,3 +11,4 @@ tag @a[scores={tQyTp1XzVGwrPRH-=1..}] add B07IYDUpD83iB8AVo3bW-_rf60+frzx62gp3dv
 title @a subtitle {"text": "Warden Ylsa and the False Reaper Defeated", "color": "yellow", "underlined": "true"}
 title @a title {"text": "Resistance Silenced", "color": "aqua", "underlined": "true"}
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+advancement grant @a only tlkot:achievements/the_false

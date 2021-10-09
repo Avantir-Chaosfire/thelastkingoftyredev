@@ -14,3 +14,4 @@ summon minecraft:armor_stand 497 39.5 86 {Marker:1b,Invisible:1b,Invulnerable:1b
 execute as @e[tag=6+NKUnPm+Blaxk3ICVJ6nquA3SxjBFs5SBBM8vA-,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:y11s6rtro3_3kr4tbu-21bp2e_8l9v4cxomimtzt
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
 tag @a[scores={tQyTp1XzVGwrPRH-=1..}] add B07IYDUpD83iB8AVo3bW-_rf60+frzx62gp3dvXz
+advancement grant @a only tlkot:achievements/the_greatest_of_reapers

@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Seeing Star\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The legend goes that the whoever\",\"color\":\"gray\"}','{\"text\":\"holds this star can see places\",\"color\":\"gray\"}','{\"text\":\"forbidden. But of course, legends\",\"color\":\"gray\"}','{\"text\":\"are just that; Legends.\",\"color\":\"gray\"}']},HoldingID:84}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Seeing Star\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"The legend goes that the whoever\",\"color\":\"gray\"}','{\"text\":\"holds this star can see places\",\"color\":\"gray\"}','{\"text\":\"forbidden. But of course, legends\",\"color\":\"gray\"}','{\"text\":\"are just that; Legends.\",\"color\":\"gray\"}']},HoldingID:89}"
 						}
 					]
 				}

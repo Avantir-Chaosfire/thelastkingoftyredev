@@ -1,0 +1,20 @@
+attribute @a[limit=1] generic.attack_damage modifier remove bc78d332-c5a4-4cdf-b059-d58014745b24
+attribute @a[scores={UN5MMn0yW0eNPvWR=..1},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 9.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=2},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 9 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=3},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 8.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=4},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 8 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=5},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 7.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=6},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 7 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=7},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 6.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=8},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 6 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=9},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 5.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=10},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=11},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 4.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=12},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 4 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=13},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 3.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=14},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 3 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=15},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 2.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=16},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 2 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=17},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 1.5 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=18},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 1 add
+attribute @a[scores={UN5MMn0yW0eNPvWR=19},limit=1] generic.attack_damage modifier add bc78d332-c5a4-4cdf-b059-d58014745b24 WarHammer 0.5 add

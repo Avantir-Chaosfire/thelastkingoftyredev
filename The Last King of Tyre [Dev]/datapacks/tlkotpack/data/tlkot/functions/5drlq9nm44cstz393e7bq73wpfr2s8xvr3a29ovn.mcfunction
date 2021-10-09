@@ -1,3 +1,3 @@
-execute if entity @a[scores={bzdFAjnNavldW950=95}] run function tlkot:ciuh9tiuvm1-ww2_j6p_zsiyt0-5i525kx529bg4
-execute if entity @a[scores={bzdFAjnNavldW950=97}] run function tlkot:6dsl0s67ahhjzz18on05yv0dba011i3z0hx0-gwz
-execute if entity @a[scores={bzdFAjnNavldW950=96}] run function tlkot:vx95uvl1n6wfiycupaaut-xowf4zuowetix-g4er
+execute if entity @a[scores={bzdFAjnNavldW950=100}] run function tlkot:ciuh9tiuvm1-ww2_j6p_zsiyt0-5i525kx529bg4
+execute if entity @a[scores={bzdFAjnNavldW950=102}] run function tlkot:5jb53i5e9jecg9mgzgwo-tbd88rcq3-3vb776bqz
+execute if entity @a[scores={bzdFAjnNavldW950=101}] run function tlkot:vx95uvl1n6wfiycupaaut-xowf4zuowetix-g4er

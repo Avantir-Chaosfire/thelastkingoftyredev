@@ -10,4 +10,4 @@ execute if entity @s[scores={99U+r2nhFTwAKng1=1100..}] if entity @a[scores={n3hw
 scoreboard players operation @a Qoe3lKRjggpC_I7b -= @s ZCWcjuyv5p8.LcIg
 scoreboard players operation @a N..yu79CAmBn_sEp -= @s ZCWcjuyv5p8.LcIg
 execute store result bossbar tlkot:disgraceful_beast value run scoreboard players get @a[limit=1] Qoe3lKRjggpC_I7b
-advancement grant @a[scores={ZCWcjuyv5p8.LcIg=168000..}] only tlkot:achievements/true_assassin
+advancement grant @a[scores={ZCWcjuyv5p8.LcIg=500000..}] only tlkot:achievements/true_assassin

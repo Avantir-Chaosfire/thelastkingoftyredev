@@ -1,31 +1,13 @@
 {
-  "tlkot:achievements/root": {
-    "criteria": {
-      "discoveries": "2021-09-19 17:11:06 -0700"
-    },
-    "done": true
-  },
   "tlkot:achievements/true_assassin": {
     "criteria": {
-      "true_assassin": "2021-09-30 18:57:03 -0700"
+      "true_assassin": "2021-10-09 10:22:30 -0700"
     },
     "done": true
   },
   "tlkot:achievements/the_gates_to_hell": {
     "criteria": {
-      "the_gates_to_hell": "2021-09-24 10:35:08 -0700"
-    },
-    "done": true
-  },
-  "tlkot:achievements/calamity": {
-    "criteria": {
-      "calamity": "2021-09-24 19:23:06 -0700"
-    },
-    "done": true
-  },
-  "tlkot:achievements/the_presence_of_a_secret": {
-    "criteria": {
-      "the_presence_of_a_secret": "2021-09-24 16:57:05 -0700"
+      "the_gates_to_hell": "2021-10-09 10:20:53 -0700"
     },
     "done": true
   },

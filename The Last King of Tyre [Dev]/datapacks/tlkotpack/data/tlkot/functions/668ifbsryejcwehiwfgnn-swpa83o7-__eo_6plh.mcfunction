@@ -18,3 +18,4 @@ title @a title {"text": "Hanging Pole Slain", "color": "dark_red", "underlined":
 effect give @a minecraft:instant_health 3
 scoreboard players add @a[scores={Z6UaLns0tn2fM6hA=..19999}] Z6UaLns0tn2fM6hA 4000
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+advancement grant @a only tlkot:achievements/the_hollow

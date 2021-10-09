@@ -1,0 +1,5 @@
+scoreboard players set @s NG4sqnyVvL9Sdz0T 17
+function tlkot:p0kj0dbh-n8j-i71ehtrhi1z4bg0p4yim_eypmyh
+function tlkot:yc8g34n11y71g13sjrj1s70-_6v2ulrevqokh89t
+scoreboard players add @s 1hjmry3pNHN4I.Dd 22
+function tlkot:0if3vpk8rh09kslobt74wfggj80lajlknlxm45r7
