@@ -1,0 +1,45 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:magenta_dye"
+		},
+		"title":
+		{
+			"text": "The House of Stranded Souls"
+		},
+		"description": "Enter Enye's childhood home",
+		"frame": "task",
+		"hidden": true
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_house_of_standed_souls":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"max": 400.0,
+						"min": 389.0
+					},
+					"y":
+					{
+						"max": 137.0,
+						"min": 134.0
+					},
+					"z":
+					{
+						"max": 524.0,
+						"min": 505.0
+					}
+				}
+			}
+		}
+	}
+}

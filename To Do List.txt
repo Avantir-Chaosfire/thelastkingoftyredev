@@ -20,6 +20,7 @@ Foreword:
 		-Punching bags stick around after leaving tutorial, if you return without dying
 		-Oogieface had one of the two final Dread Hosts in the shade caster fight permanently stop spawning
 		-Giant Spider Fang slow doesn't work with Radiant set equipped
+		-Phantom Javelin looks like a trident in hand and when thrown
 
 	Release Procedure:
 		-Make backup
@@ -41,17 +42,5 @@ Foreword:
 		-Rename save file to remove "[Dev]"
 
 	Post-Release:
-		-balance changes
-			-Added Overcharge Scroll
-			-Energy Tap now grants +15% Damage
-			-Blitz grants +1 Max Stamina per nearby enemy (armour imprint is unchanged)
-			-Spacial Lapse is now starter scroll for Ranger
-			-Blitz is now broken scroll for Ranger
 		-achievements
-			-Recalibrate True Assassin
-			-boss achievements
-			-collecting item achievements?
 			-verify all achievements run is possible
-
-		-test:
-			-Halberd Crit: +20% Damage

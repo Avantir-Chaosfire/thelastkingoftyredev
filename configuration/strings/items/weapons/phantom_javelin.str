@@ -1,0 +1,22 @@
+#include item_template
+#include item_holding_ids
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+PhantomJavelinMaxUses 1
+
+PhantomJavelinItemID trident
+PhantomJavelinNameText Phantom Javelin
+PhantomJavelinNameColour dark_aqua
+PhantomJavelinName <#ItemName$PhantomJavelinNameText$PhantomJavelinNameColour#>
+PhantomJavelinStats <#LoreLine$Damage: 8#>
+PhantomJavelinStats <#LoreLine$Must Be Thrown#>
+PhantomJavelinStats <#LoreLine$Max Uses: <#PhantomJavelinMaxUses#>#>
+PhantomJavelinStats <#LoreLine$<#Duration#>: <#Time$14#>#>
+PhantomJavelinStats <#LoreLine$Next Conjuration: Phantom Tanto#>
+PhantomJavelinTags Damage:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#PhantomJavelinHoldingID#>
+
+PhantomJavelinDataTag display:{Name:"<#PhantomJavelinName#>",Lore:[<#PhantomJavelinStats#>]},<#PhantomJavelinTags#>
+PhantomJavelin <#Item$PhantomJavelinItemID$PhantomJavelinDataTag#>

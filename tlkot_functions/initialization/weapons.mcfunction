@@ -49,6 +49,17 @@ scoreboard players set @a SPLifeBane 0
 
 scoreboard players set @a SScythe 0
 
+scoreboard players set @a STanto 0
+scoreboard players set @a TantoDur 0
+scoreboard players set @a TantoMaxUses 0
+
+scoreboard players set @a SWarHammer 0
+scoreboard players set @a WarHammerDur 0
+scoreboard players set @a WarHammerMaxUses 0
+
+scoreboard players set @a JavelinDur 0
+scoreboard players set @a JavelinMaxUses 0
+
 scoreboard players set @a STempest 0
 
 scoreboard players set @a BoomerangVersion -2147483648

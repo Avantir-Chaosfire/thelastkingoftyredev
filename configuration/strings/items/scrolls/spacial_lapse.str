@@ -26,15 +26,6 @@ SpacialLapseScrollActiveName <#ItemName$SpacialLapseScrollActiveNameText$Spacial
 SpacialLapseScrollActiveDataTag display:{Name:"<#SpacialLapseScrollActiveName#>",Lore:[<#SpacialLapseScrollDescription#>,<#SpacialLapseScrollStats#>]},HoldingID:<#SpacialLapseScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:38,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 SpacialLapseScrollActive <#Item$SpacialLapseScrollItemID$SpacialLapseScrollActiveDataTag#>
 
-TornSpacialLapseScrollItemID sugar_cane
-TornSpacialLapseScrollNameText Torn Spacial Lapse Scroll
-TornSpacialLapseScrollNameColour dark_purple
-TornSpacialLapseScrollName <#ItemName$TornSpacialLapseScrollNameText$TornSpacialLapseScrollNameColour#>
-TornSpacialLapseScrollDescription <#LoreLine$Torn; Unusable.#>
-
-TornSpacialLapseScrollDataTag display:{Name:"<#TornSpacialLapseScrollName#>",Lore:[<#TornSpacialLapseScrollDescription#>]},HoldingID:<#TornSpacialLapseScrollHoldingID#>
-TornSpacialLapseScroll <#Item$TornSpacialLapseScrollItemID$TornSpacialLapseScrollDataTag#>
-
 SpacialLapseTracker ‘Marker:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["SpacialLapseTracker","New","Versioned","Killable"]‘
 
 SpacialLapseWill0Cost 4

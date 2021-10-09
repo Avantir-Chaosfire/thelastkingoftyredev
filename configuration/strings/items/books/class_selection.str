@@ -17,7 +17,7 @@ ClassSelectionAuthor Avantir Yihn
 ClassSelectionTitle Class Selection
 ClassSelectionPages Your combat class will determine your starting equipment, but will otherwise have no long-term impact.
 ClassSelectionPages Warrior:<Newline>-<#BaseBattleAxeNameText#> (Medium-heavy weapon)<Newline>-Standard Armour (Slower, better defense)<Newline>-<#EnrageScrollNameText#> (Boost battle damage)<Newline>-<#CharredDeathPactScrollNameText#>
-ClassSelectionPages Hunter:<Newline>-<#DaggerNameText#> (Weak weapon)<Newline>-<#BaseBlackOakBowNameText#><Newline>-<#NormalArrowNameText#>s<Newline>-Standard Helmet (Faster, less defense)<Newline>-<#BlitzScrollNameText#> (Boost battle speed)<Newline>-<#TornSpacialLapseScrollNameText#>
+ClassSelectionPages Hunter:<Newline>-<#DaggerNameText#> (Weak weapon)<Newline>-<#BaseBlackOakBowNameText#><Newline>-<#NormalArrowNameText#>s<Newline>-Standard Helmet (Faster, less defense)<Newline>-<#SpacialLapseScrollNameText#> (General mobility)<Newline>-<#TornBlitzScrollNameText#>
 
 ClassSelectionDataTag author:"<#ClassSelectionAuthor#>",title:"<#ClassSelectionTitle#>",resolved:1b,pages:["<#ClassSelectionPages#>"]
 ClassSelection <#Item$ClassSelectionItemID$ClassSelectionDataTag#>

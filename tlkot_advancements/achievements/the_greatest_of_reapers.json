@@ -1,0 +1,23 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#SkullOfYearningItemID#>"
+		},
+		"title":
+		{
+			"text": "The Greatest of Reapers"
+		},
+		"description": "Defeat Kurnas, Harbinger of Ruination",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/the_vicious_knight",
+	"criteria":
+	{
+		"the_greatest_of_reapers":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

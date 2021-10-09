@@ -322,7 +322,6 @@ $ Enshadowed Thrones
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -16 177 364	$ general/common
 
 $ Casting Lab 02
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 46 42 143	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 68 78 122	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 104 80 118	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 104 80 119	$ general/common
@@ -334,6 +333,7 @@ $ Casting Lab 02
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 33 88 24	$ general/common
 
 $ Tyre
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 46 42 143	$ scroll/phantom_blade
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 39 24 145	$ extra/bloodletting_knife
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 39 24 144	$ consumable/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -9 49 225	$ general/common
@@ -1414,7 +1414,7 @@ $ Frontier
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 208 125 393	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 208 125 394	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 400 144 524	$ general/common
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 399 144 524	$ general/common
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 399 144 524	$ scroll/overcharge
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 391 134 514	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 393 134 516	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 390 139 524	$ general/common

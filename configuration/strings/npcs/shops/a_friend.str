@@ -16,8 +16,8 @@ AFriendRecipes <#NPCLimitedTradeOffer$HeadOfYearning$1$TowerShield$1#>
 
 AFriendBerserkerRecipes <#AFriendRecipes#>
 AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$26$Dagger$1#>
-AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$14$BlitzScroll$1#>
-AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$37$TornSpacialLapseScroll$1#>
+AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$14$SpacialLapseScroll$1#>
+AFriendBerserkerRecipes <#NPCLimitedTradeOffer$HeadOfYearning$37$TornBlitzScroll$1#>
 
 AFriendHunterRecipes <#AFriendRecipes#>
 AFriendHunterRecipes <#NPCLimitedTradeOffer$HeadOfYearning$26$BaseBattleAxe$1#>

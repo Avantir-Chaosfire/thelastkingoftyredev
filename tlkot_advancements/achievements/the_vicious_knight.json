@@ -1,0 +1,23 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:golden_hoe"
+		},
+		"title":
+		{
+			"text": "The Vicious Knight"
+		},
+		"description": "Defeat Dar the Vicious",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_vicious_knight":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

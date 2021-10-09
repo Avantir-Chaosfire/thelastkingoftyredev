@@ -22,3 +22,5 @@ execute as @e[tag=AI.ItemDrop,tag=!Initialized] run function tlkot:utility/initi
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
 
 tag @a[scores={Track=1..}] add StopMusic
+
+advancement grant @a only tlkot:achievements/the_greatest_of_reapers

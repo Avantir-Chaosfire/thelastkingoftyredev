@@ -18,3 +18,5 @@ title @a subtitle {"text":"Warden Ylsa and the False Reaper Defeated","color":"y
 title @a title {"text":"Resistance Silenced","color":"aqua","underlined":"true"}
 
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+
+advancement grant @a only tlkot:achievements/the_false

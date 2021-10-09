@@ -9,7 +9,7 @@
 		{
 			"text": "True Assassin"
 		},
-		"description": "Deal <#!TrueAssassinDamageThreshold 1000 /#> damage in a single hit",
+		"description": "Deal <#!TrueAssassinDamageThreshold 1000 /#> or more damage in a single hit",
 		"frame": "challenge"
 	},
 	"parent": "tlkot:achievements/root",

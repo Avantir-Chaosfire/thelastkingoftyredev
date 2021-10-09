@@ -27,7 +27,7 @@ RaggedHeadStats <#LoreLine$<#Armour#>: 1#>
 RaggedHeadStats <#LoreLine$<#Weight#>: 0.5#>
 RaggedHeadStats <#LoreLine$Blood Sigil Purges Blindness#>
 RaggedHeadDisplayTags <#RaggedDisplayTags#>
-RaggedHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:6
+RaggedHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:70
 
 RaggedHeadDataTag display:{Name:"<#RaggedHeadName#>",Lore:[<#RaggedHeadDescription#>,<#RaggedHeadStats#>],<#RaggedHeadDisplayTags#>},<#RaggedHeadTags#>
 RaggedHead <#Item$RaggedHeadItemID$RaggedHeadDataTag#>
@@ -41,7 +41,7 @@ RaggedChestStats <#LoreLine$<#Armour#>: 2#>
 RaggedChestStats <#LoreLine$<#Weight#>: 1.0#>
 RaggedChestStats <#LoreLine$Blood Sigil Purges Poison#>
 RaggedChestDisplayTags <#RaggedDisplayTags#>
-RaggedChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+RaggedChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:70,Damage:0
 
 RaggedChestDataTag display:{Name:"<#RaggedChestName#>",Lore:[<#RaggedChestDescription#>,<#RaggedChestStats#>],<#RaggedChestDisplayTags#>},<#RaggedChestTags#>
 RaggedChest <#Item$RaggedChestItemID$RaggedChestDataTag#>
@@ -55,7 +55,7 @@ RaggedLegsStats <#LoreLine$<#Armour#>: 2#>
 RaggedLegsStats <#LoreLine$<#Weight#>: 1.0#>
 RaggedLegsStats <#LoreLine$Blood Sigil Purges Slowness#>
 RaggedLegsDisplayTags <#RaggedDisplayTags#>
-RaggedLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+RaggedLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:70
 
 RaggedLegsDataTag display:{Name:"<#RaggedLegsName#>",Lore:[<#RaggedLegsDescription#>,<#RaggedLegsStats#>],<#RaggedLegsDisplayTags#>},<#RaggedLegsTags#>
 RaggedLegs <#Item$RaggedLegsItemID$RaggedLegsDataTag#>
@@ -69,7 +69,7 @@ RaggedFeetStats <#LoreLine$<#Armour#>: 1#>
 RaggedFeetStats <#LoreLine$<#Weight#>: 0.5#>
 RaggedFeetStats <#LoreLine$Blood Sigil Purges Weakness#>
 RaggedFeetDisplayTags <#RaggedDisplayTags#>
-RaggedFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+RaggedFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:70
 
 RaggedFeetDataTag display:{Name:"<#RaggedFeetName#>",Lore:[<#RaggedFeetDescription#>,<#RaggedFeetStats#>],<#RaggedFeetDisplayTags#>},<#RaggedFeetTags#>
 RaggedFeet <#Item$RaggedFeetItemID$RaggedFeetDataTag#>

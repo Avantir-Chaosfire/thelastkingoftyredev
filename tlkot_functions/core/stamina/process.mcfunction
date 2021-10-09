@@ -4,6 +4,7 @@ scoreboard players operation @s MaxStamina *= @s Two
 scoreboard players add @s MaxStamina 20
 scoreboard players operation @s MaxStamina += @s AssassinStamMod
 scoreboard players operation @s MaxStamina += @s VileStamMod
+scoreboard players operation @s MaxStamina += @s BlitzMaxStamMod
 execute as @e[tag=FireballMaxStaminaMod] run scoreboard players remove @a MaxStamina <#FireballMaxStaminaReduction#>
 scoreboard players add @s[tag=Hopeful] MaxStamina 10
 scoreboard players set @s[scores={Endurance=-1}] MaxStamina 3

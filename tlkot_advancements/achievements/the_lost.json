@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#LostHeadOfYearningItemID#>",
+			"nbt": "{<#LostHeadOfYearningTags#>}"
+		},
+		"title":
+		{
+			"text": "The Sacrifice in Ignorance"
+		},
+		"description": "Defeat the Perjurer",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_lost":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

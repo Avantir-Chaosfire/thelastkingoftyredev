@@ -61,6 +61,10 @@ BurningIronHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 GiantSpiderFangHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 SacrificialKnifeHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
+PhantomTantoHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+PhantomWarHammerHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+PhantomJavelinHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+
 TempestHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
 FirstFishingRodID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
@@ -88,6 +92,8 @@ SpacialLapseScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 FireSwarmScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 CallThroughTheDarkScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 IncendiaryScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+PhantomBladeScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+OverchargeScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
 LastFishingRodID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 
@@ -120,4 +126,4 @@ TowerShieldDisabledHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 BlankScrollHoldingID			<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 CharredDeathPactScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
 FadedFireSwarmScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>
-TornSpacialLapseScrollHoldingID	<#!UniqueHoldingID UniqueHoldingID 1 + =#>
+TornBlitzScrollHoldingID		<#!UniqueHoldingID UniqueHoldingID 1 + =#>

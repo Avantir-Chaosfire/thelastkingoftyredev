@@ -1,1 +1,1 @@
-#class execute if entity @s[level=<#<1>Will0Cost#>..,scores={Will=<\0>}] run function tlkot:<~>/will/<\0>/trigger
+#class execute if entity @s[level=<#<1>Will<\0>Cost#>..,scores={Will=<\0>}] run function tlkot:<~>/will/<\0>/trigger

@@ -1,1 +1,1 @@
-execute as @a[scores={StaminaToConsume=1..}] run function tlkot:<~>/trigger
+execute as @a[scores={StaminaToConsume=1..},tag=!FreeCast] run function tlkot:<~>/trigger

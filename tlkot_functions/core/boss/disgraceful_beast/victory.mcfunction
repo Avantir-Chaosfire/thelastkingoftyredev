@@ -23,3 +23,5 @@ scoreboard players add @a[scores={BoomerangDamage=..19999}] BoomerangDamage 4000
 tag @a[scores={Track=1..}] add StopMusic
 
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+
+advancement grant @a only tlkot:achievements/the_rotten

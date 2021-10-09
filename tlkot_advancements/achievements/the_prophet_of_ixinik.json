@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#CastingPowderItemID#>",
+			"nbt": "{<#CastingPowderDataTag#>}"
+		},
+		"title":
+		{
+			"text": "The Prophet of Ixinik"
+		},
+		"description": "Defeat Saviour Moses",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_prophet_of_ixinik":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

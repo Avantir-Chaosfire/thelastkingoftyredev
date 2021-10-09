@@ -13,7 +13,7 @@
 		"frame": "goal",
 		"hidden": true
 	},
-	"parent": "tlkot:achievements/root",
+	"parent": "tlkot:achievements/the_false",
 	"criteria":
 	{
 		"no_choice_of_freedom":

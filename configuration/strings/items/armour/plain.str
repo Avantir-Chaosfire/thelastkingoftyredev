@@ -14,7 +14,7 @@ PlainHeadDescription <#StatsLine#>
 PlainHeadStats <#LoreLine$<#Armour#>: 1#>
 PlainHeadStats <#LoreLine$<#Weight#>: 0.5#>
 PlainHeadDisplayTags
-PlainHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:6
+PlainHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:70
 
 PlainHeadDataTag display:{Name:"<#PlainHeadName#>",Lore:[<#PlainHeadDescription#>,<#PlainHeadStats#>],<#PlainHeadDisplayTags#>},<#PlainHeadTags#>
 PlainHead <#Item$PlainHeadItemID$PlainHeadDataTag#>
@@ -28,7 +28,7 @@ PlainChestDescription <#StatsLine#>
 PlainChestStats <#LoreLine$<#Armour#>: 4#>
 PlainChestStats <#LoreLine$<#Weight#>: 2.0#>
 PlainChestDisplayTags
-PlainChestTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,<UUID>,Slot:"chest"}],HideFlags:6
+PlainChestTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:4,<UUID>,Slot:"chest"}],HideFlags:70
 
 PlainChestDataTag display:{Name:"<#PlainChestName#>",Lore:[<#PlainChestDescription#>,<#PlainChestStats#>],<#PlainChestDisplayTags#>},<#PlainChestTags#>
 PlainChest <#Item$PlainChestItemID$PlainChestDataTag#>
@@ -42,7 +42,7 @@ PlainLegsDescription <#StatsLine#>
 PlainLegsStats <#LoreLine$<#Armour#>: 2#>
 PlainLegsStats <#LoreLine$<#Weight#>: 1.0#>
 PlainLegsDisplayTags
-PlainLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+PlainLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:70
 
 PlainLegsDataTag display:{Name:"<#PlainLegsName#>",Lore:[<#PlainLegsDescription#>,<#PlainLegsStats#>],<#PlainLegsDisplayTags#>},<#PlainLegsTags#>
 PlainLegs <#Item$PlainLegsItemID$PlainLegsDataTag#>
@@ -56,7 +56,7 @@ PlainFeetDescription <#StatsLine#>
 PlainFeetStats <#LoreLine$<#Armour#>: 1#>
 PlainFeetStats <#LoreLine$<#Weight#>: 0.5#>
 PlainFeetDisplayTags
-PlainFeetTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],HideFlags:6
+PlainFeetTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],HideFlags:70
 
 PlainFeetDataTag display:{Name:"<#PlainFeetName#>",Lore:[<#PlainFeetDescription#>,<#PlainFeetStats#>],<#PlainFeetDisplayTags#>},<#PlainFeetTags#>
 PlainFeet <#Item$PlainFeetItemID$PlainFeetDataTag#>

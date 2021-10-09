@@ -34,7 +34,7 @@ HunterHeadStats <#LoreLine$<#FireResistance#>#>
 HunterHeadStats <#LoreLine$<#ExplosionResistance#>#>
 HunterHeadStats <#LoreLine$+<#Time$<#HunterHeadStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
 HunterHeadDisplayTags color:10448837
-HunterHeadTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"head"}]
+HunterHeadTags Unbreakable:1b,HideFlags:71,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"head"}]
 
 HunterHeadDataTag display:{Name:"<#HunterHeadName#>",Lore:[<#HunterHeadDescription#>,<#HunterHeadStats#>],<#HunterHeadDisplayTags#>},<#HunterHeadTags#>
 HunterHead <#Item$HunterHeadItemID$HunterHeadDataTag#>
@@ -49,7 +49,7 @@ HunterChestStats <#LoreLine$<#FireResistance#>#>
 HunterChestStats <#LoreLine$<#ExplosionResistance#>#>
 HunterChestStats <#LoreLine$+<#Time$<#HunterChestStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
 HunterChestDisplayTags color:10448837
-HunterChestTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:3},{id:"minecraft:fire_protection",lvl:3},{id:"minecraft:blast_protection",lvl:3}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"chest"}],Damage:0
+HunterChestTags Unbreakable:1b,HideFlags:71,Enchantments:[{id:"minecraft:projectile_protection",lvl:3},{id:"minecraft:fire_protection",lvl:3},{id:"minecraft:blast_protection",lvl:3}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"chest"}],Damage:0
 
 HunterChestDataTag display:{Name:"<#HunterChestName#>",Lore:[<#HunterChestDescription#>,<#HunterChestStats#>],<#HunterChestDisplayTags#>},<#HunterChestTags#>
 HunterChest <#Item$HunterChestItemID$HunterChestDataTag#>
@@ -64,7 +64,7 @@ HunterLegsStats <#LoreLine$<#FireResistance#>#>
 HunterLegsStats <#LoreLine$<#ExplosionResistance#>#>
 HunterLegsStats <#LoreLine$+<#Time$<#HunterLegsStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
 HunterLegsDisplayTags color:10448837
-HunterLegsTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:2},{id:"minecraft:fire_protection",lvl:2},{id:"minecraft:blast_protection",lvl:2}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"legs"}]
+HunterLegsTags Unbreakable:1b,HideFlags:71,Enchantments:[{id:"minecraft:projectile_protection",lvl:2},{id:"minecraft:fire_protection",lvl:2},{id:"minecraft:blast_protection",lvl:2}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"legs"}]
 
 HunterLegsDataTag display:{Name:"<#HunterLegsName#>",Lore:[<#HunterLegsDescription#>,<#HunterLegsStats#>],<#HunterLegsDisplayTags#>},<#HunterLegsTags#>
 HunterLegs <#Item$HunterLegsItemID$HunterLegsDataTag#>
@@ -79,7 +79,7 @@ HunterFeetStats <#LoreLine$<#FireResistance#>#>
 HunterFeetStats <#LoreLine$<#ExplosionResistance#>#>
 HunterFeetStats <#LoreLine$+<#Time$<#HunterFeetStaminaRegenerationDelayFloat#>#> Weapon Stamina Regeneration Delay#>
 HunterFeetDisplayTags color:10448837
-HunterFeetTags Unbreakable:1b,HideFlags:7,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"feet"}]
+HunterFeetTags Unbreakable:1b,HideFlags:71,Enchantments:[{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:fire_protection",lvl:1},{id:"minecraft:blast_protection",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:0,<UUID>,Slot:"feet"}]
 
 HunterFeetDataTag display:{Name:"<#HunterFeetName#>",Lore:[<#HunterFeetDescription#>,<#HunterFeetStats#>],<#HunterFeetDisplayTags#>},<#HunterFeetTags#>
 HunterFeet <#Item$HunterFeetItemID$HunterFeetDataTag#>

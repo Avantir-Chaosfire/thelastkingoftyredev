@@ -1,0 +1,30 @@
+#include item_template
+#include item_holding_ids
+#include weapon_attributes
+#include stats
+#include items/weapons/phantom_javelin
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+PhantomWarHammerDamage 29
+PhantomWarHammerStaminaCost 4
+PhantomWarHammerCommunionStaminaCost 3
+PhantomWarHammerMinimumStaminaCost 3
+PhantomWarHammerRegenDelay 74
+PhantomWarHammerMaxUses 2
+
+PhantomWarHammerItemID golden_pickaxe
+PhantomWarHammerNameText Phantom War Hammer
+PhantomWarHammerNameColour dark_aqua
+PhantomWarHammerName <#ItemName$PhantomWarHammerNameText$PhantomWarHammerNameColour#>
+PhantomWarHammerStats <#WeaponStats$PhantomWarHammer#>
+PhantomWarHammerStats <#LoreLine$Damage Boosted by 50% Missing Health#>
+PhantomWarHammerStats <#LoreLine$Max Uses: <#PhantomWarHammerMaxUses#>#>
+PhantomWarHammerStats <#LoreLine$<#Duration#>: <#Time$14#>#>
+PhantomWarHammerStats <#LoreLine$Next Conjuration: <#PhantomJavelinNameText#>#>
+PhantomWarHammerTags Damage:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!PhantomWarHammerDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#PhantomWarHammerHoldingID#>
+
+PhantomWarHammerDataTag display:{Name:"<#PhantomWarHammerName#>",Lore:[<#PhantomWarHammerStats#>]},<#PhantomWarHammerTags#>
+PhantomWarHammer <#Item$PhantomWarHammerItemID$PhantomWarHammerDataTag#>

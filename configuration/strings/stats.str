@@ -53,7 +53,7 @@ LightningImprint			Consuming Stamina Sends Lightning Call
 DeterminationImprint			+2 <#MaximumStamina#>
 BloodImprint				Blood Sigil Restores Health Faster
 ShieldImprint				+4 <#Absorption#>
-BlitzImprint				Casts Blitz When Injured
+BlitzImprint				Casts Blitz When Injured - Speed Only
 StealthImprint				Invisibility When Low on Health or Stamina
 SpacialLapseImprint			All Scrolls Also Cast Spacial Lapse
 ObscureImprint				<#CastingResistance#>
