@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:leather_boots",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"The Exile Defender's Boots\\\",\\\"color\\\":\\\"dark_green\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Armour of Edual Delarno, defender\",\"color\":\"gray\"}','{\"text\":\"of the exiles. The first and last\",\"color\":\"gray\"}','{\"text\":\"person to voluntarily join the exiles\",\"color\":\"gray\"}','{\"text\":\"of Ixinik. He defended them from the\",\"color\":\"gray\"}','{\"text\":\"Subjugate right to the end, but\",\"color\":\"gray\"}','{\"text\":\"ultimately could not balance the\",\"color\":\"gray\"}','{\"text\":\"world alone.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 1\",\"color\":\"gray\"}','{\"text\":\"Weight: 0.5\",\"color\":\"gray\"}','{\"text\":\"-5% Weapon Stamina Regeneration Delay\",\"color\":\"gray\"}'],color:6192150},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:1,UUID:[I;2085691817,711386000,201527550,11256505],Slot:\"feet\"}],Unbreakable:1b,HideFlags:70}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

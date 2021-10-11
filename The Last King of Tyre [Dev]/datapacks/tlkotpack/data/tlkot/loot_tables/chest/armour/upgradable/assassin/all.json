@@ -1,0 +1,49 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/assassin/head",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/assassin/chest",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/assassin/legs",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/assassin/feet",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

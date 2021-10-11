@@ -1,0 +1,16 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/weapon/battle_axe/base",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

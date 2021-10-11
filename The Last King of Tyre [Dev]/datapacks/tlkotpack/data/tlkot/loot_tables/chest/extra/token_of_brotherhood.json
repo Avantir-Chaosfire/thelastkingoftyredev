@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:orange_dye",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Token of Brotherhood\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"An old and worn coin, but with three\",\"color\":\"gray\"}','{\"text\":\"names scratched into it. One\",\"color\":\"gray\"}','{\"text\":\"certainly says Mingolot the Brazen,\",\"color\":\"gray\"}','{\"text\":\"and another is presumably Ogolov\",\"color\":\"gray\"}','{\"text\":\"the Bold.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

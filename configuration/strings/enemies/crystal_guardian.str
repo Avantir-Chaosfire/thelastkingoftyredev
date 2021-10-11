@@ -5,6 +5,6 @@ CrystalGuardianHealth 17000
 
 CrystalGuardianTags ‘CustomName:"{\"text\":\"Crystal Guardian\"}",ArmorItems:[{id:"minecraft:<#CrystalGuardianFeetItemID#>",Count:1b},{id:"minecraft:<#CrystalGuardianLegsItemID#>",Count:1b},{id:"minecraft:<#CrystalGuardianChestItemID#>",Count:1b},{id:"minecraft:<#CrystalGuardianHeadItemID#>",Count:1b}],HandItems:[{id:"minecraft:diamond_sword",Count:1b},{}],Invisible:1b,Pose:{LeftArm:[-100.0f,-30.0f,180.0f],RightArm:[-100.0f,30.0f,180.0f],LeftLeg:[0.0f,0.0f,351.0f],RightLeg:[0.0f,0.0f,9.0f]},Tags:["Versioned","Killable","Enemy.CrystalGuardian","HasAI","AI.CrystalGuardian","AI.Pair","Paired"],Marker:1b,Invulnerable:1b,NoGravity:1b‘
 
-CrystalGuardianHitboxTags ‘ActiveEffects:[{Id:14,Duration:32767,ShowParticles:false}],Attributes:[{Name:generic.max_health,Base:1000}],Health:1000.0f,NoAI:1b,Silent:1b,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","CrystalGuardianHitbox","AI.CrystalGuardianHitbox","UsesHitScore"]‘
+CrystalGuardianHitboxTags ‘ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}],Attributes:[{Name:generic.max_health,Base:1000}],Health:1000.0f,NoAI:1b,Silent:1b,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","CrystalGuardianHitbox","AI.CrystalGuardianHitbox","UsesHitScore"]‘
 
 CrystalGuardianAttackTags ‘Marker:1b,Invulnerable:1b,Invisible:1b,NoGravity:1b,Tags:["Versioned","Killable","HasAI","AI.CrystalGuardianAttack"]‘

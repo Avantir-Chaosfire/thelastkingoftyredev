@@ -13,6 +13,7 @@ execute unless entity @a[x=-131,y=-10,z=-1,dx=339,dy=110,dz=363] run function tl
 
 #Glowering Mines
 execute if entity @a[tag=!InMines,x=-5,y=63,z=234,dx=2,dy=3,dz=7] run function tlkot:<~>/mines/enter
+execute if entity @a[tag=!InMines,x=-18,y=79,z=217,dx=1,dy=3,dz=2] run function tlkot:<~>/mines/enter
 execute unless entity @a[x=-264,y=0,z=203,dx=269,dy=141,dz=167] run function tlkot:<~>/mines/leave
 
 #Burning Wharfs

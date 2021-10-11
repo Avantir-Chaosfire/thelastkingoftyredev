@@ -1,0 +1,35 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"A Fisherman of Tyre\",title:\"Epitaph of Tyre\",resolved:1b,pages:[\"Curse you, righteous fool.
+
+He told me you would come, and he told me to write this for you.
+
+I say blast him, blast you.
+
+It's your fault, isn't it? Your fault that this won't work? I know so.\",\"Well then, 'hero', or whatever you are, know that I have already made MY sacrifice by the time you get here. My name will be remembered alongside yours. If I have my way, your name will be the one enshadowed.
+
+I am a fisherman of Tyre. Before you lies\",\"my Disgraceful Beast.
+
+Oh, I do hope it hurts you dearly.
+
+No luck for you.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

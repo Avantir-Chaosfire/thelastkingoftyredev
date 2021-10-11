@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"...what they do not want to be, yet\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",Lore:[\"{\\\"text\\\":\\\"on some level, what they are.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

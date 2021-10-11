@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"We threw them back,\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",Lore:[\"{\\\"text\\\":\\\"survivors no more.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

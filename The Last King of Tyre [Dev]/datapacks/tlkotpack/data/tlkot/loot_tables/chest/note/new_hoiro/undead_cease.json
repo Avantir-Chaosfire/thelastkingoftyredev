@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"How long can this last? Reapers\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",Lore:[\"{\\\"text\\\":\\\"or not, the undead never cease\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"their attacks.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -5,7 +5,7 @@ EvangelistCustomName ‘CustomName:"{\"text\":\"Undead Evangelist\"}"‘
 
 EvangelistSmokeHealth 84000
 
-EvangelistSmokeTags ‘PersistenceRequired:1b,<#EvangelistCustomName#>,Attributes:[{Name:"generic.max_health",Base:1000}],ActiveEffects:[{Id:14,Duration:32767,ShowParticles:false}],Silent:1b,Health:1000.0f,ArmorItems:[{},{},{},{}],Tags:["Enemy.EvangelistSmoke",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EvangelistSmoke","AI.Pair","Paired","UsesHitScore"],NoAI:1b‘
+EvangelistSmokeTags ‘PersistenceRequired:1b,<#EvangelistCustomName#>,Attributes:[{Name:"generic.max_health",Base:1000}],ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}],Silent:1b,Health:1000.0f,ArmorItems:[{},{},{},{}],Tags:["Enemy.EvangelistSmoke",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EvangelistSmoke","AI.Pair","Paired","UsesHitScore"],NoAI:1b‘
 
 EvangelistHealth 84000
 

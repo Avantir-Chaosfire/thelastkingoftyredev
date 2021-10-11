@@ -1,0 +1,49 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/exile_defender/head",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/exile_defender/chest",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/exile_defender/legs",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/exile_defender/feet",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

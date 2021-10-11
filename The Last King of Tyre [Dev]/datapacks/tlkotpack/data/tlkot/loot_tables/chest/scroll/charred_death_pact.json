@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:glowstone_dust",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Charred Death Pact Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Burnt; Unusable.\",\"color\":\"gray\"}']},HoldingID:100}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

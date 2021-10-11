@@ -1,0 +1,25 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Avantir Yihn\",title:\"The Altar\",resolved:1b,pages:[\"This altar was built beneath the New Hoiro Library for casters to take the power of reapers.
+
+Here you can offer very special heads of yearning to improve yourself. Not just any heads of yearning will do.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

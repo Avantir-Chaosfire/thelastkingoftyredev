@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:crossbow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Multishot Crossbow\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A steady crossbow, favourite of the\",\"color\":\"gray\"}','{\"text\":\"exiles when they revolted in Ixinik.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 9\",\"color\":\"gray\"}','{\"text\":\"Piercing\",\"color\":\"gray\"}','{\"text\":\"Up to 16 arrows returned on death\",\"color\":\"gray\"}','{\"text\":\"Multishot\",\"color\":\"gray\"}']},Unbreakable:1b,HideFlags:7,Enchantments:[{id:\"minecraft:piercing\",lvl:127},{id:\"minecraft:multishot\",lvl:1}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1024,UUID:[I;2057197832,-804489563,-2138626826,569552086],Slot:\"mainhand\"}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

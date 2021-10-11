@@ -1,0 +1,25 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Ghilios Aer, the Lexical Mind\",title:\"The Nature of Reapers\",resolved:1b,pages:[\"As death of the body leaves behind a corpse, death of the soul leaves behind a reaper. Thus it was thought for most of human history. Reapers have been noted throughout history, long before the first reaping, but in those times, reapers were merely hollow people who\",\"knew nothing but how to stand and breathe. Since the discovery of the black crystal, reapers have taken on a new life, chasing after humanity however it presents itself. They now act as though they know what they've lost, and pursue it however they can- Particularly with violence.\",\"In recent years, research has determined that when the body dies the soul dies, and when the soul dies the body dies too, which seemingly contradicts our prior knowledge on reapers. So we've been lead to the conclusion that in the case of reapers, the soul may be dead, but\",\"it isn't gone. Or, in other words, there's a difference between the soul being present, and the soul being alive. It, then, is in fact the soul leaving that kills the body, not the soul dying. Humans possess living souls, reapers possess dead souls and corpses have no soul. One mystery,\",\"then, is how reapers are able to retain a dead soul, and so to maintain a living body. For long this was a mystery, until it was found that reapers' souls contain energy, just like living souls. Not alive like ours, not truly dead, but somewhere in between; Undeath, some have called it. This nature\",\"makes the difference between undead and reapers all the more confusing, for both have risen from the dead. But when considering the dual nature of humanity, the parallel can be seen clearly: Undead have risen from physical death through undying souls, and reapers\",\"have risen from soul death through a deep bondage to the Cocoon.
+
+It should also be noted that while the soul is traditionally thought of as the true self, untouchable, unharmable, that is not quite what we refer to here.\",\"However, it may be this hope for a true version of onself that transcends physicality and mentality that gave birth to the myth of the Ark of Eldern Souls, supposing it's just a myth at all.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

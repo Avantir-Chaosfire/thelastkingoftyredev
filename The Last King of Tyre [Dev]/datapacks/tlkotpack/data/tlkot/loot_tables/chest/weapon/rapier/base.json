@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:stone_axe",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Rapier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A precise thrusting sword that can\",\"color\":\"gray\"}','{\"text\":\"chain many hits on opponents to\",\"color\":\"gray\"}','{\"text\":\"great effect.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 12\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 5\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.1s\",\"color\":\"gray\"}','{\"text\":\"+1.8 Stamina Regeneration\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:11,Operation:0,UUID:[I;953548138,714145491,-805130828,110443029],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1020,UUID:[I;-1897308385,145988337,-329635891,872799934],Slot:\"mainhand\"}],HideFlags:7,HoldingID:10}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

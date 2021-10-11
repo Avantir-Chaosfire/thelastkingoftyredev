@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Exile Lockaway Key\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Those exiled from Ixinik for\",\"color\":\"gray\"}','{\"text\":\"starting a revolution were left to\",\"color\":\"gray\"}','{\"text\":\"roam free. All, that is, save one,\",\"color\":\"gray\"}','{\"text\":\"who was far too dangerous just on\",\"color\":\"gray\"}','{\"text\":\"her own. Long since dead, her cell\",\"color\":\"gray\"}','{\"text\":\"remains intact.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

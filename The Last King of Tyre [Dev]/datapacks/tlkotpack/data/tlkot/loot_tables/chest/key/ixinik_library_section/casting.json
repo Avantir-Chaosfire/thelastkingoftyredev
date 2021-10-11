@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ixinik Library Key - Casting Section\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Casting, the art of mainpulating\",\"color\":\"gray\"}','{\"text\":\"energy outside the body, is a well\",\"color\":\"gray\"}','{\"text\":\"practiced and researched science\",\"color\":\"gray\"}','{\"text\":\"taught throughout the world.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

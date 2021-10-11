@@ -38,6 +38,9 @@ function tlkot:<~>/smoldering_ash
 
 function tlkot:<~>/accessory/main
 function tlkot:<~>/ai/main
+
+function tlkot:<~>/kill_detector/main
+
 function tlkot:<~>/area_name_announcement/main
 function tlkot:<~>/armour/main
 function tlkot:<~>/background_noise/main

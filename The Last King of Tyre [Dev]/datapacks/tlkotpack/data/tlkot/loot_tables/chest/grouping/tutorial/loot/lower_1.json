@@ -1,0 +1,21 @@
+{
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"min": 2,
+				"max": 4
+			},
+			"bonus_rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/consumable/snare",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

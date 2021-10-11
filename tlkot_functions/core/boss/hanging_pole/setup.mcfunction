@@ -24,5 +24,4 @@ scoreboard players set @a ExtraGrowth 0
 scoreboard players set @a PoleGate 0
 tag @a add Update352_32
 
-execute at @a run playsound minecraft:music.boss.hanging_pole voice @a ~ ~ ~ 0.01 1 1
 stopsound @a voice minecraft:music.boss.hanging_pole

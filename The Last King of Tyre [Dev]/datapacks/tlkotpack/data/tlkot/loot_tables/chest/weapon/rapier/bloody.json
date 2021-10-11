@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:stone_axe",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Bloody Rapier\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A precise thrusting sword that can\",\"color\":\"gray\"}','{\"text\":\"chain many hits on opponents to\",\"color\":\"gray\"}','{\"text\":\"great effect.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 12\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 5\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.1s\",\"color\":\"gray\"}','{\"text\":\"+1.8 Stamina Regeneration\",\"color\":\"gray\"}','{\"text\":\"Attacking Reduces Rapier Stamina Cost\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:11,Operation:0,UUID:[I;-1562332987,-1060722475,1708730893,377761755],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1020,UUID:[I;1173193507,-361588705,-958540738,-1831848469],Slot:\"mainhand\"}],HideFlags:6,HoldingID:11}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

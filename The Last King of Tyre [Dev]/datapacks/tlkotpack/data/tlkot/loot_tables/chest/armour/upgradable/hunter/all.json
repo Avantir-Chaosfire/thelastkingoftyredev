@@ -1,0 +1,49 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/hunter/head",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/hunter/chest",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/hunter/legs",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/armour/upgradable/hunter/feet",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 #include versioned_tags
 
-SmokeBeastBombTags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:2}],Fuse:30,ActiveEffects:[{Id:10,Duration:32767,Amplifier:6,ShowParticles:0b},{Id:14,Duration:32767,Amplifier:0,ShowParticles:0b}],CustomName:"{\"text\":\"Smoke Beast\"}",Health:2.0f,Tags:[<#CommonDumpableDivisionTags#>,"SmokeBeastBomb","HasAI","AI.Pair","Paired","AI.ShieldBreaker"]‘
+SmokeBeastBombTags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:2}],Fuse:30,ActiveEffects:[{Id:10,Duration:2147483647,Amplifier:6,ShowParticles:0b},{Id:14,Duration:2147483647,Amplifier:0,ShowParticles:0b}],CustomName:"{\"text\":\"Smoke Beast\"}",Health:2.0f,Tags:[<#CommonDumpableDivisionTags#>,"SmokeBeastBomb","HasAI","AI.Pair","Paired","AI.ShieldBreaker"]‘
 
 SmokeBeastHealth 1000
 

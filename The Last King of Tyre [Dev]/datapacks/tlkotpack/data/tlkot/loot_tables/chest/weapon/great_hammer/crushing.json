@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:diamond_axe",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Crushing Great Hammer\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A heavy weapon that excels at\",\"color\":\"gray\"}','{\"text\":\"forcing foes back or crushing them.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 24\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 7\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 2.8s\",\"color\":\"gray\"}','{\"text\":\"Knockback I\",\"color\":\"gray\"}','{\"text\":\"+100% Knockback Resistance\",\"color\":\"gray\"}','{\"text\":\"Attacks Raise Great Hammer Stamina Cost\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:23,Operation:0,UUID:[I;1368870755,98067517,908475650,45050414],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1020,UUID:[I;1292278627,-1739252836,451294445,-1172594354],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Operation:0,Amount:1,UUID:[I;299473640,677533700,1086831174,-767215489],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:1}],HideFlags:7,HoldingID:35}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

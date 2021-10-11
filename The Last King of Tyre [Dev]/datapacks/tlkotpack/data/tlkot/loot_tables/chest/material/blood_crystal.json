@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:prismarine_crystals",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Blood Crystal\\\",\\\"color\\\":\\\"dark_red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"When human blood is spilled, the\",\"color\":\"gray\"}','{\"text\":\"energy contained within can cause\",\"color\":\"gray\"}','{\"text\":\"the droplets to crystalize. Not only\",\"color\":\"gray\"}','{\"text\":\"do these crytals have sharp edges,\",\"color\":\"gray\"}','{\"text\":\"they synergize strongly with\",\"color\":\"gray\"}','{\"text\":\"Illwoirds to improve the\",\"color\":\"gray\"}','{\"text\":\"effectiveness of weapons.\",\"color\":\"gray\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"A Noblewoman of Tyre\",title:\"Epitaph of Tyre\",resolved:1b,pages:[\"I am a noblewoman of Tyre.
+
+My name is unknown.
+
+My identity shall not be remembered.
+
+To you who crosses this threshold, beware of me. Beware of what I will become.
+
+No one shall know me,\",\"but nevertheless I will continue to do my best to help them all.
+
+This is the way it has always been, and also the way I want it to be.
+
+Now, I believe...
+
+Fate's Puppeteer awaits.
+
+Take care of your\",\"legacy. They may not know why, but why is all that matters to you.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

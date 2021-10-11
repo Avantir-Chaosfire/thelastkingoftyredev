@@ -1,0 +1,23 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"He calls himself the Saviour, but his\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\",Lore:[\"{\\\"text\\\":\\\"real name is Moses.\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

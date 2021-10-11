@@ -1,0 +1,39 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Ghilios Aer, the Lexical Mind\",title:\"How to Kill an Undead\",resolved:1b,pages:[\"'We are simple men gathered here today to solve a simple problem. How does one kill an undead?'
+
+~General Oargilax of Gilith
+
+Forenote: Undead cannot be killed per se, but when we speak of killing an undead we don't mean truly killing\",\"them, but rather damaging their bodies and souls enough that they behave as though they are corpses.
+
+Undead are, by definition, humans whose souls have been bound to the earth. Therefore, it is easy to make the mistaken assumption\",\"that they can be killed in the same way any normal person can. This is unfortunately not true. The original binding scroll used by the Casters of Gilith to bind the souls of slaves, and the same scroll that was then replicated many times over by the liches that followed and used to bind nearly\",\"every undead that exists today, that scroll contained more than just a cast to bind one's soul to the earth. It also had a few additional casts woven in there. Those casts have the combined effect of automatically causing an undead to consume its own soul to heal minor wounds or to\",\"obtain the energy necessary to function in the case of a severe wound. The latter property forces them to function well past the point of clinical death, and it does so by having them participate in metaphysical self-cannibalism. This is as unpleasant as it\",\"sounds, and is the reason why undead so often and so easily go insane after being wounded.
+
+Thus, to kill an undead it is not enough to inhibit the body's functionality. No, the functionality of the body must be destroyed. The first Gilithines to fight\",\"undead did not know this, and so only made the situation worse. It was not until the days of the first Lich King that the Casters of Gilith saw fit to reveal this particularly nasty detail. And so it was that the first Gilithines to kill undead did so using explosives. If you blow them to pieces, then whatever\",\"lump of mass holds their soul has no capability left to do anything, regardless of how much energy it possesses. The problem with this was that explosives were expensive and caused collateral damage far too easily. If an undead held a knife at your friend's throat, you'd have to kill your\",\"friend to kill the undead. But soon enough, the method we use today was discovered: Fire.
+
+When an undead burns, they can burn until there is nothing left but ash. No matter what scrap of ash holds their soul in the end, that scrap is powerless to do\",\"anything, particularly because the process of burning to ash is so painful. The undead will generally lose nearly all their will to live, nearly all their inner strength while they burn, and so their soul will have effectively no energy left to give them capability (If they were anything more\",\"than ash at that point). Even if the undead can put the fire out, while it it burns the undead's regenerative ability is focused upon healing the burns, making it much easier to inflict devastating damage to them with ordinary weapons. Fire is also much more precise than explosives, and it\",\"is cheaper. It can also spread like a disease. Gilith today is nothing but rubble and ashes, for the whole city was burned down to kill as many undead as possible. In those days swords were soaked in oil and lit aflame alongside arrows, blazing powder filled the air and no survivor went\",\"anywhere without a torch in hand. It was also then that the old scroll Fire Swarm was refined and used against the undead with impunity. All of these are techniques we still use in some form today in the Undead Crusades.
+
+But in modern times we employ a third tool\",\"against the undead. Though not deadly, it is nevertheless incredibly effective: Light. After the Fire Storms of Gilith, undead began to nurture a fear of the flame. Burning is a dreadfully painful way to die, and is of course very potent against undead. Especially in those\",\"days, but even now, fire is everywhere. And so it is that undead fear the flame, and fear the things that betray its presence, most notably light. Casters in the Undead Crusades will use light to blind undead and strike fear into their hearts. This makes it all the more difficult\",\"to get ahold of and kill any individual undead, but it is excellent at breaking up groups of them and rendering their strongest warriors unable to strike.
+
+Those are the three weaknesses of undead: Explosions, fire and light. To kill an undead, simply blind\",\"it with light to render it harmless and then proceed to either blow it up or burn it.
+
+Or, if you're feeling particularly creative, you could try carving it up like a butcher and feeding its remains to your livestock. There is precedent for that.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

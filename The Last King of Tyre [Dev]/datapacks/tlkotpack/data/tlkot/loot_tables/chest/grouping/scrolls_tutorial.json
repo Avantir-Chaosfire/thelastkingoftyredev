@@ -1,0 +1,27 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/book/tutorial/scrolls",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "loot_table",
+					"name": "tlkot:chest/key/lost",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

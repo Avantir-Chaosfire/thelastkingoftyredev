@@ -1,0 +1,45 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+ 				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{author:\"Author Unknown\",title:\"Underneath\",resolved:1b,pages:[\"
+
+
+Deep down,
+Beneath the ground,
+A city lies in wait.
+Full of life,
+But humans not,
+The living dead do creep.\",\"
+
+
+
+The beasts parade,
+And the dead decay,
+And he does watch,
+From within said dark.\",\"
+
+
+
+The city of the bridge,
+The great unknown,
+Here the future rises,
+And so too does it fall.\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
