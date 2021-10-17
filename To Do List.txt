@@ -6,13 +6,6 @@ Foreword:
 		-Perjurer backstab damage threshold can be randomly crossed by arrow crits?
 		-Spiders in general like to hug walls instead of attacking the player
 		-Man-Bulls roar can blast you way into the air
-		-Starving reapers sometimes take more than 22 damage to kill (e.g. 1 full bow shot + 2 greatsword strikes) - cave spiders too
-			-Possible explanations:
-				-They were healed
-				-You had weakness
-				-You were using Heart of the Golem
-				-You were using Tower Shield
-				-You didn't fully draw back the bow
 		-Crystal Guardian names are never visible (they have invisibility) and they can't directly kill you, so it doesn't show up in death messages either.
 		-Could put books on lecterns. Has the issue that lectern contents cannot be generated via a loot table.
 
@@ -40,3 +33,6 @@ Foreword:
 		-Disable cheats
 		-Set Time to 0
 		-Rename save file to remove "[Dev]"
+
+	Post launch:
+		-Saviour Moses' potions are all the same colour [release]

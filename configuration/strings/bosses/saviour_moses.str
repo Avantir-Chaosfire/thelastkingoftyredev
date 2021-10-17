@@ -15,7 +15,7 @@ SaviourMosesAttackCondemn 1
 SaviourMosesAttackDecimate 2
 SaviourMosesAttackChainLightning 3
 
-SaviourMosesPotionBaseTags Potion:{id:"minecraft:splash_potion",Count:1b,tag:{<1>}},Tags:["NotWitchPotion","SaviourMosesPotion","Versioned","Killable"]
+SaviourMosesPotionBaseTags Item:{id:"minecraft:splash_potion",Count:1b,tag:{<1>}},Tags:["NotWitchPotion","SaviourMosesPotion","Versioned","Killable"]
 
 SaviourMosesPotionSlownessTags <#SaviourMosesPotionBaseTags$CustomPotionEffects:[{Id:2b,Duration:100,Amplifier:3b}],CustomPotionColor:6636927#>
 SaviourMosesPotionBlindnessTags <#SaviourMosesPotionBaseTags$CustomPotionEffects:[{Id:15b,Duration:87}],CustomPotionColor:0#>
