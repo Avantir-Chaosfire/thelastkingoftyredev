@@ -8,6 +8,7 @@ Foreword:
 		-Man-Bulls roar can blast you way into the air
 		-Crystal Guardian names are never visible (they have invisibility) and they can't directly kill you, so it doesn't show up in death messages either.
 		-Could put books on lecterns. Has the issue that lectern contents cannot be generated via a loot table.
+		-After defeating Fate's Puppeteer and returning to TLKoT, you have option to inform of status of resonating crystals, but he has nothing to say.
 
 	Indefinitely postponed:
 *		-Probably need to trim out extra chunks/entities that I generated when testing Arc Lightning
@@ -35,4 +36,12 @@ Foreword:
 		-Rename save file to remove "[Dev]"
 
 	Post launch:
-		-Saviour Moses' potions are all the same colour [release]
+		-Broken shortcut [release]
+		-mushroom block in ashurian tomb? [release]
+		-britjake skips [release]
+		-early parkour to miasma [release]
+
+-Overcharge carries over past death, which can be abused for bosses
+-Credits plays normal minecraft music
+-Trading with Warden Ylsa
+-Tempest balance

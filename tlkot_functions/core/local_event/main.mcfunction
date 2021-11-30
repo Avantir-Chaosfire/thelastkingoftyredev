@@ -28,3 +28,6 @@ function tlkot:<~>/saviour_moses_teleport/main
 function tlkot:<~>/seals/main
 function tlkot:<~>/transfixed_caster/main
 function tlkot:<~>/vaults_of_time/main
+
+# Saw Mill
+effect give @a[x=48,y=107,z=229,dx=0,dy=0,dz=1] minecraft:instant_damage

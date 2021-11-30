@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "tlkot:achievements/the_pool_of_tears": {
+    "criteria": {
+      "the_pool_of_tears_pathway_3": "2021-11-27 10:45:53 -0800"
+    },
+    "done": true
+  },
   "tlkot:achievements/true_assassin": {
     "criteria": {
       "true_assassin": "2021-10-09 10:22:30 -0700"
@@ -14,6 +20,12 @@
   "tlkot:achievements/the_gates_to_hell": {
     "criteria": {
       "the_gates_to_hell": "2021-10-09 10:20:53 -0700"
+    },
+    "done": true
+  },
+  "tlkot:achievements/the_way_of_the_exile": {
+    "criteria": {
+      "the_way_of_the_exile": "2021-11-07 18:31:48 -0800"
     },
     "done": true
   },

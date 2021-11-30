@@ -1,3 +1,3 @@
 tp @s ~ ~ ~ facing entity @a[limit=1]
-execute at @s run summon minecraft:potion ^ ^ ^1 {Potion:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Duration:100,Amplifier:3b}],CustomPotionColor:6636927}},Tags:["HMvabXmCqXBHHdxX_BkVEZnH+O9bRSeWvHH596-4","Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute at @s run summon minecraft:potion ^ ^ ^1 {Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Duration:100,Amplifier:3b}],CustomPotionColor:6636927}},Tags:["HMvabXmCqXBHHdxX_BkVEZnH+O9bRSeWvHH596-4","Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
 execute as @e[tag=Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:vq9zb8d8gyp1thiov4yg29fki99nodsug9o2zom6

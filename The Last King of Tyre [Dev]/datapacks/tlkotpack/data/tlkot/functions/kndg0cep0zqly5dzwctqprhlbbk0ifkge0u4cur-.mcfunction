@@ -1,4 +1,4 @@
 tp @s ~ ~ ~ facing entity @a[limit=1]
-execute at @s run summon minecraft:potion ^ ^ ^1 {Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Tags:["HMvabXmCqXBHHdxX_BkVEZnH+O9bRSeWvHH596-4","Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
+execute at @s run summon minecraft:potion ^ ^ ^1 {Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Tags:["HMvabXmCqXBHHdxX_BkVEZnH+O9bRSeWvHH596-4","Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+","7MwpGFw4Rhow+ea7Fl0vRMWncEPIGH2a+a56+zDu","QII7il6fMbizYE_WhfAGzxjRCTTkwpPast5.eCFz"]}
 execute as @e[tag=Ju.HDeABaB8jiAR4.UoJdBV3fOOnE4tKfNL5_Zy+,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:vq9zb8d8gyp1thiov4yg29fki99nodsug9o2zom6
 execute unless entity @s[x=406,y=128,z=66.5,dx=24,dy=17,dz=4] run scoreboard players remove @a TRX_dNlyiATrVNux 13

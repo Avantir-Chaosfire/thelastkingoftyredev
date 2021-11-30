@@ -20,7 +20,7 @@ PhantomWarHammerNameText Phantom War Hammer
 PhantomWarHammerNameColour dark_aqua
 PhantomWarHammerName <#ItemName$PhantomWarHammerNameText$PhantomWarHammerNameColour#>
 PhantomWarHammerStats <#WeaponStats$PhantomWarHammer#>
-PhantomWarHammerStats <#LoreLine$Damage Boosted by 50% Missing Health#>
+PhantomWarHammerStats <#LoreLine$Damage Boosted by 50% of Your Missing Health#>
 PhantomWarHammerStats <#LoreLine$Max Uses: <#PhantomWarHammerMaxUses#>#>
 PhantomWarHammerStats <#LoreLine$<#Duration#>: <#Time$14#>#>
 PhantomWarHammerStats <#LoreLine$Next Conjuration: <#PhantomJavelinNameText#>#>

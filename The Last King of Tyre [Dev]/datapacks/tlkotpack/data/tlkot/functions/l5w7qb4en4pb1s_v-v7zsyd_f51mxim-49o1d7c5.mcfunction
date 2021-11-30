@@ -27,3 +27,4 @@ function tlkot:qa-lbi9b7b1xxlog9tlmesxjhdshd1xva-y8b3e_
 function tlkot:oct5m2cojyjvdm5gx6336q9xh2g4sr4g0u996o59
 function tlkot:3kjcj7us87jfqcj9aa-88uw1mpu1-g78l-wxts2w
 function tlkot:9ih02g2cc809y7_kklv-h3wivthbn684hik-svku
+effect give @a[x=48,y=107,z=229,dx=0,dy=0,dz=1] minecraft:instant_damage
