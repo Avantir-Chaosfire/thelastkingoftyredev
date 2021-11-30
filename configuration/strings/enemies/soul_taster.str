@@ -2,4 +2,4 @@
 
 SoulTasterHealth 19000
 
-SoulTasterTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Soul Taster\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:3}],Health:1000.0f,Tags:["Enemy.SoulTaster",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"]‘
+SoulTasterTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Soul Taster\"}",Attributes:[{Name:"generic.max_health",Base:1000},{Name:"generic.attack_damage",Base:3}],Health:1000.0f,Tags:["Enemy.SoulTaster",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","UsesHitScore"]‘

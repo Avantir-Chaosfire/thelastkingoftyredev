@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#HollowHeadOfYearningItemID#>",
+			"nbt": "{<#HollowHeadOfYearningTags#>}"
+		},
+		"title":
+		{
+			"text": "The Sacrifice for Redemption"
+		},
+		"description": "Defeat the Hanging Pole",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_hollow":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

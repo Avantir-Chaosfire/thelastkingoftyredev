@@ -1,25 +1,25 @@
 function tlkot:xa65h4mddo0mpufb3tnh1a6odr6oevki1yk5-r24
-function tlkot:l057dy819-60ap2xu828zwngv8fbcs8tzp4qbsh3
 function tlkot:7yi7f4c7kqodenbz9u4t4wrdf22b7ajnwztbqv3l
 function tlkot:l80vqd6kq03bursl-dzu-9s_7po_3s2bx7vueh6y
-function tlkot:e5s7p8hllwhto6mt2zx5h3ug6nz0-77w3lvpv19x
 function tlkot:kawged72t696a1sb7f49f1pqa0bsy9ysn09cbcxa
 function tlkot:s116xyf2eiu5ph_ot81f2vzn6qn4gh066mslpqna
 function tlkot:0msk-5_80ojg8w_tpmi_n27yfdv2lvfw28dhytfo
-function tlkot:si8r5e05gkcyp_sjmp-1icnajme-x41hhai3b1f-
 function tlkot:plan0uz362rczclb8a7ltw5702snrkdb26trwfqb
 function tlkot:bxojslj9nipm1-hxhe4po8kz-n6_3hd21chsh3vz
 function tlkot:_646siiov8y84dota14cf5sh5pg_lq3b3j659608
 function tlkot:2v4sbpuxxc8vu_5ffh4b2ili9ctpif7_1qq01a4_
 function tlkot:x77ga2hp9a5qlivb1s-90ntphu7xd8qhgp2av35f
+function tlkot:ig1buqqhnn6lkds3s1_fhig-xbc_ip8oz3pw2gt_
 function tlkot:6co_7lxyi5e3ojvz6r-f1so75vi4sd5fzhlk7k-q
 function tlkot:v6abxxt-ckjy29m7io0y5dhys_vlpky5e-t0lwu0
 function tlkot:106r--del59iwxi0lvtxaha4rqwcjc1i575ve0gy
 function tlkot:8_7xcsjl3zt-bukjw03tj6l8m2v3pym6k71b8p0l
 function tlkot:o-vb2hikofpj38vhq8s1zhs-gj2xkjuh2173p5i0
+function tlkot:wuxuaj7xuama0r13zacfxs1hwt7pchy2_unyn4hk
 function tlkot:e4205o_qdq-me0lejb6mqd3fmp3g8x2r1bkitp_f
 function tlkot:hgh3h40d06__jp0u6_j9y50-4rcxewxiuxtdz4wi
 function tlkot:jnf_8eiiebzzrucw64fdcbd2l343jlyv54wr3l6u
+function tlkot:1a70-wx3pavuwcwcbn4jmrhteortpudooz2fzqpb
 function tlkot:xaqx7isn2k_uus3ougya3tf_u073z7110yxtey1p
 function tlkot:b7ndpm-_ecw1wqp5v50en_3g552ul3sx5rut4x-o
 function tlkot:67_5h4w5n67l0vbxbm8tg-cb_75etfuhwlwnxz30
@@ -27,3 +27,4 @@ function tlkot:qa-lbi9b7b1xxlog9tlmesxjhdshd1xva-y8b3e_
 function tlkot:oct5m2cojyjvdm5gx6336q9xh2g4sr4g0u996o59
 function tlkot:3kjcj7us87jfqcj9aa-88uw1mpu1-g78l-wxts2w
 function tlkot:9ih02g2cc809y7_kklv-h3wivthbn684hik-svku
+effect give @a[x=48,y=107,z=229,dx=0,dy=0,dz=1] minecraft:instant_damage

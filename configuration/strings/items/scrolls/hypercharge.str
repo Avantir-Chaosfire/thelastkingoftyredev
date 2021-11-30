@@ -23,13 +23,13 @@ HyperchargeScrollStats <#LoreLine$-50% <#ShieldRecoveryTime#>#>
 HyperchargeScrollStats <#LoreLine$-50% <#BloodSigilActiveDuration#>#>
 HyperchargeScrollStats <#LoreLine$<#Duration#>: <#Time$60#>#>
 
-HyperchargeScrollDataTag display:{Name:"<#HyperchargeScrollName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:18,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946859,UUIDMost:-46785610,Slot:"mainhand"}]
+HyperchargeScrollDataTag display:{Name:"<#HyperchargeScrollName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:18,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 HyperchargeScroll <#Item$HyperchargeScrollItemID$HyperchargeScrollDataTag#>
 
 HyperchargeScrollActiveNameText <#HyperchargeScrollNameText#> (Active)
 HyperchargeScrollActiveName <#ItemName$HyperchargeScrollActiveNameText$HyperchargeScrollNameColour#>
 
-HyperchargeScrollActiveDataTag display:{Name:"<#HyperchargeScrollActiveName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:34,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:9946859,UUIDMost:-46785610,Slot:"mainhand"}]
+HyperchargeScrollActiveDataTag display:{Name:"<#HyperchargeScrollActiveName#>",Lore:[<#HyperchargeScrollDescription#>,<#HyperchargeScrollStats#>]},HoldingID:<#HyperchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:34,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 HyperchargeScrollActive <#Item$HyperchargeScrollItemID$HyperchargeScrollActiveDataTag#>
 
 HyperchargeWill0Cost 8

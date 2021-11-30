@@ -1,3 +1,7 @@
 BaseRegenerationRate 600
 
 UsingExpirationBonusDamage 6000
+UsingExpirationBonusScimitarDamage 12000
+
+UsingExpirationBonusDuration 9
+UsingExpirationBonusBlackOakStaffDuration 24

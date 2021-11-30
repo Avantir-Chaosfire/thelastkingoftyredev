@@ -17,6 +17,6 @@ execute if entity @a[scores={H1qid1s1K.n6EXX8=7}] run function tlkot:sg1qwkt7txh
 execute if entity @a[scores={H1qid1s1K.n6EXX8=6}] run function tlkot:r65gbfq7c34yajwe3s8nngxa231usalj5jyhqpl_
 execute if entity @a[scores={H1qid1s1K.n6EXX8=5}] run function tlkot:j5b_saoqstf_lrocqd-_bqtse1wgvlfq8q6l2onf
 execute if entity @a[scores={H1qid1s1K.n6EXX8=4}] run function tlkot:0u1vhneycml7oap8-nf744o4x9-sh1x5fmig-t73
-execute if entity @a[scores={H1qid1s1K.n6EXX8=3}] run function tlkot:7swqhsvefpi-m_qncehpnjvks2fznqj4qo9kal3l
+execute if entity @a[scores={H1qid1s1K.n6EXX8=3}] run function tlkot:0szwl1rpo9m7w9wj_fu9w3ui9ia9_2f6nqijuho_
 execute if entity @a[scores={H1qid1s1K.n6EXX8=2}] run function tlkot:c_nnyr-mmrrq-4m1wskfoe4yxidoj_3q-_50goyr
 execute if entity @a[scores={H1qid1s1K.n6EXX8=1}] run function tlkot:3yuyqmzqvnqd-15xnoctxg5itecyu4pndbmnam2l

@@ -1,1 +1,1 @@
-effect clear @a[tag=!ShieldChallenger,scores={CommuneDuration=-1}] minecraft:absorption
+execute if entity @a[tag=!ShieldChallenger,tag=HasChallengerShield,tag=!Unshielded] run function tlkot:<~>/unshield

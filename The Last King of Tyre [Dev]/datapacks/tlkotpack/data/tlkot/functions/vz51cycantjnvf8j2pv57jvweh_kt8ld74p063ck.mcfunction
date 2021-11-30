@@ -1,2 +1,2 @@
-execute if entity @s[tag=LdrDeapukvexfVO6.bYhJ7OZC3uKlBnYqcmDp-f.,scores={RzwIXk15WUYOQ3Uc=1..}] run function tlkot:6eg33o5yg8huszc97e_pjmscshxden2srv9hwmal
-scoreboard players set @s RzwIXk15WUYOQ3Uc 0
+execute if entity @s[scores={RzwIXk15WUYOQ3Uc=1..}] run function tlkot:y8ejhsh5k0-pxfu6ubr2b5onr6ok2sgki6ht1ujv
+execute if entity @s[scores={FUGqtE_K7L-D5Tvz=1..}] run function tlkot:8qm4ikuzpxgrcyxgh0s92uh9swz_4o9jm1jnc3_q

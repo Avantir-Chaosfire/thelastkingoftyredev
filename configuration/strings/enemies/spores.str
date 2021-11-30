@@ -3,8 +3,8 @@
 
 SporePoisonHealth 24000
 
-SporePoisonTags ‘PersistenceRequired:1b,IsBaby:1,Attributes:[{Name:generic.movementSpeed,Base:0.17},{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:3},<#EliminateBaseZombieAttributes#>],ArmorItems:[{},{},{},{id:"minecraft:red_mushroom_block",Count:1b}],CustomName:"{\"text\":\"Poison Spore\"}",Health:1000.0f,Tags:["Enemy.Spore-Poison",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.PoisonCloud","UsesHitScore"]‘
+SporePoisonTags ‘PersistenceRequired:1b,IsBaby:1,Attributes:[{Name:generic.movement_speed,Base:0.17},{Name:"generic.max_health",Base:1000},{Name:generic.attack_damage,Base:3},<#EliminateBaseZombieAttributes#>],ArmorItems:[{},{},{},{id:"minecraft:red_mushroom_block",Count:1b}],CustomName:"{\"text\":\"Poison Spore\"}",Health:1000.0f,Tags:["Enemy.Spore-Poison",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.PoisonCloud","UsesHitScore"]‘
 
 SporeSlownessHealth 24000
 
-SporeSlownessTags ‘PersistenceRequired:1b,IsBaby:1,Attributes:[{Name:generic.movementSpeed,Base:0.17},{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:3},<#EliminateBaseZombieAttributes#>],ArmorItems:[{},{},{},{id:"minecraft:brown_mushroom_block",Count:1b}],CustomName:"{\"text\":\"Spore\"}",Health:1000.0f,Tags:["Enemy.Spore-Slowness",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SlownessCloud","UsesHitScore"]‘
+SporeSlownessTags ‘PersistenceRequired:1b,IsBaby:1,Attributes:[{Name:generic.movement_speed,Base:0.17},{Name:"generic.max_health",Base:1000},{Name:generic.attack_damage,Base:3},<#EliminateBaseZombieAttributes#>],ArmorItems:[{},{},{},{id:"minecraft:brown_mushroom_block",Count:1b}],CustomName:"{\"text\":\"Spore\"}",Health:1000.0f,Tags:["Enemy.Spore-Slowness",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SlownessCloud","UsesHitScore"]‘

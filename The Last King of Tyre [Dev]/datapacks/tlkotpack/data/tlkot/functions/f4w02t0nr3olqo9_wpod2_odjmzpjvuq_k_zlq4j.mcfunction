@@ -1,6 +1,7 @@
 execute if entity @a[tag=!52L11TA.4oTgBbC6veu5bleNDCgDKU4bAknKLMKU] run tellraw @a {"text": "[Server] ", "extra": [{"text": "[CRITICAL ERROR]", "color": "red"}, {"text": " maxCommandChainLength exceeded on the previous tick, commands skipped! If you see this message, please report it ASAP!", "color": "dark_purple"}]}
 tag @a remove 52L11TA.4oTgBbC6veu5bleNDCgDKU4bAknKLMKU
 function tlkot:ghlrj--7lejz5900onmy4xbr0dva49umbk9g3h07
+scoreboard players set @a 1LIqGSzQ_BtpjODT 0
 function tlkot:ut8p8w9dmz65n1x75itf19svjknktz80xt_nbq_0
 function tlkot:ejdqrvja_pm9lm21m0uvkmvtybd0fdsz-9eddz9e
 function tlkot:w5veicikp2cecltouan97_7thynzs_f6qzshsyvd
@@ -12,16 +13,17 @@ function tlkot:bd10_4t06-vzae4z966pzwi77b-1stm-bwd8-hrg
 function tlkot:t07idol9cwbo2ijn89ima8c_dt13yy0bvu8uiif6
 function tlkot:msglgnm-56lm8satxp5-l6quplc1oli8k684_9ou
 function tlkot:vnbpw0vq7pjjt0u44-w5z4k9m_3f3amirslvzlwg
+function tlkot:4_p3xsx29413qztjo4bpojl1h6emyn7p5ogss889
 function tlkot:ul61g-9dlgm08e8t6c1-oxdt620j22ki2vdrckty
 function tlkot:3abfygu5xcuzgtpam40jxmsumfkp_4tv3w0dgl97
 function tlkot:3k4xgcftl39r7sf-dboknz6bj53c7fqvlf8s-awy
 function tlkot:zg1n3x5tg7acthqn28rfquaare3p2q2x1ss3xqay
 function tlkot:mk8ncv2gy2q50ukw45k-h0ep29oa-vq0vpw--dwt
 function tlkot:ho2mexkyv2i_wm0tasmcw0s_9vjvcaxxvofbpnv8
+function tlkot:si-d9g9oh_34xmeqb8fttzipnfinble9fntg17t1
 function tlkot:_d7ns4nkqzcbbve7tn9lyakc-u8660svgn5brj9g
 function tlkot:divwxwwrumv5_xwpc96f-e6tww__qiv-unfl3hfu
 function tlkot:n6x1gsk0iopvjptm9kjnqf5o8jed-1yd2hqpdf_2
-function tlkot:evi_k00y30kqis0oruwee8h1yl4hd5a189d8hnzu
 function tlkot:hxxtw0wx1uof8epq07_av0e1e6b27np2t51zr_pt
 function tlkot:rm3_-amlntjz17o18bnep99g-6xymfe_qltgsnhj
 function tlkot:dofeo_ttntbmm2l4kid9pn8688rrg1596dwb9lin
@@ -49,6 +51,7 @@ function tlkot:tjbcs511iz8gi6w-x3zz2mgc8xgirdrq98cthv5z
 function tlkot:8lpdfdck99ecft2qe71bc-ssr0n_qgapyne9rvk9
 function tlkot:kv3wq5_lpuwx2a3-p0yy3_vkp9i258zndws78lai
 execute if entity @a[scores={kdJ-OTtT6Ksybb-3=0}] run function tlkot:56yiipguapj_u1uwot9i6rpdwr-_epw1i8k8pl9d
+function tlkot:5sk-9w36mmw0m0pllokfxx-teds79u_ziitryr0w
 function tlkot:97fd199a3tclwa29623cuspf47xiyc3xwcl69t53
 execute if entity @a[scores={kdJ-OTtT6Ksybb-3=0}] run function tlkot:n_xiquv-ef0dz6e7j-n864rumzjrcchy9gwpxij_
 function tlkot:51jwhyz-ctzmla2sdayc44-k-s_umddhm51atxwz

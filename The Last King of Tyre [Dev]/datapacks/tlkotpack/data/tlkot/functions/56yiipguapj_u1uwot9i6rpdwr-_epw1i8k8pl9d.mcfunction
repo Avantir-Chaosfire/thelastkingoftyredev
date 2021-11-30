@@ -14,6 +14,9 @@ function tlkot:2o6o7tjxmcuf10ox8zjg_yaebwgb2uq2ruxkyqm6
 function tlkot:bfks6dohtyifvn76mo93cgnhhnyf86my-umcjyjs
 function tlkot:y8-l2tzyr2wdc3ju1erkgc1npxauhvuk85yk7-_o
 function tlkot:t5ncdf7jiveypv9mololpl7vi22d7693v_kwtv3b
+function tlkot:hg7yu8hh8e2f16bj15laun38w19p42kbc056kb_m
+function tlkot:k860qbjll6zq84nc3-mhbltp1z-fsq5c2l8_-g2z
+function tlkot:pstr8o3j3iqq74p9oy3ri5cq9b-ceix3nerz2rt1
 function tlkot:1nmla8femm3ayi91u58a7p_6s28l9_qgojz-mk60
 function tlkot:32wc_05q9fv2s3e65rvlv0t0xnpu330g1ma00pfu
 execute if entity @a[tag=!Z_qu-CUz3TMhOFYqZS4thZfV-DT+RU4t1Y934J7w] run function tlkot:q5fw8es6p0ut6-9ef3enh6ezkurjvs346di3njq4

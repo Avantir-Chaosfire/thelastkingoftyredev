@@ -17,4 +17,6 @@ incendiary $ IncendiaryScroll
 miasma $ MiasmaScroll
 rain $ RainScroll
 spacial_lapse $ SpacialLapseScroll
-torn_spacial_lapse $ TornSpacialLapseScroll
+torn_blitz $ TornBlitzScroll
+phantom_blade $ PhantomBladeScroll
+overcharge $ OverchargeScroll

@@ -1,3 +1,3 @@
 setblock -881 1 -759 minecraft:stone
-execute if block 70 60 341 #tlkot:container run data merge block 70 60 341 {Items:[],LootTable:"tlkot:chest/material/lead_weight"}
-execute unless block 70 60 341 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 70 60 341."}]}
+execute if block 44 62 328 #tlkot:container run data merge block 44 62 328 {Items:[],LootTable:"tlkot:chest/grouping/npc/candelja_the_wise/head_of_yearning"}
+execute unless block 44 62 328 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 44 62 328."}]}

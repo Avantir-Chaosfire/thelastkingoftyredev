@@ -23,7 +23,8 @@ Base1HHalberdNameText Halberd
 Base1HHalberdName <#ItemName$Base1HHalberdNameText$HalberdNameColour#>
 Base1HHalberdStats <#WeaponStats$Halberd#>
 Base1HHalberdStats <#LoreLine$<#Cleave#> II#>
-Base1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base1HHalberdHoldingID#>
+Base1HHalberdStats <#LoreLine$+20% Crit Damage#>
+Base1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base1HHalberdHoldingID#>
 
 Base1HHalberdDataTag display:{Name:"<#Base1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Base1HHalberdStats#>]},<#Base1HHalberdTags#>
 Base1HHalberd <#Item$Base1HHalberdItemID$Base1HHalberdDataTag#>
@@ -33,8 +34,9 @@ Base2HHalberdNameText Halberd (Two Handed)
 Base2HHalberdName <#ItemName$Base2HHalberdNameText$HalberdNameColour#>
 Base2HHalberdStats <#WeaponStats$Halberd#>
 Base2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Base2HHalberdStats <#LoreLine$+20% Crit Damage#>
 Base2HHalberdStats <#LoreLine$Dodging Reduces Halberd Stamina Cost#>
-Base2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base2HHalberdHoldingID#>
+Base2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base2HHalberdHoldingID#>
 
 Base2HHalberdDataTag display:{Name:"<#Base2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Base2HHalberdStats#>]},<#Base2HHalberdTags#>
 Base2HHalberd <#Item$Base2HHalberdItemID$Base2HHalberdDataTag#>
@@ -44,8 +46,9 @@ Bloody1HHalberdNameText Bloody Halberd
 Bloody1HHalberdName <#ItemName$Bloody1HHalberdNameText$HalberdNameColour#>
 Bloody1HHalberdStats <#WeaponStats$Halberd#>
 Bloody1HHalberdStats <#LoreLine$<#Cleave#> II#>
+Bloody1HHalberdStats <#LoreLine$+20% Crit Damage#>
 Bloody1HHalberdStats <#LoreLine$Attacking Reduces Halberd Stamina Cost#>
-Bloody1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody1HHalberdHoldingID#>
+Bloody1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody1HHalberdHoldingID#>
 
 Bloody1HHalberdDataTag display:{Name:"<#Bloody1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Bloody1HHalberdStats#>]},<#Bloody1HHalberdTags#>
 Bloody1HHalberd <#Item$Bloody1HHalberdItemID$Bloody1HHalberdDataTag#>
@@ -55,9 +58,10 @@ Bloody2HHalberdNameText Bloody Halberd (Two Handed)
 Bloody2HHalberdName <#ItemName$Bloody2HHalberdNameText$HalberdNameColour#>
 Bloody2HHalberdStats <#WeaponStats$Halberd#>
 Bloody2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Bloody2HHalberdStats <#LoreLine$+20% Crit Damage#>
 Bloody2HHalberdStats <#LoreLine$Attacking Reduces Halberd Stamina Cost#>
 Bloody2HHalberdStats <#LoreLine$Dodging Reduces Halberd Stamina Cost#>
-Bloody2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody2HHalberdHoldingID#>
+Bloody2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Bloody2HHalberdHoldingID#>
 
 Bloody2HHalberdDataTag display:{Name:"<#Bloody2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Bloody2HHalberdStats#>]},<#Bloody2HHalberdTags#>
 Bloody2HHalberd <#Item$Bloody2HHalberdItemID$Bloody2HHalberdDataTag#>
@@ -67,8 +71,9 @@ Nimble1HHalberdNameText Nimble Halberd
 Nimble1HHalberdName <#ItemName$Nimble1HHalberdNameText$HalberdNameColour#>
 Nimble1HHalberdStats <#WeaponStats$Halberd#>
 Nimble1HHalberdStats <#LoreLine$<#Cleave#> II#>
+Nimble1HHalberdStats <#LoreLine$+20% Crit Damage#>
 Nimble1HHalberdStats <#LoreLine$-2 <#DodgeStamina#>#>
-Nimble1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble1HHalberdHoldingID#>
+Nimble1HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble1HHalberdHoldingID#>
 
 Nimble1HHalberdDataTag display:{Name:"<#Nimble1HHalberdName#>",Lore:[<#HalberdDescription#>,<#Nimble1HHalberdStats#>]},<#Nimble1HHalberdTags#>
 Nimble1HHalberd <#Item$Nimble1HHalberdItemID$Nimble1HHalberdDataTag#>
@@ -78,9 +83,10 @@ Nimble2HHalberdNameText Nimble Halberd (Two Handed)
 Nimble2HHalberdName <#ItemName$Nimble2HHalberdNameText$HalberdNameColour#>
 Nimble2HHalberdStats <#WeaponStats$Halberd#>
 Nimble2HHalberdStats <#LoreLine$<#Cleave#> II#>
+Nimble2HHalberdStats <#LoreLine$+20% Crit Damage#>
 Nimble2HHalberdStats <#LoreLine$-2 <#DodgeStamina#>#>
 Nimble2HHalberdStats <#LoreLine$Dodging Reduces Stamina Cost#>
-Nimble2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HalberdDamage 1 -#>,Operation:0,UUIDLeast:98712,UUIDMost:125488,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble2HHalberdHoldingID#>
+Nimble2HHalberdTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HalberdDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Nimble2HHalberdHoldingID#>
 
 Nimble2HHalberdDataTag display:{Name:"<#Nimble2HHalberdName#>",Lore:[<#HalberdDescription#>,<#Nimble2HHalberdStats#>]},<#Nimble2HHalberdTags#>
 Nimble2HHalberd <#Item$Nimble2HHalberdItemID$Nimble2HHalberdDataTag#>

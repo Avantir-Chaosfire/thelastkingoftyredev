@@ -48,9 +48,20 @@ scoreboard players set @a Sleeping 0
 scoreboard players set @a DodgeCost 3
 scoreboard players set @a LastGroundHeight 0
 scoreboard players set @a CurrentHeight 0
+scoreboard players set @a PreviousHeight 0
+scoreboard players set @a VerticalMovement 0
 scoreboard players set @a TutorialIsMemory 0
 scoreboard players set @a NewProphet 0
 scoreboard players set @a InCutsceneMode 0
 scoreboard players set @a CarapaceCooldown 0
+scoreboard players set @a Strength 0
+scoreboard players set @a UndeadKills 0
+scoreboard players set @a ReaperKills 0
+scoreboard players set @a AnyKills 0
+
+execute store result score @a PlayerUUID0 run data get entity @a[limit=1] UUID[0]
+execute store result score @a PlayerUUID1 run data get entity @a[limit=1] UUID[1]
+execute store result score @a PlayerUUID2 run data get entity @a[limit=1] UUID[2]
+execute store result score @a PlayerUUID3 run data get entity @a[limit=1] UUID[3]
 
 tag @a add NotBound

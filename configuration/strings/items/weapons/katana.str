@@ -34,7 +34,7 @@ BaseKatanaNameText Katana
 BaseKatanaName <#ItemName$BaseKatanaNameText$KatanaNameColour#>
 BaseKatanaStats <#WeaponStats$BaseKatana#>
 BaseKatanaStats <#LoreLine$<#Cleave#> I#>
-BaseKatanaTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseKatanaDamage 1 -#>,Operation:0,UUIDLeast:55742,UUIDMost:8745588,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BaseKatanaHoldingID#>
+BaseKatanaTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseKatanaDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BaseKatanaHoldingID#>
 
 BaseKatanaDataTag display:{Name:"<#BaseKatanaName#>",Lore:[<#KatanaDescription#>,<#BaseKatanaStats#>]},<#BaseKatanaTags#>
 BaseKatana <#Item$BaseKatanaItemID$BaseKatanaDataTag#>
@@ -45,7 +45,7 @@ SharpenedKatanaName <#ItemName$SharpenedKatanaNameText$KatanaNameColour#>
 SharpenedKatanaStats <#WeaponStats$SharpenedKatana#>
 SharpenedKatanaStats <#LoreLine$<#Cleave#> I#>
 SharpenedKatanaStats <#LoreLine$-50% <#KnockbackResistance#>#>
-SharpenedKatanaTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!SharpenedKatanaDamage 1 -#>,Operation:0,UUIDLeast:55742,UUIDMost:8745588,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Operation:0,Amount:-0.5,UUIDLeast:569397,UUIDMost:3506790,Slot:"mainhand"}],HideFlags:6,HoldingID:<#SharpenedKatanaHoldingID#>
+SharpenedKatanaTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!SharpenedKatanaDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Operation:0,Amount:-0.5,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#SharpenedKatanaHoldingID#>
 
 SharpenedKatanaDataTag display:{Name:"<#SharpenedKatanaName#>",Lore:[<#KatanaDescription#>,<#SharpenedKatanaStats#>]},<#SharpenedKatanaTags#>
 SharpenedKatana <#Item$SharpenedKatanaItemID$SharpenedKatanaDataTag#>
@@ -56,7 +56,7 @@ SwiftKatanaName <#ItemName$SwiftKatanaNameText$KatanaNameColour#>
 SwiftKatanaStats <#WeaponStats$SwiftKatana#>
 SwiftKatanaStats <#LoreLine$<#Cleave#> I#>
 SwiftKatanaStats <#LoreLine$+10% <#MovementSpeed#>#>
-SwiftKatanaTags	 Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!SwiftKatanaDamage 1 -#>,Operation:0,UUIDLeast:55742,UUIDMost:8745588,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Operation:1,Amount:0.1,UUIDLeast:367,UUIDMost:400672,Slot:"mainhand"}],HideFlags:6,HoldingID:<#SwiftKatanaHoldingID#>
+SwiftKatanaTags	 Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!SwiftKatanaDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Operation:1,Amount:0.1,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#SwiftKatanaHoldingID#>
 
 SwiftKatanaDataTag display:{Name:"<#SwiftKatanaName#>",Lore:[<#KatanaDescription#>,<#SwiftKatanaStats#>]},<#SwiftKatanaTags#>
 SwiftKatana <#Item$SwiftKatanaItemID$SwiftKatanaDataTag#>

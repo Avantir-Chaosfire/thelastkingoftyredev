@@ -1,2 +1,0 @@
-execute if entity @a[x=378.5,y=40,z=537.5,distance=..12] run function tlkot:6ep0sa7h_1uiz3c-t9-uzrm0tggp9xqfjujapz6b
-execute if entity @a[x=378.5,y=40,z=537.5,distance=13..] run function tlkot:ifpo42wmsg1u9ve9khnm4n2i-csoyoi86kac9q3o

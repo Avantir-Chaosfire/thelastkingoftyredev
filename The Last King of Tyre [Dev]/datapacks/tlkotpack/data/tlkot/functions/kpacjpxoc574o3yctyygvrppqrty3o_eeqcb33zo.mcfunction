@@ -1,0 +1,10 @@
+attribute @s[scores={gP5I-SHVLLMk8UpQ=1}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.15 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=2}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.3 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=3}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=4}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=5}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=6}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=7}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=8}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=9}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base
+attribute @s[scores={gP5I-SHVLLMk8UpQ=10..}] generic.movement_speed modifier add 631eaada-87dd-4eed-9b1f-0b62d2bbe5a0 Blitz 0.45 multiply_base

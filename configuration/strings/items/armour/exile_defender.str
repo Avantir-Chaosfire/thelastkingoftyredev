@@ -33,7 +33,7 @@ ExileDefenderHeadStats <#LoreLine$<#Armour#>: 1#>
 ExileDefenderHeadStats <#LoreLine$<#Weight#>: 0.5#>
 ExileDefenderHeadStats <#LoreLine$-<#Percent$<#!ExileDefenderHeadStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
 ExileDefenderHeadDisplayTags color:6192150
-ExileDefenderHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1365104443,UUIDMost:1619437511,Slot:"head"}],Unbreakable:1b,HideFlags:6
+ExileDefenderHeadTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:70
 
 ExileDefenderHeadDataTag display:{Name:"<#ExileDefenderHeadName#>",Lore:[<#ExileDefenderHeadDescription#>,<#ExileDefenderHeadStats#>],<#ExileDefenderHeadDisplayTags#>},<#ExileDefenderHeadTags#>
 ExileDefenderHead <#Item$ExileDefenderHeadItemID$ExileDefenderHeadDataTag#>
@@ -47,7 +47,7 @@ ExileDefenderChestStats <#LoreLine$<#Armour#>: 3#>
 ExileDefenderChestStats <#LoreLine$<#Weight#>: 1.5#>
 ExileDefenderChestStats <#LoreLine$-<#Percent$<#!ExileDefenderChestStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
 ExileDefenderChestDisplayTags color:6192150
-ExileDefenderChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:331128630,UUIDMost:242880359,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+ExileDefenderChestTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:70,Damage:0
 
 ExileDefenderChestDataTag display:{Name:"<#ExileDefenderChestName#>",Lore:[<#ExileDefenderChestDescription#>,<#ExileDefenderChestStats#>],<#ExileDefenderChestDisplayTags#>},<#ExileDefenderChestTags#>
 ExileDefenderChest <#Item$ExileDefenderChestItemID$ExileDefenderChestDataTag#>
@@ -61,7 +61,7 @@ ExileDefenderLegsStats <#LoreLine$<#Armour#>: 2#>
 ExileDefenderLegsStats <#LoreLine$<#Weight#>: 1.0#>
 ExileDefenderLegsStats <#LoreLine$-<#Percent$<#!ExileDefenderLegsStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
 ExileDefenderLegsDisplayTags color:6192150
-ExileDefenderLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,UUIDLeast:-1306872123,UUIDMost:443413613,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+ExileDefenderLegsTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:2,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:70
 
 ExileDefenderLegsDataTag display:{Name:"<#ExileDefenderLegsName#>",Lore:[<#ExileDefenderLegsDescription#>,<#ExileDefenderLegsStats#>],<#ExileDefenderLegsDisplayTags#>},<#ExileDefenderLegsTags#>
 ExileDefenderLegs <#Item$ExileDefenderLegsItemID$ExileDefenderLegsDataTag#>
@@ -75,7 +75,7 @@ ExileDefenderFeetStats <#LoreLine$<#Armour#>: 1#>
 ExileDefenderFeetStats <#LoreLine$<#Weight#>: 0.5#>
 ExileDefenderFeetStats <#LoreLine$-<#Percent$<#!ExileDefenderFeetStaminaRegenerationDelayFloat 100 *#>#> <#WeaponStaminaRegenerationDelay#>#>
 ExileDefenderFeetDisplayTags color:6192150
-ExileDefenderFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-123034357,UUIDMost:511104637,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+ExileDefenderFeetTags AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:70
 
 ExileDefenderFeetDataTag display:{Name:"<#ExileDefenderFeetName#>",Lore:[<#ExileDefenderFeetDescription#>,<#ExileDefenderFeetStats#>],<#ExileDefenderFeetDisplayTags#>},<#ExileDefenderFeetTags#>
 ExileDefenderFeet <#Item$ExileDefenderFeetItemID$ExileDefenderFeetDataTag#>

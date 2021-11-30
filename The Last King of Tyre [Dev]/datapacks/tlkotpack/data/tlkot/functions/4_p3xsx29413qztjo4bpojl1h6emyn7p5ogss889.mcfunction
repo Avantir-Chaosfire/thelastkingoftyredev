@@ -1,0 +1,1 @@
+kill @e[type=shulker,tag=!r00T4W18wL3DoYJ2eBfucW0Et+2aLrzxaxkEIv-b]

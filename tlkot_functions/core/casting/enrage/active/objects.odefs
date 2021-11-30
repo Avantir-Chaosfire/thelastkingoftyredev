@@ -1,5 +1,4 @@
 1	$ 1	$ effect give @s minecraft:speed 1 0 true
-2	$ 2	$
 3	$ 3	$ effect give @s minecraft:slowness 1 0 true
 4	$ 4	$ effect give @s minecraft:slowness 1 1 true
 5	$ 5	$ effect give @s minecraft:slowness 1 2 true

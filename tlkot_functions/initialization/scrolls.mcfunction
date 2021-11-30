@@ -11,6 +11,9 @@ scoreboard players set @a EnrageDuration -1
 
 scoreboard players set @a BlitzTime <#BlitzWill0Time#>
 scoreboard players set @a BlitzCount 0
+scoreboard players set @a BlitzMaxStamMod 0
+scoreboard players set @a BlitzDuration 0
+scoreboard players set @a BlitzSprint 0
 
 scoreboard players set @a AeroTime <#AerokinesisWill0Time#>
 scoreboard players set @a AeroCounter 20
@@ -51,7 +54,15 @@ scoreboard players set @a SwarmTime <#FireSwarmWill0Time#>
 scoreboard players set @a DeathPactTime <#DeathPactWill0Time#>
 scoreboard players set @a DeathPactCounter 20
 scoreboard players set @a DeathPactKills 0
+scoreboard players set @a DeathPactStrDur 0
 
 scoreboard players set @a SpacialTime <#SpacialLapseWill0Time#>
 
 scoreboard players set @a DarkCallTime <#CallThroughTheDarkWill0Time#>
+
+scoreboard players set @a PhantomBTime <#PhantomBladeWill0Time#>
+scoreboard players set @a NextConjuration <#PhantomTantoHoldingID#>
+
+scoreboard players set @a OvercharTime <#OverchargeWill0Time#>
+scoreboard players set @a OverchargeStr 0
+scoreboard players set @a OverchargeDur 0

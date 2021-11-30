@@ -1,0 +1,1 @@
+execute if entity @s[scores={OverchargeDur=1..}] run function tlkot:<~>/active

@@ -20,7 +20,7 @@ SpiritBoomerangDescription <#StatsLine#>
 SpiritBoomerangStats <#LoreLine$Damage: 20 (Max)#>
 SpiritBoomerangStats <#LoreLine$-20% Damage on Boomerang Hit#>
 SpiritBoomerangStats <#LoreLine$+20% Damage on Kill#>
-SpiritBoomerangTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:48003675,UUIDMost:-754049,Slot:"mainhand"}],HideFlags:6,Damage:3,HoldingID:<#SpiritBoomerangHoldingID#>,CustomModelData:3
+SpiritBoomerangTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}],HideFlags:6,Damage:3,HoldingID:<#SpiritBoomerangHoldingID#>,CustomModelData:3
 
 SpiritBoomerangDataTag display:{Name:"<#SpiritBoomerangName#>",Lore:[<#SpiritBoomerangDescription#>,<#SpiritBoomerangStats#>]},<#SpiritBoomerangTags#>
 SpiritBoomerang <#Item$SpiritBoomerangItemID$SpiritBoomerangDataTag#>

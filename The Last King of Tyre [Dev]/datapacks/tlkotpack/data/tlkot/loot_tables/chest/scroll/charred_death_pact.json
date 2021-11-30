@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Charred Death Pact Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Burnt; Unusable.\",\"color\":\"gray\"}']},HoldingID:93}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Charred Death Pact Scroll\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Burnt; Unusable.\",\"color\":\"gray\"}']},HoldingID:100}"
 						}
 					]
 				}

@@ -26,3 +26,5 @@ effect give @a minecraft:instant_health 1
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
 
 tag @a[scores={Track=1..}] add StopMusic
+
+advancement grant @a only tlkot:achievements/the_prophet_of_ixinik

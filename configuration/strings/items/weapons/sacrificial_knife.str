@@ -33,7 +33,7 @@ SacrificialKnifeStats <#LoreLine$    +3 <#Damage#> (<#Time$10#>)#>
 SacrificialKnifeStats <#LoreLine$    +4 <#Absorption#> (<#Time$10#>)#>
 SacrificialKnifeStats <#LoreLine$    Greater Item Discovery (<#Time$30#>)#>
 
-SacrificialKnifeTags AttributeModifiers:[{Name:"generic.attackDamage",AttributeName:"generic.attackDamage",Operation:0,Amount:<#!SacrificialKnifeDamage 1 -#>,UUIDLeast:2147712,UUIDMost:8874125,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:4389857,UUIDMost:4788560,Slot:"mainhand"}],HideFlags:6,Unbreakable:1b,HoldingID:<#SacrificialKnifeHoldingID#>
+SacrificialKnifeTags AttributeModifiers:[{Name:"generic.attack_damage",AttributeName:"generic.attack_damage",Operation:0,Amount:<#!SacrificialKnifeDamage 1 -#>,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,Unbreakable:1b,HoldingID:<#SacrificialKnifeHoldingID#>
 
 SacrificialKnifeDataTag display:{Name:"<#SacrificialKnifeName#>",Lore:[<#SacrificialKnifeDescription#>,<#SacrificialKnifeStats#>]},<#SacrificialKnifeTags#>
 SacrificialKnife <#Item$SacrificialKnifeItemID$SacrificialKnifeDataTag#>

@@ -63,3 +63,4 @@ execute if entity @s[tag=AI.Regeneration] run function tlkot:<~>/regeneration
 execute if entity @s[tag=AI.FacePlayer] run function tlkot:<~>/face_player
 execute if entity @s[tag=AI.TimedLife] run function tlkot:<~>/timed_life
 execute if entity @s[tag=AI.InstantHealthWither] run function tlkot:<~>/instant_health_wither
+execute if entity @s[tag=AI.NobleRiler] run function tlkot:<~>/noble_riler

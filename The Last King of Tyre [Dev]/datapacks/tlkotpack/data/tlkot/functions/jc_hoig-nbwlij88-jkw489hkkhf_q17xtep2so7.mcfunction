@@ -1,1 +1,1 @@
-execute if entity @a[scores={H1qid1s1K.n6EXX8=1}] run summon minecraft:arrow -318.8 208.4 349 {life:1160s,Color:0,pickup:0b,Motion:[0.5d,0.0d,0.0d]}
+execute if entity @a[scores={H1qid1s1K.n6EXX8=1}] run summon minecraft:arrow -318.8 208.4 349 {life:1160s,pickup:0b,Motion:[0.5d,0.0d,0.0d]}

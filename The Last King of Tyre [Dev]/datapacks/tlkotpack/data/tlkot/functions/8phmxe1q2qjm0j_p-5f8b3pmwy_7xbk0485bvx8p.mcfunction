@@ -6,8 +6,11 @@ scoreboard players set @a tgAgfbR9X+tpAt2l -1
 scoreboard players set @a 8WG6l7xUM2qLETLh 40
 scoreboard players set @a j_CRJH+7y0jd8dKM 0
 scoreboard players set @a hpe70m3fPrVuw4cS -1
-scoreboard players set @a xGmki3.eMTVpN8Qv 2
+scoreboard players set @a xGmki3.eMTVpN8Qv 23
 scoreboard players set @a gP5I-SHVLLMk8UpQ 0
+scoreboard players set @a mQmpqJE3L3e04GKV 0
+scoreboard players set @a FUGqtE_K7L-D5Tvz 0
+scoreboard players set @a Npc3UrytO3_COKCH 0
 scoreboard players set @a WmWpGWk4ytU6Tpp3 20
 scoreboard players set @a rL7g64MDn0hexjAB 20
 scoreboard players set @a eNF-_jkvef2iWyoe 20
@@ -15,7 +18,7 @@ scoreboard players set @a iS10M6GhY4b711rg -1
 scoreboard players set @a nxvsoUOlRoc+8QzP 40
 scoreboard players set @a 4SOWLfg+1Vi9McFf 4
 scoreboard players set @a SAdqAytfQGZK-0lR 28
-scoreboard players set @a DFEwbH8lwoZnDv5U 41
+scoreboard players set @a DFEwbH8lwoZnDv5U 17
 scoreboard players set @a uVxvqa1heInT9476 20
 scoreboard players set @s 7ZQCN5ejQnhyi5k3 0
 scoreboard players set @s thAClbPxfw4PY4Pv 0
@@ -37,5 +40,11 @@ scoreboard players set @a jx-QDTut0ImlbCj2 60
 scoreboard players set @a 2SjdhdwoKAoZNCGD 50
 scoreboard players set @a TJiQ-IXLkzwmG+Kc 20
 scoreboard players set @a V0AlsLB.TP5Yn0LW 0
+scoreboard players set @a qUMkcARbHVYr8P3t 0
 scoreboard players set @a TiX_arBEjB3wjyO- 10
 scoreboard players set @a 35OcA9ItS421vswb 100
+scoreboard players set @a 9sVsp1P6GCHhFeuj 3
+scoreboard players set @a Q1TinB7XGCJzEAGO 50
+scoreboard players set @a 1hjmry3pNHN4I.Dd 27
+scoreboard players set @a TXLlk+0yDSG+5bh1 0
+scoreboard players set @a B8DyRYQ9i7GOAcKU 0

@@ -5,5 +5,5 @@ execute if entity @a[scores={SGreatsword=1..}] run function tlkot:core/weapon/gr
 
 tag @a[level=<#BaseGreatswordMinimumStaminaCost#>..] add AbleToAttack
 
-execute if entity @a[tag=OneHanding,tag=TwoHanded] run replaceitem entity @a weapon.mainhand <#Base1HGreatsword#>
-execute if entity @a[tag=!OneHanding,tag=OneHanded] run replaceitem entity @a weapon.mainhand <#Base2HGreatsword#>
+execute if entity @a[tag=OneHanding,tag=TwoHanded] run item replace entity @a weapon.mainhand with <#Base1HGreatsword#>
+execute if entity @a[tag=!OneHanding,tag=OneHanded] run item replace entity @a weapon.mainhand with <#Base2HGreatsword#>

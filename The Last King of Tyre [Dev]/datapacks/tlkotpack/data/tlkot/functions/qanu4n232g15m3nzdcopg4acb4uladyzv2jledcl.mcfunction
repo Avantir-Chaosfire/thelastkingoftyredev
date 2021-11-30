@@ -1,0 +1,1 @@
+scoreboard players set @s FUGqtE_K7L-D5Tvz 1620

@@ -118,7 +118,6 @@ execute if entity @a[tag=nn0anDAGUYvRV0ng29WLM7Oj9B0-_4edENhFf8UD] run function 
 execute if entity @a[tag=o547Fx6YFZEccJ6TDLXuj8S7rhrZoM9C4LD6jxAV] run function tlkot:7tjzgtj9t0a2361h8m165b0aad7u-swykunhyoze
 execute if entity @a[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Vanishing Key\",\"color\":\"white\",\"italic\":false}"}}}]}] run function tlkot:jgrjwccer7e5kjft39c-ufl183m1a_r-ufgslfko
 execute if entity @a[scores={UZGXspwtP8I6JiOT=1..}] run function tlkot:9lonwtg0xntr7a3p5dzfpcf1ou2cj0m_ylnhrqf4
-tag @a add EoRPpD82P28bqBGWbg_9.XkpigaIC.DHdV3cP7nF
 scoreboard players set @a G-9FYrnBa_jbx5cO 0
 execute if entity @a[scores={d1kDePtoGaW6oZQ_=1..}] run function tlkot:mm6j_d5dxji8ilgnejkwai29n_jokjpa5snvj1p0
 execute if entity @a[scores={d1kDePtoGaW6oZQ_=0}] run function tlkot:03sjrxj2hxymcz_fi-xn2gb3njkr26_0s5vh14_u

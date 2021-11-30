@@ -39,8 +39,18 @@ scoreboard players set @a K0oC-Ir9RA4AWbZX 0
 scoreboard players set @a 83WB9D6gWIstJQEX 3
 scoreboard players set @a neM5wYBj4ZJFT8vB 0
 scoreboard players set @a ABdVGWYtK4dlKJTw 0
+scoreboard players set @a Rt.-qQvNXG4u.fbk 0
+scoreboard players set @a LfKVXzwWTmKb3CoG 0
 scoreboard players set @a dCdcPvj8cI6y903O 0
 scoreboard players set @a ZVTr_WjCuOvpZr_5 0
 scoreboard players set @a kdJ-OTtT6Ksybb-3 0
 scoreboard players set @a gxTa_jXlr1KdjwHU 0
+scoreboard players set @a 1LIqGSzQ_BtpjODT 0
+scoreboard players set @a PQaPCmmp7-98iApo 0
+scoreboard players set @a q4_V9wFqn9U5rdsX 0
+scoreboard players set @a knufBKBGezXjAf9+ 0
+execute store result score @a hrVsLAhl.zzJWHeh run data get entity @a[limit=1] UUID[0]
+execute store result score @a cqXmkZWEdfok_LA9 run data get entity @a[limit=1] UUID[1]
+execute store result score @a NmB6aD.FIqTdJCYB run data get entity @a[limit=1] UUID[2]
+execute store result score @a v9qbmipNTEvzYT2B run data get entity @a[limit=1] UUID[3]
 tag @a add zf_9h4xLy+aEHRg6Vt2zHhYHUiLW3MHiXHOZNxqb

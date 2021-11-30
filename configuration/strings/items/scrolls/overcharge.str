@@ -1,0 +1,53 @@
+#include item_template
+#include item_holding_ids
+#include stats
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+OverchargeScrollItemID fishing_rod
+OverchargeScrollNameText Overcharge Scroll, Class 3
+OverchargeScrollNameColour dark_aqua
+OverchargeScrollName <#ItemName$OverchargeScrollNameText$OverchargeScrollNameColour#>
+OverchargeScrollDescription <#LoreLine$Casting is all about the repurposing#>
+OverchargeScrollDescription <#LoreLine$of energy. Even the strongest#>
+OverchargeScrollDescription <#LoreLine$forces of nature can be subjugated,#>
+OverchargeScrollDescription <#LoreLine$if one has but prepared in advance...#>
+OverchargeScrollDescription <#LoreLine$At least, that\'s how some fools think.#>
+OverchargeScrollDescription <#StatsLine#>
+OverchargeScrollStats <#LoreLine$When Struck by Lightning:#>
+OverchargeScrollStats <#LoreLine$  +6 <#Damage#>#>
+OverchargeScrollStats <#LoreLine$  +10 Stamina#>
+OverchargeScrollStats <#LoreLine$  Instantly Cast Held Scroll for 0 Stamina#>
+OverchargeScrollStats <#LoreLine$<#Duration#>: <#Time$60#>#>
+
+OverchargeScrollDataTag display:{Name:"<#OverchargeScrollName#>",Lore:[<#OverchargeScrollDescription#>,<#OverchargeScrollStats#>]},HoldingID:<#OverchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:39,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
+OverchargeScroll <#Item$OverchargeScrollItemID$OverchargeScrollDataTag#>
+
+OverchargeScrollActiveNameText <#OverchargeScrollNameText#> (Active)
+OverchargeScrollActiveName <#ItemName$OverchargeScrollActiveNameText$OverchargeScrollNameColour#>
+
+OverchargeScrollActiveDataTag display:{Name:"<#OverchargeScrollActiveName#>",Lore:[<#OverchargeScrollDescription#>,<#OverchargeScrollStats#>]},HoldingID:<#OverchargeScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:40,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
+OverchargeScrollActive <#Item$OverchargeScrollItemID$OverchargeScrollActiveDataTag#>
+
+OverchargeWill0Cost 20
+OverchargeWill1Cost 17
+OverchargeWill2Cost 14
+OverchargeWill3Cost 11
+OverchargeWill4Cost 8
+OverchargeWill5Cost 5
+
+OverchargeWill0Time 27
+OverchargeWill1Time 22
+OverchargeWill2Time 17
+OverchargeWill3Time 12
+OverchargeWill4Time 7
+OverchargeWill5Time 2
+
+OverchargeWill0TimeIncrease 25
+OverchargeWill1TimeIncrease 22
+OverchargeWill2TimeIncrease 19
+OverchargeWill3TimeIncrease 16
+OverchargeWill4TimeIncrease 13
+OverchargeWill5TimeIncrease 10

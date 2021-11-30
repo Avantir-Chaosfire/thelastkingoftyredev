@@ -14,7 +14,7 @@
 		"frame": "challenge",
 		"hidden": true
 	},
-	"parent": "tlkot:achievements/root",
+	"parent": "tlkot:achievements/the_prophet_of_ixinik",
 	"criteria":
 	{
 		"a_different_perspective":

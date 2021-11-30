@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Burning Salt\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Mineral regularly used by the\",\"color\":\"gray\"}','{\"text\":\"hunters in the Undead Crusades,\",\"color\":\"gray\"}','{\"text\":\"despite its rarity, to start fires\",\"color\":\"gray\"}','{\"text\":\"and light undead ablaze. Burning\",\"color\":\"gray\"}','{\"text\":\"undead are more susceptible to\",\"color\":\"gray\"}','{\"text\":\"injury as the fire inhibits their\",\"color\":\"gray\"}','{\"text\":\"flesh\\'s toughness.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Lights Foes Ablaze\",\"color\":\"gray\"}']},Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3}],HideFlags:1,HoldingID:74}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Burning Salt\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Mineral regularly used by the\",\"color\":\"gray\"}','{\"text\":\"hunters in the Undead Crusades,\",\"color\":\"gray\"}','{\"text\":\"despite its rarity, to start fires\",\"color\":\"gray\"}','{\"text\":\"and light undead ablaze. Burning\",\"color\":\"gray\"}','{\"text\":\"undead are more susceptible to\",\"color\":\"gray\"}','{\"text\":\"injury as the fire inhibits their\",\"color\":\"gray\"}','{\"text\":\"flesh\\'s toughness.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Lights Foes Ablaze\",\"color\":\"gray\"}']},Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3}],HideFlags:1,HoldingID:81}"
 						}
 					]
 				}

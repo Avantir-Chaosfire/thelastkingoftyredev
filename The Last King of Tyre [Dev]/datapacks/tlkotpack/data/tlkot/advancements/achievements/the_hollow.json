@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:player_head", "nbt": "{SkullOwner:\"tnt\",CanPlaceOn:[\"minecraft:bedrock\"],HideFlags:16}"}, "title": {"text": "The Sacrifice for Redemption"}, "description": "Defeat the Hanging Pole", "frame": "goal"}, "parent": "tlkot:achievements/root", "criteria": {"the_hollow": {"trigger": "minecraft:impossible"}}}

@@ -1,6 +1,6 @@
 particle minecraft:smoke ~ ~1 ~ 0.23 1 0.23 0 2
 particle minecraft:witch ~ ~1 ~ 0.23 1 0.23 0 1
-execute if block ~ ~-0.25 ~ minecraft:air run particle minecraft:witch ~ ~ ~ 0.25 0.05 0.25 0 5
+execute if entity @a[distance=..32] if block ~ ~-0.25 ~ minecraft:air run particle minecraft:witch ~ ~ ~ 0.25 0.05 0.25 0 5
 
 function tlkot:<~>/chemical_leak/main
 

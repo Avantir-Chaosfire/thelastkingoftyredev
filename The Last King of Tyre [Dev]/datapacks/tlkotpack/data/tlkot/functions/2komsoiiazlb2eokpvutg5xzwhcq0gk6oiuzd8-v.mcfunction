@@ -60,3 +60,4 @@ execute if entity @s[tag=3280sR9wFYUBXveklwGBMWSZeVNhWp5aXCBp+VvL] run function 
 execute if entity @s[tag=0--4bw4PAT_jHhJ2d6SVq.dKlbI2LULT9MOeSSPt] run function tlkot:eufzwh706_g46dxqyylx1wx_pfnl21hm7z_at0dy
 execute if entity @s[tag=5qYpXqtJmEXGB9MY0tg0__OixOuDsNPID7Pvec6r] run function tlkot:3_kjrpkefnkn53jmmv575i10g9nt8fg8zjbup2qq
 execute if entity @s[tag=di1.9V2HiJ1Qsh-M.JE4+wwo4Zll-4mGi5l+x.yQ] run function tlkot:bm6hzj0r6qdgxic58gmtbo_ddftusto9pnjay3l5
+execute if entity @s[tag=EfRj+a7pni4y9MOgp1GYu3x9yxxna4t0L34_25Qt] run function tlkot:h-mswutxurg1v15v-j9dmnv2r0g_-tnhsihg6y_2

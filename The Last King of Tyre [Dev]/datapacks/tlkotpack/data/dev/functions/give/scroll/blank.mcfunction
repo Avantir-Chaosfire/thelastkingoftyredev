@@ -1,1 +1,1 @@
-give @s minecraft:paper{display:{Name:"{\"text\":\"Blank Scroll\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"A blank scroll, prepped and ready","color":"gray"}','{"text":"to be imprinted upon.","color":"gray"}']},HoldingID:92}
+give @s minecraft:paper{display:{Name:"{\"text\":\"Blank Scroll\",\"color\":\"white\",\"italic\":false}",Lore:['{"text":"A blank scroll, prepped and ready","color":"gray"}','{"text":"to be imprinted upon.","color":"gray"}']},HoldingID:99}

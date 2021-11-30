@@ -2,4 +2,4 @@ summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Invisible:1b,Invulner
 execute as @e[tag=ICbVkwR9YCicueayT7vnXxpLYvaNK06fKqAtVFJX,tag=!XWfy_ZFRRdP23CtEpTgH.6L8F.U6l9fZi0S1DuJz] run function tlkot:p0wd-79gifgr91uw52jeqjc1mqjypky7wnb2pdu1
 particle minecraft:smoke ~ ~1.62 ~ 1 1 1 0 50
 particle minecraft:witch ~ ~1.62 ~ 1 1 1 0 50
-playsound minecraft:entity.zombie_pigman.angry hostile @a ~ ~ ~ 1 1.1
+playsound minecraft:entity.zombified_piglin.angry hostile @a ~ ~ ~ 1 1.1

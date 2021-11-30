@@ -1,0 +1,2 @@
+execute if block 385 58 269 minecraft:lever[powered=true] run scoreboard players set @a[scores={2-wbZdQCr-hyVYHi=0}] 2-wbZdQCr-hyVYHi 1
+execute if block 385 58 269 minecraft:lever[powered=false] run scoreboard players set @a[scores={2-wbZdQCr-hyVYHi=1}] 2-wbZdQCr-hyVYHi 0

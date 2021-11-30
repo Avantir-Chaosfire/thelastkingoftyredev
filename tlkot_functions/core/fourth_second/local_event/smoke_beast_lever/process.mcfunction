@@ -1,2 +1,4 @@
-execute if entity @s[tag=!Powered] if block ~ ~ ~ minecraft:lever[powered=true] run function tlkot:<~>/trigger
-execute if block ~ ~ ~ minecraft:lever[powered=false] run tag @s remove Powered
+tag @a[tag=Resetting] add CheckSwitched
+tag @a[distance=..12] add CheckSwitched
+execute if entity @a[tag=CheckSwitched] run function tlkot:<~>/set_state
+tag @a remove CheckSwitched

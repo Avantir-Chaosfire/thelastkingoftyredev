@@ -23,7 +23,7 @@ AssassinHeadStats <#LoreLine$<#Weight#>: 0.5#>
 AssassinHeadStats <#LoreLine$+8% <#Damage#>#>
 AssassinHeadStats <#LoreLine$-2 <#MaximumHealth#>#>
 AssassinHeadDisplayTags color:0
-AssassinHeadTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.08,Operation:1,UUIDLeast:-340207237,UUIDMost:935733278,Slot:"head"},{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:-2,Operation:0,UUIDLeast:-2041272261,UUIDMost:933146777,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:356814860,UUIDMost:149224267,Slot:"head"}],Unbreakable:1b,HideFlags:6
+AssassinHeadTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.08,Operation:1,<UUID>,Slot:"head"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-2,Operation:0,<UUID>,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"head"}],Unbreakable:1b,HideFlags:70
 
 AssassinHeadDataTag display:{Name:"<#AssassinHeadName#>",Lore:[<#AssassinHeadDescription#>,<#AssassinHeadStats#>],<#AssassinHeadDisplayTags#>},<#AssassinHeadTags#>
 AssassinHead <#Item$AssassinHeadItemID$AssassinHeadDataTag#>
@@ -38,7 +38,7 @@ AssassinChestStats <#LoreLine$<#Weight#>: 0.5#>
 AssassinChestStats <#LoreLine$+12% <#Damage#>#>
 AssassinChestStats <#LoreLine$-3 <#MaximumHealth#>#>
 AssassinChestDisplayTags color:0
-AssassinChestTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.12,Operation:1,UUIDLeast:-1032802593,UUIDMost:-2092242863,Slot:"chest"},{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:-3,Operation:0,UUIDLeast:-423403610,UUIDMost:2093675438,Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-2140082666,UUIDMost:-1153963594,Slot:"chest"}],Unbreakable:1b,HideFlags:6,Damage:0
+AssassinChestTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.12,Operation:1,<UUID>,Slot:"chest"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-3,Operation:0,<UUID>,Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"chest"}],Unbreakable:1b,HideFlags:70,Damage:0
 
 AssassinChestDataTag display:{Name:"<#AssassinChestName#>",Lore:[<#AssassinChestDescription#>,<#AssassinChestStats#>],<#AssassinChestDisplayTags#>},<#AssassinChestTags#>
 AssassinChest <#Item$AssassinChestItemID$AssassinChestDataTag#>
@@ -53,7 +53,7 @@ AssassinLegsStats <#LoreLine$<#Weight#>: 0.5#>
 AssassinLegsStats <#LoreLine$+8% <#Damage#>#>
 AssassinLegsStats <#LoreLine$-2 <#MaximumHealth#>#>
 AssassinLegsDisplayTags color:0
-AssassinLegsTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.08,Operation:1,UUIDLeast:-927775942,UUIDMost:-109968499,Slot:"legs"},{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:-2,Operation:0,UUIDLeast:-903398876,UUIDMost:1500113217,Slot:"legs"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:1200263930,UUIDMost:-2139422572,Slot:"legs"}],Unbreakable:1b,HideFlags:6
+AssassinLegsTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.08,Operation:1,<UUID>,Slot:"legs"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-2,Operation:0,<UUID>,Slot:"legs"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"legs"}],Unbreakable:1b,HideFlags:70
 
 AssassinLegsDataTag display:{Name:"<#AssassinLegsName#>",Lore:[<#AssassinLegsDescription#>,<#AssassinLegsStats#>],<#AssassinLegsDisplayTags#>},<#AssassinLegsTags#>
 AssassinLegs <#Item$AssassinLegsItemID$AssassinLegsDataTag#>
@@ -68,7 +68,7 @@ AssassinFeetStats <#LoreLine$<#Weight#>: 0.5#>
 AssassinFeetStats <#LoreLine$+4% <#Damage#>#>
 AssassinFeetStats <#LoreLine$-1 <#MaximumHealth#>#>
 AssassinFeetDisplayTags color:0
-AssassinFeetTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.04,Operation:1,UUIDLeast:2128013790,UUIDMost:756178549,Slot:"feet"},{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:-1,Operation:0,UUIDLeast:1649991224,UUIDMost:-863915970,Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,UUIDLeast:-1540532953,UUIDMost:-1120348422,Slot:"feet"}],Unbreakable:1b,HideFlags:6
+AssassinFeetTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.04,Operation:1,<UUID>,Slot:"feet"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-1,Operation:0,<UUID>,Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:1,<UUID>,Slot:"feet"}],Unbreakable:1b,HideFlags:70
 
 AssassinFeetDataTag display:{Name:"<#AssassinFeetName#>",Lore:[<#AssassinFeetDescription#>,<#AssassinFeetStats#>],<#AssassinFeetDisplayTags#>},<#AssassinFeetTags#>
 AssassinFeet <#Item$AssassinFeetItemID$AssassinFeetDataTag#>

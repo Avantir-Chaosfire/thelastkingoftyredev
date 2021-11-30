@@ -1,1 +1,1 @@
-execute as @e[tag=KeyLock] at @s run function tlkot:<~>/check_for_key
+execute as @e[tag=KeyLock] at @s run function tlkot:<~>/process

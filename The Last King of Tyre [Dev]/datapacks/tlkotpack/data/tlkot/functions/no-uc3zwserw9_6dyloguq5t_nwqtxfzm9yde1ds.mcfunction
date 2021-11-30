@@ -1,0 +1,1 @@
+execute if block -16 255 224 #tlkot:all run function tlkot:7u1bqy2xwztw6h7cv074hfp4rfbbc28hiwa1ku_w

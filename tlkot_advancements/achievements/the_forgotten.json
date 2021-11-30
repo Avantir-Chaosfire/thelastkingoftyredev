@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#ForgottenHeadOfYearningItemID#>",
+			"nbt": "{<#ForgottenHeadOfYearningTags#>}"
+		},
+		"title":
+		{
+			"text": "The Sacrifice Fearing Time"
+		},
+		"description": "Defeat Fate's Puppeteer",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/root",
+	"criteria":
+	{
+		"the_forgotten":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

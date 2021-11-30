@@ -24,29 +24,30 @@ EnergyTapScrollDescription <#StatsLine#>
 EnergyTapScrollStats <#LoreLine$Use <#Health#> Instead of Stamina#>
 EnergyTapScrollStats <#LoreLine$<#Health#> Consumed at 1/3rd the#>
 EnergyTapScrollStats <#LoreLine$  Stamina Cost#>
+EnergyTapScrollStats <#LoreLine$+15% Damage#>
 
-EnergyTapScrollDataTag display:{Name:"<#EnergyTapScrollName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:14,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
+EnergyTapScrollDataTag display:{Name:"<#EnergyTapScrollName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:14,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 EnergyTapScroll <#Item$EnergyTapScrollItemID$EnergyTapScrollDataTag#>
 
 EnergyTapScrollActiveNameText <#EnergyTapScrollNameText#> (Active)
 EnergyTapScrollActiveName <#ItemName$EnergyTapScrollActiveNameText$EnergyTapScrollNameColour#>
 
-EnergyTapScrollActiveDataTag display:{Name:"<#EnergyTapScrollActiveName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:30,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468517,UUIDMost:-46785618,Slot:"mainhand"}]
+EnergyTapScrollActiveDataTag display:{Name:"<#EnergyTapScrollActiveName#>",Lore:[<#EnergyTapScrollDescription#>,<#EnergyTapScrollStats#>]},HoldingID:<#EnergyTapScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:30,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 EnergyTapScrollActive <#Item$EnergyTapScrollItemID$EnergyTapScrollActiveDataTag#>
 
-EnergyTapWill0Cost 13
-EnergyTapWill1Cost 10
-EnergyTapWill2Cost 8
-EnergyTapWill3Cost 5
-EnergyTapWill4Cost 3
+EnergyTapWill0Cost 8
+EnergyTapWill1Cost 6
+EnergyTapWill2Cost 5
+EnergyTapWill3Cost 3
+EnergyTapWill4Cost 2
 EnergyTapWill5Cost 0
 
-EnergyTapWill0Time 41
-EnergyTapWill1Time 41
-EnergyTapWill2Time 41
-EnergyTapWill3Time 41
-EnergyTapWill4Time 41
-EnergyTapWill5Time 41
+EnergyTapWill0Time 17
+EnergyTapWill1Time 17
+EnergyTapWill2Time 17
+EnergyTapWill3Time 17
+EnergyTapWill4Time 17
+EnergyTapWill5Time 17
 
 EnergyTapWill0TimeIncrease 0
 EnergyTapWill1TimeIncrease 0

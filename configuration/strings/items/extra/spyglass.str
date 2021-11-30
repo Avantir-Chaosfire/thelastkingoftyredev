@@ -1,0 +1,15 @@
+#include item_template
+
+#join compendium ‘ ‘
+#join functions ,
+#join loot_tables ,
+
+SpyglassItemID spyglass
+SpyglassNameText Spyglass
+SpyglassNameColour gold
+SpyglassName <#ItemName$SpyglassNameText$SpyglassNameColour#>
+SpyglassDescription <#LoreLine$A simple spyglass, to watch the world#>
+SpyglassDescription <#LoreLine$from afar.#>
+
+SpyglassDataTag display:{Name:"<#SpyglassName#>",Lore:[<#SpyglassDescription#>]}
+Spyglass <#Item$SpyglassItemID$SpyglassDataTag#>

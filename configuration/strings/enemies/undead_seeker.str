@@ -7,7 +7,7 @@ UndeadSeekerCustomName CustomName:"{\"text\":\"Undead Seeker\"}"
 
 UndeadSeekerHealth 35000
 
-UndeadSeekerBaseTags PersistenceRequired:1b,ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{id:"iron_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{}],Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:generic.attackDamage,Base:4},{Name:"generic.movementSpeed",Base:0.18},{Name:generic.followRange,Base:16},<#EliminateBaseZombieAttributes#>],Health:1000.0f,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Undead","AI.Seeker","AI.AgroClose","Enemy.Undead-Seeker","UsesHitScore"<1>],VillagerData:{level:1,type:"minecraft:jungle",profession:"minecraft:cleric"},<#UndeadSeekerCustomName#>
+UndeadSeekerBaseTags PersistenceRequired:1b,ArmorItems:[{id:"minecraft:bone",Count:1b,tag:{<#ShadeUndeadFeetModifiers#>,Enchantments:[{id:"minecraft:feather_falling",lvl:5},{id:"minecraft:projectile_protection",lvl:5}]}},{id:"iron_leggings",Count:1b,tag:{<#NoArmourModifier2#>}},{},{}],Attributes:[{Name:"generic.max_health",Base:1000},{Name:generic.attack_damage,Base:4},{Name:"generic.movement_speed",Base:0.18},{Name:generic.follow_range,Base:16},<#EliminateBaseZombieAttributes#>],Health:1000.0f,Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.Undead","AI.Seeker","AI.AgroClose","Enemy.Undead-Seeker","UsesHitScore"<1>],VillagerData:{level:1,type:"minecraft:jungle",profession:"minecraft:cleric"},<#UndeadSeekerCustomName#>
 
 UndeadSeekerTags <#UndeadSeekerBaseTags$#>
 

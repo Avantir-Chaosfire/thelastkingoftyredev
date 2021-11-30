@@ -1,0 +1,13 @@
+{
+	"criteria":
+	{
+		"killed_any":
+		{
+			"trigger": "minecraft:player_killed_entity"
+		}
+	},
+	"rewards":
+	{
+		"function": "tlkot:advancement_notification/kill/any"
+	}
+}

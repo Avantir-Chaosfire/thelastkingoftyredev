@@ -58,7 +58,7 @@ scoreboard players set @a GrowthID 1
 scoreboard players set @a GrowthIDPH 1
 scoreboard players set @a DefilingDamage 0
 scoreboard players set @a ExtraGrowth 0
-scoreboard players set @a P3Phase 1
+scoreboard players set @a P3Phase 0
 
 #Perjurer
 bossbar set tlkot:perjurer players @a

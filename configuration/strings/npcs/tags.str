@@ -1,4 +1,4 @@
-CommonNPCTags ‘Attributes:[{Base:1.0d,Name:"generic.knockbackResistance"},{Base:0.0d,Name:"generic.movementSpeed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:<1>",profession:"minecraft:<2>"}‘
+CommonNPCTags ‘Attributes:[{Base:1.0d,Name:"generic.knockback_resistance"},{Base:0.0d,Name:"generic.movement_speed"}],Invulnerable:1b,PersistenceRequired:1b,Silent:1b,CanPickUpLoot:0b,VillagerData:{level:1000,type:"minecraft:<1>",profession:"minecraft:<2>"}‘
 
 NPCSpecificTags "SetNPCVersion","NPC"
 

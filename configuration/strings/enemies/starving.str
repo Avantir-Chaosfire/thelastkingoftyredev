@@ -3,4 +3,4 @@
 
 StarvingHealth 22000
 
-StarvingTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:5},{Name:generic.movementSpeed,Base:0.4},{Name:generic.followRange,Base:32}],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:5000268},<#NoArmourModifier1#>}},{},{},{}],CustomName:"{\"text\":\"Starving Reaper\"}",Tags:["Enemy.Starving",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Starving","UsesHitScore"],Health:1000.0f‘
+StarvingTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:5},{Name:generic.movement_speed,Base:0.4},{Name:generic.follow_range,Base:32}],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:5000268},<#NoArmourModifier1#>}},{},{},{}],CustomName:"{\"text\":\"Starving Reaper\"}",Tags:["Enemy.Starving",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","AI.Starving","UsesHitScore"],Health:1000.0f‘

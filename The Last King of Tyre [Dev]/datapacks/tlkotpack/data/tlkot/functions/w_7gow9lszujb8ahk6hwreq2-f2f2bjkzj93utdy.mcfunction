@@ -3,6 +3,7 @@ scoreboard players operation @s pE1CjpEWr+n4YFEE *= @s PaH6acPqrmgD9nu0
 scoreboard players add @s pE1CjpEWr+n4YFEE 20
 scoreboard players operation @s pE1CjpEWr+n4YFEE += @s -aiBLtlR6rbRakkJ
 scoreboard players operation @s pE1CjpEWr+n4YFEE += @s GqnW+F-SV_8c-e9w
+scoreboard players operation @s pE1CjpEWr+n4YFEE += @s mQmpqJE3L3e04GKV
 execute as @e[tag=hm.SwAQC48pUYu3y-iTIY4_WWXC4gn0vAaeawxyk] run scoreboard players remove @a pE1CjpEWr+n4YFEE 3
 scoreboard players add @s[tag=yFeHBcDgnGEE0mfPekzN34SJYy7qWRR91fD3DBY3] pE1CjpEWr+n4YFEE 10
 scoreboard players set @s[scores={hLcgTCIrSukU3+iI=-1}] pE1CjpEWr+n4YFEE 3
@@ -35,7 +36,7 @@ scoreboard players operation @s f6EsVaz1LRBBgKlL = @s 8PLO5meIA75ktsxF
 scoreboard players set @s[scores={UT_CFyBdDLld32mf=1..,hLcgTCIrSukU3+iI=-1}] hLcgTCIrSukU3+iI 0
 scoreboard players remove @s[scores={n3hw-Z76w5-uJlNJ=1..}] n3hw-Z76w5-uJlNJ 1
 execute if entity @s[scores={8PLO5meIA75ktsxF=1..}] run function tlkot:x8tm9ehiefkxynifscgi-vu0hj_annigm7r7ap3p
-execute if entity @s[scores={.n+Ku4x4SlSH71q6=1..}] run function tlkot:k0xsb-ap7cpwd2bw2f2z6vv914cu9mh73w0j-brs
+execute if block ~ ~ ~ #tlkot:climbable run scoreboard players set @s[scores={.n+Ku4x4SlSH71q6=1..}] .n+Ku4x4SlSH71q6 0
 execute if entity @s[scores={.n+Ku4x4SlSH71q6=1..}] run function tlkot:yjd_wszapg2yhqp3zjcjxoaoezvu_tqm-6hjk5hi
 execute if entity @s[scores={XgQMvSImyi__5Xn8=300..}] run function tlkot:q5rmoyponnhm6ip_hujbx2_j4odk2zglltg92ww1
 function tlkot:5hitult23w7q633clcka5mgvd-ewte4w0fbzp2yh

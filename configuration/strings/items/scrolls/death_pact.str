@@ -27,15 +27,15 @@ DeathPactScrollDescription <#StatsLine#>
 DeathPactScrollStats <#LoreLine$Take Continuous Damage Until Death#>
 DeathPactScrollStats <#LoreLine$Halt Effect Upon Killing Foe#>
 DeathPactScrollStats <#LoreLine$Full Heal Upon Killing Foe#>
-DeathPactScrollStats <#LoreLine$Increased Damage Upon Killing Foe#>
+DeathPactScrollStats <#LoreLine$+3 Damage Upon Killing Foe#>
 
-DeathPactScrollDataTag display:{Name:"<#DeathPactScrollName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:12,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468520,UUIDMost:-46785621,Slot:"mainhand"}]
+DeathPactScrollDataTag display:{Name:"<#DeathPactScrollName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:12,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 DeathPactScroll <#Item$DeathPactScrollItemID$DeathPactScrollDataTag#>
 
 DeathPactScrollActiveNameText <#DeathPactScrollNameText#> (Active)
 DeathPactScrollActiveName <#ItemName$DeathPactScrollActiveNameText$DeathPactScrollNameColour#>
 
-DeathPactScrollActiveDataTag display:{Name:"<#DeathPactScrollActiveName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:28,AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1024,UUIDLeast:99468520,UUIDMost:-46785621,Slot:"mainhand"}]
+DeathPactScrollActiveDataTag display:{Name:"<#DeathPactScrollActiveName#>",Lore:[<#DeathPactScrollDescription#>,<#DeathPactScrollStats#>]},HoldingID:<#DeathPactScrollHoldingID#>,Unbreakable:1b,HideFlags:6,CustomModelData:28,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1024,<UUID>,Slot:"mainhand"}]
 DeathPactScrollActive <#Item$DeathPactScrollItemID$DeathPactScrollActiveDataTag#>
 
 DeathPactWill0Cost 4

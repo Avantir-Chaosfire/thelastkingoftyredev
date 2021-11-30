@@ -1,2 +1,2 @@
 execute if entity @a[scores={P3Victory=0}] run function tlkot:core/boss/hanging_pole/not_defeated
-execute if entity @a[scores={P3Victory=1..}] run function tlkot:core/boss/hanging_pole/clean_up/main
+execute if entity @a[scores={P3Victory=1..},x=362,y=2,z=48,distance=..48] run function tlkot:core/boss/hanging_pole/clean_up/main

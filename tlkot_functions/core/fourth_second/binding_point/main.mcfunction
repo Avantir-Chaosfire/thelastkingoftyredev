@@ -1,0 +1,1 @@
+#class execute if entity @a[tag=!<1>Bound] run function tlkot:<~>/<0>/main

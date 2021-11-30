@@ -1,2 +1,2 @@
 execute if entity @a[tag=!r-PD6MXbF0Sp-HSHdbXDdBaC8Fu4CANryUtNP7WM,tag=!XYcOn.nTGnL8Z_K4M-GTArKMcJMwDkRGxUBaz82I] run function tlkot:1-bp8jmtfxdfmrdamstglnab_5b2lk01np81c1sg
-execute if block 320 255 -16 minecraft:air if entity @a[tag=r-PD6MXbF0Sp-HSHdbXDdBaC8Fu4CANryUtNP7WM,tag=!XYcOn.nTGnL8Z_K4M-GTArKMcJMwDkRGxUBaz82I] run function tlkot:t4cklf1u5a95a0lp1skqx6bfxbvu7kfw7569hg0a
+execute if entity @a[tag=r-PD6MXbF0Sp-HSHdbXDdBaC8Fu4CANryUtNP7WM,tag=!XYcOn.nTGnL8Z_K4M-GTArKMcJMwDkRGxUBaz82I] if block 320 255 -16 minecraft:air run function tlkot:t4cklf1u5a95a0lp1skqx6bfxbvu7kfw7569hg0a

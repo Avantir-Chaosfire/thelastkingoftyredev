@@ -1,4 +1,5 @@
 tag @a remove HoldingScimitar
+tag @a add WasHoldingScimitar
 
 execute if entity @a[scores={SScimitar=1..}] run function tlkot:core/weapon/scimitar/used
 scoreboard players set @a RegenDelay <#ScimitarRegenDelay#>

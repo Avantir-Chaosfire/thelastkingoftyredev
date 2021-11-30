@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:<#FalseHeadOfYearningItemID#>",
+			"nbt": "{<#FalseHeadOfYearningTags#>}"
+		},
+		"title":
+		{
+			"text": "The Survivor Guarding the End"
+		},
+		"description": "Defeat Warden Ylsa and the False Reaper",
+		"frame": "goal"
+	},
+	"parent": "tlkot:achievements/the_vicious_knight",
+	"criteria":
+	{
+		"the_false":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

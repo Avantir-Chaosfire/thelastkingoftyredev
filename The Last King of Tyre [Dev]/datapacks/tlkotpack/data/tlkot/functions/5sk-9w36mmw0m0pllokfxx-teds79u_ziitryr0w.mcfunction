@@ -1,0 +1,21 @@
+effect give @a[scores={1LIqGSzQ_BtpjODT=1}] minecraft:strength 1000000 0 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=2}] minecraft:strength 1000000 1 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=3}] minecraft:strength 1000000 2 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=4}] minecraft:strength 1000000 3 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=5}] minecraft:strength 1000000 4 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=6}] minecraft:strength 1000000 5 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=7}] minecraft:strength 1000000 6 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=8}] minecraft:strength 1000000 7 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=9}] minecraft:strength 1000000 8 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=10}] minecraft:strength 1000000 9 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=11}] minecraft:strength 1000000 10 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=12}] minecraft:strength 1000000 11 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=13}] minecraft:strength 1000000 12 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=14}] minecraft:strength 1000000 13 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=15}] minecraft:strength 1000000 14 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=16}] minecraft:strength 1000000 15 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=17}] minecraft:strength 1000000 16 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=18}] minecraft:strength 1000000 17 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=19}] minecraft:strength 1000000 18 false
+effect give @a[scores={1LIqGSzQ_BtpjODT=20}] minecraft:strength 1000000 19 false
+effect clear @a[scores={1LIqGSzQ_BtpjODT=..0}] minecraft:strength

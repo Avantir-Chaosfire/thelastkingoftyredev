@@ -16,5 +16,4 @@ scoreboard players set @a z_eJ1sm8wrrPlO4_ 0
 scoreboard players set @a coE7kO7JKb2uKIDs 0
 scoreboard players set @a yXT0qUuhOOC3BVPR 0
 tag @a add lVo9wDUE.l5OYrs9itAuX3ZDdBwyngvEvszWbo5D
-execute at @a run playsound minecraft:music.boss.hanging_pole voice @a ~ ~ ~ 0.01 1 1
 stopsound @a voice minecraft:music.boss.hanging_pole

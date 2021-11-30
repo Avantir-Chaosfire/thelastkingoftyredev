@@ -50,7 +50,7 @@ scoreboard players set @a ir1RHjva1wnaxLT7 1
 scoreboard players set @a 0AjhlkuzHuk-35V0 1
 scoreboard players set @a z_eJ1sm8wrrPlO4_ 0
 scoreboard players set @a coE7kO7JKb2uKIDs 0
-scoreboard players set @a b18YzqdzNCAsGGis 1
+scoreboard players set @a b18YzqdzNCAsGGis 0
 bossbar set tlkot:perjurer players @a
 scoreboard players set @a myJG7FuS-KhNjARc 0
 scoreboard players set @a 1dizpBb7xZBYshzh 0

@@ -16,5 +16,5 @@ function tlkot:<~>/suit_of_armour_explosion/main
 scoreboard players remove @e[type=armor_stand,name="Arrow Lane",tag=Middle,scores={KurnasLaneDisarm=1..}] KurnasLaneDisarm 1
 
 particle minecraft:large_smoke 515 44 86 0 1.5 1 0 5
-execute as @e[type=zombie_pigman,tag=Kurnas] at @s run function tlkot:<~>/process
+execute as @e[type=zombified_piglin,tag=Kurnas] at @s run function tlkot:<~>/process
 execute if entity @a[scores={KurnasHealth=..0}] run function tlkot:core/boss/kurnas_harbinger_of_ruination/victory

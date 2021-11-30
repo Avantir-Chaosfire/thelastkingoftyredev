@@ -8,6 +8,7 @@ execute if entity @a[tag=!StLjy7AZ1zdL2_v.7qH3rgAwT6cdtXGXhAilZU6e,x=69,y=58,z=2
 execute if entity @a[tag=!StLjy7AZ1zdL2_v.7qH3rgAwT6cdtXGXhAilZU6e,x=83,y=26,z=4,dx=8,dy=4,dz=4] run function tlkot:3s4svmkn2lyc4fye9heo4ck4u8pmk4jiklh3hpc-
 execute unless entity @a[x=-131,y=-10,z=-1,dx=339,dy=110,dz=363] run function tlkot:klwu6y-nt9rhu-bqckma_mr8i9c-8i97_gbaxs3v
 execute if entity @a[tag=!JU7D-CY0Pa.-HdYI5+sFG9cmsT4j.Yxkj430PX2k,x=-5,y=63,z=234,dx=2,dy=3,dz=7] run function tlkot:vn5ecdq_qxkpogmk0iyl_aa_r5qaw-j03vjm56g_
+execute if entity @a[tag=!JU7D-CY0Pa.-HdYI5+sFG9cmsT4j.Yxkj430PX2k,x=-18,y=79,z=217,dx=1,dy=3,dz=2] run function tlkot:vn5ecdq_qxkpogmk0iyl_aa_r5qaw-j03vjm56g_
 execute unless entity @a[x=-264,y=0,z=203,dx=269,dy=141,dz=167] run function tlkot:oj4j_g6s3z593nl88y_ch2dn_35f1nhmzoye9425
 execute if entity @a[tag=!KXQZdhPE3HfEM+f06-x5SWz.7b3qjrSBDz3cOIzw,x=17,y=118,z=12,dx=1,dy=2,dz=1] run function tlkot:5gal9z5iiy18o5y-9sf1gd-jg2ep2ex43iv2utt3
 execute if entity @a[tag=!KXQZdhPE3HfEM+f06-x5SWz.7b3qjrSBDz3cOIzw,x=-76,y=0,z=-145,dx=168,dy=125,dz=137] run function tlkot:5gal9z5iiy18o5y-9sf1gd-jg2ep2ex43iv2utt3

@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:player_head", "nbt": "{SkullOwner:\"Cypiea\",CanPlaceOn:[\"minecraft:bedrock\"],HideFlags:16}"}, "title": {"text": "The Sacrifice in Ignorance"}, "description": "Defeat the Perjurer", "frame": "goal"}, "parent": "tlkot:achievements/root", "criteria": {"the_lost": {"trigger": "minecraft:impossible"}}}

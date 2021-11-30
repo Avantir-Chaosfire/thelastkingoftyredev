@@ -17,6 +17,7 @@ scoreboard players set @a HalberdSCost <#HalberdStaminaCost#>
 scoreboard players set @a HalberdDodgeMod 0
 scoreboard players set @a HalberdSCostDec 0
 scoreboard players set @a HalberdDodgeTrig 0
+scoreboard players set @a HalberdCritMod 1200
 
 scoreboard players set @a SBattleAxe 0
 scoreboard players set @a AxeMoveDuration -1
@@ -37,6 +38,7 @@ scoreboard players set @a DaggerSRegenDur -1
 scoreboard players set @a DaggerSRegenMod 0
 
 scoreboard players set @a SSacKnife 0
+scoreboard players set @a SacKnifeStrDur 0
 
 scoreboard players set @a SBurningIron 0
 scoreboard players set @a SGiantSpiderFang 0
@@ -46,6 +48,17 @@ scoreboard players set @a SCLifeBane 0
 scoreboard players set @a SPLifeBane 0
 
 scoreboard players set @a SScythe 0
+
+scoreboard players set @a STanto 0
+scoreboard players set @a TantoDur 0
+scoreboard players set @a TantoMaxUses 0
+
+scoreboard players set @a SWarHammer 0
+scoreboard players set @a WarHammerDur 0
+scoreboard players set @a WarHammerMaxUses 0
+
+scoreboard players set @a JavelinDur 0
+scoreboard players set @a JavelinMaxUses 0
 
 scoreboard players set @a STempest 0
 

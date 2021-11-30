@@ -4,6 +4,7 @@ scoreboard players operation @s MaxStamina *= @s Two
 scoreboard players add @s MaxStamina 20
 scoreboard players operation @s MaxStamina += @s AssassinStamMod
 scoreboard players operation @s MaxStamina += @s VileStamMod
+scoreboard players operation @s MaxStamina += @s BlitzMaxStamMod
 execute as @e[tag=FireballMaxStaminaMod] run scoreboard players remove @a MaxStamina <#FireballMaxStaminaReduction#>
 scoreboard players add @s[tag=Hopeful] MaxStamina 10
 scoreboard players set @s[scores={Endurance=-1}] MaxStamina 3
@@ -48,7 +49,7 @@ scoreboard players operation @s LastUsing = @s Using
 scoreboard players set @s[scores={Drained=1..,Endurance=-1}] Endurance 0
 scoreboard players remove @s[scores={BonusDuration=1..}] BonusDuration 1
 execute if entity @s[scores={Using=1..}] run function tlkot:core/stamina/using
-execute if entity @s[scores={SJump=1..}] run function tlkot:core/stamina/reset_jump
+execute if block ~ ~ ~ #tlkot:climbable run scoreboard players set @s[scores={SJump=1..}] SJump 0
 execute if entity @s[scores={SJump=1..}] run function tlkot:core/stamina/jump
 
 execute if entity @s[scores={SSprint=300..}] run function tlkot:core/stamina/sprint

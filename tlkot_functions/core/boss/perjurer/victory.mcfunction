@@ -17,3 +17,5 @@ effect give @a minecraft:instant_health 3
 scoreboard players add @a[scores={BoomerangDamage=..19999}] BoomerangDamage 4000
 
 execute at @a run particle minecraft:dragon_breath ~ ~ ~ 1 1 1 0.3 1000
+
+advancement grant @a only tlkot:achievements/the_lost

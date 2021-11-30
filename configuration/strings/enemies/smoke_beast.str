@@ -1,10 +1,10 @@
 #include versioned_tags
 
-SmokeBeastBombTags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.maxHealth",Base:2}],Fuse:30,ActiveEffects:[{Id:10,Duration:32767,Amplifier:6,ShowParticles:0b},{Id:14,Duration:32767,Amplifier:0,ShowParticles:0b}],CustomName:"{\"text\":\"Smoke Beast\"}",Health:2.0f,Tags:[<#CommonDumpableDivisionTags#>,"SmokeBeastBomb","HasAI","AI.Pair","Paired","AI.ShieldBreaker"]‘
+SmokeBeastBombTags ‘PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:2}],Fuse:30,ActiveEffects:[{Id:10,Duration:2147483647,Amplifier:6,ShowParticles:0b},{Id:14,Duration:2147483647,Amplifier:0,ShowParticles:0b}],CustomName:"{\"text\":\"Smoke Beast\"}",Health:2.0f,Tags:[<#CommonDumpableDivisionTags#>,"SmokeBeastBomb","HasAI","AI.Pair","Paired","AI.ShieldBreaker"]‘
 
 SmokeBeastHealth 1000
 
-SmokeBeastBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Smoke Beast\"}",Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.movementSpeed",Base:0.1},{Name:generic.attackDamage,Base:1}],Health:1000.0f,Passengers:[{id:"minecraft:creeper",<#SmokeBeastBombTags#>}],Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SmokeBeast","UsesHitScore"<1>]‘
+SmokeBeastBaseTags ‘PersistenceRequired:1b,CustomName:"{\"text\":\"Smoke Beast\"}",Attributes:[{Name:"generic.max_health",Base:1000},{Name:"generic.movement_speed",Base:0.1},{Name:generic.attack_damage,Base:1}],Health:1000.0f,Passengers:[{id:"minecraft:creeper",<#SmokeBeastBombTags#>}],Tags:[<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","AI.SmokeBeast","UsesHitScore"<1>]‘
 
 SmokeBeastTags <#SmokeBeastBaseTags$,"Enemy.SmokeBeast"#>
 

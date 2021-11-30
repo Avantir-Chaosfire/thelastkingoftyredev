@@ -1,3 +1,3 @@
-execute if entity @s[tag=BlitzOnHit,scores={ExileDamage=1..}] run function tlkot:core/casting/blitz/cast/on
+execute if entity @s[scores={ExileDamage=1..}] run function tlkot:<~>/exile_damage
 
-scoreboard players set @s ExileDamage 0
+execute if entity @s[scores={BlitzDuration=1..}] run function tlkot:<~>/active

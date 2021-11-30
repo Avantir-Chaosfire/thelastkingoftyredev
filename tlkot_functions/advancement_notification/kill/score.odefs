@@ -1,2 +1,3 @@
-undead	$ Vamp	$ <#UndeadBondageRestore#>
-reaper	$ Vamp	$ <#ReaperBondageRestore#>
+undead	$ UndeadKills	$ 1
+reaper	$ ReaperKills	$ 1
+any	$ AnyKills	$ 1

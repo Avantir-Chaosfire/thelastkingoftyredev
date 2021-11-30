@@ -322,7 +322,6 @@ $ Enshadowed Thrones
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -16 177 364	$ general/common
 
 $ Casting Lab 02
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 46 42 143	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 68 78 122	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 104 80 118	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 104 80 119	$ general/common
@@ -330,10 +329,12 @@ $ Casting Lab 02
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 81 87 91	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 138 87 79	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 142 88 49	$ key/casting_lab_02
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 143 88 49	$ consumable/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 87 94 72	$ key/ixinik_library_section/casting
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 33 88 24	$ general/common
 
 $ Tyre
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 46 42 143	$ scroll/phantom_blade
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 39 24 145	$ extra/bloodletting_knife
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 39 24 144	$ consumable/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -9 49 225	$ general/common
@@ -426,6 +427,10 @@ $ Mushroom Cavern
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 45 62 328	$ grouping/npc/candelja_the_wise/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 44 62 328	$ grouping/npc/candelja_the_wise/head_of_yearning
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 70 60 341	$ material/lead_weight
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 93 49 225	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 48 226	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 50 228	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 91 50 229	$ consumable/desiccating_carapace
 
 $ Glowering Mines
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ -41 63 240	$ book/epitaph/noble
@@ -829,7 +834,7 @@ $ New Hoiro
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 707 225 368	$ grouping/stolen_secret
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 711 243 360	$ consumable/desiccating_carapace
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 243 370	$ consumable/desiccating_carapace
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 704 243 372	$ consumable/desiccating_carapace
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 704 243 372	$ extra/spyglass
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 243 369	$ general/very_rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 245 369	$ general/very_rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 713 245 370	$ general/very_rare
@@ -967,6 +972,7 @@ $ New Hoiro
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 610 213 256	$ key/burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 624 183 290	$ key/cathedral
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 489 180 135	$ general/rare
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 499 149 266	$ consumable/desiccating_carapace
 
 $ Burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 620 158 353	$ general/common
@@ -1070,6 +1076,7 @@ $ Burrows
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 607 152 163	$ general/rare
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 693 146 220	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 628 140 381	$ general/very_rare
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 628 152 162	$ consumable/desiccating_carapace
 
 $ Blackguards' Cavern
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 672 131 437	$ general/common
@@ -1408,7 +1415,7 @@ $ Frontier
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 208 125 393	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 208 125 394	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 400 144 524	$ general/common
-<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 399 144 524	$ general/common
+<#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 399 144 524	$ scroll/overcharge
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 391 134 514	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 393 134 516	$ general/common
 <#<#UID#>#> $ <#<#AdX#>#> <#<#AdY#>#> <#<#AdZ#>#>	$ 390 139 524	$ general/common

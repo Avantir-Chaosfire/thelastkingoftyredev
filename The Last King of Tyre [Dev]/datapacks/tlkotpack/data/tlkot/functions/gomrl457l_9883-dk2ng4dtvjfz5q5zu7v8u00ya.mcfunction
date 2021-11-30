@@ -1,1 +1,1 @@
-effect clear @a[tag=!bP1a-IiN98zswCji5n6DqrXla6+oX8.i_gT5sVUt,scores={iS10M6GhY4b711rg=-1}] minecraft:absorption
+execute if entity @a[tag=!bP1a-IiN98zswCji5n6DqrXla6+oX8.i_gT5sVUt,tag=TdvtEzVo7WZQ-ci.0SWYBgwFYRLtI3yeuLykR7K2,tag=!1pS+P3+q.L1Cl+CKq5t0ueC680O63uCkFKJpTpKJ] run function tlkot:ir0ei2vzvrfews0ijamcvm_5p2ep43lvls8meaen

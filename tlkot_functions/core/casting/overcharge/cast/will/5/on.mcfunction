@@ -1,0 +1,1 @@
+scoreboard players set @s OverchargeDur 2400

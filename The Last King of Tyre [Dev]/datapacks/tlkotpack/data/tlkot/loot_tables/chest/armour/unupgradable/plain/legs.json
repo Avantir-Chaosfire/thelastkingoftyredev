@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Trousers\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Some standard leather trousers.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 2\",\"color\":\"gray\"}','{\"text\":\"Weight: 1.0\",\"color\":\"gray\"}'],},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:2,UUIDLeast:-151092316,UUIDMost:-663521803,Slot:\"legs\"}],Unbreakable:1b,HideFlags:6}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Leather Trousers\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"Some standard leather trousers.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Armour: 2\",\"color\":\"gray\"}','{\"text\":\"Weight: 1.0\",\"color\":\"gray\"}'],},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Operation:0,Amount:2,UUID:[I;1773898167,-1994354597,1692836396,908511304],Slot:\"legs\"}],Unbreakable:1b,HideFlags:70}"
 						}
 					]
 				}

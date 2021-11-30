@@ -6,4 +6,5 @@ function tlkot:3cv54dq-u77vlx9n8gnjhr7xiq1lut2trkjdfvx7
 scoreboard players set @s uVxvqa1heInT9476 20
 tag @s add JBsorDDSTgzXGtJocvKPZL7QGzPt8ZGDbTCp6ZFQ
 scoreboard players set @s 7ZQCN5ejQnhyi5k3 0
+attribute @s generic.attack_damage modifier add 55bbeec3-b977-4408-ae2d-2113468ddf2e EnergyTap 0.15 multiply
 playsound minecraft:base.levelup player @s ~ ~ ~ 16 0.8

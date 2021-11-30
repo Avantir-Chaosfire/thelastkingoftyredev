@@ -1,0 +1,1 @@
+execute if block <3> <5> <8> minecraft:end_portal_frame[eye=true] run function tlkot:<~>/has_key

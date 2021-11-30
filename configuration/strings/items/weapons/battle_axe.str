@@ -16,19 +16,19 @@ BaseBattleAxeDamage 22
 BaseBattleAxeStaminaCost 6
 BaseBattleAxeCommunionStaminaCost 5
 BaseBattleAxeMinimumStaminaCost 3
-BaseBattleAxeRegenDelay 50
+BaseBattleAxeRegenDelay 56
 
 BloodyBattleAxeDamage 22
 BloodyBattleAxeStaminaCost 6
 BloodyBattleAxeCommunionStaminaCost 5
 BloodyBattleAxeMinimumStaminaCost 5
-BloodyBattleAxeRegenDelay 50
+BloodyBattleAxeRegenDelay 56
 
 HeavyBattleAxeDamage 22
 HeavyBattleAxeStaminaCost 6
 HeavyBattleAxeCommunionStaminaCost 5
 HeavyBattleAxeMinimumStaminaCost 3
-HeavyBattleAxeRegenDelay 50
+HeavyBattleAxeRegenDelay 56
 
 BaseBattleAxeItemID iron_axe
 BaseBattleAxeNameText Battle Axe
@@ -36,7 +36,7 @@ BaseBattleAxeName <#ItemName$BaseBattleAxeNameText$BattleAxeNameColour#>
 BaseBattleAxeStats <#WeaponStats$BaseBattleAxe#>
 BaseBattleAxeStats <#LoreLine$+3 <#Armour#>#>
 BaseBattleAxeStats <#LoreLine$<#Weight#>: 1.5#>
-BaseBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseBattleAxeDamage 1 -#>,Operation:0,UUIDLeast:5363,UUIDMost:88432,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:77305,UUIDMost:523650,Slot:"mainhand"}],HideFlags:7,HoldingID:<#BaseBattleAxeHoldingID#>
+BaseBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseBattleAxeDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"mainhand"}],HideFlags:7,HoldingID:<#BaseBattleAxeHoldingID#>
 
 BaseBattleAxeDataTag display:{Name:"<#BaseBattleAxeName#>",Lore:[<#BattleAxeDescription#>,<#BaseBattleAxeStats#>]},<#BaseBattleAxeTags#>
 BaseBattleAxe <#Item$BaseBattleAxeItemID$BaseBattleAxeDataTag#>
@@ -48,7 +48,7 @@ BloodyBattleAxeStats <#WeaponStats$BloodyBattleAxe#>
 BloodyBattleAxeStats <#LoreLine$+3 <#Armour#>#>
 BloodyBattleAxeStats <#LoreLine$<#Weight#>: 1.5#>
 BloodyBattleAxeStats <#LoreLine$Gain <#MovementSpeed#> on Enemy Kills#>
-BloodyBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BloodyBattleAxeDamage 1 -#>,Operation:0,UUIDLeast:5363,UUIDMost:88432,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:77305,UUIDMost:523650,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BloodyBattleAxeHoldingID#>
+BloodyBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BloodyBattleAxeDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#BloodyBattleAxeHoldingID#>
 
 BloodyBattleAxeDataTag display:{Name:"<#BloodyBattleAxeName#>",Lore:[<#BattleAxeDescription#>,<#BloodyBattleAxeStats#>]},<#BloodyBattleAxeTags#>
 BloodyBattleAxe <#Item$BloodyBattleAxeItemID$BloodyBattleAxeDataTag#>
@@ -61,7 +61,7 @@ HeavyBattleAxeStats <#LoreLine$+3 <#Armour#>#>
 HeavyBattleAxeStats <#LoreLine$<#Weight#>: 1.5#>
 HeavyBattleAxeStats <#LoreLine$Knockback I#>
 HeavyBattleAxeStats <#LoreLine$Bleeds Enemy Out Over Time#>
-HeavyBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HeavyBattleAxeDamage 1 -#>,Operation:0,UUIDLeast:5363,UUIDMost:88432,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,UUIDLeast:77305,UUIDMost:523650,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#HeavyBattleAxeHoldingID#>
+HeavyBattleAxeTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HeavyBattleAxeDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Amount:3,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#HeavyBattleAxeHoldingID#>
 
 HeavyBattleAxeDataTag display:{Name:"<#HeavyBattleAxeName#>",Lore:[<#BattleAxeDescription#>,<#HeavyBattleAxeStats#>]},<#HeavyBattleAxeTags#>
 HeavyBattleAxe <#Item$HeavyBattleAxeItemID$HeavyBattleAxeDataTag#>

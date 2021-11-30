@@ -18,6 +18,7 @@ AshenTalismanDescription <#LoreLine$work. But it doesn\'t. Not for that#>
 AshenTalismanDescription <#LoreLine$purpose anyways.#>
 AshenTalismanDescription <#StatsLine#>
 AshenTalismanStats <#LoreLine$(+50% <#Damage#>)#>
+AshenTalismanStats <#LoreLine$Activates When Under 10 <#Health#>#>
 
 AshenTalismanDataTag display:{Name:"<#AshenTalismanName#>",Lore:[<#AshenTalismanDescription#>,<#AshenTalismanStats#>]},HoldingID:<#AshenTalismanHoldingID#>
 AshenTalisman <#Item$AshenTalismanItemID$AshenTalismanDataTag#>
@@ -27,7 +28,8 @@ AshenTalismanActiveNameText Ashen Talisman (Active)
 AshenTalismanActiveName <#ItemName$AshenTalismanActiveNameText$AshenTalismanNameColour#>
 AshenTalismanActiveDescription <#AshenTalismanDescription#>
 AshenTalismanActiveStats <#LoreLine$+50% <#Damage#>#>
-AshenTalismanActiveTags AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.5,Operation:2,Slot:"offhand",UUIDLeast:488502,UUIDMost:3793003}],HideFlags:2,HoldingID:<#AshenTalismanActiveHoldingID#>
+AshenTalismanActiveStats <#LoreLine$Activates When Under 10 <#Health#>#>
+AshenTalismanActiveTags AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.5,Operation:2,Slot:"offhand",<UUID>}],HideFlags:2,HoldingID:<#AshenTalismanActiveHoldingID#>
 
 AshenTalismanActiveDataTag display:{Name:"<#AshenTalismanActiveName#>",Lore:[<#AshenTalismanActiveDescription#>,<#AshenTalismanActiveStats#>]},<#AshenTalismanActiveTags#>
 AshenTalismanActive <#Item$AshenTalismanItemID$AshenTalismanActiveDataTag#>

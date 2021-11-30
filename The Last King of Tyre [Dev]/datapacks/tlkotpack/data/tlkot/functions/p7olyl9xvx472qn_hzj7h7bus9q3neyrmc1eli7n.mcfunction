@@ -1,1 +1,1 @@
-execute as @e[tag=xbz57r3rpv-KG__0bEQm+k-+KYqaurFJPPDhA_qp] at @s run function tlkot:1db171ts6ap_kwg95bfi5ge1bibisjaw8_sezccv
+execute as @e[tag=xbz57r3rpv-KG__0bEQm+k-+KYqaurFJPPDhA_qp] at @s run function tlkot:3pqvec3dyrw7jxhkr-p4zd5en6-xpufbopmccpa7

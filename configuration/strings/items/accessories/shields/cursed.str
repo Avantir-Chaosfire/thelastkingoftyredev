@@ -30,7 +30,7 @@ CursedShieldDescription <#StatsLine#>
 CursedShieldStats <#LoreLine$<#CursedShieldStability#> <#Stability#>#>
 CursedShieldStats <#LoreLine$<#Time$9.5#> <#Recovery#>#>
 CursedShieldStats <#LoreLine$-100% <#Armour#>#>
-CursedShieldTags AttributeModifiers:[{Name:"generic.armor",AttributeName:"generic.armor",Amount:-1,Operation:2,UUIDLeast:964,UUIDMost:4327}],BlockEntityTag:{Patterns:[{Pattern:"cs",Color:8},{Pattern:"bt",Color:0}],Base:1},HideFlags:38,Unbreakable:1b,Damage:2
+CursedShieldTags AttributeModifiers:[{Name:"generic.armor",AttributeName:"generic.armor",Amount:-1,Operation:2,<UUID>}],BlockEntityTag:{Patterns:[{Pattern:"cs",Color:8},{Pattern:"bt",Color:0}],Base:1},HideFlags:38,Unbreakable:1b,Damage:2
 
 CursedShieldDataTag display:{Name:"<#CursedShieldName#>",Lore:[<#CursedShieldDescription#>,<#CursedShieldStats#>]},<#CursedShieldTags#>,HoldingID:<#CursedShieldHoldingID#>
 CursedShield <#Item$CursedShieldItemID$CursedShieldDataTag#>

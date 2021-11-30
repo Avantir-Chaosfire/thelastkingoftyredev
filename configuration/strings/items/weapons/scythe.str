@@ -38,7 +38,7 @@ RadiantScytheDescription <#LoreLine$cursed place.#>
 RadiantScytheDescription <#StatsLine#>
 RadiantScytheStats <#WeaponStats$RadiantScythe#>
 RadiantScytheStats <#LoreLine$Brews Miasmas Within Foes#>
-RadiantScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RadiantScytheDamage 1 -#>,Operation:0,UUIDLeast:29400493,UUIDMost:1477406,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:4}],HoldingID:<#RadiantScytheHoldingID#>
+RadiantScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RadiantScytheDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:7,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:4}],HoldingID:<#RadiantScytheHoldingID#>
 
 RadiantScytheDataTag display:{Name:"<#RadiantScytheName#>",Lore:[<#RadiantScytheDescription#>,<#RadiantScytheStats#>]},<#RadiantScytheTags#>
 RadiantScythe <#Item$RadiantScytheItemID$RadiantScytheDataTag#>
@@ -51,7 +51,7 @@ DullScytheDescription <#LoreLine$Altered for combat, but still a poor#>
 DullScytheDescription <#LoreLine$choice in weapon.#>
 DullScytheDescription <#StatsLine#>
 DullScytheStats <#WeaponStats$DullScythe#>
-DullScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!DullScytheDamage 1 -#>,Operation:0,UUIDLeast:29400493,UUIDMost:1477406,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#DullScytheHoldingID#>
+DullScytheTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!DullScytheDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#DullScytheHoldingID#>
 
 DullScytheDataTag display:{Name:"<#DullScytheName#>",Lore:[<#DullScytheDescription#>,<#DullScytheStats#>]},<#DullScytheTags#>
 DullScythe <#Item$DullScytheItemID$DullScytheDataTag#>

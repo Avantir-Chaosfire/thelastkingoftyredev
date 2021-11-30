@@ -1,3 +1,3 @@
 setblock -885 4 -760 minecraft:stone
-execute if block 443 94 270 #tlkot:container run data merge block 443 94 270 {Items:[],LootTable:"tlkot:chest/general/common"}
-execute unless block 443 94 270 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 443 94 270."}]}
+execute if block 432 104 291 #tlkot:container run data merge block 432 104 291 {Items:[],LootTable:"tlkot:chest/general/common"}
+execute unless block 432 104 291 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 432 104 291."}]}

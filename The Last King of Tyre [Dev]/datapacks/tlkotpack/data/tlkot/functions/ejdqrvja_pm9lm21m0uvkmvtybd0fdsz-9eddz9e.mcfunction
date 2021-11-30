@@ -3,8 +3,11 @@ tag @a remove w_IpsYsOCriimDw.Uqd4l3u0.BpGAAvW.F8itrbf
 execute store result score @a d11v9mqox+wFbkW4 run data get entity @a[limit=1] ActiveEffects[{Id:6b}].Duration
 effect clear @a[scores={d11v9mqox+wFbkW4=2..}] minecraft:instant_health
 scoreboard players set @a d11v9mqox+wFbkW4 0
-execute store result score @a[nbt={OnGround:1b}] neM5wYBj4ZJFT8vB run data get entity @a[limit=1] Pos[1] 1000
 execute store result score @a ABdVGWYtK4dlKJTw run data get entity @a[limit=1] Pos[1] 1000
+scoreboard players operation @a LfKVXzwWTmKb3CoG = @a ABdVGWYtK4dlKJTw
+scoreboard players operation @a LfKVXzwWTmKb3CoG -= @a Rt.-qQvNXG4u.fbk
+scoreboard players operation @a Rt.-qQvNXG4u.fbk = @a ABdVGWYtK4dlKJTw
+scoreboard players operation @a[nbt={OnGround:1b}] neM5wYBj4ZJFT8vB = @a ABdVGWYtK4dlKJTw
 scoreboard players operation @a ABdVGWYtK4dlKJTw -= @a neM5wYBj4ZJFT8vB
 effect clear @a[scores={ABdVGWYtK4dlKJTw=..-3500}] minecraft:jump_boost
 effect clear @a[scores={ABdVGWYtK4dlKJTw=..-18000}] minecraft:absorption

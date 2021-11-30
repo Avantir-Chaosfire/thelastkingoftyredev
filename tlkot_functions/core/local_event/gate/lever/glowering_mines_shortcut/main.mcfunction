@@ -1,0 +1,1 @@
+execute if block -16 255 224 #tlkot:all run function tlkot:<~>/loaded

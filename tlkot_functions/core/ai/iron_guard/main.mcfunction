@@ -1,1 +1,1 @@
-execute if entity @s[scores={GotHit=1..}] run function tlkot:core/ai/iron_guard/hit
+execute if entity @s[scores={GotHit=1..,DamageTaken=3000..}] run function tlkot:core/ai/iron_guard/hit

@@ -18,6 +18,8 @@ function tlkot:core/casting/hypercharge/main
 function tlkot:core/casting/incendiary/main
 function tlkot:core/casting/miasma/main
 function tlkot:core/casting/energy_tap/main
+function tlkot:core/casting/phantom_blade/main
+function tlkot:core/casting/overcharge/main
 
 function tlkot:core/casting/death_pact/main
 function tlkot:core/casting/spacial_lapse/main

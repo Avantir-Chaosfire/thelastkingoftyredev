@@ -11,4 +11,6 @@ tag @s add Tapped
 
 scoreboard players set @s EnergyTapInjury 0
 
+attribute @s generic.attack_damage modifier add 55bbeec3-b977-4408-ae2d-2113468ddf2e EnergyTap 0.15 multiply
+
 playsound minecraft:base.levelup player @s ~ ~ ~ 16 0.8

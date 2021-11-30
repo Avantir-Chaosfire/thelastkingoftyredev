@@ -4,6 +4,9 @@ tag @a remove LoopingFine
 #Patch previous versions
 function tlkot:<~>/patches/main
 
+#Prep strength calculation
+scoreboard players set @a Strength 0
+
 #Spawn things
 function tlkot:<~>/aoe_cloud_control
 
@@ -27,6 +30,7 @@ function tlkot:<~>/tenth_second/main
 function tlkot:<~>/chuckle
 function tlkot:<~>/garbage_dump
 function tlkot:<~>/kill_erroneous_drowned
+function tlkot:<~>/kill_erroneous_shulker
 function tlkot:<~>/modify_player_arrow_damage
 function tlkot:<~>/no_sleeping
 function tlkot:<~>/return_arrow
@@ -34,10 +38,12 @@ function tlkot:<~>/smoldering_ash
 
 function tlkot:<~>/accessory/main
 function tlkot:<~>/ai/main
+
+function tlkot:<~>/kill_detector/main
+
 function tlkot:<~>/area_name_announcement/main
 function tlkot:<~>/armour/main
 function tlkot:<~>/background_noise/main
-function tlkot:<~>/binding_point/main
 function tlkot:<~>/bloodletting_knife/main
 function tlkot:<~>/bondage/main
 function tlkot:<~>/boss/main
@@ -65,6 +71,9 @@ function tlkot:<~>/study_teleport/main
 function tlkot:<~>/tuning_fork/main
 function tlkot:<~>/vanishing_key/main
 execute if entity @a[scores={InCutsceneMode=0}] run function tlkot:<~>/weapon/main
+
+#Compute strength after everything's applied
+function tlkot:<~>/strength/main
 
 #Compute invulnerability/vitality/blood sigil last
 function tlkot:<~>/blood_sigil/main

@@ -7,7 +7,7 @@
 			[
  				{
 					"type": "loot_table",
-					"name": "tlkot:chest/scroll/blitz",
+					"name": "tlkot:chest/scroll/spacial_lapse",
 					"weight": 1
 				}
 			]
@@ -18,7 +18,7 @@
 			[
  				{
 					"type": "loot_table",
-					"name": "tlkot:chest/scroll/torn_spacial_lapse",
+					"name": "tlkot:chest/scroll/torn_blitz",
 					"weight": 1
 				}
 			]

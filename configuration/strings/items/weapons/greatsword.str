@@ -35,7 +35,7 @@ Base1HGreatswordNameText Greatsword
 Base1HGreatswordName <#ItemName$Base1HGreatswordNameText$GreatswordNameColour#>
 Base1HGreatswordStats <#WeaponStats$BaseGreatsword#>
 Base1HGreatswordStats <#LoreLine$<#Cleave#> I#>
-Base1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base1HGreatswordHoldingID#>
+Base1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Base1HGreatswordHoldingID#>
 
 Base1HGreatswordDataTag display:{Name:"<#Base1HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Base1HGreatswordStats#>]},<#Base1HGreatswordTags#>
 Base1HGreatsword <#Item$Base1HGreatswordItemID$Base1HGreatswordDataTag#>
@@ -45,7 +45,7 @@ Base2HGreatswordNameText Greatsword (Two Handed)
 Base2HGreatswordName <#ItemName$Base2HGreatswordNameText$GreatswordNameColour#>
 Base2HGreatswordStats <#WeaponStats$BaseGreatsword#>
 Base2HGreatswordStats <#LoreLine$<#Cleave#> II#>
-Base2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!BaseGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base2HGreatswordHoldingID#>
+Base2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!BaseGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Base2HGreatswordHoldingID#>
 
 Base2HGreatswordDataTag display:{Name:"<#Base2HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Base2HGreatswordStats#>]},<#Base2HGreatswordTags#>
 Base2HGreatsword <#Item$Base2HGreatswordItemID$Base2HGreatswordDataTag#>
@@ -56,7 +56,7 @@ Refined1HGreatswordName <#ItemName$Refined1HGreatswordNameText$GreatswordNameCol
 Refined1HGreatswordStats <#WeaponStats$RefinedGreatsword#>
 Refined1HGreatswordStats <#LoreLine$<#Cleave#> I#>
 Refined1HGreatswordStats <#LoreLine$+1.2 <#StaminaRegeneration#>#>
-Refined1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RefinedGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Refined1HGreatswordHoldingID#>
+Refined1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RefinedGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],HideFlags:6,HoldingID:<#Refined1HGreatswordHoldingID#>
 
 Refined1HGreatswordDataTag display:{Name:"<#Refined1HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Refined1HGreatswordStats#>]},<#Refined1HGreatswordTags#>
 Refined1HGreatsword <#Item$Refined1HGreatswordItemID$Refined1HGreatswordDataTag#>
@@ -67,7 +67,7 @@ Refined2HGreatswordName <#ItemName$Refined2HGreatswordNameText$GreatswordNameCol
 Refined2HGreatswordStats <#WeaponStats$RefinedGreatsword#>
 Refined2HGreatswordStats <#LoreLine$<#Cleave#> II#>
 Refined2HGreatswordStats <#LoreLine$+1.2 <#StaminaRegeneration#>#>
-Refined2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!RefinedGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Refined2HGreatswordHoldingID#>
+Refined2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!RefinedGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Refined2HGreatswordHoldingID#>
 
 Refined2HGreatswordDataTag display:{Name:"<#Refined2HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Refined2HGreatswordStats#>]},<#Refined2HGreatswordTags#>
 Refined2HGreatsword <#Item$Refined2HGreatswordItemID$Refined2HGreatswordDataTag#>
@@ -78,7 +78,7 @@ Heavy1HGreatswordName <#ItemName$Heavy1HGreatswordNameText$GreatswordNameColour#
 Heavy1HGreatswordStats <#WeaponStats$HeavyGreatsword#>
 Heavy1HGreatswordStats <#LoreLine$<#Cleave#> I#>
 Heavy1HGreatswordStats <#LoreLine$<#Knockback#> I#>
-Heavy1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HeavyGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Heavy1HGreatswordHoldingID#>
+Heavy1HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HeavyGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1}],HideFlags:7,HoldingID:<#Heavy1HGreatswordHoldingID#>
 
 Heavy1HGreatswordDataTag display:{Name:"<#Heavy1HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Heavy1HGreatswordStats#>]},<#Heavy1HGreatswordTags#>
 Heavy1HGreatsword <#Item$Heavy1HGreatswordItemID$Heavy1HGreatswordDataTag#>
@@ -89,7 +89,7 @@ Heavy2HGreatswordName <#ItemName$Heavy2HGreatswordNameText$GreatswordNameColour#
 Heavy2HGreatswordStats <#WeaponStats$HeavyGreatsword#>
 Heavy2HGreatswordStats <#LoreLine$<#Cleave#> II#>
 Heavy2HGreatswordStats <#LoreLine$<#Knockback#> I#>
-Heavy2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:<#!HeavyGreatswordDamage 1 -#>,Operation:0,UUIDLeast:62336,UUIDMost:75226,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1},{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Heavy2HGreatswordHoldingID#>
+Heavy2HGreatswordTags Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:<#!HeavyGreatswordDamage 1 -#>,Operation:0,<UUID>,Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Operation:0,Amount:1020,<UUID>,Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:1},{id:"minecraft:sweeping",lvl:1}],HideFlags:7,HoldingID:<#Heavy2HGreatswordHoldingID#>
 
 Heavy2HGreatswordDataTag display:{Name:"<#Heavy2HGreatswordName#>",Lore:[<#GreatswordDescription#>,<#Heavy2HGreatswordStats#>]},<#Heavy2HGreatswordTags#>
 Heavy2HGreatsword <#Item$Heavy2HGreatswordItemID$Heavy2HGreatswordDataTag#>

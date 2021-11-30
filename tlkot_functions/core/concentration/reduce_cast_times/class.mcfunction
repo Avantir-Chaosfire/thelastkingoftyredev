@@ -10,6 +10,8 @@ scoreboard players remove @a[scores={LightningTime=<#!ArcLightningWill<0>Time 1 
 scoreboard players remove @a[scores={HyperTime=<#!HyperchargeWill<0>Time 1 +#>..}] HyperTime 1
 scoreboard players remove @a[scores={FireballTime=<#!FireballWill<0>Time 1 +#>..}] FireballTime 1
 scoreboard players remove @a[scores={IncendTime=<#!IncendiaryWill<0>Time 1 +#>..}] IncendTime 1
+scoreboard players remove @a[scores={PhantomBTime=<#!PhantomBladeWill<0>Time 1 +#>..}] PhantomBTime 1
+scoreboard players remove @a[scores={OvercharTime=<#!OverchargeWill<0>Time 1 +#>..}] OvercharTime 1
 
 scoreboard players remove @a[scores={EnergyTapTime=<#!EnergyTapWill<0>Time 1 +#>..}] EnergyTapTime 1
 scoreboard players remove @a[scores={SwarmTime=<#!FireSwarmWill<0>Time 1 +#>..}] SwarmTime 1

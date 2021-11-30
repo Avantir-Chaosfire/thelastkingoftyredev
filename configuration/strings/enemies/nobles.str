@@ -6,14 +6,14 @@
 
 NobleCustomName ‘CustomName:"{\"text\":\"Noble Reaper\"}"‘
 
-NobleHoeHealth 54000
+NobleHoeHealth 38000
 
-NobleHoeTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:5},{Name:generic.movementSpeed,Base:0.22},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier3#>}},{}],HandItems:[{id:"<#Base1HBlackOakStaffItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}],<#NobleCustomName#>,Tags:["Enemy.Noble-Hoe",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+NobleHoeTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:3},{Name:generic.movement_speed,Base:0.19},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier3#>}},{}],HandItems:[{id:"<#Base1HBlackOakStaffItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}],<#NobleCustomName#>,Tags:["Enemy.Noble-Hoe",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
 
-NobleNoHandHealth 54000
+NobleNoHandHealth 38000
 
-NobleNoHandTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:4},{Name:generic.movementSpeed,Base:0.24},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier3#>}},{}],<#NobleCustomName#>,Tags:["Enemy.Noble-NoHand",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+NobleNoHandTags ‘PersistenceRequired:1b,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:2},{Name:generic.movement_speed,Base:0.2},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{id:leather_chestplate,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier3#>}},{}],<#NobleCustomName#>,Tags:["Enemy.Noble-NoHand",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
 
-NobleAngryHealth 56000
+NobleAngryHealth 40000
 
-NobleAngryTags ‘PersistenceRequired:1b,Anger:32767,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:6},{Name:generic.movementSpeed,Base:0.18},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{},{}],HandItems:[{id:"<#DaggerItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}],<#NobleCustomName#>,Tags:["Enemy.Noble-Angry",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘
+NobleAngryTags ‘PersistenceRequired:1b,AngerTime:2147483647,AngryAt:[I;1,1,1,1],Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:4},{Name:generic.movement_speed,Base:0.18},<#EliminateBaseZombiePigmanAttributes#>],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:9403439},<#NoArmourModifier1#>}},{id:leather_leggings,Count:1b,tag:{display:{color:16777215},<#NoArmourModifier2#>}},{},{}],HandItems:[{id:"<#DaggerItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}],CustomName:"{\"text\":\"Angry Reaper\"}",Tags:["Enemy.Noble-Angry",<#CommonDumpableDivisionTags#>,"HasAI","AI.HealthScore","AI.NobleRiler","EnemyUnit","Reaper","UsesHitScore"],Health:1000.0f‘

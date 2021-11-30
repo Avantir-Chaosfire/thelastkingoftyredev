@@ -6,4 +6,4 @@ execute if entity @s[scores={99U+r2nhFTwAKng1=1100..}] if entity @a[scores={n3hw
 scoreboard players operation @a KxlY+gSb9efqT.eR -= @s kDm5vUlMQfm6I4YG
 execute store result bossbar tlkot:saviour_moses value run scoreboard players get @a[limit=1] KxlY+gSb9efqT.eR
 data merge entity @s {Health:1000.0f}
-advancement grant @a[scores={kDm5vUlMQfm6I4YG=168000..}] only tlkot:achievements/true_assassin
+advancement grant @a[scores={kDm5vUlMQfm6I4YG=500000..}] only tlkot:achievements/true_assassin

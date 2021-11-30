@@ -13,7 +13,7 @@
 					[
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Katana\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A sword of great quality and speed.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 17\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 5\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.8s\",\"color\":\"gray\"}','{\"text\":\"Cleave I\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:16,Operation:0,UUIDLeast:55742,UUIDMost:8745588,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Operation:0,Amount:1020,UUIDLeast:9849379,UUIDMost:92788,Slot:\"mainhand\"}],HideFlags:6,HoldingID:7}"
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Katana\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":false}\",Lore:['{\"text\":\"A sword of great quality and speed.\",\"color\":\"gray\"}','{\"text\":\"--------\",\"color\":\"gray\"}','{\"text\":\"Damage: 17\",\"color\":\"gray\"}','{\"text\":\"Stamina Cost: 5\",\"color\":\"gray\"}','{\"text\":\"Stamina Regeneration Delay: 1.8s\",\"color\":\"gray\"}','{\"text\":\"Cleave I\",\"color\":\"gray\"}']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:16,Operation:0,UUID:[I;1805285424,663028004,1973769745,1013496099],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Operation:0,Amount:1020,UUID:[I;-6059082,1569705074,181029948,-982291872],Slot:\"mainhand\"}],HideFlags:6,HoldingID:7}"
 						}
 					]
 				}

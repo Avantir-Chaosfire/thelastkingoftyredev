@@ -5,7 +5,7 @@
 
 DreadHostHealth 5
 
-DreadHostTags CustomName:"{\"text\":\"Dread Host\"}",PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,Attributes:[{Name:"generic.maxHealth",Base:1000},{Name:"generic.attackDamage",Base:5},{Name:"generic.movementSpeed",Base:0.27}],Health:1000.0f,Tags:["Enemy.DreadHost","HasAI","AI.VoluntaryDreadHost","Human",<#CommonDumpableDivisionTags#>,"EnemyUnit","Shaded","UsesHitScore"],ArmorItems:[{id:"minecraft:<#DullPlateFeetItemID#>",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"minecraft:<#DullPlateLegsItemID#>",Count:1b,tag:{<#NoArmourModifier2#>}},{id:"minecraft:<#DullPlateChestItemID#>",Count:1b,tag:{<#NoArmourModifier3#>}},{id:"minecraft:<#DullPlateHeadItemID#>",Count:1b,tag:{<#NoArmourModifier4#>}}],HandItems:[{id:"minecraft:<#BaseKatanaItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}]
+DreadHostTags CustomName:"{\"text\":\"Dread Host\"}",PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,Attributes:[{Name:"generic.max_health",Base:1000},{Name:"generic.attack_damage",Base:5},{Name:"generic.movement_speed",Base:0.27}],Health:1000.0f,Tags:["Enemy.DreadHost","HasAI","AI.VoluntaryDreadHost","Human",<#CommonDumpableDivisionTags#>,"EnemyUnit","Shaded","UsesHitScore"],ArmorItems:[{id:"minecraft:<#DullPlateFeetItemID#>",Count:1b,tag:{<#NoArmourModifier1#>}},{id:"minecraft:<#DullPlateLegsItemID#>",Count:1b,tag:{<#NoArmourModifier2#>}},{id:"minecraft:<#DullPlateChestItemID#>",Count:1b,tag:{<#NoArmourModifier3#>}},{id:"minecraft:<#DullPlateHeadItemID#>",Count:1b,tag:{<#NoArmourModifier4#>}}],HandItems:[{id:"minecraft:<#BaseKatanaItemID#>",Count:1b,tag:{<#NoDamageModifier1#>}},{}]
 
 DreadHostBackstabFacingMarkerTags Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["DreadHostBackstabFacingMarker"]
 

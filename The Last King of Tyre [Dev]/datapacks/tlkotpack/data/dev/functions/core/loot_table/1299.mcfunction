@@ -1,3 +1,3 @@
 setblock -893 5 -767 minecraft:stone
-execute if block 373 41 527 #tlkot:container run data merge block 373 41 527 {Items:[],LootTable:"tlkot:chest/scroll/faded_fire_swarm"}
-execute unless block 373 41 527 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 373 41 527."}]}
+execute if block 347 7 482 #tlkot:container run data merge block 347 7 482 {Items:[],LootTable:"tlkot:chest/note/ashurian_heavens/elsewhere"}
+execute unless block 347 7 482 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 347 7 482."}]}

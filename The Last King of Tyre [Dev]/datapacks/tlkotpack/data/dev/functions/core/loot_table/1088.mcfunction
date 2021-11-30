@@ -1,3 +1,3 @@
 setblock -896 4 -764 minecraft:stone
-execute if block 620 130 435 #tlkot:container run data merge block 620 130 435 {Items:[],LootTable:"tlkot:chest/general/common"}
-execute unless block 620 130 435 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 620 130 435."}]}
+execute if block 584 126 400 #tlkot:container run data merge block 584 126 400 {Items:[],LootTable:"tlkot:chest/grouping/npc/hiendil_the_scavenger/flare"}
+execute unless block 584 126 400 #tlkot:container run tellraw @a {"text": "[Server] ", "extra": [{"text": "[Error]", "color": "red"}, {"text": " No container at 584 126 400."}]}

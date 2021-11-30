@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:player_head", "nbt": "{SkullOwner:\"MHF_Ghast\",CanPlaceOn:[\"minecraft:bedrock\"],HideFlags:16}"}, "title": {"text": "The Sacrifice Fearing Time"}, "description": "Defeat Fate's Puppeteer", "frame": "goal"}, "parent": "tlkot:achievements/root", "criteria": {"the_forgotten": {"trigger": "minecraft:impossible"}}}

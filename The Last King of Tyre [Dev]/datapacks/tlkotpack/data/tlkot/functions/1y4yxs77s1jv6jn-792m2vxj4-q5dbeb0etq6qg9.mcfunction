@@ -1,0 +1,1 @@
+execute if block 386 3 443 minecraft:end_portal_frame[eye=true] run function tlkot:sqyuluft2ae-vwq4uxlky0qq3tjg3t9gm3dzcj2p

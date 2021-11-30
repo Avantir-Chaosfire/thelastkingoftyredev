@@ -18,6 +18,10 @@ function tlkot:core/weapon/sacrificial_knife/main
 function tlkot:core/weapon/burning_iron/main
 function tlkot:core/weapon/giant_spider_fang/main
 
+function tlkot:core/weapon/phantom_tanto/main
+function tlkot:core/weapon/phantom_war_hammer/main
+function tlkot:core/weapon/phantom_javelin/main
+
 function tlkot:core/weapon/tempest/main
 function tlkot:core/weapon/spirit_boomerang/main
 

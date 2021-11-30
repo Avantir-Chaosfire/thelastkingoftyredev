@@ -1,3 +1,5 @@
+tag @a add WasHoldingBlackOakStaffTwoHanded
+
 execute if entity @a[scores={SBlackOakStaff=1..}] run function tlkot:core/weapon/black_oak_staff/variant/two_hand/used
 scoreboard players set @a RegenDelay <#2HBlackOakStaffRegenDelay#>
 
