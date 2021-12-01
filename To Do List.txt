@@ -41,4 +41,4 @@ Foreword:
 		-britjake skips [release]
 		-early parkour to miasma [release]
 		-Vine skip to Black Oak Staff [release]
-		-Colour text on signs [release] [patch notes]
+		-Colour text on signs [release]
