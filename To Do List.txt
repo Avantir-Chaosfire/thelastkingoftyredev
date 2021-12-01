@@ -42,8 +42,3 @@ Foreword:
 		-early parkour to miasma [release]
 		-Vine skip to Black Oak Staff [release]
 		-Colour text on signs [release] [patch notes]
-
--Overcharge carries over past death, which can be abused for bosses [release]
-
--Tempest balance [fix]
--Trading with Warden Ylsa [fix]
