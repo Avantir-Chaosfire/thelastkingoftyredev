@@ -25,6 +25,8 @@ scoreboard players set @a CommuneDuration -1
 scoreboard players set @a HyperDuration -1
 scoreboard players set @a ObscureDuration -1
 scoreboard players set @a SmokeDuration 0
+scoreboard players set @a OverchargeDur 0
+scoreboard players set @a OverchargeStr 0
 
 effect clear @a minecraft:slowness
 effect clear @a minecraft:wither

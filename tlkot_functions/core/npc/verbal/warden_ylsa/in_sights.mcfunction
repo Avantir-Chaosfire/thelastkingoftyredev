@@ -7,3 +7,6 @@ scoreboard players set @a[scores={YlsaTalk=<#WardenYlsaSurvivorsID#>}] YlsaTalk 
 scoreboard players set @a[scores={YlsaTalk=<#WardenYlsaGenericOneID#>}] YlsaTalk <#WardenYlsaPostSurvivorsSilenceID#>
 
 function tlkot:<~>/greet
+
+# This shouldn't be necessary, but for some reason she gets trades when spawning after you died in the fight
+data merge entity @e[tag=WardenYlsa,limit=1] {Offers:{Recipes:[]}}

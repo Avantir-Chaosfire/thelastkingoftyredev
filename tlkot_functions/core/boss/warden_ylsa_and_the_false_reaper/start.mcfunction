@@ -23,3 +23,6 @@ execute store result score @a VectorY run data get entity @a[limit=1] Pos[1]
 
 execute unless entity @a[scores={VectorY=229..},x=25,y=230,z=298,dx=22,dy=0,dz=22] run function tlkot:<~>/start_stage/0/main
 execute if entity @a[scores={VectorY=229..},x=25,y=230,z=298,dx=22,dy=0,dz=22] run function tlkot:<~>/start_stage/1/main
+
+# This shouldn't be necessary, but for some reason she gets trades when spawning after you died in the fight
+data merge entity @e[tag=WardenYlsa,limit=1] {Offers:{Recipes:[]}}

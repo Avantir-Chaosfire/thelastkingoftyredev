@@ -26,3 +26,4 @@ TempestDataTag display:{Name:"<#TempestName#>",Lore:[<#TempestDescription#>,<#Te
 Tempest <#Item$TempestItemID$TempestDataTag#>
 
 TempestLightning Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["TempestLightning"]
+TempestSelfLightning Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b,Tags:["TempestSelfLightning"]

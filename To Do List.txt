@@ -40,8 +40,10 @@ Foreword:
 		-mushroom block in ashurian tomb? [release]
 		-britjake skips [release]
 		-early parkour to miasma [release]
+		-Vine skip to Black Oak Staff [release]
+		-Colour text on signs [release] [patch notes]
 
--Overcharge carries over past death, which can be abused for bosses
--Credits plays normal minecraft music
--Trading with Warden Ylsa
--Tempest balance
+-Overcharge carries over past death, which can be abused for bosses [release]
+
+-Tempest balance [fix]
+-Trading with Warden Ylsa [fix]
